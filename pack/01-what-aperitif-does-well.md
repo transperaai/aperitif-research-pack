@@ -39,7 +39,7 @@ Before the problems, here is what's working. These are the things to protect whi
 
 ### 5. Ideas come from the floor
 - **What we saw:** staff turned up to interviews with their own idea lists, research fixes themselves and pick up new tools quickly. Zach wrote his ideas up in a document ("AI suggestions", cited in DS-04, DS-07, DS-12, DS-16, DS-22 to DS-24).
-- **Raised by:** 13 staff + Joe and Julia – the widest positive theme (ST-04, S-13).
+- **Raised by:** 13 staff + Joe and Julia – joint widest positive theme, with the lean tool stack (ST-04, S-13).
 - **In their words:**
   - *"I've written a few notes down about the kind of like suggestions and stuff"* – Zach Chamberlain (ZC L037)
   - *"I also Googled asking like if we can integrate those things on Monday"* – Diya Manoj (DM L158)

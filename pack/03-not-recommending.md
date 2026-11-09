@@ -90,6 +90,5 @@ Transpera AI builds AI tools, so Joe should know where Austin's interest sits.
 
 **A stopgap Austin set up.** On 4 Nov, while the Supermetrics feed was failing, Austin helped Wendlley Simoes set up a scheduled Claude task that updates the Meta pacing sheet each day at 7:30 am Melbourne time (working session recorded after Hayley's interview, L685–L830). It's a stopgap, not a solution. Austin said at the time that full-scale changes would come only if Transpera is engaged (L911). DS-01 replaces it.
 
-**Relationships.** Michael Laps introduced Austin to Aperitif. Austin was previously the vendor lead at DDG when DDG brought Aperitif on for SEO and Google Ads (KO L005).
 
 **The research was checked independently.** An audit on 9 Nov re-checked every quote (66 of 66 verbatim) and every cost figure, and its fixes were applied before this pack.
