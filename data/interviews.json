@@ -1,0 +1,156 @@
+[
+ {
+  "code": "KO",
+  "folder": "interviews/ko-leadership-kick-off",
+  "id": "KO",
+  "name": "Joe Romeo; Julia Van Der Linden",
+  "role": "Founder & Principal Consultant; Head of Client Services",
+  "team": "Leadership",
+  "date": "2026-10-22",
+  "minutes": 90,
+  "clients_managed": null
+ },
+ {
+  "code": "LS",
+  "folder": "interviews/ls-laura-shillington",
+  "id": "LS",
+  "name": "Laura Shillington",
+  "role": "SEO Director",
+  "team": "Organic",
+  "date": "2026-10-28",
+  "minutes": 25,
+  "clients_managed": 12
+ },
+ {
+  "code": "WS",
+  "folder": "interviews/ws-wendlley-simoes",
+  "id": "WS",
+  "name": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "team": "Performance",
+  "date": "2026-10-28",
+  "minutes": 63,
+  "clients_managed": 4
+ },
+ {
+  "code": "KZ",
+  "folder": "interviews/kz-karl-zaharopoulos",
+  "id": "KZ",
+  "name": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "team": "Organic",
+  "date": "2026-10-29",
+  "minutes": 60,
+  "clients_managed": 13
+ },
+ {
+  "code": "SJ",
+  "folder": "interviews/sj-sarah-julian",
+  "id": "SJ",
+  "name": "Sarah Julian",
+  "role": "Content Manager",
+  "team": "Organic",
+  "date": "2026-10-29",
+  "minutes": 30,
+  "clients_managed": null
+ },
+ {
+  "code": "SH",
+  "folder": "interviews/sh-sophie-hesseborn",
+  "id": "SH",
+  "name": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "team": "Performance",
+  "date": "2026-10-29",
+  "minutes": 60,
+  "clients_managed": 12
+ },
+ {
+  "code": "SD",
+  "folder": "interviews/sd-shrishti-dokwal",
+  "id": "SD",
+  "name": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "team": "Performance",
+  "date": "2026-10-30",
+  "minutes": 54,
+  "clients_managed": 14
+ },
+ {
+  "code": "MP",
+  "folder": "interviews/mp-leadership-mid-point",
+  "id": "MP",
+  "name": "Joe Romeo & Julia Van Der Linden",
+  "role": "Founder & Principal Consultant; Head of Client Services",
+  "team": "Leadership",
+  "date": "2026-10-30",
+  "minutes": 45,
+  "clients_managed": null
+ },
+ {
+  "code": "DM",
+  "folder": "interviews/dm-diya-manoj",
+  "id": "DM",
+  "name": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "team": "Performance",
+  "date": "2026-10-30",
+  "minutes": 45,
+  "clients_managed": 20
+ },
+ {
+  "code": "MC",
+  "folder": "interviews/mc-michaela-cruz",
+  "id": "MC",
+  "name": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "team": "Performance",
+  "date": "2026-11-02",
+  "minutes": 47,
+  "clients_managed": 11
+ },
+ {
+  "code": "SB",
+  "folder": "interviews/sb-sid-bali",
+  "id": "SB",
+  "name": "Sid (Siddharth) Bali",
+  "role": "Technical SEO Specialist",
+  "team": "Organic",
+  "date": "2026-11-04",
+  "minutes": 40,
+  "clients_managed": 20
+ },
+ {
+  "code": "TG",
+  "folder": "interviews/tg-tonie-guevarra",
+  "id": "TG",
+  "name": "Tonie Guevarra",
+  "role": "Outreach Specialist (link building)",
+  "team": "Organic",
+  "date": "2026-11-04",
+  "minutes": 45,
+  "clients_managed": null
+ },
+ {
+  "code": "ZC",
+  "folder": "interviews/zc-zach-chamberlain",
+  "id": "ZC",
+  "name": "Zach (Zachary) Chamberlain",
+  "role": "SEO Manager",
+  "team": "Organic",
+  "date": "2026-11-04",
+  "minutes": 47,
+  "clients_managed": 19
+ },
+ {
+  "code": "HT",
+  "folder": "interviews/ht-hayley-tantau",
+  "id": "HT",
+  "name": "Hayley Tantau",
+  "role": "Content Specialist",
+  "team": "Organic",
+  "date": "2026-11-04",
+  "minutes": 33,
+  "clients_managed": 7
+ }
+]

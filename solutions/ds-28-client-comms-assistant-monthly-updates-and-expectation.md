@@ -1,0 +1,84 @@
+---
+id: DS-28
+title: "Client comms assistant: monthly updates and expectation setting"
+team: "account managers (PPC and SEO)"
+bundle: "Delivery & reporting"
+status: "Added – cost TBC"
+ledger_status: addressed
+source_type: "mixed"
+opportunities: []
+earlier_ideas: []
+written_sources: []
+problems_fixed: ["P-31"]
+problems_also_helped: []
+problems_related_only: []
+pain_points_cited: ["KO-PP20", "LS-PP16", "SH-PP09"]
+pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
+coi_per_year: "Not quantified separately"
+build_cost: TBC
+opex: TBC
+notion_section: "Client comms assistant: monthly updates and expectation setting"
+---
+
+# DS-28 · Client comms assistant: monthly updates and expectation setting
+
+*Account managers: drafts client updates through the month and expectation-setting notes before likely dips.*
+
+| | |
+| --- | --- |
+| Bundle | [Delivery & reporting](README.md#bundle-delivery-and-reporting) |
+| Team | account managers (PPC and SEO) |
+| Status | Added – cost TBC |
+| Source type | mixed – Austin – new; SH-PP09, KO-PP20 (O-23 related) |
+| Opportunities | – |
+| Earlier ideas | – |
+| Fixes | [P-31 Churn risk is spotted late and account teams report rather than advise](../problems/p-31-churn-risk-is-spotted-late-and-account.md) |
+| Also helps | – |
+| Pain points cited | [KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised), [SH-PP09](../pain-points/README.md#sh-pp09) |
+| Written source | – |
+| Cost of inactivity / year | Not quantified separately – time sits in client email & ad hoc (DS-06) |
+| Build cost / OpEx | TBC |
+
+## Vision
+
+> **As written** – drafts proactive client updates through the month and pre-empts dips with expectation-setting notes, all approved by the manager before sending. **Every update sent is saved to the client brain ([DS-04](ds-04-ai-client-brain.md))**, so the end-of-month report, the quarterly review and the 6-month review ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) are easier to put together – the story of the period is already written.
+
+**Team:** account managers (PPC and SEO). **Your decision (9 Nov):** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
+
+## How it works (draft)
+
+1. Collects the month's updates per client: work done (Monday tasks), wins ([DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md)), alerts and diagnoses ([DS-23](ds-23-seo-drop-and-anomaly-alerts.md), [DS-27](ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md)).
+2. Drafts short client updates through the month for the manager to approve and send.
+3. Watches industry and seasonal movement ([DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md)) and forecasts ([DS-25](ds-25-ppc-performance-forecasting-tool.md), [DS-26](ds-26-seo-performance-forecasting-tool.md)); when a dip is likely, it drafts an expectation-setting note before it happens – what's coming, why, and what the team is doing.
+4. Everything sent is logged in the client brain ([DS-04](ds-04-ai-client-brain.md)) and feeds client health ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)).
+
+## Problems it fixes and the evidence
+
+- **Comms crowd out strategy:** *"Based on the 24-hour turnaround time, I would have to focus on the comms, which then... would lead to not implementing the strategies."* – Sophie Hesseborn, Senior Performance Marketing Manager ([SH-PP09](../pain-points/README.md#sh-pp09), stated).
+- [Churn risk is spotted late and account teams report rather than advise](../problems/p-31-churn-risk-is-spotted-late-and-account.md): *"the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy"* – Julia, Head of Client Services ([KO-PP20](../pain-points/README.md#ko-pp20)). Clients may misread seasonal dips ([LS-PP16](../pain-points/README.md#ls-pp16), *raised by the interviewer*).
+- Related: [O-23](../opportunities/README.md#o-23)'s "problem plus recommendation" rule (which you kept dropped as a rule) – this tool does it in the drafts instead.
+
+## Future state
+
+Clients hear from the team through the month without managers writing every update; seasonal and industry dips are flagged to clients before they land.
+
+## KPIs (draft)
+
+| KPI | Baseline | Target |
+| --- | --- | --- |
+| Proactive client updates per month | Ad hoc | ≥ 2 per focus client |
+| Dips explained to the client before the monthly report | Rare | 100% of forecast dips |
+| Manager time on routine client comms | Crowds out strategy ([SH-PP09](../pain-points/README.md#sh-pp09)) | Baseline, then −30% |
+
+## Cost of inactivity (COI)
+
+Not quantified separately – the time sits in "client email & ad hoc requests" (34–71 h/month across the team, partly in [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)); the bigger cost is retention ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)).
+
+## Indicative build cost and OpEx
+
+**TBC by Austin.** Reuses [DS-04](ds-04-ai-client-brain.md), [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md), [DS-22](ds-22-seo-automated-monday-client-performance-check.md)–27 data.
+
+## Assumptions
+
+- Managers approve every message before it goes; nothing is sent to clients automatically without review.
+- Your suggestion, supported by [SH-PP09](../pain-points/README.md#sh-pp09) and [KO-PP20](../pain-points/README.md#ko-pp20).

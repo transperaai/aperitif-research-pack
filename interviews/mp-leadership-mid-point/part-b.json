@@ -1,0 +1,2332 @@
+{
+  "interview": {
+    "id": "MP",
+    "name": "Joe Romeo & Julia Van Der Linden",
+    "role": "Founder & Principal Consultant; Head of Client Services",
+    "team": "Leadership",
+    "date": "2026-10-30",
+    "minutes": 45,
+    "clients_managed": null
+  },
+  "time_allocation": [
+    {
+      "activity": "Joe – sales function support, deal strategies",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "I'm still involved in helping him pull together strategies",
+      "timestamp": "~17:01 (L190)",
+      "certainty": "stated (no number); non-billable assumed"
+    },
+    {
+      "activity": "Julia – escalations",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "Time to go to Julia.",
+      "timestamp": "~35:22 (L436, Joe D)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Joe – Tier 1 WIP attendance",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "sometimes for tier one clients i join their whips",
+      "timestamp": "~42:20 (L530)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Joe & Julia – coaching department leads",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "regular coaching between myself and Julia.",
+      "timestamp": "~37:21 (L468)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Joe – overspend fallout",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "I've said to like call Michael and just apologize.",
+      "timestamp": "~32:23 (L385)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Joe – repeat how-to questions",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "I'm sick of just explaining the same thing over and over again.",
+      "timestamp": "~22:08 (L242)",
+      "certainty": "stated (no number)"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "How to handle an escalation",
+      "decider_role": "Head of Client Services",
+      "waiting_role": "Client, delivery team",
+      "typical_wait": "not stated",
+      "lands_on_leadership": true
+    },
+    {
+      "decision": "Absorb overspend and how to credit",
+      "decider_role": "Founder",
+      "waiting_role": "Client, finance",
+      "typical_wait": "Days; credits over next couple of months",
+      "lands_on_leadership": true
+    },
+    {
+      "decision": "Recommended ad spend and scope for a prospect",
+      "decider_role": "Sales, reworked by Founder",
+      "waiting_role": "Prospect",
+      "typical_wait": "not stated",
+      "lands_on_leadership": true
+    },
+    {
+      "decision": "Consequences for not updating pacing sheet",
+      "decider_role": "Founder",
+      "waiting_role": "–",
+      "typical_wait": "–",
+      "lands_on_leadership": true
+    },
+    {
+      "decision": "Which AI creative tool to trial",
+      "decider_role": "Founder → Coordinator",
+      "waiting_role": "–",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Build vs buy for PPC anomaly monitor",
+      "decider_role": "Founder (on Austin's feasibility study)",
+      "waiting_role": "–",
+      "typical_wait": "Before 12 Nov",
+      "lands_on_leadership": true
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "Leaselab",
+      "tier": "Tier 1",
+      "context": "$10K overspend absorbed via invoice credits; 'Michael' and 'Alex' to apologise to (unverified)"
+    },
+    {
+      "client": "Unnamed six-year client",
+      "tier": "unknown",
+      "context": "Recently lost after bad feedback"
+    },
+    {
+      "client": "Tier 1 clients (generic)",
+      "tier": "Tier 1",
+      "context": "Founder sometimes joins their WIPs"
+    },
+    {
+      "client": "Mortgage broker (hypothetical)",
+      "tier": "",
+      "context": "Calculator example: 4 settlements × $4K = $16K/month"
+    }
+  ],
+  "processes": [
+    {
+      "id": "MP-P01",
+      "process": "Paid media – pacing & budget management",
+      "trigger": "Client budget changes or new platform goes live; overspend discovered",
+      "owner_role": "Account manager (pacing); Founder (overspend fallout)",
+      "frequency": {
+        "count": 0.5,
+        "per": "month (overspend incidents; range 0.5–1)",
+        "scope": "Agency-wide paid book (61 Google, 41 Meta lines)"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Sheet updated",
+              "pct": null
+            },
+            {
+              "outcome": "Sheet not updated → overspend risk",
+              "pct": null
+            }
+          ],
+          "certainty": "assumed (no split)"
+        },
+        {
+          "after_step": 4,
+          "branches": [
+            {
+              "outcome": "Agency absorbs overspend (credit over next couple of months)",
+              "pct": null
+            },
+            {
+              "outcome": "Client pays (not discussed)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated for Leaselab"
+        }
+      ],
+      "team_volume_per_month": 100,
+      "monthly_cost_aud": [
+        80,
+        320
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Budget agreed or changed with client",
+          "actor_role": "Account manager",
+          "tool": "Email / call",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Client approval",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (step); not costed – staff time"
+        },
+        {
+          "step": 2,
+          "action": "Update budget figure in pacing sheet",
+          "actor_role": "Account manager",
+          "tool": "Pacing tracker",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "Tracker",
+          "flags": [
+            "⌨️",
+            "⚠️",
+            "👤"
+          ],
+          "certainty": "assumed; not costed here"
+        },
+        {
+          "step": 3,
+          "action": "Tracker reports pace; manager adjusts platforms",
+          "actor_role": "Account manager / Tina bot",
+          "tool": "Tracker, Slack, platforms",
+          "touch_min": [
+            15,
+            20
+          ],
+          "wait": "M/W/F cadence",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed (context pack); not costed here"
+        },
+        {
+          "step": 4,
+          "action": "Pacing reviewed at WIP",
+          "actor_role": "Team + department lead",
+          "tool": "WIP",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Weekly",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (WIP exists)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Sheet not updated → wrong budget → overspend",
+          "trigger": "Budget changed, sheet not touched",
+          "rate": "~0.5–1 / month (estimated)",
+          "extra_steps": "Founder investigates; apology call; agree credit; adjust invoices",
+          "extra_min": [
+            120,
+            240
+          ],
+          "certainty": "stated (cause, $10K) / estimated (rate, time)"
+        },
+        {
+          "name": "Platform has no pacing tracker (LinkedIn)",
+          "trigger": "New channel launched without pacing line",
+          "rate": "One known incident",
+          "extra_steps": "As above",
+          "extra_min": [
+            120,
+            240
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "monthly_hours": [
+        1.0,
+        4.0
+      ],
+      "monthly_hours_working": "Leadership only: 0.5 × 120 = 60 min (1.0 h) to 1 × 240 = 240 min (4.0 h); excludes $10K credit"
+    },
+    {
+      "id": "MP-P02",
+      "process": "Client escalation",
+      "trigger": "Client unhappy / account at risk",
+      "owner_role": "Head of Client Services",
+      "frequency": {
+        "count": 4,
+        "per": "month (range 4–8, assumed)",
+        "scope": "Agency-wide"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Head of Client Services handles (most)",
+              "pct": null
+            },
+            {
+              "outcome": "Department lead handles (rare)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        320,
+        1280
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Issue raised by client or staff",
+          "actor_role": "Client / account manager",
+          "tool": "Email / Slack",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Head of Client Services",
+          "flags": [],
+          "certainty": "stated"
+        },
+        {
+          "step": 2,
+          "action": "Triage and pull in the right people",
+          "actor_role": "Head of Client Services",
+          "tool": "Escalation pipeline (tool not named)",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "Depends on her availability",
+          "handoff_to": "Delivery team",
+          "flags": [
+            "👤",
+            "⏸"
+          ],
+          "certainty": "stated (role) / assumed (time)"
+        },
+        {
+          "step": 3,
+          "action": "Resolve with client and follow up",
+          "actor_role": "Head of Client Services + team",
+          "tool": "Calls, email",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "Client",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Problem found too late; client churns",
+          "trigger": "No early warning",
+          "rate": "Not stated; one six-year client lost",
+          "extra_steps": "Founder joins calls; client lost",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event); time not discussed"
+        },
+        {
+          "name": "Department lead over-commits and flags late",
+          "trigger": "Lead takes on too much",
+          "rate": "not stated",
+          "extra_steps": "Escalation lands on leadership",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event); time not discussed"
+        }
+      ],
+      "monthly_hours": [
+        4.0,
+        16.0
+      ],
+      "monthly_hours_working": "4 × 60 = 240 min (4.0 h) to 8 × 120 = 960 min (16.0 h) – assumed"
+    },
+    {
+      "id": "MP-P03",
+      "process": "Sales – lead to proposal",
+      "trigger": "Discovery call with prospect",
+      "owner_role": "Growth Strategy Lead (sales); Founder backs up",
+      "frequency": {
+        "count": 2,
+        "per": "month (range 2–4 deals needing Founder input, assumed)",
+        "scope": "New business"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Calculator used",
+              "pct": null
+            },
+            {
+              "outcome": "Numbers estimated without calculator",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (event, no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        480
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Discovery: objective, revenue per sale, lead→call and call→close rates",
+          "actor_role": "Sales",
+          "tool": "Call",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time not discussed)"
+        },
+        {
+          "step": 2,
+          "action": "Check platform CPCs; forecast cost per lead",
+          "actor_role": "Sales",
+          "tool": "Google Ads / Meta",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time not discussed)"
+        },
+        {
+          "step": 3,
+          "action": "Run calculator live on call to set budget by channel",
+          "actor_role": "Sales",
+          "tool": "Ad-spend calculator",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time not discussed)"
+        },
+        {
+          "step": 4,
+          "action": "Build scope / proposal; Founder steps in on strategy",
+          "actor_role": "Sales; Founder",
+          "tool": "Proposal",
+          "touch_min": [
+            30,
+            90
+          ],
+          "wait": "Founder's availability",
+          "handoff_to": "Prospect",
+          "flags": [
+            "👤"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Numbers not from calculator; scope unprofitable",
+          "trigger": "Calculator skipped",
+          "rate": "Not stated; pushback on the first deal",
+          "extra_steps": "Founder reworks; pushback with prospect; delivery absorbs gap",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event) / time inside step 4"
+        }
+      ],
+      "monthly_hours": [
+        1.0,
+        6.0
+      ],
+      "monthly_hours_working": "Founder: 2 × 30 = 60 min (1.0 h) to 4 × 90 = 360 min (6.0 h) – assumed"
+    },
+    {
+      "id": "MP-P04",
+      "process": "Link building – QA & live checks",
+      "trigger": "Link goes live and is logged in tracker",
+      "owner_role": "Link-building Lead / outreach team",
+      "frequency": {
+        "count": 300,
+        "per": "month",
+        "scope": "All link orders (context pack ~300/month)"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Link still live",
+              "pct": null
+            },
+            {
+              "outcome": "Link dropped (not detected today)",
+              "pct": null
+            }
+          ],
+          "certainty": "unknown – no checks"
+        }
+      ],
+      "team_volume_per_month": 300,
+      "monthly_cost_aud": [
+        400,
+        800
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Link logged in tracker",
+          "actor_role": "Outreach",
+          "tool": "Tracker sheet",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time not discussed)"
+        },
+        {
+          "step": 2,
+          "action": "Copy link into CRM for reporting",
+          "actor_role": "Outreach / SEO",
+          "tool": "CRM (not named)",
+          "touch_min": [
+            1,
+            2
+          ],
+          "wait": "",
+          "handoff_to": "Reporting",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 3,
+          "action": "Check link still live over 12 months",
+          "actor_role": "– (no owner)",
+          "tool": "none",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "⚠️"
+          ],
+          "certainty": "stated: not done"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Publisher removes paid link after payment",
+          "trigger": "Dodgy publishers",
+          "rate": "Not stated here (context pack 32% Jan–Apr)",
+          "extra_steps": "Not detected",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (behaviour) / rate from context pack"
+        }
+      ],
+      "monthly_hours": [
+        5.0,
+        10.0
+      ],
+      "monthly_hours_working": "Outreach team time: 300 × 1 = 300 min (5.0 h) to 300 × 2 = 600 min (10.0 h) – estimated"
+    },
+    {
+      "id": "MP-P05",
+      "process": "Internal task management",
+      "trigger": "Tina bot reminder in agenda/reminder channel",
+      "owner_role": "All staff (post); leadership (check and chase)",
+      "frequency": {
+        "count": 21,
+        "per": "month (daily, assumed)",
+        "scope": "Whole team"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Updates posted",
+              "pct": null
+            },
+            {
+              "outcome": "No updates",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (event, no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        280,
+        560
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Bot posts reminder",
+          "actor_role": "Tina (Slack bot)",
+          "tool": "Slack",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Staff",
+          "flags": [],
+          "certainty": "stated"
+        },
+        {
+          "step": 2,
+          "action": "Staff post agenda / updates",
+          "actor_role": "All staff",
+          "tool": "Slack",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Often late or missing",
+          "handoff_to": "Leadership",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated (time not discussed)"
+        },
+        {
+          "step": 3,
+          "action": "Leadership checks channel and chases gaps",
+          "actor_role": "Founder / Head of Client Services",
+          "tool": "Slack",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "No updates after reminder",
+          "trigger": "Staff ignore reminder",
+          "rate": "One observed: none 30 min after",
+          "extra_steps": "Leadership chases",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event); time inside step 3"
+        }
+      ],
+      "monthly_hours": [
+        3.5,
+        7.0
+      ],
+      "monthly_hours_working": "21 × 10 = 210 min (3.5 h) to 21 × 20 = 420 min (7.0 h) – assumed"
+    },
+    {
+      "id": "MP-P06",
+      "process": "NEW: Leadership oversight of Tier 1 accounts (WIP attendance)",
+      "trigger": "Founder wants visibility of Tier 1 accounts",
+      "owner_role": "Founder",
+      "frequency": {
+        "count": 2,
+        "per": "month (range 2–4, assumed)",
+        "scope": "Tier 1 clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Founder attends",
+              "pct": null
+            },
+            {
+              "outcome": "Relies on team (no rule)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated ('sometimes')"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        320
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Founder joins a Tier 1 WIP",
+          "actor_role": "Founder",
+          "tool": "WIP",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "👤"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Founder can't attend",
+          "trigger": "Competing priorities",
+          "rate": "not stated",
+          "extra_steps": "Issues surface later",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event)"
+        }
+      ],
+      "monthly_hours": [
+        1.0,
+        4.0
+      ],
+      "monthly_hours_working": "2 × 30 = 60 min (1.0 h) to 4 × 60 = 240 min (4.0 h) – assumed"
+    },
+    {
+      "id": "MP-P07",
+      "process": "Knowledge & SOPs",
+      "trigger": "Staff member asks Founder how to do something",
+      "owner_role": "Founder",
+      "frequency": {
+        "count": 4,
+        "per": "month (range 4–10, assumed)",
+        "scope": "Whole team"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Send SOP link (current rule)",
+              "pct": null
+            },
+            {
+              "outcome": "Re-explain",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (rule)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        400
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Founder sends SOP link",
+          "actor_role": "Founder",
+          "tool": "Notion, Slack",
+          "touch_min": [
+            5,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "Staff",
+          "flags": [
+            "👤"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Answer follow-up questions",
+          "actor_role": "Founder",
+          "tool": "Slack / in person",
+          "touch_min": [
+            10,
+            25
+          ],
+          "wait": "",
+          "handoff_to": "Staff",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "SOP not read; same question returns",
+          "trigger": "Staff don't read SOPs",
+          "rate": "not stated",
+          "extra_steps": "Re-explain",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event); time inside happy path"
+        }
+      ],
+      "monthly_hours": [
+        1.0,
+        5.0
+      ],
+      "monthly_hours_working": "4 × 15 = 60 min (1.0 h) to 10 × 30 = 300 min (5.0 h) – assumed"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "MP-PP01",
+      "text": "Budget changes not entered in pacing sheet; tracker paces against wrong number; overspend paid by agency",
+      "source": "interviewee (Joe, B)",
+      "category": "Revenue / margin leak",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – pacing & budget management",
+      "impact": "$10K credit (Leaselab); client trust",
+      "frequency": "~0.5–1 / month (estimated)",
+      "severity": 5,
+      "quote": "The budget would change and they wouldn't update the sheet. So the trackers are tracking. but it's on the wrong number.",
+      "timestamp": "~31:44 (L377–L378)",
+      "certainty": "stated",
+      "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+    },
+    {
+      "id": "MP-PP02",
+      "text": "LinkedIn had no pacing tracker",
+      "source": "interviewee (Joe, B)",
+      "category": "Missing visibility",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – pacing & budget management",
+      "impact": "Overspend ($)",
+      "frequency": "One incident",
+      "severity": 4,
+      "quote": "I probably should set up a pacing track with the LinkedIn and then bang, this happens.",
+      "timestamp": "~44:41 (L577)",
+      "certainty": "stated",
+      "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+    },
+    {
+      "id": "MP-PP03",
+      "text": "Processes and SOPs built but not followed or read",
+      "source": "interviewee (Joe, B); Austin's Notion stats agree",
+      "category": "Tool not used / adoption",
+      "anchor": "Operations capacity & process",
+      "process": "Knowledge & SOPs",
+      "impact": "Errors; repeat questions",
+      "frequency": "Ongoing",
+      "severity": 4,
+      "quote": "you can build all the best processes in the world but nobody actually follows them.",
+      "timestamp": "~20:49 (L229)",
+      "certainty": "stated",
+      "matches_existing_problem": "Documentation is stale and rarely read"
+    },
+    {
+      "id": "MP-PP04",
+      "text": "Founder repeatedly re-explains how to do things",
+      "source": "interviewee (Joe, B)",
+      "category": "Single point of failure (person)",
+      "anchor": "Leadership & dependency",
+      "process": "Knowledge & SOPs",
+      "impact": "Founder time (1–5 h/month, assumed)",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "I'm sick of just explaining the same thing over and over again.",
+      "timestamp": "~22:08 (L242)",
+      "certainty": "stated",
+      "matches_existing_problem": "Documentation and internal tooling held by the founder"
+    },
+    {
+      "id": "MP-PP05",
+      "text": "Reminders go out but updates don't follow",
+      "source": "interviewee (Joe, B); Austin observed the same",
+      "category": "Tool not used / adoption",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "Leadership chasing; low visibility",
+      "frequency": "Daily (assumed)",
+      "severity": 3,
+      "quote": "Half an hour ago, the reminder went out. We still don't have updates.",
+      "timestamp": "~23:43 (L259)",
+      "certainty": "stated",
+      "matches_existing_problem": "Reminders go unacted; a broken reminder bot went unnoticed"
+    },
+    {
+      "id": "MP-PP06",
+      "text": "Leadership can't see whether work is happening, especially on remote days",
+      "source": "interviewer (Austin); Joe agreed and extended",
+      "category": "Missing visibility",
+      "anchor": "Leadership & dependency",
+      "process": "Internal task management",
+      "impact": "Output per head",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "And that's the day people, the days people are in the office. What about the days everyone's at home?",
+      "timestamp": "~24:25 (L274)",
+      "certainty": "stated (Joe)",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MP-PP07",
+      "text": "Culture of 'make the mistake and ask forgiveness' rather than fixing root causes",
+      "source": "interviewer (Austin); Joe accepted",
+      "category": "Rework / errors",
+      "anchor": "Leadership & dependency",
+      "process": "NEW: Culture & accountability",
+      "impact": "Repeat incidents",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "make the mistake and ask for forgiveness first, rather than just fix the root cause.",
+      "timestamp": "~25:54 (L290, Austin)",
+      "certainty": "stated (Austin's observation)",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MP-PP08",
+      "text": "Escalations go to Head of Client Services, not department leads",
+      "source": "interviewee (Joe, B; D confirms)",
+      "category": "Single point of failure (person)",
+      "anchor": "Client experience & delivery",
+      "process": "Client escalation",
+      "impact": "Julia's time (4–16 h/month, assumed); slower fixes",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "I would love for them to be involved on the escalation processes, but I don't think they've got the soft skills yet",
+      "timestamp": "~35:44 (L446)",
+      "certainty": "stated",
+      "matches_existing_problem": "Escalations route around department leads to the Head of Client Services"
+    },
+    {
+      "id": "MP-PP09",
+      "text": "Department leads promoted into management without people-leadership experience",
+      "source": "interviewee (Joe, B)",
+      "category": "Unclear ownership",
+      "anchor": "Leadership & dependency",
+      "process": "Hiring & onboarding staff",
+      "impact": "Coaching load; escalations",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "they've only been in management since they've been with us. They've been all promoted into those roles.",
+      "timestamp": "~36:55 (L465)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MP-PP10",
+      "text": "Sales commits scope and ad spend that isn't profitable or feasible",
+      "source": "interviewer raised first (Austin); Joe agreed strongly",
+      "category": "Revenue / margin leak",
+      "anchor": "Growth & sales engine",
+      "process": "Sales – proposal to signed",
+      "impact": "Margin; client expectations",
+      "frequency": "Already on first deal",
+      "severity": 4,
+      "quote": "we can't be promising all of these things and including them in the scope when like it's not even going to be profitable",
+      "timestamp": "~15:24 (L165)",
+      "certainty": "stated",
+      "matches_existing_problem": "Sales commits to work delivery can't profitably do"
+    },
+    {
+      "id": "MP-PP11",
+      "text": "Founder still pulled into building deal strategies and ad-spend numbers",
+      "source": "interviewee (Joe, B)",
+      "category": "Single point of failure (person)",
+      "anchor": "Leadership & dependency",
+      "process": "Sales – lead to proposal",
+      "impact": "Founder time (1–6 h/month, assumed)",
+      "frequency": "Per deal",
+      "severity": 3,
+      "quote": "So I'm still getting involved in a lot of that, but I don't want to",
+      "timestamp": "~17:18 (L192)",
+      "certainty": "stated",
+      "matches_existing_problem": "new (related: Sales commits to work delivery can't profitably do)"
+    },
+    {
+      "id": "MP-PP12",
+      "text": "Ad-spend calculator exists but isn't used consistently on sales calls",
+      "source": "interviewee (Joe, B); Austin agreed",
+      "category": "Tool not used / adoption",
+      "anchor": "Growth & sales engine",
+      "process": "Sales – lead to proposal",
+      "impact": "Wrong budgets quoted",
+      "frequency": "not stated",
+      "severity": 3,
+      "quote": "I'm trying to encourage [the sales lead] to use this instead of just pulling numbers out of his Backside.",
+      "timestamp": "~20:41 (L225)",
+      "certainty": "stated",
+      "matches_existing_problem": "Sales commits to work delivery can't profitably do"
+    },
+    {
+      "id": "MP-PP13",
+      "text": "Publishers remove paid links after payment; nobody checks they're still live",
+      "source": "interviewee (Joe, B)",
+      "category": "Revenue / margin leak",
+      "anchor": "Client experience & delivery",
+      "process": "Link building – QA & live checks",
+      "impact": "$ per link; client rankings",
+      "frequency": "Not stated here (context pack 32%)",
+      "severity": 4,
+      "quote": "we don't have a way to currently check whether these are dropping off",
+      "timestamp": "~04:32 (L048)",
+      "certainty": "stated",
+      "matches_existing_problem": "Paid links disappear after payment – detected manually"
+    },
+    {
+      "id": "MP-PP14",
+      "text": "Links copied by hand from tracker into CRM for reporting",
+      "source": "interviewee (Joe, B)",
+      "category": "Duplicate data entry",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – QA & live checks",
+      "impact": "5–10 h/month (estimated)",
+      "frequency": "Per link",
+      "severity": 3,
+      "quote": "When these links go into the tracker, It's still kind of manually being copied over into the CRM for reporting",
+      "timestamp": "~04:32 (L048)",
+      "certainty": "stated (step) / estimated (hours)",
+      "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets"
+    },
+    {
+      "id": "MP-PP15",
+      "text": "Link-building admin still on sheets; no capacity to improve it",
+      "source": "interviewee (Joe, B)",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Admin time",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "there's stuff that we just can't do at the moment because we just don't have the manpower.",
+      "timestamp": "~04:32 (L048)",
+      "certainty": "stated",
+      "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets; Content tracker and link sheets live outside Monday.com"
+    },
+    {
+      "id": "MP-PP16",
+      "text": "No early warning of churn risk; six-year client lost after poor feedback",
+      "source": "interviewee (Joe, B)",
+      "category": "Missing visibility",
+      "anchor": "Client experience & delivery",
+      "process": "Client escalation",
+      "impact": "Revenue; retention",
+      "frequency": "Recent",
+      "severity": 4,
+      "quote": "I've also just had like some bad feedback from clients who are now not with us anymore. And as a client has been with us for like six years.",
+      "timestamp": "~30:48 (L361)",
+      "certainty": "stated",
+      "matches_existing_problem": "No proactive performance alerting – problems found at month-end (partial; churn-trigger angle new)"
+    },
+    {
+      "id": "MP-PP17",
+      "text": "Account data not pre-synthesised; consultants review ad accounts by hand, capping clients per head",
+      "source": "interviewer (Austin); Joe positive to monitor idea",
+      "category": "Manual / repetitive work",
+      "anchor": "Performance visibility & margin",
+      "process": "Performance monitoring & alerting",
+      "impact": "Consultant time; capacity",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "rather than people having to synthesize that information by going onto the ad account, reviewing all the stats",
+      "timestamp": "~01:01 (L023, Austin)",
+      "certainty": "stated (Austin's finding)",
+      "matches_existing_problem": "No proactive performance alerting – problems found at month-end"
+    },
+    {
+      "id": "MP-PP18",
+      "text": "Growth depends on hiring; each hire feels like a risk",
+      "source": "interviewee (Joe, B)",
+      "category": "Capacity / overload",
+      "anchor": "Growth & sales engine",
+      "process": "Hiring & onboarding staff",
+      "impact": "Margin; hiring risk",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "So when I keep hiring people, I feel like I'm just taking a little bit of risk.",
+      "timestamp": "~10:31 (L114)",
+      "certainty": "stated",
+      "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "MP-PP19",
+      "text": "Pushing for higher performance risks attrition",
+      "source": "interviewee (Joe, B)",
+      "category": "Risk / compliance",
+      "anchor": "Leadership & dependency",
+      "process": "Hiring & onboarding staff",
+      "impact": "Retention",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "now with this next generation, they just quit, man.",
+      "timestamp": "~27:44 (L313)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MP-PP20",
+      "text": "Call transcripts (Otter) paid for but only the Founder uses them",
+      "source": "interviewer (Austin); Joe (D) agreed",
+      "category": "Tool not used / adoption",
+      "anchor": "Technology, AI & stack",
+      "process": "Knowledge & SOPs",
+      "impact": "Wasted spend; client knowledge lost",
+      "frequency": "Ongoing",
+      "severity": 2,
+      "quote": "It's basically just like a data backup. I think I'm the only one that does anything with the transcripts.",
+      "timestamp": "~41:56 (L522–L523, Joe D)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "MP-PP21",
+      "text": "SEO revenue per employee hard to lift because value is human writing",
+      "source": "interviewer (Austin); Joe (D) accepted",
+      "category": "Capacity / overload",
+      "anchor": "Performance visibility & margin",
+      "process": "Content writing & editing",
+      "impact": "Margin ceiling",
+      "frequency": "–",
+      "severity": 2,
+      "quote": "A lot of your value proposition is based on human writing … So it's very hard to increase revenue per employee there.",
+      "timestamp": "~02:45 (L034, Austin)",
+      "certainty": "stated (Austin's view)",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MP-PP22",
+      "text": "Only Canva for creative; most AI creative tools target e-comm, not Aperitif's clients",
+      "source": "interviewee (Joe, B)",
+      "category": "Tool not used / adoption",
+      "anchor": "Technology, AI & stack",
+      "process": "Creative production",
+      "impact": "Creative speed",
+      "frequency": "–",
+      "severity": 2,
+      "quote": "You can see that a lot of these tools are built for e-comm … It's not really our ICP.",
+      "timestamp": "~09:06 (L093–L094)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "MP-B01",
+      "step": "Escalation triage",
+      "waiting_on": "Head of Client Services (single handler)",
+      "typical_wait": "not stated",
+      "affected": "All escalated clients",
+      "knock_on": "Julia's time absorbed; leads don't build the skill"
+    },
+    {
+      "id": "MP-B02",
+      "step": "Deal strategy and ad-spend numbers",
+      "waiting_on": "Founder review and rework",
+      "typical_wait": "not stated",
+      "affected": "Every deal needing a forecast",
+      "knock_on": "Founder in sales; unprofitable scope slips through"
+    },
+    {
+      "id": "MP-B03",
+      "step": "Pacing-sheet budget update",
+      "waiting_on": "Each account manager remembering",
+      "typical_wait": "Until an overspend shows it",
+      "affected": "~100 budget lines/month",
+      "knock_on": "Overspends; credits to clients"
+    },
+    {
+      "id": "MP-B04",
+      "step": "Daily updates after reminder",
+      "waiting_on": "Staff posting updates",
+      "typical_wait": ">30 min, sometimes none",
+      "affected": "Whole team",
+      "knock_on": "Leadership chases; low visibility"
+    },
+    {
+      "id": "MP-B05",
+      "step": "Link live checks",
+      "waiting_on": "No owner, no tool",
+      "typical_wait": "Indefinite (not done)",
+      "affected": "~300 links/month",
+      "knock_on": "Paid links lost without recovery"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "MP-S01",
+      "idea": "Dashboards plus diagnostic tool for performance team",
+      "source": "interviewer",
+      "reaction": "Joe (D): Yep",
+      "process": "Performance monitoring & alerting",
+      "quote": "having dashboards that pull all these metrics and then also provide like a diagnostic",
+      "timestamp": "~01:32 (L024)"
+    },
+    {
+      "id": "MP-S02",
+      "idea": "Better pacing tool tracking more than budget, by client type",
+      "source": "interviewer",
+      "reaction": "Austin relaying performance team; Joe agreed, linked to LinkedIn overspend",
+      "process": "Paid media – pacing & budget management",
+      "quote": "rather than it just being budget, it could also be like other metrics",
+      "timestamp": "~02:00 (L029)"
+    },
+    {
+      "id": "MP-S03",
+      "idea": "Improve link-building admin (still on sheets)",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised",
+      "process": "Link building – sourcing & ordering",
+      "quote": "probably the one thing that comes to mind at the moment is just improving the link building admin side of things.",
+      "timestamp": "~03:28 (L036)"
+    },
+    {
+      "id": "MP-S04",
+      "idea": "Lightweight link-building CRM incl. invoicing; agents chase overdue/unpaid invoices for Karl",
+      "source": "interviewer",
+      "reaction": "Joe: Yeah, okay, great.",
+      "process": "Link building – outreacher invoicing",
+      "quote": "get agents to manage the invoicing for Carl [Karl], follow up on overdue invoices",
+      "timestamp": "~04:16 (L043)"
+    },
+    {
+      "id": "MP-S05",
+      "idea": "Regular live-link checks; auto publisher email with 7-day fix deadline, then PayPal dispute",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised",
+      "process": "Link building – QA & live checks",
+      "quote": "If you don't fix it within seven days, we're going to report it to PayPal and get our money back",
+      "timestamp": "~04:59 (L051)"
+    },
+    {
+      "id": "MP-S06",
+      "idea": "Weekly AI scan of all links ('Jev'), auto-email on 404/page change",
+      "source": "interviewer",
+      "reaction": "Austin responding to Joe's MP-S05",
+      "process": "Link building – QA & live checks",
+      "quote": "we can have a weekly scan of all of the links that we have.",
+      "timestamp": "~05:50 (L062)"
+    },
+    {
+      "id": "MP-S07",
+      "idea": "AI business brain joining sales, delivery and ad-account data",
+      "source": "interviewer",
+      "reaction": "Joe (D): Yep",
+      "process": "Knowledge & SOPs",
+      "quote": "you will need an AI brain in your business to start collating all of this information",
+      "timestamp": "~06:34 (L068)"
+    },
+    {
+      "id": "MP-S08",
+      "idea": "Proposal and brief generator with one-click Monday.com task breakdown",
+      "source": "interviewer",
+      "reaction": "Joe (D): Okay, great.",
+      "process": "Sales – lead to proposal",
+      "quote": "we can definitely automate that into like a one-click process.",
+      "timestamp": "~07:08 (L071)"
+    },
+    {
+      "id": "MP-S09",
+      "idea": "Landing page generator (discussed earlier)",
+      "source": "interviewer",
+      "reaction": "No reaction",
+      "process": "NEW: Landing page production",
+      "quote": "the stuff we've discussed, like the landing page generator",
+      "timestamp": "~07:30 (L074)"
+    },
+    {
+      "id": "MP-S10",
+      "idea": "One-click audit via read-only OAuth; AI audit as lead magnet",
+      "source": "interviewer",
+      "reaction": "Joe: Okay.",
+      "process": "Sales – lead to proposal",
+      "quote": "there's tools out there that you can get read-only access with just one click of OAuth.",
+      "timestamp": "~07:35 (L075)"
+    },
+    {
+      "id": "MP-S11",
+      "idea": "AI-assisted creative tool trials (Cuttable etc.); Austin names Higgsfield",
+      "source": "interviewee",
+      "reaction": "Joe already acting (tasked Coordinator); Austin added Higgsfield",
+      "process": "Creative production",
+      "quote": "I've tasked her with looking for a couple of tools that do this.",
+      "timestamp": "~08:26 (L084)"
+    },
+    {
+      "id": "MP-S12",
+      "idea": "Client portal for approvals and activity history",
+      "source": "interviewer",
+      "reaction": "Joe (D): That would be good.",
+      "process": "Client content approval",
+      "quote": "a place where clients can go to an area where they can approve things and see a track record",
+      "timestamp": "~09:20 (L100)"
+    },
+    {
+      "id": "MP-S13",
+      "idea": "AI receptionist; macro trend tracker per client industry; prospect dossier agents",
+      "source": "interviewer",
+      "reaction": "No direct reaction",
+      "process": "Sales – lead to proposal",
+      "quote": "the AI receptionist that we spoke about, the macro trend tracker as well for each client industry.",
+      "timestamp": "~09:20 (L100)"
+    },
+    {
+      "id": "MP-S14",
+      "idea": "Proactive PPC anomaly monitor connected to pacing",
+      "source": "interviewer",
+      "reaction": "Joe: I mean, that's amazing.",
+      "process": "Performance monitoring & alerting",
+      "quote": "This will allow them to just be notified when there's an anomaly so that they can manage more clients",
+      "timestamp": "~10:06 (L109)"
+    },
+    {
+      "id": "MP-S15",
+      "idea": "Feasibility: buy SaaS (Birch, Revealbot) if cheaper than building",
+      "source": "interviewer",
+      "reaction": "No direct reaction",
+      "process": "Performance monitoring & alerting",
+      "quote": "there's no point me building something where there's a SaaS that's cheaper.",
+      "timestamp": "~10:46 (L119)"
+    },
+    {
+      "id": "MP-S16",
+      "idea": "Forecasting / industry-knowledge tools should also serve sales",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised",
+      "process": "Sales – lead to proposal",
+      "quote": "a lot of the forecasting tools and stuff for industry knowledge … would also apply to this.",
+      "timestamp": "~16:52 (L188)"
+    },
+    {
+      "id": "MP-S17",
+      "idea": "Smart sales wiki / calculator using ICP, size and goals",
+      "source": "interviewer",
+      "reaction": "Joe showed existing calculator",
+      "process": "Sales – lead to proposal",
+      "quote": "having either like a smart sort of wiki or calculator that you can clock in some numbers",
+      "timestamp": "~18:00 (L202)"
+    },
+    {
+      "id": "MP-S18",
+      "idea": "Use existing ad-spend calculator live on every sales call",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised",
+      "process": "Sales – lead to proposal",
+      "quote": "It just basically is just like a sliding scale tool where we can just start to do this live on the call.",
+      "timestamp": "~20:02 (L217)"
+    },
+    {
+      "id": "MP-S19",
+      "idea": "Answer how-to questions with the SOP link",
+      "source": "interviewee",
+      "reaction": "Joe (B) – current practice",
+      "process": "Knowledge & SOPs",
+      "quote": "instead of me just showing them again, I'm just pinging them the link",
+      "timestamp": "~21:53 (L241)"
+    },
+    {
+      "id": "MP-S20",
+      "idea": "Automate tasks away from people rather than build tools they must adopt",
+      "source": "interviewer",
+      "reaction": "Joe agreed",
+      "process": "Internal task management",
+      "quote": "if it's not like autonomous things, I don't think it's going to get used.",
+      "timestamp": "~21:32 (L237)"
+    },
+    {
+      "id": "MP-S21",
+      "idea": "AI brain as pulse check without timesheets",
+      "source": "interviewer",
+      "reaction": "Joe (D): Okay, yeah, I'm open to it now.",
+      "process": "Internal task management",
+      "quote": "So at least you have that pulse check without getting timesheets.",
+      "timestamp": "~24:48 (L284)"
+    },
+    {
+      "id": "MP-S22",
+      "idea": "Written warning and three strikes for not updating pacing sheets",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised; Austin endorsed",
+      "process": "Paid media – pacing & budget management",
+      "quote": "anyone that doesn't moving forward, you're getting a written warning and three strikes and you're out.",
+      "timestamp": "~31:53 (L379)"
+    },
+    {
+      "id": "MP-S23",
+      "idea": "Extract ICPs and buyer personas into briefs and strategies",
+      "source": "interviewer",
+      "reaction": "Austin relaying a Senior Performance Manager's request; no reaction",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "extracting ICPs and biopersonas [buyer personas] for the strategy",
+      "timestamp": "~33:44 (L406)"
+    },
+    {
+      "id": "MP-S24",
+      "idea": "Early indicators to minimise escalations via AI brain",
+      "source": "interviewer",
+      "reaction": "Joe: Sounds good.",
+      "process": "Client escalation",
+      "quote": "the only way to do that is by getting early indicators if something is going wrong.",
+      "timestamp": "~38:22 (L482)"
+    },
+    {
+      "id": "MP-S25",
+      "idea": "Churn-trigger alerts: email keyword filter (WME), new client marketing manager flag, 50% conversion drop",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised",
+      "process": "Client escalation",
+      "quote": "So what are the triggers essentially that we can build in to help us be privy to these risks?",
+      "timestamp": "~40:06 (L502)"
+    },
+    {
+      "id": "MP-S26",
+      "idea": "AI churn signals across emails, call logs, transcripts, ad audit logs",
+      "source": "interviewer",
+      "reaction": "Builds on Joe's MP-S25; Joe (D): sounds really cool",
+      "process": "Client escalation",
+      "quote": "not just emails, but we can look at call history, call logs, transcripts, all of that",
+      "timestamp": "~40:55 (L512)"
+    },
+    {
+      "id": "MP-S27",
+      "idea": "Feed call transcripts into the AI brain",
+      "source": "interviewer",
+      "reaction": "Joe (D): I agree… That's a great idea.",
+      "process": "Knowledge & SOPs",
+      "quote": "If we just feed that into AI brain, at least then we can utilize that data even if the other person isn't.",
+      "timestamp": "~42:04 (L525)"
+    },
+    {
+      "id": "MP-S28",
+      "idea": "Set up a LinkedIn pacing tracker",
+      "source": "interviewee",
+      "reaction": "Joe (B) raised",
+      "process": "Paid media – pacing & budget management",
+      "quote": "Oh, but now we've got to spend on LinkedIn because we didn't have a pacing tracker.",
+      "timestamp": "~44:15 (L573)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "MP-O01",
+      "fixes": [
+        "MP-PP02"
+      ],
+      "lens": "Change the process",
+      "change": "Add LinkedIn and every live platform to the pacing tracker; no spend live without a pacing line",
+      "matches_existing_solution": "pacing tracker & adjustment engine (interim)",
+      "candidate_tool": "Existing pacing sheet / Tina bot",
+      "hours_saved_month": [
+        0,
+        1
+      ],
+      "effort": "S",
+      "prerequisites": "List of live platforms per client",
+      "adoption_risk": "L – one-off setup",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% live platforms with a pacing line",
+          "measured_by": "Tracker vs platform list",
+          "baseline": "Below 100% (LinkedIn missing)",
+          "baseline_quote": "Oh, but now we've got to spend on LinkedIn because we didn't have a pacing tracker.",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Overspend credits per quarter ($)",
+          "measured_by": "Xero credit notes",
+          "baseline": "$10K (Leaselab)",
+          "baseline_quote": "And the least lab one was 10K.",
+          "target": "$0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 5,
+        "ease": 5,
+        "priority": 100
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Known $10K loss; one-off fix Joe named"
+    },
+    {
+      "id": "MP-O02",
+      "fixes": [
+        "MP-PP01",
+        "MP-PP05",
+        "MP-B03"
+      ],
+      "lens": "People & policy",
+      "change": "Single budget-change log; same-day sheet update checked at WIP; written warning / three strikes; written overspend-credit policy",
+      "matches_existing_solution": "new (policy)",
+      "candidate_tool": "Pacing sheet, Monday.com",
+      "hours_saved_month": [
+        0.5,
+        3
+      ],
+      "effort": "S",
+      "prerequisites": "Leadership agreement; WIP agenda item",
+      "adoption_risk": "M – enforcement where reminders already ignored",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Budget changes in sheet within 1 working day (%)",
+          "measured_by": "Budget log vs sheet audit at WIP",
+          "baseline": "unknown",
+          "baseline_quote": "The budget would change and they wouldn't update the sheet.",
+          "target": "≥95%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Overspend incidents per month",
+          "measured_by": "Pacing tracker / WIP log",
+          "baseline": "~0.5–1 (estimated)",
+          "baseline_quote": "it was an overspend just recently.",
+          "target": "0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 64
+      },
+      "rank": 2,
+      "tag": "Quick win",
+      "rank_reason": "Joe decided to enforce; cheap; targets stated cause"
+    },
+    {
+      "id": "MP-O07",
+      "fixes": [
+        "MP-PP10",
+        "MP-PP11",
+        "MP-PP12",
+        "MP-B02"
+      ],
+      "lens": "Change the process",
+      "change": "Calculator output mandatory in every proposal; delivery-lead margin check above a scope threshold; short sales wiki of standard packages",
+      "matches_existing_solution": "sales wiki / spend calculator",
+      "candidate_tool": "Existing calculator; HubSpot deal-stage gate",
+      "hours_saved_month": [
+        1,
+        4
+      ],
+      "effort": "S",
+      "prerequisites": "Margin rules per service; threshold",
+      "adoption_risk": "M – sales role has resisted process",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% proposals with calculator output",
+          "measured_by": "HubSpot deal-stage check",
+          "baseline": "unknown",
+          "baseline_quote": "we've got this calculator that we're using internally at the moment, which is relatively new.",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Deals with delivery pushback on scope after signing",
+          "measured_by": "Delivery log",
+          "baseline": "≥1",
+          "baseline_quote": "I'm already getting pushback and it's like the first deal.",
+          "target": "0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 64
+      },
+      "rank": 3,
+      "tag": "Quick win",
+      "rank_reason": "Calculator exists; rule and gate stop unprofitable scope"
+    },
+    {
+      "id": "MP-O03",
+      "fixes": [
+        "MP-PP01",
+        "MP-PP02",
+        "MP-PP17"
+      ],
+      "lens": "Automate",
+      "change": "Tracker reads budgets and spend from platforms and agreed client budget; flags mismatches",
+      "matches_existing_solution": "pacing tracker & adjustment engine",
+      "candidate_tool": "Google Ads / Meta / LinkedIn APIs; Supermetrics; Optmyzr-type tools",
+      "hours_saved_month": [
+        5,
+        12
+      ],
+      "effort": "M",
+      "prerequisites": "API access to all ad accounts; one budget source of truth",
+      "adoption_risk": "L – removes the step that fails",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Unflagged budget mismatches",
+          "measured_by": "Automated reconciliation report",
+          "baseline": "unknown",
+          "baseline_quote": "So the trackers are tracking. but it's on the wrong number.",
+          "target": "0",
+          "type": "leading"
+        },
+        {
+          "kpi": "Manual budget-entry time per month",
+          "measured_by": "Time sample",
+          "baseline": "~5–8.3 h (assumed)",
+          "baseline_quote": "",
+          "target": "<1 h",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 5,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 60
+      },
+      "rank": 4,
+      "tag": "Strategic",
+      "rank_reason": "Removes human step that fails; largest margin protection"
+    },
+    {
+      "id": "MP-O08",
+      "fixes": [
+        "MP-PP16"
+      ],
+      "lens": "Augment",
+      "change": "Churn triggers v1: email keyword filter, new-marketing-manager flag, 50% conversion-drop alert; v2 AI across emails/transcripts/call logs",
+      "matches_existing_solution": "churn-risk alerts",
+      "candidate_tool": "Gmail filters, HubSpot workflows; AI later",
+      "hours_saved_month": [
+        0,
+        2
+      ],
+      "effort": "S (v1) / L (v2)",
+      "prerequisites": "Trigger list from Julia; shared inbox access",
+      "adoption_risk": "L (v1) – no behaviour change",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "% churned clients flagged ≥30 days ahead",
+          "measured_by": "Alert log vs churn list",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "≥80%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Portfolio client retention",
+          "measured_by": "Client list",
+          "baseline": "unknown (target 98% per context pack)",
+          "baseline_quote": "",
+          "target": "98%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 5,
+      "tag": "Quick win",
+      "rank_reason": "v1 is simple rules; retention is 'the metric'"
+    },
+    {
+      "id": "MP-O05",
+      "fixes": [
+        "MP-PP13",
+        "MP-B05"
+      ],
+      "lens": "Automate",
+      "change": "Weekly automated live-link check; publisher auto-email with 7-day fix deadline then PayPal dispute",
+      "matches_existing_solution": "link-building CRM with live-link monitoring",
+      "candidate_tool": "Ahrefs alerts, link-monitor SaaS, Make.com + email",
+      "hours_saved_month": [
+        5,
+        10
+      ],
+      "effort": "M",
+      "prerequisites": "Clean list of live links with publisher contacts and payment refs",
+      "adoption_risk": "L – runs unattended",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "% paid links verified live each week",
+          "measured_by": "Link monitor",
+          "baseline": "0%",
+          "baseline_quote": "we don't have a way to currently check whether these are dropping off",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Links reinstated / $ recovered per quarter",
+          "measured_by": "Monitor + PayPal disputes",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "Tracked from launch",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 48
+      },
+      "rank": 6,
+      "tag": "Strategic",
+      "rank_reason": "Joe's own idea; runs unattended; recovers spend"
+    },
+    {
+      "id": "MP-O12",
+      "fixes": [
+        "MP-PP03",
+        "MP-PP04"
+      ],
+      "lens": "Change the process",
+      "change": "SOP links in Monday.com task templates; 'link first' rule; retire pages unused for 12 months",
+      "matches_existing_solution": "team wiki / L&D",
+      "candidate_tool": "Notion, Monday.com templates",
+      "hours_saved_month": [
+        0.5,
+        3
+      ],
+      "effort": "S",
+      "prerequisites": "Owner per SOP; top 20 SOP list",
+      "adoption_risk": "M – reading habit is the problem",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Repeat how-to questions to Founder per month",
+          "measured_by": "Founder tally / Slack",
+          "baseline": "unknown",
+          "baseline_quote": "I'm sick of just explaining the same thing over and over again.",
+          "target": "-50%",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Weekly views of top 20 SOPs",
+          "measured_by": "Notion analytics",
+          "baseline": "~monthly",
+          "baseline_quote": "They're just checking it once a month.",
+          "target": "Weekly use",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 7,
+      "tag": "Quick win",
+      "rank_reason": "Low cost; reading habit limits impact"
+    },
+    {
+      "id": "MP-O04",
+      "fixes": [
+        "MP-PP17",
+        "MP-PP16",
+        "MP-PP18"
+      ],
+      "lens": "Augment",
+      "change": "Proactive PPC anomaly monitor posting to Slack; buy vs build via feasibility study",
+      "matches_existing_solution": "proactive PPC anomaly monitor",
+      "candidate_tool": "Revealbot, Birch, Optmyzr, Google Ads rules",
+      "hours_saved_month": [
+        10,
+        41
+      ],
+      "effort": "M",
+      "prerequisites": "Account access; thresholds per client type",
+      "adoption_risk": "M – alerts must be acted on",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Median time from anomaly to action",
+          "measured_by": "Alert log vs change history",
+          "baseline": "unknown",
+          "baseline_quote": "wait for the client to tell them like, hey, performance is dipping.",
+          "target": "<1 working day",
+          "type": "leading"
+        },
+        {
+          "kpi": "Paid accounts per manager",
+          "measured_by": "Account list",
+          "baseline": "12–20 (context pack)",
+          "baseline_quote": "",
+          "target": "+15–25%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 8,
+      "tag": "Strategic",
+      "rank_reason": "Strong leadership interest; build vs buy open"
+    },
+    {
+      "id": "MP-O09",
+      "fixes": [
+        "MP-PP08",
+        "MP-PP09",
+        "MP-B01"
+      ],
+      "lens": "People & policy",
+      "change": "Escalation playbook: department lead first, Head of Client Services on defined triggers; scripts; shadow-then-lead coaching",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com escalation board",
+      "hours_saved_month": [
+        2,
+        8
+      ],
+      "effort": "M",
+      "prerequisites": "Agreed triggers; coaching time",
+      "adoption_risk": "M – leads avoid difficult conversations",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% escalations handled by department leads",
+          "measured_by": "Escalation board",
+          "baseline": "Low",
+          "baseline_quote": "which is kind of why Julia manages it the most.",
+          "target": "≥50%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 9,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag (Impact 3 / Ease 3 not covered); frees Julia"
+    },
+    {
+      "id": "MP-O06",
+      "fixes": [
+        "MP-PP14",
+        "MP-PP15"
+      ],
+      "lens": "Automate",
+      "change": "One link record (CRM or Monday.com) feeding reporting automatically; invoice follow-up agent",
+      "matches_existing_solution": "link-building CRM … invoice follow-up",
+      "candidate_tool": "Monday.com + Make.com",
+      "hours_saved_month": [
+        4,
+        9
+      ],
+      "effort": "M",
+      "prerequisites": "Agree one system; migrate sheets",
+      "adoption_risk": "M – link team must move off sheets",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Links re-keyed into CRM per month",
+          "measured_by": "CRM import log",
+          "baseline": "~300 (estimated)",
+          "baseline_quote": "It's still kind of manually being copied over into the CRM for reporting",
+          "target": "0",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 10,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag (I3/E3); removes re-keying"
+    },
+    {
+      "id": "MP-O11",
+      "fixes": [
+        "MP-PP05",
+        "MP-PP06",
+        "MP-B04"
+      ],
+      "lens": "Automate",
+      "change": "Status pulled automatically from Monday.com and ad platforms instead of 'post your update' reminders; exceptions to the lead",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com dashboards, Make.com, Tina bot",
+      "hours_saved_month": [
+        2.1,
+        4.9
+      ],
+      "effort": "M",
+      "prerequisites": "Work tracked consistently in Monday.com",
+      "adoption_risk": "M – depends on Monday.com hygiene",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Days/month with complete updates by deadline",
+          "measured_by": "Monday.com dashboard",
+          "baseline": "unknown",
+          "baseline_quote": "We still don't have updates.",
+          "target": "≥95%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 11,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag (I3/E3); needs Monday.com hygiene first"
+    },
+    {
+      "id": "MP-O13",
+      "fixes": [
+        "MP-PP07",
+        "MP-PP18",
+        "MP-PP19"
+      ],
+      "lens": "People & policy",
+      "change": "Role scorecards (clients per manager, on-budget %, retention); 15-min root-cause review after each overspend or escalation",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com; existing KPI plans",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "M",
+      "prerequisites": "Leadership agreement on targets",
+      "adoption_risk": "H – attrition risk Joe raised",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Team retention",
+          "measured_by": "HR records",
+          "baseline": "unknown (target 95% per context pack)",
+          "baseline_quote": "",
+          "target": "≥95%",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Clients per manager vs role target",
+          "measured_by": "Account list",
+          "baseline": "12–20 (context pack)",
+          "baseline_quote": "",
+          "target": "Agreed per role",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 12,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag (I3/E3); culture lever with attrition risk"
+    },
+    {
+      "id": "MP-O10",
+      "fixes": [
+        "MP-PP06",
+        "MP-PP17",
+        "MP-PP04",
+        "MP-PP20"
+      ],
+      "lens": "Augment",
+      "change": "AI business brain: Otter transcripts, email, ad change logs → per-client pulse and Tier 1 summary",
+      "matches_existing_solution": "AI business brain; transcripts → per-client action runsheet",
+      "candidate_tool": "Otter, Google Workspace, Claude, Notion",
+      "hours_saved_month": [
+        1,
+        4
+      ],
+      "effort": "L",
+      "prerequisites": "Data access; privacy rules; client consent",
+      "adoption_risk": "M – may be seen as surveillance",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "% client calls with transcript summary filed",
+          "measured_by": "AI brain log",
+          "baseline": "~0",
+          "baseline_quote": "I think I'm the only one that does anything with the transcripts.",
+          "target": "≥90%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Founder hours in Tier 1 WIPs per month",
+          "measured_by": "Calendar",
+          "baseline": "1–4 h (assumed)",
+          "baseline_quote": "",
+          "target": "<1 h",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 2,
+        "priority": 24
+      },
+      "rank": 13,
+      "tag": "Strategic",
+      "rank_reason": "High enthusiasm but large build, privacy and COI"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Internal ad-spend calculator models budget from goals and CPCs",
+      "quote": "we've got this calculator that we're using internally at the moment, which is relatively new.",
+      "timestamp": "~19:40 (L211)"
+    },
+    {
+      "text": "Structured discovery for ad spend (revenue per sale, conversion rates)",
+      "quote": "what's your lead to booked call rate? What's your booked call to close rate",
+      "timestamp": "~19:40 (L211)"
+    },
+    {
+      "text": "Google Ads and Meta pacing built",
+      "quote": "build all these systems, get all the pacing stuff sorted with Google Ads and Meta Ads.",
+      "timestamp": "~44:15 (L573)"
+    },
+    {
+      "text": "Active development of department leads",
+      "quote": "regular coaching between myself and Julia.",
+      "timestamp": "~37:21 (L468)"
+    },
+    {
+      "text": "Clear escalation owner who pulls in the right people",
+      "quote": "And then she pulls in the right teepee [people]",
+      "timestamp": "~35:24 (L438, Joe D)"
+    },
+    {
+      "text": "Founder points people to SOPs",
+      "quote": "I'm just pinging them the link and I'm like, this is how you do it.",
+      "timestamp": "~21:53 (L241)"
+    },
+    {
+      "text": "Leadership open to hard feedback",
+      "quote": "I'm not gonna take anything to heart. That's what you need to do.",
+      "timestamp": "~26:36 (L300)"
+    },
+    {
+      "text": "Creative AI-tool trials already delegated",
+      "quote": "I've tasked her with looking for a couple of tools that do this.",
+      "timestamp": "~08:26 (L084)"
+    },
+    {
+      "text": "Team pleasant to work with (Austin's view)",
+      "quote": "The team is really, really nice.",
+      "timestamp": "~11:12 (L122, Austin)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "10000",
+      "unit": "AUD",
+      "context": "Leaselab overspend absorbed by agency",
+      "quote": "And the least lab one was 10K.",
+      "timestamp": "~32:16 (L382)",
+      "certainty": "stated"
+    },
+    {
+      "value": "next couple of months",
+      "unit": "months",
+      "context": "Overspend credited off future invoices",
+      "quote": "We're just going to have to take it off our invoices for the next couple of months.",
+      "timestamp": "~32:57 (L389)",
+      "certainty": "stated"
+    },
+    {
+      "value": "LinkedIn",
+      "unit": "platform",
+      "context": "Recent overspend platform; no pacing tracker",
+      "quote": "we actually just had an overspend on an account on a LinkedIn account.",
+      "timestamp": "~02:15 (L030)",
+      "certainty": "stated (link to Leaselab $10K inferred)"
+    },
+    {
+      "value": "12",
+      "unit": "months",
+      "context": "Paid links should stay live",
+      "quote": "they should be up for 12 months.",
+      "timestamp": "~04:32 (L048)",
+      "certainty": "stated"
+    },
+    {
+      "value": "7",
+      "unit": "days",
+      "context": "Proposed publisher fix window before PayPal dispute",
+      "quote": "If you don't fix it within seven days",
+      "timestamp": "~04:59 (L051)",
+      "certainty": "stated (proposal)"
+    },
+    {
+      "value": "30",
+      "unit": "minutes",
+      "context": "Time since reminder with no updates (one observation)",
+      "quote": "Half an hour ago, the reminder went out.",
+      "timestamp": "~23:43 (L259)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~1",
+      "unit": "per month",
+      "context": "How often Notion pages are checked (Austin's analysis)",
+      "quote": "They're just checking it once a month.",
+      "timestamp": "~21:13 (L233, Austin)",
+      "certainty": "stated (Austin)"
+    },
+    {
+      "value": "6",
+      "unit": "years",
+      "context": "Tenure of a recently lost client",
+      "quote": "a client has been with us for like six years.",
+      "timestamp": "~30:48 (L361)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4",
+      "unit": "settlements/month",
+      "context": "Worked ad-spend example (mortgage broker)",
+      "quote": "I want four settlements per month.",
+      "timestamp": "~19:09 (L208)",
+      "certainty": "stated (hypothetical)"
+    },
+    {
+      "value": "4000 / 16000",
+      "unit": "AUD per settlement / per month",
+      "context": "Same example",
+      "quote": "They're trying to do 16 grand a month.",
+      "timestamp": "~19:23 (L209)",
+      "certainty": "stated (hypothetical)"
+    },
+    {
+      "value": "~100",
+      "unit": "AUD",
+      "context": "CPC in mortgage-broker example",
+      "quote": "I think it was like 100 bucks.",
+      "timestamp": "~20:19 (L221)",
+      "certainty": "stated (approximate)"
+    },
+    {
+      "value": "Start of Oct 2026",
+      "unit": "start date",
+      "context": "New sales hire's start",
+      "quote": "He's only started with us at the beginning of this month.",
+      "timestamp": "~11:49 (L131)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3:1 to 4:5",
+      "unit": "ratio",
+      "context": "Austin's revenue-per-employee goal – meaning unclear",
+      "quote": "My goal is to try to push it from 3:1 to 4:5.",
+      "timestamp": "~10:36 (L115, Austin)",
+      "certainty": "stated – meaning unclear"
+    },
+    {
+      "value": "15",
+      "unit": "clients",
+      "context": "Extra clients per consultant Austin suggests higher output would need",
+      "quote": "you're going to have to manage another 15. clients now.",
+      "timestamp": "~27:27 (L308–L309, Austin)",
+      "certainty": "stated (illustrative)"
+    },
+    {
+      "value": "3–4",
+      "unit": "days/week",
+      "context": "Austin's office attendance during audit",
+      "quote": "at least three, four days to see what goes on.",
+      "timestamp": "~24:00 (L265, Austin)",
+      "certainty": "stated"
+    },
+    {
+      "value": "12 Nov 2026, 12:30–3:30",
+      "unit": "date/window",
+      "context": "Findings presentation; needs 1–1.25 h",
+      "quote": "Any time from... 12:30 to 3:30. How long do you need?",
+      "timestamp": "~43:21 (L546–L547)",
+      "certainty": "stated"
+    },
+    {
+      "value": "11",
+      "unit": "people",
+      "context": "Interviews done or scheduled at mid-point",
+      "quote": "Today I have Shruti, Sid and Mikayla.",
+      "timestamp": "~00:25 (L016, Austin)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Google Sheets (pacing tracker / budget sheet)",
+      "Tina Slack bot",
+      "Slack reminder/agenda channel",
+      "Notion SOPs",
+      "Monday.com",
+      "HubSpot",
+      "Otter",
+      "Canva",
+      "Internal ad-spend calculator",
+      "Reporting CRM (not named)",
+      "PayPal",
+      "Escalation pipeline (tool not named)"
+    ],
+    "shadow": [
+      "Founder answers with SOP links",
+      "Founder attends Tier 1 WIPs for visibility",
+      "Overspends handled by calls and invoice credits",
+      "Link building on sheets with manual copy into CRM"
+    ],
+    "duplicated_data": [
+      "Budgets: client agreement, platforms, pacing sheet",
+      "Links: tracker and reporting CRM"
+    ],
+    "missing_access": [
+      "Whether work is happening without timesheets",
+      "Early churn signals",
+      "Account health without opening ad accounts",
+      "Bird's-eye view of client calls"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Escalation handling",
+      "who_role": "Head of Client Services",
+      "if_absent": "Escalations stall or fall to Founder"
+    },
+    {
+      "what": "Ad-spend forecasting judgement; calculator owner",
+      "who_role": "Founder",
+      "if_absent": "Unsupported numbers; unprofitable scope signed"
+    },
+    {
+      "what": "SOP knowledge and how-to answers",
+      "who_role": "Founder",
+      "if_absent": "Repeat questions; processes drift"
+    },
+    {
+      "what": "Reading call transcripts",
+      "who_role": "Founder (only user)",
+      "if_absent": "Call knowledge lost"
+    },
+    {
+      "what": "Budget figure per pacing-sheet line",
+      "who_role": "Each account manager",
+      "if_absent": "Tracker paces against wrong budget"
+    },
+    {
+      "what": "Link-building admin and publisher relationships",
+      "who_role": "Link-building Lead / outreach team",
+      "if_absent": "Invoicing and link tracking slip"
+    },
+    {
+      "what": "Tier 1 account oversight",
+      "who_role": "Founder",
+      "if_absent": "Leadership loses visibility of largest accounts"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Was Julia on the call; which speaker label is her?",
+      "Julia: escalations per month, time each, tool for escalation pipeline, current churn triggers",
+      "Joe: overspend incidents and $ credited in last 6–12 months; is Leaselab $10K the LinkedIn overspend?",
+      "Joe: deals per month needing his input and time each",
+      "Joe: how often he joins Tier 1 WIPs",
+      "Austin: meaning of '3:1 to 4:5' and what 'Jev' is",
+      "Joe: calculator URL and which CRM receives link data"
+    ],
+    "contradictions": [
+      "Evidence Log lists Joe and Julia; no line firmly attributable to Julia",
+      "Leaselab Google Ads manager is DM per context pack, but Joe says the overspend sat with 'our most senior person in the team'",
+      "Evidence row links the Supermetrics/Meta pacing problem, but Joe says Google and Meta pacing is 'sorted' (L573)",
+      "Austin says SEO opportunity limited; context pack lists SEO-side solution ideas"
+    ],
+    "data_requests": [
+      "Overspend log and credit notes (Joe / Xero)",
+      "Pacing tracker change history for Leaselab LinkedIn (Wendlley)",
+      "Ad-spend calculator access and usage (Joe)",
+      "Escalation pipeline export (Julia)",
+      "Slack reminder channel history (Joe)",
+      "Otter usage and cost (Joe)",
+      "Link tracker and reporting-CRM export (Tonie / Karl)"
+    ],
+    "verify": [
+      "$10K Leaselab overspend absorbed via credits",
+      "Only Joe uses transcripts",
+      "Notion pages checked once a month (Austin's analysis)",
+      "Lost six-year client – name and cause"
+    ]
+  }
+}

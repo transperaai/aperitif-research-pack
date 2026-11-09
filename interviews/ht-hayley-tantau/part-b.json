@@ -1,0 +1,1554 @@
+{
+  "interview": {
+    "id": "HT",
+    "name": "Hayley Tantau",
+    "role": "Content Specialist",
+    "team": "Organic",
+    "date": "2026-11-04",
+    "minutes": 33,
+    "clients_managed": 7
+  },
+  "time_allocation": [
+    {
+      "activity": "Writing and drafting own clients' pages and blogs (incl. AI research)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "I kind of work on a client for a couple of days and then I think I have about like Seven this month.",
+      "timestamp": "~12:49 (L147)",
+      "certainty": "stated (days, clients); hours estimated 80–106 h/month (7 × 1.5–2 days × 7.6 h) ≈ 50–65%"
+    },
+    {
+      "activity": "Editing freelancer overflow (last week of month, after the 24th)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "We are aiming this month to get all our client work done by the 24th because then we edit a bunch of freelancer.",
+      "timestamp": "~12:49 (L147)",
+      "certainty": "stated (timing); hours assumed 15–30 h/month"
+    },
+    {
+      "activity": "Revisions on client feedback",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "Today I have revisions and meetings, but that's kind of it.",
+      "timestamp": "~04:40 (L058)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Meetings (Content Manager; occasional in-person client)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": null,
+      "quote": "I just meet with Sarah and sometimes meet with a very high priority client in person",
+      "timestamp": "~03:54 (L052)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Freelancer assignment (cover when Content Manager on leave)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "she went on leave a few months ago so I did that",
+      "timestamp": "~12:28 (L146)",
+      "certainty": "stated (no number)"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Order of work (Tier 1 first)",
+      "decider_role": "Content Specialist (team rule)",
+      "waiting_role": "Lower-tier clients",
+      "typical_wait": "Start of month",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Freelancer assignment",
+      "decider_role": "Content Manager (HT when on leave)",
+      "waiting_role": "Freelancers; HT (overflow editing)",
+      "typical_wait": "Start of month",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Draft approval",
+      "decider_role": "Client (via account manager / SEO specialist)",
+      "waiting_role": "Content Specialist",
+      "typical_wait": "not discussed",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Brief standard and refresh cadence",
+      "decider_role": "Content Manager + Content Specialist with SEO specialists",
+      "waiting_role": "Writers",
+      "typical_wait": "Quarterly",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Fitting in last-minute requests from out-of-cycle client",
+      "decider_role": "Content Specialist (self)",
+      "waiting_role": "Other clients",
+      "typical_wait": "Ad hoc",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Connect tracker Sheet to Monday.com vs rebuild",
+      "decider_role": "Undecided – content team / Sid / Austin",
+      "waiting_role": "Content team",
+      "typical_wait": "Open",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Junior content writer hire",
+      "decider_role": "Content Manager with HT reviewing CVs; final approver not discussed",
+      "waiting_role": "Content team",
+      "typical_wait": "In progress",
+      "lands_on_leadership": false
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "Superloop",
+      "tier": "Tier 1 (content)",
+      "context": "'super loop logs' = Superloop blogs; blogs on specific internet topics researched with AI (inferred link)"
+    },
+    {
+      "client": "Your Local Tradesman",
+      "tier": "Tier 2",
+      "context": "Tone of voice ('down to earth') defined by the writers"
+    },
+    {
+      "client": "Unnamed dental client",
+      "tier": "unknown",
+      "context": "Very detailed briefs; still comments on drafts due to 'APRA' (likely AHPRA) guidelines"
+    },
+    {
+      "client": "Unnamed high-priority client",
+      "tier": "likely Tier 1 (inferred)",
+      "context": "Met in person; outside the content cycle; not briefed by SEO; last-minute requests"
+    },
+    {
+      "client": "easyAML (inferred)",
+      "tier": "not on SEO tier list (paid media client)",
+      "context": "'money laundering content' – inferred from topic only; confirm"
+    },
+    {
+      "client": "Unnamed client for 'a different AM'",
+      "tier": "unknown",
+      "context": "Two pages to prioritise"
+    }
+  ],
+  "processes": [
+    {
+      "id": "HT-P01",
+      "process": "Content writing & editing",
+      "trigger": "Start of month – SEO briefs per client, Tier 1 first",
+      "owner_role": "Content Specialist",
+      "frequency": {
+        "count": 7,
+        "per": "month",
+        "scope": "~7 clients, ~2 days each"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Tier 1 first",
+              "pct": null
+            },
+            {
+              "outcome": "Out-of-cycle client request interrupts",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        },
+        {
+          "after_step": 5,
+          "branches": [
+            {
+              "outcome": "Approved first time",
+              "pct": null
+            },
+            {
+              "outcome": "Revisions (HT-P03)",
+              "pct": null
+            }
+          ],
+          "certainty": "not discussed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        6544,
+        9072
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Pick up next brief, Tier 1 first",
+          "actor_role": "Content Specialist",
+          "tool": "Content tracker (Google Sheets) / Monday.com",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Research and bulk out with Claude using specific prompts",
+          "actor_role": "Content Specialist",
+          "tool": "Claude",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time inside per-client 684–912)"
+        },
+        {
+          "step": 3,
+          "action": "Finesse draft – human flair, tone of voice, accuracy",
+          "actor_role": "Content Specialist",
+          "tool": "Google Docs (assumed)",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time inside per-client 684–912)"
+        },
+        {
+          "step": 4,
+          "action": "Fact-check and relevance check in Gemini",
+          "actor_role": "Content Specialist",
+          "tool": "Gemini",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (time inside per-client 684–912)"
+        },
+        {
+          "step": 5,
+          "action": "Submit for approval",
+          "actor_role": "Content Specialist",
+          "tool": "Email / tracker (assumed)",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Client / AM review",
+          "handoff_to": "Account manager / client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Last-minute requests from out-of-cycle high-priority client",
+          "trigger": "Client sends unbriefed work directly",
+          "rate": "Monthly (assumed)",
+          "extra_steps": "Reprioritise; write without brief; protect buffer",
+          "extra_min": [
+            120,
+            360
+          ],
+          "certainty": "stated event / assumed rate and time"
+        },
+        {
+          "name": "Unfamiliar technical topic",
+          "trigger": "Specialist client field",
+          "rate": "Some clients monthly",
+          "extra_steps": "Extra research and fact-checking",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; time included in per-client range"
+        },
+        {
+          "name": "Brief lacks detail",
+          "trigger": "Brief below new standard",
+          "rate": "0–2/month (assumed)",
+          "extra_steps": "Clarify with SEO specialist",
+          "extra_min": [
+            0,
+            30
+          ],
+          "certainty": "stated historic / assumed rate"
+        }
+      ],
+      "monthly_hours": [
+        81.8,
+        113.4
+      ],
+      "monthly_hours_working": "Per client 1.5–2 days × 7.6 h = 684–912 min; happy 7 × 684 = 4,788 to 7 × 912 = 6,384 min; bad 120 + 0 = 120 to 360 + 60 = 420 min; total 4,908–6,804 min = 81.8–113.4 h; × $80 = $6,544–$9,072"
+    },
+    {
+      "id": "HT-P02",
+      "process": "Content writing & editing",
+      "trigger": "Own client work done (target 24th); freelancer overflow drafts to edit",
+      "owner_role": "Content Manager (assigns); Content Specialist (edits)",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "last ~4–5 working days"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Own work done by 24th – editing on time",
+              "pct": null
+            },
+            {
+              "outcome": "Slips into crunch",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1216,
+        2432
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Assign work to freelancers",
+          "actor_role": "Content Manager (HT on leave)",
+          "tool": "Google Sheets, email",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Freelancers",
+          "flags": [
+            "single-person"
+          ],
+          "certainty": "stated step; time not costed (not discussed)"
+        },
+        {
+          "step": 2,
+          "action": "Freelancers write",
+          "actor_role": "Freelancers (contractors)",
+          "tool": "Google Docs / Sheets",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Through the month",
+          "handoff_to": "HT / Content Manager",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated"
+        },
+        {
+          "step": 3,
+          "action": "Edit freelancer overflow",
+          "actor_role": "Content Specialist",
+          "tool": "Google Docs (assumed)",
+          "touch_min": [
+            912,
+            1824
+          ],
+          "wait": "Starts ~24th",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated timing / assumed time"
+        },
+        {
+          "step": 4,
+          "action": "Submit for approval",
+          "actor_role": "Content Specialist",
+          "tool": "Email / tracker (assumed)",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Client review",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Overflow lands on late own work or ad hoc requests",
+          "trigger": "Own work not done by 24th; out-of-cycle client",
+          "rate": "Most months ('often crunchy')",
+          "extra_steps": "Compress editing",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; crunch not quantified"
+        },
+        {
+          "name": "Freelancer draft off-style",
+          "trigger": "Freelancers not trained in house style",
+          "rate": "not discussed",
+          "extra_steps": "Heavier edit",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "detected"
+        }
+      ],
+      "monthly_hours": [
+        15.2,
+        30.4
+      ],
+      "monthly_hours_working": "Low 4 days × 7.6 h × 50% = 15.2 h; high 5 × 7.6 × 80% = 30.4 h; × $80 = $1,216–$2,432 (assumed)"
+    },
+    {
+      "id": "HT-P03",
+      "process": "Client content approval",
+      "trigger": "Client / AM feedback on a draft",
+      "owner_role": "Content Specialist",
+      "frequency": {
+        "count": null,
+        "per": "month",
+        "scope": "rounds not stated; assumed 4–10"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Approved",
+              "pct": null
+            },
+            {
+              "outcome": "Revisions",
+              "pct": null
+            }
+          ],
+          "certainty": "not discussed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        200,
+        960
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Client reviews draft",
+          "actor_role": "Client",
+          "tool": "Email / doc",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "not discussed",
+          "handoff_to": "HT",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step"
+        },
+        {
+          "step": 2,
+          "action": "Apply revisions and resubmit",
+          "actor_role": "Content Specialist",
+          "tool": "Google Docs (assumed)",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 3,
+          "action": "Carry client preference into future briefs",
+          "actor_role": "SEO specialist / HT",
+          "tool": "Brief (copied brief to brief)",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Next brief",
+          "flags": [
+            "manual copy"
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Compliance-sensitive client comments despite detailed brief",
+          "trigger": "Dental – 'APRA' (likely AHPRA) guidelines",
+          "rate": "1–2/month (assumed)",
+          "extra_steps": "Extra review round",
+          "extra_min": [
+            30,
+            60
+          ],
+          "certainty": "stated event / assumed rate and time"
+        }
+      ],
+      "monthly_hours": [
+        2.5,
+        12.0
+      ],
+      "monthly_hours_working": "Low 4 × 30 + 1 × 30 = 150 min (2.5 h); high 10 × 60 + 2 × 60 = 720 min (12.0 h); × $80 = $200–$960 (assumed)"
+    },
+    {
+      "id": "HT-P04",
+      "process": "Content briefing",
+      "trigger": "Briefs not meeting writers' needs; quarterly refresh planned",
+      "owner_role": "SEO specialists (write); Content Manager + Content Specialist (standard)",
+      "frequency": {
+        "count": 1,
+        "per": "quarter",
+        "scope": "all briefs"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Refresh this quarter",
+              "pct": null
+            },
+            {
+              "outcome": "No change",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (planned quarterly)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        56,
+        104
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Review what writers need from briefs",
+          "actor_role": "Content Manager + HT",
+          "tool": "Briefs",
+          "touch_min": [
+            120,
+            240
+          ],
+          "wait": "",
+          "handoff_to": "SEO specialists",
+          "flags": [],
+          "certainty": "stated step / assumed time (per quarter)"
+        },
+        {
+          "step": 2,
+          "action": "Training / agreement with SEO specialists",
+          "actor_role": "Content Manager, HT, SEO specialists",
+          "tool": "Meeting",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "SEO specialists",
+          "flags": [],
+          "certainty": "stated; time in step 1"
+        },
+        {
+          "step": 3,
+          "action": "SEO specialists write briefs to standard; Claude for structure",
+          "actor_role": "SEO specialists",
+          "tool": "Brief template, Claude",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "HT",
+          "flags": [],
+          "certainty": "stated; SEO time not costed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Briefs drift back to thin / generic",
+          "trigger": "No refresh",
+          "rate": "not discussed",
+          "extra_steps": "Rework, generic AI output",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated historic"
+        }
+      ],
+      "monthly_hours": [
+        0.7,
+        1.3
+      ],
+      "monthly_hours_working": "120 ÷ 3 = 40 min (0.7 h) to 240 ÷ 3 = 80 min (1.3 h); × $80 = $56–$104 (assumed)"
+    },
+    {
+      "id": "HT-P05",
+      "process": "Internal task management",
+      "trigger": "Weekly rhythm; Content Manager's leave",
+      "owner_role": "Content Manager; Content Specialist covers",
+      "frequency": {
+        "count": 4.33,
+        "per": "month (weekly)",
+        "scope": "content team"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Connect Sheet to Monday.com",
+              "pct": null
+            },
+            {
+              "outcome": "Rebuild in Monday.com",
+              "pct": null
+            }
+          ],
+          "certainty": "open"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        264,
+        680
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Update word counts / status in tracker and Monday.com",
+          "actor_role": "Content Specialist",
+          "tool": "Google Sheets + Monday.com",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "Content Manager",
+          "flags": [
+            "manual copy"
+          ],
+          "certainty": "assumed (per week)"
+        },
+        {
+          "step": 2,
+          "action": "Meet Content Manager",
+          "actor_role": "HT, Content Manager",
+          "tool": "Meeting",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time (per week)"
+        },
+        {
+          "step": 3,
+          "action": "Cover freelancer assignment when Content Manager on leave",
+          "actor_role": "Content Specialist",
+          "tool": "Google Sheets, email",
+          "touch_min": [
+            0,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "Freelancers",
+          "flags": [
+            "single-person"
+          ],
+          "certainty": "stated event / assumed time (per month averaged)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Content Manager on leave",
+          "trigger": "Leave",
+          "rate": "A few times a year (assumed)",
+          "extra_steps": "HT assigns freelancers plus own book",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; time in step 3"
+        },
+        {
+          "name": "Sheets–Monday.com connection not built",
+          "trigger": "Owner (Sid) moving to client work",
+          "rate": "Ongoing",
+          "extra_steps": "Keep both systems in step",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; time in step 1"
+        }
+      ],
+      "monthly_hours": [
+        3.3,
+        8.5
+      ],
+      "monthly_hours_working": "Low 4.33 × (15 + 30) = 195 min + 0 = 3.3 h; high 4.33 × (30 + 60) = 390 + 120 = 510 min (8.5 h); × $80 = $264–$680 (assumed)"
+    },
+    {
+      "id": "HT-P06",
+      "process": "Client meetings & prep",
+      "trigger": "In-person meeting with one high-priority client",
+      "owner_role": "Account lead (not named); Content Specialist attends",
+      "frequency": {
+        "count": 1,
+        "per": "month (assumed)",
+        "scope": "1 client"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        240
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Prepare and attend in-person meeting",
+          "actor_role": "Content Specialist",
+          "tool": "–",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated event / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Take away ad hoc requests",
+          "actor_role": "Content Specialist",
+          "tool": "–",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "HT-P01",
+          "flags": [],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        1.0,
+        3.0
+      ],
+      "monthly_hours_working": "1 × 60 = 60 min (1.0 h) to 1 × 180 = 180 min (3.0 h); × $80 = $80–$240 (assumed)"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "HT-PP01",
+      "text": "End of month is crunchy: own work must be done by the 24th so freelancer overflow can be edited in the last week",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Content writing & editing",
+      "impact": "Late-month pressure; delivery and quality risk",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "So the end of the month is often crunchy",
+      "timestamp": "~13:12 (L150)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "HT-PP02",
+      "text": "One high-priority client sits outside the content cycle – not briefed by SEO, sends last-minute work; writers hold buffer",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Client experience & delivery",
+      "process": "Content writing & editing",
+      "impact": "2–6 h/month unplanned (assumed); disrupts ~7 clients' schedule",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "even the seo tech doesn't brief it, they just give us things to do at the last minute.",
+      "timestamp": "~13:57 (L155)",
+      "certainty": "stated event / assumed hours",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "HT-PP03",
+      "text": "Content cover is thin: when the Content Manager was on leave, HT took on freelancer assignment plus her book – crunchy",
+      "source": "interviewee",
+      "category": "Single point of failure (person)",
+      "anchor": "Leadership & dependency",
+      "process": "Internal task management",
+      "impact": "Overload during leave; freelancer work depends on one person",
+      "frequency": "Whenever Content Manager is away",
+      "severity": 3,
+      "quote": "when Sarah went on leave, it was like crunchy for me for sure.",
+      "timestamp": "~18:24 (L208)",
+      "certainty": "stated",
+      "matches_existing_problem": "Content delivery hinges on the Content Manager as writer, editor and contractor manager"
+    },
+    {
+      "id": "HT-PP04",
+      "text": "Client nuance (tone of voice, compliance preferences) copied brief to brief and held by the owning writer; handover docs could be stronger",
+      "source": "interviewer (central-store question); interviewee said not a felt pain but agreed handover could be more robust",
+      "category": "Single point of failure (person)",
+      "anchor": "Client experience & delivery",
+      "process": "Content briefing",
+      "impact": "Cover / handover risk; repeat client corrections",
+      "frequency": "Every brief",
+      "severity": 3,
+      "quote": "it does usually get copied and pasted from brief to brief.",
+      "timestamp": "~09:03 (L108)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "HT-PP05",
+      "text": "Freelancer work and word-count tracker in Google Sheets (some per freelancer) and email alongside Monday.com – double-ups",
+      "source": "interviewee",
+      "category": "Duplicate data entry",
+      "anchor": "Technology, AI & stack",
+      "process": "Internal task management",
+      "impact": "1–3 h/month double handling (assumed); no single view",
+      "frequency": "Weekly",
+      "severity": 3,
+      "quote": "I think for the sake of simplicity and double ups, yeah, we should go to Monday.",
+      "timestamp": "~15:53 (L177)",
+      "certainty": "stated problem / assumed hours",
+      "matches_existing_problem": "Content tracker and link sheets live outside Monday.com"
+    },
+    {
+      "id": "HT-PP06",
+      "text": "Nobody clearly driving the Sheets–Monday.com tracker connection; it sat with Sid, who is moving to client work",
+      "source": "interviewee; interviewer added Sid's reduced time",
+      "category": "Unclear ownership",
+      "anchor": "Technology, AI & stack",
+      "process": "Internal task management",
+      "impact": "Migration stalls; double-ups continue",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "Yeah, I think that's what's kid [Sid] but I don't know where it's at.",
+      "timestamp": "~20:07 (L232)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "HT-PP07",
+      "text": "Overflow relies on costly freelancers not trained in house style; junior hire under way",
+      "source": "interviewee (cost wording garbled, may be Austin's, L214–L215)",
+      "category": "Revenue / margin leak",
+      "anchor": "Operations capacity & process",
+      "process": "Content writing & editing",
+      "impact": "Contractor spend ~$14k/month team-wide (context pack); editing load",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "they're amazing, but we want someone that we can train in.",
+      "timestamp": "~19:03 (L217)",
+      "certainty": "stated intent / context pack $",
+      "matches_existing_problem": "new (partly overlaps Content Manager dependency)"
+    },
+    {
+      "id": "HT-PP08",
+      "text": "AI tools skew vague; good output needs very specific prompts and individual trial and error",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Technology, AI & stack",
+      "process": "Content writing & editing",
+      "impact": "Prompting time; generic-content risk",
+      "frequency": "Daily",
+      "severity": 2,
+      "quote": "my main gripe with. like a Claude or a chat GPT is that they do lean like unspecific.",
+      "timestamp": "~21:57 (L254–L255)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "HT-PP09",
+      "text": "Briefs used to lack detail and context (fixed by joint training; could drift without quarterly refresh)",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Client experience & delivery",
+      "process": "Content briefing",
+      "impact": "Was rework / generic output; resolved",
+      "frequency": "Historic",
+      "severity": 2,
+      "quote": "with the SEO specialists to kind of make the briefs better because we weren't getting what we wanted out of them.",
+      "timestamp": "~05:26 (L072)",
+      "certainty": "stated",
+      "matches_existing_problem": "resolved – no match"
+    },
+    {
+      "id": "HT-PP10",
+      "text": "Compliance-sensitive (dental) clients still comment on drafts even with fully detailed briefs – extra review rounds",
+      "source": "interviewee (accepts as fair)",
+      "category": "Client friction",
+      "anchor": "Client experience & delivery",
+      "process": "Client content approval",
+      "impact": "0.5–2 h/month (assumed)",
+      "frequency": "1–2/month (assumed)",
+      "severity": 2,
+      "quote": "She'll still comment anyway, which is totally fair because it's like APRA guidelines and her business on the line.",
+      "timestamp": "~09:45 (L117)",
+      "certainty": "stated event / assumed rate",
+      "matches_existing_problem": "minor – no match"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "HT-B01",
+      "step": "Freelancer overflow editing (HT-P02 step 3)",
+      "waiting_on": "Own client work (24th) and freelancer drafts",
+      "typical_wait": "Compressed into last ~4–5 working days",
+      "affected": "All freelancer overflow (~48% of team words, context pack)",
+      "knock_on": "End-of-month crunch; quality and on-time risk"
+    },
+    {
+      "id": "HT-B02",
+      "step": "Last-minute work from out-of-cycle client (HT-P01)",
+      "waiting_on": "Client's own requests – no brief, no cut-off",
+      "typical_wait": "Unpredictable",
+      "affected": "1 client; displaces ~7 others",
+      "knock_on": "Buffer held monthly; adds to crunch"
+    },
+    {
+      "id": "HT-B03",
+      "step": "Client approval (HT-P03 step 1)",
+      "waiting_on": "Client feedback",
+      "typical_wait": "not discussed",
+      "affected": "All drafts",
+      "knock_on": "Revisions bunch with month-end work (assumed)"
+    },
+    {
+      "id": "HT-B04",
+      "step": "Sheets–Monday.com tracker connection (HT-P05)",
+      "waiting_on": "Owner with time and skills (Sid moving to client work)",
+      "typical_wait": "Open-ended",
+      "affected": "Content team",
+      "knock_on": "Double-ups continue; migration stalls"
+    },
+    {
+      "id": "HT-B05",
+      "step": "Freelancer assignment (HT-P02 step 1)",
+      "waiting_on": "Content Manager",
+      "typical_wait": "Not stated; falls to HT on leave",
+      "affected": "All freelancer work",
+      "knock_on": "Cover overload"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "HT-S01",
+      "idea": "Refresh content briefs every quarter (e.g. AEO changes)",
+      "source": "interviewee",
+      "reaction": "Agreed with Content Manager",
+      "process": "Content briefing",
+      "quote": "I think we might just do it every quarter we decided because things change as well like I mean with AEO and everything.",
+      "timestamp": "~06:32 (L081)"
+    },
+    {
+      "id": "HT-S02",
+      "idea": "Briefs human, data-heavy and contextual so writers add flair and use Claude for research (implemented)",
+      "source": "interviewee",
+      "reaction": "Implemented via training",
+      "process": "Content briefing",
+      "quote": "we sort of wanted the briefs to be as human as possible and as data heavy and contextual as possible",
+      "timestamp": "~05:59 (L077)"
+    },
+    {
+      "id": "HT-S03",
+      "idea": "Bring freelancer sheets and comms into Monday.com – all under one roof",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Internal task management",
+      "quote": "I think we're trying to integrate that into Monday because we're loving Monday. Let's get it all under one roof.",
+      "timestamp": "~15:20 (L171)"
+    },
+    {
+      "id": "HT-S04",
+      "idea": "Connect the Sheets word-count tracker to Monday.com rather than rebuild; Austin to follow up",
+      "source": "interviewer",
+      "reaction": "Interviewee agreed it was the plan; didn't know status",
+      "process": "Internal task management",
+      "quote": "I know you can connect Google Sheets to Monday.",
+      "timestamp": "~19:57 (L231)"
+    },
+    {
+      "id": "HT-S05",
+      "idea": "Briefs or handover docs detailed enough for cover when a writer is away",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Content briefing / Knowledge & SOPs",
+      "quote": "the briefs should be detailed enough or a hand over docs to be like, when one of us goes away.",
+      "timestamp": "~11:00 (L130)"
+    },
+    {
+      "id": "HT-S06",
+      "idea": "Hire a junior content writer trained in house style instead of leaning on freelancers (in progress)",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Hiring & onboarding staff",
+      "quote": "we're currently like going through some CVs for a junior",
+      "timestamp": "~18:44 (L214)"
+    },
+    {
+      "id": "HT-S07",
+      "idea": "Research tool for unfamiliar subject matter",
+      "source": "interviewer",
+      "reaction": "Interviewee said AI already does this for her",
+      "process": "Content writing & editing",
+      "quote": "AI has already really helped with that for me",
+      "timestamp": "~21:39 (L250)"
+    },
+    {
+      "id": "HT-S08",
+      "idea": "Work out what Monday.com can do for content ↔ SEO team communication",
+      "source": "interviewee",
+      "reaction": "Open question",
+      "process": "Internal task management",
+      "quote": "How it can help content team, how content team can speak to SEO team.",
+      "timestamp": "~24:28 (L280)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "HT-O01",
+      "fixes": [
+        "HT-PP04",
+        "HT-PP03",
+        "HT-PP10"
+      ],
+      "lens": "Change the process",
+      "change": "One content profile per client (tone, compliance rules, preferences and feedback history, key facts) in one place, linked from every brief, updated after each feedback round; doubles as the handover doc",
+      "matches_existing_solution": "AI business brain (lightweight) / team wiki",
+      "candidate_tool": "Monday.com item docs or shared Google Doc per client",
+      "hours_saved_month": [
+        1.0,
+        4.0
+      ],
+      "effort": "S",
+      "prerequisites": "Template; writer owns each profile; SEO specialists link it",
+      "adoption_risk": "L – formalises what the team already does",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of active content clients with a current profile",
+          "measured_by": "Monday.com / Drive audit",
+          "baseline": "0 central",
+          "baseline_quote": "it does usually get copied and pasted from brief to brief.",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Revision rounds per piece",
+          "measured_by": "Content tracker",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "-25%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Formalises existing practice; closes the handover gap she named"
+    },
+    {
+      "id": "HT-O02",
+      "fixes": [
+        "HT-PP07",
+        "HT-PP03",
+        "HT-PP01"
+      ],
+      "lens": "People & policy",
+      "change": "Finish the junior writer hire; train in house style; shift overflow from freelancers; write a simple leave-cover plan",
+      "matches_existing_solution": "new",
+      "candidate_tool": "– (hire)",
+      "hours_saved_month": [
+        0,
+        7.6
+      ],
+      "effort": "L",
+      "prerequisites": "Budget sign-off; CVs in progress; training time",
+      "adoption_risk": "M – early training load on Content Manager and HT",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Share of monthly words written in-house vs freelancers",
+          "measured_by": "Internal content tracker",
+          "baseline": "Contractors 48% (context pack)",
+          "baseline_quote": "",
+          "target": "<=35% within 6 months",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Contractor spend per month",
+          "measured_by": "Xero",
+          "baseline": "~$14k/month (context pack)",
+          "baseline_quote": "",
+          "target": "-20–30%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 2,
+      "tag": "Strategic",
+      "rank_reason": "Already under way; tackles cover, crunch and freelancer cost"
+    },
+    {
+      "id": "HT-O03",
+      "fixes": [
+        "HT-PP05",
+        "HT-PP06",
+        "HT-B04"
+      ],
+      "lens": "Automate",
+      "change": "Connect the word-count / content tracker Sheet to Monday.com (native integration or Make.com); freelancers get guest access; name an owner other than Sid",
+      "matches_existing_solution": "new (problem: content tracker outside Monday.com)",
+      "candidate_tool": "Monday.com Google Sheets integration; Make.com",
+      "hours_saved_month": [
+        1.1,
+        3.2
+      ],
+      "effort": "S",
+      "prerequisites": "Monday.com admin owner; agreed tracker fields",
+      "adoption_risk": "L – team is 'loving Monday'",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Places freelancer assignments are tracked",
+          "measured_by": "Process audit",
+          "baseline": "3 (Sheets, email, Monday.com)",
+          "baseline_quote": "And then we email them or communicate through Google Sheets, which would probably have to change if we go to Monday.",
+          "target": "1",
+          "type": "leading"
+        },
+        {
+          "kpi": "Minutes a week on tracker double-ups",
+          "measured_by": "Time log",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "<=10",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 5,
+      "tag": "Fill-in",
+      "rank_reason": "Small hours, but finishes a migration the team wants"
+    },
+    {
+      "id": "HT-O04",
+      "fixes": [
+        "HT-PP02",
+        "HT-B02",
+        "HT-PP01"
+      ],
+      "lens": "Change the process",
+      "change": "Bring the out-of-cycle client into the system: reserved monthly allowance, request cut-off, requests logged via account lead into Monday.com and briefed",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com request form",
+      "hours_saved_month": [
+        1.0,
+        4.2
+      ],
+      "effort": "S",
+      "prerequisites": "Identify client; account lead + client agreement",
+      "adoption_risk": "M – high-value client's habits",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of that client's requests logged with >=5 working days' notice",
+          "measured_by": "Monday.com",
+          "baseline": "Last-minute",
+          "baseline_quote": "they just give us things to do at the last minute.",
+          "target": ">=80%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 4,
+      "tag": "Strategic",
+      "rank_reason": "Root cause of unplanned work; needs client to change habits. Impact 3 / Ease 3 fits no tag – Strategic is closest"
+    },
+    {
+      "id": "HT-O05",
+      "fixes": [
+        "HT-PP01",
+        "HT-B01"
+      ],
+      "lens": "Change the process",
+      "change": "Stagger freelancer due dates (mid-month and the 20th) so overflow editing spreads through the month",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com due dates; content tracker",
+      "hours_saved_month": [
+        0,
+        1
+      ],
+      "effort": "S",
+      "prerequisites": "Content Manager schedules; freelancer agreement",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of freelancer overflow edited before the 24th",
+          "measured_by": "Tracker dates",
+          "baseline": "~0%",
+          "baseline_quote": "We are aiming this month to get all our client work done by the 24th because then we edit a bunch of freelancer.",
+          "target": ">=50%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Pieces delivered after month end",
+          "measured_by": "Tracker",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 2,
+        "ease": 4,
+        "priority": 16
+      },
+      "rank": 6,
+      "tag": "Fill-in",
+      "rank_reason": "Crunch relief; few hours saved"
+    },
+    {
+      "id": "HT-O06",
+      "fixes": [
+        "HT-PP08"
+      ],
+      "lens": "Augment",
+      "change": "Shared content AI playbook (Claude research prompts, brief-to-prompt template, Gemini fact-check) in a shared Claude Project with the style guide, for writers, freelancers and the junior",
+      "matches_existing_solution": "team wiki / L&D",
+      "candidate_tool": "Claude Projects; Notion",
+      "hours_saved_month": [
+        0.6,
+        2.4
+      ],
+      "effort": "S",
+      "prerequisites": "Content Manager + HT document prompts",
+      "adoption_risk": "L – HT already runs this system",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Shared prompts in the playbook",
+          "measured_by": "Playbook / Claude Project",
+          "baseline": "0 shared",
+          "baseline_quote": "but it's like just a lot of trial and error.",
+          "target": ">=10 core prompts",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 5,
+        "priority": 30
+      },
+      "rank": 3,
+      "tag": "Fill-in",
+      "rank_reason": "Captures a working AI workflow for juniors and freelancers"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Briefs fixed through joint training with SEO specialists",
+      "quote": "And so the briefs have been incredible since then.",
+      "timestamp": "~08:06 (L098)"
+    },
+    {
+      "text": "Predictable monthly content cycle",
+      "quote": "It's pretty predictable, which is really, really nice.",
+      "timestamp": "~14:27 (L159)"
+    },
+    {
+      "text": "Clear tier-based prioritisation",
+      "quote": "tier one being our highest paying, most important clients. I'll tackle their work first.",
+      "timestamp": "~03:21 (L046)"
+    },
+    {
+      "text": "Self-built AI workflow with a Gemini fact-check layer",
+      "quote": "then I then like run that through Gemini to be like is this factual relevant to the reader",
+      "timestamp": "~22:19 (L261)"
+    },
+    {
+      "text": "Writers keep their own clients and stay across nuance",
+      "quote": "We have our clients and we try to stick with them so that we're very across that",
+      "timestamp": "~11:00 (L130)"
+    },
+    {
+      "text": "Client feedback carried into future briefs",
+      "quote": "a lot of the time a client will say something after a round of feedback.",
+      "timestamp": "~09:13 (L109)"
+    },
+    {
+      "text": "Detailed briefs for a compliance-sensitive dental client",
+      "quote": "the briefs are so detailed and have all their preferences.",
+      "timestamp": "~09:38 (L115)"
+    },
+    {
+      "text": "Monday.com adoption has been easy",
+      "quote": "a very easy transition.",
+      "timestamp": "~17:53 (L199)"
+    },
+    {
+      "text": "Capacity planned before it became a crisis",
+      "quote": "get it before it became like a full pain point.",
+      "timestamp": "~18:44 (L214)"
+    },
+    {
+      "text": "Human-written content as point of difference",
+      "quote": "So like the greatest point of difference is now being able human like adding that human touch again",
+      "timestamp": "~31:14 (L349)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "~7",
+      "unit": "clients",
+      "context": "HT's book this month (context pack says 17)",
+      "quote": "I think I have about like Seven this month.",
+      "timestamp": "~12:49 (L147)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~2",
+      "unit": "days per client",
+      "context": "Writing time per client per month",
+      "quote": "I kind of work on a client for a couple of days",
+      "timestamp": "~12:49 (L147)",
+      "certainty": "stated"
+    },
+    {
+      "value": "24th",
+      "unit": "day of month",
+      "context": "Target to finish own client work",
+      "quote": "aiming this month to get all our client work done by the 24th",
+      "timestamp": "~12:49 (L147)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2",
+      "unit": "writers with client books",
+      "context": "Content Manager and HT",
+      "quote": "We have a certain amount of clients each, Sarah and I",
+      "timestamp": "~03:15 (L045)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~6",
+      "unit": "months",
+      "context": "HT's tenure",
+      "quote": "I only started like six months ago.",
+      "timestamp": "~17:09 (L195)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~2",
+      "unit": "months",
+      "context": "Since moving to Monday.com",
+      "quote": "we kind of only just got onto Monday a couple months ago.",
+      "timestamp": "~14:55 (L167)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1–2",
+      "unit": "months ago",
+      "context": "Brief training with SEO specialists",
+      "quote": "I think like a month or two ago had a training",
+      "timestamp": "~05:26 (L072)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Quarterly",
+      "unit": "cadence",
+      "context": "Planned brief refresh",
+      "quote": "I think we might just do it every quarter we decided",
+      "timestamp": "~06:32 (L081)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "client",
+      "context": "Met in person; outside content cycle",
+      "quote": "sometimes meet with a very high priority client in person",
+      "timestamp": "~03:54 (L052)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "junior writer",
+      "context": "Hire in progress; reviewing CVs",
+      "quote": "we're currently like going through some CVs for a junior",
+      "timestamp": "~18:44 (L214)",
+      "certainty": "stated"
+    },
+    {
+      "value": "not stated",
+      "unit": "monthly word-count target",
+      "context": "Writers work to a word-count target",
+      "quote": "Like we kind of just have a word count.",
+      "timestamp": "~03:54 (L052)",
+      "certainty": "stated (value not discussed)"
+    },
+    {
+      "value": "a few months ago",
+      "unit": "–",
+      "context": "Content Manager's leave; HT covered freelancer assignment",
+      "quote": "she went on leave a few months ago so I did that",
+      "timestamp": "~12:28 (L146)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~30",
+      "unit": "minutes",
+      "context": "Interview ended early in a 60-min slot",
+      "quote": "I can give you 30 minutes back into your calendar",
+      "timestamp": "~33:01 (L374)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Content briefs (SEO specialists, structured with Claude)",
+      "Internal content tracker / word-count tracker (Google Sheets)",
+      "Freelancer Google Sheets",
+      "Email",
+      "Monday.com (adopted ~2 months ago)",
+      "Slack",
+      "HubSpot (previously used with the tracker – clunky)"
+    ],
+    "shadow": [
+      "Claude – research and bulk-out of drafts",
+      "Gemini – fact-check and relevance layer",
+      "Personal prompt system (trial and error)"
+    ],
+    "duplicated_data": [
+      "Freelancer assignments and word counts (Sheets, email, Monday.com)",
+      "Client tone of voice / preferences (copied into each brief and held by writers)"
+    ],
+    "missing_access": [
+      "Working Sheets–Monday.com connection for the tracker",
+      "Clarity on Monday.com capabilities for content ↔ SEO communication",
+      "Briefs for the out-of-cycle client"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Tone of voice and preferences for her ~7 clients",
+      "who_role": "Content Specialist",
+      "if_absent": "Cover relies on briefs that may not hold everything"
+    },
+    {
+      "what": "Freelancer assignment and tracker design",
+      "who_role": "Content Manager",
+      "if_absent": "Falls to HT on top of her book"
+    },
+    {
+      "what": "Out-of-cycle client's requests and context",
+      "who_role": "Content Specialist and Content Manager",
+      "if_absent": "Nobody else can pick up last-minute work"
+    },
+    {
+      "what": "Sheets–Monday.com integration know-how",
+      "who_role": "Technical SEO Specialist (Sid) – moving to client work",
+      "if_absent": "Migration stalls"
+    },
+    {
+      "what": "AI prompting workflow",
+      "who_role": "Content Specialist (individual)",
+      "if_absent": "Junior and freelancers start from scratch"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Which client is the out-of-cycle in-person client, and hours/month of its last-minute requests?",
+      "Revision rounds per month and time per round; client approval turnaround?",
+      "Words written and edited per month from the tracker; share of last week on freelancer editing?",
+      "Is leave cover documented? Who signs off the junior hire and start date?",
+      "Status and owner of the Sheets–Monday.com connection (Sid / Austin)?",
+      "What are 'AI fly' (L349) and 'imperative style' (L218)?"
+    ],
+    "contradictions": [
+      "Context pack: 17 content clients; transcript: about 7 this month (L147)",
+      "Content Specialist ~15% of team words (~14k/month) – check against 7 clients × ~2 days",
+      "High-end hours (~169 h/month) exceed one FTE",
+      "Client nuance 'not a pain point' (L106) vs 'could probably protect ourselves more' (L135)"
+    ],
+    "data_requests": [
+      "Range of briefs incl. freelancer brief and detailed Tier 1 brief, annotated (Hayley)",
+      "Drafts as submitted for approval, matched to briefs (Hayley)",
+      "Internal content tracker 2026 overview / word-count tracker (Sarah / Hayley)",
+      "Freelancer sheets and rates (Sarah)",
+      "Monday.com content board export (Sarah / Sid)"
+    ],
+    "verify": [
+      "~7 clients and ~2 days per client vs tracker",
+      "Freelancer cost claim – garbled (L214–L215); use context-pack contractor spend",
+      "Dental client 'APRA' – likely AHPRA; which client",
+      "Recording L389–L919 is a separate Wendlley Meta pacing session – extract against Wendlley's evidence row, not Hayley's"
+    ]
+  }
+}

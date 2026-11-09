@@ -1,0 +1,2613 @@
+{
+ "interview": {
+  "id": "WS",
+  "name": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "team": "Performance",
+  "date": "2026-10-28",
+  "minutes": 63,
+  "clients_managed": 4
+ },
+ "time_allocation": [
+  {
+   "activity": "Own client portfolio (4 Tier 1 clients, ~18 channels)",
+   "pct": 50,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "I haven't stopped to think about it, but I think it has been around maybe 50-50 currently.",
+   "timestamp": "~02:48 (L049)",
+   "certainty": "stated %; hours estimated 19–22.5/week (50% × 38–45 h); billable assumed"
+  },
+  {
+   "activity": "Team management: mentoring, questions, strategy reviews, stepping into accounts",
+   "pct": 50,
+   "hours_per_week": null,
+   "billable": false,
+   "quote": "it's not just my client portfolio. … is all the agency portfolio as well.",
+   "timestamp": "~04:17–04:36 (L076–L077)",
+   "certainty": "stated %; hours estimated; non-billable assumed"
+  },
+  {
+   "activity": "Own portfolio squeezed by everything else",
+   "pct": null,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "my client portfolio has been quite a a small amount that have been spending on that because like I've been stretched out",
+   "timestamp": "~04:58 (L082)",
+   "certainty": "stated (no number)"
+  },
+  {
+   "activity": "Internal WIPs Tue/Thu/Fri",
+   "pct": null,
+   "hours_per_week": null,
+   "billable": false,
+   "quote": "we have whips [WIPs] almost daily in the morning, like it's Tuesdays, Thursdays and Friday.",
+   "timestamp": "~17:15 (L213)",
+   "certainty": "stated frequency; length assumed 30–60 min"
+  }
+ ],
+ "decisions": [
+  {
+   "decision": "New-client paid strategy OK to send to client",
+   "decider_role": "Performance Marketing Director",
+   "waiting_role": "PM, client",
+   "typical_wait": "not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "New campaign build OK to publish (her clients)",
+   "decider_role": "Performance Marketing Director",
+   "waiting_role": "PM",
+   "typical_wait": "not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Month-end budget moves within client-agreed location splits",
+   "decider_role": "Performance Marketing Director",
+   "waiting_role": "",
+   "typical_wait": "Part of month-end",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Pivot channel for underperforming new client",
+   "decider_role": "Performance Marketing Director",
+   "waiting_role": "PM, client",
+   "typical_wait": "not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Escalate underperformance via ticket",
+   "decider_role": "WS / PM",
+   "waiting_role": "Wider team",
+   "typical_wait": "not stated",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Ad copy approval",
+   "decider_role": "Client",
+   "waiting_role": "PM, WS",
+   "typical_wait": "not stated",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Buy landing page (~$1,500) or paid creative",
+   "decider_role": "Client (raised in sales)",
+   "waiting_role": "PM",
+   "typical_wait": "not stated",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Accountability when anything goes wrong on any paid account",
+   "decider_role": "Founder asks Performance Marketing Director",
+   "waiting_role": "",
+   "typical_wait": "",
+   "lands_on_leadership": true
+  }
+ ],
+ "clients_mentioned": [
+  {
+   "client": "DDEG",
+   "tier": "Tier 1",
+   "context": "Austin's former employer; onboarding handed to Sophie (new), WS on calls"
+  },
+  {
+   "client": "Unnamed Tier 1 account (inherited)",
+   "tier": "Tier 1",
+   "context": "WS pulled in after Head of Performance left"
+  },
+  {
+   "client": "Unnamed client with no website",
+   "tier": "unknown",
+   "context": "Two months of work with no live website"
+  },
+  {
+   "client": "Unnamed Criteo client (possibly MUJI)",
+   "tier": "unknown (MUJI = Tier 2)",
+   "context": "Only Criteo account – unresolved"
+  },
+  {
+   "client": "Unnamed client with location budgets",
+   "tier": "unknown",
+   "context": "Client-agreed budgets per location limit budget moves"
+  }
+ ],
+ "processes": [
+  {
+   "id": "WS-P01",
+   "process": "Paid media – optimisation",
+   "trigger": "Weekly channel review; client raises a performance challenge",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 18,
+    "per": "channels reviewed weekly",
+    "scope": "4 clients / ~18 channels"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "Keep course",
+       "pct": null
+      },
+      {
+       "outcome": "Adjust",
+       "pct": null
+      },
+      {
+       "outcome": "Pivot channel",
+       "pct": null
+      }
+     ],
+     "certainty": "assumed"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    1640,
+    3600
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Review performance per channel; analyse; decide next steps",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      15,
+      30
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "bottleneck",
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (time per channel per week)"
+    },
+    {
+     "step": 2,
+     "action": "Filter platform recommendations against account strategy (location budgets, client-agreed splits)",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Google/Meta recommendations",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "single-person",
+      "error-prone"
+     ],
+     "certainty": "stated (step); time incl. in 1"
+    },
+    {
+     "step": 3,
+     "action": "Decide pivot and brief team or client",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Monday.com / WIP",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "PM / client",
+     "flags": [],
+     "certainty": "stated (step); time incl. in 1"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Client challenge",
+     "trigger": "Client says performance isn't working",
+     "rate": "1–3/month (assumed)",
+     "extra_steps": "Brainstorm ideas, new strategy",
+     "extra_min": [
+      60,
+      360
+     ],
+     "certainty": "stated trigger; rate and time assumed"
+    },
+    {
+     "name": "Generic platform advice",
+     "trigger": "Google/Meta recommend changes without strategy context",
+     "rate": "Every review",
+     "extra_steps": "Discard or adapt recommendations",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; time incl. in step 1"
+    }
+   ],
+   "monthly_hours": [
+    20.5,
+    45.0
+   ],
+   "monthly_hours_working": "18 × 4.33 × 15 = 1,169 to 18 × 4.33 × 30 = 2,338 min (19.5–39.0 h); + 1 × 60 = 60 to 3 × 120 = 360 min (1.0–6.0 h) → 20.5–45.0 h (all WS); × $80 = $1,640–$3,600"
+  },
+  {
+   "id": "WS-P02",
+   "process": "Paid media – campaign build",
+   "trigger": "New campaign needed for one of WS's clients",
+   "owner_role": "Performance Marketing Director (defines, reviews); Performance Manager / Specialist builds",
+   "frequency": {
+    "count": 3,
+    "per": "month (assumed 2–4)",
+    "scope": "WS's 4 clients"
+   },
+   "decision_points": [
+    {
+     "after_step": 4,
+     "branches": [
+      {
+       "outcome": "WS approves",
+       "pct": 75
+      },
+      {
+       "outcome": "Rework",
+       "pct": 25
+      }
+     ],
+     "certainty": "assumed (70–80 / 20–30)"
+    },
+    {
+     "after_step": 5,
+     "branches": [
+      {
+       "outcome": "Client approves",
+       "pct": 70
+      },
+      {
+       "outcome": "Client returns copy",
+       "pct": 30
+      }
+     ],
+     "certainty": "assumed (60–80 / 20–40)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    576,
+    2440
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Define campaign and assets",
+     "actor_role": "Performance Marketing Director",
+     "tool": "",
+     "touch_min": [
+      30,
+      60
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 2,
+     "action": "Brief team in Monday.com",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Monday.com",
+     "touch_min": [
+      15,
+      30
+     ],
+     "wait": "Queue on team capacity (unknown)",
+     "handoff_to": "Performance Manager / Specialist",
+     "flags": [],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 3,
+     "action": "Build campaign",
+     "actor_role": "Performance Manager / Specialist",
+     "tool": "Ad platform",
+     "touch_min": [
+      120,
+      240
+     ],
+     "wait": "",
+     "handoff_to": "Performance Marketing Director",
+     "flags": [],
+     "certainty": "assumed"
+    },
+    {
+     "step": 4,
+     "action": "Review before publishing",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platform",
+     "touch_min": [
+      20,
+      45
+     ],
+     "wait": "Waits for WS availability",
+     "handoff_to": "Performance Manager / Specialist",
+     "flags": [
+      "bottleneck",
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 5,
+     "action": "Send ad copy sheet with link previews for client approval",
+     "actor_role": "Performance Manager / Specialist / Performance Marketing Director",
+     "tool": "Google Sheets",
+     "touch_min": [
+      10,
+      20
+     ],
+     "wait": "Client approval: unknown",
+     "handoff_to": "Client",
+     "flags": [
+      "manual"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 6,
+     "action": "Publish",
+     "actor_role": "Performance Manager / Specialist",
+     "tool": "Ad platform",
+     "touch_min": [
+      10,
+      20
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "assumed"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Client sends copy back",
+     "trigger": "Google RSA previews show only 2–3 headlines; client wants changes",
+     "rate": "20–40% of runs (assumed)",
+     "extra_steps": "Explain, revise, resend",
+     "extra_min": [
+      30,
+      60
+     ],
+     "certainty": "stated cause; rate and time assumed"
+    },
+    {
+     "name": "WS review finds issues",
+     "trigger": "Build doesn't match brief",
+     "rate": "20–30% of runs (assumed)",
+     "extra_steps": "Feedback, rework",
+     "extra_min": [
+      30,
+      60
+     ],
+     "certainty": "assumed"
+    }
+   ],
+   "monthly_hours": [
+    7.2,
+    30.5
+   ],
+   "monthly_hours_working": "Per run 205 + (0.2×30 + 0.2×30) = 217 to 415 + (0.4×60 + 0.3×60) = 457 min; × 2 = 434 to × 4 = 1,828 min → 7.2–30.5 h (WS share 2×65 = 130 to 4×135 = 540 min = 2.2–9.0 h); × $80 = $576–$2,440"
+  },
+  {
+   "id": "WS-P03",
+   "process": "Paid media – pacing & budget management",
+   "trigger": "Pacing snapshot (Google/Meta sheets); month-end under/over-pacing; day 1 reset",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 13,
+    "per": "month (checks, assumed 3×/week) + month-end + day 1",
+    "scope": "18 channels"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "On pace",
+       "pct": null
+      },
+      {
+       "outcome": "Under-pacing",
+       "pct": null
+      },
+      {
+       "outcome": "Over-pacing",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    },
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Move within campaign/location",
+       "pct": null
+      },
+      {
+       "outcome": "Adjust CPA/ROAS targets",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    832,
+    2376
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Check spend vs budget per channel (sheet for Google/Meta; platform-by-platform for others)",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Pacing sheets, platforms",
+     "touch_min": [
+      2,
+      5
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual",
+      "error-prone"
+     ],
+     "certainty": "assumed (per channel per check)"
+    },
+    {
+     "step": 2,
+     "action": "Month-end: decide where to add or cut within strategy",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      15,
+      30
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (per channel needing change, 6–12 channels)"
+    },
+    {
+     "step": 3,
+     "action": "Change budgets",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated ('pretty easy'); time incl. in 2"
+    },
+    {
+     "step": 4,
+     "action": "Day 1: reset daily budgets",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      3,
+      8
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual"
+     ],
+     "certainty": "stated (step) / assumed (per channel)"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Overspend",
+     "trigger": "Channel outside Google/Meta sheets; no pacing tracker",
+     "rate": "0.1–0.3/month (assumed)",
+     "extra_steps": "Investigate, correct, tell client",
+     "extra_min": [
+      120,
+      360
+     ],
+     "certainty": "stated event ('a couple of issues'); rate and time assumed"
+    },
+    {
+     "name": "Campaign under-spends on target",
+     "trigger": "Google holds back to hit target CPA/ROAS",
+     "rate": "Monthly, some campaigns",
+     "extra_steps": "Loosen target within reason or move budget",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; time incl. in step 2"
+    },
+    {
+     "name": "Budget can't move between locations",
+     "trigger": "Client-agreed budgets per location",
+     "rate": "Accounts with location splits",
+     "extra_steps": "Rebalance within each location only",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; time incl. in step 2"
+    }
+   ],
+   "monthly_hours": [
+    10.4,
+    29.7
+   ],
+   "monthly_hours_working": "Checks 18×13×2 = 468 to 18×13×5 = 1,170 min; month-end 6×15 = 90 to 12×30 = 360 min; day 1 18×3 = 54 to 18×8 = 144 min; overspend 0.1×120 = 12 to 0.3×360 = 108 min → 624–1,782 min = 10.4–29.7 h; × $80 = $832–$2,376"
+  },
+  {
+   "id": "WS-P04",
+   "process": "Quarterly / 6-month review",
+   "trigger": "Quarterly review due for each Tier 1 client",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 1.5,
+    "per": "month (1.33–1.67)",
+    "scope": "4–5 Tier 1 clients, quarterly"
+   },
+   "decision_points": [
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Deck OK",
+       "pct": 70
+      },
+      {
+       "outcome": "Fix data",
+       "pct": 30
+      }
+     ],
+     "certainty": "assumed"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    168,
+    440
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Pull data and generate deck with AI",
+     "actor_role": "Performance Marketing Director",
+     "tool": "AI tool + data",
+     "touch_min": [
+      30,
+      60
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 2,
+     "action": "Review data matches; adjust narrative",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Deck",
+     "touch_min": [
+      60,
+      120
+     ],
+     "wait": "",
+     "handoff_to": "Client",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Data mismatch at review",
+     "trigger": "AI output doesn't match source",
+     "rate": "20–40% (assumed)",
+     "extra_steps": "Correct figures",
+     "extra_min": [
+      15,
+      45
+     ],
+     "certainty": "assumed"
+    }
+   ],
+   "monthly_hours": [
+    2.1,
+    5.5
+   ],
+   "monthly_hours_working": "Per deck 90 + 0.2×15 = 93 to 180 + 0.4×45 = 198 min; × 1.33 = 124 to × 1.67 = 331 min → 2.1–5.5 h; × $80 = $168–$440"
+  },
+  {
+   "id": "WS-P05",
+   "process": "NEW: Performance forecasting",
+   "trigger": "Client target to test; budget planning; impression share / budget scenarios",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 3,
+    "per": "month (assumed 2–5)",
+    "scope": "WS's clients"
+   },
+   "decision_points": [
+    {
+     "after_step": 3,
+     "branches": [
+      {
+       "outcome": "Feasible with current budget",
+       "pct": null
+      },
+      {
+       "outcome": "Needs more budget",
+       "pct": null
+      },
+      {
+       "outcome": "Not realistic",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    112,
+    600
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Download historical data",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      10,
+      20
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 2,
+     "action": "Gemini builds scenarios",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Gemini",
+     "touch_min": [
+      15,
+      15
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Review, adjust metrics, judge feasibility",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Gemini output",
+     "touch_min": [
+      15,
+      40
+     ],
+     "wait": "",
+     "handoff_to": "Client / PM",
+     "flags": [],
+     "certainty": "stated (step) / assumed (time)"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "History distorted by external shock",
+     "trigger": "e.g. crisis inflated one client's leads, then plateaued",
+     "rate": "10–25% (assumed)",
+     "extra_steps": "Adjust or exclude baseline",
+     "extra_min": [
+      30,
+      60
+     ],
+     "certainty": "stated example; rate and time assumed"
+    }
+   ],
+   "monthly_hours": [
+    1.4,
+    7.5
+   ],
+   "monthly_hours_working": "Per run 40 + 0.1×30 = 43 to 75 + 0.25×60 = 90 min; × 2 = 86 to × 5 = 450 min → 1.4–7.5 h (before Gemini 4–20 h, assumed); × $80 = $112–$600"
+  },
+  {
+   "id": "WS-P06",
+   "process": "Performance monitoring & alerting",
+   "trigger": "Platform notification, e.g. conversions down over 7–14 days",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 7,
+    "per": "month (assumed 4–10 alerts)",
+    "scope": "18 channels"
+   },
+   "decision_points": [
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Fix in account",
+       "pct": 70
+      },
+      {
+       "outcome": "Escalate via ticket",
+       "pct": 30
+      }
+     ],
+     "certainty": "assumed (60–80 / 20–40)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    168,
+    1304
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Receive notification",
+     "actor_role": "Platform",
+     "tool": "Ad platform",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "Performance Marketing Director",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Diagnose cause by hand – search terms, new competitor, YoY",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      30,
+      90
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 3,
+     "action": "Raise ticket to wider team if client underperforming",
+     "actor_role": "Performance Marketing Director / Performance Manager / Specialist",
+     "tool": "Ticket flow (HubSpot → Monday.com?)",
+     "touch_min": [
+      10,
+      20
+     ],
+     "wait": "Wider team response (unknown)",
+     "handoff_to": "Wider team",
+     "flags": [],
+     "certainty": "stated (step) / assumed (time)"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Escalation to ticket",
+     "trigger": "Client underperforming",
+     "rate": "20–40% of alerts (assumed)",
+     "extra_steps": "Raise ticket",
+     "extra_min": [
+      10,
+      20
+     ],
+     "certainty": "assumed"
+    }
+   ],
+   "monthly_hours": [
+    2.1,
+    16.3
+   ],
+   "monthly_hours_working": "Per alert 30 + 0.2×10 = 32 to 90 + 0.4×20 = 98 min; × 4 = 128 to × 10 = 980 min → 2.1–16.3 h; × $80 = $168–$1,304"
+  },
+  {
+   "id": "WS-P07",
+   "process": "Internal task management",
+   "trigger": "WIP meetings Tue/Thu/Fri mornings",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 13,
+    "per": "month",
+    "scope": "All paid clients (team WIP)"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "On track",
+       "pct": null
+      },
+      {
+       "outcome": "Needs ticket / pivot",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    608,
+    1216
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "WIP: each PM gives verbal snapshot per client",
+     "actor_role": "Performance Marketing Director + PMs",
+     "tool": "Meeting",
+     "touch_min": [
+      30,
+      60
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (length)"
+    },
+    {
+     "step": 2,
+     "action": "WS notes client status in WIP doc",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Performance WIP doc",
+     "touch_min": [
+      5,
+      10
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual",
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    }
+   ],
+   "bad_paths": [],
+   "monthly_hours": [
+    7.6,
+    15.2
+   ],
+   "monthly_hours_working": "13 × 35 = 455 to 13 × 70 = 910 min → 7.6–15.2 h (WS only; team attendance not stated); × $80 = $608–$1,216"
+  },
+  {
+   "id": "WS-P08",
+   "process": "Client onboarding – audit & strategy",
+   "trigger": "New paid client starts; PM brings strategy to WS",
+   "owner_role": "Performance Manager / Specialist runs; Performance Marketing Director reviews and oversees ~3 months",
+   "frequency": {
+    "count": 2,
+    "per": "month (assumed 1–3)",
+    "scope": "New paid clients, all managers"
+   },
+   "decision_points": [
+    {
+     "after_step": 3,
+     "branches": [
+      {
+       "outcome": "Strategy approved",
+       "pct": null
+      },
+      {
+       "outcome": "Revised",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    96,
+    744
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Onboarding tickets auto-created",
+     "actor_role": "System",
+     "tool": "Monday.com",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "Performance Manager / Specialist",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "PM runs onboarding and writes strategy (per SOP)",
+     "actor_role": "Performance Manager / Specialist",
+     "tool": "Notion SOP",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "Performance Marketing Director",
+     "flags": [],
+     "certainty": "stated; not costed here"
+    },
+    {
+     "step": 3,
+     "action": "WS reviews and discusses strategy before it goes to client",
+     "actor_role": "Performance Marketing Director",
+     "tool": "",
+     "touch_min": [
+      45,
+      90
+     ],
+     "wait": "Waits for WS availability",
+     "handoff_to": "Performance Manager / Specialist → client",
+     "flags": [
+      "bottleneck",
+      "single-person"
+     ],
+     "certainty": "stated (step) / assumed (time)"
+    },
+    {
+     "step": 4,
+     "action": "Follow up in WIPs for ~3 months",
+     "actor_role": "Performance Marketing Director",
+     "tool": "WIP",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated; counted in WS-P07"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "PM is new",
+     "trigger": "New staff member running onboarding",
+     "rate": "20–40% (assumed)",
+     "extra_steps": "WS joins calls, directs each step",
+     "extra_min": [
+      120,
+      240
+     ],
+     "certainty": "stated example; rate and time assumed"
+    },
+    {
+     "name": "New client underperforms after launch",
+     "trigger": "Weak post-launch results",
+     "rate": "unknown",
+     "extra_steps": "Pivot channel, client comms",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; time not quantified"
+    }
+   ],
+   "monthly_hours": [
+    1.2,
+    9.3
+   ],
+   "monthly_hours_working": "Per client 45 + 0.2×120 = 69 to 90 + 0.4×240 = 186 min; × 1 = 69 to × 3 = 558 min → 1.2–9.3 h; × $80 = $96–$744"
+  },
+  {
+   "id": "WS-P09",
+   "process": "Sales to delivery handover",
+   "trigger": "Deal won; internal onboarding call before client kick-off",
+   "owner_role": "Sales (performance team receives)",
+   "frequency": {
+    "count": 2,
+    "per": "month (assumed 1–3)",
+    "scope": "New paid clients"
+   },
+   "decision_points": [
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Adequate handover",
+       "pct": 62
+      },
+      {
+       "outcome": "Rushed handover",
+       "pct": 38
+      }
+     ],
+     "certainty": "assumed (50–75 / 25–50)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    184,
+    1104
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Sales sets expectations: creatives, website ready, landing-page cost",
+     "actor_role": "Sales",
+     "tool": "Sales process",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated as intended; not costed"
+    },
+    {
+     "step": 2,
+     "action": "Internal onboarding call (sales + PM + WS)",
+     "actor_role": "Sales, PM, Performance Marketing Director",
+     "tool": "Call",
+     "touch_min": [
+      90,
+      180
+     ],
+     "wait": "Often left late",
+     "handoff_to": "Performance Manager / Specialist",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated (step) / assumed (time, ~3 attendees)"
+    },
+    {
+     "step": 3,
+     "action": "Client kick-off call",
+     "actor_role": "Performance Manager / Specialist (+ WS)",
+     "tool": "Call",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated; not costed"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Rushed handover",
+     "trigger": "Internal call held 10 min before client call",
+     "rate": "'Sometimes' – assumed 25–50%",
+     "extra_steps": "Team re-asks questions sales already covered",
+     "extra_min": [
+      30,
+      60
+     ],
+     "certainty": "stated event; rate and time assumed"
+    },
+    {
+     "name": "Process skipped",
+     "trigger": "Sales or founder skip onboarding steps",
+     "rate": "unknown",
+     "extra_steps": "Catch-up",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; time incl. above"
+    },
+    {
+     "name": "Pre-requisites missing",
+     "trigger": "Client has no live website / no creatives",
+     "rate": "assumed 1 per 6–12 months",
+     "extra_steps": "Strategy work with nothing to run ads to",
+     "extra_min": [
+      480,
+      1200
+     ],
+     "certainty": "stated example; rate and hours assumed (2 months × 4–10 h)"
+    }
+   ],
+   "monthly_hours": [
+    2.3,
+    13.8
+   ],
+   "monthly_hours_working": "1 × (90 + 0.25×30) = 97.5 to 3 × (180 + 0.5×60) = 630 min (1.6–10.5 h); + pre-requisites 8 h ÷ 12 = 0.7 to 20 h ÷ 6 = 3.3 h → 2.3–13.8 h (WS share 0.5–3.0 h); × $80 = $184–$1,104"
+  },
+  {
+   "id": "WS-P10",
+   "process": "Knowledge & SOPs",
+   "trigger": "Team questions; seniors discuss ideas; help needed in an account",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 1,
+    "per": "daily, ad hoc",
+    "scope": "Whole performance team"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "Answer directly",
+       "pct": null
+      },
+      {
+       "outcome": "Redirect to SOP",
+       "pct": null
+      },
+      {
+       "outcome": "Step into account",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    1040,
+    2080
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Answer question / discuss idea",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Messages, calls",
+     "touch_min": [
+      180,
+      360
+     ],
+     "wait": "Team waits for WS",
+     "handoff_to": "Performance Manager / Specialist",
+     "flags": [
+      "single-person",
+      "bottleneck"
+     ],
+     "certainty": "stated (step) / assumed (per week, all steps)"
+    },
+    {
+     "step": 2,
+     "action": "Point repeat questions to Notion SOP",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Notion",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "Performance Manager / Specialist",
+     "flags": [],
+     "certainty": "stated; incl. in 1"
+    },
+    {
+     "step": 3,
+     "action": "Step into an account when needed",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated; incl. in 1"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "SOP forgotten",
+     "trigger": "People forget SOPs exist and ask again",
+     "rate": "not stated",
+     "extra_steps": "Re-answer / redirect",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; time incl. in step 1"
+    }
+   ],
+   "monthly_hours": [
+    13.0,
+    26.0
+   ],
+   "monthly_hours_working": "3 × 4.33 = 13.0 to 6 × 4.33 = 26.0 h; × $80 = $1,040–$2,080"
+  },
+  {
+   "id": "WS-P11",
+   "process": "Paid media – optimisation",
+   "trigger": "Head of Performance left ~2 weeks before interview; WS pulled into a Tier 1 account",
+   "owner_role": "Performance Marketing Director (temporary)",
+   "frequency": {
+    "count": 1,
+    "per": "account, ongoing",
+    "scope": "1 inherited Tier 1 account"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    696,
+    1736
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Get across account history and strategy",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms, team",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (step); time incl. in 2"
+    },
+    {
+     "step": 2,
+     "action": "Run BAU optimisation and oversight",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Ad platforms",
+     "touch_min": [
+      120,
+      300
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "assumed (per week, both steps)"
+    }
+   ],
+   "bad_paths": [],
+   "monthly_hours": [
+    8.7,
+    21.7
+   ],
+   "monthly_hours_working": "2 × 4.33 = 8.7 to 5 × 4.33 = 21.7 h; × $80 = $696–$1,736"
+  },
+  {
+   "id": "WS-P12",
+   "process": "Client meetings & prep",
+   "trigger": "Weekly WIP with each Tier 1 client",
+   "owner_role": "Performance Marketing Director",
+   "frequency": {
+    "count": 17.3,
+    "per": "month",
+    "scope": "4 Tier 1 clients × 4.33 weeks"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    1040,
+    2080
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Prep: performance and what's happening",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Platforms, AgencyAnalytics",
+     "touch_min": [
+      15,
+      45
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "assumed"
+    },
+    {
+     "step": 2,
+     "action": "Weekly client WIP",
+     "actor_role": "Performance Marketing Director",
+     "tool": "Call",
+     "touch_min": [
+      30,
+      45
+     ],
+     "wait": "",
+     "handoff_to": "Client",
+     "flags": [],
+     "certainty": "stated (frequency) / assumed (length)"
+    }
+   ],
+   "bad_paths": [],
+   "monthly_hours": [
+    13.0,
+    26.0
+   ],
+   "monthly_hours_working": "17.3 × 45 = 779 to 17.3 × 90 = 1,558 min → 13.0–26.0 h; × $80 = $1,040–$2,080"
+  },
+  {
+   "id": "WS-P13",
+   "process": "Creative production",
+   "trigger": "Campaign needs creatives (Meta), a landing page or video ads",
+   "owner_role": "Client supplies; designers/partners at a cost; Coordinator (Tati) coordinates landing pages",
+   "frequency": {
+    "count": null,
+    "per": "not stated",
+    "scope": "Campaigns needing assets"
+   },
+   "decision_points": [
+    {
+     "after_step": 0,
+     "branches": [
+      {
+       "outcome": "Client supplies creatives",
+       "pct": null
+      },
+      {
+       "outcome": "Agency makes them at a cost",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (no split)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    40,
+    240
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Brief designer (historically in-house)",
+     "actor_role": "Performance Manager / Specialist / Performance Marketing Director",
+     "tool": "",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "",
+     "handoff_to": "Designer",
+     "flags": [],
+     "certainty": "stated; time not stated"
+    },
+    {
+     "step": 2,
+     "action": "Designer creates assets",
+     "actor_role": "Designer",
+     "tool": "",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "'a long time'",
+     "handoff_to": "Client",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Client approves or sends back",
+     "actor_role": "Client",
+     "tool": "",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "Client",
+     "handoff_to": "Designer",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Client unhappy – rework loop",
+     "trigger": "Client not happy with creative",
+     "rate": "not stated",
+     "extra_steps": "Rework and re-approve",
+     "extra_min": [
+      0,
+      0
+     ],
+     "certainty": "stated; rate and time not stated"
+    }
+   ],
+   "monthly_hours": [
+    0.5,
+    3.0
+   ],
+   "monthly_hours_working": "WS share assumed 0.5–3.0 h (not discussed in numbers); × $80 = $40–$240"
+  }
+ ],
+ "pain_points": [
+  {
+   "id": "WS-PP01",
+   "text": "Director's own channel load nearly doubled (≈10 → 18) on 4 clients since July with no extra resource; own portfolio squeezed",
+   "source": "interviewee",
+   "category": "Capacity / overload",
+   "anchor": "Operations capacity & process",
+   "process": "Paid media – optimisation",
+   "impact": "Time; risk on Tier 1 accounts",
+   "frequency": "Ongoing",
+   "severity": 4,
+   "quote": "But then I went from managing probably like 10 channels to like 18.",
+   "timestamp": "~06:35 (L102)",
+   "certainty": "stated",
+   "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+  },
+  {
+   "id": "WS-PP02",
+   "text": "Pacing covers only Google and Meta; LinkedIn, ChatGPT ads, Criteo, Pinterest, TikTok untracked; overspends have happened",
+   "source": "interviewee",
+   "category": "Missing visibility",
+   "anchor": "Performance visibility & margin",
+   "process": "Paid media – pacing & budget management",
+   "impact": "Overspend $; client trust",
+   "frequency": "Ongoing; 'a couple' of incidents",
+   "severity": 5,
+   "quote": "We have had a couple of issues with pacing, etc. and accounts. … overspending and stuff",
+   "timestamp": "~42:27 (L517–L518)",
+   "certainty": "stated",
+   "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+  },
+  {
+   "id": "WS-PP03",
+   "text": "Platform recommendations ignore account strategy (location splits, client-agreed budgets); analysis means consolidating by hand",
+   "source": "interviewee (consolidated view framed by interviewer; interviewee agreed)",
+   "category": "Missing visibility",
+   "anchor": "Technology, AI & stack",
+   "process": "Paid media – optimisation",
+   "impact": "Time; decision quality",
+   "frequency": "Every analysis",
+   "severity": 3,
+   "quote": "if you knew that the campaigns are separated by location … you need to understand a little bit more out of the strategy",
+   "timestamp": "~25:57 (L315)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP04",
+   "text": "Alerts flag a conversion drop but give no cause; diagnosis is manual",
+   "source": "interviewee",
+   "category": "Manual / repetitive work",
+   "anchor": "Performance visibility & margin",
+   "process": "Performance monitoring & alerting",
+   "impact": "Time; slower fixes",
+   "frequency": "Per alert",
+   "severity": 3,
+   "quote": "currently we have a notification … Like, oh, we've noticed like a decrease in conversions in the past like seven, 14 days",
+   "timestamp": "~59:22 (L780)",
+   "certainty": "stated",
+   "matches_existing_problem": "No proactive performance alerting – problems found at month-end (partial)"
+  },
+  {
+   "id": "WS-PP05",
+   "text": "Quarterly review presentations are repetitive and time-consuming",
+   "source": "interviewee",
+   "category": "Manual / repetitive work",
+   "anchor": "Client experience & delivery",
+   "process": "Quarterly / 6-month review",
+   "impact": "Time",
+   "frequency": "Quarterly per Tier 1 client",
+   "severity": 3,
+   "quote": "these presentations and stuff that we need to do every quarter, etc. Which is like a lot of time consuming",
+   "timestamp": "~58:46 (L771–L773)",
+   "certainty": "stated",
+   "matches_existing_problem": "Client documents are built by duplicating previous ones – errors reach clients (partial)"
+  },
+  {
+   "id": "WS-PP06",
+   "text": "Internal sales-to-delivery onboarding call happens late (sometimes 10 min before client call) or the process is skipped, incl. by the founder",
+   "source": "interviewee",
+   "category": "Waiting / handoff delay",
+   "anchor": "Growth & sales engine",
+   "process": "Sales to delivery handover",
+   "impact": "Client experience; repeated questions",
+   "frequency": "Sometimes",
+   "severity": 4,
+   "quote": "Sometimes that call happens like 10 minutes before the client call.",
+   "timestamp": "~20:43 (L251)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP07",
+   "text": "Clients sold without delivery pre-requisites (live website, creatives) – two months' work with no website",
+   "source": "interviewee",
+   "category": "Revenue / margin leak",
+   "anchor": "Growth & sales engine",
+   "process": "Sales to delivery handover",
+   "impact": "Wasted hours; client outcome",
+   "frequency": "At least one recent case",
+   "severity": 4,
+   "quote": "They didn't even have a website ready. So we went two months off doing work for them",
+   "timestamp": "~54:49 (L710)",
+   "certainty": "stated",
+   "matches_existing_problem": "Sales commits to work delivery can't profitably do"
+  },
+  {
+   "id": "WS-PP08",
+   "text": "Client status passes verbally in WIPs and lives only in the Director's own WIP doc",
+   "source": "detected (interviewer probed)",
+   "category": "Single point of failure (person)",
+   "anchor": "Leadership & dependency",
+   "process": "Internal task management",
+   "impact": "Risk if WS is away",
+   "frequency": "Every WIP",
+   "severity": 4,
+   "quote": "But I don't go and make the same notes that I wrote on the performance [WIP] Doc somewhere else",
+   "timestamp": "~30:12 (L358)",
+   "certainty": "stated (fact) / detected (risk)",
+   "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+  },
+  {
+   "id": "WS-PP09",
+   "text": "Team members still ask questions the Notion SOPs answer; people forget the SOPs",
+   "source": "interviewee",
+   "category": "Tool not used / adoption",
+   "anchor": "Operations capacity & process",
+   "process": "Knowledge & SOPs",
+   "impact": "WS time",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "It's just that sometimes people Forget like I tried to remind everyone",
+   "timestamp": "~19:08 (L237)",
+   "certainty": "stated",
+   "matches_existing_problem": "Documentation is stale and rarely read (partial)"
+  },
+  {
+   "id": "WS-PP10",
+   "text": "All new-client strategy sign-off and oversight of every paid account funnels to the Director, who answers to the founder for any issue",
+   "source": "interviewee",
+   "category": "Single point of failure (person)",
+   "anchor": "Leadership & dependency",
+   "process": "Client onboarding – audit & strategy",
+   "impact": "Wait on WS; WS capacity",
+   "frequency": "Every new client",
+   "severity": 4,
+   "quote": "Basically, as a performance director, kind of I need to oversee everything.",
+   "timestamp": "~18:11 (L222)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP11",
+   "text": "Head of Performance left ~2 weeks ago; Director absorbed a Tier 1 account she hadn't been involved in",
+   "source": "interviewee",
+   "category": "Capacity / overload",
+   "anchor": "Leadership & dependency",
+   "process": "Paid media – optimisation",
+   "impact": "Time; client risk",
+   "frequency": "Current",
+   "severity": 3,
+   "quote": "I have been polled [pulled] into a more tier one client and trying to get on top of it because I was not involved at all",
+   "timestamp": "~12:53 (L169)",
+   "certainty": "stated",
+   "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+  },
+  {
+   "id": "WS-PP12",
+   "text": "Forecasting used to take hours of manual data work; external shocks make history unreliable",
+   "source": "interviewee",
+   "category": "Manual / repetitive work",
+   "anchor": "Performance visibility & margin",
+   "process": "NEW: Performance forecasting",
+   "impact": "Time (largely solved by Gemini)",
+   "frequency": "Per forecast",
+   "severity": 2,
+   "quote": "I used to take like hours doing this and Gemini did it in like 15 minutes",
+   "timestamp": "~38:18 (L462)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP13",
+   "text": "AI shortcuts (Gemini forecasting, AI quarterly reviews) are personal workflows, not shared with the team",
+   "source": "detected",
+   "category": "Single point of failure (person)",
+   "anchor": "Technology, AI & stack",
+   "process": "Quarterly / 6-month review; NEW: Performance forecasting",
+   "impact": "Team misses time savings",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "I guess I started getting Google as well, or like Gemini, yeah, to help me out with forecasting.",
+   "timestamp": "~37:37 (L456)",
+   "certainty": "detected – confirm whether others use them",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP14",
+   "text": "No in-house capacity for landing pages or video; landing pages ~$1,500 each are a barrier; in-house creative loops were slow",
+   "source": "interviewee",
+   "category": "Capacity / overload",
+   "anchor": "Client experience & delivery",
+   "process": "Creative production",
+   "impact": "Conversion rates; time",
+   "frequency": "Per campaign needing assets",
+   "severity": 2,
+   "quote": "We don't have the capacity. And like we usually sell them to the clients as well.",
+   "timestamp": "~53:31 (L686)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP15",
+   "text": "Underperformance tickets described as a HubSpot flow though tasks moved to Monday.com; Director doesn't log her own tasks",
+   "source": "detected",
+   "category": "Missing visibility",
+   "anchor": "Technology, AI & stack",
+   "process": "Internal task management",
+   "impact": "Visibility of Director workload",
+   "frequency": "Ongoing",
+   "severity": 2,
+   "quote": "If I'm doing it myself, I don't usually add it to that as well.",
+   "timestamp": "~31:47 (L383)",
+   "certainty": "stated (fact) / detected (issue)",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "WS-PP16",
+   "text": "Google RSA previews show only 2–3 headlines, so ad copy approvals need explaining",
+   "source": "interviewee",
+   "category": "Client friction",
+   "anchor": "Client experience & delivery",
+   "process": "Paid media – campaign build",
+   "impact": "Minor time",
+   "frequency": "Per approval",
+   "severity": 2,
+   "quote": "With Google, It's a bit more complicated because you have so many headlines.",
+   "timestamp": "~57:16 (L749)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  }
+ ],
+ "bottlenecks": [
+  {
+   "id": "WS-B01",
+   "step": "New-client strategy review (WS-P08 step 3) and campaign build review (WS-P02 step 4)",
+   "waiting_on": "WS availability",
+   "typical_wait": "not stated (assumed 1–3 days)",
+   "affected": "Each new client (assumed 1–3/month) and her campaigns",
+   "knock_on": "Strategy to client delayed; WS time crowded out"
+  },
+  {
+   "id": "WS-B02",
+   "step": "Internal sales → delivery onboarding call (WS-P09 step 2)",
+   "waiting_on": "Salesperson scheduling it",
+   "typical_wait": "Sometimes 10 min before client call",
+   "affected": "New clients ('sometimes')",
+   "knock_on": "Team re-asks client questions; weaker first impression"
+  },
+  {
+   "id": "WS-B03",
+   "step": "Client ad copy approval (WS-P02 step 5)",
+   "waiting_on": "Client",
+   "typical_wait": "not stated",
+   "affected": "Each new campaign",
+   "knock_on": "Launch delayed; Google RSAs need explaining"
+  },
+  {
+   "id": "WS-B04",
+   "step": "Client website / creatives not ready (WS-P09, WS-P13)",
+   "waiting_on": "Client",
+   "typical_wait": "Up to 2+ months in one case",
+   "affected": "At least one client",
+   "knock_on": "Wasted strategy hours; no results to show"
+  },
+  {
+   "id": "WS-B05",
+   "step": "Team questions and sense-checks (WS-P10)",
+   "waiting_on": "WS",
+   "typical_wait": "not stated",
+   "affected": "PMs, juniors especially",
+   "knock_on": "Juniors blocked; WS interrupted"
+  }
+ ],
+ "suggestions": [
+  {
+   "id": "WS-S01",
+   "idea": "Pacing for all channels, not just Google and Meta",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Paid media – pacing & budget management",
+   "quote": "now that we're expanding to other platforms, Channels we need, like something to find solution for these other ones as well.",
+   "timestamp": "~42:31 (L518)"
+  },
+  {
+   "id": "WS-S02",
+   "idea": "Automate quarterly review presentations with AI (started)",
+   "source": "interviewee",
+   "reaction": "90-day pick",
+   "process": "Quarterly / 6-month review",
+   "quote": "Getting like tapping more into the AI and stuff like for an example, these presentations and stuff that we need to do every quarter",
+   "timestamp": "~58:46 (L771)"
+  },
+  {
+   "id": "WS-S03",
+   "idea": "Better forecasting tools",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "NEW: Performance forecasting",
+   "quote": "Like, yeah, the forecasting tools I think would help.",
+   "timestamp": "~59:14 (L778)"
+  },
+  {
+   "id": "WS-S04",
+   "idea": "Alert tool that compares with history and diagnoses why (search term, new competitor)",
+   "source": "interviewee",
+   "reaction": "Austin summarised; she agreed ('Exactly, yeah')",
+   "process": "Performance monitoring & alerting",
+   "quote": "if you can analyze straight away, what is the reason why the conversion decrease, like is that coming from a specific search term?",
+   "timestamp": "~60:05 (L784)"
+  },
+  {
+   "id": "WS-S05",
+   "idea": "Budget-checking automation",
+   "source": "interviewee",
+   "reaction": "Tentative ('maybe')",
+   "process": "Paid media – pacing & budget management",
+   "quote": "what else the budget checking maybe that would be a good one",
+   "timestamp": "~59:08 (L775)"
+  },
+  {
+   "id": "WS-S06",
+   "idea": "Consolidated snapshot tying ad metrics to strategy, client and economic factors",
+   "source": "interviewer",
+   "reaction": "Agreed",
+   "process": "Paid media – optimisation",
+   "quote": "That would be great, yeah.",
+   "timestamp": "~25:24 (L311)"
+  },
+  {
+   "id": "WS-S07",
+   "idea": "One-click budget changes by instruction",
+   "source": "interviewer",
+   "reaction": "Declined – changes already quick",
+   "process": "Paid media – pacing & budget management",
+   "quote": "I mean, it doesn't take long to change the budget and stuff.",
+   "timestamp": "~24:25 (L295)"
+  },
+  {
+   "id": "WS-S08",
+   "idea": "Automatic budget rules",
+   "source": "interviewer",
+   "reaction": "Rejected – wants to stay across the account",
+   "process": "Paid media – pacing & budget management",
+   "quote": "Like I need to be on top of what is happening in the accounts and where the budget is going.",
+   "timestamp": "~22:11 (L265)"
+  },
+  {
+   "id": "WS-S09",
+   "idea": "Pre-sales checklist (creatives, website readiness); align new sales hire",
+   "source": "interviewee",
+   "reaction": "Already 'adjusting'",
+   "process": "Sales to delivery handover",
+   "quote": "that's a clear example of something that should be talked about it before the sales or during the sales process.",
+   "timestamp": "~55:08 (L713)"
+  },
+  {
+   "id": "WS-S10",
+   "idea": "Hold internal onboarding call with enough lead time",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Sales to delivery handover",
+   "quote": "I'm like, guys, we need more time. We need to understand the clients, et cetera.",
+   "timestamp": "~20:59 (L256)"
+  },
+  {
+   "id": "WS-S11",
+   "idea": "Client portal for approvals and review",
+   "source": "interviewer",
+   "reaction": "Lukewarm – approvals are only ad copy via sheets",
+   "process": "Paid media – campaign build",
+   "quote": "Depends on what it is, because we usually just require review for ad copy in ads, et cetera.",
+   "timestamp": "~55:53 (L728)"
+  },
+  {
+   "id": "WS-S12",
+   "idea": "Ad-preview tool for client QA",
+   "source": "interviewer",
+   "reaction": "Neutral – Meta already has link previews",
+   "process": "Paid media – campaign build",
+   "quote": "I don't feel like a lot of the clients are very confused once you explain to them what they're looking at.",
+   "timestamp": "~58:01 (L759)"
+  },
+  {
+   "id": "WS-S13",
+   "idea": "Explainer video on reading Google ad copy for new clients",
+   "source": "interviewee",
+   "reaction": "In passing",
+   "process": "Paid media – campaign build",
+   "quote": "I mean, if we had like a video explaining to someone that is new, it would be easier, but...",
+   "timestamp": "~58:11 (L763)"
+  },
+  {
+   "id": "WS-S14",
+   "idea": "Cheaper landing pages (Landing Page Labs)",
+   "source": "interviewer",
+   "reaction": "Hadn't heard of it; confirmed ~$1,500 external cost",
+   "process": "Creative production",
+   "quote": "1500 something like that's great.",
+   "timestamp": "~49:16 (L617)"
+  },
+  {
+   "id": "WS-S15",
+   "idea": "Interview Michaela and Tatiana for implementation detail",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "",
+   "quote": "Michaela and Tachi [Tati] from an implementation perspective, because they are the implementation side of things ones.",
+   "timestamp": "~61:46 (L810)"
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "WS-O06",
+   "fixes": [
+    "WS-PP05",
+    "WS-PP13",
+    "WS-S02"
+   ],
+   "lens": "Augment",
+   "change": "Turn WS's AI quarterly-review workflow into a shared standard (template + prompt + data pull) for every manager's QBR / 6-month reviews",
+   "matches_existing_solution": "QBR / review deck generator",
+   "candidate_tool": "Claude / Gemini + Google Slides master template; AgencyAnalytics export",
+   "hours_saved_month": [
+    6,
+    30
+   ],
+   "effort": "S–M",
+   "prerequisites": "Her workflow documented; one master template",
+   "adoption_risk": "L – already proven by her",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Hours per quarterly / 6-month review deck",
+     "measured_by": "Time log",
+     "baseline": "unknown",
+     "baseline_quote": "Which is like a lot of time consuming",
+     "target": "≤ 1.5 h",
+     "type": "lagging"
+    },
+    {
+     "kpi": "% of managers using shared review template",
+     "measured_by": "Template usage",
+     "baseline": "1 (WS)",
+     "baseline_quote": "",
+     "target": "All paid managers",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 1,
+   "tag": "Quick win",
+   "rank_reason": "Already proven by her; sharing multiplies the saving (COI partial – she has a working version)"
+  },
+  {
+   "id": "WS-O02",
+   "fixes": [
+    "WS-PP06",
+    "WS-PP07",
+    "WS-B02",
+    "WS-B04",
+    "WS-S09",
+    "WS-S10"
+   ],
+   "lens": "Change the process",
+   "change": "Handover gate: deal can't move to onboarding until pre-sales checklist done (website live, creative supply, landing pages, access) and internal handover call booked ≥2 business days before kick-off",
+   "matches_existing_solution": "new (partly 'sales wiki / spend calculator')",
+   "candidate_tool": "HubSpot required deal properties + existing Make → Monday.com onboarding tickets",
+   "hours_saved_month": [
+    0.8,
+    4.8
+   ],
+   "effort": "S",
+   "prerequisites": "Founder and sales agree to the gate; Performance writes checklist",
+   "adoption_risk": "M – process skipped before, incl. by the founder",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "% of new clients with handover call ≥2 business days before kick-off",
+     "measured_by": "HubSpot / Monday.com timestamps",
+     "baseline": "unknown",
+     "baseline_quote": "Sometimes that call happens like 10 minutes before the client call.",
+     "target": "≥ 90%",
+     "type": "leading"
+    },
+    {
+     "kpi": "New clients onboarded without live website or agreed creative supply",
+     "measured_by": "HubSpot checklist",
+     "baseline": "≥ 1 recent case",
+     "baseline_quote": "They didn't even have a website ready.",
+     "target": "0",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 2,
+   "tag": "Quick win",
+   "rank_reason": "Clear stated examples; cheap rule in tools already in use"
+  },
+  {
+   "id": "WS-O01",
+   "fixes": [
+    "WS-PP02",
+    "WS-S01",
+    "WS-S05"
+   ],
+   "lens": "Augment",
+   "change": "Extend pacing tracker to every live channel (LinkedIn, ChatGPT ads, Criteo, Pinterest, TikTok) with daily spend-vs-budget and under/over-pace flags; people still make budget changes",
+   "matches_existing_solution": "pacing tracker & adjustment engine",
+   "candidate_tool": "Supermetrics (renew) or Funnel / Windsor.ai / Porter connectors into existing Google Sheets; platform APIs",
+   "hours_saved_month": [
+    1.7,
+    6.9
+   ],
+   "effort": "M",
+   "prerequisites": "Connector licences; API access per channel; one budget record per channel",
+   "adoption_risk": "L – she asked for it; keeps manual control",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "% of live channels with automated pacing",
+     "measured_by": "Pacing tracker channel list vs active channels",
+     "baseline": "2 of 7 channel types",
+     "baseline_quote": "Well, we only have for Google and Meta currently",
+     "target": "100%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Overspend incidents per quarter (>5% over budget)",
+     "measured_by": "Pacing tracker / platform billing",
+     "baseline": "unknown",
+     "baseline_quote": "We have had a couple of issues with pacing, etc. and accounts.",
+     "target": "0",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 48
+   },
+   "rank": 3,
+   "tag": "Strategic",
+   "rank_reason": "Overspend risk stated; asked for unprompted; keeps manual control"
+  },
+  {
+   "id": "WS-O09",
+   "fixes": [
+    "WS-PP12",
+    "WS-PP13",
+    "WS-S03"
+   ],
+   "lens": "Augment",
+   "change": "Share her Gemini forecasting approach as a standard prompt + input sheet for all managers",
+   "matches_existing_solution": "new",
+   "candidate_tool": "Gemini (Google Workspace) / Claude",
+   "hours_saved_month": [
+    2,
+    18
+   ],
+   "effort": "S",
+   "prerequisites": "Document her prompt; data export template",
+   "adoption_risk": "L–M – depends on other managers adopting",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Managers producing forecasts with shared template",
+     "measured_by": "Template usage",
+     "baseline": "1 (WS)",
+     "baseline_quote": "",
+     "target": "All paid managers",
+     "type": "leading"
+    },
+    {
+     "kpi": "Time per forecast",
+     "measured_by": "Time log",
+     "baseline": "~15 min with Gemini vs 'hours' before",
+     "baseline_quote": "I used to take like hours doing this and Gemini did it in like 15 minutes",
+     "target": "≤ 45 min for every manager",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 36
+   },
+   "rank": 4,
+   "tag": "Quick win",
+   "rank_reason": "Proven for her; other managers' volume unknown"
+  },
+  {
+   "id": "WS-O05",
+   "fixes": [
+    "WS-PP08",
+    "WS-PP10"
+   ],
+   "lens": "Change the process",
+   "change": "Replace personal WIP doc with a per-client status record (Monday.com item or Notion client page) updated during each WIP: status, strategy, risks, next actions",
+   "matches_existing_solution": "transcripts → per-client action runsheet; AI business brain",
+   "candidate_tool": "Monday.com (in use) or Notion",
+   "hours_saved_month": [
+    1,
+    3
+   ],
+   "effort": "S",
+   "prerequisites": "Agree fields; one owner per client",
+   "adoption_risk": "L–M – small habit change; WIPs already happen",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "% of clients with status updated in shared record within 48 h of each WIP",
+     "measured_by": "Monday.com / Notion last-edited",
+     "baseline": "0% outside her WIP doc",
+     "baseline_quote": "But I don't go and make the same notes that I wrote on the performance [WIP] Doc somewhere else",
+     "target": "≥ 90%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 36
+   },
+   "rank": 5,
+   "tag": "Quick win",
+   "rank_reason": "Removes key-person risk cheaply; small hours"
+  },
+  {
+   "id": "WS-O07",
+   "fixes": [
+    "WS-PP01",
+    "WS-PP09",
+    "WS-PP10",
+    "WS-B01",
+    "WS-B05"
+   ],
+   "lens": "People & policy",
+   "change": "Triage rule SOP → Senior PM → Director; Senior PMs sign off strategies for experienced managers; WS reviews only Tier 1 and new-PM work; weekly office hours",
+   "matches_existing_solution": "team wiki / L&D",
+   "candidate_tool": "Notion (SOPs); Notion AI Q&A over SOPs",
+   "hours_saved_month": [
+    3.3,
+    10.4
+   ],
+   "effort": "S–M",
+   "prerequisites": "Senior PMs agree; define what needs WS sign-off",
+   "adoption_risk": "M – habits; seniors also at capacity",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "WS hours a week on team questions and sign-offs",
+     "measured_by": "Time log",
+     "baseline": "~50% of time on team; assumed 3–6 h/week on questions",
+     "baseline_quote": "I think it has been around maybe 50-50 currently.",
+     "target": "–30%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 6,
+   "tag": "Strategic",
+   "rank_reason": "Frees Director time; depends on Senior PM capacity"
+  },
+  {
+   "id": "WS-O08",
+   "fixes": [
+    "WS-PP01",
+    "WS-PP11"
+   ],
+   "lens": "People & policy",
+   "change": "Cap Director's own book at ~10 channels – reassign ~8 channels and the inherited Tier 1 account to Senior PMs, or backfill Head of Performance",
+   "matches_existing_solution": "new",
+   "candidate_tool": "",
+   "hours_saved_month": [
+    8.7,
+    17.3
+   ],
+   "effort": "M",
+   "prerequisites": "Hire or spare capacity; client agreement to manager change",
+   "adoption_risk": "H – others also at capacity",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Channels managed by the Director",
+     "measured_by": "Portfolio list",
+     "baseline": "18",
+     "baseline_quote": "that increased to, I think, 18 in the past few months.",
+     "target": "≤ 10",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 4,
+    "ease": 2,
+    "priority": 32
+   },
+   "rank": 7,
+   "tag": "Strategic",
+   "rank_reason": "Root fix for overload but needs hiring or capacity"
+  },
+  {
+   "id": "WS-O04",
+   "fixes": [
+    "WS-PP03",
+    "WS-PP08",
+    "WS-S06"
+   ],
+   "lens": "Augment",
+   "change": "Store each client's strategy context once and join it with cross-channel metrics in one snapshot so recommendations respect strategy",
+   "matches_existing_solution": "AI business brain",
+   "candidate_tool": "AgencyAnalytics + per-client strategy record; Looker Studio",
+   "hours_saved_month": [
+    2.9,
+    9.8
+   ],
+   "effort": "L",
+   "prerequisites": "Per-client strategy record (WS-O05); data connectors",
+   "adoption_risk": "M – new habit to keep strategy fields current",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "% of clients with current strategy record feeding the snapshot",
+     "measured_by": "Strategy record audit",
+     "baseline": "unknown",
+     "baseline_quote": "",
+     "target": "100% Tier 1; 80% overall",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 2,
+    "priority": 24
+   },
+   "rank": 8,
+   "tag": "Strategic",
+   "rank_reason": "High decision value; large build; needs WS-O05 first"
+  },
+  {
+   "id": "WS-O03",
+   "fixes": [
+    "WS-PP04",
+    "WS-S04"
+   ],
+   "lens": "Augment",
+   "change": "On platform alert, auto-pull search-term, auction-insight, change-history and YoY data and post a draft diagnosis to Slack for the account owner",
+   "matches_existing_solution": "proactive PPC anomaly monitor",
+   "candidate_tool": "Google Ads scripts / Optmyzr / Adalysis; Claude via API",
+   "hours_saved_month": [
+    1.0,
+    7.5
+   ],
+   "effort": "M–L",
+   "prerequisites": "API access; alert source; historical data",
+   "adoption_risk": "M – must be accurate or it gets ignored",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Time from alert to diagnosed cause",
+     "measured_by": "Slack alert vs note/ticket timestamp",
+     "baseline": "unknown",
+     "baseline_quote": "",
+     "target": "< 1 business day",
+     "type": "leading"
+    },
+    {
+     "kpi": "Manager minutes per alert",
+     "measured_by": "Time log sample",
+     "baseline": "unknown (assumed 30–90 min)",
+     "baseline_quote": "",
+     "target": "15–45 min",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 2,
+    "priority": 18
+   },
+   "rank": 9,
+   "tag": "Strategic",
+   "rank_reason": "Closest tag – Impact 3 / Ease 2 fits none of the four; strong ask but no numbers; accuracy risk"
+  }
+ ],
+ "strengths": [
+  {
+   "text": "Gemini forecasting cut hours to ~15 minutes",
+   "quote": "I was like, oh my god, I used to take like hours doing this and Gemini did it in like 15 minutes and gave me scenarios",
+   "timestamp": "~38:18 (L462)"
+  },
+  {
+   "text": "Quarterly reviews partly automated with AI, with human data check",
+   "quote": "I think I got to a point that kind of like helped me a lot on that one.",
+   "timestamp": "~37:30 (L455)"
+  },
+  {
+   "text": "Notion SOPs built to answer repeat questions",
+   "quote": "So that's like why we started building out Notion as well.",
+   "timestamp": "~35:29 (L433)"
+  },
+  {
+   "text": "Monday.com onboarding tickets auto-created",
+   "quote": "Those ones are like automatic ones created.",
+   "timestamp": "~32:36 (L392)"
+  },
+  {
+   "text": "AgencyAnalytics client self-serve dashboards; good early feedback",
+   "quote": "Yeah, but I heard from the team that we got some really good feedback already.",
+   "timestamp": "~50:49 (L653)"
+  },
+  {
+   "text": "Strategy-aware budget management",
+   "quote": "For an example, not just like putting more budget towards brand, if it's like if it doesn't make sense, etc.",
+   "timestamp": "~09:39 (L138)"
+  },
+  {
+   "text": "Tier-based client comms cadence",
+   "quote": "I don't know if Joe mentioned, but tier one clients usually have weekly whips [WIPs], etc.",
+   "timestamp": "~50:19 (L639)"
+  },
+  {
+   "text": "Underperformance escalation ticket flow exists",
+   "quote": "Because when a client is underperforming, we created this flow in HubSpot about tickets as well",
+   "timestamp": "~30:45 (L367)"
+  },
+  {
+   "text": "Clients now charged for creative work",
+   "quote": "So then we kind of started charging some of our clients for it as well.",
+   "timestamp": "~53:11 (L677)"
+  },
+  {
+   "text": "Retention is the shared goal",
+   "quote": "Well, I think everyone's goals are like retention, basically.",
+   "timestamp": "~33:58 (L407)"
+  }
+ ],
+ "facts": [
+  {
+   "value": "50/50",
+   "unit": "% split",
+   "context": "Own clients vs team management",
+   "quote": "I think it has been around maybe 50-50 currently.",
+   "timestamp": "~02:48 (L049)",
+   "certainty": "stated"
+  },
+  {
+   "value": "4",
+   "unit": "clients",
+   "context": "WS's own book",
+   "quote": "because I only manage like four clients currently",
+   "timestamp": "~05:34 (L086)",
+   "certainty": "stated"
+  },
+  {
+   "value": "18",
+   "unit": "channels",
+   "context": "WS's own channels now",
+   "quote": "that increased to, I think, 18 in the past few months.",
+   "timestamp": "~05:34 (L086)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~10",
+   "unit": "channels",
+   "context": "Ideal maximum and load before July",
+   "quote": "The ideal scenario for me was to have only like 10 channels max.",
+   "timestamp": "~05:29 (L085)",
+   "certainty": "stated"
+  },
+  {
+   "value": "July 2026",
+   "unit": "start of growth",
+   "context": "Channel growth since",
+   "quote": "Yeah, since July to now. So it's kind of almost double the amount of channels",
+   "timestamp": "~05:50 (L089)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~2",
+   "unit": "weeks",
+   "context": "Since Head of Performance (JP) left",
+   "quote": "I think he left recently, like maybe two weeks ago, something like that.",
+   "timestamp": "~12:33 (L162)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~3",
+   "unit": "months",
+   "context": "WS follows each new client",
+   "quote": "at least for like the first three months, et cetera, until they are in a good place.",
+   "timestamp": "~13:31 (L173)",
+   "certainty": "stated"
+  },
+  {
+   "value": "3",
+   "unit": "WIPs a week",
+   "context": "Tue, Thu, Fri mornings",
+   "quote": "we have whips [WIPs] almost daily in the morning, like it's Tuesdays, Thursdays and Friday.",
+   "timestamp": "~17:15 (L213)",
+   "certainty": "stated"
+  },
+  {
+   "value": "10",
+   "unit": "minutes",
+   "context": "Internal onboarding call before client call (sometimes)",
+   "quote": "Sometimes that call happens like 10 minutes before the client call.",
+   "timestamp": "~20:43 (L251)",
+   "certainty": "stated"
+  },
+  {
+   "value": "15",
+   "unit": "minutes",
+   "context": "Gemini forecast vs hours by hand",
+   "quote": "Gemini did it in like 15 minutes and gave me scenarios",
+   "timestamp": "~38:18 (L462)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2",
+   "unit": "channels with pacing",
+   "context": "Google and Meta only",
+   "quote": "Well, we only have for Google and Meta currently",
+   "timestamp": "~42:54 (L522)",
+   "certainty": "stated"
+  },
+  {
+   "value": "7",
+   "unit": "active channel types",
+   "context": "Google, Meta, LinkedIn, ChatGPT ads, Criteo, Pinterest, TikTok; Reddit stopped",
+   "quote": "We were doing Reddit, but not anymore.",
+   "timestamp": "~43:07 (L526)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~1,500",
+   "unit": "AUD per landing page",
+   "context": "External landing page cost",
+   "quote": "1500 something like that's great.",
+   "timestamp": "~49:16 (L617)",
+   "certainty": "stated (approximate)"
+  },
+  {
+   "value": "2",
+   "unit": "designers",
+   "context": "Who make landing pages (unsure)",
+   "quote": "we have two designers or something like that.",
+   "timestamp": "~48:22 (L601)",
+   "certainty": "stated (unsure)"
+  },
+  {
+   "value": "2",
+   "unit": "months",
+   "context": "Work for a client with no website",
+   "quote": "and we still didn't have a website two months in.",
+   "timestamp": "~54:49 (L710)",
+   "certainty": "stated"
+  },
+  {
+   "value": "7–14",
+   "unit": "days",
+   "context": "Lookback in conversion-drop notifications",
+   "quote": "we've noticed like a decrease in conversions in the past like seven, 14 days",
+   "timestamp": "~59:22 (L780)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Weekly / every so often / monthly",
+   "unit": "client comms cadence",
+   "context": "Tier 1 / 2 / 3",
+   "quote": "Tier 2 happens every so often. Tier 3 is more like the monthly ongoing stuff.",
+   "timestamp": "~50:31 (L642)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Daily",
+   "unit": "manual Claude run",
+   "context": "S2 (2026-11-04 Meta pacing call): WS fills the Meta pacing sheet via Claude because the Supermetrics connection fails",
+   "quote": "the cloud [Claude] i was doing because the supermetrics was not working",
+   "timestamp": "~35:22 (S2 L434)",
+   "certainty": "stated"
+  },
+  {
+   "value": "7:30 am",
+   "unit": "daily scheduled run",
+   "context": "S2: Austin set up a scheduled Claude task to update the Meta pacing sheet (interim fix)",
+   "quote": "Everyday at 7:30 Melbourne time.",
+   "timestamp": "~55:16 (S2 L825)",
+   "certainty": "stated"
+  },
+  {
+   "value": "4 + 2",
+   "unit": "Meta accounts not readable",
+   "context": "S2: connector cannot read 4 accounts (incl. Five Good Friends) and 2 are not visible (Alzburg, Slidetrack)",
+   "quote": "the Metas can't read four accounts yet. And then two accounts don't appear at all.",
+   "timestamp": "~55:55–55:58 (S2 L835–L836)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~63",
+   "unit": "minutes",
+   "context": "Interview length",
+   "quote": "I know it's 12 o'clock, but just one last question.",
+   "timestamp": "~61:03 (L800)",
+   "certainty": "estimated"
+  }
+ ],
+ "tools": {
+  "official": [
+   "Google Ads",
+   "Meta Ads",
+   "LinkedIn Ads",
+   "ChatGPT ads",
+   "Criteo",
+   "Pinterest Ads",
+   "TikTok Ads",
+   "Google pacing sheet",
+   "Meta pacing sheet",
+   "Monday.com",
+   "HubSpot (underperformance ticket flow)",
+   "Notion (SOPs)",
+   "AgencyAnalytics",
+   "Google Sheets (ad copy approvals with link previews)"
+  ],
+  "shadow": [
+   "Gemini for performance forecasting (WS's own workflow)",
+   "AI workflow for quarterly reviews (tool not named)",
+   "Personal Performance WIP doc for client status",
+   "Manual platform-by-platform pacing for channels without a sheet"
+  ],
+  "duplicated_data": [
+   "Client status in WIP doc but not in Monday.com",
+   "Tasks partly in Monday.com, WS's own tasks nowhere",
+   "Underperformance tickets: HubSpot flow vs Monday.com (confirm)"
+  ],
+  "missing_access": [
+   "Pacing data for LinkedIn, ChatGPT ads, Criteo, Pinterest, TikTok",
+   "Combined view of metrics plus strategy and client context",
+   "Root-cause data on alerts (search terms, competitors vs history)"
+  ]
+ },
+ "dependencies": [
+  {
+   "what": "Status and history of every paid client (WIP snapshots + WIP doc)",
+   "who_role": "Performance Marketing Director",
+   "if_absent": "No single written status; team and founder lose overview"
+  },
+  {
+   "what": "Sign-off on new-client strategies and her campaign builds",
+   "who_role": "Performance Marketing Director",
+   "if_absent": "Strategies wait or go out unchecked"
+  },
+  {
+   "what": "Strategy context per account (location splits, client-agreed budgets)",
+   "who_role": "Account owner",
+   "if_absent": "Budget moves could breach client agreements"
+  },
+  {
+   "what": "Gemini forecasting method and AI quarterly-review workflow",
+   "who_role": "Performance Marketing Director",
+   "if_absent": "Team reverts to hours of manual work"
+  },
+  {
+   "what": "Inherited Tier 1 account",
+   "who_role": "Performance Marketing Director (temporary)",
+   "if_absent": "Account has no senior owner"
+  },
+  {
+   "what": "Landing page / designer coordination",
+   "who_role": "Performance Marketing Coordinator",
+   "if_absent": "not stated"
+  },
+  {
+   "what": "Pre-sales expectations (creatives, website)",
+   "who_role": "Growth Strategy Lead (sales)",
+   "if_absent": "Resets with each sales hire"
+  }
+ ],
+ "follow_ups": {
+  "questions": [
+   "WIP length and attendees; quarterly review time with AI vs before; which AI tool?",
+   "New paid clients a month and strategy reviews landing on WS?",
+   "Which of the 18 channels are outside Google/Meta; which overspends, when, how much?",
+   "Is the Meta pacing sheet working? Does WS do Meta pacing manually in Claude daily, and how long does it take?",
+   "Which Tier 1 account was inherited and who owns it long term?",
+   "Julia/Joe: backfill Head of Performance? Who sets channel caps?",
+   "Jethro: is there a written pre-sales checklist?",
+   "Michaela and Tatiana: implementation detail (builds, pacing, landing pages)"
+  ],
+  "contradictions": [
+   "Resolved by S2 (2026-11-04 Meta pacing call): WS does fill the Meta pacing sheet via Claude because the Supermetrics connection keeps dropping (subscription not cancelled) – not mentioned in the 28 Oct interview",
+   "Context pack: pacing adjustment 15–20 min/account vs WS 'budget is pretty easy to change' (time is in analysis)",
+   "Tickets: 'flow in HubSpot' (L367) vs 'migrated from HubSpot to Monday' (L378)",
+   "Context pack has no Head of Performance; 'JP' left ~2 weeks before interview",
+   "Evidence Log note on forecasting tool 'increasing revenue per employee' not found in transcript",
+   "Combined high-end WS hours (~217 h/month) exceed one FTE"
+  ],
+  "data_requests": [
+   "Google and Meta pacing sheets + list of channels outside them (Wendlley)",
+   "Performance WIP doc (Wendlley)",
+   "One AI-generated quarterly review + prompt (Wendlley)",
+   "Gemini forecasting prompt + output (Wendlley)",
+   "Overspend incident log (Wendlley / Julia)",
+   "Underperformance ticket history (Wendlley)",
+   "Notion paid-media onboarding SOP (Wendlley)",
+   "One-week time log for WS"
+  ],
+  "verify": [
+   "'Two months with no website' – which client, hours spent",
+   "Landing page ~$1,500 and who builds them",
+   "All four of her clients are Tier 1",
+   "Speaker attribution (messy labels)"
+  ]
+ }
+}

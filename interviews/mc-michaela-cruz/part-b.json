@@ -1,0 +1,2800 @@
+{
+  "interview": {
+    "id": "MC",
+    "name": "Michaela Cruz",
+    "role": "Performance Marketing Specialist",
+    "team": "Performance",
+    "date": "2026-11-02",
+    "minutes": 47,
+    "clients_managed": 11
+  },
+  "time_allocation": [
+    {
+      "activity": "Morning triage, priorities, daily agenda to manager",
+      "pct": 5,
+      "hours_per_week": 1.9,
+      "billable": false,
+      "quote": "my morning starts with checking monday.com if there are any tasks being briefed to me. Then I'll just compile everything",
+      "timestamp": "~03:01 (L048)",
+      "certainty": "stated step; 15–30 min/day assumed"
+    },
+    {
+      "activity": "Client email block (own clients)",
+      "pct": 7,
+      "hours_per_week": 2.5,
+      "billable": true,
+      "quote": "have a block time like for 30 minutes just to check on emails and respond to any emails and requests from my clients",
+      "timestamp": "~03:37 (L049)",
+      "certainty": "stated; billable assumed"
+    },
+    {
+      "activity": "Implementation tasks for team (and own clients)",
+      "pct": 56,
+      "hours_per_week": 21.3,
+      "billable": true,
+      "quote": "majority of my day goes to implementation tasks",
+      "timestamp": "~03:37 (L049)",
+      "certainty": "stated (no number); 3.5–5 h/day estimated; billable assumed"
+    },
+    {
+      "activity": "Own-client optimisation (4–5 pm block, ~2 days/week)",
+      "pct": 4,
+      "hours_per_week": 1.5,
+      "billable": true,
+      "quote": "two days in a week. So majority would be the tasks.",
+      "timestamp": "~04:12 (L050)",
+      "certainty": "stated (garbled); hours estimated"
+    },
+    {
+      "activity": "Merchant Center / Google Partner admin checks",
+      "pct": 0,
+      "hours_per_week": 0,
+      "billable": false,
+      "quote": "I haven't checked Google Merchant Center for like three weeks now.",
+      "timestamp": "~06:10 (L061)",
+      "certainty": "stated (currently skipped)"
+    },
+    {
+      "activity": "Meetings (Performance team call; optional client calls)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": null,
+      "quote": "Sometimes we schedule calls, but I'm not required to do that. It's just monthly reports.",
+      "timestamp": "~15:09 (L148)",
+      "certainty": "stated (no number)"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Daily priority of team implementation tasks",
+      "decider_role": "Requesting AMs / Senior Performance Marketing Manager",
+      "waiting_role": "Performance Marketing Specialist",
+      "typical_wait": "Same day",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Whether a task can move to tomorrow",
+      "decider_role": "Requesting AM",
+      "waiting_role": "Performance Marketing Specialist",
+      "typical_wait": "Same day",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Strategy for MC's own new clients",
+      "decider_role": "Senior Performance Marketing Manager (review)",
+      "waiting_role": "Performance Marketing Specialist; client",
+      "typical_wait": "Not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Client approval of strategy, ad copy, previews, budget",
+      "decider_role": "Client",
+      "waiting_role": "Performance Marketing Specialist",
+      "typical_wait": "Days; up to 4–5 copy revisions",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Approval of built ads ('waiting approval')",
+      "decider_role": "AM, then client",
+      "waiting_role": "Performance Marketing Specialist",
+      "typical_wait": "Not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Accept Claude optimisation recommendations",
+      "decider_role": "Performance Marketing Specialist",
+      "waiting_role": "–",
+      "typical_wait": "Within 30-min session",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Client start and what was sold",
+      "decider_role": "Founder (Joe Romeo)",
+      "waiting_role": "Performance Marketing Specialist",
+      "typical_wait": "Not stated",
+      "lands_on_leadership": true
+    },
+    {
+      "decision": "Not renewing Supermetrics (moved to AgencyAnalytics)",
+      "decider_role": "Not stated – assumed leadership / Performance Director",
+      "waiting_role": "Whole Performance team",
+      "typical_wait": "–",
+      "lands_on_leadership": true
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "White & Co Living",
+      "tier": "Not on SEO tier list; large paid client (Google $27.5K + NZ $7.5K; Meta ~$70K; DM)",
+      "context": "Worked example of Meta implementation brief; 'all tasks are priority' yet priority field sometimes blank"
+    },
+    {
+      "client": "DDEG ('DDG')",
+      "tier": "Tier 1",
+      "context": "Austin's former employer (vendor lead) – interviewer context only; confirm name"
+    },
+    {
+      "client": "Unnamed new client",
+      "tier": "unknown",
+      "context": "Signed; testing through November; go-live depends on client response speed"
+    },
+    {
+      "client": "Unnamed past client",
+      "tier": "unknown",
+      "context": "Offboarding handover missed; client chased 2–3 days after contract end"
+    },
+    {
+      "client": "Unnamed client (Shrishti's onboarding)",
+      "tier": "unknown",
+      "context": "4–5 ad copy revision rounds"
+    }
+  ],
+  "processes": [
+    {
+      "id": "MC-P01",
+      "process": "Paid media – campaign build",
+      "trigger": "AM briefs an implementation task on Monday.com with a brief sheet – planned, or ad hoc mid-day after the Performance team call",
+      "owner_role": "Requesting account manager (outcome); Performance Marketing Specialist executes",
+      "frequency": {
+        "count": 20,
+        "per": "working days/month (most of each day)",
+        "scope": "Team accounts + ~11 own clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Brief complete (assumed 70–85%)",
+              "pct": null
+            },
+            {
+              "outcome": "Needs clarification from AM (assumed 15–30%)",
+              "pct": null
+            }
+          ],
+          "certainty": "assumed"
+        },
+        {
+          "after_step": 7,
+          "branches": [
+            {
+              "outcome": "Approved",
+              "pct": null
+            },
+            {
+              "outcome": "Changes requested",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (branches) / split not discussed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        5656,
+        8232
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Pick up task; read brief sheet (campaign, copy, headlines, URLs)",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Monday.com, brief sheet",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Queue until briefed; often same-day",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 2,
+          "action": "Build ads/campaigns in Meta or bulk-upload via Google Ads Editor and check",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Meta Ads Manager / Google Ads Editor",
+          "touch_min": [
+            30,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 3,
+          "action": "Generate ad preview links (bulk via Claude skill)",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Claude (personal account)",
+          "touch_min": [
+            5,
+            15
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "single_person"
+          ],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 4,
+          "action": "Paste preview links into AM's sheet",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Google Sheet",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 5,
+          "action": "Comment on Monday task: done, links in sheet",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Monday.com",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "AM",
+          "flags": [],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 6,
+          "action": "Slack the AM if very urgent (Monday notifications unreliable)",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Slack",
+          "touch_min": [
+            1,
+            2
+          ],
+          "wait": "",
+          "handoff_to": "AM",
+          "flags": [
+            "error_prone"
+          ],
+          "certainty": "stated"
+        },
+        {
+          "step": 7,
+          "action": "Set status 'waiting approval'",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Monday.com",
+          "touch_min": [
+            1,
+            1
+          ],
+          "wait": "AM then client approval – unknown",
+          "handoff_to": "AM / client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step / unknown wait"
+        },
+        {
+          "step": 8,
+          "action": "Implement change requests from AM",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Meta / Google",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "AM",
+          "flags": [],
+          "certainty": "stated step; time in bad paths"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Incomplete brief",
+          "trigger": "Brief missing budget/campaign details",
+          "rate": "2–4/week (assumed) ≈ 8.7–17.3/month",
+          "extra_steps": "Chase AM, wait, re-read",
+          "extra_min": [
+            10,
+            20
+          ],
+          "certainty": "stated happens (L431–L432) / assumed rate and time; +5–10 min AM"
+        },
+        {
+          "name": "Same-day ad hoc brief",
+          "trigger": "Task briefed mid-day, needed same day",
+          "rate": "2–4/week (assumed)",
+          "extra_steps": "Re-plan day, push own work",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L130–L131); re-planning costed in MC-P02"
+        },
+        {
+          "name": "Priority field blank",
+          "trigger": "AM leaves priority empty",
+          "rate": "sometimes",
+          "extra_steps": "Guess or ask priority",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L106); time in MC-P02"
+        },
+        {
+          "name": "Monday notification not received",
+          "trigger": "Monday fails to notify AM",
+          "rate": "unknown",
+          "extra_steps": "Slack follow-up",
+          "extra_min": [
+            1,
+            2
+          ],
+          "certainty": "stated (L109)"
+        },
+        {
+          "name": "Change requests",
+          "trigger": "AM/client asks for edits",
+          "rate": "unknown",
+          "extra_steps": "Re-implement",
+          "extra_min": [
+            10,
+            30
+          ],
+          "certainty": "stated happens (L111) / assumed time"
+        }
+      ],
+      "monthly_hours": [
+        70.7,
+        102.9
+      ],
+      "monthly_hours_working": "Residual: implementation 3.5–5 h/day × 20 days = 70–100 h MC (incl. chasing 8.7×10=87 to 17.3×20=346 min) + AM query time 8.7×5=44 to 17.3×10=173 min (0.7–2.9 h) = 70.7–102.9 h (MC share 70–100 h) – estimated"
+    },
+    {
+      "id": "MC-P02",
+      "process": "Internal task management",
+      "trigger": "Start of each day; whenever an urgent ad hoc task lands",
+      "owner_role": "Performance Marketing Specialist",
+      "frequency": {
+        "count": 20,
+        "per": "month (daily)",
+        "scope": "MC's task list"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Task needed today",
+              "pct": null
+            },
+            {
+              "outcome": "Can move to tomorrow",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (branches, L048) / split not given"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        568,
+        1400
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Check Monday.com for tasks briefed; filter due today",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Monday.com",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Compile; agree with team which first / which today / which tomorrow",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Monday.com / Slack",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Team replies – unknown",
+          "handoff_to": "AMs",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 3,
+          "action": "Send daily agenda to manager (duplicates Monday view)",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Slack / message",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "Shrishti",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 4,
+          "action": "Manager reads agenda",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Slack",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed"
+        },
+        {
+          "step": 5,
+          "action": "If no team tasks: tell Shrishti, switch to own optimisations; Shrishti canvasses team",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Slack",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "Until team briefs",
+          "handoff_to": "Shrishti",
+          "flags": [],
+          "certainty": "stated (L126) / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Urgent mid-day request",
+          "trigger": "AM needs something today, often after the Performance team call",
+          "rate": "2–4/week (assumed) ≈ 8.7–17.3/month",
+          "extra_steps": "Re-plan; agenda inaccurate",
+          "extra_min": [
+            10,
+            20
+          ],
+          "certainty": "stated (L056–L057, L130) / assumed rate and time"
+        },
+        {
+          "name": "Everything marked urgent",
+          "trigger": "Team and own-client urgents same day",
+          "rate": "unknown",
+          "extra_steps": "Unclear prioritisation",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L051) / not quantified"
+        }
+      ],
+      "monthly_hours": [
+        7.1,
+        17.5
+      ],
+      "monthly_hours_working": "MC 20×15=300 to 20×30=600 min (5–10 h) + re-plans 8.7×10=87 to 17.3×20=346 min (1.4–5.8 h) = 6.4–15.8 h; manager 20×2=40 to 20×5=100 min (0.7–1.7 h) → 7.1–17.5 h – assumed"
+    },
+    {
+      "id": "MC-P03",
+      "process": "NEW: Client email & request handling",
+      "trigger": "Daily 30-minute email block; client requests",
+      "owner_role": "Performance Marketing Specialist",
+      "frequency": {
+        "count": 20,
+        "per": "month (daily)",
+        "scope": "~11 own clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        800,
+        1200
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Read and respond to client emails and requests",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Email",
+          "touch_min": [
+            30,
+            30
+          ],
+          "wait": "Client replies arrive between blocks",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated"
+        },
+        {
+          "step": 2,
+          "action": "Optional: paste draft + client email into Claude to check points answered and tone",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Claude (personal)",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated practice (L330) / estimated time; inside block"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Overrun",
+          "trigger": "Many client requests (week 1, onboarding)",
+          "rate": "unknown",
+          "extra_steps": "Longer block",
+          "extra_min": [
+            0,
+            15
+          ],
+          "certainty": "assumed (per day)"
+        },
+        {
+          "name": "Reply sits until next block",
+          "trigger": "Client replies outside the block",
+          "rate": "unknown",
+          "extra_steps": "None – waits",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "interviewer (L254) – interviewee agreed; elapsed hours, no touch"
+        }
+      ],
+      "monthly_hours": [
+        10.0,
+        15.0
+      ],
+      "monthly_hours_working": "20×30=600 min (10 h) to 20×45=900 min (15 h) – stated low / assumed high"
+    },
+    {
+      "id": "MC-P04",
+      "process": "Paid media – optimisation",
+      "trigger": "4–5 pm optimisation block, used about two days a week",
+      "owner_role": "Client's manager – here Performance Marketing Specialist",
+      "frequency": {
+        "count": 8.7,
+        "per": "month (2 sessions/week)",
+        "scope": "~11 own clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Accept Claude recommendation",
+              "pct": null
+            },
+            {
+              "outcome": "Reject",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (reviews all) / split not given"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        344,
+        696
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Ask Claude to audit account / list irrelevant search terms (90 days) and categorise",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Claude (personal)",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Claude run time",
+          "handoff_to": "",
+          "flags": [
+            "single_person"
+          ],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 2,
+          "action": "Review recommendations",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Claude output",
+          "touch_min": [
+            10,
+            25
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 3,
+          "action": "Implement chosen changes",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Google Ads / Meta",
+          "touch_min": [
+            10,
+            25
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / estimated time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Block used for overflow tasks",
+          "trigger": "Team implementation runs over",
+          "rate": "most days (3 of 5)",
+          "extra_steps": "Optimisation skipped",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L049–L050, garbled); risk not time"
+        },
+        {
+          "name": "Underperformance spotted",
+          "trigger": "Audit or pacing check shows decline",
+          "rate": "unknown",
+          "extra_steps": "Proactive mid-month email (MC-P06)",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L403); time in MC-P06"
+        }
+      ],
+      "monthly_hours": [
+        4.3,
+        8.7
+      ],
+      "monthly_hours_working": "8.7×30=261 min (4.3 h) to 8.7×60=522 min (8.7 h) – stated rate / estimated sessions; Claude already saves ≈4.3 h/month"
+    },
+    {
+      "id": "MC-P05",
+      "process": "Paid media – pacing & budget management",
+      "trigger": "Day 1 (or first Monday), ~15th, final week; Tina bot updates between",
+      "owner_role": "Performance Marketing Specialist maintains team pacing sheet; AMs own client budgets",
+      "frequency": {
+        "count": 1,
+        "per": "month (3 check points)",
+        "scope": "Team pacing sheet (all active clients) + own accounts"
+      },
+      "decision_points": [
+        {
+          "after_step": 4,
+          "branches": [
+            {
+              "outcome": "On track",
+              "pct": null
+            },
+            {
+              "outcome": "Underperforming → proactive client update",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (branches) / split not given"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        520,
+        1440
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Start new monthly pacing sheet; check all active clients present and data processing",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Google Sheets + Supermetrics",
+          "touch_min": [
+            30,
+            90
+          ],
+          "wait": "",
+          "handoff_to": "Whole team",
+          "flags": [
+            "error_prone",
+            "single_person"
+          ],
+          "certainty": "stated step / estimated time"
+        },
+        {
+          "step": 2,
+          "action": "Revert daily budgets raised at month-end, across accounts",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Google Ads, Meta",
+          "touch_min": [
+            210,
+            360
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "stated 'whole day' for steps 1–3 (L201) / estimated split"
+        },
+        {
+          "step": 3,
+          "action": "Quick checks: everything running, notifications",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Platforms",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated; time in step 2"
+        },
+        {
+          "step": 4,
+          "action": "Mid-month (~15th) pacing and performance check",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Pacing sheet, platforms",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "AM / client if poor",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 5,
+          "action": "Final-week over/underspend and performance checks",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Pacing sheet, platforms",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "AM",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Supermetrics breaks",
+          "trigger": "Connector failure",
+          "rate": "'a lot' – 1–3/month (assumed)",
+          "extra_steps": "Re-fix connector, recheck sheet",
+          "extra_min": [
+            30,
+            90
+          ],
+          "certainty": "stated (L198–L199) / assumed rate and time"
+        },
+        {
+          "name": "Tina pacing message wrong or missing",
+          "trigger": "Upstream Supermetrics data; bot has no visible owner",
+          "rate": "'some days it works, other days it doesn't' (Austin, L417)",
+          "extra_steps": "Manual check",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "interviewer – interviewee agreed; not quantified"
+        },
+        {
+          "name": "Supermetrics not renewed",
+          "trigger": "Reporting moved to AgencyAnalytics",
+          "rate": "pending",
+          "extra_steps": "Pacing sheet and Tina lose feed",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (her belief, L419–L422)"
+        }
+      ],
+      "monthly_hours": [
+        6.5,
+        18.0
+      ],
+      "monthly_hours_working": "Happy 360–810 min + bad (1×30=30 to 3×90=270 min) = 390–1,080 min = 6.5–18.0 h – estimated"
+    },
+    {
+      "id": "MC-P06",
+      "process": "Monthly reporting",
+      "trigger": "Week 1 of month; ad hoc mid-month if an account underperforms",
+      "owner_role": "Performance Marketing Specialist",
+      "frequency": {
+        "count": 11,
+        "per": "month",
+        "scope": "Own clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Underperforming → proactive mid-month update (assumed 0–2 clients)",
+              "pct": null
+            },
+            {
+              "outcome": "Wait for month-end",
+              "pct": null
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        144,
+        456
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Open auto-generated report and check",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            5,
+            15
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / estimated time (per client)"
+        },
+        {
+          "step": 2,
+          "action": "Send to client",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "AgencyAnalytics / email",
+          "touch_min": [
+            5,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / estimated time (per client)"
+        },
+        {
+          "step": 3,
+          "action": "Mid-month: email full performance update if underperforming",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Email, platforms",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / assumed time (per update)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        1.8,
+        5.7
+      ],
+      "monthly_hours_working": "11×10=110 to 11×20=220 min (1.8–3.7 h) + 0 to 2×60=120 min (0–2 h) = 1.8–5.7 h – estimated/assumed"
+    },
+    {
+      "id": "MC-P07",
+      "process": "Client onboarding – audit & strategy",
+      "trigger": "Client signs; Joe says client is starting; HubSpot auto-creates one task listing every step",
+      "owner_role": "Performance Marketing Specialist (own clients); Senior Performance Marketing Manager reviews strategy",
+      "frequency": {
+        "count": 0.67,
+        "per": "month (0.33–1, assumed)",
+        "scope": "MC's own new clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Questionnaire back before call",
+              "pct": null
+            },
+            {
+              "outcome": "Not back – go in 'blind'",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (L265–L266) / split not given"
+        },
+        {
+          "after_step": 5,
+          "branches": [
+            {
+              "outcome": "Shrishti approves",
+              "pct": null
+            },
+            {
+              "outcome": "Recommends changes",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (L119) / split not given"
+        },
+        {
+          "after_step": 7,
+          "branches": [
+            {
+              "outcome": "Client approves copy first time (assumed 50–70%)",
+              "pct": null
+            },
+            {
+              "outcome": "Revisions, up to 4–5 rounds (assumed 30–50%)",
+              "pct": null
+            }
+          ],
+          "certainty": "assumed split; revisions stated"
+        },
+        {
+          "after_step": 9,
+          "branches": [
+            {
+              "outcome": "Client has creatives",
+              "pct": null
+            },
+            {
+              "outcome": "Many Pixels needed",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (L272) / split not given"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        432,
+        2288
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Send onboarding document / questionnaire",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Email",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "Client slow to respond",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Chase client (questionnaire, approvals, budget)",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Email",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "Days (unknown)",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated (L207) / assumed time"
+        },
+        {
+          "step": 3,
+          "action": "Onboarding call – often without sales context; own question list",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Call",
+          "touch_min": [
+            60,
+            90
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "error_prone"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 4,
+          "action": "Write strategy",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Strategy doc",
+          "touch_min": [
+            180,
+            360
+          ],
+          "wait": "",
+          "handoff_to": "Shrishti",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 5,
+          "action": "Manager reviews strategy",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Strategy doc",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "unknown",
+          "handoff_to": "MC",
+          "flags": [],
+          "certainty": "stated step (L119) / assumed time"
+        },
+        {
+          "step": 6,
+          "action": "Strategy call with client",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Call",
+          "touch_min": [
+            60,
+            60
+          ],
+          "wait": "Client sign-off",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 7,
+          "action": "Write ad copy; send for approval",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Docs",
+          "touch_min": [
+            120,
+            240
+          ],
+          "wait": "Client approval",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 8,
+          "action": "Build campaigns",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Meta / Google Ads Editor",
+          "touch_min": [
+            360,
+            480
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated ('only took me a day', L271)"
+        },
+        {
+          "step": 9,
+          "action": "Send ad previews for approval",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Meta preview links",
+          "touch_min": [
+            30,
+            30
+          ],
+          "wait": "Client",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 10,
+          "action": "Confirm conversion tracking done – chase contractor",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Slack / message",
+          "touch_min": [
+            30,
+            90
+          ],
+          "wait": "unknown",
+          "handoff_to": "Liam Lau (contractor)",
+          "flags": [
+            "bottleneck",
+            "single_person"
+          ],
+          "certainty": "stated (L304) / assumed time"
+        },
+        {
+          "step": 11,
+          "action": "Confirm budget; go live",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Email",
+          "touch_min": [
+            15,
+            15
+          ],
+          "wait": "Client",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated (L206)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Picky client – ad copy revision rounds",
+          "trigger": "Hands-on client",
+          "rate": "30–50% of onboardings (assumed)",
+          "extra_steps": "4–5 revision rounds",
+          "extra_min": [
+            80,
+            180
+          ],
+          "certainty": "stated revisions (L268–L271) / assumed rate and time"
+        },
+        {
+          "name": "Client has no creatives → Many Pixels",
+          "trigger": "No usable assets",
+          "rate": "unknown",
+          "extra_steps": "Brief Many Pixels; back-and-forth (MC-P08)",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L272–L275); time in MC-P08"
+        },
+        {
+          "name": "Questionnaire not back before call",
+          "trigger": "Slow client",
+          "rate": "sometimes",
+          "extra_steps": "Own question list; redundant questions",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L265–L267); time in step 3"
+        },
+        {
+          "name": "Onboarding on top of team implementation",
+          "trigger": "Any own onboarding",
+          "rate": "every own onboarding",
+          "extra_steps": "Overload; re-prioritise",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L160); time in MC-P02"
+        }
+      ],
+      "monthly_hours": [
+        5.4,
+        28.6
+      ],
+      "monthly_hours_working": "Per onboarding touch 955–1,625 min (Shrishti 30–60). Low 0.33×(955+0.3×80=979)=323 min (5.4 h); high 1×(1,625+0.5×180=1,715) min = 28.6 h (MC share 5.2–27.6 h) – assumed"
+    },
+    {
+      "id": "MC-P08",
+      "process": "Creative production",
+      "trigger": "Client can't provide creatives; Many Pixels used at extra cost to client",
+      "owner_role": "Performance Marketing Specialist briefs; Many Pixels (external) produces",
+      "frequency": {
+        "count": 1.5,
+        "per": "month (1–2, assumed)",
+        "scope": "Clients without own assets"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Creative accepted",
+              "pct": null
+            },
+            {
+              "outcome": "Revision needed (assumed most)",
+              "pct": null
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        96,
+        440
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Write detailed brief",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Many Pixels",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Many Pixels",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Receive creative; check against brief",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Many Pixels",
+          "touch_min": [
+            10,
+            15
+          ],
+          "wait": "Vendor turnaround – unknown",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Brief not followed",
+          "trigger": "Vendor does the opposite of the brief",
+          "rate": "often ('the headache')",
+          "extra_steps": "Back-and-forth rounds (2–3)",
+          "extra_min": [
+            30,
+            90
+          ],
+          "certainty": "stated (L275–L277) / assumed rounds and time"
+        }
+      ],
+      "monthly_hours": [
+        1.2,
+        5.5
+      ],
+      "monthly_hours_working": "1×(40+30)=70 min (1.2 h) to 2×(75+90)=330 min (5.5 h) – assumed"
+    },
+    {
+      "id": "MC-P09",
+      "process": "NEW: Client offboarding & handover",
+      "trigger": "Contract end – no automatic notice or reminder",
+      "owner_role": "Account manager (MC for own clients)",
+      "frequency": {
+        "count": 0.3,
+        "per": "month (0.1–0.5, assumed)",
+        "scope": "Departing clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        16,
+        160
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Become aware the contract is ending",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "– (no trigger)",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "No reminder",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated gap"
+        },
+        {
+          "step": 2,
+          "action": "Prepare and send handover document",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Handover doc",
+          "touch_min": [
+            120,
+            240
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Handover missed",
+          "trigger": "Nobody reminded of end date",
+          "rate": "happened at least once",
+          "extra_steps": "Client follows up 2–3 days after end; rushed handover",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L249); reputational, not time"
+        }
+      ],
+      "monthly_hours": [
+        0.2,
+        2.0
+      ],
+      "monthly_hours_working": "0.1×120=12 min (0.2 h) to 0.5×240=120 min (2.0 h) – assumed"
+    },
+    {
+      "id": "MC-P10",
+      "process": "NEW: Platform compliance checks (Google Merchant Center, Google Partner)",
+      "trigger": "Routine admin; cadence not stated",
+      "owner_role": "Performance Marketing Specialist",
+      "frequency": {
+        "count": 4.33,
+        "per": "month (weekly, assumed)",
+        "scope": "Merchant Center feeds; agency Partner status"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        88,
+        176
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Check Merchant Center feeds/disapprovals and Partner requirements",
+          "actor_role": "Performance Marketing Specialist",
+          "tool": "Merchant Center, Google Ads",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Check skipped",
+          "trigger": "Not a priority vs client tasks",
+          "rate": "currently ~3 weeks",
+          "extra_steps": "None – risk builds",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L061); risk not time"
+        }
+      ],
+      "monthly_hours": [
+        1.1,
+        2.2
+      ],
+      "monthly_hours_working": "4.33×15=65 min (1.1 h) to 4.33×30=130 min (2.2 h) – assumed"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "MC-PP01",
+      "text": "Implementation tasks briefed mid-day (often after Performance team call) and needed same day – planned day breaks",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Paid media – campaign build",
+      "impact": "Re-planning 1.4–5.8 h/month; own-client work displaced",
+      "frequency": "Several times a week (assumed)",
+      "severity": 4,
+      "quote": "they'll briefing it in like middle of the day. But sometimes they need it on that day as well.",
+      "timestamp": "~14:03 (L130–L131)",
+      "certainty": "stated / frequency assumed",
+      "matches_existing_problem": "new (related: Managers at capacity – Tier 2/3 clients get dropped first)"
+    },
+    {
+      "id": "MC-PP02",
+      "text": "Daily agenda message to manager duplicates Monday.com view and goes stale",
+      "source": "interviewee",
+      "category": "Duplicate data entry",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "1.7–3.3 h/month",
+      "frequency": "Daily",
+      "severity": 2,
+      "quote": "I feel like that's kind of redundant on my end. If they have access to monday.com",
+      "timestamp": "~05:10 (L053)",
+      "certainty": "stated / time assumed",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP03",
+      "text": "Priority field often blank; tasks not briefed for week ahead – no forward view",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "Idle then overloaded; prioritisation guesswork",
+      "frequency": "Often",
+      "severity": 3,
+      "quote": "sometimes they leave this as blank which is also if that is in place that would help me prioritize my task",
+      "timestamp": "~10:33 (L106)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP04",
+      "text": "Briefs sometimes miss details – chases account manager",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Operations capacity & process",
+      "process": "Paid media – campaign build",
+      "impact": "1.4–5.8 h/month MC + 0.7–2.9 h AM (assumed)",
+      "frequency": "Sometimes",
+      "severity": 3,
+      "quote": "Oh, sometimes I need… to chase up the account manager for details.",
+      "timestamp": "~45:52 (L431–L432)",
+      "certainty": "stated / time assumed",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP05",
+      "text": "Monday.com notifications don't always reach AM; Slack used as backup",
+      "source": "interviewee",
+      "category": "Tool not used / adoption",
+      "anchor": "Technology, AI & stack",
+      "process": "Paid media – campaign build",
+      "impact": "Delay on urgent tasks",
+      "frequency": "Sometimes",
+      "severity": 2,
+      "quote": "Sometimes Monday.com doesn't notify them.",
+      "timestamp": "~11:13 (L109)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP06",
+      "text": "Supermetrics-fed team pacing sheet keeps breaking; Tina pacing updates unreliable; Supermetrics not being renewed",
+      "source": "interviewee (Tina reliability framed by interviewer, agreed)",
+      "category": "Single point of failure (tool)",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – pacing & budget management",
+      "impact": "0.5–4.5 h/month fixes; team pacing data at risk",
+      "frequency": "'a lot'",
+      "severity": 4,
+      "quote": "that's one more issue that Supermetrics is breaking down a lot.",
+      "timestamp": "~20:25 (L198)",
+      "certainty": "stated",
+      "matches_existing_problem": "Meta pacing sheet is broken – Supermetrics connector failing; Slack bots and agents have no visible owner or documentation"
+    },
+    {
+      "id": "MC-PP07",
+      "text": "Day 1 each month is a full day of manual budget reverts and pacing-sheet setup",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – pacing & budget management",
+      "impact": "4–7.5 h/month",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "that's what my whole day would look like, just changing budgets and stuff",
+      "timestamp": "~20:51 (L201)",
+      "certainty": "stated / hours estimated",
+      "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+    },
+    {
+      "id": "MC-PP08",
+      "text": "No automated performance-trend alerting – Tina reports budget only; declines found in manual checks",
+      "source": "interviewee (answering Austin's open question)",
+      "category": "Missing visibility",
+      "anchor": "Performance visibility & margin",
+      "process": "Performance monitoring & alerting",
+      "impact": "Late detection; mid-month firefighting",
+      "frequency": "Continuous",
+      "severity": 3,
+      "quote": "I wanted Tina to report the performance of the account.",
+      "timestamp": "~44:09 (L409)",
+      "certainty": "stated",
+      "matches_existing_problem": "No proactive performance alerting – problems found at month-end"
+    },
+    {
+      "id": "MC-PP09",
+      "text": "Own low-tier client optimisation squeezed to ~2 days/week; block taken by overflow tasks",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Client experience & delivery",
+      "process": "Paid media – optimisation",
+      "impact": "Less attention on low-tier accounts",
+      "frequency": "Weekly",
+      "severity": 3,
+      "quote": "two days in a week. So majority would be the tasks.",
+      "timestamp": "~04:12 (L050)",
+      "certainty": "stated (garbled)",
+      "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "MC-PP10",
+      "text": "Onboarding stalls on client lag – questionnaire, strategy, ad copy (4–5 revisions), previews in series",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Days–weeks to go-live; build ~1 day",
+      "frequency": "Every onboarding",
+      "severity": 4,
+      "quote": "The client has like four or five revisions that needed back and forth and stuff. So that's what's taking long.",
+      "timestamp": "~31:22 (L271)",
+      "certainty": "stated",
+      "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU"
+    },
+    {
+      "id": "MC-PP11",
+      "text": "Onboarding calls run 'blind' – no sales handover from Joe, questionnaire not back – clients get repeat questions",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Growth & sales engine",
+      "process": "Sales to delivery handover",
+      "impact": "Longer calls; poorer first impression",
+      "frequency": "Sometimes",
+      "severity": 3,
+      "quote": "So sometimes I'm going in blind. So I haven't been, I haven't talked to Joe on what has been communicated on the sales side",
+      "timestamp": "~30:11 (L266)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "MC-PP12",
+      "text": "Onboarding own client on top of team implementation overwhelms her",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Weeks of overload; BAU slips",
+      "frequency": "Each own onboarding",
+      "severity": 3,
+      "quote": "But if I'm onboarding a client, that's where everything changes.",
+      "timestamp": "~15:48 (L160)",
+      "certainty": "stated",
+      "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU; Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "MC-PP13",
+      "text": "HubSpot drops every onboarding task at once – no staged, guided sequence",
+      "source": "interviewee",
+      "category": "Unclear ownership",
+      "anchor": "Operations capacity & process",
+      "process": "Client onboarding – access & setup",
+      "impact": "Risk of missed steps",
+      "frequency": "Each onboarding",
+      "severity": 3,
+      "quote": "So the first time I onboarded a client, I don't know where to start.",
+      "timestamp": "~26:52 (L246)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP14",
+      "text": "Offboarding has no trigger – handover doc missed; client chased 2–3 days after contract end",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Client experience & delivery",
+      "process": "NEW: Client offboarding & handover",
+      "impact": "Reputation",
+      "frequency": "Happened at least once",
+      "severity": 4,
+      "quote": "Another two or three days has passed… the client is following up on the handover docs… So that makes us look bad.",
+      "timestamp": "~27:55 (L249)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP15",
+      "text": "Many Pixels creative ignores detailed briefs – repeated back-and-forth",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Client experience & delivery",
+      "process": "Creative production",
+      "impact": "1.2–5.5 h/month (assumed); launch delay",
+      "frequency": "Whenever used",
+      "severity": 3,
+      "quote": "they'll be doing the exact opposite of what you briefed in. So you have to back and forth.",
+      "timestamp": "~32:18 (L275)",
+      "certainty": "stated / time assumed",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP16",
+      "text": "No way to see when tracking contractor has finished – repeated chasing",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Operations capacity & process",
+      "process": "Conversion tracking setup",
+      "impact": "Delayed go-live; chasing time",
+      "frequency": "Each onboarding",
+      "severity": 3,
+      "quote": "I'm always asking if everything's done.",
+      "timestamp": "~35:38 (L304)",
+      "certainty": "stated",
+      "matches_existing_problem": "Conversion tracking depends on one contractor"
+    },
+    {
+      "id": "MC-PP17",
+      "text": "Client replies sit until next scheduled email check, losing hours in onboarding",
+      "source": "interviewer (credited idea to Michaela; she agreed)",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Hours of elapsed time per reply",
+      "frequency": "Each reply outside block",
+      "severity": 3,
+      "quote": "If an account manager receives a task that's in an email… that's going to get missed until the end of the day.",
+      "timestamp": "~28:41 (L254)",
+      "certainty": "stated (interviewer)",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP18",
+      "text": "Google Merchant Center / Partner checks not done for ~3 weeks",
+      "source": "interviewee",
+      "category": "Risk / compliance",
+      "anchor": "Technology, AI & stack",
+      "process": "NEW: Platform compliance checks",
+      "impact": "Feed / Partner status risk (unquantified)",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "I haven't checked Google Merchant Center for like three weeks now. So that's kind of an issue as well.",
+      "timestamp": "~06:10 (L061)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP19",
+      "text": "AI skills sit on a personal Claude account she pays for; company Claude won't connect to her browser",
+      "source": "interviewee",
+      "category": "Risk / compliance",
+      "anchor": "Technology, AI & stack",
+      "process": "Knowledge & SOPs",
+      "impact": "Skills leave with her; staff-funded tooling; work data on personal account",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "Personally, I set up my personal cloud [Claude] using my work email and I'm paying for it every month.",
+      "timestamp": "~39:17 (L343)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "MC-PP20",
+      "text": "Meta preview links for ~50-ad builds tedious – solved only by personal Claude skill",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "Paid media – campaign build",
+      "impact": "Minutes–hours per large build without skill",
+      "frequency": "Per large build",
+      "severity": 2,
+      "quote": "And 50 ad preview links is very, very, like, a lot. So I use Claude to generate those links.",
+      "timestamp": "~40:16 (L354)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "MC-B01",
+      "step": "Onboarding approvals (MC-P07 steps 1, 6, 7, 9, 11)",
+      "waiting_on": "Client – questionnaire, strategy, ad copy (up to 4–5 rounds), previews, budget",
+      "typical_wait": "Not stated – days",
+      "affected": "Each new client (~0.33–1/month for MC)",
+      "knock_on": "Go-live slips; client asks why account isn't live"
+    },
+    {
+      "id": "MC-B02",
+      "step": "Same-day implementation briefs (MC-P01 step 1)",
+      "waiting_on": "AMs briefing after Performance team call",
+      "typical_wait": "Same-day turnaround demanded",
+      "affected": "Planned tasks and ~11 own clients",
+      "knock_on": "Day re-planned; optimisation dropped"
+    },
+    {
+      "id": "MC-B03",
+      "step": "Conversion tracking (MC-P07 step 10)",
+      "waiting_on": "Liam Lau (contractor)",
+      "typical_wait": "Not stated",
+      "affected": "Each onboarding",
+      "knock_on": "Launch blocked; repeated chasing"
+    },
+    {
+      "id": "MC-B04",
+      "step": "Creative (MC-P08)",
+      "waiting_on": "Many Pixels revisions",
+      "typical_wait": "Not stated",
+      "affected": "Clients without own assets",
+      "knock_on": "Launch delayed; extra client cost"
+    },
+    {
+      "id": "MC-B05",
+      "step": "Brief clarification (MC-P01 bad path)",
+      "waiting_on": "Account manager",
+      "typical_wait": "Minutes–hours (assumed)",
+      "affected": "Incomplete briefs (assumed 15–30%)",
+      "knock_on": "Task stalls mid-build"
+    },
+    {
+      "id": "MC-B06",
+      "step": "'Waiting approval' after build (MC-P01 step 7)",
+      "waiting_on": "AM, then client",
+      "typical_wait": "Not stated",
+      "affected": "All implementation tasks",
+      "knock_on": "Ads not live until approved"
+    },
+    {
+      "id": "MC-B07",
+      "step": "Client replies during onboarding (MC-P03)",
+      "waiting_on": "MC's next email block",
+      "typical_wait": "Hours (interviewer, L254)",
+      "affected": "Onboarding clients",
+      "knock_on": "Elapsed time added to every round-trip"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "MC-S01",
+      "idea": "Staged onboarding: one task at a time, next triggered on completion, as a guide",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Client onboarding – access & setup",
+      "quote": "Instead of all tasks assigned at once, it has like a step-by-step process, like sort of a guide as well",
+      "timestamp": "~27:17 (L247)"
+    },
+    {
+      "id": "MC-S02",
+      "idea": "Automate offboarding tasks with notification and reminder",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "NEW: Client offboarding & handover",
+      "quote": "So I'm actually asking if we can also automate the off-boarding.",
+      "timestamp": "~27:55 (L249)"
+    },
+    {
+      "id": "MC-S03",
+      "idea": "Manager reads Monday.com view instead of daily agenda",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Internal task management",
+      "quote": "If they have access to monday.com, like the the view that I'm looking at so they know as well if my day is full",
+      "timestamp": "~05:10 (L053)"
+    },
+    {
+      "id": "MC-S04",
+      "idea": "Use Monday.com settings and automations for prioritisation",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Internal task management",
+      "quote": "I know monday.com is very very um powerful in that organization stuff but we haven't Um settings and automations",
+      "timestamp": "~04:17 (L051)"
+    },
+    {
+      "id": "MC-S05",
+      "idea": "All implementation requests via Monday.com with full descriptions",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Paid media – campaign build",
+      "quote": "But I wanted them to do it on monday.com just so I can have all descriptions.",
+      "timestamp": "~07:30 (L075)"
+    },
+    {
+      "id": "MC-S06",
+      "idea": "Standard implementation brief template",
+      "source": "interviewee",
+      "reaction": "Already discussed with Shrishti",
+      "process": "Paid media – campaign build",
+      "quote": "There's a template, like they can just put campaign budget, what's needed, Stuff like that.",
+      "timestamp": "~46:02 (L437)"
+    },
+    {
+      "id": "MC-S07",
+      "idea": "Scheduled Claude audit (Tue/Thu) surfacing account issues",
+      "source": "interviewer",
+      "reaction": "Agreed strongly: 'That's way easier for me, yeah.' (L183)",
+      "process": "Performance monitoring & alerting",
+      "quote": "every Tuesday and Thursday, it audits the accounts and then it surfaces what's wrong",
+      "timestamp": "~17:43 (L179)"
+    },
+    {
+      "id": "MC-S08",
+      "idea": "Slack alert when a client responds to an email",
+      "source": "interviewer (credited to Michaela)",
+      "reaction": "Agreed ('Yeah', L297)",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "a system that automatically pings in Slack that, 'Hey, client has responded. Go check.'",
+      "timestamp": "~35:11 (L296)"
+    },
+    {
+      "id": "MC-S09",
+      "idea": "Automated confirmation that conversion tracking is done",
+      "source": "interviewee",
+      "reaction": "Unsure; Austin sceptical, will talk to Liam",
+      "process": "Conversion tracking setup",
+      "quote": "If tracking was really done, then just think that's something we can do.",
+      "timestamp": "~35:38 (L304)"
+    },
+    {
+      "id": "MC-S10",
+      "idea": "Claude email checker skill (points answered, tone)",
+      "source": "interviewee",
+      "reaction": "Austin: 'that's very easy to do'",
+      "process": "NEW: Client email & request handling",
+      "quote": "Have I responded to all the points that the client has asked or is my email to… aggressive or not friendly",
+      "timestamp": "~38:16 (L332–L333)"
+    },
+    {
+      "id": "MC-S11",
+      "idea": "Add Meta ad preview link generator (and other skills) to company Claude",
+      "source": "interviewee",
+      "reaction": "Austin agreed; will send how-to video",
+      "process": "Paid media – campaign build",
+      "quote": "something we can also add is the ad preview links generator on Meta.",
+      "timestamp": "~39:41 (L350)"
+    },
+    {
+      "id": "MC-S12",
+      "idea": "Tina to report account performance / week-on-week decline",
+      "source": "interviewee (answering Austin's open question)",
+      "reaction": "",
+      "process": "Performance monitoring & alerting",
+      "quote": "I wanted Tina to report the performance of the account.",
+      "timestamp": "~44:09 (L409)"
+    },
+    {
+      "id": "MC-S13",
+      "idea": "Feed Tina from a platform other than Supermetrics",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Paid media – pacing & budget management",
+      "quote": "So if we can get Tina to review the budgets from another platform, Not just those supermetrics.",
+      "timestamp": "~44:43 (L420)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "MC-O01",
+      "fixes": [
+        "MC-PP01",
+        "MC-PP03",
+        "MC-PP04",
+        "MC-PP05",
+        "MC-B02",
+        "MC-B05"
+      ],
+      "lens": "Change the process",
+      "change": "All implementation requests via Monday.com form with required fields (campaign, budget, copy/URLs, priority, due date); week's briefs due Monday morning; same-day asks only via 'urgent' flag agreed by Shrishti",
+      "matches_existing_solution": "new (relates to brief & proposal generator)",
+      "candidate_tool": "Monday.com forms, required columns, notifications",
+      "hours_saved_month": [
+        2.1,
+        8.7
+      ],
+      "effort": "S",
+      "prerequisites": "Shrishti and AMs agree rule; template drafted (L437)",
+      "adoption_risk": "M – AMs must change habits",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% implementation tasks briefed ≥1 working day ahead",
+          "measured_by": "Monday.com created vs due dates",
+          "baseline": "unknown",
+          "baseline_quote": "they'll briefing it in like middle of the day.",
+          "target": "≥70%",
+          "type": "leading"
+        },
+        {
+          "kpi": "% tasks needing clarification",
+          "measured_by": "Monday.com 'clarify' tag",
+          "baseline": "unknown",
+          "baseline_quote": "Oh, sometimes I need… to chase up the account manager for details.",
+          "target": "<10%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Daily pain; template already drafted; largest hours of the quick wins"
+    },
+    {
+      "id": "MC-O02",
+      "fixes": [
+        "MC-PP13",
+        "MC-PP14",
+        "MC-PP12",
+        "MC-B01"
+      ],
+      "lens": "Change the process",
+      "change": "Staged onboarding and offboarding boards in Monday.com: one task live at a time, next unlocks on completion; HubSpot contract end date creates offboarding items ~30 days before end",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com automations; HubSpot → Make → Monday.com",
+      "hours_saved_month": [
+        0.5,
+        3
+      ],
+      "effort": "S–M",
+      "prerequisites": "Agreed checklists; contract end dates in HubSpot",
+      "adoption_risk": "L – she asked for it",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Offboarding handovers sent on/before contract end",
+          "measured_by": "Monday.com offboarding board",
+          "baseline": "At least 1 missed by 2–3 days",
+          "baseline_quote": "Another two or three days has passed and gone by",
+          "target": "100%",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Onboarding steps missed or repeated",
+          "measured_by": "Checklist audit",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 2,
+      "tag": "Quick win",
+      "rank_reason": "Her #1 ask; prevents repeat of client-visible offboarding miss"
+    },
+    {
+      "id": "MC-O03",
+      "fixes": [
+        "MC-PP19",
+        "MC-PP20"
+      ],
+      "lens": "Augment",
+      "change": "Move to company Claude: fix browser extension access, load shared skills (preview links, search-term audit, email checker), stop staff paying personally",
+      "matches_existing_solution": "new (relates to AI business brain / team wiki)",
+      "candidate_tool": "Claude (company), Claude for Chrome",
+      "hours_saved_month": [
+        1,
+        3
+      ],
+      "effort": "S",
+      "prerequisites": "Admin access; skill export",
+      "adoption_risk": "L – already used daily",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Staff paying for personal AI tools for work",
+          "measured_by": "Survey / finance",
+          "baseline": "≥1",
+          "baseline_quote": "I'm paying for it every month.",
+          "target": "0",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Shared Claude skills in company account",
+          "measured_by": "Claude admin",
+          "baseline": "0 of Michaela's",
+          "baseline_quote": "",
+          "target": "≥3",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 3,
+      "tag": "Quick win",
+      "rank_reason": "Working AI use stuck on a personal account – cheap fix, keeps skills in the business"
+    },
+    {
+      "id": "MC-O05",
+      "fixes": [
+        "MC-PP02"
+      ],
+      "lens": "Eliminate",
+      "change": "Stop daily agenda message; Shrishti uses Monday.com workload view filtered to Michaela",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com workload widget",
+      "hours_saved_month": [
+        2.4,
+        5.0
+      ],
+      "effort": "S",
+      "prerequisites": "Shrishti agrees",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Minutes/day on agenda message",
+          "measured_by": "Self-report",
+          "baseline": "5–10 min (assumed)",
+          "baseline_quote": "",
+          "target": "0",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 4,
+        "ease": 5,
+        "priority": 40
+      },
+      "rank": 4,
+      "tag": "Fill-in",
+      "rank_reason": "Pure elimination; small hours"
+    },
+    {
+      "id": "MC-O04",
+      "fixes": [
+        "MC-PP06",
+        "MC-PP07",
+        "MC-PP08"
+      ],
+      "lens": "Automate",
+      "change": "Replace Supermetrics feed for pacing sheet and Tina with AgencyAnalytics data or direct platform APIs; name owner for pacing pipeline and Tina bot",
+      "matches_existing_solution": "pacing tracker & adjustment engine",
+      "candidate_tool": "AgencyAnalytics API, Google Ads/Meta APIs, Porter Metrics / Windsor.ai, Google Sheets",
+      "hours_saved_month": [
+        0.5,
+        4.5
+      ],
+      "effort": "M",
+      "prerequisites": "Supermetrics end-date decision; API access; data owner",
+      "adoption_risk": "M – bots have broken unnoticed before",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Days per month pacing feed broken",
+          "measured_by": "Pipeline log / Tina status",
+          "baseline": "'breaking down a lot'",
+          "baseline_quote": "that's one more issue that Supermetrics is breaking down a lot.",
+          "target": "≤1",
+          "type": "lagging"
+        },
+        {
+          "kpi": "% accounts within ±5% of monthly budget",
+          "measured_by": "Pacing sheet month-end",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "≥95%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 5,
+        "confidence": 4,
+        "ease": 2,
+        "priority": 40
+      },
+      "rank": 5,
+      "tag": "Strategic",
+      "rank_reason": "Critical team-wide dependency; needs build and owner"
+    },
+    {
+      "id": "MC-O07",
+      "fixes": [
+        "MC-PP11",
+        "MC-PP10"
+      ],
+      "lens": "Change the process",
+      "change": "Sales-to-delivery handover note and returned questionnaire required before onboarding call; AI summary of sales call / HubSpot notes",
+      "matches_existing_solution": "transcripts → per-client action runsheet",
+      "candidate_tool": "HubSpot notes, Otter / Gemini, Claude",
+      "hours_saved_month": [
+        0.2,
+        1.5
+      ],
+      "effort": "S",
+      "prerequisites": "Joe / Jethro capture sales notes in HubSpot",
+      "adoption_risk": "M – depends on founder/sales behaviour",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% onboarding calls with handover note + questionnaire",
+          "measured_by": "HubSpot / Monday.com checklist",
+          "baseline": "unknown",
+          "baseline_quote": "So sometimes I'm going in blind.",
+          "target": "≥90%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 6,
+      "tag": "Quick win",
+      "rank_reason": "Shorter, better first calls; needs founder/sales discipline"
+    },
+    {
+      "id": "MC-O08",
+      "fixes": [
+        "MC-PP12",
+        "MC-PP09",
+        "MC-PP01"
+      ],
+      "lens": "People & policy",
+      "change": "Capacity rule: when Michaela onboards a client, Shrishti caps team implementation that week; BFCM briefs for team accounts due by end of week 1",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com workload view",
+      "hours_saved_month": [
+        0,
+        2
+      ],
+      "effort": "S",
+      "prerequisites": "Shrishti owns; team agrees",
+      "adoption_risk": "M – urgent asks still arrive",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Onboarding weeks with team implementation capped",
+          "measured_by": "Monday.com workload",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Own-client optimisation sessions per week",
+          "measured_by": "Time log",
+          "baseline": "~2",
+          "baseline_quote": "two days in a week. So majority would be the tasks.",
+          "target": "≥3",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 7,
+      "tag": "Quick win",
+      "rank_reason": "Protects low-tier clients during onboarding and BFCM; policy only"
+    },
+    {
+      "id": "MC-O06",
+      "fixes": [
+        "MC-PP08",
+        "MC-PP09"
+      ],
+      "lens": "Augment",
+      "change": "Tina adds week-on-week performance-decline flags; scheduled Claude audit (Tue/Thu) per account posts issues to Slack for review",
+      "matches_existing_solution": "proactive PPC anomaly monitor",
+      "candidate_tool": "Tina / OpenClaw, Claude scheduled tasks, platform APIs",
+      "hours_saved_month": [
+        1.8,
+        7.4
+      ],
+      "effort": "M",
+      "prerequisites": "MC-O04 data feed; thresholds per client",
+      "adoption_risk": "M – trust in alerts; prior bot breakages",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Days from performance decline to action",
+          "measured_by": "Alert timestamp vs change log",
+          "baseline": "Two-day checks or mid-month",
+          "baseline_quote": "Yeah, and sometimes I also can see it when I'm doing the pacing checks, adjusting the budget.",
+          "target": "≤2 days",
+          "type": "leading"
+        },
+        {
+          "kpi": "Minutes per optimisation session",
+          "measured_by": "Time log",
+          "baseline": "30 min",
+          "baseline_quote": "right now I'm doing just 30 minutes optimizations for my clients.",
+          "target": "≤20 min",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 8,
+      "tag": "Strategic",
+      "rank_reason": "Wanted by her and (per Austin) the team; depends on MC-O04"
+    },
+    {
+      "id": "MC-O09",
+      "fixes": [
+        "MC-PP18"
+      ],
+      "lens": "Change the process",
+      "change": "Recurring weekly Monday.com item for Merchant Center / Partner checks with owner; Merchant Center disapproval emails routed to Slack",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com recurring task; Merchant Center alerts → Slack",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "S",
+      "prerequisites": "Alert email access",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Weeks since last Merchant Center check",
+          "measured_by": "Monday.com recurring item",
+          "baseline": "~3",
+          "baseline_quote": "I haven't checked Google Merchant Center for like three weeks now.",
+          "target": "≤1",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 5,
+        "priority": 30
+      },
+      "rank": 9,
+      "tag": "Fill-in",
+      "rank_reason": "Tiny effort; closes a compliance gap"
+    },
+    {
+      "id": "MC-O10",
+      "fixes": [
+        "MC-PP07"
+      ],
+      "lens": "Automate",
+      "change": "Day 1 budget reset via saved Google Ads Editor/bulk sheets or Google Ads scripts and Meta bulk edit, driven from budget sheet",
+      "matches_existing_solution": "pacing tracker & adjustment engine",
+      "candidate_tool": "Google Ads scripts / Editor, Meta bulk upload",
+      "hours_saved_month": [
+        2.0,
+        5.6
+      ],
+      "effort": "M",
+      "prerequisites": "Single budget source of truth per account",
+      "adoption_risk": "M – trust in scripts touching budgets",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Hours on Day 1 budget reset",
+          "measured_by": "Time log",
+          "baseline": "~1 day",
+          "baseline_quote": "that's what my whole day would look like, just changing budgets and stuff",
+          "target": "≤2 h",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 10,
+      "tag": "Strategic",
+      "rank_reason": "Real hours; budget automation needs care. Impact 3/Ease 3 fits no tag – Strategic is closest"
+    },
+    {
+      "id": "MC-O11",
+      "fixes": [
+        "MC-PP17",
+        "MC-PP10",
+        "MC-B07"
+      ],
+      "lens": "Automate",
+      "change": "Slack ping when an onboarding client replies (Gmail / HubSpot filter → Slack)",
+      "matches_existing_solution": "new",
+      "candidate_tool": "HubSpot workflow, or Gmail filter + Zapier → Slack",
+      "hours_saved_month": [
+        0,
+        1
+      ],
+      "effort": "S",
+      "prerequisites": "List of onboarding client domains",
+      "adoption_risk": "L–M – alert noise",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Median time from client reply to team response (onboarding)",
+          "measured_by": "Email timestamps",
+          "baseline": "unknown (hours per Austin)",
+          "baseline_quote": "",
+          "target": "<1 h in business hours",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 2,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 11,
+      "tag": "Quick win",
+      "rank_reason": "Cycle-time gain; raised mainly by Austin, no baseline"
+    },
+    {
+      "id": "MC-O12",
+      "fixes": [
+        "MC-PP16",
+        "MC-B03"
+      ],
+      "lens": "Change the process",
+      "change": "Tracking-status column on onboarding board updated by Liam per conversion action; AM spot-check in Tag Assistant / GA4",
+      "matches_existing_solution": "new (relates to 'Conversion tracking depends on one contractor')",
+      "candidate_tool": "Monday.com, Google Tag Assistant",
+      "hours_saved_month": [
+        0.2,
+        1.5
+      ],
+      "effort": "S",
+      "prerequisites": "Liam's agreement; Austin to map Liam's process",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Days from tracking request to confirmed done",
+          "measured_by": "Monday.com status",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "≤4 days",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 12,
+      "tag": "Fill-in",
+      "rank_reason": "Small chasing saving; wait for Austin–Liam conversation"
+    },
+    {
+      "id": "MC-O13",
+      "fixes": [
+        "MC-PP15",
+        "MC-B04"
+      ],
+      "lens": "Change the process",
+      "change": "Standard Many Pixels brief template with must-haves, examples, acceptance checklist; one consolidated feedback round; trial AI creative (Canva) for simple variants",
+      "matches_existing_solution": "AI-assisted creative",
+      "candidate_tool": "Many Pixels, Canva AI",
+      "hours_saved_month": [
+        0.3,
+        2.7
+      ],
+      "effort": "S",
+      "prerequisites": "Template; vendor agreement",
+      "adoption_risk": "M – vendor behaviour outside our control",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Creative revision rounds per Many Pixels brief",
+          "measured_by": "Monday.com / email",
+          "baseline": "Several",
+          "baseline_quote": "they'll be doing the exact opposite of what you briefed in. So you have to back and forth.",
+          "target": "≤1",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 2,
+        "ease": 4,
+        "priority": 16
+      },
+      "rank": 13,
+      "tag": "Fill-in",
+      "rank_reason": "Vendor-side problem; limited control"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Monday.com as ticket system with full briefs cuts back-and-forth",
+      "quote": "I wanted them to do it on monday.com just so I can have all descriptions. All details are there.",
+      "timestamp": "~07:30 (L075)"
+    },
+    {
+      "text": "Claude audits halved optimisation time",
+      "quote": "Before I allocated an hour, right now I'm doing just 30 minutes optimizations for my clients.",
+      "timestamp": "~16:55 (L168)"
+    },
+    {
+      "text": "Human-in-the-loop AI search-term review",
+      "quote": "And then just categorize it why it thinks that it's irrelevant… And then that's when I'll just review it.",
+      "timestamp": "~42:41 (L390)"
+    },
+    {
+      "text": "Claude skill generates Meta preview links in bulk",
+      "quote": "So I use Claude to generate those links.",
+      "timestamp": "~40:16 (L354)"
+    },
+    {
+      "text": "AgencyAnalytics reports automated – check and send",
+      "quote": "We do have the reports now, so all we have to do is check and send.",
+      "timestamp": "~21:39 (L204)"
+    },
+    {
+      "text": "Proactive mid-month performance updates to clients",
+      "quote": "it's better to give an update in the middle of the month than at the end or the first day of the month.",
+      "timestamp": "~25:25 (L231)"
+    },
+    {
+      "text": "Fast Google builds via Google Ads Editor bulk upload",
+      "quote": "For Google Ads, it's usually easy since I can just do bulk uploads on Google Ads Editor.",
+      "timestamp": "~11:16 (L111)"
+    },
+    {
+      "text": "Build itself quick once approvals are in",
+      "quote": "It only took me a day to build the campaigns.",
+      "timestamp": "~31:22 (L271)"
+    },
+    {
+      "text": "Senior review of a newer specialist's onboarding strategy",
+      "quote": "So there's another layer of checking if I'm doing the onboarding.",
+      "timestamp": "~12:26 (L119)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "11 (later 10)",
+      "unit": "clients",
+      "context": "MC's own low-touch book",
+      "quote": "11, but they're float years [low tiers?].",
+      "timestamp": "~15:09 (L148); 'Yep, 10.' ~15:33 (L156)",
+      "certainty": "stated (inconsistent)"
+    },
+    {
+      "value": "5",
+      "unit": "channels",
+      "context": "Google, Meta, LinkedIn, TikTok, Pinterest",
+      "quote": "I also do LinkedIn, TikTok, Sometimes Pinterest.",
+      "timestamp": "~09:28 (L093)",
+      "certainty": "stated"
+    },
+    {
+      "value": "30",
+      "unit": "min/day",
+      "context": "Client email block",
+      "quote": "have a block time like for 30 minutes just to check on emails",
+      "timestamp": "~03:37 (L049)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4–5 pm",
+      "unit": "daily block",
+      "context": "Optimisation block",
+      "quote": "So 4 to 5 p.m. just to optimize the accounts that I'm handling.",
+      "timestamp": "~03:37 (L049)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2",
+      "unit": "days/week",
+      "context": "Optimisation actually done",
+      "quote": "two days in a week. So majority would be the tasks.",
+      "timestamp": "~04:12 (L050)",
+      "certainty": "stated (garbled)"
+    },
+    {
+      "value": "60 → 30",
+      "unit": "minutes",
+      "context": "Optimisation before/after Claude",
+      "quote": "Before I allocated an hour, right now I'm doing just 30 minutes optimizations",
+      "timestamp": "~16:55 (L168)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~3",
+      "unit": "weeks",
+      "context": "Merchant Center not checked",
+      "quote": "I haven't checked Google Merchant Center for like three weeks now.",
+      "timestamp": "~06:10 (L061)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "day",
+      "context": "Day 1 budget reverts and pacing-sheet setup",
+      "quote": "that's what my whole day would look like, just changing budgets and stuff",
+      "timestamp": "~20:51 (L201)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~15th",
+      "unit": "day of month",
+      "context": "Mid-month budget and performance check",
+      "quote": "pacing checks on the mid-month, like on the 15th or any somewhere near that.",
+      "timestamp": "~23:11 (L210)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "day",
+      "context": "New-client campaign build once approved",
+      "quote": "It only took me a day to build the campaigns.",
+      "timestamp": "~31:22 (L271)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4–5",
+      "unit": "revisions",
+      "context": "Picky client's ad copy rounds (Shrishti's onboarding)",
+      "quote": "The client has like four or five revisions that needed back and forth",
+      "timestamp": "~31:22 (L271)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2–3",
+      "unit": "days",
+      "context": "Late offboarding handover before client chased",
+      "quote": "Another two or three days has passed and gone by",
+      "timestamp": "~27:55 (L249)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~50",
+      "unit": "ads",
+      "context": "Meta build size needing preview links",
+      "quote": "sometimes I'm building ads, like 50 ads and stuff",
+      "timestamp": "~39:41 (L350)",
+      "certainty": "stated"
+    },
+    {
+      "value": "90",
+      "unit": "days",
+      "context": "Search-term look-back for Claude review",
+      "quote": "I'll just ask Claude to run search terms for the last 90 days",
+      "timestamp": "~42:25 (L387)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "client",
+      "context": "New client testing through November",
+      "quote": "they're just testing for this whole month for the whole month of November",
+      "timestamp": "~21:58 (L206)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "prior onboarding",
+      "context": "Clients MC has onboarded herself",
+      "quote": "For example, I onboarded one client before.",
+      "timestamp": "~15:48 (L160)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Monthly",
+      "unit": "subscription",
+      "context": "Personal Claude paid by MC (amount not given)",
+      "quote": "I'm paying for it every month.",
+      "timestamp": "~39:17 (L343)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Oct 2026",
+      "unit": "month adopted",
+      "context": "AgencyAnalytics for monthly reports",
+      "quote": "agency analytics last month so everything has been automated",
+      "timestamp": "~21:39 (L204)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Not renewing",
+      "unit": "status",
+      "context": "Supermetrics",
+      "quote": "I don't think we're… we will be using or renewing our Supermetrics.",
+      "timestamp": "~44:38–44:43 (L419–L420)",
+      "certainty": "stated (her belief)"
+    },
+    {
+      "value": "Daily",
+      "unit": "cadence",
+      "context": "Tina pacing check (Austin's description)",
+      "quote": "So the pacing check that we have that Tina does daily...",
+      "timestamp": "~43:52 (L407)",
+      "certainty": "stated (interviewer) – conflicts with M/W/F"
+    },
+    {
+      "value": "Tue / Thu",
+      "unit": "cadence",
+      "context": "Proposed scheduled Claude audit",
+      "quote": "Like every Tuesday and Thursday, it audits the accounts",
+      "timestamp": "~17:43 (L179)",
+      "certainty": "stated (interviewer proposal)"
+    },
+    {
+      "value": "13",
+      "unit": "minutes",
+      "context": "Interview finished early",
+      "quote": "I think I can give you 13 minutes back.",
+      "timestamp": "~46:11 (L440)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Monday.com (task intake, status, 'waiting approval')",
+      "HubSpot (auto onboarding task)",
+      "Google Sheets (brief sheets, team pacing sheet)",
+      "Supermetrics (pacing feed – breaking, not renewing)",
+      "AgencyAnalytics (monthly reports)",
+      "Google Ads + Google Ads Editor",
+      "Meta Ads Manager",
+      "LinkedIn / TikTok / Pinterest ads",
+      "Google Merchant Center",
+      "Slack",
+      "Tina Slack agent bot (pacing updates)",
+      "Many Pixels (outsourced creative)",
+      "Company Claude account (not usable in her browser)"
+    ],
+    "shadow": [
+      "Personal paid Claude account (work email) with Claude for Chrome",
+      "Personal Claude skills: Meta preview-link generator; account-audit and 90-day search-term prompts",
+      "Manual Claude email check (paste draft + client email)",
+      "Slack as backup for Monday.com notifications",
+      "Daily agenda message on top of Monday.com"
+    ],
+    "duplicated_data": [
+      "Task list: Monday.com view + daily agenda message",
+      "Budgets: pacing sheet + platforms (+ budget sheet per context pack)",
+      "Preview links: Meta + AM sheet + Monday.com comment",
+      "Onboarding steps: HubSpot task then email / Monday.com"
+    ],
+    "missing_access": [
+      "Sales context from Joe before onboarding calls",
+      "Client questionnaire before calls",
+      "Reliable pacing data feed",
+      "Performance-trend data in Tina",
+      "Conversion tracking status",
+      "Forward view of week's implementation briefs and priority on every task",
+      "Company Claude working in her browser"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Claude skills (preview links, audit and search-term prompts) on personal account",
+      "who_role": "Performance Marketing Specialist",
+      "if_absent": "Skills leave with her; others can't reuse"
+    },
+    {
+      "what": "Monthly pacing sheet rebuild and Supermetrics fixes",
+      "who_role": "Performance Marketing Specialist",
+      "if_absent": "Team budget source of truth not ready Day 1"
+    },
+    {
+      "what": "Implementation capacity for the Performance team",
+      "who_role": "Performance Marketing Specialist (with Coordinator per context pack)",
+      "if_absent": "Builds queue; same-day requests can't be met"
+    },
+    {
+      "what": "Pacing updates",
+      "who_role": "Tina Slack agent bot – unreliable; owner not stated",
+      "if_absent": "Pacing flags missing or wrong"
+    },
+    {
+      "what": "Conversion tracking implementation",
+      "who_role": "Conversion Tracking Specialist (Liam Lau, contractor)",
+      "if_absent": "Onboarding go-live blocked; status only known by asking"
+    },
+    {
+      "what": "Sales context for new clients",
+      "who_role": "Founder (Joe Romeo)",
+      "if_absent": "Onboarding calls run blind"
+    },
+    {
+      "what": "Strategy sign-off for MC's onboardings",
+      "who_role": "Senior Performance Marketing Manager",
+      "if_absent": "MC's onboarding strategy waits"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Michaela: implementation tasks per week and build time per task type; how often briefs incomplete?",
+      "Michaela: accounts with Day 1 budget reverts and time per account?",
+      "Michaela: which 10–11 clients – includes NICU ($28K Google per context pack)?",
+      "Michaela: meaning of 'float years' (L148) – 'low tiers'?",
+      "Shrishti: how often same-day asks; is the brief template in use?",
+      "Wendlley/Julia: who decided not to renew Supermetrics, end date, and replacement for pacing feed and Tina?",
+      "Liam: conversion tracking process and how 'done' is signalled (Austin action item)",
+      "Who owns contract end dates and where do they live?"
+    ],
+    "contradictions": [
+      "Client count 11 (L148) vs 10 (L156)",
+      "Austin says Tina checks pacing daily (L407) vs M/W/F per known facts",
+      "Context pack: Supermetrics lapsed; Michaela (2 Nov) says still connected but failing, not renewing",
+      "Context pack build 3–5 days vs Michaela 'a day' once approved (L271)",
+      "Self-described low-touch book vs NICU (top-5 Google budget) assigned to MC in context pack",
+      "Speaker labels: some B/D lines read like Austin; L429 'No, okay.' labelled Austin",
+      "High-end MC hours (~200 h/month) exceed one FTE"
+    ],
+    "data_requests": [
+      "Monday.com export of Michaela's tasks for one month (created vs due, priority fill rate) – Shrishti/Sid",
+      "Implementation brief template – Michaela",
+      "HubSpot onboarding task template – Julia/Joe",
+      "Team pacing sheet and Supermetrics failure log – Michaela/Wendlley",
+      "Onboarding questionnaire and offboarding handover template – Shrishti",
+      "Many Pixels brief examples and revision history – Michaela"
+    ],
+    "verify": [
+      "'Supermetrics is breaking down a lot' – dates/frequency",
+      "Day 1 = whole day on budget reverts",
+      "Optimisation 60 → 30 min with Claude",
+      "Merchant Center unchecked ~3 weeks – check disapprovals"
+    ]
+  }
+}

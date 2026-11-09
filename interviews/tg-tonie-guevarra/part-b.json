@@ -1,0 +1,1679 @@
+{
+  "interview": {
+    "id": "TG",
+    "name": "Tonie Guevarra",
+    "role": "Outreach Specialist (link building)",
+    "team": "Organic",
+    "date": "2026-11-04",
+    "minutes": 45,
+    "clients_managed": null
+  },
+  "time_allocation": [
+    {
+      "activity": "Daily routine: check published links, replace leads, send orders, check new leads, allocate to clients",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "Yeah, so every day that's what I do.",
+      "timestamp": "~06:22 (L036)",
+      "certainty": "stated (no number); billable assumed"
+    },
+    {
+      "activity": "Lead sourcing and qualification (TG-P01)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "So I can check them and then after I check them, I will ask Carl [Karl] for the approval.",
+      "timestamp": "~05:15 (L034)",
+      "certainty": "estimated from process hours: 18.7–55.5 h/month (~12–35%)"
+    },
+    {
+      "activity": "Client allocation and order dispatch (TG-P02)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "once Carl [Karl] approved them, I will... take time to add them to the different clients.",
+      "timestamp": "~05:15–06:16 (L034–L035)",
+      "certainty": "estimated from process hours: 16.3–59.5 h/month (~10–37%)"
+    },
+    {
+      "activity": "Published-link checks and master-sheet encoding (TG-P03)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "as I start I begin with checking the published links.",
+      "timestamp": "~02:56 (L026)",
+      "certainty": "estimated from process hours: 10.8–35.7 h/month (~7–22%)"
+    },
+    {
+      "activity": "Monday.com sync and self-built tools (TG-P04)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "Somehow I'm learning to to do the admin task. using AI.",
+      "timestamp": "~42:15 (L446–L447)",
+      "certainty": "estimated 1.5–5.0 h/month for the sync; tool-building time not discussed"
+    },
+    {
+      "activity": "Training in-house publishers",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "giving them the opportunity to learn this work and training them",
+      "timestamp": "~19:36 (L193)",
+      "certainty": "stated (no number)"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Approve or decline each lead",
+      "decider_role": "Senior SEO Manager & Link-building Lead (Karl)",
+      "waiting_role": "Outreach Specialist",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Lead passes metrics/content criteria (first screen)",
+      "decider_role": "Outreach Specialist + Claude skill",
+      "waiting_role": "Karl",
+      "typical_wait": "per batch",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Which client gets which domain",
+      "decider_role": "Outreach Specialist",
+      "waiting_role": "Publishers, clients",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Lead tier (1/2/3 by niche spread)",
+      "decider_role": "Outreach Specialist",
+      "waiting_role": "Allocation",
+      "typical_wait": "–",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Pay publisher (before or after publishing)",
+      "decider_role": "Karl (per Austin's description)",
+      "waiting_role": "Publisher",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Charge dynamic clients more for Tier 1 leads",
+      "decider_role": "Not decided – owner not stated (assumed leadership / sales)",
+      "waiting_role": "–",
+      "typical_wait": "–",
+      "lands_on_leadership": true
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "Bargain Car Rentals (\"parking car rentals\" – inferred)",
+      "tier": "Tier 1",
+      "context": "Dynamic client on a separate leads sheet; needs scarce, expensive Tier 1 (single-niche) leads"
+    },
+    {
+      "client": "Five Good Friends",
+      "tier": "Tier 1",
+      "context": "Dynamic client; same Tier 1 lead scarcity and cost"
+    },
+    {
+      "client": "Leaselab",
+      "tier": "Tier 1",
+      "context": "Dynamic client (\"lease lab\" / \"Please Love\"); same Tier 1 lead scarcity and cost"
+    },
+    {
+      "client": "All link-building clients (unnamed)",
+      "tier": "–",
+      "context": "300–340 links a month across all clients"
+    }
+  ],
+  "processes": [
+    {
+      "id": "TG-P01",
+      "process": "Link building – sourcing & ordering",
+      "trigger": "Continuous need for sites; publisher blog lists; inbound brokers; periodic ~1,000-lead QA batches (lead sourcing and qualification)",
+      "owner_role": "Outreach Specialist (Karl approves)",
+      "frequency": {
+        "count": 1,
+        "per": "day (sourcing) + 1–2 QA batches/month (assumed)",
+        "scope": "All link-building clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Skill passes",
+              "pct": 3
+            },
+            {
+              "outcome": "Skill rejects",
+              "pct": 97
+            }
+          ],
+          "certainty": "stated (32 of ~1,000, one batch)"
+        },
+        {
+          "after_step": 5,
+          "branches": [
+            {
+              "outcome": "Karl approves",
+              "pct": 50
+            },
+            {
+              "outcome": "Karl declines",
+              "pct": 50
+            }
+          ],
+          "certainty": "stated (27 of 54, one batch)"
+        },
+        {
+          "after_step": 4,
+          "branches": [
+            {
+              "outcome": "Lead Tier 1 (one niche)",
+              "pct": null
+            },
+            {
+              "outcome": "Tier 2 (2–3 niches)",
+              "pct": null
+            },
+            {
+              "outcome": "Tier 3 (3+ niches)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1576,
+        5160
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Self-source candidate domains via search operators, AI Mode and Claude; check one by one",
+          "actor_role": "Outreach Specialist",
+          "tool": "Google, AI Mode, Claude",
+          "touch_min": [
+            600,
+            1320
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated step; assumed 30–60 min/day × 20–22 days"
+        },
+        {
+          "step": 2,
+          "action": "Collect leads from publishers' blog lists and inbound brokers",
+          "actor_role": "Outreach Specialist",
+          "tool": "Publisher sheets, email",
+          "touch_min": [
+            200,
+            440
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step; assumed 10–20 min/day × 20–22 days"
+        },
+        {
+          "step": 3,
+          "action": "Check metrics (DR 30+, traffic 1,000+, US/AU/CA/NZ, keywords 50+) and run batch through Claude lead-review skill",
+          "actor_role": "Outreach Specialist + Claude",
+          "tool": "Ahrefs, Claude skill, publishers list",
+          "touch_min": [
+            180,
+            720
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "⚠️"
+          ],
+          "certainty": "stated criteria and batch size; assumed 180–360 min/batch × 1–2"
+        },
+        {
+          "step": 4,
+          "action": "Manual content check of skill-passed leads; classify Tier 1/2/3",
+          "actor_role": "Outreach Specialist",
+          "tool": "Browser, sheet",
+          "touch_min": [
+            64,
+            432
+          ],
+          "wait": "",
+          "handoff_to": "Karl",
+          "flags": [],
+          "certainty": "stated step (32/54 passed); assumed 2–4 min/lead × 1–2 batches"
+        },
+        {
+          "step": 5,
+          "action": "Approve or decline each lead",
+          "actor_role": "Senior SEO Manager & Link-building Lead",
+          "tool": "Sheet; same Claude skill",
+          "touch_min": [
+            64,
+            540
+          ],
+          "wait": "Karl's turnaround – not stated",
+          "handoff_to": "Outreach Specialist",
+          "flags": [
+            "⏸",
+            "👤"
+          ],
+          "certainty": "stated step; assumed 2–5 min/lead × 32–54 × 1–2"
+        },
+        {
+          "step": 6,
+          "action": "Record approved / rejected leads in reference lists used by the skill",
+          "actor_role": "Outreach Specialist",
+          "tool": "Sheets, Claude project",
+          "touch_min": [
+            15,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "TG-P02",
+          "flags": [],
+          "certainty": "stated step; assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Karl declines half of skill-approved leads",
+          "trigger": "Skill and Karl disagree using the same skill",
+          "rate": "27 of 54 (one batch)",
+          "extra_steps": "Source and check replacements",
+          "extra_min": [
+            60,
+            360
+          ],
+          "certainty": "stated rate; assumed 60–180 min/batch × 1–2"
+        },
+        {
+          "name": "Skill over-rejects valid leads",
+          "trigger": "Skill too strict / inaccurate",
+          "rate": "32 of ~1,000 approved (latest batch)",
+          "extra_steps": "None – supply lost",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; supply effect not costed"
+        },
+        {
+          "name": "Self-sourcing runs dry",
+          "trigger": "Finite qualifying sites; AI search gives limited results",
+          "rate": "Ongoing",
+          "extra_steps": "Rely on inbound brokers",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        },
+        {
+          "name": "Tier 1 leads needed for dynamic clients",
+          "trigger": "BCR, Five Good Friends, Leaselab need single-niche sites",
+          "rate": "Ongoing",
+          "extra_steps": "Extra searching; higher price",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        19.7,
+        64.5
+      ],
+      "monthly_hours_working": "Happy: 600+200+180+64+64+15 = 1,123 to 1,320+440+720+432+540+60 = 3,512 min; bad: 60 to 360 min; total 1,183–3,872 min = 19.7–64.5 h (TG share 18.7–55.5 h; Karl 1.1–9.0 h); cost ×$80 = $1,576–$5,160"
+    },
+    {
+      "id": "TG-P02",
+      "process": "Link building – sourcing & ordering",
+      "trigger": "Karl approves leads; client link plans need filling (client allocation and order dispatch)",
+      "owner_role": "Outreach Specialist",
+      "frequency": {
+        "count": 320,
+        "per": "month (300–340 links)",
+        "scope": "All link-building clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Domain allocated to a client (Tonie's judgement, no rule)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no rule)"
+        },
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Unused for client",
+              "pct": null
+            },
+            {
+              "outcome": "Already used – pick another",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        },
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Internal publisher (shared sheet)",
+              "pct": null
+            },
+            {
+              "outcome": "External publisher (pasted into own sheet)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": 320,
+      "monthly_cost_aud": [
+        1304,
+        4760
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Decide which client(s) each approved domain suits (incl. dynamic-clients sheet)",
+          "actor_role": "Outreach Specialist",
+          "tool": "Approved-leads sheet, dynamic-clients sheet",
+          "touch_min": [
+            600,
+            1700
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "👤",
+            "⚠️"
+          ],
+          "certainty": "stated time-consuming; assumed 2–5 min/link × 300–340"
+        },
+        {
+          "step": 2,
+          "action": "Apps Script flags whether the domain is used/unused for the client",
+          "actor_role": "Apps Script",
+          "tool": "Order sheet",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated"
+        },
+        {
+          "step": 3,
+          "action": "Send order: internal – insert in shared order sheet; external – copy-paste into each publisher's sheet",
+          "actor_role": "Outreach Specialist",
+          "tool": "Order sheets",
+          "touch_min": [
+            300,
+            1360
+          ],
+          "wait": "",
+          "handoff_to": "Publisher",
+          "flags": [
+            "⌨️",
+            "⚠️"
+          ],
+          "certainty": "stated step; assumed 1–4 min/order × 300–340"
+        },
+        {
+          "step": 4,
+          "action": "Publisher negotiates / accepts and publishes",
+          "actor_role": "Publisher",
+          "tool": "Publisher site",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Negotiation 'a week or two'; publishing 0–3 weeks",
+          "handoff_to": "TG-P03",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Publisher asks for a replacement lead",
+          "trigger": "Publisher can't place on that domain",
+          "rate": "assumed 5–15% of orders (15–51)",
+          "extra_steps": "Re-check leads, pick and re-send replacement",
+          "extra_min": [
+            75,
+            510
+          ],
+          "certainty": "stated event; assumed rate and 5–10 min each"
+        },
+        {
+          "name": "Order number changes on external sheet",
+          "trigger": "Copy-paste / external edits",
+          "rate": "sometimes",
+          "extra_steps": "Reconcile order numbers",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        },
+        {
+          "name": "Duplicate domain for same client",
+          "trigger": "Domain reused",
+          "rate": "Historic problem; checker accuracy uncertain",
+          "extra_steps": "Cancel / replace",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        16.3,
+        59.5
+      ],
+      "monthly_hours_working": "Happy: 600+0+300 = 900 to 1,700+0+1,360 = 3,060 min; bad: 15×5 = 75 to 51×10 = 510 min; total 975–3,570 min = 16.3–59.5 h; cost ×$80 = $1,304–$4,760"
+    },
+    {
+      "id": "TG-P03",
+      "process": "Link building – QA & live checks",
+      "trigger": "Publishers enter completed links in their sheets (daily)",
+      "owner_role": "Outreach Specialist",
+      "frequency": {
+        "count": 320,
+        "per": "month (300–340 published links; daily checks)",
+        "scope": "All link-building clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Live",
+              "pct": null
+            },
+            {
+              "outcome": "Has issues",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split); context pack 32% hard-fault rate Jan–Apr on later checks"
+        }
+      ],
+      "team_volume_per_month": 320,
+      "monthly_cost_aud": [
+        864,
+        2856
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Check internal and external publisher sheets for newly published links",
+          "actor_role": "Outreach Specialist",
+          "tool": "Publisher sheets",
+          "touch_min": [
+            200,
+            440
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step; assumed 10–20 min/day × 20–22 days"
+        },
+        {
+          "step": 2,
+          "action": "Link-status extension marks link live or 'has issues'",
+          "actor_role": "Sheets extension (built by TG with Claude)",
+          "tool": "Order sheet",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Outreach Specialist",
+          "flags": [],
+          "certainty": "stated"
+        },
+        {
+          "step": 3,
+          "action": "Re-key each published link into the master sheet and other sheets",
+          "actor_role": "Outreach Specialist",
+          "tool": "Master Sheet",
+          "touch_min": [
+            300,
+            1020
+          ],
+          "wait": "",
+          "handoff_to": "Account managers; TG-P04",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated step; assumed 1–3 min/link × 300–340"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Link flagged with issues",
+          "trigger": "Wrong anchor/URL or not live",
+          "rate": "assumed 5–10% (15–34 links)",
+          "extra_steps": "Chase publisher; re-check",
+          "extra_min": [
+            150,
+            680
+          ],
+          "certainty": "stated flag exists; assumed rate and 10–20 min each"
+        },
+        {
+          "name": "Extension result unreliable",
+          "trigger": "Accuracy uncertain",
+          "rate": "unknown",
+          "extra_steps": "Manual re-check",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        10.8,
+        35.7
+      ],
+      "monthly_hours_working": "Happy: 200+0+300 = 500 to 440+0+1,020 = 1,460 min; bad: 15×10 = 150 to 34×20 = 680 min; total 650–2,140 min = 10.8–35.7 h; cost ×$80 = $864–$2,856"
+    },
+    {
+      "id": "TG-P04",
+      "process": "Internal task management",
+      "trigger": "Monthly – published links in master sheet need to appear on the Monday.com board (Monday.com sync)",
+      "owner_role": "Outreach Specialist",
+      "frequency": {
+        "count": 1,
+        "per": "month (inferred)",
+        "scope": "All published links"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        120,
+        400
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Run Claude-built automation pushing master-sheet link details into Monday.com",
+          "actor_role": "Outreach Specialist + Claude",
+          "tool": "Master Sheet, Monday.com",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Account managers",
+          "flags": [
+            "👤",
+            "⚠️"
+          ],
+          "certainty": "stated step; assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Check entries landed correctly",
+          "actor_role": "Outreach Specialist",
+          "tool": "Monday.com",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Managers raise concerns about Monday.com entries",
+          "trigger": "Sync not working well",
+          "rate": "'a few concerns' in October – assumed 1–3/month",
+          "extra_steps": "Investigate and correct entries",
+          "extra_min": [
+            30,
+            180
+          ],
+          "certainty": "stated concerns; assumed 30–60 min each"
+        }
+      ],
+      "monthly_hours": [
+        1.5,
+        5.0
+      ],
+      "monthly_hours_working": "Happy: 30+30 = 60 to 60+60 = 120 min; bad: 1×30 = 30 to 3×60 = 180 min; total 90–300 min = 1.5–5.0 h; cost ×$80 = $120–$400"
+    },
+    {
+      "id": "TG-P05",
+      "process": "Link building – outreacher invoicing",
+      "trigger": "Publisher invoices for a placed link",
+      "owner_role": "Senior SEO Manager & Link-building Lead (Karl) – per Austin's description",
+      "frequency": {
+        "count": 320,
+        "per": "month (per link)",
+        "scope": "All publishers"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Paid before publishing",
+              "pct": null
+            },
+            {
+              "outcome": "Published before payment",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (both happen; no split)"
+        }
+      ],
+      "team_volume_per_month": 320,
+      "monthly_cost_aud": [
+        0,
+        0
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Publisher quotes a price",
+          "actor_role": "Publisher",
+          "tool": "–",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Karl",
+          "flags": [],
+          "certainty": "interviewer example ($100–150)"
+        },
+        {
+          "step": 2,
+          "action": "Karl receives invoice and pays",
+          "actor_role": "Senior SEO Manager & Link-building Lead",
+          "tool": "not stated",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Publisher",
+          "flags": [],
+          "certainty": "interviewer – not contradicted; time not discussed"
+        },
+        {
+          "step": 3,
+          "action": "Publisher publishes – sometimes before payment",
+          "actor_role": "Publisher",
+          "tool": "–",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "TG-P03",
+          "flags": [],
+          "certainty": "stated (L248)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        0,
+        0
+      ],
+      "monthly_hours_working": "Not costed – time not discussed"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "TG-PP01",
+      "text": "Claude lead-review skill rejects most leads (32 of ~1,000) and its accuracy is unknown",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Technology, AI & stack",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Lost lead supply; manual double-checking",
+      "frequency": "Every QA batch",
+      "severity": 4,
+      "quote": "I'm not pretty sure if this is already accurate. So, really need your help with this.",
+      "timestamp": "~17:49–18:01 (L170–L171)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "TG-PP02",
+      "text": "Same skill, different answers: 54 passed Tonie's check, Karl approved 27",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Technology, AI & stack",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Wasted QA and approval time; replacement sourcing",
+      "frequency": "Last batch (one stated)",
+      "severity": 4,
+      "quote": "He only approved 27.",
+      "timestamp": "~22:51 (L227)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "TG-PP03",
+      "text": "Tier 1 (single-niche) sites for dynamic clients (BCR, Five Good Friends, Leaselab) are scarce and expensive",
+      "source": "interviewee (pricing angle: interviewer)",
+      "category": "Revenue / margin leak",
+      "anchor": "Performance visibility & margin",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Margin on three of the largest clients; delivery risk",
+      "frequency": "Ongoing",
+      "severity": 4,
+      "quote": "the struggle is that we hardly find leads for the dynamic clients.",
+      "timestamp": "~11:14 (L090)",
+      "certainty": "stated",
+      "matches_existing_problem": "Pricing is inconsistent across templates and the margin maths is wrong (partial)"
+    },
+    {
+      "id": "TG-PP04",
+      "text": "Matching approved domains to clients is manual and time-consuming",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – sourcing & ordering",
+      "impact": "10–28 h/month (assumed)",
+      "frequency": "Every approved lead",
+      "severity": 3,
+      "quote": "Yes, because it is also one of the time-consuming tasks.",
+      "timestamp": "~35:46 (L369)",
+      "certainty": "stated (time-consuming) / assumed (hours)",
+      "matches_existing_problem": "new (related: Link building runs on 7+ disconnected spreadsheets)"
+    },
+    {
+      "id": "TG-PP05",
+      "text": "Orders to external publishers copy-pasted into each publisher's own sheet; order numbers sometimes change",
+      "source": "interviewee",
+      "category": "Duplicate data entry",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – sourcing & ordering",
+      "impact": "5–23 h/month (assumed); reconciliation errors",
+      "frequency": "Every external order",
+      "severity": 3,
+      "quote": "for the other publishers, since we have different sheets for them, so I copy and paste documents on the sheets",
+      "timestamp": "~04:25 (L031)",
+      "certainty": "stated",
+      "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets"
+    },
+    {
+      "id": "TG-PP06",
+      "text": "Every published link re-keyed from publisher sheets into the master sheet and other sheets",
+      "source": "interviewee",
+      "category": "Duplicate data entry",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – QA & live checks",
+      "impact": "5–17 h/month (assumed)",
+      "frequency": "300–340 links/month",
+      "severity": 3,
+      "quote": "And then every published links I've found here. I encode it to the master sheet.",
+      "timestamp": "~39:07–39:13 (L404–L405)",
+      "certainty": "stated",
+      "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets"
+    },
+    {
+      "id": "TG-PP07",
+      "text": "Home-built master sheet → Monday.com sync unreliable; managers raised concerns",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Technology, AI & stack",
+      "process": "Internal task management",
+      "impact": "Wrong/missing link data for managers; fix-up time",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "for the October, it added already, but I received a few concerns from the managers, from the handlers.",
+      "timestamp": "~41:14 (L439)",
+      "certainty": "stated",
+      "matches_existing_problem": "Content tracker and link sheets live outside Monday.com"
+    },
+    {
+      "id": "TG-PP08",
+      "text": "Self-sourcing new qualifying sites is limited; AI search gives few results; supply leans on brokers",
+      "source": "interviewee (finite-supply question: interviewer)",
+      "category": "Capacity / overload",
+      "anchor": "Growth & sales engine",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Caps link volume; broker dependence",
+      "frequency": "Daily",
+      "severity": 3,
+      "quote": "But this gives limited results.",
+      "timestamp": "~27:40 (L279)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "TG-PP09",
+      "text": "Four home-built tools are undocumented, unreviewed and run by one person",
+      "source": "detected",
+      "category": "Single point of failure (person)",
+      "anchor": "Technology, AI & stack",
+      "process": "Link building – QA & live checks",
+      "impact": "Errors go unnoticed; tools stop if she's away",
+      "frequency": "Daily",
+      "severity": 3,
+      "quote": "but if there is really simpler way, and more accurate because yeah, I'm not really sure if these are really working well.",
+      "timestamp": "~42:29 (L452)",
+      "certainty": "detected",
+      "matches_existing_problem": "Slack bots and agents have no visible owner or documentation (partial)"
+    },
+    {
+      "id": "TG-PP10",
+      "text": "Duplicate domains for the same client were a problem; checker accuracy still uncertain",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Client experience & delivery",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Wasted link spend; client value",
+      "frequency": "Not quantified",
+      "severity": 2,
+      "quote": "previously we really have trouble in having duplicated domains for the same client.",
+      "timestamp": "~32:04 (L330)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "TG-PP11",
+      "text": "Link-status checker accuracy uncertain",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Client experience & delivery",
+      "process": "Link building – QA & live checks",
+      "impact": "Faulty links missed",
+      "frequency": "Every published link",
+      "severity": 2,
+      "quote": "if you could see other easier or more accurate way to checking it, really helpful.",
+      "timestamp": "~33:55 (L352)",
+      "certainty": "stated",
+      "matches_existing_problem": "Paid links disappear after payment – detected manually (partial)"
+    },
+    {
+      "id": "TG-PP12",
+      "text": "Publisher negotiation 1–2 weeks; some links take 1–3 weeks to publish",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Links land late",
+      "frequency": "Some publishers",
+      "severity": 2,
+      "quote": "While some, it takes one, two, three weeks. It depends on the publisher.",
+      "timestamp": "~12:50 (L101)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "TG-B01",
+      "step": "Lead approval (TG-P01 step 5)",
+      "waiting_on": "Karl's approve/decline decision",
+      "typical_wait": "not stated",
+      "affected": "Every batch (32–54 leads)",
+      "knock_on": "Allocation and ordering wait; half of submitted leads declined"
+    },
+    {
+      "id": "TG-B02",
+      "step": "Lead QA (TG-P01 step 3)",
+      "waiting_on": "Tonie running ~1,000-lead batches through the Claude skill",
+      "typical_wait": "Batch frequency not stated",
+      "affected": "All new supply",
+      "knock_on": "Few approved leads (32/batch) feed 300–340 links/month"
+    },
+    {
+      "id": "TG-B03",
+      "step": "Tier 1 supply for dynamic clients",
+      "waiting_on": "Finding single-niche sites",
+      "typical_wait": "not stated – 'we hardly find leads'",
+      "affected": "BCR, Five Good Friends, Leaselab",
+      "knock_on": "Delivery risk on three Tier 1 clients; higher link costs"
+    },
+    {
+      "id": "TG-B04",
+      "step": "Publisher negotiation and publishing (TG-P02 step 4)",
+      "waiting_on": "Publisher",
+      "typical_wait": "1–2 weeks negotiation; 0–3 weeks to publish",
+      "affected": "Some publishers",
+      "knock_on": "Links land late; reporting gaps"
+    },
+    {
+      "id": "TG-B05",
+      "step": "Client allocation (TG-P02 step 1)",
+      "waiting_on": "Tonie's manual matching",
+      "typical_wait": "not stated",
+      "affected": "All 300–340 links/month",
+      "knock_on": "Orders queue behind allocation"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "TG-S01",
+      "idea": "Move outreach and lead checking onto AI",
+      "source": "interviewee",
+      "reaction": "Her own prior vision",
+      "process": "Link building – sourcing & ordering",
+      "quote": "a few months before, I've already had this vision of transitioning the outreach into AI.",
+      "timestamp": "~01:17 (L015)"
+    },
+    {
+      "id": "TG-S02",
+      "idea": "Make the lead-review skill more accurate",
+      "source": "interviewee",
+      "reaction": "Asked Austin for help",
+      "process": "Link building – sourcing & ordering",
+      "quote": "my link reviewer, it's just that I want it to be more accurate.",
+      "timestamp": "~30:58 (L319)"
+    },
+    {
+      "id": "TG-S03",
+      "idea": "Use AI to help keep the link spreadsheets updated",
+      "source": "interviewer",
+      "reaction": "Agreed ('Yeah. Really?')",
+      "process": "Link building – QA & live checks",
+      "quote": "we can definitely use AI to help you with the spreadsheets to make it easier",
+      "timestamp": "~07:10 (L048)"
+    },
+    {
+      "id": "TG-S04",
+      "idea": "Charge dynamic clients more given costly Tier 1 leads",
+      "source": "interviewer",
+      "reaction": "No reaction recorded",
+      "process": "Link building – sourcing & ordering",
+      "quote": "needs to charge the client, then maybe that's a good point to raise",
+      "timestamp": "~11:45 (L096)"
+    },
+    {
+      "id": "TG-S05",
+      "idea": "AI to judge which clients an approved domain suits",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Link building – sourcing & ordering",
+      "quote": "only the accuracy of the potential clients that we could use for the domain",
+      "timestamp": "~35:24 (L366)"
+    },
+    {
+      "id": "TG-S06",
+      "idea": "Use AI on order delivery to external publishers",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Link building – sourcing & ordering",
+      "quote": "This is how I deliver the orders to them. Yeah, so with this one, I want to use AI.",
+      "timestamp": "~36:57–37:03 (L381–L382)"
+    },
+    {
+      "id": "TG-S07",
+      "idea": "Auto-update other sheets when a publisher encodes a completed link",
+      "source": "interviewee",
+      "reaction": "Austin agreed ('Yeah, we can do that.')",
+      "process": "Link building – QA & live checks",
+      "quote": "Once they have encoded the link, here, could it be possible to automatically",
+      "timestamp": "~38:49 (L400)"
+    },
+    {
+      "id": "TG-S08",
+      "idea": "More reliable master sheet → Monday.com sync",
+      "source": "interviewee",
+      "reaction": "Austin to look at it",
+      "process": "Internal task management",
+      "quote": "From this Master Sheet, I asked Claude to automatically and code delete [encode the] the details",
+      "timestamp": "~40:13 (L421)"
+    },
+    {
+      "id": "TG-S09",
+      "idea": "Easier or more accurate live-link check",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Link building – QA & live checks",
+      "quote": "if you could see other easier or more accurate way to checking it, really helpful.",
+      "timestamp": "~33:55 (L352)"
+    },
+    {
+      "id": "TG-S10",
+      "idea": "Free Tonie's time for new links and publisher comms instead of admin",
+      "source": "interviewer",
+      "reaction": "Partly agreed – already using AI for admin; wants simpler, more accurate",
+      "process": "Link building – sourcing & ordering",
+      "quote": "spend most of your time getting new links and communicating with them rather than having to do all this admin stuff.",
+      "timestamp": "~41:56 (L445)"
+    },
+    {
+      "id": "TG-S11",
+      "idea": "Duplicate-domain checker (already built with Claude/Apps Script)",
+      "source": "interviewee",
+      "reaction": "Implemented",
+      "process": "Link building – sourcing & ordering",
+      "quote": "I've created through the extension here, the Apps Script.",
+      "timestamp": "~32:04 (L330)"
+    },
+    {
+      "id": "TG-S12",
+      "idea": "Link-status checker extension (already built with Claude)",
+      "source": "interviewee",
+      "reaction": "Implemented",
+      "process": "Link building – QA & live checks",
+      "quote": "it will state if the link is live or if it is has Issues.",
+      "timestamp": "~33:21 (L343)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "TG-O01",
+      "fixes": [
+        "TG-PP01",
+        "TG-PP02",
+        "TG-B01",
+        "TG-B02"
+      ],
+      "lens": "Augment",
+      "change": "One shared, versioned lead-review skill built from Karl's criteria and tested on past approve/do-not-use decisions; reason per rejection; Karl spot-checks borderline leads",
+      "matches_existing_solution": "new (part of link-building CRM idea)",
+      "candidate_tool": "Claude Projects/Skills + approved/do-not-use lists as test set; Ahrefs export",
+      "hours_saved_month": [
+        1.1,
+        11.1
+      ],
+      "effort": "S",
+      "prerequisites": "Karl's written criteria; past decisions; Ahrefs export format",
+      "adoption_risk": "L–M – Karl must trust it",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "% of skill-approved leads Karl approves",
+          "measured_by": "Approval sheet",
+          "baseline": "50%",
+          "baseline_quote": "He only approved 27.",
+          "target": "≥ 85%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Approved leads per 1,000 checked",
+          "measured_by": "QA batch log",
+          "baseline": "32",
+          "baseline_quote": "almost 1000 deletes [leads], but it only gave me 32 approved.",
+          "target": "Set after calibration",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Clearly evidenced with numbers; prompt rewrite and test set"
+    },
+    {
+      "id": "TG-O03",
+      "fixes": [
+        "TG-PP05",
+        "TG-PP06",
+        "TG-PP10"
+      ],
+      "lens": "Change the process",
+      "change": "One standard order template with fixed order IDs; external publishers get a filtered view/linked tab of one Aperitif-owned order sheet",
+      "matches_existing_solution": "link-building CRM (process step)",
+      "candidate_tool": "Google Sheets filter views / IMPORTRANGE / protected ranges",
+      "hours_saved_month": [
+        1.5,
+        11.3
+      ],
+      "effort": "S",
+      "prerequisites": "Publisher agreement; one sheet owner",
+      "adoption_risk": "M – brokers keep own formats today",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Separate order formats in use",
+          "measured_by": "Sheet inventory",
+          "baseline": "One per external publisher (count unknown)",
+          "baseline_quote": "for the other publishers, since we have different sheets for them, so I copy and paste documents on the sheets",
+          "target": "1",
+          "type": "leading"
+        },
+        {
+          "kpi": "Order-number mismatches per month",
+          "measured_by": "Order sheet reconciliation",
+          "baseline": "'sometimes'",
+          "baseline_quote": "sometimes it changes the number.",
+          "target": "0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 2,
+      "tag": "Quick win",
+      "rank_reason": "No new tech; prerequisite for O02"
+    },
+    {
+      "id": "TG-O02",
+      "fixes": [
+        "TG-PP06",
+        "TG-PP07",
+        "TG-PP09",
+        "TG-B04"
+      ],
+      "lens": "Automate",
+      "change": "Publisher's completed-link entry triggers copy to master sheet, live check and Monday.com update via one owned, documented automation",
+      "matches_existing_solution": "link-building CRM with live-link monitoring and invoice follow-up",
+      "candidate_tool": "Apps Script or Make.com + Monday.com API",
+      "hours_saved_month": [
+        5.6,
+        24.0
+      ],
+      "effort": "M",
+      "prerequisites": "Fixed publisher sheet layout (O03); Monday board agreed with managers",
+      "adoption_risk": "M – publishers must use fixed format",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Published links re-keyed by hand",
+          "measured_by": "Process audit / edit history",
+          "baseline": "All 300–340 a month",
+          "baseline_quote": "I encode it to the master sheet.",
+          "target": "0",
+          "type": "leading"
+        },
+        {
+          "kpi": "Monday.com link entries queried by managers",
+          "measured_by": "Slack / Monday comments",
+          "baseline": "'a few concerns' in October",
+          "baseline_quote": "I received a few concerns from the managers, from the handlers.",
+          "target": "0 a month",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 3,
+      "tag": "Strategic",
+      "rank_reason": "Largest hours pool; fixes Monday.com data managers queried"
+    },
+    {
+      "id": "TG-O04",
+      "fixes": [
+        "TG-PP04",
+        "TG-B05"
+      ],
+      "lens": "Augment",
+      "change": "Client requirements table (niche, accepted lead tier, exclusions, used domains) + Claude suggests best client(s) per approved domain; Tonie confirms",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Claude + Sheets; Apps Script duplicate checker",
+      "hours_saved_month": [
+        3.0,
+        14.2
+      ],
+      "effort": "M",
+      "prerequisites": "Client requirements defined by Karl/SEO managers",
+      "adoption_risk": "M – needs clear client brief per link client",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes to allocate an approved domain",
+          "measured_by": "Time log",
+          "baseline": "unknown – 'time-consuming'",
+          "baseline_quote": "Yes, because it is also one of the time-consuming tasks.",
+          "target": "-50%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 4,
+      "tag": "Strategic",
+      "rank_reason": "Named time sink, no times stated; Impact 3 / Ease 3 fits no tag – closest is Strategic"
+    },
+    {
+      "id": "TG-O07",
+      "fixes": [
+        "TG-PP09"
+      ],
+      "lens": "People & policy",
+      "change": "Register and document Tonie's four tools (purpose, owner, backup, location) in a shared drive; name a backup",
+      "matches_existing_solution": "new (relates to 'Slack bots and agents have no visible owner')",
+      "candidate_tool": "Notion / shared Drive",
+      "hours_saved_month": [
+        0,
+        1
+      ],
+      "effort": "S",
+      "prerequisites": "1–2 h of Tonie's time; manager sign-off",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Home-built tools with documented owner and backup",
+          "measured_by": "Tool register",
+          "baseline": "0 of 4",
+          "baseline_quote": "I'm not really sure if these are really working well.",
+          "target": "4 of 4",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 5,
+      "tag": "Fill-in",
+      "rank_reason": "Cheap continuity fix"
+    },
+    {
+      "id": "TG-O05",
+      "fixes": [
+        "TG-PP03",
+        "TG-B03"
+      ],
+      "lens": "Change the process",
+      "change": "Price links by lead tier: Tier 1 premium for dynamic clients, or agree when Tier 2 sites are acceptable; check link margin for BCR, FGF, Leaselab",
+      "matches_existing_solution": "sales wiki / spend calculator (pricing)",
+      "candidate_tool": "SEO price calculator",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "S",
+      "prerequisites": "Link cost per tier; leadership decision; client conversation",
+      "adoption_risk": "M – client pushback",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Link margin on dynamic clients",
+          "measured_by": "Order book cost vs client price",
+          "baseline": "unknown – 'costs really high'",
+          "baseline_quote": "and it costs really high.",
+          "target": "≥ agency target link margin",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Dynamic-client links delivered vs plan",
+          "measured_by": "Order book",
+          "baseline": "unknown",
+          "baseline_quote": "we hardly find leads for the dynamic clients.",
+          "target": "100% of plan",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 24
+      },
+      "rank": 6,
+      "tag": "Strategic",
+      "rank_reason": "Margin on three Tier 1 clients; no prices given"
+    },
+    {
+      "id": "TG-O06",
+      "fixes": [
+        "TG-PP08"
+      ],
+      "lens": "Augment",
+      "change": "Structured broker/publisher intake form auto-enriched with Ahrefs metrics and run through the O01 skill before Tonie sees it",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Google Forms/Sheets, Ahrefs API, Claude",
+      "hours_saved_month": [
+        2.7,
+        8.8
+      ],
+      "effort": "M",
+      "prerequisites": "Ahrefs API access; O01 first",
+      "adoption_risk": "M – brokers must use the form",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Broker leads arriving pre-checked",
+          "measured_by": "Intake sheet",
+          "baseline": "0",
+          "baseline_quote": "There are also other brokers who are contacting us.",
+          "target": "≥ 80%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 18
+      },
+      "rank": 7,
+      "tag": "Strategic",
+      "rank_reason": "Plausible supply gain, poorly evidenced; Impact 3 / Ease 3 fits no tag – closest is Strategic"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Tonie built her own AI tools with Claude (lead skill, duplicate checker, link-status checker, Monday.com sync)",
+      "quote": "I asked Lord [Claude] to help me with this.",
+      "timestamp": "~32:22 (L331)"
+    },
+    {
+      "text": "Admin is easier than before thanks to AI",
+      "quote": "So Right now, it's easier compared to before.",
+      "timestamp": "~42:23 (L449)"
+    },
+    {
+      "text": "Clear written lead criteria",
+      "quote": "We have metrics to follow from the domain rating. It should be 30 plus.",
+      "timestamp": "~07:51 (L056)"
+    },
+    {
+      "text": "Duplicate domains now flagged automatically",
+      "quote": "When I encode the domain here, it Um, Indicates if it is used or unused.",
+      "timestamp": "~32:30 (L332)"
+    },
+    {
+      "text": "Approved / do-not-use lists kept as reference for the skill",
+      "quote": "I will put the approved leads here for my reference and I will put the The rejected leads here.",
+      "timestamp": "~20:59 (L211)"
+    },
+    {
+      "text": "Home-grown publisher network being trained",
+      "quote": "So we are training them.",
+      "timestamp": "~19:33 (L192)"
+    },
+    {
+      "text": "Master sheet kept internal",
+      "quote": "None of the publishers can see it, only the agency.",
+      "timestamp": "~39:33 (L409)"
+    },
+    {
+      "text": "High engagement with the audit and AI",
+      "quote": "This is really what we need.",
+      "timestamp": "~44:31 (L477)"
+    },
+    {
+      "text": "300–340 links a month delivered",
+      "quote": "For all the clients, now we're doing 300 plus.",
+      "timestamp": "~10:58 (L084)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "300+ (max 340)",
+      "unit": "links / month",
+      "context": "All clients",
+      "quote": "For all the clients, now we're doing 300 plus.",
+      "timestamp": "~10:58 (L084)",
+      "certainty": "stated"
+    },
+    {
+      "value": "30+",
+      "unit": "Domain Rating",
+      "context": "Lead criterion",
+      "quote": "It should be 30 plus.",
+      "timestamp": "~07:51 (L056)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1,000+",
+      "unit": "global traffic",
+      "context": "Lead criterion",
+      "quote": "it should be 1,000 global traffic and above.",
+      "timestamp": "~07:51 (L056)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4",
+      "unit": "countries",
+      "context": "US, Australia, Canada, New Zealand",
+      "quote": "it should be coming from the US, Australia, Canada, New Zealand.",
+      "timestamp": "~08:09 (L057)",
+      "certainty": "stated"
+    },
+    {
+      "value": "50+",
+      "unit": "keyword rankings",
+      "context": "Lead criterion",
+      "quote": "the keyword ranking, it should be 50 and above.",
+      "timestamp": "~08:20 (L058)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1 / 2–3 / 3+",
+      "unit": "niches",
+      "context": "Lead Tier 1 / 2 / 3",
+      "quote": "the tier two, it is focused on two to three niches.",
+      "timestamp": "~09:57 (L068)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~1,000",
+      "unit": "leads",
+      "context": "Latest QA batch",
+      "quote": "Almost a thousand?",
+      "timestamp": "~16:46 (L153)",
+      "certainty": "stated"
+    },
+    {
+      "value": "32",
+      "unit": "leads approved",
+      "context": "From latest ~1,000",
+      "quote": "almost 1000 deletes [leads], but it only gave me 32 approved.",
+      "timestamp": "~18:22 (L178)",
+      "certainty": "stated"
+    },
+    {
+      "value": "54 → 27",
+      "unit": "leads",
+      "context": "Previous batch: Tonie's pass vs Karl's approval",
+      "quote": "54 were approved on my part.",
+      "timestamp": "~22:19 (L224)",
+      "certainty": "stated"
+    },
+    {
+      "value": "50%",
+      "unit": "Karl approval rate of skill-passed leads",
+      "context": "27 ÷ 54",
+      "quote": "He only approved 27.",
+      "timestamp": "~22:51 (L227)",
+      "certainty": "estimated (27 ÷ 54)"
+    },
+    {
+      "value": "3%",
+      "unit": "skill pass rate",
+      "context": "32 ÷ ~1,000",
+      "quote": "but it only gave me 32 approved.",
+      "timestamp": "~18:22 (L178)",
+      "certainty": "estimated (32 ÷ 1,000)"
+    },
+    {
+      "value": "2–4+",
+      "unit": "publishers per domain",
+      "context": "Skill output lists publishers and prices",
+      "quote": "it could be two, three, or four or more publishers here.",
+      "timestamp": "~18:43 (L182)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3",
+      "unit": "dynamic clients",
+      "context": "BCR (inferred), Five Good Friends, Leaselab",
+      "quote": "the parking car rentals, the lease lab, and for the five good friends.",
+      "timestamp": "~05:15 (L034)",
+      "certainty": "stated (BCR inferred)"
+    },
+    {
+      "value": "0–3",
+      "unit": "weeks",
+      "context": "Order to published",
+      "quote": "While some, it takes one, two, three weeks.",
+      "timestamp": "~12:50 (L101)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1–2",
+      "unit": "weeks",
+      "context": "Publisher negotiation",
+      "quote": "A week or two.",
+      "timestamp": "~13:53 (L111)",
+      "certainty": "stated (garbled context)"
+    },
+    {
+      "value": "$100–150",
+      "unit": "per link",
+      "context": "Austin's illustrative example, not a fact",
+      "quote": "it's $100 or $150, whatever the amount is.",
+      "timestamp": "~23:54 (L239)",
+      "certainty": "interviewer (example)"
+    },
+    {
+      "value": "1",
+      "unit": "month synced",
+      "context": "Monday.com sync done for October; November in progress",
+      "quote": "for the October, it added already",
+      "timestamp": "~41:14 (L439)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Google Sheets (order sheets, blog lists, dynamic-clients sheet, approved/do-not-use lists, Master Sheet, publishers list with prices)",
+      "Ahrefs (DR, traffic, keywords)",
+      "Google search and Google AI Mode",
+      "Monday.com (link board)",
+      "Claude"
+    ],
+    "shadow": [
+      "Tonie's own Claude lead-review skill/project (plus a separate skill from Karl)",
+      "Claude prompts/skill for finding blog lists by niche",
+      "Apps Script duplicate-domain checker (built with Claude)",
+      "Google Sheets link-status extension (built with Claude)",
+      "Claude-built master sheet → Monday.com automation",
+      "Gemini used earlier for lead checks"
+    ],
+    "duplicated_data": [
+      "Orders: internal order sheet and each external publisher's sheet",
+      "Published links: publisher sheets, master sheet, other sheets, Monday.com",
+      "Lead decisions: approved/do-not-use lists and skill reference copy",
+      "Approval criteria: Tonie's skill vs Karl's skill vs Karl's judgement"
+    ],
+    "missing_access": [
+      "Agreed lead-approval standard",
+      "Client requirements table for allocation",
+      "Dependable Monday.com sync",
+      "More Tier 1 (single-niche) supply"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Whole link-building operating flow (sourcing, allocation, orders, link checks, master sheet)",
+      "who_role": "Outreach Specialist",
+      "if_absent": "300–340 links/month stall"
+    },
+    {
+      "what": "Lead-review skill, Apps Script checker, link-status extension, Monday.com sync",
+      "who_role": "Outreach Specialist (built; undocumented)",
+      "if_absent": "Tools break or go stale unnoticed"
+    },
+    {
+      "what": "Which domain suits which client",
+      "who_role": "Outreach Specialist",
+      "if_absent": "Allocation slows; duplicates creep in"
+    },
+    {
+      "what": "Final lead approval",
+      "who_role": "Senior SEO Manager & Link-building Lead (Karl)",
+      "if_absent": "Leads queue; no other approver"
+    },
+    {
+      "what": "Relationships with in-house and external publishers/brokers",
+      "who_role": "Outreach Specialist",
+      "if_absent": "Supply and order delivery disrupted"
+    },
+    {
+      "what": "Publisher payments",
+      "who_role": "Karl (per Austin's description)",
+      "if_absent": "Publishers unpaid; delays"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Tonie: how often is a ~1,000-lead QA batch run and how long does it take?",
+      "Tonie: minutes to allocate one domain and to send an internal vs external order?",
+      "Tonie: replacement requests and 'has issues' flags per month?",
+      "Tonie: what does 'dynamic clients' mean; is 'parking car rentals' Bargain Car Rentals?",
+      "Tonie: what did 'It is me' (L251) mean – any publisher payments?",
+      "Karl: batch approval time; why skill-passed leads are declined; criteria missing from the skill?",
+      "Karl / Laura: link cost vs client price for dynamic clients?",
+      "Account managers: what were the concerns about October's Monday.com entries?"
+    ],
+    "contradictions": [
+      "Context pack: Tonie reports to Sid; transcript: all approvals go to Karl, Sid not mentioned",
+      "Context pack: live checks stopped after April; Tonie uses a link-status extension at publication (doesn't cover later removal)",
+      "Context pack shape 'SEO manager orders → outreacher sources site' vs Tonie sources, Karl approves, Tonie allocates and orders",
+      "'Tier 1 leads' (single-niche sites) vs 'Tier 1 clients' – same label, two meanings",
+      "Same skill, different results (54 vs 27)",
+      "Low-end hours (~47 h) can't fill a full-time role described as her whole day"
+    ],
+    "data_requests": [
+      "All spreadsheets shown, with access (Tonie – agreed L457–L459)",
+      "Publishers list with prices (Tonie – agreed L186)",
+      "Both Claude lead-review skills (Tonie, Karl)",
+      "Approved/do-not-use lists for last two batches with Karl's decisions (Tonie)",
+      "Apps Script, link-status extension, Monday.com automation (Tonie)",
+      "Order book cost vs client price for BCR, Five Good Friends, Leaselab (Karl)"
+    ],
+    "verify": [
+      "32 approved of ~1,000 and 27 of 54 – check batch sheets",
+      "300–340 links/month – check order book",
+      "Publication 0–3 weeks and negotiation 1–2 weeks – check dates",
+      "'parking car rentals' = Bargain Car Rentals"
+    ]
+  }
+}

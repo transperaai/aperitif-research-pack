@@ -1,0 +1,2513 @@
+{
+  "interview": {
+    "id": "ZC",
+    "name": "Zach (Zachary) Chamberlain",
+    "role": "SEO Manager",
+    "team": "Organic",
+    "date": "2026-11-04",
+    "minutes": 47,
+    "clients_managed": 19
+  },
+  "time_allocation": [
+    {
+      "activity": "Delivery work (briefing, content QA, link targets, plans) – dominates",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "Out of those two, I'd say more the delivery work.",
+      "timestamp": "~12:29 (L112)",
+      "certainty": "stated (no number); billable assumed"
+    },
+    {
+      "activity": "Content briefing, early month",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "especially early months, the content briefing is pretty much all of my day or say a few days to a week.",
+      "timestamp": "~13:00 (L117)",
+      "certainty": "stated; ≈ 18–37.5 h/month estimated (3–5 days × 6–7.5 h)"
+    },
+    {
+      "activity": "Client comms (monthly calls, approvals)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "most of my clients have monthly calls, so I'm not too heavy on the calls.",
+      "timestamp": "~12:33 (L113)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Reporting approvals, early month",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "today all of the automated reports have been generated. I'm just going to go through and approve them all",
+      "timestamp": "~02:56 (L043)",
+      "certainty": "stated step / assumed 3–6 h a month"
+    },
+    {
+      "activity": "Mid-month ad hoc / strategic work",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "depending on how busy the month is, my mid-month is normally quite free.",
+      "timestamp": "~03:47 (L045)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Focus clients (~5 of 19)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "out of the 19 clients, there's probably five that I really focus on month by month",
+      "timestamp": "~21:06 (L220)",
+      "certainty": "stated"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Content approval (publish or change)",
+      "decider_role": "Client",
+      "waiting_role": "SEO Manager, implementation team",
+      "typical_wait": "~1 week average",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Minor client edits (accept) vs heavy changes (back to writer)",
+      "decider_role": "SEO Manager",
+      "waiting_role": "Writer",
+      "typical_wait": "Same day (assumed)",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "CRO / tech change fits Aperitif tech hours vs client's developers",
+      "decider_role": "SEO Manager with tech team",
+      "waiting_role": "Client",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Swap SEO hours to dev hours",
+      "decider_role": "Client asks; Aperitif approver not stated",
+      "waiting_role": "SEO Manager, client",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "New ideas (seasonal calendar, CRO, news content)",
+      "decider_role": "Client",
+      "waiting_role": "SEO Manager",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Month-1 strategy and content plan",
+      "decider_role": "Client",
+      "waiting_role": "SEO Manager, writers",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Team help for onboarding peaks",
+      "decider_role": "not stated",
+      "waiting_role": "SEO Manager",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "New premium link-building / brand-mention service",
+      "decider_role": "Senior SEO Manager & Link-building Lead (Karl); founder likely",
+      "waiting_role": "SEO Manager",
+      "typical_wait": "Talks 'a few months ago', stalled",
+      "lands_on_leadership": true
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "Unnamed flower-delivery client",
+      "tier": "Unknown",
+      "context": "Seasonal; CRO nav/tiles mock-up in Claude; seasonal calendar; nav + footer overhaul drifted to dev scope (SEO → dev hours swap request)"
+    },
+    {
+      "client": "Unnamed corporate card provider",
+      "tier": "Unknown",
+      "context": "Niche keyword research via Claude + Ahrefs needed checking; cannibalisation example (debit-card vs bank switch pages); surcharge news content fast-tracked"
+    },
+    {
+      "client": "'Shaq Electric' (electrician – name probably mis-heard)",
+      "tier": "Unknown – not in context pack",
+      "context": "Brand-new site; 15 pages ready; good case for small-win updates"
+    },
+    {
+      "client": "Dental clients (unnamed)",
+      "tier": "Various",
+      "context": "Strict guidelines; content rejected once; guidelines run sheet created"
+    },
+    {
+      "client": "Financial services clients (unnamed)",
+      "tier": "Various",
+      "context": "In-depth guidelines; briefs take longer"
+    },
+    {
+      "client": "Bargain Car Rentals",
+      "tier": "Tier 1",
+      "context": "Brand-mention outreach example (not Zach's client)"
+    },
+    {
+      "client": "Leaselab",
+      "tier": "Tier 1",
+      "context": "Brand-mention outreach example (not Zach's client)"
+    },
+    {
+      "client": "Tradies and car dealers (historic book)",
+      "tier": "Tier 3–4 (assumed)",
+      "context": "Slow to give access at onboarding; long-tail keyword strategy"
+    }
+  ],
+  "processes": [
+    {
+      "id": "ZC-P01",
+      "process": "Monthly reporting",
+      "trigger": "Start of month – AgencyAnalytics generates automated reports",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 19,
+        "per": "month",
+        "scope": "per client"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Report OK – approve",
+              "pct": null
+            },
+            {
+              "outcome": "Needs fixing",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (step) / no split"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        256,
+        504
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Reports generated automatically",
+          "actor_role": "AgencyAnalytics",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "SEO Manager",
+          "flags": [],
+          "certainty": "stated"
+        },
+        {
+          "step": 2,
+          "action": "Review and approve each report",
+          "actor_role": "SEO Manager",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 3,
+          "action": "Add next steps from the strategy",
+          "actor_role": "SEO Manager",
+          "tool": "AgencyAnalytics, strategy doc",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        3.2,
+        6.3
+      ],
+      "monthly_hours_working": "19 × 10 = 190 min (3.2 h) to 19 × 20 = 380 min (6.3 h); × $80 = $256–$504"
+    },
+    {
+      "id": "ZC-P02",
+      "process": "Content briefing",
+      "trigger": "End of previous month / early month – content plan items ready to brief",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 25,
+        "per": "month",
+        "scope": "20–30 briefs across book (assumed); ~5 per $3–4K client (stated)"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Regulated client – extra guideline checks (assumed 20–30%)",
+              "pct": 25
+            },
+            {
+              "outcome": "Standard client",
+              "pct": 75
+            }
+          ],
+          "certainty": "assumed"
+        },
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Brief fits strategy",
+              "pct": null
+            },
+            {
+              "outcome": "Rework angle / target (cannibalisation)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": 47,
+      "monthly_cost_aud": [
+        1016,
+        3360
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Generate brief in Sid's Claude project",
+          "actor_role": "SEO Manager + Claude",
+          "tool": "Claude project",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Check brief vs strategy, USPs, client conversations, other pages (cannibalisation)",
+          "actor_role": "SEO Manager",
+          "tool": "SEO strategy doc, content plan",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "single-person",
+            "error-prone"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 3,
+          "action": "Copy from Claude into Word; fix headings and structure",
+          "actor_role": "SEO Manager",
+          "tool": "Word",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual copy"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 4,
+          "action": "Paste client preferences / past feedback into brief",
+          "actor_role": "SEO Manager",
+          "tool": "Google Doc notes → Word",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual copy",
+            "single-person"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 5,
+          "action": "Hand brief to content team",
+          "actor_role": "SEO Manager",
+          "tool": "Content tracker",
+          "touch_min": [
+            0,
+            5
+          ],
+          "wait": "Writers wait for briefs",
+          "handoff_to": "Content Manager / writers",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Regulated-industry client",
+          "trigger": "Dental / financial services guidelines",
+          "rate": "20–30% of briefs (assumed)",
+          "extra_steps": "Check against guidelines run sheet",
+          "extra_min": [
+            15,
+            30
+          ],
+          "certainty": "stated (extra care) / assumed (rate, time)"
+        },
+        {
+          "name": "Cannibalisation conflict",
+          "trigger": "Claude session lacks other briefs and strategy",
+          "rate": "unknown",
+          "extra_steps": "Rework brief angle / target",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (risk); time inside step 2"
+        },
+        {
+          "name": "Content rejected for breaching guidelines",
+          "trigger": "Brief missed client rules",
+          "rate": "Rare – one example",
+          "extra_steps": "Rewrite",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        12.7,
+        42.0
+      ],
+      "monthly_hours_working": "Low 20 × 35 = 700 + 20 × 20% × 15 = 60 → 760 min (12.7 h); high 30 × 75 = 2,250 + 30 × 30% × 30 = 270 → 2,520 min (42.0 h); × $80 = $1,016–$3,360. Cross-check: 'a few days to a week' ≈ 18–37.5 h"
+    },
+    {
+      "id": "ZC-P03",
+      "process": "Link building – sourcing & ordering",
+      "trigger": "Early month – link plan",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 15,
+        "per": "month",
+        "scope": "10–19 clients with link budgets (assumed)"
+      },
+      "decision_points": [],
+      "team_volume_per_month": 300,
+      "monthly_cost_aud": [
+        64,
+        384
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Choose anchors and target URLs",
+          "actor_role": "SEO Manager",
+          "tool": "Link plan",
+          "touch_min": [
+            3,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Enter link targets into Monday.com",
+          "actor_role": "SEO Manager",
+          "tool": "Monday.com",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "Link team",
+          "flags": [
+            "manual copy"
+          ],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        0.8,
+        4.8
+      ],
+      "monthly_hours_working": "10 × 5 = 50 min (0.8 h) to 19 × 15 = 285 min (4.8 h); × $80 = $64–$384"
+    },
+    {
+      "id": "ZC-P04",
+      "process": "Client content approval",
+      "trigger": "Late month – drafts back from writers",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 25,
+        "per": "month",
+        "scope": "20–30 content pieces (assumed)"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Approve as-is (trade clients ~90%, stated)",
+              "pct": 90
+            },
+            {
+              "outcome": "Changes requested",
+              "pct": 10
+            }
+          ],
+          "certainty": "stated for trade clients; regulated lower (not given)"
+        },
+        {
+          "after_step": 4,
+          "branches": [
+            {
+              "outcome": "Minor – ZC accepts tracked changes",
+              "pct": 80
+            },
+            {
+              "outcome": "Heavy – back to writer (assumed 10–30%)",
+              "pct": 20
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": 47,
+      "monthly_cost_aud": [
+        680,
+        2360
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "QA writer draft for glaring mistakes",
+          "actor_role": "SEO Manager",
+          "tool": "Word",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "Waits on writers",
+          "handoff_to": "",
+          "flags": [
+            "single-person"
+          ],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Send to client for approval",
+          "actor_role": "SEO Manager",
+          "tool": "Email",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "Client review ~1 week average",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated wait / assumed touch"
+        },
+        {
+          "step": 3,
+          "action": "Bump / chase client",
+          "actor_role": "SEO Manager",
+          "tool": "Email",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 4,
+          "action": "Accept minor tracked changes",
+          "actor_role": "SEO Manager",
+          "tool": "Word",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 5,
+          "action": "Final check; send to implementation team",
+          "actor_role": "SEO Manager",
+          "tool": "Word, task tool",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Implementation queue (not discussed)",
+          "handoff_to": "Tech / implementation team",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Heavy client changes",
+          "trigger": "Substantial rewrites / extra content",
+          "rate": "10–30% (assumed)",
+          "extra_steps": "Back to writer with feedback; re-check",
+          "extra_min": [
+            15,
+            30
+          ],
+          "certainty": "stated step / assumed rate, time"
+        },
+        {
+          "name": "Slow approval",
+          "trigger": "Client unresponsive",
+          "rate": "Common – ~1 week average",
+          "extra_steps": "Repeated bumps",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; touch in step 3"
+        },
+        {
+          "name": "Rejected for regulatory guidelines",
+          "trigger": "Dental / financial services rules",
+          "rate": "Rare – one example",
+          "extra_steps": "Rewrite; add rule to run sheet",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        8.5,
+        29.5
+      ],
+      "monthly_hours_working": "Low 20 × 24 = 480 + 20 × 10% × 15 = 30 → 510 min (8.5 h); high 30 × 50 = 1,500 + 30 × 30% × 30 = 270 → 1,770 min (29.5 h); × $80 = $680–$2,360"
+    },
+    {
+      "id": "ZC-P05",
+      "process": "Client meetings & prep",
+      "trigger": "Scheduled monthly calls (mid-month)",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 11,
+        "per": "month",
+        "scope": "8–14 calls (assumed)"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        584,
+        1400
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Prepare for call",
+          "actor_role": "SEO Manager",
+          "tool": "Reports, strategy",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed – not discussed"
+        },
+        {
+          "step": 2,
+          "action": "Run call",
+          "actor_role": "SEO Manager",
+          "tool": "Call",
+          "touch_min": [
+            30,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "assumed"
+        },
+        {
+          "step": 3,
+          "action": "Follow-up and update internal run sheet",
+          "actor_role": "SEO Manager",
+          "tool": "Email, run sheet",
+          "touch_min": [
+            10,
+            15
+          ],
+          "wait": "",
+          "handoff_to": "Client / team",
+          "flags": [
+            "manual copy"
+          ],
+          "certainty": "stated (run sheet) / assumed time"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        7.3,
+        17.5
+      ],
+      "monthly_hours_working": "8 × 55 = 440 min (7.3 h) to 14 × 75 = 1,050 min (17.5 h); × $80 = $584–$1,400"
+    },
+    {
+      "id": "ZC-P06",
+      "process": "Performance monitoring & alerting",
+      "trigger": "Every Monday",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 4.33,
+        "per": "month (weekly)",
+        "scope": "~19 clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Tell client now",
+              "pct": null
+            },
+            {
+              "outcome": "Wait for month-end report",
+              "pct": null
+            }
+          ],
+          "certainty": "detected – no rule"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        216,
+        552
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Check account health: traffic, rankings lost/gained",
+          "actor_role": "SEO Manager",
+          "tool": "GA4, Search Console, Ahrefs",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual copy",
+            "error-prone"
+          ],
+          "certainty": "stated step / assumed time (per client)"
+        },
+        {
+          "step": 2,
+          "action": "Flag dips or wins to client",
+          "actor_role": "SEO Manager",
+          "tool": "Email",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Usually waits for month-end report",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Check skipped",
+          "trigger": "Busy weeks, early month",
+          "rate": "'sometimes' (stated)",
+          "extra_steps": "Dips found at month-end",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated"
+        },
+        {
+          "name": "Wins not reported",
+          "trigger": "Small wins unnoticed",
+          "rate": "unknown",
+          "extra_steps": "None",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "monthly_hours": [
+        2.7,
+        6.9
+      ],
+      "monthly_hours_working": "4.33 × 19 × 2 = 165 min (2.7 h) to 4.33 × 19 × 5 = 411 min (6.9 h) if done fully; × $80 = $216–$552"
+    },
+    {
+      "id": "ZC-P07",
+      "process": "Client onboarding – audit & strategy",
+      "trigger": "New SEO client signs",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "0.5–1.5 onboardings (assumed); peak 5 in one month"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Claude output usable",
+              "pct": 60
+            },
+            {
+              "outcome": "Heavy correction (niche industry)",
+              "pct": 40
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        120,
+        720
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Keyword research via Claude + Ahrefs; triple-check",
+          "actor_role": "SEO Manager + Claude",
+          "tool": "Claude, Ahrefs",
+          "touch_min": [
+            90,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "single-person"
+          ],
+          "certainty": "stated (>60 min) / estimated range"
+        },
+        {
+          "step": 2,
+          "action": "Build content plan",
+          "actor_role": "SEO Manager",
+          "tool": "Content plan",
+          "touch_min": [
+            60,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        },
+        {
+          "step": 3,
+          "action": "Send strategy and plan to client",
+          "actor_role": "SEO Manager",
+          "tool": "Email",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "Client approval (not discussed)",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated step / assumed time"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Claude output drifts in niche industry",
+          "trigger": "Niche client",
+          "rate": "30–50% (assumed)",
+          "extra_steps": "Line-by-line check",
+          "extra_min": [
+            30,
+            60
+          ],
+          "certainty": "stated / assumed rate, time"
+        },
+        {
+          "name": "Onboarding peak",
+          "trigger": "Several new clients in one month",
+          "rate": "Occasional (5 once)",
+          "extra_steps": "Team helps with keyword research and mapping",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; team time not quantified"
+        }
+      ],
+      "monthly_hours": [
+        1.5,
+        9.0
+      ],
+      "monthly_hours_working": "Low 0.5 × 165 = 82.5 + 0.5 × 30% × 30 = 4.5 → 87 min (1.5 h); high 1.5 × 330 = 495 + 1.5 × 50% × 60 = 45 → 540 min (9.0 h); × $80 = $120–$720"
+    },
+    {
+      "id": "ZC-P08",
+      "process": "Client onboarding – access & setup",
+      "trigger": "New client signs",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "0.5–1.5 onboardings (assumed)"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Access granted promptly",
+              "pct": null
+            },
+            {
+              "outcome": "Chase (tradies, car dealers)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        24,
+        240
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Request and chase access",
+          "actor_role": "SEO Manager",
+          "tool": "Email / phone",
+          "touch_min": [
+            30,
+            120
+          ],
+          "wait": "'can take a long time'",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated wait / assumed touch"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        0.3,
+        3.0
+      ],
+      "monthly_hours_working": "0.5 × 30 = 15 min (0.3 h) to 1.5 × 120 = 180 min (3.0 h); × $80 = $24–$240"
+    },
+    {
+      "id": "ZC-P09",
+      "process": "Monthly SEO delivery",
+      "trigger": "Mid-month free time; new opportunities (CRO, nav, seasonal/news content, tech issues)",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "ongoing across book"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Fits Aperitif tech hours",
+              "pct": null
+            },
+            {
+              "outcome": "Full redesign – client's developers",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        640,
+        1280
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Spot opportunity or problem",
+          "actor_role": "SEO Manager",
+          "tool": "Site, Claude, news",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "single-person"
+          ],
+          "certainty": "stated; time in total"
+        },
+        {
+          "step": 2,
+          "action": "Draft idea / mock-up in Claude",
+          "actor_role": "SEO Manager + Claude",
+          "tool": "Claude",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated; time in total"
+        },
+        {
+          "step": 3,
+          "action": "Check scope with tech team",
+          "actor_role": "SEO Manager, tech team",
+          "tool": "–",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Tech team availability",
+          "handoff_to": "Tech team",
+          "flags": [],
+          "certainty": "stated; time in total"
+        },
+        {
+          "step": 4,
+          "action": "Send proposal to client",
+          "actor_role": "SEO Manager",
+          "tool": "Email",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Client approval",
+          "handoff_to": "Client",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated; time in total"
+        },
+        {
+          "step": 5,
+          "action": "Brief tech team to implement",
+          "actor_role": "SEO Manager",
+          "tool": "Task tool",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Tech team",
+          "flags": [],
+          "certainty": "stated; time in total"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Proposal drifts into web development",
+          "trigger": "Mock-up bigger than SEO scope",
+          "rate": "One example",
+          "extra_steps": "Client asks to swap SEO hours to dev hours",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        },
+        {
+          "name": "Seasonal peak missed",
+          "trigger": "~2-month lead time",
+          "rate": "Seasonal clients",
+          "extra_steps": "Build seasonal calendar",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        8.0,
+        16.0
+      ],
+      "monthly_hours_working": "Assumed 480–960 min a month in total (not discussed); × $80 = $640–$1,280"
+    },
+    {
+      "id": "ZC-P10",
+      "process": "Monthly SEO delivery",
+      "trigger": "Late month – plans for next month",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 19,
+        "per": "month",
+        "scope": "5 focus + 14 low-touch clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        296,
+        680
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Update content and link plans – focus clients",
+          "actor_role": "SEO Manager",
+          "tool": "Master SEO Document",
+          "touch_min": [
+            150,
+            300
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed (30–60 × 5)"
+        },
+        {
+          "step": 2,
+          "action": "Update plans – low-touch clients",
+          "actor_role": "SEO Manager",
+          "tool": "Master SEO Document",
+          "touch_min": [
+            70,
+            210
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step / assumed (5–15 × 14)"
+        },
+        {
+          "step": 3,
+          "action": "Close off month; order content",
+          "actor_role": "SEO Manager",
+          "tool": "Content tracker",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Content team",
+          "flags": [],
+          "certainty": "stated; time in above"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        3.7,
+        8.5
+      ],
+      "monthly_hours_working": "5 × 30 + 14 × 5 = 220 min (3.7 h) to 5 × 60 + 14 × 15 = 510 min (8.5 h); × $80 = $296–$680"
+    },
+    {
+      "id": "ZC-P11",
+      "process": "Quarterly / 6-month review",
+      "trigger": "Client reaches 6 months",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 2.5,
+        "per": "month",
+        "scope": "2–3 reviews (assumed; 19 ÷ 6 ≈ 3.2)"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        320,
+        960
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Pull together what was done, what worked, priorities",
+          "actor_role": "SEO Manager",
+          "tool": "Reports, run sheet, strategy",
+          "touch_min": [
+            90,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual copy"
+          ],
+          "certainty": "stated content / assumed time"
+        },
+        {
+          "step": 2,
+          "action": "Present to client",
+          "actor_role": "SEO Manager",
+          "tool": "Deck / call",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "assumed"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        4.0,
+        12.0
+      ],
+      "monthly_hours_working": "2 × 120 = 240 min (4.0 h) to 3 × 240 = 720 min (12.0 h); × $80 = $320–$960"
+    },
+    {
+      "id": "ZC-P12",
+      "process": "Knowledge & SOPs",
+      "trigger": "Client calls, feedback, account events",
+      "owner_role": "SEO Manager",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "ongoing"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        240
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Log account happenings in run sheet",
+          "actor_role": "SEO Manager",
+          "tool": "Run sheet",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual copy",
+            "single-person"
+          ],
+          "certainty": "stated; time in total"
+        },
+        {
+          "step": 2,
+          "action": "Note client requests and preferences",
+          "actor_role": "SEO Manager",
+          "tool": "Google Doc",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Content briefing",
+          "flags": [
+            "manual copy",
+            "single-person"
+          ],
+          "certainty": "stated; time in total"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Run sheets fall behind",
+          "trigger": "Transcripts not used",
+          "rate": "unknown",
+          "extra_steps": "Gaps in account history",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        }
+      ],
+      "monthly_hours": [
+        1.0,
+        3.0
+      ],
+      "monthly_hours_working": "Assumed 1–3 h a month; × $80 = $80–$240"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "ZC-PP01",
+      "text": "Claude has no per-client memory: every brief is checked by hand against strategy, USPs, client conversations and other pages (cannibalisation risk)",
+      "source": "interviewee; interviewer framed 'fresh brain' – agreed",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "Content briefing",
+      "impact": "5–20 h/month checking (estimated); content quality",
+      "frequency": "Every brief",
+      "severity": 4,
+      "quote": "There's things that might not, that that cloud [Claude] project won't pick up on.",
+      "timestamp": "~22:58 (L243)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "ZC-PP02",
+      "text": "Content briefing takes most of the early month; first thing to break with more clients (+10 clients ≈ +50 pages)",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Content briefing",
+      "impact": "12.7–42 h/month; growth ceiling",
+      "frequency": "Monthly",
+      "severity": 4,
+      "quote": "especially early months, the content briefing is pretty much all of my day or say a few days to a week.",
+      "timestamp": "~13:00 (L117)",
+      "certainty": "stated",
+      "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first (partial)"
+    },
+    {
+      "id": "ZC-PP03",
+      "text": "Briefs copied from Claude into Word and re-formatted by hand",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "Content briefing",
+      "impact": "1.7–5 h/month (estimated)",
+      "frequency": "Every brief",
+      "severity": 2,
+      "quote": "copying it from Claude into Word, making sure that all the headings and stuff are in tabs and properly structured.",
+      "timestamp": "~40:37 (L430)",
+      "certainty": "stated step / estimated hours",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "ZC-PP04",
+      "text": "No repository of client tone of voice, preferences or feedback – kept in a personal Google Doc and pasted into briefs",
+      "source": "interviewee (answering interviewer)",
+      "category": "Single point of failure (person)",
+      "anchor": "Client experience & delivery",
+      "process": "Content briefing",
+      "impact": "Rework risk; knowledge loss",
+      "frequency": "Every brief",
+      "severity": 3,
+      "quote": "I'm finding myself just like, writing, like scribbling down on a Google Doc, oh, the client's asked for this",
+      "timestamp": "~42:38 (L450)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "ZC-PP05",
+      "text": "Monday performance check often skipped when busy; dips and wins surface at month-end",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Performance visibility & margin",
+      "process": "Performance monitoring & alerting",
+      "impact": "Retention risk; late reaction",
+      "frequency": "Weekly",
+      "severity": 3,
+      "quote": "I find that these can sometimes be an afterthought because you know you're busy",
+      "timestamp": "~27:39 (L285)",
+      "certainty": "stated",
+      "matches_existing_problem": "No proactive performance alerting – problems found at month-end"
+    },
+    {
+      "id": "ZC-PP06",
+      "text": "Client content approval averages ~1 week and needs chasing; results stall until published",
+      "source": "interviewee (answering interviewer)",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Client content approval",
+      "impact": "~1 week cycle per piece",
+      "frequency": "Every piece",
+      "severity": 3,
+      "quote": "I think on average, it probably takes like a week on average. So it's quite a long time to get it done.",
+      "timestamp": "~41:13 (L435)",
+      "certainty": "stated",
+      "matches_existing_problem": "Content stalls at client approval – or the tracker can't show what's finished"
+    },
+    {
+      "id": "ZC-PP07",
+      "text": "Getting access from new clients (tradies, car dealers) takes a long time",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Client onboarding – access & setup",
+      "impact": "Onboarding delay; chasing",
+      "frequency": "Each onboarding",
+      "severity": 3,
+      "quote": "trying to get the access of those kind of guys, it can take a long time.",
+      "timestamp": "~08:17 (L066)",
+      "certainty": "stated",
+      "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU"
+    },
+    {
+      "id": "ZC-PP08",
+      "text": "Onboarding peaks (five in one month) overload the manager because month 1 is over-serviced",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "BAU squeezed; team pulled in",
+      "frequency": "Occasional",
+      "severity": 3,
+      "quote": "One month specifically, I had onboarding five clients in the same month.",
+      "timestamp": "~20:36 (L218)",
+      "certainty": "stated",
+      "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU; Managers at capacity (partial)"
+    },
+    {
+      "id": "ZC-PP09",
+      "text": "Seasonal content planned too late to catch peaks (~2-month lead time)",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Growth & sales engine",
+      "process": "Monthly SEO delivery",
+      "impact": "Missed seasonal traffic",
+      "frequency": "Seasonal",
+      "severity": 3,
+      "quote": "we were just getting to those seasonal peaks too late.",
+      "timestamp": "~30:44 (L322)",
+      "certainty": "stated",
+      "matches_existing_problem": "Seasonal and trending content is planned too late to catch the peak"
+    },
+    {
+      "id": "ZC-PP10",
+      "text": "No visibility on whether paid links stay live; no account lead re-checks old links",
+      "source": "interviewee (reiterating Karl and Joe)",
+      "category": "Revenue / margin leak",
+      "anchor": "Performance visibility & margin",
+      "process": "Link building – QA & live checks",
+      "impact": "Paid links lost unnoticed",
+      "frequency": "Continuous",
+      "severity": 4,
+      "quote": "Yeah, we have no visibility on whether links stay live or not.",
+      "timestamp": "~36:35 (L373)",
+      "certainty": "stated",
+      "matches_existing_problem": "Paid links disappear after payment – detected manually (32% fault rate Jan–Apr; checking stopped after April)"
+    },
+    {
+      "id": "ZC-PP11",
+      "text": "Regulated clients (dental, financial services) – content rejected once for breaching guidelines; briefs take longer",
+      "source": "interviewee (answering interviewer)",
+      "category": "Rework / errors",
+      "anchor": "Client experience & delivery",
+      "process": "Content briefing",
+      "impact": "Rewrites; client trust",
+      "frequency": "Regulated clients",
+      "severity": 3,
+      "quote": "we sent over a piece of content and they were like, look, we can't publish this. It doesn't align with the guidelines.",
+      "timestamp": "~38:11 (L397)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "ZC-PP12",
+      "text": "Unclear line between SEO hours and dev work – a CRO mock-up led to a request to swap SEO hours for dev hours",
+      "source": "interviewee",
+      "category": "Unclear ownership",
+      "anchor": "Growth & sales engine",
+      "process": "Monthly SEO delivery",
+      "impact": "Lost SEO delivery for a month",
+      "frequency": "Occasional (one example)",
+      "severity": 2,
+      "quote": "can we swap this seo hours to dev hours to get this get this implemented",
+      "timestamp": "~10:38 (L087)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "ZC-PP13",
+      "text": "Meeting transcripts not used; client run sheets kept by hand",
+      "source": "interviewee",
+      "category": "Tool not used / adoption",
+      "anchor": "Technology, AI & stack",
+      "process": "Knowledge & SOPs",
+      "impact": "Incomplete account history",
+      "frequency": "Every call",
+      "severity": 2,
+      "quote": "get those meeting notes and transcriptions kind of just like to populate a month, like a run sheet, just like date, time, this is what we talked about.",
+      "timestamp": "~34:13 (L354)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "ZC-PP14",
+      "text": "Claude keyword research can go 'AWOL' in niche industries – output triple-checked",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Technology, AI & stack",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "30–60 min extra per niche onboarding (assumed)",
+      "frequency": "Niche clients",
+      "severity": 2,
+      "quote": "I definitely find that double checking it is really important when it's quite a niche industry.",
+      "timestamp": "~15:41 (L150)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "ZC-PP15",
+      "text": "No monitoring of competitors' new pages or site changes",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Growth & sales engine",
+      "process": "Monthly SEO delivery",
+      "impact": "Slower response to competitors",
+      "frequency": "Continuous",
+      "severity": 2,
+      "quote": "just kind of see what they're doing and have they created a new page or whatever.",
+      "timestamp": "~32:40 (L343)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "ZC-PP16",
+      "text": "Unlinked client brand mentions aren't monitored or turned into links",
+      "source": "interviewee",
+      "category": "Revenue / margin leak",
+      "anchor": "Growth & sales engine",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Missed low-cost links",
+      "frequency": "Continuous",
+      "severity": 3,
+      "quote": "one thing that we're currently not doing that I think we could would be automated scraping for brand mentions.",
+      "timestamp": "~34:41 (L363)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "ZC-PP17",
+      "text": "News-driven content ideas depend on the manager spotting the story",
+      "source": "interviewee",
+      "category": "Single point of failure (person)",
+      "anchor": "Growth & sales engine",
+      "process": "Monthly SEO delivery",
+      "impact": "Missed timely content",
+      "frequency": "Ad hoc",
+      "severity": 2,
+      "quote": "the surcharge updates in Australia was headline news. So I managed to fast track that and get it in the pipeline as soon as possible.",
+      "timestamp": "~31:43 (L333)",
+      "certainty": "stated",
+      "matches_existing_problem": "Seasonal and trending content is planned too late to catch the peak (partial)"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "ZC-B01",
+      "step": "Client content approval (ZC-P04 step 2)",
+      "waiting_on": "Client",
+      "typical_wait": "~1 week average; some much longer",
+      "affected": "20–30 pieces/month (assumed)",
+      "knock_on": "Content not published → no SEO movement; late-month crunch"
+    },
+    {
+      "id": "ZC-B02",
+      "step": "Onboarding access (ZC-P08)",
+      "waiting_on": "Client (tradies, car dealers)",
+      "typical_wait": "'can take a long time' – not quantified",
+      "affected": "Each new client",
+      "knock_on": "Strategy month and audit start late"
+    },
+    {
+      "id": "ZC-B03",
+      "step": "Early-month briefing (ZC-P02)",
+      "waiting_on": "SEO Manager's time – all briefs pass through one manager's checks",
+      "typical_wait": "'a few days to a week'",
+      "affected": "Writers for ~19 clients",
+      "knock_on": "Writers wait; content late month; approvals spill into next month"
+    },
+    {
+      "id": "ZC-B04",
+      "step": "CRO / tech proposals (ZC-P09 steps 3–4)",
+      "waiting_on": "Tech team scope check; client approval",
+      "typical_wait": "not quantified",
+      "affected": "Ad hoc items",
+      "knock_on": "Proposals stall or drift into dev scope"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "ZC-S01",
+      "idea": "Automate the Monday performance check via MCP to GA4, Search Console, Ahrefs – flag dips and wins",
+      "source": "interviewee",
+      "reaction": "Interviewer extended to drafting / auto-sending the client email; interviewee agreed ('Yep, 100%')",
+      "process": "Performance monitoring & alerting",
+      "quote": "one idea was just if there was any way to kind of automate that client performance check on a Monday.",
+      "timestamp": "~27:39 (L285)"
+    },
+    {
+      "id": "ZC-S02",
+      "idea": "Report small wins to clients mid-month for retention",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Performance monitoring & alerting",
+      "quote": "Obviously retention is like a key metric. Just kind of highlighting small wins to clients",
+      "timestamp": "~26:37 (L280)"
+    },
+    {
+      "id": "ZC-S03",
+      "idea": "Per-client Claude project ('mini brain') with goals, strategy, history",
+      "source": "interviewer",
+      "reaction": "Interviewee agreed strongly and extended it",
+      "process": "Content briefing",
+      "quote": "I think that would be good to have a core [Claude] project per client.",
+      "timestamp": "~25:39 (L271)"
+    },
+    {
+      "id": "ZC-S04",
+      "idea": "Automated seasonal content suggestions per niche",
+      "source": "interviewee",
+      "reaction": "Interviewer added search terms, news, TikTok trends",
+      "process": "Monthly SEO delivery",
+      "quote": "maybe some kind of automated workflow. There might be seasonal things that we're missing out on",
+      "timestamp": "~31:07 (L323)"
+    },
+    {
+      "id": "ZC-S05",
+      "idea": "News / current-affairs blog suggestions",
+      "source": "interviewee",
+      "reaction": "Interviewer added scraping government sources",
+      "process": "Monthly SEO delivery",
+      "quote": "anything like where we could get ahead of that and kind of bring that to the clients.",
+      "timestamp": "~31:43 (L333)"
+    },
+    {
+      "id": "ZC-S06",
+      "idea": "Competitor monitoring – new pages / changes",
+      "source": "interviewee",
+      "reaction": "Interviewer proposed sitemap-change detection + Claude summary; interviewee: 'Yeah, that sounds great.'",
+      "process": "NEW: Competitor monitoring",
+      "quote": "I don't know if there's a way to kind of like plug in a few competitors in whether it's in Ahrefs or wherever",
+      "timestamp": "~32:40 (L343)"
+    },
+    {
+      "id": "ZC-S07",
+      "idea": "Meeting transcripts auto-populate per-client run sheet",
+      "source": "interviewee",
+      "reaction": "Interviewer: 'very, very simple. We can do that.'",
+      "process": "Knowledge & SOPs",
+      "quote": "get those meeting notes and transcriptions kind of just like to populate a month, like a run sheet",
+      "timestamp": "~34:13 (L354)"
+    },
+    {
+      "id": "ZC-S08",
+      "idea": "Scrape unlinked brand mentions; email webmasters for a link (monthly)",
+      "source": "interviewee",
+      "reaction": "Interviewer suggested daily",
+      "process": "Link building – sourcing & ordering",
+      "quote": "maybe like a monthly check. And then we can just like send an easy email to the webmaster",
+      "timestamp": "~35:31 (L365)"
+    },
+    {
+      "id": "ZC-S09",
+      "idea": "Monitor whether paid links stay live",
+      "source": "interviewee",
+      "reaction": "Reiterating Karl and Joe; interviewer agreed",
+      "process": "Link building – QA & live checks",
+      "quote": "Yeah, we have no visibility on whether links stay live or not.",
+      "timestamp": "~36:35 (L373)"
+    },
+    {
+      "id": "ZC-S10",
+      "idea": "Automation around client tone of voice, feedback, things to avoid – fed into briefs",
+      "source": "interviewer asked; interviewee proposed",
+      "reaction": "Interviewee proposed after interviewer asked whether a repository exists",
+      "process": "Content briefing",
+      "quote": "some kind of automation around tone of voice and kind of previous feedback and things to definitely avoid would be good.",
+      "timestamp": "~42:51 (L454)"
+    },
+    {
+      "id": "ZC-S11",
+      "idea": "Use client brain to draft 6-month reviews",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Quarterly / 6-month review",
+      "quote": "it could be good to kind of look at this if we've got like a client brain project",
+      "timestamp": "~43:45 (L464)"
+    },
+    {
+      "id": "ZC-S12",
+      "idea": "Claude first-pass check for glaring mistakes before ZC's QA",
+      "source": "interviewer",
+      "reaction": "Interviewee agreed ('Yeah, yeah, 100%') – unclear if already done",
+      "process": "Client content approval",
+      "quote": "Like Claude just check for any glaring mistakes, then you do your one server as well?",
+      "timestamp": "~44:41 (L474)"
+    },
+    {
+      "id": "ZC-S13",
+      "idea": "Premium / separate PR-style link-building service (site QA, first-party data, trending news, brand mentions)",
+      "source": "interviewee",
+      "reaction": "Interviewer suggested a paid premium add-on",
+      "process": "NEW: Premium link-building service",
+      "quote": "I definitely think the scope for like a, higher tier, if not separate service link building.",
+      "timestamp": "~46:04 (L486)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "ZC-O01",
+      "fixes": [
+        "ZC-PP01",
+        "ZC-PP02",
+        "ZC-PP04",
+        "ZC-PP11",
+        "ZC-B03"
+      ],
+      "lens": "Augment",
+      "change": "One Claude project per client (start with ~5 focus clients) holding strategy doc, USPs, page/keyword map, tone of voice, feedback and regulatory rules; Sid's brief template runs inside it",
+      "matches_existing_solution": "AI business brain",
+      "candidate_tool": "Claude Projects (already used)",
+      "hours_saved_month": [
+        2.0,
+        10.0
+      ],
+      "effort": "M",
+      "prerequisites": "Per-client source docs current; owner to update each project",
+      "adoption_risk": "L – already uses Claude projects; asked for it",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes per brief",
+          "measured_by": "Time log",
+          "baseline": "unknown – briefing 'a few days to a week' a month",
+          "baseline_quote": "the content briefing is pretty much all of my day or say a few days to a week.",
+          "target": "–30%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Briefs returned for strategy / cannibalisation / guideline issues",
+          "measured_by": "Content tracker",
+          "baseline": "unknown; one guideline rejection cited",
+          "baseline_quote": "we can't publish this. It doesn't align with the guidelines.",
+          "target": "0 per month",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 64
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Fixes biggest workload and top pain; builds on existing Claude projects; strongly endorsed"
+    },
+    {
+      "id": "ZC-O04",
+      "fixes": [
+        "ZC-PP06",
+        "ZC-B01"
+      ],
+      "lens": "Change the process",
+      "change": "Approval window in client agreement (e.g. 5 business days, deemed approved for low-risk pages); auto reminders day 3 and 5",
+      "matches_existing_solution": "client approval portal",
+      "candidate_tool": "Monday.com automations / email sequences",
+      "hours_saved_month": [
+        0.3,
+        2.5
+      ],
+      "effort": "S",
+      "prerequisites": "Agreement wording; account lead sign-off",
+      "adoption_risk": "M – client habits; regulated clients opt out",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Days from content sent to approval",
+          "measured_by": "Content tracker dates",
+          "baseline": "~7 days average",
+          "baseline_quote": "I think on average, it probably takes like a week on average.",
+          "target": "≤ 4 business days",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Bumps per piece",
+          "measured_by": "Email log",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "≤ 1",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 2,
+      "tag": "Quick win",
+      "rank_reason": "Approval wait stated; bumps work; process rule, no tech"
+    },
+    {
+      "id": "ZC-O03",
+      "fixes": [
+        "ZC-PP05",
+        "ZC-PP17"
+      ],
+      "lens": "Automate",
+      "change": "Weekly Monday digest per client from GA4, Search Console, Ahrefs: flags dips and wins vs thresholds; drafts a win note for the manager",
+      "matches_existing_solution": "proactive PPC anomaly monitor (extended to SEO)",
+      "candidate_tool": "Looker Studio / AgencyAnalytics alerts / Ahrefs rank alerts / Claude + MCP",
+      "hours_saved_month": [
+        1.6,
+        5.5
+      ],
+      "effort": "M",
+      "prerequisites": "API access per client; thresholds",
+      "adoption_risk": "M – alert noise; manual check already skipped",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Weeks the Monday check is completed",
+          "measured_by": "Digest log",
+          "baseline": "Sometimes skipped",
+          "baseline_quote": "I find that these can sometimes be an afterthought because you know you're busy",
+          "target": "100% (automated)",
+          "type": "leading"
+        },
+        {
+          "kpi": "Mid-month win notes per focus client",
+          "measured_by": "Email / CRM log",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "≥ 1 per month",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 48
+      },
+      "rank": 3,
+      "tag": "Strategic",
+      "rank_reason": "His top idea; protects retention; manual check slips"
+    },
+    {
+      "id": "ZC-O08",
+      "fixes": [
+        "ZC-PP10"
+      ],
+      "lens": "Automate",
+      "change": "Scheduled live-link check of every paid link; alert link team; claim replacements from outreachers",
+      "matches_existing_solution": "link-building CRM with live-link monitoring and invoice follow-up",
+      "candidate_tool": "Ahrefs lost-backlink alerts; Screaming Frog scheduled crawl",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "M",
+      "prerequisites": "Single list of placed links (today 7+ sheets)",
+      "adoption_risk": "L – runs without user effort",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "% paid links checked live in last 30 days",
+          "measured_by": "Link monitor",
+          "baseline": "0",
+          "baseline_quote": "Yeah, we have no visibility on whether links stay live or not.",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Lost links replaced within 30 days",
+          "measured_by": "Link monitor",
+          "baseline": "unknown (32% fault Jan–Apr, context pack)",
+          "baseline_quote": "",
+          "target": "≥ 90%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 5,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 45
+      },
+      "rank": 4,
+      "tag": "Strategic",
+      "rank_reason": "Protects link spend agency-wide; reiterated without numbers"
+    },
+    {
+      "id": "ZC-O02",
+      "fixes": [
+        "ZC-PP03",
+        "ZC-B03"
+      ],
+      "lens": "Augment",
+      "change": "Briefs output straight into the standard brief document format (docx / Google Doc with template heading styles)",
+      "matches_existing_solution": "brief & proposal generator",
+      "candidate_tool": "Claude docx output / Google Drive connector; Docs template",
+      "hours_saved_month": [
+        1.2,
+        5.0
+      ],
+      "effort": "S",
+      "prerequisites": "Agreed brief template",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Briefs needing manual re-formatting",
+          "measured_by": "Spot check",
+          "baseline": "All – copied into Word",
+          "baseline_quote": "copying it from Claude into Word, making sure that all the headings and stuff are in tabs and properly structured.",
+          "target": "0",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 4,
+        "ease": 5,
+        "priority": 40
+      },
+      "rank": 5,
+      "tag": "Fill-in",
+      "rank_reason": "Small, certain saving on every brief"
+    },
+    {
+      "id": "ZC-O05",
+      "fixes": [
+        "ZC-PP07",
+        "ZC-B02"
+      ],
+      "lens": "Change the process",
+      "change": "Access checklist and how-to guides sent at signing via sales handover; coordinator chases access",
+      "matches_existing_solution": "1-click audit (read-only access + AI audit)",
+      "candidate_tool": "Leadsie or similar; HubSpot / Monday.com handover",
+      "hours_saved_month": [
+        0.2,
+        1.5
+      ],
+      "effort": "S",
+      "prerequisites": "Sales handover step; checklist",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Days from signing to full access",
+          "measured_by": "Onboarding tracker",
+          "baseline": "'can take a long time'",
+          "baseline_quote": "trying to get the access of those kind of guys, it can take a long time.",
+          "target": "≤ 3 business days",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 6,
+      "tag": "Quick win",
+      "rank_reason": "Access delays stated; simple checklist fix"
+    },
+    {
+      "id": "ZC-O06",
+      "fixes": [
+        "ZC-PP08",
+        "ZC-PP02"
+      ],
+      "lens": "People & policy",
+      "change": "Cap new SEO onboardings per manager per month (e.g. 2); pool month-1 keyword research and mapping using Karl's prompt guide above the cap",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com capacity view",
+      "hours_saved_month": [
+        0,
+        2.0
+      ],
+      "effort": "S",
+      "prerequisites": "Karl / Laura agreement; capacity data",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "New onboardings per manager per month",
+          "measured_by": "Monday.com",
+          "baseline": "Up to 5",
+          "baseline_quote": "One month specifically, I had onboarding five clients in the same month.",
+          "target": "≤ 2",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 7,
+      "tag": "Quick win",
+      "rank_reason": "Smooths onboarding peaks"
+    },
+    {
+      "id": "ZC-O07",
+      "fixes": [
+        "ZC-PP09",
+        "ZC-PP17"
+      ],
+      "lens": "Augment",
+      "change": "Monthly seasonal and trending content radar per client niche (search trends, news, government sources, social), 2–3 months before peaks",
+      "matches_existing_solution": "seasonal & trending content radar",
+      "candidate_tool": "Google Trends, Ahrefs, Google Alerts, Claude",
+      "hours_saved_month": [
+        0.3,
+        1.5
+      ],
+      "effort": "M",
+      "prerequisites": "Client niche list; seasonal calendar",
+      "adoption_risk": "M – relevance needed",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Seasonal / trend pieces live 4+ weeks before peak",
+          "measured_by": "Content tracker vs peak date",
+          "baseline": "Peaks reached too late",
+          "baseline_quote": "we were just getting to those seasonal peaks too late.",
+          "target": "≥ 80%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 8,
+      "tag": "Strategic (closest – Impact 3 / Ease 3 not covered by the four tags)",
+      "rank_reason": "Clear examples; value is timing, not hours"
+    },
+    {
+      "id": "ZC-O10",
+      "fixes": [
+        "ZC-PP13",
+        "ZC-PP04"
+      ],
+      "lens": "Automate",
+      "change": "Meeting transcripts summarised by AI and appended to the client run sheet (date, attendees, decisions, actions)",
+      "matches_existing_solution": "transcripts → per-client action runsheet",
+      "candidate_tool": "Otter / Gemini notes + Zapier / Make + Claude",
+      "hours_saved_month": [
+        0.5,
+        2.4
+      ],
+      "effort": "S",
+      "prerequisites": "Calls recorded; run sheet per client",
+      "adoption_risk": "L",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Client calls logged in run sheet within 24 h",
+          "measured_by": "Run sheet",
+          "baseline": "unknown – transcripts unused",
+          "baseline_quote": "get those meeting notes and transcriptions kind of just like to populate a month, like a run sheet",
+          "target": "≥ 95%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 9,
+      "tag": "Fill-in",
+      "rank_reason": "Simple automation; small hours"
+    },
+    {
+      "id": "ZC-O09",
+      "fixes": [
+        "ZC-PP16"
+      ],
+      "lens": "Augment",
+      "change": "Brand-mention monitor for Tier 1/2 clients with templated outreach for unlinked mentions",
+      "matches_existing_solution": "unlinked brand-mention outreach",
+      "candidate_tool": "Ahrefs Alerts, Google Alerts, Brand24",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "S",
+      "prerequisites": "Owner in link team; Karl's buy-in",
+      "adoption_risk": "M – new process",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Unlinked mentions converted to links per month",
+          "measured_by": "Outreach log",
+          "baseline": "0 – not done",
+          "baseline_quote": "one thing that we're currently not doing that I think we could would be automated scraping for brand mentions.",
+          "target": "2–5 per Tier 1 client",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 18
+      },
+      "rank": 10,
+      "tag": "Strategic (closest – Impact 3 / Ease 3 not covered by the four tags)",
+      "rank_reason": "New link source; new process needs Karl's buy-in (adds ~1–3 h/month)"
+    },
+    {
+      "id": "ZC-O11",
+      "fixes": [
+        "ZC-P11"
+      ],
+      "lens": "Augment",
+      "change": "Draft 6-month reviews from the client brain (O01) and run sheet (O10)",
+      "matches_existing_solution": "QBR / review deck generator",
+      "candidate_tool": "Claude Projects, Google Slides template",
+      "hours_saved_month": [
+        1.2,
+        6.0
+      ],
+      "effort": "M",
+      "prerequisites": "O01 and O10 in place",
+      "adoption_risk": "M – review quality must hold",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Hours per 6-month review",
+          "measured_by": "Time log",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "–30%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 18
+      },
+      "rank": 11,
+      "tag": "Strategic (closest – Impact 3 / Ease 3 not covered by the four tags)",
+      "rank_reason": "Review time not discussed; depends on O01"
+    },
+    {
+      "id": "ZC-O12",
+      "fixes": [
+        "ZC-PP15"
+      ],
+      "lens": "Automate",
+      "change": "Competitor change monitor: sitemaps and key pages watched; AI summary of new pages",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Visualping, Ahrefs, Claude",
+      "hours_saved_month": [
+        0,
+        1.0
+      ],
+      "effort": "S",
+      "prerequisites": "Competitor list per client",
+      "adoption_risk": "L",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Competitor new pages surfaced per month",
+          "measured_by": "Monitor log",
+          "baseline": "0",
+          "baseline_quote": "",
+          "target": "Alerts for every tracked competitor",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 2,
+        "ease": 4,
+        "priority": 16
+      },
+      "rank": 12,
+      "tag": "Fill-in",
+      "rank_reason": "Nice-to-have intel; low evidence"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Sid's Claude brief project has sped up and standardised briefing",
+      "quote": "I think Sid's tool has definitely streamlined that.",
+      "timestamp": "~40:04 (L425)"
+    },
+    {
+      "text": "Karl's Claude prompt guide cut onboarding strategy from ~3 days by hand",
+      "quote": "for me personally it would take like maybe three days to do it all by hand",
+      "timestamp": "~18:12 (L172)"
+    },
+    {
+      "text": "AgencyAnalytics removed copying from GA4; little re-keying now",
+      "quote": "when we were doing the manual reporting process, it was a lot of us copying from GA4 into there. So that's got a lot more streamlined.",
+      "timestamp": "~37:36 (L389)"
+    },
+    {
+      "text": "Proactive news-driven ideas valued by clients",
+      "quote": "I know clients really kind of value that as well if we're coming to them.",
+      "timestamp": "~32:11 (L335)"
+    },
+    {
+      "text": "Small-agency flexibility to propose ad hoc CRO / site ideas",
+      "quote": "because we're like a small agency, we can kind of do more ad hoc stuff and kind of propose ideas to clients.",
+      "timestamp": "~07:02 (L063)"
+    },
+    {
+      "text": "Claude used for quick CRO mock-ups",
+      "quote": "I put that into Claude and it kind of gave me a kind of a preview of what it would look like.",
+      "timestamp": "~09:01 (L071)"
+    },
+    {
+      "text": "Team pitches in during onboarding peaks",
+      "quote": "The team helped me with like the keyword research and mapping and stuff like that.",
+      "timestamp": "~20:36 (L218)"
+    },
+    {
+      "text": "Learning loop – heavy changes go back to the writer",
+      "quote": "It's a good process to send it back to the writer so they can see for next time what changes that they want.",
+      "timestamp": "~42:10 (L446)"
+    },
+    {
+      "text": "Guidelines run sheet created after a regulated-client rejection",
+      "quote": "off the back of that, we created an internal run sheet of these. We have to follow these.",
+      "timestamp": "~38:20 (L398)"
+    },
+    {
+      "text": "Content front-loaded for a brand-new client site",
+      "quote": "We've managed to front load all the content because obviously it's brand new.",
+      "timestamp": "~29:50 (L308)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "~19",
+      "unit": "clients",
+      "context": "ZC's current book",
+      "quote": "About 19 clients.",
+      "timestamp": "~19:30 (L195)",
+      "certainty": "stated"
+    },
+    {
+      "value": "0",
+      "unit": "Tier 1 / Tier 2 clients",
+      "context": "ZC's book",
+      "quote": "No tier ones currently.",
+      "timestamp": "~19:32 (L197)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Tier 3–4",
+      "unit": "client tiers",
+      "context": "ZC's book",
+      "quote": "So mine are mainly threes and fours.",
+      "timestamp": "~19:48 (L203)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5,500",
+      "unit": "AUD per month",
+      "context": "Largest retainer",
+      "quote": "I think my biggest retainer is five and a half K a month.",
+      "timestamp": "~19:48 (L203)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~5",
+      "unit": "clients",
+      "context": "Monthly focus clients",
+      "quote": "out of the 19 clients, there's probably five that I really focus on month by month",
+      "timestamp": "~21:06 (L220)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Oct 2026",
+      "unit": "promotion",
+      "context": "Specialist → SEO Manager",
+      "quote": "I got promoted from specialist last month.",
+      "timestamp": "~19:37 (L199)",
+      "certainty": "stated (month inferred)"
+    },
+    {
+      "value": "5",
+      "unit": "onboardings in one month",
+      "context": "Peak month",
+      "quote": "One month specifically, I had onboarding five clients in the same month.",
+      "timestamp": "~20:36 (L218)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5",
+      "unit": "content pieces per client per month",
+      "context": "Clients paying $3–4K/month",
+      "quote": "if they're all paying 3 to 4K a month, you'd be briefing in five pieces of content each.",
+      "timestamp": "~21:51 (L231)",
+      "certainty": "stated"
+    },
+    {
+      "value": "50",
+      "unit": "pages",
+      "context": "Extra briefs if +10 clients",
+      "quote": "that's like, you know, 50 pages across 10 clients.",
+      "timestamp": "~22:03 (L234)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~3",
+      "unit": "days",
+      "context": "Onboarding strategy by hand (pre-Claude)",
+      "quote": "it would take like maybe three days to do it all by hand",
+      "timestamp": "~18:12 (L172)",
+      "certainty": "stated"
+    },
+    {
+      "value": "60+",
+      "unit": "minutes",
+      "context": "Onboarding strategy with Karl's Claude guide",
+      "quote": "it probably takes me a little bit longer than 60 minutes",
+      "timestamp": "~18:36 (L181)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3–5",
+      "unit": "days per month",
+      "context": "Early-month briefing",
+      "quote": "the content briefing is pretty much all of my day or say a few days to a week.",
+      "timestamp": "~13:00 (L117)",
+      "certainty": "stated (estimated as 3–5 working days)"
+    },
+    {
+      "value": "~1",
+      "unit": "week",
+      "context": "Average client content approval",
+      "quote": "I think on average, it probably takes like a week on average.",
+      "timestamp": "~41:13 (L435)",
+      "certainty": "stated"
+    },
+    {
+      "value": "9 in 10",
+      "unit": "approvals",
+      "context": "Trade clients approve as-is",
+      "quote": "most like nine out of 10 times",
+      "timestamp": "~39:13 (L414)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~2",
+      "unit": "months",
+      "context": "SEO delivery idea → ready",
+      "quote": "SEO delivery can take like two months from ideation to actually having it ready to go.",
+      "timestamp": "~30:44 (L322)",
+      "certainty": "stated"
+    },
+    {
+      "value": "15",
+      "unit": "pages",
+      "context": "Ready to upload for new electrician client",
+      "quote": "15 pages to ready to upload pretty much",
+      "timestamp": "~29:58 (L309)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4–5",
+      "unit": "months",
+      "context": "Age of links nobody re-checks",
+      "quote": "I don't think any of the account leads checked links that were published four months ago, five months ago.",
+      "timestamp": "~37:08 (L381)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Monthly",
+      "unit": "call cadence",
+      "context": "Most clients",
+      "quote": "most of my clients have monthly calls",
+      "timestamp": "~12:33 (L113)",
+      "certainty": "stated"
+    },
+    {
+      "value": "Weekly (Monday)",
+      "unit": "check cadence",
+      "context": "Performance health check",
+      "quote": "We do a Monday performance check on clients.",
+      "timestamp": "~27:18 (L283)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1 (non-enterprise)",
+      "unit": "Ahrefs account",
+      "context": "Tool licence; Joe has a Semrush login",
+      "quote": "there's an account, but not like an enterprise account.",
+      "timestamp": "~39:46 (L419)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "AgencyAnalytics (automated monthly reports)",
+      "Ahrefs (non-enterprise)",
+      "GA4",
+      "Google Search Console",
+      "Monday.com (link targets)",
+      "Master SEO Document / content and link plans",
+      "SEO strategy document",
+      "Word / Google Docs (briefs, content)",
+      "Content tracker",
+      "Semrush (Joe's login only)"
+    ],
+    "shadow": [
+      "Sid's Claude project used to generate briefs",
+      "Karl's Claude strategy prompt guide",
+      "Claude connected to Ahrefs for keyword research",
+      "Claude for CRO mock-ups and diagnosis",
+      "Personal Google Doc of client preferences",
+      "Hand-kept internal client run sheets",
+      "Seasonal content calendar for flower-delivery client"
+    ],
+    "duplicated_data": [
+      "Client preferences: Google Doc, briefs, client emails",
+      "Client strategy context: strategy doc, content plan, manager's memory (not in Claude)",
+      "Brief text: Claude → Word",
+      "Account history: run sheets vs transcripts vs email"
+    ],
+    "missing_access": [
+      "Per-client AI context (client brain)",
+      "Timely client website / CMS access at onboarding",
+      "Automated GA4 / Search Console / Ahrefs alerts",
+      "Live-link status for paid links",
+      "Brand-mention and competitor-change feeds",
+      "Enterprise Ahrefs account (mentioned, not requested)"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Each client's wider strategy, USPs and conversation history used to check briefs",
+      "who_role": "SEO Manager",
+      "if_absent": "Briefs unchecked; cannibalisation / off-message risk"
+    },
+    {
+      "what": "Client tone-of-voice and preference notes (personal Google Doc)",
+      "who_role": "SEO Manager",
+      "if_absent": "Preferences lost; repeat client corrections"
+    },
+    {
+      "what": "Regulated-client guideline rules (run sheet)",
+      "who_role": "SEO Manager / account team",
+      "if_absent": "Content rejected by dental / financial-services clients"
+    },
+    {
+      "what": "Brief-generation Claude project",
+      "who_role": "Technical SEO Specialist (Sid) – builder",
+      "if_absent": "Project drifts with no maintainer"
+    },
+    {
+      "what": "Claude strategy prompt guide",
+      "who_role": "Senior SEO Manager & Link-building Lead (Karl)",
+      "if_absent": "Strategy reverts toward ~3 days by hand"
+    },
+    {
+      "what": "Client approvals and chasing for ~19 clients",
+      "who_role": "SEO Manager",
+      "if_absent": "Content not published; results stall"
+    },
+    {
+      "what": "Link building and any new link service",
+      "who_role": "Senior SEO Manager & Link-building Lead (Karl)",
+      "if_absent": "Brand-mention / premium service ideas don't start"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Zach: briefs and content pieces handled in October; minutes per brief end to end",
+      "Zach: client calls per month and prep time",
+      "Zach: time per 6-month review and number due monthly",
+      "Zach: time for the Monday check and how often it's skipped",
+      "Sid: who maintains the Claude brief project; how many managers use it to generate briefs",
+      "Karl: status of PR-style link service talks; appetite for brand-mention outreach; owner of post-publish live checks",
+      "Who approves swapping SEO hours to dev hours?"
+    ],
+    "contradictions": [
+      "Context pack: Karl's guide ~75–90 min vs session title '60 minutes' and Zach 'a little bit longer than 60 minutes' – broadly consistent",
+      "Austin's playback assumed Tier 1/2 ad hoc work; Zach has no Tier 1/2 clients",
+      "'I spoke to Kyle' (L060) – almost certainly Karl",
+      "High-end hours (~159 h/month) exceed one FTE while Zach says months are 'pretty comfortable'"
+    ],
+    "data_requests": [
+      "Karl's Claude keyword research / strategy training document (Zach agreed to send)",
+      "Sid's Claude brief project instructions and a sample brief (Sid / Zach)",
+      "Zach's client-preferences Google Doc and one internal run sheet",
+      "Regulated-client guidelines run sheet (Zach)",
+      "Flower-delivery seasonal content calendar (Zach)",
+      "Content tracker export for October – sent/approved dates (Sarah Julian / Zach)",
+      "Zach's October 2026 calendar"
+    ],
+    "verify": [
+      "Content approval averages ~1 week",
+      "Onboarding strategy ~3 days → just over 1 hour with Claude",
+      "'Shaq Electric' client name and tier",
+      "'staff style backlink building' (L479) – possibly 'PR-style'"
+    ]
+  }
+}

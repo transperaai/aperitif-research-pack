@@ -1,0 +1,2965 @@
+{
+  "interview": {
+    "id": "KZ",
+    "name": "Karl Zaharopoulos",
+    "role": "Senior SEO Manager & Link-building Lead",
+    "team": "Organic",
+    "date": "2026-10-29",
+    "minutes": 60,
+    "clients_managed": 13
+  },
+  "time_allocation": [
+    {
+      "activity": "Client comms and account management (calls, emails, follow-ups, check-ins for retention)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "there's like, yeah, firstly, like the client comes [comms] and like management side.",
+      "timestamp": "~03:27 (L065)",
+      "certainty": "stated (no number); billable assumed"
+    },
+    {
+      "activity": "Deliverables – strategy decks, content briefs, keyword research, reporting (the biggest time sink)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "The deliverable parts definitely take up a lot of time, like doing reporting, strategy decks, content briefs as well.",
+      "timestamp": "~09:18 (L106)",
+      "certainty": "stated (no number); billable assumed"
+    },
+    {
+      "activity": "Managing Zach (weekly 1:1, training and progression plans, daily check-in)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "We do weekly one-on-ones, use training plans and progression plans and all that kind of stuff as well.",
+      "timestamp": "~07:04 (L089)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Link-building team operations (direction, Tonie 1:1s, domain vetting, paying invoices) – mostly admin",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "time I have to spend on links and the links team, I find it's like typically going to like that admin side",
+      "timestamp": "~11:11 (L111)",
+      "certainty": "stated (no number); billable status assumed (link fees are billed per link)"
+    },
+    {
+      "activity": "Disney (one client) – daily Teams requests, localisation SEO prep, bespoke report",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "I work on Disney, for example, and that's like, that's totally, I have to do things for them like every single day",
+      "timestamp": "~16:28 (L159)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Sales support – 1–2 prospect decks a month",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "I maybe do one or two a month. Like it's not a super frequent thing",
+      "timestamp": "~26:23 (L234)",
+      "certainty": "stated"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Approve/reject outreach domains (batches of ~60)",
+      "decider_role": "Senior SEO Manager & Link-building Lead (KZ)",
+      "waiting_role": "Outreach Specialist (Tonie) and outreach team",
+      "typical_wait": "\"a couple of days\" before KZ gets to them (L132)",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Content plan and link plan sign-off (once, in onboarding)",
+      "decider_role": "Client",
+      "waiting_role": "KZ; content and link teams",
+      "typical_wait": "within month one (presented before month end)",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Approval of finished content before upload",
+      "decider_role": "Client",
+      "waiting_role": "KZ; implementation",
+      "typical_wait": "not stated; sometimes several follow-ups",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Technical task priority order (low/medium/high)",
+      "decider_role": "Technical SEO team",
+      "waiting_role": "KZ (strategist), client",
+      "typical_wait": "n/a – strategist not usually consulted",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Retainer split into links, words, technical and manager hours",
+      "decider_role": "KZ, via pricing calculator (sales pitch sets links/words first)",
+      "waiting_role": "–",
+      "typical_wait": "at campaign start",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "How much effort and how fast each client gets",
+      "decider_role": "KZ – 'a bit of a feel' based on fee and urgency",
+      "waiting_role": "Lower-fee clients (e.g. AquaSafe – 'early next week')",
+      "typical_wait": "same day (Disney) to next week (smaller clients)",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Which manager gets a new onboarding",
+      "decider_role": "KZ (for Zach)",
+      "waiting_role": "Zach; new client",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Pay outreacher invoices",
+      "decider_role": "KZ",
+      "waiting_role": "Outreachers / publishers",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "Disney",
+      "tier": "Not in context pack (confirm)",
+      "context": "Highest-touch client: daily Microsoft Teams, Monday planning call, 5–10 localisation docs a week (AU/NZ/SG), bespoke monthly report deck (half a day+), Google Trends tracker, new events calendar. 'they pay so much'."
+    },
+    {
+      "client": "AquaSafe",
+      "tier": "Not in context pack (confirm)",
+      "context": "Used as the 'standard' client for the monthly workflow map; lower fee so ad hoc tasks wait until next week; migrating its whole website (one-off priority)."
+    },
+    {
+      "client": "DDEG ('DDG' / 'TDD')",
+      "tier": "Tier 1",
+      "context": "Austin's former employer (client side). Few ad hoc requests; tech tasks rarely raised on calls; link plan approved at start; page builds through implementation staff."
+    },
+    {
+      "client": "Your Local Tradesman",
+      "tier": "Tier 2",
+      "context": "KZ implements content / builds pages himself every month – 'a bit time consuming'."
+    },
+    {
+      "client": "'Fnano'",
+      "tier": "Unresolved",
+      "context": "Named as a poor example for implementation work (L278) – likely mis-transcribed."
+    },
+    {
+      "client": "Unnamed new clients (one with four websites)",
+      "tier": "–",
+      "context": "Two clients started 1–2 months ago = five onboardings in one month, alongside a website migration ('Raymer' → WordPress, platform unresolved)."
+    }
+  ],
+  "processes": [
+    {
+      "id": "KZ-P01",
+      "process": "Client onboarding – audit & strategy",
+      "trigger": "New SEO client signs; client onboards on the 1st of the month.",
+      "owner_role": "Senior SEO Manager (strategist) – KZ for his clients",
+      "frequency": {
+        "count": 0.75,
+        "per": "month (0.5–1 onboardings, assumed)",
+        "scope": "KZ's new clients; a multi-site client counts once per site"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Small site – map all in month one",
+              "pct": 85
+            },
+            {
+              "outcome": "Large site – split across months",
+              "pct": 15
+            }
+          ],
+          "certainty": "assumed"
+        },
+        {
+          "after_step": 12,
+          "branches": [
+            {
+              "outcome": "Client approves plans",
+              "pct": null
+            },
+            {
+              "outcome": "Revisions",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        664,
+        3160
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Copy the empty Master SEO Document template and set up the client",
+          "actor_role": "KZ",
+          "tool": "Google Sheets template",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "assumed"
+        },
+        {
+          "step": 2,
+          "action": "Kickoff call in week one",
+          "actor_role": "KZ + client",
+          "tool": "Call",
+          "touch_min": [
+            45,
+            90
+          ],
+          "wait": "Client availability",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 3,
+          "action": "Map every URL to keywords – Claude + Ahrefs first pass, then manual double-check",
+          "actor_role": "KZ",
+          "tool": "Claude, Ahrefs, Sheets",
+          "touch_min": [
+            240,
+            600
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⚠️",
+            "👤"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 4,
+          "action": "Review metadata; write new title tags, meta descriptions and headings (copy-paste keywords)",
+          "actor_role": "KZ",
+          "tool": "Sheets",
+          "touch_min": [
+            120,
+            300
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step, 'a bit manual') / assumed (time)"
+        },
+        {
+          "step": 5,
+          "action": "Build categorised keyword list and load it into the rank-tracking tool",
+          "actor_role": "KZ",
+          "tool": "Sheets, tracking tool",
+          "touch_min": [
+            45,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "Tracking tool",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 6,
+          "action": "Content plan for the next 5–6 months – which pages, why, priority",
+          "actor_role": "KZ",
+          "tool": "Sheets",
+          "touch_min": [
+            120,
+            240
+          ],
+          "wait": "",
+          "handoff_to": "Client (approval)",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 7,
+          "action": "Link-building plan – target pages and opportunities",
+          "actor_role": "KZ",
+          "tool": "Sheets",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "Client (approval)",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 8,
+          "action": "E-E-A-T snapshot (privacy page, about page, etc.)",
+          "actor_role": "KZ",
+          "tool": "Site review",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 9,
+          "action": "Competitor analysis – rankings and keywords",
+          "actor_role": "KZ",
+          "tool": "Ahrefs",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 10,
+          "action": "Strategy deck: GSC / GA4 story → opportunities → roadmap",
+          "actor_role": "KZ",
+          "tool": "Search Console, GA4, slides",
+          "touch_min": [
+            180,
+            360
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [
+            "⌨️",
+            "⏸"
+          ],
+          "certainty": "stated ('pretty manual') / assumed (time)"
+        },
+        {
+          "step": 11,
+          "action": "Full technical audit (pass/fail) and prioritised technical plan",
+          "actor_role": "Technical SEO team (Sid, Spencer, Everhardt)",
+          "tool": "Technical audit sheet",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Tech team's queue",
+          "handoff_to": "KZ / client",
+          "flags": [],
+          "certainty": "stated (step) – tech time not costed here"
+        },
+        {
+          "step": 12,
+          "action": "Strategy presentation call before month end",
+          "actor_role": "KZ + client",
+          "tool": "Call, deck",
+          "touch_min": [
+            60,
+            90
+          ],
+          "wait": "Client sign-off of content and link plans",
+          "handoff_to": "Monthly delivery (KZ-P02/P03)",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Large site",
+          "trigger": "20,000+ URLs can't be mapped in month one",
+          "rate": "10–20% of onboardings (assumed)",
+          "extra_steps": "Split mapping across months",
+          "extra_min": [
+            240,
+            600
+          ],
+          "certainty": "stated (event) / assumed (rate, time)"
+        },
+        {
+          "name": "Concurrent onboardings",
+          "trigger": "Several clients/sites start in the same month (5 sites in one month)",
+          "rate": "Occasional (1 in the last ~2 months)",
+          "extra_steps": "Work out of hours; BAU squeezed",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event) – extra time not quantified (overtime)"
+        },
+        {
+          "name": "Onboarding on a junior's book",
+          "trigger": "New client allocated to Zach while he is still onboarding another",
+          "rate": "not stated",
+          "extra_steps": "Defer start; reallocate",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event)"
+        }
+      ],
+      "monthly_hours": [
+        8.3,
+        39.5
+      ],
+      "monthly_hours_working": "0.5 × (975 + 0.1 × 240) = 0.5 × 999 = 500 min (8.3 h) to 1 × (2,250 + 0.2 × 600) = 2,370 min (39.5 h)"
+    },
+    {
+      "id": "KZ-P02",
+      "process": "Content briefing",
+      "trigger": "Last few days of the month; content plan already approved in onboarding.",
+      "owner_role": "Senior SEO Manager (KZ)",
+      "frequency": {
+        "count": 1,
+        "per": "month per client",
+        "scope": "12–13 clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Pre-approved – brief straight away",
+              "pct": null
+            },
+            {
+              "outcome": "Needs client approval",
+              "pct": null
+            }
+          ],
+          "certainty": "stated ('usually don't need approval'; no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1008,
+        2376
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Pick next pages from the approved content plan",
+          "actor_role": "KZ",
+          "tool": "Master SEO Document",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Write the content briefs (keywords, structure, links)",
+          "actor_role": "KZ",
+          "tool": "Docs, Ahrefs",
+          "touch_min": [
+            40,
+            90
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated (step) / assumed (time; briefs per client not stated)"
+        },
+        {
+          "step": 3,
+          "action": "Upload briefs as Monday tickets to the content team (Sarah, Hayley, freelancers)",
+          "actor_role": "KZ",
+          "tool": "Monday.com",
+          "touch_min": [
+            10,
+            15
+          ],
+          "wait": "",
+          "handoff_to": "Content team",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Plan changes or new topic",
+          "trigger": "Client or SEO priorities shift",
+          "rate": "10–20% of clients (assumed)",
+          "extra_steps": "Re-plan and re-brief",
+          "extra_min": [
+            30,
+            60
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "monthly_hours": [
+        12.6,
+        29.7
+      ],
+      "monthly_hours_working": "12 × (60 + 0.1 × 30) = 756 min (12.6 h) to 13 × (125 + 0.2 × 60) = 1,781 min (29.7 h)"
+    },
+    {
+      "id": "KZ-P03",
+      "process": "Monthly SEO delivery",
+      "trigger": "Month two onward – monthly cycle per client.",
+      "owner_role": "Senior SEO Manager (KZ)",
+      "frequency": {
+        "count": 1,
+        "per": "month per client",
+        "scope": "12–13 clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 5,
+          "branches": [
+            {
+              "outcome": "Approved first time",
+              "pct": 70
+            },
+            {
+              "outcome": "Needs follow-ups",
+              "pct": 30
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1392,
+        3088
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Monthly client call, notes (Gemini when remembered)",
+          "actor_role": "KZ",
+          "tool": "Call, Gemini notes",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Emails, check-ins and follow-ups through the month (retention)",
+          "actor_role": "KZ",
+          "tool": "Email",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 3,
+          "action": "Upload approved metadata and other tasks as Monday tickets",
+          "actor_role": "KZ",
+          "tool": "Monday.com",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "Implementation (JC, Khaselyn)",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 4,
+          "action": "Keep master sheet (live links, new pages) and project plan up to date",
+          "actor_role": "KZ",
+          "tool": "Master SEO Document",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⌨️",
+            "⚠️"
+          ],
+          "certainty": "stated ('which I'm very bad at') / assumed (time)"
+        },
+        {
+          "step": 5,
+          "action": "Send finished content to client for approval; upload once approved",
+          "actor_role": "KZ",
+          "tool": "Email, CMS / Monday",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Client approval ⏸",
+          "handoff_to": "Implementation",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Content approval chase",
+          "trigger": "Client doesn't reply",
+          "rate": "20–40% of clients (assumed)",
+          "extra_steps": "Follow-up emails, 'a few times'",
+          "extra_min": [
+            10,
+            20
+          ],
+          "certainty": "stated (event) / assumed (rate, time)"
+        },
+        {
+          "name": "Ad hoc request",
+          "trigger": "Client asks for an extra task",
+          "rate": "Most clients some months (assumed)",
+          "extra_steps": "Fit in by fee priority – same day (Disney) to next week (AquaSafe)",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event) – time inside steps 1–2"
+        }
+      ],
+      "monthly_hours": [
+        17.4,
+        38.6
+      ],
+      "monthly_hours_working": "12 × (85 + 0.2 × 10) = 1,044 min (17.4 h) to 13 × (170 + 0.4 × 20) = 2,314 min (38.6 h)"
+    },
+    {
+      "id": "KZ-P04",
+      "process": "Monthly reporting",
+      "trigger": "First week of the month ('reporting week').",
+      "owner_role": "Senior SEO Manager (KZ)",
+      "frequency": {
+        "count": 1,
+        "per": "month per client",
+        "scope": "11–12 clients (excl. Disney)"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Tech tasks complete",
+              "pct": 80
+            },
+            {
+              "outcome": "Still in progress – nothing to report",
+              "pct": 20
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        312,
+        816
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Pull technical tasks done from the Monday tech ticket",
+          "actor_role": "KZ",
+          "tool": "Monday.com",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Tech team finishing tasks ⏸",
+          "handoff_to": "–",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Check AgencyAnalytics dashboard; fill the 'what we did' tab",
+          "actor_role": "KZ",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            15,
+            35
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Tech tasks not done at report time",
+          "trigger": "Tech tickets still in progress around the 5th",
+          "rate": "10–30% of clients (assumed)",
+          "extra_steps": "Chase tech team or report nothing for technical",
+          "extra_min": [
+            10,
+            20
+          ],
+          "certainty": "stated (event) / assumed (rate, time)"
+        }
+      ],
+      "monthly_hours": [
+        3.9,
+        10.2
+      ],
+      "monthly_hours_working": "11 × (20 + 0.1 × 10) = 231 min (3.9 h) to 12 × (45 + 0.3 × 20) = 612 min (10.2 h)"
+    },
+    {
+      "id": "KZ-P05",
+      "process": "Monthly reporting",
+      "trigger": "Start of every month.",
+      "owner_role": "Senior SEO Manager (KZ)",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "1 client, 3 markets"
+      },
+      "decision_points": [],
+      "team_volume_per_month": 1,
+      "monthly_cost_aud": [
+        320,
+        520
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Traffic performance and landing pages with summaries (AgencyAnalytics screenshots; formerly GA4 by hand)",
+          "actor_role": "KZ",
+          "tool": "AgencyAnalytics, GA4",
+          "touch_min": [
+            60,
+            90
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (split of total)"
+        },
+        {
+          "step": 2,
+          "action": "Pages launched, top clicks up/down, top new articles, branded vs non-branded",
+          "actor_role": "KZ",
+          "tool": "Search Console, Ahrefs",
+          "touch_min": [
+            60,
+            90
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (split)"
+        },
+        {
+          "step": 3,
+          "action": "Ahrefs graphs and keyword-position counts; top queries",
+          "actor_role": "KZ",
+          "tool": "Ahrefs, GSC exports",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (split)"
+        },
+        {
+          "step": 4,
+          "action": "Repeat for New Zealand and Singapore; write highlights",
+          "actor_role": "KZ",
+          "tool": "As above",
+          "touch_min": [
+            90,
+            150
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (split)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        4.0,
+        6.5
+      ],
+      "monthly_hours_working": "1 × 240 = 240 min (4.0 h) to 1 × 390 = 390 min (6.5 h)"
+    },
+    {
+      "id": "KZ-P06",
+      "process": "Content briefing",
+      "trigger": "Disney contact (Bella) sends a US-written article to localise; topics agreed at the Monday planning call.",
+      "owner_role": "Senior SEO Manager (KZ)",
+      "frequency": {
+        "count": 30,
+        "per": "month (21.7–43.3 docs)",
+        "scope": "Disney only"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        432,
+        1152
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Receive article request in Teams; create AU, NZ and SG tabs",
+          "actor_role": "KZ",
+          "tool": "Teams, Docs",
+          "touch_min": [
+            2,
+            3
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step) / assumed (split of 15–20)"
+        },
+        {
+          "step": 2,
+          "action": "Keyword research in Ahrefs for each of the three markets",
+          "actor_role": "KZ",
+          "tool": "Ahrefs",
+          "touch_min": [
+            9,
+            12
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (split)"
+        },
+        {
+          "step": 3,
+          "action": "Write region-specific metadata",
+          "actor_role": "KZ",
+          "tool": "Docs",
+          "touch_min": [
+            4,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "Content team (localise copy and links)",
+          "flags": [],
+          "certainty": "stated (step) / assumed (split)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        5.4,
+        14.4
+      ],
+      "monthly_hours_working": "21.7 × 15 = 325 min (5.4 h) to 43.3 × 20 = 866 min (14.4 h)"
+    },
+    {
+      "id": "KZ-P07",
+      "process": "NEW: Client requests & trend monitoring (Disney)",
+      "trigger": "Daily Teams messages; Monday planning call; ongoing Google Trends request.",
+      "owner_role": "Senior SEO Manager (KZ)",
+      "frequency": {
+        "count": 1,
+        "per": "month (daily activity)",
+        "scope": "Disney only"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        824,
+        1872
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Monday planning call: month's topics, what to localise",
+          "actor_role": "KZ + client",
+          "tool": "Call, content calendar",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "KZ-P06",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Triage daily Teams messages and ad hoc requests (article reviews, keyword tasks)",
+          "actor_role": "KZ",
+          "tool": "Teams",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "👤"
+          ],
+          "certainty": "stated (step) / assumed (time; doing the tasks not costed)"
+        },
+        {
+          "step": 3,
+          "action": "Update Google Trends tracker for requested topics",
+          "actor_role": "KZ",
+          "tool": "Google Trends, Sheets",
+          "touch_min": [
+            20,
+            45
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [
+            "⌨️",
+            "⏸"
+          ],
+          "certainty": "stated (every 2–3 days) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Missed event",
+          "trigger": "Major event passes with no content (e.g. World Series)",
+          "rate": "not stated",
+          "extra_steps": "None – opportunity lost",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event)"
+        }
+      ],
+      "monthly_hours": [
+        10.3,
+        23.4
+      ],
+      "monthly_hours_working": "(4.33 × 30) + (21.7 × 15) + (8 × 20) = 130 + 326 + 160 = 616 min (10.3 h) to (4.33 × 60) + (21.7 × 30) + (11 × 45) = 260 + 651 + 495 = 1,406 min (23.4 h). Excludes doing the ad hoc tasks themselves (not quantified)."
+    },
+    {
+      "id": "KZ-P08",
+      "process": "Link building – sourcing & ordering",
+      "trigger": "End-of-month link plan per client; outreach team adds domains to the sheet.",
+      "owner_role": "Link-building Lead (KZ); Outreach Specialist (Tonie) runs outreach",
+      "frequency": {
+        "count": 5.5,
+        "per": "month (vetting batches, estimated)",
+        "scope": "300–350 links/month across all clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Domain approved",
+              "pct": null
+            },
+            {
+              "outcome": "Rejected",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        },
+        {
+          "after_step": 4,
+          "branches": [
+            {
+              "outcome": "Published",
+              "pct": 75
+            },
+            {
+              "outcome": "Publisher drops – re-source",
+              "pct": 25
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": 325,
+      "monthly_cost_aud": [
+        600,
+        1448
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Upload link plan (anchor + target URL) to the Monday link board",
+          "actor_role": "KZ / SEO managers",
+          "tool": "Monday.com",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "Outreach team",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time, per client)"
+        },
+        {
+          "step": 2,
+          "action": "Find candidate domains; email publishers; negotiate price",
+          "actor_role": "Outreach team (Tonie, Jasfer, offshore)",
+          "tool": "Email, sheet",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Publisher replies ⏸",
+          "handoff_to": "KZ",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated (step) – outreach time not costed (ask Tonie)"
+        },
+        {
+          "step": 3,
+          "action": "Vet ~60 domains: Ahrefs metrics + manual spam check, one at a time",
+          "actor_role": "KZ",
+          "tool": "Ahrefs, Claude artifact",
+          "touch_min": [
+            60,
+            120
+          ],
+          "wait": "'a couple of days' before KZ gets to it ⏸",
+          "handoff_to": "Tonie",
+          "flags": [
+            "👤",
+            "⏸",
+            "⌨️"
+          ],
+          "certainty": "stated (1–2 h per 60)"
+        },
+        {
+          "step": 4,
+          "action": "Publish links on approved domains",
+          "actor_role": "Outreach team / publishers",
+          "tool": "Publisher sites",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Publisher ⏸",
+          "handoff_to": "KZ (invoices)",
+          "flags": [],
+          "certainty": "stated (step)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Publisher stops replying",
+          "trigger": "No reply after approval",
+          "rate": "20–30% of batches need replacements (assumed)",
+          "extra_steps": "Find new domains; KZ re-vets",
+          "extra_min": [
+            30,
+            60
+          ],
+          "certainty": "stated (event) / assumed (rate, time)"
+        },
+        {
+          "name": "Domains added unseen",
+          "trigger": "Domains added to the sheet without KZ noticing",
+          "rate": "not stated",
+          "extra_steps": "Back-and-forth; delay",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event)"
+        },
+        {
+          "name": "Low-quality shortlist",
+          "trigger": "Spammy/dictionary sites submitted",
+          "rate": "Falling (prompts now shared)",
+          "extra_steps": "Extra review time",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (event)"
+        }
+      ],
+      "monthly_hours": [
+        7.5,
+        18.1
+      ],
+      "monthly_hours_working": "Link plans 12 × 10 = 120 to 13 × 20 = 260 min; vetting 5 × 60 = 300 to 6 × 120 = 720 min; bad path 5 × 0.2 × 30 = 30 to 6 × 0.3 × 60 = 108 min → 450 min (7.5 h) to 1,088 min (18.1 h)"
+    },
+    {
+      "id": "KZ-P09",
+      "process": "Link building – outreacher invoicing",
+      "trigger": "Links delivered; invoices come through.",
+      "owner_role": "Link-building Lead (KZ)",
+      "frequency": {
+        "count": 6,
+        "per": "month (4–8 payment runs, assumed)",
+        "scope": "All link orders"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        104,
+        424
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Check delivered links against invoice and pay",
+          "actor_role": "KZ",
+          "tool": "PayPal, sheets",
+          "touch_min": [
+            20,
+            40
+          ],
+          "wait": "",
+          "handoff_to": "Outreacher",
+          "flags": [
+            "⌨️",
+            "👤"
+          ],
+          "certainty": "stated (step, 'a bit of a timely process') / assumed (time)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        1.3,
+        5.3
+      ],
+      "monthly_hours_working": "4 × 20 = 80 min (1.3 h) to 8 × 40 = 320 min (5.3 h)"
+    },
+    {
+      "id": "KZ-P10",
+      "process": "Link building – QA & live checks",
+      "trigger": "None – no routine. A one-off manual report found ~100 dead links over ~10 months.",
+      "owner_role": "Unowned",
+      "frequency": {
+        "count": 0,
+        "per": "month",
+        "scope": "All paid links"
+      },
+      "decision_points": [],
+      "team_volume_per_month": 0,
+      "monthly_cost_aud": [
+        0,
+        0
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "No routine check of live status, correct domain, removals or domain decay",
+          "actor_role": "–",
+          "tool": "–",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [
+            "⚠️"
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Link removed / 404 after payment",
+          "trigger": "Publisher takes link down",
+          "rate": "~100 in ~10 months ≈ 10 a month (estimated)",
+          "extra_steps": "Found only by a one-off manual report",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (100 / 10 months) / estimated (rate)"
+        },
+        {
+          "name": "Wrong domain used",
+          "trigger": "Outreacher publishes on a different domain to the one approved",
+          "rate": "unknown",
+          "extra_steps": "Not checked",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (no check)"
+        },
+        {
+          "name": "Domain decays into spam",
+          "trigger": "Site quality drops after placement",
+          "rate": "unknown",
+          "extra_steps": "Not checked",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (no check)"
+        }
+      ],
+      "monthly_hours": [
+        0.0,
+        0.0
+      ],
+      "monthly_hours_working": "0 h (not done). Value at risk: ~10 dead links a month × $80–130 cost per link ≈ $800–1,300 of paid links a month (estimated from context-pack link cost)."
+    },
+    {
+      "id": "KZ-P11",
+      "process": "Technical SEO audit & fixes",
+      "trigger": "Technical plan from onboarding; tech team works Monday tickets through the month.",
+      "owner_role": "Technical SEO team (Sid, Spencer, Everhardt); KZ consumes",
+      "frequency": {
+        "count": 1,
+        "per": "month per client",
+        "scope": "12–13 clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        176
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Find the tech ticket; note what was done for the report",
+          "actor_role": "KZ",
+          "tool": "Monday.com",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "Tech completion ⏸",
+          "handoff_to": "KZ-P04",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Low-impact tasks first",
+          "trigger": "Tech plan order puts simple tasks first; big ones months out",
+          "rate": "'sometimes'",
+          "extra_steps": "None today – KZ rarely checks before work starts",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "monthly_hours": [
+        1.0,
+        2.2
+      ],
+      "monthly_hours_working": "12 × 5 = 60 min (1.0 h) to 13 × 10 = 130 min (2.2 h)"
+    },
+    {
+      "id": "KZ-P12",
+      "process": "Monthly SEO delivery",
+      "trigger": "Content approved / page build returned by implementation staff.",
+      "owner_role": "KZ (QA); implementation staff (JC, Khaselyn) build",
+      "frequency": {
+        "count": 4,
+        "per": "month (2–6 builds, assumed)",
+        "scope": "KZ's clients; Your Local Tradesman monthly"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Pass",
+              "pct": 85
+            },
+            {
+              "outcome": "Issue reaches client",
+              "pct": 15
+            }
+          ],
+          "certainty": "assumed"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        112,
+        416
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Implement content / build page for Your Local Tradesman",
+          "actor_role": "KZ",
+          "tool": "CMS",
+          "touch_min": [
+            60,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (step) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "QA each returned build (now every time) – desktop and mobile",
+          "actor_role": "KZ",
+          "tool": "Browser",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [
+            "⚠️"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Client finds the error first",
+          "trigger": "Mobile view broken, missed in a desktop-only check",
+          "rate": "10–20% of builds (assumed)",
+          "extra_steps": "Fix, re-check, client apology",
+          "extra_min": [
+            30,
+            60
+          ],
+          "certainty": "stated (event) / assumed (rate, time)"
+        }
+      ],
+      "monthly_hours": [
+        1.4,
+        5.2
+      ],
+      "monthly_hours_working": "60 + 2 × (10 + 0.1 × 30) = 86 min (1.4 h) to 120 + 6 × (20 + 0.2 × 60) = 312 min (5.2 h)"
+    },
+    {
+      "id": "KZ-P13",
+      "process": "Sales – lead to proposal",
+      "trigger": "Sales team asks for an SEO deck for a prospect.",
+      "owner_role": "Sales (Growth Strategy Lead) requests; KZ builds",
+      "frequency": {
+        "count": 1.5,
+        "per": "month (1–2)",
+        "scope": "Prospects"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        160,
+        640
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Research site and Ahrefs data; find opportunities (with Claude)",
+          "actor_role": "KZ",
+          "tool": "Ahrefs, Claude",
+          "touch_min": [
+            60,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step; ~1 h with Claude, L567) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Build the slides and the narrative",
+          "actor_role": "KZ",
+          "tool": "Slides",
+          "touch_min": [
+            60,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "Sales",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (step) / assumed (time)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        2.0,
+        8.0
+      ],
+      "monthly_hours_working": "1 × 120 = 120 min (2.0 h) to 2 × 240 = 480 min (8.0 h)"
+    },
+    {
+      "id": "KZ-P14",
+      "process": "NEW: Team management (1:1s, training, check-ins)",
+      "trigger": "Weekly 1:1s; daily check-in.",
+      "owner_role": "KZ",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "2 direct reports in 1:1s (Zach, Tonie); Jasfer via Tonie"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        720,
+        1288
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Weekly 1:1 with Zach",
+          "actor_role": "KZ",
+          "tool": "Call",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (weekly) / assumed (time)"
+        },
+        {
+          "step": 2,
+          "action": "Weekly 1:1 with Tonie (link-team lead)",
+          "actor_role": "KZ",
+          "tool": "Call",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (weekly) / assumed (time)"
+        },
+        {
+          "step": 3,
+          "action": "Daily check-in with Zach",
+          "actor_role": "KZ",
+          "tool": "Slack / call",
+          "touch_min": [
+            10,
+            15
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated ('once a day') / assumed (time)"
+        },
+        {
+          "step": 4,
+          "action": "Training and progression plans",
+          "actor_role": "KZ",
+          "tool": "Docs",
+          "touch_min": [
+            60,
+            120
+          ],
+          "wait": "",
+          "handoff_to": "–",
+          "flags": [],
+          "certainty": "stated (step) / assumed (monthly time)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        9.0,
+        16.1
+      ],
+      "monthly_hours_working": "(4.33 × 30 × 2) + (21.7 × 10) + 60 = 260 + 217 + 60 = 537 min (9.0 h) to (4.33 × 60 × 2) + (21.7 × 15) + 120 = 520 + 326 + 120 = 966 min (16.1 h)"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "KZ-PP01",
+      "text": "Onboarding a new SEO client takes most of month one and competes with BAU; a five-site month forced out-of-hours work",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "8.3–39.5 h/month (assumed); overtime",
+      "frequency": "Each onboarding; spikes",
+      "severity": 5,
+      "quote": "onboarding takes a really long time. I don't know if Laura brought that up, but onboarding a new client is pretty hectic here as well.",
+      "timestamp": "~17:23 (L164)",
+      "certainty": "stated",
+      "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU (disrupts-BAU part; access not mentioned)"
+    },
+    {
+      "id": "KZ-PP02",
+      "text": "Onboarding effort caps how many new clients managers can take – growth is constrained by delivery time",
+      "source": "interviewee (interviewer framed growth; interviewee agreed and gave the example)",
+      "category": "Capacity / overload",
+      "anchor": "Growth & sales engine",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Growth limit; allocation juggling",
+      "frequency": "Whenever 2+ clients start",
+      "severity": 4,
+      "quote": "it's pretty hard to take multiple new clients or give multiple new clients to like, for example, to Zach.",
+      "timestamp": "~23:55 (L204)",
+      "certainty": "stated",
+      "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "KZ-PP03",
+      "text": "Back-to-back onboardings are repetitive and demoralising for junior/new staff – a staff-retention risk",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Leadership & dependency",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Retention / morale risk",
+      "frequency": "When onboardings cluster",
+      "severity": 3,
+      "quote": "if you're new to an agency and you're a junior or a new staff member and you're just copying onboarding after onboarding",
+      "timestamp": "~25:05 (L209)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP04",
+      "text": "Month-one deliverables are largely manual: metadata copy-paste, keyword list, and a hand-built strategy deck from GSC/GA4",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Most of the 16–38 h per onboarding (assumed)",
+      "frequency": "Each onboarding",
+      "severity": 4,
+      "quote": "This is a bit manual. We just copy-paste all the keywords basically from in here that we had.",
+      "timestamp": "~19:38 (L183)",
+      "certainty": "stated",
+      "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU (effort side)"
+    },
+    {
+      "id": "KZ-PP05",
+      "text": "Deadlines cluster: briefs due in the last days of the month, reports in week one, plus client priorities – 'pretty chaotic'",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Content briefing",
+      "impact": "Peak-load crunch; slippage risk",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "client priorities kind of dropping in at the same time, it can get like pretty chaotic to like get everything done together.",
+      "timestamp": "~10:01 (L108)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP06",
+      "text": "Domain vetting is slow and manual: ~60 domains through Ahrefs plus a manual spam check takes 1–2 h a batch",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – sourcing & ordering",
+      "impact": "5–12 h/month (estimated)",
+      "frequency": "5–6 batches/month (estimated)",
+      "severity": 3,
+      "quote": "I'll get 60 domains I need to vet and I'll go through one at a time... that's at least an hour or two process",
+      "timestamp": "~13:14 (L131)",
+      "certainty": "stated",
+      "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets (related)"
+    },
+    {
+      "id": "KZ-PP07",
+      "text": "A link takes at least a month end to end; late links come from review delays, domains added to the sheet unseen and publishers going quiet",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Late links to clients; rework",
+      "frequency": "Ongoing",
+      "severity": 4,
+      "quote": "It takes me a couple of days maybe to get to reviewing the domains and then Tony [Tonie] will add more to the sheet and I don't see",
+      "timestamp": "~13:55 (L132)",
+      "certainty": "stated",
+      "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets; Content tracker and link sheets live outside Monday.com"
+    },
+    {
+      "id": "KZ-PP08",
+      "text": "The link lead's time goes on admin (vetting, invoices) instead of developing and growing the link team",
+      "source": "interviewee",
+      "category": "Single point of failure (person)",
+      "anchor": "Leadership & dependency",
+      "process": "Link building – outreacher invoicing",
+      "impact": "Lead time absorbed; team growth stalls",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "it's like typically going to like that admin side rather than like helping do bigger things and growing the team a bit more",
+      "timestamp": "~11:11 (L111)",
+      "certainty": "stated",
+      "matches_existing_problem": "Outreacher invoicing tracked as PayPal links in spreadsheet cells (related)"
+    },
+    {
+      "id": "KZ-PP09",
+      "text": "Outreach shortlists included spammy, low-quality domains, adding review time (now mitigated by shared Claude prompts)",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Operations capacity & process",
+      "process": "Link building – sourcing & ordering",
+      "impact": "Extra review time",
+      "frequency": "Falling",
+      "severity": 2,
+      "quote": "i'm looking through these sites that are like dictionary websites and stuff that are clearly just trying to like get spammy keywords",
+      "timestamp": "~15:00 (L145)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP10",
+      "text": "No link QA: nobody checks that links are live, on the approved domain, still there months later, or that the domain hasn't decayed; a one-off report found ~100 dead links in ~10 months",
+      "source": "interviewee",
+      "category": "Revenue / margin leak",
+      "anchor": "Performance visibility & margin",
+      "process": "Link building – QA & live checks",
+      "impact": "~10 paid links/month lost ≈ $800–1,300/month (estimated); client results",
+      "frequency": "Continuous",
+      "severity": 5,
+      "quote": "over the last like 10 months or whatever it was, there's like 100 links that just like were no longer working, like 404s or they took them down",
+      "timestamp": "~54:38 (L546)",
+      "certainty": "stated (count) / estimated ($)",
+      "matches_existing_problem": "Paid links disappear after payment – detected manually"
+    },
+    {
+      "id": "KZ-PP11",
+      "text": "Strategists have little visibility of or say in technical priorities; simple tasks get done first and the big ones are pushed months out",
+      "source": "interviewee",
+      "category": "Unclear ownership",
+      "anchor": "Client experience & delivery",
+      "process": "Technical SEO audit & fixes",
+      "impact": "Lower-impact work delivered first; client results",
+      "frequency": "'sometimes'",
+      "severity": 3,
+      "quote": "sometimes it's pretty simple tasks in there and the beefier tasks are all the way six months from now kind of thing as well.",
+      "timestamp": "~32:57 (L316)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP12",
+      "text": "Technical tasks are often unfinished when the monthly report is due, so the report has nothing for technical",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Monthly reporting",
+      "impact": "Weaker reports; chasing",
+      "frequency": "Some months",
+      "severity": 3,
+      "quote": "task still in progress and now it's like, well, I'm putting nothing in the report.",
+      "timestamp": "~34:37 (L337)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP13",
+      "text": "Page builds reach clients with errors (especially mobile layouts) – implementers aren't web developers and there's no structured cross-device QA",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Client experience & delivery",
+      "process": "Monthly SEO delivery",
+      "impact": "Client dissatisfaction; rework",
+      "frequency": "10–20% of builds (assumed)",
+      "severity": 4,
+      "quote": "sometimes you just don't pick things up and then the client sees it first and they're not happy.",
+      "timestamp": "~55:27 (L551)",
+      "certainty": "stated (event) / assumed (rate)",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP14",
+      "text": "Finished content waits on client approval and sometimes needs several follow-ups",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Client experience & delivery",
+      "process": "Client content approval",
+      "impact": "Delay to publishing; chasing time",
+      "frequency": "20–40% of clients (assumed)",
+      "severity": 2,
+      "quote": "Sometimes that doesn't always, like you need to follow up a few times as well.",
+      "timestamp": "~30:56 (L296)",
+      "certainty": "stated (event) / assumed (rate)",
+      "matches_existing_problem": "Content stalls at client approval – or the tracker can't show what's finished"
+    },
+    {
+      "id": "KZ-PP15",
+      "text": "Master sheet and project plan aren't kept current under load",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Client experience & delivery",
+      "process": "Monthly SEO delivery",
+      "impact": "Client record out of date",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "keeping the project plan updated, which I'm very bad at.",
+      "timestamp": "~29:11 (L278)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "KZ-PP16",
+      "text": "AI call notes (Gemini) are switched on inconsistently and rarely reviewed afterwards",
+      "source": "interviewee",
+      "category": "Tool not used / adoption",
+      "anchor": "Technology, AI & stack",
+      "process": "Monthly SEO delivery",
+      "impact": "Call actions not captured",
+      "frequency": "Every client call",
+      "severity": 2,
+      "quote": "I usually just forget to look at the notes even after as well or maybe I don't summarize them too.",
+      "timestamp": "~03:56 (L068)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "KZ-PP17",
+      "text": "Disney localisation SEO prep is manual and high-volume: 5–10 docs a week × 3 markets × 15–20 min",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Content briefing",
+      "impact": "5.4–14.4 h/month (estimated)",
+      "frequency": "Weekly",
+      "severity": 4,
+      "quote": "if you're doing 10 of those a week, it's obviously pretty time impactful as well.",
+      "timestamp": "~40:10 (L401)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP18",
+      "text": "Disney's bespoke three-market report deck is built by hand – half a day or more each month",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Monthly reporting",
+      "impact": "4.0–6.5 h/month",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "So this probably takes me like half a day, if not more, of like work hours.",
+      "timestamp": "~41:42 (L409)",
+      "certainty": "stated",
+      "matches_existing_problem": "none – new"
+    },
+    {
+      "id": "KZ-PP19",
+      "text": "Google Trends monitoring for Disney can only be refreshed every 2–3 days by hand, not daily",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "NEW: Client requests & trend monitoring (Disney)",
+      "impact": "2.7–8.3 h/month (assumed); stale data",
+      "frequency": "Every 2–3 days",
+      "severity": 3,
+      "quote": "I set up a tracker, but I'm like, I can only do this once every two, three days. I can't do this every single day.",
+      "timestamp": "~38:17 (L388)",
+      "certainty": "stated",
+      "matches_existing_problem": "Seasonal and trending content is planned too late to catch the peak (related)"
+    },
+    {
+      "id": "KZ-PP20",
+      "text": "Major events are missed for content because topics are spotted too late (e.g. World Series)",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Client experience & delivery",
+      "process": "NEW: Client requests & trend monitoring (Disney)",
+      "impact": "Missed traffic opportunities",
+      "frequency": "Not stated",
+      "severity": 3,
+      "quote": "like a major event and we'd be too late to even think to do like a content topic or an idea for it.",
+      "timestamp": "~44:01 (L443)",
+      "certainty": "stated",
+      "matches_existing_problem": "Seasonal and trending content is planned too late to catch the peak"
+    },
+    {
+      "id": "KZ-PP21",
+      "text": "Prospect decks for sales are slow to build (research, Ahrefs, story) and land on top of BAU",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Growth & sales engine",
+      "process": "Sales – lead to proposal",
+      "impact": "2–8 h/month (assumed)",
+      "frequency": "1–2 a month",
+      "severity": 3,
+      "quote": "That can be quite time consuming depending on the client and stuff too.",
+      "timestamp": "~26:23 (L234)",
+      "certainty": "stated",
+      "matches_existing_problem": "Proposals are rebuilt from scratch per prospect"
+    },
+    {
+      "id": "KZ-PP22",
+      "text": "Effort per client is set by 'feel' and fee rather than tracked retainer hours; the pricing calculator isn't kept up to date",
+      "source": "interviewee",
+      "category": "Revenue / margin leak",
+      "anchor": "Performance visibility & margin",
+      "process": "Monthly SEO delivery",
+      "impact": "Over/under-servicing; lower-fee clients wait",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "to be honest, like a little bit of a feel, I'd say",
+      "timestamp": "~46:36 (L473)",
+      "certainty": "stated",
+      "matches_existing_problem": "Pricing is inconsistent across templates and the margin maths is wrong; Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "KZ-PP23",
+      "text": "One high-touch client's daily requests force other clients' work to be scheduled around it",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "NEW: Client requests & trend monitoring (Disney)",
+      "impact": "Other clients wait",
+      "frequency": "Weekly",
+      "severity": 3,
+      "quote": "if like another one or two clients come up during the week and they need something, I've got to like map that around Disney a lot of the time",
+      "timestamp": "~16:52 (L160)",
+      "certainty": "stated",
+      "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "KZ-PP24",
+      "text": "Freelance writers' AI use can't be verified (KZ's experience at his last agency; unknown here)",
+      "source": "interviewee",
+      "category": "Risk / compliance",
+      "anchor": "Client experience & delivery",
+      "process": "Content writing & editing",
+      "impact": "Quality / client trust risk",
+      "frequency": "unknown",
+      "severity": 2,
+      "quote": "they'll tell you that they didn't use AI and then someone will say like, 'Hey, my content looks like AI.'",
+      "timestamp": "~52:06 (L532)",
+      "certainty": "stated (prior agency) / assumed (applies here)",
+      "matches_existing_problem": "none – new (low; verify with Sarah)"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "KZ-B01",
+      "step": "Domain vetting (KZ-P08 step 3)",
+      "waiting_on": "KZ's availability",
+      "typical_wait": "'a couple of days' (L132)",
+      "affected": "All link orders – 300–350 links/month",
+      "knock_on": "Outreach waits; links arrive late; 'at least a month' per link"
+    },
+    {
+      "id": "KZ-B02",
+      "step": "Publication (KZ-P08 step 4)",
+      "waiting_on": "Publisher replies",
+      "typical_wait": "unknown; publishers sometimes stop replying",
+      "affected": "Share of orders (assumed 20–30%)",
+      "knock_on": "Re-sourcing and re-vetting; late links"
+    },
+    {
+      "id": "KZ-B03",
+      "step": "Month-one onboarding package (KZ-P01)",
+      "waiting_on": "Strategist time",
+      "typical_wait": "Whole of month one",
+      "affected": "Each new client; 5 sites in one recent month",
+      "knock_on": "Overtime; BAU squeezed; limits clients a manager can take"
+    },
+    {
+      "id": "KZ-B04",
+      "step": "Report technical section (KZ-P04 step 1)",
+      "waiting_on": "Tech team finishing tasks",
+      "typical_wait": "Into the next month ('November like 5th', L333)",
+      "affected": "Some clients each month",
+      "knock_on": "Report has no technical work; chasing"
+    },
+    {
+      "id": "KZ-B05",
+      "step": "Content upload (KZ-P03 step 5)",
+      "waiting_on": "Client approval",
+      "typical_wait": "Not stated; several follow-ups",
+      "affected": "20–40% of clients (assumed)",
+      "knock_on": "Publishing delayed"
+    },
+    {
+      "id": "KZ-B06",
+      "step": "End-of-month briefs and week-one reports (KZ-P02, KZ-P04)",
+      "waiting_on": "KZ's time at month boundary",
+      "typical_wait": "The last few days and first week",
+      "affected": "All 12–13 clients",
+      "knock_on": "Chaotic peak when ad hoc requests land"
+    },
+    {
+      "id": "KZ-B07",
+      "step": "Ad hoc requests from lower-fee clients (KZ-P03)",
+      "waiting_on": "Disney and higher-fee work first",
+      "typical_wait": "Same day (Disney) vs 'early next week' (AquaSafe)",
+      "affected": "Lower-fee clients",
+      "knock_on": "Slower service for Tier 2/3"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "KZ-S01",
+      "idea": "Speed up onboarding – 'press the button and it's mostly done' (magic-wand pick)",
+      "source": "interviewee",
+      "reaction": "Chose onboarding when Austin asked for one fix",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "probably the onboarding would say it. If that could just be sped up.",
+      "timestamp": "~56:46 (L560)"
+    },
+    {
+      "id": "KZ-S02",
+      "idea": "Pre-fill the keyword research and make most of the strategy deck automatically",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "If it made the deck for the most part and pre-filled out all the keyword research, that kind of stuff, that would be a really big help.",
+      "timestamp": "~57:21 (L564)"
+    },
+    {
+      "id": "KZ-S03",
+      "idea": "An AI first-pass audit that tells the strategist where to look ('this giant gap'), with human checking after",
+      "source": "interviewee",
+      "reaction": "Austin restated it ('just check the points that need attention')",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "if it could just tell me like, hey, this is a full audit of everything you need to do. look into it, that would be a really helpful",
+      "timestamp": "~58:21 (L571)"
+    },
+    {
+      "id": "KZ-S04",
+      "idea": "Streamline or augment onboarding to a third of the current time",
+      "source": "interviewer",
+      "reaction": "Karl agreed onboarding was his top pick later (L560)",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "Austin: \"all but like a third of the time that it takes to do it. So I want to aim to do that.\"",
+      "timestamp": "~25:26 (L214)"
+    },
+    {
+      "id": "KZ-S05",
+      "idea": "Automate content briefs (Austin, citing Laura)",
+      "source": "interviewer",
+      "reaction": "Mild agreement ('Yeah')",
+      "process": "Content briefing",
+      "quote": "Austin: \"It's a big job and probably is one of the easiest things to automate.\"",
+      "timestamp": "~11:32 (L114)"
+    },
+    {
+      "id": "KZ-S06",
+      "idea": "Claude domain-vetting artifact and shared prompts, now handed to Tonie so the outreach team pre-screens (implemented)",
+      "source": "interviewee (implemented)",
+      "reaction": "–",
+      "process": "Link building – sourcing & ordering",
+      "quote": "I have a bit of a Claude, what do you call it? ... the Claude version artifact or whatever it is to like kind of help vet those",
+      "timestamp": "~08:26 (L095)"
+    },
+    {
+      "id": "KZ-S07",
+      "idea": "Roll link-process improvements out through Tonie to the outreach team",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Link building – sourcing & ordering",
+      "quote": "I'd implement that to Toni and then get her to roll it out with her team and stuff as well.",
+      "timestamp": "~15:00 (L145)"
+    },
+    {
+      "id": "KZ-S08",
+      "idea": "More link QA: confirm the approved domain was used, re-check domains later, catch removed links",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Link building – QA & live checks",
+      "quote": "So I think there's probably a lot there that could probably be QA'd.",
+      "timestamp": "~54:38 (L546)"
+    },
+    {
+      "id": "KZ-S09",
+      "idea": "Automate the Google Trends tracking for Disney topics",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "NEW: Client requests & trend monitoring (Disney)",
+      "quote": "Maybe there's a way to automate this, for example. would be cool.",
+      "timestamp": "~38:17 (L388)"
+    },
+    {
+      "id": "KZ-S10",
+      "idea": "Automate topic / localisation suggestions from an events calendar",
+      "source": "interviewee",
+      "reaction": "Austin: 'Yeah, we can do that… That's easy' (L446–L449)",
+      "process": "NEW: Client requests & trend monitoring (Disney)",
+      "quote": "I thought it'd be cool if there was a way we could automate suggesting topics or things to localize based on what we've got.",
+      "timestamp": "~44:35 (L445)"
+    },
+    {
+      "id": "KZ-S11",
+      "idea": "AI website QA across all formats and screen sizes",
+      "source": "interviewer",
+      "reaction": "No explicit reaction (Karl had just described mobile misses)",
+      "process": "Monthly SEO delivery",
+      "quote": "Austin: \"we can have it check all formats, all dimensions, and that should be pretty automated.\"",
+      "timestamp": "~56:23 (L555)"
+    },
+    {
+      "id": "KZ-S12",
+      "idea": "A faster way to build sales/prospect decks",
+      "source": "interviewer",
+      "reaction": "Karl agreed ('Hmm 100%')",
+      "process": "Sales – lead to proposal",
+      "quote": "Austin: \"if there was a far faster way to do it, that'd obviously help.\"",
+      "timestamp": "~27:02 (L241)"
+    },
+    {
+      "id": "KZ-S13",
+      "idea": "Diagnosis-first alerts ('this is the problem, possible diagnosis') – Austin's PPC example, applied to SEO audits",
+      "source": "interviewer",
+      "reaction": "Karl agreed ('That'd be so good')",
+      "process": "Client onboarding – audit & strategy",
+      "quote": "Austin: \"it just says, 'Hey, this is the problem. This is possible diagnosis. What do you want to do?'\"",
+      "timestamp": "~59:17 (L578)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "KZ-O01",
+      "fixes": [
+        "KZ-PP01",
+        "KZ-PP02",
+        "KZ-PP03",
+        "KZ-PP04",
+        "KZ-B03"
+      ],
+      "lens": "Augment",
+      "change": "Onboarding accelerator: from the signed site, AI (Claude + Ahrefs) pre-fills the Master SEO Document – URL/keyword map, draft metadata, keyword list, competitor and E-E-A-T snapshot – and drafts the strategy deck with a 'look here first' list; strategist checks and writes the strategy",
+      "matches_existing_solution": "1-click audit (read-only access + AI audit); brief & proposal generator",
+      "candidate_tool": "Claude + Ahrefs connector (in use), Karl's Claude strategy prompt guide, Google Slides template",
+      "hours_saved_month": [
+        4.2,
+        26.5
+      ],
+      "effort": "M",
+      "prerequisites": "Agreed month-one template and deck structure; Ahrefs API access; GSC/GA4 access at kickoff",
+      "adoption_risk": "M – strategists must trust the pre-fill; Karl wants human strategy kept",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Strategist hours per onboarding",
+          "measured_by": "Time log / Monday.com",
+          "baseline": "unknown – 'takes a really long time' (L164)",
+          "baseline_quote": "onboarding takes a really long time.",
+          "target": "–50 to –67%",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Days from kickoff to strategy presentation",
+          "measured_by": "Monday.com dates",
+          "baseline": "≈ one month (L192–L195)",
+          "baseline_quote": "we kind of have until the end of the month to put all this together.",
+          "target": "≤ 2–3 weeks",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 5,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 45
+      },
+      "rank": 5,
+      "tag": "Strategic",
+      "rank_reason": "Karl's magic-wand pick and a growth constraint; per-onboarding hours not stated"
+    },
+    {
+      "id": "KZ-O02",
+      "fixes": [
+        "KZ-PP10"
+      ],
+      "lens": "Automate",
+      "change": "Monthly automated check of every paid link URL: live, link present, dofollow, on the approved domain, domain metrics vs placement; removals flagged to the outreacher for replacement under a stated guarantee",
+      "matches_existing_solution": "link-building CRM with live-link monitoring and invoice follow-up",
+      "candidate_tool": "Ahrefs API / backlink checker tools (e.g. LinkChecker-type services), Google Sheets + script",
+      "hours_saved_month": [
+        0.0,
+        0.0
+      ],
+      "effort": "M",
+      "prerequisites": "One list of all placed link URLs (today spread across sheets); replacement policy with outreachers",
+      "adoption_risk": "L – runs in the background",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Dead / removed links found per month",
+          "measured_by": "Link-check log",
+          "baseline": "~100 over ~10 months, found by one manual report (L546)",
+          "baseline_quote": "there's like 100 links that just like were no longer working",
+          "target": "100% of links checked monthly; replacements within 30 days",
+          "type": "leading"
+        },
+        {
+          "kpi": "% of paid links live at 90 days",
+          "measured_by": "Link-check log",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "≥ 97%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 48
+      },
+      "rank": 4,
+      "tag": "Strategic",
+      "rank_reason": "Stated loss with a count; protects paid-link spend and client results"
+    },
+    {
+      "id": "KZ-O03",
+      "fixes": [
+        "KZ-PP06",
+        "KZ-PP07",
+        "KZ-PP09",
+        "KZ-PP08",
+        "KZ-B01"
+      ],
+      "lens": "Augment",
+      "change": "Move vetting upstream: outreach team scores every domain with the shared Claude prompt + Ahrefs thresholds before submitting; KZ reviews only borderline domains, within a 1-day SLA, triggered by a Monday/sheet notification when domains are added",
+      "matches_existing_solution": "link-building CRM with live-link monitoring and invoice follow-up (part)",
+      "candidate_tool": "Karl's Claude vetting artifact, Ahrefs, Monday.com notifications",
+      "hours_saved_month": [
+        2.0,
+        7.2
+      ],
+      "effort": "S",
+      "prerequisites": "Written vetting criteria; Tonie owns roll-out",
+      "adoption_risk": "L – Karl already built v1 and shared it",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Days from domain added to KZ decision",
+          "measured_by": "Sheet / Monday timestamps",
+          "baseline": "'a couple of days' (L132)",
+          "baseline_quote": "It takes me a couple of days maybe to get to reviewing the domains",
+          "target": "≤ 1 working day",
+          "type": "leading"
+        },
+        {
+          "kpi": "KZ vetting hours per month",
+          "measured_by": "Time log",
+          "baseline": "1–2 h per 60 domains (L131)",
+          "baseline_quote": "that's at least an hour or two process",
+          "target": "–50%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 2,
+      "tag": "Quick win",
+      "rank_reason": "Clearly evidenced; builds on a tool Karl already made"
+    },
+    {
+      "id": "KZ-O04",
+      "fixes": [
+        "KZ-PP13"
+      ],
+      "lens": "Change the process",
+      "change": "Build QA checklist (desktop + mobile + tablet, templates, text present) completed by the implementer before hand-off, with automated multi-device screenshots for the strategist to skim",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Checklist in Monday.com; screenshot tools (e.g. BrowserStack, Responsively, Playwright)",
+      "hours_saved_month": [
+        0.1,
+        1.2
+      ],
+      "effort": "S",
+      "prerequisites": "Checklist agreed with implementation staff",
+      "adoption_risk": "L–M – needs implementers to adopt",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Builds with issues found by the client",
+          "measured_by": "Monday.com / client emails",
+          "baseline": "unknown – 'the client sees it first' (L551)",
+          "baseline_quote": "then the client sees it first and they're not happy.",
+          "target": "0 a month",
+          "type": "lagging"
+        },
+        {
+          "kpi": "% of builds with completed QA checklist",
+          "measured_by": "Monday.com",
+          "baseline": "0 (no checklist)",
+          "baseline_quote": "",
+          "target": "100%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 3,
+      "tag": "Quick win",
+      "rank_reason": "Clear client-facing failure; cheap fix"
+    },
+    {
+      "id": "KZ-O05",
+      "fixes": [
+        "KZ-PP17"
+      ],
+      "lens": "Augment",
+      "change": "Disney localisation assistant: Claude + Ahrefs pulls AU, NZ and SG keywords for each article and drafts regional metadata into the three tabs; KZ checks and hands to content",
+      "matches_existing_solution": "brief & proposal generator (part)",
+      "candidate_tool": "Claude + Ahrefs connector (in use)",
+      "hours_saved_month": [
+        2.7,
+        10.1
+      ],
+      "effort": "S",
+      "prerequisites": "Prompt / template for the three tabs",
+      "adoption_risk": "L – same tools Karl already uses",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes per localisation doc",
+          "measured_by": "Time log",
+          "baseline": "15–20 min (L401)",
+          "baseline_quote": "maybe like 15 to... 15 to 20 minutes maybe per document",
+          "target": "≤ 7 min",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 5,
+        "ease": 4,
+        "priority": 60
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Stated volume and time; uses tools already connected"
+    },
+    {
+      "id": "KZ-O06",
+      "fixes": [
+        "KZ-PP11",
+        "KZ-PP12",
+        "KZ-B04"
+      ],
+      "lens": "Change the process",
+      "change": "Joint monthly tech-priority check: strategist and tech team agree the month's tasks by impact (not just low/medium/high) before work starts; tech tickets due by the 25th so reports have them",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday.com (due dates, impact field)",
+      "hours_saved_month": [
+        0.5,
+        2.0
+      ],
+      "effort": "S",
+      "prerequisites": "Agreement with Sid / Spencer / Everhardt",
+      "adoption_risk": "M – cross-team habits; needs tech-team buy-in",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of tech tasks done by report date",
+          "measured_by": "Monday.com",
+          "baseline": "unknown – sometimes still in progress on the 5th (L333)",
+          "baseline_quote": "task still in progress and now it's like, well, I'm putting nothing in the report.",
+          "target": "≥ 90%",
+          "type": "leading"
+        },
+        {
+          "kpi": "High-impact tech tasks completed in first 3 months",
+          "measured_by": "Technical plan",
+          "baseline": "unknown – 'beefier tasks… six months from now' (L316)",
+          "baseline_quote": "the beefier tasks are all the way six months from now",
+          "target": "Top 3 by impact done in 90 days",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 6,
+      "tag": "Quick win",
+      "rank_reason": "Process fix only; evidence is qualitative"
+    },
+    {
+      "id": "KZ-O07",
+      "fixes": [
+        "KZ-PP05",
+        "KZ-PP22",
+        "KZ-PP23",
+        "KZ-PP02"
+      ],
+      "lens": "People & policy",
+      "change": "Capacity rules: cap concurrent onboardings per manager, spread briefing across the month on a rolling schedule, and track hours against the calculator's per-client manager hours (kept current)",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Pricing calculator; Monday.com time tracking",
+      "hours_saved_month": [
+        0.0,
+        0.0
+      ],
+      "effort": "S",
+      "prerequisites": "Laura and Julia agreement; calculator updated",
+      "adoption_risk": "M – changes long habits ('just a feel')",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Concurrent onboardings per manager",
+          "measured_by": "Monday.com",
+          "baseline": "Up to 5 sites in a month (L164)",
+          "baseline_quote": "it was like onboarding five clients that month",
+          "target": "≤ 2",
+          "type": "leading"
+        },
+        {
+          "kpi": "Hours vs retainer allocation per client",
+          "measured_by": "Time tracking vs calculator",
+          "baseline": "Not tracked – 'a bit of a feel' (L473)",
+          "baseline_quote": "to be honest, like a little bit of a feel, I'd say",
+          "target": "Within ±20%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 7,
+      "tag": "Quick win",
+      "rank_reason": "Policy change; protects capacity and margin"
+    },
+    {
+      "id": "KZ-O08",
+      "fixes": [
+        "KZ-PP19",
+        "KZ-PP20"
+      ],
+      "lens": "Automate",
+      "change": "Trends & events radar: daily scheduled Google Trends pull for tracked topics plus an events calendar feed, posting suggested topics to localise to KZ/Teams",
+      "matches_existing_solution": "seasonal & trending content radar",
+      "candidate_tool": "Google Trends (via script / API wrapper), Sheets, Claude, Slack/Teams",
+      "hours_saved_month": [
+        1.9,
+        7.4
+      ],
+      "effort": "M",
+      "prerequisites": "Topic list; agreed events calendar",
+      "adoption_risk": "L – runs in the background",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Trends refresh frequency",
+          "measured_by": "Tracker log",
+          "baseline": "Every 2–3 days (L388)",
+          "baseline_quote": "I can only do this once every two, three days",
+          "target": "Daily",
+          "type": "leading"
+        },
+        {
+          "kpi": "Major events with content published in time",
+          "measured_by": "Content calendar",
+          "baseline": "Missed World Series (L443)",
+          "baseline_quote": "We didn't do anything for this, but it's too late now.",
+          "target": "≥ 80% of calendar events",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 8,
+      "tag": "Strategic",
+      "rank_reason": "Client asked for it; Impact 3 / Ease 3 isn't covered by the four tags – closest is Strategic (a build)"
+    },
+    {
+      "id": "KZ-O09",
+      "fixes": [
+        "KZ-PP05"
+      ],
+      "lens": "Augment",
+      "change": "AI brief drafts from the Master SEO Document content plan (keywords, structure, links), reviewed by the strategist",
+      "matches_existing_solution": "brief & proposal generator",
+      "candidate_tool": "Claude + Ahrefs; Monday.com",
+      "hours_saved_month": [
+        3.8,
+        14.9
+      ],
+      "effort": "M",
+      "prerequisites": "Brief template; content plan structure",
+      "adoption_risk": "M – writers must accept the briefs",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes per brief",
+          "measured_by": "Time log",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "–40%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 24
+      },
+      "rank": 10,
+      "tag": "Strategic",
+      "rank_reason": "Raised by Austin (via Laura); Karl gave no brief times"
+    },
+    {
+      "id": "KZ-O10",
+      "fixes": [
+        "KZ-PP18"
+      ],
+      "lens": "Automate",
+      "change": "Disney report deck auto-built from AgencyAnalytics / GSC / Ahrefs per market, with AI-drafted highlights for KZ to edit",
+      "matches_existing_solution": "QBR / review deck generator (part)",
+      "candidate_tool": "AgencyAnalytics custom report, Looker Studio, Claude",
+      "hours_saved_month": [
+        2.0,
+        4.9
+      ],
+      "effort": "M",
+      "prerequisites": "Data access for all three markets; agreed slide set",
+      "adoption_risk": "L–M – client used to the current format",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Hours to build the Disney report",
+          "measured_by": "Time log",
+          "baseline": "Half a day+ (L409)",
+          "baseline_quote": "this probably takes me like half a day, if not more",
+          "target": "≤ 2 h",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 24
+      },
+      "rank": 11,
+      "tag": "Deprioritise",
+      "rank_reason": "One client, once a month"
+    },
+    {
+      "id": "KZ-O11",
+      "fixes": [
+        "KZ-PP15",
+        "KZ-PP16"
+      ],
+      "lens": "Automate",
+      "change": "Turn on call recording for every client call; AI summary and actions posted to the client's Monday item; master sheet 'live links' updated from the link board",
+      "matches_existing_solution": "transcripts → per-client action runsheet",
+      "candidate_tool": "Gemini / Otter, Monday.com automations",
+      "hours_saved_month": [
+        1.0,
+        3.0
+      ],
+      "effort": "S",
+      "prerequisites": "Default recording on; Monday integration",
+      "adoption_risk": "M – past note tools weren't used",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of client calls with notes filed",
+          "measured_by": "Monday.com",
+          "baseline": "Inconsistent – 'I forget half the time' (L068)",
+          "baseline_quote": "to be fair, I forget half the time",
+          "target": "≥ 90%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 9,
+      "tag": "Fill-in",
+      "rank_reason": "Small hours; helps client knowledge"
+    },
+    {
+      "id": "KZ-O12",
+      "fixes": [
+        "KZ-PP21"
+      ],
+      "lens": "Augment",
+      "change": "Prospect deck generator sharing the onboarding engine (KZ-O01): Ahrefs data and site opportunities pre-filled into a sales template",
+      "matches_existing_solution": "brief & proposal generator",
+      "candidate_tool": "Claude + Ahrefs; slides template",
+      "hours_saved_month": [
+        0.8,
+        4.8
+      ],
+      "effort": "M (S if built with O01)",
+      "prerequisites": "Sales deck template",
+      "adoption_risk": "L",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Hours per prospect deck",
+          "measured_by": "Time log",
+          "baseline": "unknown – 'quite time consuming' (L234)",
+          "baseline_quote": "That can be quite time consuming",
+          "target": "–50%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 18
+      },
+      "rank": 12,
+      "tag": "Deprioritise",
+      "rank_reason": "Low volume (1–2 a month); do it alongside O01"
+    },
+    {
+      "id": "KZ-O13",
+      "fixes": [
+        "KZ-PP08"
+      ],
+      "lens": "Change the process",
+      "change": "Weekly batch payment run: outreachers submit invoices against link IDs on a form; KZ approves in one pass (or delegate payment with KZ approval)",
+      "matches_existing_solution": "link-building CRM with live-link monitoring and invoice follow-up (part)",
+      "candidate_tool": "Form + sheet; PayPal batch payouts; Xero",
+      "hours_saved_month": [
+        0.4,
+        2.7
+      ],
+      "effort": "S",
+      "prerequisites": "Link IDs on invoices",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "KZ hours on invoices a month",
+          "measured_by": "Time log",
+          "baseline": "unknown – 'a bit of a timely process' (L110)",
+          "baseline_quote": "paying the invoices, obviously that is just a bit of a timely process as well.",
+          "target": "≤ 1 h",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 2,
+        "ease": 4,
+        "priority": 16
+      },
+      "rank": 13,
+      "tag": "Fill-in",
+      "rank_reason": "Time not stated; small"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Claude connected to Ahrefs has cut keyword-research time in onboarding",
+      "quote": "we've like hooked up Claude with Ahrefs and typically we do it that way, which has saved a lot of time",
+      "timestamp": "~19:13 (L182)"
+    },
+    {
+      "text": "AgencyAnalytics has streamlined monthly reporting",
+      "quote": "as of this month actually we've streamlined it because we got agency analytics as a tool",
+      "timestamp": "~10:01 (L108)"
+    },
+    {
+      "text": "KZ built a Claude domain-vetting artifact and shared the prompts with the outreach lead",
+      "quote": "I have a bit of a Claude… artifact or whatever it is to like kind of help vet those as well, which I created recently.",
+      "timestamp": "~08:26 (L095)"
+    },
+    {
+      "text": "Content QA by the Content Manager is trusted; few client issues",
+      "quote": "Most times it's good. I've never really had too many issues where the clients come back and had a major issue.",
+      "timestamp": "~52:51 (L539)"
+    },
+    {
+      "text": "Frequent client touchpoints for retention",
+      "quote": "the more like we'd reach out to clients, like it keeps them engaged, it keeps them retained",
+      "timestamp": "~04:38 (L072)"
+    },
+    {
+      "text": "Content and link plans are approved once in onboarding, so monthly delivery runs without approvals",
+      "quote": "usually they've already pre-approved the, on the onboarding, they'll typically approve the content list.",
+      "timestamp": "~35:12 (L345)"
+    },
+    {
+      "text": "Pricing calculator gives a structured split of retainer into links, words, tech and manager hours",
+      "quote": "once you know how many content words they get per month and how many links they get per month, then you can work out roughly how many hours",
+      "timestamp": "~50:19 (L497)"
+    },
+    {
+      "text": "Content team localises high volumes across three markets",
+      "quote": "they, bless them, I don't know how they do so many, but they'll go through and localize for like three regions",
+      "timestamp": "~39:33 (L399)"
+    },
+    {
+      "text": "KZ proactively built an events calendar to catch topical content",
+      "quote": "So now I made this calendar, which looks at like, for example, the World Series",
+      "timestamp": "~44:01 (L443)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "12–13",
+      "unit": "clients",
+      "context": "KZ's book (larger retainers)",
+      "quote": "I'd say roughly, I can tell you now, maybe like... 13 or so, maybe like 12, 13.",
+      "timestamp": "~16:12–16:15 (L151–L152)",
+      "certainty": "stated"
+    },
+    {
+      "value": "300–350",
+      "unit": "links / month",
+      "context": "Agency link volume",
+      "quote": "We're probably now probably like 300-ish and something per month, about maybe 350",
+      "timestamp": "~11:58 (L121)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2",
+      "unit": "offshore outreach staff",
+      "context": "Tonie and Jasfer in the Philippines report to KZ",
+      "quote": "I have this two people in the Philippines that like report to me",
+      "timestamp": "~08:00 (L094)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~60",
+      "unit": "domains per batch",
+      "context": "Domain vetting",
+      "quote": "I'll get 60 domains I need to vet",
+      "timestamp": "~13:14 (L131)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1–2",
+      "unit": "hours",
+      "context": "Vetting a batch of ~60 domains",
+      "quote": "that's at least an hour or two process to do that and get those done.",
+      "timestamp": "~13:14 (L131)",
+      "certainty": "stated"
+    },
+    {
+      "value": "≥ 1",
+      "unit": "month",
+      "context": "End-to-end time to get a link",
+      "quote": "it takes at least like a month, sometimes like over a month to get links in.",
+      "timestamp": "~13:55 (L132)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~12",
+      "unit": "hours / month",
+      "context": "Austin's estimate of KZ's link time (2–3 h weekly) – not confirmed",
+      "quote": "That's like 12 hours a month that is just dedicated to the link.",
+      "timestamp": "~14:45 (L139)",
+      "certainty": "estimated (interviewer)"
+    },
+    {
+      "value": "~100",
+      "unit": "dead links",
+      "context": "Found by a one-off report over ~10 months",
+      "quote": "there's like 100 links that just like were no longer working",
+      "timestamp": "~54:38 (L546)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5",
+      "unit": "onboardings in one month",
+      "context": "Two clients, one with four websites",
+      "quote": "it was like onboarding five clients that month",
+      "timestamp": "~17:23 (L164)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4",
+      "unit": "websites",
+      "context": "One new client",
+      "quote": "One of the clients had four different websites",
+      "timestamp": "~17:23 (L164)",
+      "certainty": "stated"
+    },
+    {
+      "value": "20,000",
+      "unit": "URLs",
+      "context": "Site size where mapping must be split",
+      "quote": "If they've got 20,000 URLs, obviously, we can't do it the same way.",
+      "timestamp": "~18:49 (L181)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5–6",
+      "unit": "months",
+      "context": "Content plan horizon",
+      "quote": "We kind of work out for the next five, six months",
+      "timestamp": "~20:05 (L184)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1 month",
+      "unit": "duration",
+      "context": "Onboarding package: kickoff week 1 → strategy before month end",
+      "quote": "we kind of have until the end of the month to put all this together.",
+      "timestamp": "~22:42 (L193)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1–2",
+      "unit": "prospect decks / month",
+      "context": "Sales support",
+      "quote": "I maybe do one or two a month.",
+      "timestamp": "~26:23 (L234)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5–10",
+      "unit": "docs / week",
+      "context": "Disney localisation requests",
+      "quote": "there's maybe like five to like 10 of these a week",
+      "timestamp": "~38:50 (L394)",
+      "certainty": "stated"
+    },
+    {
+      "value": "10–12",
+      "unit": "docs in one week",
+      "context": "Disney, 19–23 Oct",
+      "quote": "from the 19th to the 23rd, I don't know how many, maybe like 10, 12 articles",
+      "timestamp": "~43:30 (L438)",
+      "certainty": "stated"
+    },
+    {
+      "value": "15–20",
+      "unit": "minutes / doc",
+      "context": "Disney localisation SEO prep",
+      "quote": "15 to 20 minutes maybe per document as well.",
+      "timestamp": "~40:10 (L401)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3",
+      "unit": "markets",
+      "context": "Disney: AU, NZ, Singapore",
+      "quote": "a Singapore tab because we do those three regions.",
+      "timestamp": "~39:25 (L396)",
+      "certainty": "stated"
+    },
+    {
+      "value": "½ day+",
+      "unit": "per month",
+      "context": "Disney report deck",
+      "quote": "this probably takes me like half a day, if not more, of like work hours.",
+      "timestamp": "~41:42 (L409)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2–3",
+      "unit": "days",
+      "context": "Google Trends tracker refresh interval",
+      "quote": "I can only do this once every two, three days.",
+      "timestamp": "~38:17 (L388)",
+      "certainty": "stated"
+    },
+    {
+      "value": "$3K vs $6K",
+      "unit": "per month",
+      "context": "Example retainer sizes KZ uses to set effort",
+      "quote": "I can kind of feel the difference between like a 3K client a month or like a 6K client a month",
+      "timestamp": "~46:36 (L473)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5 + 5",
+      "unit": "hours / month",
+      "context": "Calculator example for a $6K client: technical and SEO-manager hours (plus 5 links, 3,000 words)",
+      "quote": "technical hours, maybe they get five hours a month. ... SEO like manager hours, maybe they get like five hours a month.",
+      "timestamp": "~49:49–50:13 (L495–L496)",
+      "certainty": "stated (example)"
+    },
+    {
+      "value": "Weekly",
+      "unit": "1:1s",
+      "context": "With Zach and with Tonie; daily check-in with Zach",
+      "quote": "We do weekly one-on-ones, use training plans and progression plans",
+      "timestamp": "~07:04 (L089)",
+      "certainty": "stated"
+    },
+    {
+      "value": "60",
+      "unit": "minutes",
+      "context": "Interview length (10:00–11:00)",
+      "quote": "We finished at 11, which is great",
+      "timestamp": "~59:32 (L584)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Ahrefs (keyword research, domain vetting, rankings, report graphs)",
+      "Claude connected to Ahrefs (keyword research / URL mapping)",
+      "Monday.com (content, metadata, tech and link-board tickets)",
+      "Google Sheets – Master SEO Document (keyword map, content plan, link plan, project plan), link-order sheets",
+      "AgencyAnalytics (monthly reports, screenshots)",
+      "Google Search Console, GA4",
+      "Keyword rank-tracking tool (unnamed – SERPRobot per context pack, inferred)",
+      "Gemini meeting notes",
+      "Microsoft Teams (Disney only)",
+      "Google Trends",
+      "SEO pricing calculator (Sheets)",
+      "WordPress / Webflow (builds)",
+      "Technical audit sheet (tech team)"
+    ],
+    "shadow": [
+      "KZ's Claude domain-vetting artifact and prompts (now with Tonie)",
+      "Claude back-and-forth (~1 h) for proposals and strategy",
+      "KZ-built Google Trends tracker for Disney",
+      "KZ-built events calendar (created 28 Oct)"
+    ],
+    "duplicated_data": [
+      "Keywords copied from research into the keyword list and the tracking tool",
+      "Link records: Monday link board, link sheets and the client master sheet (live links)",
+      "Technical tasks: Monday tickets vs the technical plan vs the report",
+      "Disney metrics re-keyed from AgencyAnalytics / GSC / Ahrefs into the deck for each market"
+    ],
+    "missing_access": [
+      "A list of placed links with live status",
+      "Visibility of tech-team priority order before work starts",
+      "Automated daily Trends data",
+      "Up-to-date pricing calculator / hours per client"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Domain approval for all link orders",
+      "who_role": "Link-building Lead (KZ)",
+      "if_absent": "Vetting stops; outreach stalls; links late across all clients"
+    },
+    {
+      "what": "Outreacher invoice payment",
+      "who_role": "Link-building Lead (KZ)",
+      "if_absent": "Outreachers unpaid; relationships strained"
+    },
+    {
+      "what": "Disney relationship, localisation SEO prep and bespoke report",
+      "who_role": "Senior SEO Manager (KZ)",
+      "if_absent": "Daily requests from the highest-touch client unanswered"
+    },
+    {
+      "what": "Outreach delivery and the offshore team",
+      "who_role": "Outreach Specialist (Tonie)",
+      "if_absent": "Link sourcing and publishing stop"
+    },
+    {
+      "what": "Technical delivery and priority order",
+      "who_role": "Technical SEO team (Sid, Spencer, Everhardt)",
+      "if_absent": "Tech tasks and audits stall; strategist has limited visibility anyway"
+    },
+    {
+      "what": "Page builds and uploads",
+      "who_role": "Implementation support (JC, Khaselyn)",
+      "if_absent": "Content and pages not published"
+    },
+    {
+      "what": "Content QA",
+      "who_role": "Content Manager (Sarah)",
+      "if_absent": "Content goes to clients unedited"
+    },
+    {
+      "what": "Client strategy reasoning and project status (partly only in KZ's head – project plan not kept current)",
+      "who_role": "Senior SEO Manager (KZ)",
+      "if_absent": "Cover manager can't see what's planned or done"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Karl: how many hours does one standard onboarding take you end to end (per step)? Needed to firm up KZ-P01 and KZ-O01.",
+      "Karl: how many briefs per client per month and minutes per brief? (KZ-P02)",
+      "Karl: how often do vetting batches come through, and how long do invoice runs take? (KZ-P08, KZ-P09)",
+      "Tonie: outreach steps and time per link, drop-off rate, how domains are logged and paid (Karl's suggestion, L128).",
+      "Sid / Spencer / Everhardt: how the technical plan is prioritised and when tickets close relative to reporting (Karl's suggestion, L073–L079).",
+      "Sarah: do freelance writers use AI, and how is it checked?",
+      "Laura / Julia: is there a cap on onboardings per manager?"
+    ],
+    "contradictions": [
+      "Reporting lines: context pack has Zach reporting to Sid and Tonie to Sid; Karl says both report to him (L089, L094).",
+      "Dead-link rate: ~100 dead links in ~10 months (~3% of ~3,000 links) vs the context pack's 32% fault rate Jan–Apr – different measures (fault vs removed later?); check definitions.",
+      "Disney and AquaSafe are not in the context-pack client lists, but Disney is described as one of Karl's largest, highest-paying clients.",
+      "Karl first says he's not overstretched ('No, I feel okay', L156) but describes overtime in onboarding months (L201) and being 'at my cap' (L560).",
+      "Context pack credits Karl's Claude prompt guide with a ~75–90 min strategy; Karl still describes month one as long and manual – the guide covers only part of the package.",
+      "Combined high-end hours (~217 h/month) exceed one FTE – the assumptions can't all be at their high end together."
+    ],
+    "data_requests": [
+      "Cleaned copy of the SEO pricing calculator (Karl – agreed in the interview, L498–L502).",
+      "Example completed Master SEO Document and onboarding strategy deck (Karl).",
+      "The ~100 dead-links report and the link-order sheets (Karl / Tonie).",
+      "Karl's Claude domain-vetting artifact and prompts (Karl).",
+      "Disney report deck, Trends tracker and events calendar (Karl).",
+      "Monday.com tech-ticket dates vs report dates for one month (Sid)."
+    ],
+    "verify": [
+      "300–350 links/month vs the order book (~300/month in the context pack).",
+      "Disney volume: 5–10 localisation docs a week and 15–20 min each – check against the Teams channel / content calendar.",
+      "The 100 dead links over ~10 months – period, method, and whether replacements were obtained.",
+      "Who Disney is contracted through (direct or via a network) and its tier."
+    ]
+  }
+}

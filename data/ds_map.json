@@ -1,0 +1,2175 @@
+{
+ "DS-01": {
+  "id": "DS-01",
+  "title": "Modern ad budget pacing + performance alerting",
+  "section_heading": "Modern ad budget pacing + performance alerting",
+  "description": "One pacing and alerting tool across every live ad channel, with per-client thresholds and Slack alerts (PPC team; alerts only).",
+  "team": "PPC",
+  "opportunities": [
+   {
+    "id": "O-01",
+    "notion_id": "412e204ff76981368064ea67b095a255",
+    "part": "full"
+   },
+   {
+    "id": "O-11",
+    "notion_id": "412e204ff76981febb07f27ae0363dec",
+    "part": "full"
+   },
+   {
+    "id": "O-15",
+    "notion_id": "412e204ff769815fb317e39eb3b839a8",
+    "part": "full"
+   },
+   {
+    "id": "O-10",
+    "notion_id": "412e204ff76981d5a949f51792b4ed99",
+    "part": "interim step"
+   },
+   {
+    "id": "O-12",
+    "notion_id": "412e204ff76981f28fcbf88220552133",
+    "part": "paid part (alerting)"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-13",
+    "notion_id": "412e204ff769811e8236fb5ecd2803a5",
+    "title": "Pacing tracker + adjustment engine"
+   },
+   {
+    "id": "EI-15",
+    "notion_id": "412e204ff76981dbbd39ff9daa305c0f",
+    "title": "Proactive PPC monitor and anomaly detector"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-02",
+    "notion_id": "40fe204ff769811db952ca85e18ce3af",
+    "title": "Budgets maintained by hand in three places; some channels (incl. LinkedIn) not tracked; a missed budget change cost a $10K credit",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-01",
+    "notion_id": "40fe204ff76981588f56dcb58d6b0625",
+    "title": "Meta pacing sheet is broken – Supermetrics connector failing",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-03",
+    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
+    "title": "No proactive performance alerting – problems found at month-end",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-21",
+    "notion_id": "40fe204ff76981208c95f2a96063afd7",
+    "title": "Managers at capacity – Tier 2/3 clients get dropped first",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-17",
+    "notion_id": "40fe204ff769812d9b86e757a536c275",
+    "title": "Conversion tracking depends on one contractor",
+    "call": "Solve later",
+    "note": ""
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769811db952ca85e18ce3af",
+   "40fe204ff76981208c95f2a96063afd7",
+   "40fe204ff769812d9b86e757a536c275",
+   "40fe204ff76981588f56dcb58d6b0625",
+   "40fe204ff76981d8a087ed06b4ec140a"
+  ],
+  "pp_ids_cited": [
+   "MP-PP01",
+   "MP-PP02",
+   "SD-PP04",
+   "SH-PP02"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "~16–40 h ($1.3K–$3.2K)",
+  "coi_recoverable_per_year": "$15K–$38K",
+  "coi_note": "plus +$10K per repeat overspend incident; SEO share moved to DS-22",
+  "status": "Decided – tool choice (build vs buy) and cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-01, O-11, O-15, O-10, O-12",
+  "team_inferred": true,
+  "bundle": "PPC performance"
+ },
+ "DS-02": {
+  "id": "DS-02",
+  "title": "AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills)",
+  "section_heading": "AI playbook repository",
+  "description": "One repository for how Aperitif uses AI: AI data rule, company Claude seats, SOPs, prompts, agents and skills.",
+  "team": "everyone (leadership owns)",
+  "opportunities": [
+   {
+    "id": "O-02",
+    "notion_id": "412e204ff76981a3a4a3fdf45f3b1956",
+    "part": "full"
+   },
+   {
+    "id": "O-33",
+    "notion_id": "412e204ff76981da9f13c88e63703b5a",
+    "part": "SOP part"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-08",
+    "notion_id": "412e204ff76981e497c9d6005ef0a43d",
+    "title": "L&D platform – training, manuals and SOPs made clear"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-40",
+    "notion_id": "410e204ff769810cb2c8de6b51137637",
+    "title": "AI use is personal and ungoverned: no policy, shared skills, client context or seats",
+    "call": "Solve later",
+    "note": ""
+   },
+   {
+    "id": "P-12",
+    "notion_id": "40fe204ff76981e1ac5af94b85e59678",
+    "title": "Documentation is stale and rarely read",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-28",
+    "notion_id": "410e204ff769816c906cebe25af6cc33",
+    "title": "Regulated-industry content lacks shared compliance rules and credible sources",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-44",
+    "notion_id": "412e204ff769817b85d2f6e269eb277d",
+    "title": "Change fatigue and quiet AI anxiety slow adoption",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981e1ac5af94b85e59678",
+   "410e204ff769810cb2c8de6b51137637",
+   "410e204ff769816c906cebe25af6cc33",
+   "412e204ff769817b85d2f6e269eb277d"
+  ],
+  "pp_ids_cited": [
+   "DM-PP12",
+   "LS-PP13",
+   "MC-PP19",
+   "MC-PP20",
+   "SB-PP12",
+   "SJ-PP07",
+   "ZC-PP11"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "Decision to include the AI data rule and company seats is Austin's",
+  "coi_recoverable_per_month": "6.5–36 h ($520–$2.9K)",
+  "coi_recoverable_per_year": "$6K–$35K",
+  "coi_note": "",
+  "status": "Decided – includes the AI data rule and company Claude seats; cost TBC. <b>DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it</b>",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-02, O-33 (part)",
+  "team_inferred": true,
+  "bundle": "AI Business Brain"
+ },
+ "DS-03": {
+  "id": "DS-03",
+  "title": "Automated AI brief drafts → Monday.com tasks",
+  "section_heading": "Automated AI brief drafts → Monday.com tasks",
+  "description": "AI drafts monthly content briefs from the Master SEO Document and turns each into a Monday task, plus the full content-intake standard.",
+  "team": "SEO and content",
+  "opportunities": [
+   {
+    "id": "O-03",
+    "notion_id": "412e204ff7698150a4eee2fd242ec5c8",
+    "part": "full"
+   },
+   {
+    "id": "O-25",
+    "notion_id": "412e204ff76981c8b8e9e40d64d529fb",
+    "part": "full"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-33",
+    "notion_id": "410e204ff769810aafa6ce47457ecf5a",
+    "title": "Content briefs are re-cut and reformatted by hand, eating the first half of each month",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-11",
+    "notion_id": "40fe204ff769812bb6b9dae3c44d0839",
+    "title": "Content tracker and link sheets live outside Monday.com",
+    "call": "Park",
+    "note": "auto-created Monday tasks (problem parked)"
+   },
+   {
+    "id": "P-09",
+    "notion_id": "40fe204ff769811b9981d8c28a6528e8",
+    "title": "Content delivery hinges on the Content Manager as writer, editor and contractor manager",
+    "call": "Solve later",
+    "note": ""
+   },
+   {
+    "id": "P-32",
+    "notion_id": "410e204ff769819496a5d0c622b9e531",
+    "title": "Unplanned same-day and high-touch client requests break the planned month",
+    "call": "Park",
+    "note": "slots and cut-offs for the out-of-cycle client, text only"
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769811b9981d8c28a6528e8",
+   "40fe204ff769812bb6b9dae3c44d0839",
+   "410e204ff769810aafa6ce47457ecf5a"
+  ],
+  "pp_ids_cited": [
+   "HT-PP01",
+   "HT-PP02",
+   "LS-PP03",
+   "SJ-PP01",
+   "SJ-PP02",
+   "SJ-PP04",
+   "SJ-PP06",
+   "SJ-PP10",
+   "SJ-PP11",
+   "SJ-PP14",
+   "ZC-PP02",
+   "ZC-PP03"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "~10–30 h ($0.8K–$2.4K)",
+  "coi_recoverable_per_year": "$10K–$29K",
+  "coi_note": "",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-03, O-25 (full – intake standard, assignment, slots, filing)",
+  "team_inferred": true,
+  "bundle": "Delivery & reporting"
+ },
+ "DS-04": {
+  "id": "DS-04",
+  "title": "AI client brain (per client) – under the AI Business Brain banner",
+  "section_heading": "AI client brain (per client)",
+  "description": "A per-client AI brain (visible client page plus query box) pulling calls, Slack, email, the work and the client profile incl. style guide.",
+  "team": "account managers and delivery (everyone)",
+  "opportunities": [
+   {
+    "id": "O-04",
+    "notion_id": "412e204ff7698163b621fb823c851394",
+    "part": "full"
+   },
+   {
+    "id": "O-13",
+    "notion_id": "412e204ff769818a96a2f41c4c56bc82",
+    "part": "full"
+   },
+   {
+    "id": "O-27",
+    "notion_id": "412e204ff769816dbde2ca5deed18ec2",
+    "part": "per-client part"
+   },
+   {
+    "id": "O-26",
+    "notion_id": "412e204ff76981999e4ade347353638e",
+    "part": "style guide only"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-07",
+    "notion_id": "412e204ff7698191b55cd42dcbd77935",
+    "title": "Individual AI client Brains"
+   },
+   {
+    "id": "EI-12",
+    "notion_id": "412e204ff769817ea660dffef310865b",
+    "title": "Meeting transcripts → per-client action runsheet"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-14",
+    "notion_id": "40fe204ff7698168a440ee525bce4877",
+    "title": "Client knowledge lives in people's heads, not per client",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-04",
+    "notion_id": "40fe204ff76981efb9f8d9efda5367f0",
+    "title": "Client-call prep takes longer than the call",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-27",
+    "notion_id": "410e204ff769818e891ce057635a604d",
+    "title": "Client handovers (sales to delivery, offboarding) have no structured pack or trigger",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-28",
+    "notion_id": "410e204ff769816c906cebe25af6cc33",
+    "title": "Regulated-industry content lacks shared compliance rules and credible sources",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-22",
+    "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
+    "title": "Escalations route around department leads to the Head of Client Services",
+    "call": "Solve now",
+    "note": "partly"
+   },
+   {
+    "id": "P-47",
+    "notion_id": "412e204ff76981af9182ca6683db10ee",
+    "title": "Teams work in silos and don't see each other's work or priorities",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff7698168a440ee525bce4877",
+   "40fe204ff76981e2924cfbae1ffa8478",
+   "40fe204ff76981efb9f8d9efda5367f0",
+   "410e204ff769816c906cebe25af6cc33",
+   "410e204ff769818e891ce057635a604d",
+   "412e204ff76981af9182ca6683db10ee"
+  ],
+  "pp_ids_cited": [
+   "KO-PP05",
+   "MC-PP11",
+   "MC-PP14",
+   "MP-PP16",
+   "MP-PP20",
+   "SB-PP03",
+   "SD-PP05",
+   "SJ-PP09",
+   "ZC-PP04"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "MP-PP20",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   }
+  ],
+  "source_type": "evidence-backed",
+  "austin_additions": "Design choices (all clients, all sources, custom app, visible client page) are Austin decisions",
+  "coi_recoverable_per_month": "~15–45 h ($1.2K–$3.6K)",
+  "coi_recoverable_per_year": "$14K–$43K",
+  "coi_note": "",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-04, O-13, O-27 (per-client part), O-26 (style guide only)",
+  "team_inferred": true,
+  "bundle": "AI Business Brain"
+ },
+ "DS-05": {
+  "id": "DS-05",
+  "title": "Automated deck generator: quarterly + 6-month reviews and proposals",
+  "section_heading": "Automated deck generator: quarterly + 6-month reviews and proposals",
+  "description": "Deck generator for quarterly and 6-month reviews and proposals (with price calculator); monthly reports stay in AgencyAnalytics.",
+  "team": "account managers and sales",
+  "opportunities": [
+   {
+    "id": "O-05",
+    "notion_id": "412e204ff769817f901de406dab6fb69",
+    "part": "deck part"
+   },
+   {
+    "id": "O-22",
+    "notion_id": "412e204ff76981af8348f66f1a24a692",
+    "part": "calculator part"
+   },
+   {
+    "id": "O-14",
+    "notion_id": "412e204ff769815aa564df6b12d77947",
+    "part": "prospect-deck part"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-16",
+    "notion_id": "412e204ff769818a9d99fb12c9d9e55b",
+    "title": "Proposal generator"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-05",
+    "notion_id": "40fe204ff76981b6a4eaf34024fb2334",
+    "title": "Client documents are built by duplicating previous ones – errors reach clients",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-19",
+    "notion_id": "40fe204ff769816c8f78fdc8c0b16830",
+    "title": "Proposals are rebuilt from scratch per prospect",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-18",
+    "notion_id": "40fe204ff76981f585acc9b86b6be9b9",
+    "title": "Sales commits to work delivery can't profitably do",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-21",
+    "notion_id": "40fe204ff76981208c95f2a96063afd7",
+    "title": "Managers at capacity – Tier 2/3 clients get dropped first",
+    "call": "Solve now",
+    "note": "\"also helps (partly)\"; capacity not solved – O-17/O-19/O-32 dropped"
+   },
+   {
+    "id": "P-40",
+    "notion_id": "410e204ff769810cb2c8de6b51137637",
+    "title": "AI use is personal and ungoverned: no policy, shared skills, client context or seats",
+    "call": "Solve later",
+    "note": ""
+   },
+   {
+    "id": "P-25",
+    "notion_id": "40fe204ff769811f9330cde79b4e0b11",
+    "title": "No single home for current templates – versions held by individuals",
+    "call": "Solve now",
+    "note": "deck templates only"
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769811f9330cde79b4e0b11",
+   "40fe204ff76981208c95f2a96063afd7",
+   "40fe204ff769816c8f78fdc8c0b16830",
+   "40fe204ff76981b6a4eaf34024fb2334",
+   "40fe204ff76981f585acc9b86b6be9b9",
+   "410e204ff769810cb2c8de6b51137637"
+  ],
+  "pp_ids_cited": [
+   "KZ-PP18",
+   "KZ-PP21",
+   "LS-PP02",
+   "MP-PP10",
+   "MP-PP11",
+   "MP-PP12",
+   "WS-PP05",
+   "WS-PP07",
+   "WS-PP13"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "MP-PP10",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   },
+   {
+    "id": "WS-PP13",
+    "source": "detected",
+    "person": "Wendlley Simoes"
+   }
+  ],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "~10–23 h ($0.8K–$1.8K)",
+  "coi_recoverable_per_year": "$9K–$22K",
+  "coi_note": "",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-05 (deck part), O-22 (calculator part), O-14 (prospect-deck part)",
+  "team_inferred": true,
+  "bundle": "Delivery & reporting"
+ },
+ "DS-06": {
+  "id": "DS-06",
+  "title": "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com",
+  "section_heading": "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com",
+  "description": "Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep (daily priorities moved to DS-30).",
+  "team": "everyone",
+  "opportunities": [
+   {
+    "id": "O-06",
+    "notion_id": "412e204ff7698192b00ede837a3448d0",
+    "part": "capture part"
+   },
+   {
+    "id": "O-29",
+    "notion_id": "412e204ff76981e582aed6c8547d215e",
+    "part": "inbox triage part (daily brief moved to DS-30)"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-16",
+    "notion_id": "40fe204ff76981e9b92fcb8a575cb3f4",
+    "title": "Reminders go unacted; a broken reminder bot went unnoticed",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-36",
+    "notion_id": "410e204ff76981c88fe8f4907efc6ba1",
+    "title": "Internal task briefs from managers to implementers are slow to write and often incomplete",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-21",
+    "notion_id": "40fe204ff76981208c95f2a96063afd7",
+    "title": "Managers at capacity – Tier 2/3 clients get dropped first",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-32",
+    "notion_id": "410e204ff769819496a5d0c622b9e531",
+    "title": "Unplanned same-day and high-touch client requests break the planned month",
+    "call": "Park",
+    "note": "via cluster C-18 in text"
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981208c95f2a96063afd7",
+   "40fe204ff76981e9b92fcb8a575cb3f4",
+   "410e204ff76981c88fe8f4907efc6ba1"
+  ],
+  "pp_ids_cited": [
+   "DM-PP09",
+   "LS-PP14",
+   "MC-PP04",
+   "MC-PP05",
+   "MP-PP05",
+   "MP-PP06",
+   "SB-PP01",
+   "SB-PP02",
+   "SB-PP03",
+   "SB-PP04",
+   "SB-PP15"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "MP-PP06",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   }
+  ],
+  "source_type": "mixed",
+  "austin_additions": "Austin addition: DM and email sweeping (\"Roomba\"); one interview (SB-PP04) confirms DMs as a request route",
+  "coi_recoverable_per_month": "~10–29 h ($0.8K–$2.3K)",
+  "coi_recoverable_per_year": "$9K–$27K",
+  "coi_note": "O-06 figure used as a proxy; DS-30 triage time moved out – do not add",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-06 (capture part), O-29 (incl. SB-O02 – triage + daily priority DM)",
+  "team_inferred": true,
+  "bundle": "Team productivity"
+ },
+ "DS-07": {
+  "id": "DS-07",
+  "title": "Link watchdog agent: monitors every paid link",
+  "section_heading": "Link watchdog agent: monitors every paid link",
+  "description": "Agent that checks every paid link weekly and drafts publisher emails when a link drops.",
+  "team": "link building",
+  "opportunities": [
+   {
+    "id": "O-07",
+    "notion_id": "412e204ff76981f09dd2f35b49fe8858",
+    "part": "full"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-07",
+    "notion_id": "40fe204ff76981f989dcde7f6575b490",
+    "title": "Paid links disappear after payment – detected manually",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [
+   {
+    "id": "P-06",
+    "notion_id": "40fe204ff769810ca893d816b25addef",
+    "title": "Link building runs on 7+ disconnected spreadsheets",
+    "call": "Solve now",
+    "note": "dependency on the DS-11 CRM"
+   }
+  ],
+  "problem_mentions_in_section": [
+   "40fe204ff769810ca893d816b25addef",
+   "40fe204ff76981f989dcde7f6575b490"
+  ],
+  "pp_ids_cited": [
+   "KO-PP16",
+   "KZ-PP10",
+   "MP-PP13",
+   "TG-PP11",
+   "ZC-PP10"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "mixed",
+  "austin_additions": "Austin addition: Jev AI as tool option; publisher emails that learn from sent edits",
+  "coi_recoverable_per_month": "$0.8K–$2.1K (time + 50–100% of lost links)",
+  "coi_recoverable_per_year": "$10K–$25K",
+  "coi_note": "",
+  "status": "Decided – tool choice and cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-07",
+  "team_inferred": true,
+  "bundle": "Link-building CRM"
+ },
+ "DS-08": {
+  "id": "DS-08",
+  "title": "AI sales handover: extracted from sales calls, confirmed by delivery",
+  "section_heading": "AI sales handover: extracted from sales calls, confirmed by delivery",
+  "description": "AI extracts the sales handover from call transcripts; delivery confirms or denies with reasons (no hard blocks).",
+  "team": "sales and delivery",
+  "opportunities": [
+   {
+    "id": "O-08",
+    "notion_id": "412e204ff7698136b942f7af50718f2a",
+    "part": "handover part; access checklist + staged onboarding as add-on"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-27",
+    "notion_id": "410e204ff769818e891ce057635a604d",
+    "title": "Client handovers (sales to delivery, offboarding) have no structured pack or trigger",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-18",
+    "notion_id": "40fe204ff76981f585acc9b86b6be9b9",
+    "title": "Sales commits to work delivery can't profitably do",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-20",
+    "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
+    "title": "Onboarding stalls on client access and disrupts BAU",
+    "call": "Solve later",
+    "note": "via cluster C-09 in text"
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981f585acc9b86b6be9b9",
+   "410e204ff769818e891ce057635a604d"
+  ],
+  "pp_ids_cited": [
+   "KO-PP01",
+   "MC-PP10",
+   "MC-PP11",
+   "MC-PP13",
+   "MP-PP10",
+   "SH-PP07",
+   "WS-PP06",
+   "WS-PP07",
+   "ZC-PP07"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "KO-PP01",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   },
+   {
+    "id": "MP-PP10",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   }
+  ],
+  "source_type": "evidence-backed",
+  "austin_additions": "No-hard-block design is Austin decision",
+  "coi_recoverable_per_month": "2–10 h ($180–$830)",
+  "coi_recoverable_per_year": "$2K–$10K",
+  "coi_note": "",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-08 (handover part; access checklist + staged onboarding as add-on)",
+  "team_inferred": true,
+  "bundle": "Client lifecycle"
+ },
+ "DS-09": {
+  "id": "DS-09",
+  "title": "AI-prefilled onboarding audit and Master SEO Document",
+  "section_heading": "AI-prefilled onboarding audit and Master SEO Document",
+  "description": "AI pre-fills the onboarding audit and Master SEO Document for a strategist to sign off.",
+  "team": "SEO strategists (onboarding)",
+  "opportunities": [
+   {
+    "id": "O-14",
+    "notion_id": "412e204ff769815aa564df6b12d77947",
+    "part": "full"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-01",
+    "notion_id": "412e204ff76981c3a323ddeee45ff588",
+    "title": "1-click audit access system + AI audit workflow (also a lead magnet)"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-20",
+    "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
+    "title": "Onboarding stalls on client access and disrupts BAU",
+    "call": "Solve later",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769816bb3a6ed13ce47da58"
+  ],
+  "pp_ids_cited": [
+   "KZ-PP01",
+   "KZ-PP02",
+   "KZ-PP03",
+   "KZ-PP04",
+   "KZ-PP21",
+   "SD-PP11"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "5–29 h ($0.4K–$2.3K)",
+  "coi_recoverable_per_year": "$5K–$28K",
+  "coi_note": "",
+  "status": "Decided (as written) – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-14",
+  "team_inferred": true,
+  "bundle": "Client lifecycle"
+ },
+ "DS-10": {
+  "id": "DS-10",
+  "title": "Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)",
+  "section_heading": "Systems register and break-fix runbook",
+  "description": "One register of everything built: owner, backup, dependencies and what to do when it breaks.",
+  "team": "leadership / whoever builds tools",
+  "opportunities": [
+   {
+    "id": "O-16",
+    "notion_id": "412e204ff769815e9fe3c146904cff45",
+    "part": "full"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-15",
+    "notion_id": "40fe204ff769813ea8eec750d9aace68",
+    "title": "Slack bots and agents have no visible owner or documentation",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-39",
+    "notion_id": "410e204ff76981998f05d3821fbd38e3",
+    "title": "HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost",
+    "call": "Park",
+    "note": "\"also helps (you parked this problem)\""
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769813ea8eec750d9aace68",
+   "410e204ff76981998f05d3821fbd38e3"
+  ],
+  "pp_ids_cited": [
+   "SB-PP10",
+   "SB-PP11",
+   "SD-PP19"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "SD-PP19",
+    "source": "detected",
+    "person": "Shrishti Dokwal"
+   }
+  ],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "1–4 h ($80–$320)",
+  "coi_recoverable_per_year": "$1K–$4K",
+  "coi_note": "",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-16",
+  "team_inferred": true,
+  "bundle": "AI Business Brain"
+ },
+ "DS-11": {
+  "id": "DS-11",
+  "title": "Link-building workflow CRM (orders, publishers, links, invoicing and payments)",
+  "section_heading": "Link-building workflow CRM",
+  "description": "Link-building CRM covering publishers, orders, live links, invoicing and payments.",
+  "team": "link building",
+  "opportunities": [
+   {
+    "id": "O-18",
+    "notion_id": "412e204ff7698183938dc182bd876da9",
+    "part": "full"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-06",
+    "notion_id": "40fe204ff769810ca893d816b25addef",
+    "title": "Link building runs on 7+ disconnected spreadsheets",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-08",
+    "notion_id": "40fe204ff7698131876fec27eeb87b51",
+    "title": "Outreacher invoicing tracked as PayPal links in spreadsheet cells",
+    "call": "Solve later",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [
+   {
+    "id": "P-07",
+    "notion_id": "40fe204ff76981f989dcde7f6575b490",
+    "title": "Paid links disappear after payment – detected manually",
+    "call": "Solve now",
+    "note": "enables DS-07"
+   }
+  ],
+  "problem_mentions_in_section": [
+   "40fe204ff769810ca893d816b25addef",
+   "40fe204ff7698131876fec27eeb87b51",
+   "40fe204ff76981f989dcde7f6575b490"
+  ],
+  "pp_ids_cited": [
+   "KO-PP16",
+   "KZ-PP08",
+   "LS-PP12",
+   "MP-PP14",
+   "MP-PP15",
+   "TG-PP05",
+   "TG-PP06",
+   "TG-PP07",
+   "TG-PP09"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "TG-PP09",
+    "source": "detected",
+    "person": "Tonie Guevarra"
+   }
+  ],
+  "source_type": "evidence-backed",
+  "austin_additions": "CRM-first is Austin decision",
+  "coi_recoverable_per_month": "6–26 h ($0.5K–$2.1K)",
+  "coi_recoverable_per_year": "$6K–$25K",
+  "coi_note": "",
+  "status": "Decided – build vs buy and cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-18",
+  "team_inferred": true,
+  "bundle": "Link-building CRM"
+ },
+ "DS-12": {
+  "id": "DS-12",
+  "title": "Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)",
+  "section_heading": "Link supply engine: shared vetting, client matching, brand mentions",
+  "description": "Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM (brand mentions moved to DS-31).",
+  "team": "link building",
+  "opportunities": [
+   {
+    "id": "O-20",
+    "notion_id": "412e204ff76981edb972ea1d913e977d",
+    "part": "vetting and matching part (brand mentions moved to DS-31)"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-34",
+    "notion_id": "410e204ff769813aaa23cf4c2049bdf4",
+    "title": "Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "410e204ff769813aaa23cf4c2049bdf4"
+  ],
+  "pp_ids_cited": [
+   "KZ-PP06",
+   "KZ-PP07",
+   "LS-PP12",
+   "TG-PP01",
+   "TG-PP02",
+   "TG-PP03",
+   "TG-PP04",
+   "TG-PP08",
+   "TG-PP10",
+   "ZC-PP16"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "5–20 h ($0.4K–$1.6K)",
+  "coi_recoverable_per_year": "$5K–$19K",
+  "coi_note": "",
+  "status": "Decided (as written) – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-20",
+  "team_inferred": true,
+  "bundle": "Link-building CRM"
+ },
+ "DS-13": {
+  "id": "DS-13",
+  "title": "Merged into DS-14 – escalation and delegation rules (DS-14 Part B)",
+  "section_heading": "Merged into DS-14 – Escalation and delegation rules",
+  "description": "Merged into DS-14 (Part B): escalation and delegation rules.",
+  "team": "leadership and department leads",
+  "opportunities": [
+   {
+    "id": "O-21",
+    "notion_id": "412e204ff7698111b701f75c8d361f25",
+    "part": "full – now DS-14 Part B"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-22",
+    "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
+    "title": "Escalations route around department leads to the Head of Client Services",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [
+   {
+    "id": "P-41",
+    "notion_id": "410e204ff76981e18b83f14ee089f51e",
+    "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
+    "call": "Park",
+    "note": "related culture point (parked)"
+   }
+  ],
+  "problem_mentions_in_section": [
+   "40fe204ff76981e2924cfbae1ffa8478",
+   "410e204ff76981e18b83f14ee089f51e"
+  ],
+  "pp_ids_cited": [
+   "KO-PP02",
+   "KO-PP03",
+   "KO-PP05",
+   "MP-PP08",
+   "MP-PP09",
+   "WS-PP10"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "Merged into DS-14 (Austin, 9 Nov)",
+  "coi_recoverable_per_month": "5–16 h ($0.4K–$1.3K)",
+  "coi_recoverable_per_year": "$5K–$15K",
+  "coi_note": "merged into DS-14; not added to DS-14's figure",
+  "status": "Merged – see DS-14",
+  "ledger_status": "absorbed",
+  "merged_into": "DS-14",
+  "progress_table_opportunities": "O-21",
+  "team_inferred": true,
+  "bundle": "AI Business Brain"
+ },
+ "DS-14": {
+  "id": "DS-14",
+  "title": "Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)",
+  "section_heading": "Client health & growth intelligence (anti-churn + expansion)",
+  "description": "AI tracking of client sentiment and signals to warn of churn and spot growth, with escalation and delegation rules (Part B).",
+  "team": "account managers and leadership",
+  "opportunities": [
+   {
+    "id": "O-31",
+    "notion_id": "412e204ff769813e967ed221aed1d775",
+    "part": "full"
+   },
+   {
+    "id": "O-23",
+    "notion_id": "412e204ff769813a815ec1dc2d50c8b8",
+    "part": "opportunities/upsell part"
+   },
+   {
+    "id": "O-21",
+    "notion_id": "412e204ff7698111b701f75c8d361f25",
+    "part": "Part B (merged from DS-13)"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-31",
+    "notion_id": "410e204ff769813f888bfe3b3ee38213",
+    "title": "Churn risk is spotted late and account teams report rather than advise",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-22",
+    "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
+    "title": "Escalations route around department leads to the Head of Client Services",
+    "call": "Solve now",
+    "note": "Part B rules (from DS-13)"
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [
+   {
+    "id": "P-41",
+    "notion_id": "410e204ff76981e18b83f14ee089f51e",
+    "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
+    "call": "Park",
+    "note": "related culture point (parked), from DS-13"
+   }
+  ],
+  "problem_mentions_in_section": [
+   "40fe204ff76981e2924cfbae1ffa8478",
+   "410e204ff769813f888bfe3b3ee38213"
+  ],
+  "pp_ids_cited": [
+   "KO-PP06",
+   "KO-PP20",
+   "KO-PP21",
+   "LS-PP08",
+   "LS-PP09",
+   "LS-PP15",
+   "MP-PP16"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "KO-PP06",
+    "source": "detected",
+    "person": "Julia Van Der Linden"
+   },
+   {
+    "id": "LS-PP09",
+    "source": "interviewer",
+    "person": "Laura Shillington"
+   }
+  ],
+  "source_type": "mixed",
+  "austin_additions": "Austin addition: contact personality profiling and self-learning; churn COI on Austin's assumed $5K retainer, 3%/yr, >=61 clients",
+  "coi_recoverable_per_month": "1–8 h ($90–$650) staff time",
+  "coi_recoverable_per_year": "~$22K–$44K prevented churn (ASSUMED) + $1K–$8K staff time",
+  "coi_note": "Austin's assumption: $5K retainer, 3%/yr, >=61 clients; at 2% ~ $73K at risk",
+  "status": "Decided – churn basis to confirm; cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-31, O-23 (opportunities part)",
+  "team_inferred": true,
+  "bundle": "AI Business Brain"
+ },
+ "DS-15": {
+  "id": "DS-15",
+  "title": "AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)",
+  "section_heading": "AI Business Brain – the umbrella",
+  "description": "Umbrella for the AI Business Brain (DS-02, DS-04, DS-10, DS-14) plus a company-wide layer; the one home for current templates.",
+  "team": "everyone",
+  "opportunities": [
+   {
+    "id": "O-27",
+    "notion_id": "412e204ff769816dbde2ca5deed18ec2",
+    "part": "company layer"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-02",
+    "notion_id": "412e204ff76981c18f60fa3036f40176",
+    "title": "AI Business Brain"
+   },
+   {
+    "id": "EI-20",
+    "notion_id": "412e204ff76981598c34fee2fc9b5e69",
+    "title": "Team wiki – fast answers, self-updating, fits into workflows"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-12",
+    "notion_id": "40fe204ff76981e1ac5af94b85e59678",
+    "title": "Documentation is stale and rarely read",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-13",
+    "notion_id": "40fe204ff7698159a507c9835dc6a1f0",
+    "title": "Documentation and internal tooling held by the founder",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-25",
+    "notion_id": "40fe204ff769811f9330cde79b4e0b11",
+    "title": "No single home for current templates – versions held by individuals",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-47",
+    "notion_id": "412e204ff76981af9182ca6683db10ee",
+    "title": "Teams work in silos and don't see each other's work or priorities",
+    "call": "Solve now",
+    "note": ""
+   },
+   {
+    "id": "P-48",
+    "notion_id": "412e204ff769811fb874c5d98c0c5b0e",
+    "title": "Problems are fixed after they break, by individual vigilance",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769811f9330cde79b4e0b11",
+   "40fe204ff7698159a507c9835dc6a1f0",
+   "40fe204ff76981e1ac5af94b85e59678",
+   "412e204ff769811fb874c5d98c0c5b0e",
+   "412e204ff76981af9182ca6683db10ee"
+  ],
+  "pp_ids_cited": [
+   "KO-PP10",
+   "KO-PP14",
+   "KO-PP15",
+   "MP-PP04",
+   "MP-PP06",
+   "MP-PP17",
+   "MP-PP20"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "MP-PP06",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   },
+   {
+    "id": "MP-PP17",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   },
+   {
+    "id": "MP-PP20",
+    "source": "interviewer",
+    "person": "Joe Romeo"
+   }
+  ],
+  "source_type": "mixed",
+  "austin_additions": "Austin addition: umbrella framing grouping DS-02, DS-04, DS-10, DS-14",
+  "coi_recoverable_per_month": "company layer 1–4 h",
+  "coi_recoverable_per_year": "~$44K–$134K combined (DS-02+DS-04+DS-10+DS-14, before overlap); company layer alone $1K–$4K",
+  "coi_note": "indicative, overlapping",
+  "status": "Decided – framing; cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-27 (company layer) + groups DS-02, DS-04, DS-10, DS-14 and the solutions that read from them",
+  "team_inferred": true,
+  "bundle": "AI Business Brain"
+ },
+ "DS-16": {
+  "id": "DS-16",
+  "title": "Seasonal & trending content radar per client (split 9 Nov)",
+  "section_heading": "Per-client market radar → now: Seasonal & trending content radar",
+  "description": "Per-client seasonal and trending content radar (competitor spy is DS-32, macro trends DS-33).",
+  "team": "SEO and content strategists",
+  "opportunities": [
+   {
+    "id": "O-28",
+    "notion_id": "412e204ff769819486b9f5aac26a69d4",
+    "part": "seasonal & trending part"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-19",
+    "notion_id": "412e204ff769812c8db3d40032e06e6d",
+    "title": "Seasonal & trending content radar per client"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-24",
+    "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
+    "title": "Seasonal and trending content is planned too late to catch the peak",
+    "call": "Solve now",
+    "note": "seasonal & trending part (competitor and news parts split to DS-32, DS-33)"
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981e6ae3af6fc3a18a751"
+  ],
+  "pp_ids_cited": [
+   "KZ-PP19",
+   "KZ-PP20",
+   "ZC-PP09",
+   "ZC-PP15",
+   "ZC-PP17"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "Seasonal & trending part only since the 9 Nov split (competitor spy is DS-32, macro tracker DS-33)",
+  "coi_recoverable_per_month": "2–7 h ($180–$560)",
+  "coi_recoverable_per_year": "$2K–$7K",
+  "coi_note": "O-28 hours; DS-32/DS-33 not quantified separately",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-28",
+  "team_inferred": true,
+  "bundle": "Market intelligence"
+ },
+ "DS-17": {
+  "id": "DS-17",
+  "title": "Client files and logins in company-owned shared locations, linked to each client brain",
+  "section_heading": "Client files and logins in company-owned shared locations",
+  "description": "Client files and logins moved to company-owned shared locations, linked from each client brain.",
+  "team": "everyone (operations)",
+  "opportunities": [
+   {
+    "id": "O-30",
+    "notion_id": "412e204ff76981738b84d7cabc39809a",
+    "part": "full"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-23",
+    "notion_id": "40fe204ff769814e99e7da6322099cae",
+    "title": "Client work files are owned by individual staff accounts, including staff who have left",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769814e99e7da6322099cae"
+  ],
+  "pp_ids_cited": [
+   "SB-PP09",
+   "SH-PP08"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "",
+  "coi_recoverable_per_month": "1–4 h ($100–$340)",
+  "coi_recoverable_per_year": "$1K–$4K",
+  "coi_note": "",
+  "status": "Decided (as written) – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-30",
+  "team_inferred": true,
+  "bundle": "Client lifecycle"
+ },
+ "DS-18": {
+  "id": "DS-18",
+  "title": "Landing page generator (ad landing pages, Aperitif-hosted)",
+  "section_heading": "Landing page generator",
+  "description": "In-house landing page generator for ad landing pages on Aperitif-hosted pages.",
+  "team": "PPC",
+  "opportunities": [],
+  "earlier_ideas": [
+   {
+    "id": "EI-09",
+    "notion_id": "412e204ff7698102aaffd041069ca3dc",
+    "title": "Landing page generator"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-38",
+    "notion_id": "410e204ff76981918b83ff403f9c9ba2",
+    "title": "Creative and landing pages are outsourced, slow and hard to brief",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "410e204ff76981918b83ff403f9c9ba2"
+  ],
+  "pp_ids_cited": [
+   "KO-PP25",
+   "SH-PP11",
+   "WS-PP07",
+   "WS-PP14"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "Austin addition",
+  "austin_additions": "Earlier idea, no merged opportunity; problem evidence KO-PP25, WS-PP14",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "needs count of pages outsourced per year",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin's earlier idea (no merged opportunity)",
+  "team_inferred": true,
+  "bundle": "Standalone"
+ },
+ "DS-19": {
+  "id": "DS-19",
+  "title": "AI receptionist (phone; Aircall add-on or own build)",
+  "section_heading": "AI receptionist",
+  "description": "AI receptionist on the phone for new leads and existing clients; decided: call director, Aircall add-on recommended, own build as alternative.",
+  "team": "sales / leadership (phones)",
+  "opportunities": [],
+  "earlier_ideas": [
+   {
+    "id": "EI-03",
+    "notion_id": "412e204ff769815dbe4bdda78a7a5522",
+    "title": "AI receptionist"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [],
+  "problems_helped": [],
+  "problems_related_only": [
+   {
+    "id": "P-42",
+    "notion_id": "410e204ff7698149a72ccd9d798ea640",
+    "title": "Growth depends on the founder and inbound leads while AI erodes core services",
+    "call": "Reject",
+    "note": "text note only: problem rejected"
+   }
+  ],
+  "problem_mentions_in_section": [],
+  "pp_ids_cited": [
+   "KO-PP17",
+   "KO-PP18"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "Austin addition",
+  "austin_additions": "Earlier idea; weak evidence (KO-PP17, KO-PP18 indirect); no problem fixed; decided 9 Nov (call director; Aircall add-on recommended)",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "needs call and lead volumes",
+  "status": "Decided – call director; Aircall add-on (\\~A\\$370/mo) recommended, own build as the cheaper alternative; weak interview evidence",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin's earlier idea (no merged opportunity)",
+  "team_inferred": true,
+  "bundle": "Standalone"
+ },
+ "DS-20": {
+  "id": "DS-20",
+  "title": "New-client dossier agent (at signing → client brain)",
+  "section_heading": "New-client dossier agent",
+  "description": "At signing, an agent researches the new client and loads a sourced dossier into the client brain.",
+  "team": "sales and account managers",
+  "opportunities": [],
+  "earlier_ideas": [
+   {
+    "id": "EI-17",
+    "notion_id": "412e204ff76981b7b8f7f9d3d882f012",
+    "title": "Prospect research and dossier agent"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [],
+  "problems_helped": [
+   {
+    "id": "P-20",
+    "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
+    "title": "Onboarding stalls on client access and disrupts BAU",
+    "call": "Solve later",
+    "note": "\"linked problem\" only"
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff769816bb3a6ed13ce47da58"
+  ],
+  "pp_ids_cited": [
+   "KO-PP22"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "Austin addition",
+  "austin_additions": "Earlier idea; one leadership quote (KO-PP22)",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin's earlier idea (evidence: KO-PP22)",
+  "team_inferred": true,
+  "bundle": "Client lifecycle"
+ },
+ "DS-21": {
+  "id": "DS-21",
+  "title": "AI creative tools to augment the team (existing tools, no build)",
+  "section_heading": "AI creative tools to augment the team",
+  "description": "Trial existing AI creative tools (no build) to make ad variants and video in-house.",
+  "team": "PPC and creative",
+  "opportunities": [],
+  "earlier_ideas": [
+   {
+    "id": "EI-04",
+    "notion_id": "412e204ff76981028c64ee1c79939607",
+    "title": "AI-assisted creative production"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-38",
+    "notion_id": "410e204ff76981918b83ff403f9c9ba2",
+    "title": "Creative and landing pages are outsourced, slow and hard to brief",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "410e204ff76981918b83ff403f9c9ba2"
+  ],
+  "pp_ids_cited": [
+   "MC-PP15",
+   "MP-PP22",
+   "SD-PP12",
+   "WS-PP14"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "Austin addition",
+  "austin_additions": "Earlier idea; tool list from web research Nov 2026, not interviews",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "",
+  "status": "Decided – tool shortlist to trial; cost = licences",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin's earlier idea (O-34 dropped; its AI-creative trial idea lives here)",
+  "team_inferred": true,
+  "bundle": "Standalone"
+ },
+ "DS-22": {
+  "id": "DS-22",
+  "title": "SEO: automated Monday client performance check (GA4, Search Console, Ahrefs)",
+  "section_heading": "SEO: automated Monday client performance check",
+  "description": "SEO team: automated Monday performance check per client from GA4, Search Console and Ahrefs.",
+  "team": "SEO",
+  "opportunities": [
+   {
+    "id": "O-12",
+    "notion_id": "412e204ff76981f28fcbf88220552133",
+    "part": "SEO part (ZC-O03, LS-O03)"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-03",
+    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
+    "title": "No proactive performance alerting – problems found at month-end",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981d8a087ed06b4ec140a"
+  ],
+  "pp_ids_cited": [
+   "LS-PP05",
+   "ZC-PP05"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "Also rests on Zach's written AI suggestions doc (WS-ZC-01)",
+  "coi_recoverable_per_month": "3.6–10.2 h ($290–$820)",
+  "coi_recoverable_per_year": "$3.5K–$9.8K",
+  "coi_note": "moved out of DS-01",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-12 (SEO part: ZC-O03, LS-O03); Zach's AI suggestions doc",
+  "team_inferred": false,
+  "bundle": "SEO performance"
+ },
+ "DS-23": {
+  "id": "DS-23",
+  "title": "SEO: drop and anomaly alerts",
+  "section_heading": "SEO: drop and anomaly alerts",
+  "description": "SEO team: daily drop and anomaly alerts per client with a first guess at the cause.",
+  "team": "SEO",
+  "opportunities": [
+   {
+    "id": "O-12",
+    "notion_id": "412e204ff76981f28fcbf88220552133",
+    "part": "SEO part"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-03",
+    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
+    "title": "No proactive performance alerting – problems found at month-end",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981d8a087ed06b4ec140a"
+  ],
+  "pp_ids_cited": [
+   "LS-PP15"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "mixed",
+  "austin_additions": "Mainly Zach's written AI suggestions doc (WS-ZC-01) plus LS-PP15",
+  "coi_recoverable_per_month": "Not quantified (time in DS-22)",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "retention value",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-12 (SEO part); Zach's AI suggestions doc",
+  "team_inferred": false,
+  "bundle": "SEO performance"
+ },
+ "DS-24": {
+  "id": "DS-24",
+  "title": "SEO: mid-month wins sent to clients",
+  "section_heading": "SEO: mid-month wins sent to clients",
+  "description": "SEO team: AI spots mid-month wins and drafts a short client note for the manager to send.",
+  "team": "SEO",
+  "opportunities": [
+   {
+    "id": "O-12",
+    "notion_id": "412e204ff76981f28fcbf88220552133",
+    "part": "ZC-O03 win note"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-31",
+    "notion_id": "410e204ff769813f888bfe3b3ee38213",
+    "title": "Churn risk is spotted late and account teams report rather than advise",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "410e204ff769813f888bfe3b3ee38213"
+  ],
+  "pp_ids_cited": [
+   "LS-PP08"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "mixed",
+  "austin_additions": "Mainly Zach's written AI suggestions doc (WS-ZC-01) plus ZC-O03 and LS-PP08",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "retention value",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "ZC-O03 (win note); Zach's AI suggestions doc",
+  "team_inferred": false,
+  "bundle": "SEO performance"
+ },
+ "DS-25": {
+  "id": "DS-25",
+  "title": "PPC: performance forecasting tool",
+  "section_heading": "PPC: performance forecasting tool",
+  "description": "PPC team: forecasting tool for each client from history, seasonality and outside signals.",
+  "team": "PPC",
+  "opportunities": [
+   {
+    "id": "O-02",
+    "notion_id": "412e204ff76981a3a4a3fdf45f3b1956",
+    "part": "WS-O09 forecasting prompt only"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": true,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-04",
+    "notion_id": "40fe204ff76981efb9f8d9efda5367f0",
+    "title": "Client-call prep takes longer than the call",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981efb9f8d9efda5367f0"
+  ],
+  "pp_ids_cited": [
+   "WS-PP12",
+   "WS-PP13"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "WS-PP13",
+    "source": "detected",
+    "person": "Wendlley Simoes"
+   }
+  ],
+  "source_type": "Austin addition",
+  "austin_additions": "Austin – new; evidence is one person (WS-PP12, WS-PP13 detected)",
+  "coi_recoverable_per_month": "Not separately quantified",
+  "coi_recoverable_per_year": "Not separately quantified",
+  "coi_note": "WS-O09 hours sit in DS-02",
+  "status": "Added – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin – new; WS-O09 (forecasting prompt)",
+  "team_inferred": false,
+  "bundle": "PPC performance"
+ },
+ "DS-26": {
+  "id": "DS-26",
+  "title": "SEO: performance forecasting tool",
+  "section_heading": "SEO: performance forecasting tool",
+  "description": "SEO team: forecasting tool for each client's organic performance.",
+  "team": "SEO",
+  "opportunities": [],
+  "earlier_ideas": [],
+  "austin_new": true,
+  "written_sources": [],
+  "problems_fixed": [],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [],
+  "pp_ids_cited": [
+   "LS-PP16"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "LS-PP16",
+    "source": "interviewer",
+    "person": "Laura Shillington"
+   }
+  ],
+  "source_type": "Austin addition",
+  "austin_additions": "Austin – new; no SEO forecasting pain point raised (LS-PP16 is interviewer-raised)",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "",
+  "status": "Added – cost TBC; weak SEO evidence",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin – new",
+  "team_inferred": false,
+  "bundle": "SEO performance"
+ },
+ "DS-27": {
+  "id": "DS-27",
+  "title": "PPC: alert investigator – AI diagnosis and commentary on flagged activity",
+  "section_heading": "PPC: alert investigator – AI diagnosis and commentary",
+  "description": "PPC team: when DS-01 flags something, AI investigates and gives a first diagnosis.",
+  "team": "PPC",
+  "opportunities": [
+   {
+    "id": "O-12",
+    "notion_id": "412e204ff76981f28fcbf88220552133",
+    "part": "draft-diagnosis part"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": true,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-03",
+    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
+    "title": "No proactive performance alerting – problems found at month-end",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981d8a087ed06b4ec140a"
+  ],
+  "pp_ids_cited": [
+   "DM-PP01",
+   "WS-PP04"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "mixed",
+  "austin_additions": "Austin – new on top of O-12's draft-diagnosis step; WS-PP04, DM-PP01",
+  "coi_recoverable_per_month": "3.5–19 h ($280–$1.5K), one manager est.",
+  "coi_recoverable_per_year": "$3K–$18K",
+  "coi_note": "overlaps DS-01 – do not add",
+  "status": "Added – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-12 (draft-diagnosis part); Austin – new",
+  "team_inferred": false,
+  "bundle": "PPC performance"
+ },
+ "DS-28": {
+  "id": "DS-28",
+  "title": "Client comms assistant: monthly updates and expectation setting",
+  "section_heading": "Client comms assistant: monthly updates and expectation setting",
+  "description": "Account managers: drafts client updates through the month and expectation-setting notes before likely dips.",
+  "team": "account managers (PPC and SEO)",
+  "opportunities": [],
+  "earlier_ideas": [],
+  "austin_new": true,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-31",
+    "notion_id": "410e204ff769813f888bfe3b3ee38213",
+    "title": "Churn risk is spotted late and account teams report rather than advise",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "410e204ff769813f888bfe3b3ee38213"
+  ],
+  "pp_ids_cited": [
+   "KO-PP20",
+   "LS-PP16",
+   "SH-PP09"
+  ],
+  "pp_cited_interviewer_or_detected": [
+   {
+    "id": "LS-PP16",
+    "source": "interviewer",
+    "person": "Laura Shillington"
+   }
+  ],
+  "source_type": "mixed",
+  "austin_additions": "Austin – new; SH-PP09, KO-PP20 (O-23 related)",
+  "coi_recoverable_per_month": "Not quantified separately",
+  "coi_recoverable_per_year": "Not quantified separately",
+  "coi_note": "time sits in client email & ad hoc (DS-06)",
+  "status": "Added – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin – new; O-23 related",
+  "team_inferred": false,
+  "bundle": "Delivery & reporting"
+ },
+ "DS-29": {
+  "id": "DS-29",
+  "title": "PPC: automated Monday client performance check (Google Ads, Meta and other channels)",
+  "section_heading": "PPC: automated Monday client performance check",
+  "description": "PPC team: automated Monday performance check per paid client across all channels.",
+  "team": "PPC",
+  "opportunities": [
+   {
+    "id": "O-12",
+    "notion_id": "412e204ff76981f28fcbf88220552133",
+    "part": "paid part (weekly check)"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-15",
+    "notion_id": "412e204ff76981dbbd39ff9daa305c0f",
+    "title": "Proactive PPC monitor and anomaly detector"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-03",
+    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
+    "title": "No proactive performance alerting – problems found at month-end",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981d8a087ed06b4ec140a"
+  ],
+  "pp_ids_cited": [
+   "DM-PP02",
+   "MC-PP08",
+   "MC-PP18",
+   "SH-PP11",
+   "SH-PP12",
+   "SH-PP15"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "DS-22's PPC twin; DM-PP02, MC-PP08, MC-PP18, SH-PP11/12/15",
+  "coi_recoverable_per_month": "8.8–20.9 h ($700–$1.7K), one manager est.",
+  "coi_recoverable_per_year": "$8K–$20K",
+  "coi_note": "overlaps DS-01 – do not add",
+  "status": "Added – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-12 (paid part); DS-22's PPC twin",
+  "team_inferred": false,
+  "bundle": "PPC performance"
+ },
+ "DS-30": {
+  "id": "DS-30",
+  "title": "Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals",
+  "section_heading": "Daily priorities assistant",
+  "description": "Everyone: one triaged daily priority list per person from Monday, Slack, email, calendar, performance and seasonal signals, sent as a Slack DM.",
+  "team": "everyone",
+  "opportunities": [
+   {
+    "id": "O-29",
+    "notion_id": "412e204ff76981e582aed6c8547d215e",
+    "part": "daily brief part"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": true,
+  "written_sources": [],
+  "problems_fixed": [
+   {
+    "id": "P-16",
+    "notion_id": "40fe204ff76981e9b92fcb8a575cb3f4",
+    "title": "Reminders go unacted; a broken reminder bot went unnoticed",
+    "call": "Solve now",
+    "note": ""
+   }
+  ],
+  "problems_helped": [
+   {
+    "id": "P-21",
+    "notion_id": "40fe204ff76981208c95f2a96063afd7",
+    "title": "Managers at capacity – Tier 2/3 clients get dropped first",
+    "call": "Solve now",
+    "note": "\"also helps (partly)\" – the right work surfaces first"
+   }
+  ],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981208c95f2a96063afd7",
+   "40fe204ff76981e9b92fcb8a575cb3f4"
+  ],
+  "pp_ids_cited": [
+   "MC-PP03",
+   "SB-PP01",
+   "SB-PP02"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "mixed",
+  "austin_additions": "Split from DS-06 (Austin, 9 Nov); Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief",
+  "coi_recoverable_per_month": "6–11 h ($480–$880), one person",
+  "coi_recoverable_per_year": "$6K–$11K",
+  "coi_note": "O-29 / SB-O02 for one person; more if rolled out; moved out of DS-06 – do not add",
+  "status": "Added – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-29 (daily brief part); Austin – new",
+  "team_inferred": false,
+  "bundle": "Team productivity"
+ },
+ "DS-31": {
+  "id": "DS-31",
+  "title": "Proactive brand-mention tracking for backlinks (split from DS-12)",
+  "section_heading": "Proactive brand-mention tracking for backlinks",
+  "description": "Link building: weekly scan for unlinked brand mentions of Tier 1/2 clients, ranked, with drafted outreach; wins logged in DS-11.",
+  "team": "link building / SEO",
+  "opportunities": [
+   {
+    "id": "O-20",
+    "notion_id": "412e204ff76981edb972ea1d913e977d",
+    "part": "brand-mention part"
+   }
+  ],
+  "earlier_ideas": [
+   {
+    "id": "EI-21",
+    "notion_id": "412e204ff7698133a693da5c684713e2",
+    "title": "Unlinked brand-mention monitoring and outreach (Tier 1)"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-34",
+    "notion_id": "410e204ff769813aaa23cf4c2049bdf4",
+    "title": "Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent",
+    "call": "Solve now",
+    "note": "the supply part"
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "410e204ff769813aaa23cf4c2049bdf4"
+  ],
+  "pp_ids_cited": [
+   "TG-PP03",
+   "ZC-PP16"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "Split from DS-12 (9 Nov); ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01)",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "value is links won without a publisher fee (paid links ~$80–$130 each)",
+  "status": "Added – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-20 (brand-mention part); Zach's AI suggestions doc",
+  "team_inferred": false,
+  "bundle": "Link-building CRM"
+ },
+ "DS-32": {
+  "id": "DS-32",
+  "title": "Competitor spy per client (split from DS-16)",
+  "section_heading": "Competitor spy per client",
+  "description": "SEO/content: weekly watch of each client's competitors with a digest in the client brain and Slack alerts.",
+  "team": "SEO and content strategists (paid can use it too)",
+  "opportunities": [
+   {
+    "id": "O-28",
+    "notion_id": "412e204ff769819486b9f5aac26a69d4",
+    "part": "competitor part"
+   }
+  ],
+  "earlier_ideas": [],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-24",
+    "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
+    "title": "Seasonal and trending content is planned too late to catch the peak",
+    "call": "Solve now",
+    "note": "competitor part"
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981e6ae3af6fc3a18a751"
+  ],
+  "pp_ids_cited": [
+   "ZC-PP15"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "evidence-backed",
+  "austin_additions": "Split from DS-16 (9 Nov); one stated pain point (ZC-PP15) plus Zach's written doc",
+  "coi_recoverable_per_month": "Not quantified separately",
+  "coi_recoverable_per_year": "Not quantified separately",
+  "coi_note": "O-28 hours sit in DS-16",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "O-28 (competitor part); Zach's AI suggestions doc",
+  "team_inferred": false,
+  "bundle": "Market intelligence"
+ },
+ "DS-33": {
+  "id": "DS-33",
+  "title": "Macro trend tracker per client (split from DS-16)",
+  "section_heading": "Macro trend tracker per client",
+  "description": "Strategists: per-client tracker of news, regulation, economy and industry shifts with \"why it matters\" and an idea to act on.",
+  "team": "SEO, content and paid strategists",
+  "opportunities": [],
+  "earlier_ideas": [
+   {
+    "id": "EI-11",
+    "notion_id": "412e204ff76981b2b4b7dc009506fc3b",
+    "title": "Macro trend tracker agent for client industries"
+   }
+  ],
+  "austin_new": false,
+  "written_sources": [
+   "WS-ZC-01"
+  ],
+  "problems_fixed": [
+   {
+    "id": "P-24",
+    "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
+    "title": "Seasonal and trending content is planned too late to catch the peak",
+    "call": "Solve now",
+    "note": "news part"
+   }
+  ],
+  "problems_helped": [],
+  "problems_related_only": [],
+  "problem_mentions_in_section": [
+   "40fe204ff76981e6ae3af6fc3a18a751"
+  ],
+  "pp_ids_cited": [
+   "WS-PP12",
+   "ZC-PP17"
+  ],
+  "pp_cited_interviewer_or_detected": [],
+  "source_type": "Austin addition",
+  "austin_additions": "Split from DS-16 (9 Nov); Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12",
+  "coi_recoverable_per_month": "Not quantified",
+  "coi_recoverable_per_year": "Not quantified",
+  "coi_note": "missed timely content and surprises in client results",
+  "status": "Decided – cost TBC",
+  "ledger_status": "addressed",
+  "merged_into": "",
+  "progress_table_opportunities": "Austin's earlier idea; Zach's AI suggestions doc",
+  "team_inferred": false,
+  "bundle": "Market intelligence"
+ }
+}

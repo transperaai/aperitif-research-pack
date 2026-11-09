@@ -1,0 +1,1844 @@
+{
+ "interview": {
+  "id": "SJ",
+  "name": "Sarah Julian",
+  "role": "Content Manager",
+  "team": "Organic",
+  "date": "2026-10-29",
+  "minutes": 30,
+  "clients_managed": null
+ },
+ "time_allocation": [
+  {
+   "activity": "Writing her own share of client content",
+   "pct": null,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "obviously like I love the writing",
+   "timestamp": "~29:36 (L336)",
+   "certainty": "stated (no number); context pack: 37% of words; billable assumed"
+  },
+  {
+   "activity": "Brief intake, allocation and freelancer briefing (admin)",
+   "pct": null,
+   "hours_per_week": [
+    2.5,
+    7.0
+   ],
+   "billable": false,
+   "quote": "It doesn't even dominate, but it's just annoying",
+   "timestamp": "~09:29 (L104)",
+   "certainty": "stated (no number); hours estimated from SJ-P01 SJ share 10.6–30.4 h/month"
+  },
+  {
+   "activity": "Editing freelancers' work and QA",
+   "pct": null,
+   "hours_per_week": [
+    2.2,
+    9.9
+   ],
+   "billable": true,
+   "quote": "me and the other person in the content team, we also edit all of the freelancers work.",
+   "timestamp": "~05:07 (L059)",
+   "certainty": "stated step; hours estimated from SJ-P02 SJ share 9.5–43.1 h/month"
+  },
+  {
+   "activity": "Client feedback and revisions (final week)",
+   "pct": null,
+   "hours_per_week": [
+    1.5,
+    6.0
+   ],
+   "billable": true,
+   "quote": "The client reviews it, goes back to me.",
+   "timestamp": "~03:25 (L045)",
+   "certainty": "stated step; hours estimated from SJ-P03 SJ share 6.5–26.2 h/month"
+  },
+  {
+   "activity": "Direct client contact (1–2 Tier 1 clients)",
+   "pct": null,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "I work... closely with one One of our tier one clients, or maybe like two of our tier one clients",
+   "timestamp": "~18:04 (L187–L188)",
+   "certainty": "stated"
+  },
+  {
+   "activity": "Tracker upkeep (master sheet, freelancer trackers)",
+   "pct": null,
+   "hours_per_week": [
+    0.7,
+    2.7
+   ],
+   "billable": false,
+   "quote": "And then even here, this is all manual.",
+   "timestamp": "~23:59 (L265)",
+   "certainty": "stated step; hours estimated from SJ-P04 3.2–11.7 h/month"
+  }
+ ],
+ "decisions": [
+  {
+   "decision": "Who writes and edits each brief",
+   "decider_role": "Content Manager",
+   "waiting_role": "Writers, freelancers",
+   "typical_wait": "Same day if seen; up to 2 days if missed",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "What goes into each brief",
+   "decider_role": "Client manager (client sign-off where needed)",
+   "waiting_role": "Content Manager, writers",
+   "typical_wait": "Due week 1; late when client hasn't approved",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Client approval of finished content",
+   "decider_role": "Client (via client manager)",
+   "waiting_role": "Content Manager, client manager",
+   "typical_wait": "Not stated – final week",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Contact a client directly about content",
+   "decider_role": "Content Manager",
+   "waiting_role": "",
+   "typical_wait": "",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Changes to the content brief standard (~6-monthly)",
+   "decider_role": "Content team (decider not stated)",
+   "waiting_role": "Client managers, writers",
+   "typical_wait": "~6 months between refreshes",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Adding freelancers when volume grows",
+   "decider_role": "Not stated (assumed Senior SEO Manager / SEO Director)",
+   "waiting_role": "Content Manager",
+   "typical_wait": "Not stated",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Priority order of content work",
+   "decider_role": "None – sheet order (age) by default",
+   "waiting_role": "Higher-value clients",
+   "typical_wait": "",
+   "lands_on_leadership": false
+  }
+ ],
+ "clients_mentioned": [
+  {
+   "client": "Unnamed 'one client' always giving work",
+   "tier": "Unknown",
+   "context": "Steady stream of ad hoc work (L162)"
+  },
+  {
+   "client": "1–2 unnamed Tier 1 clients",
+   "tier": "Tier 1",
+   "context": "Sarah works with them directly (L188)"
+  },
+  {
+   "client": "Finance-based clients (unnamed)",
+   "tier": "Unknown",
+   "context": "Hard to find credible statistics and case studies; first target for a knowledge bank"
+  },
+  {
+   "client": "'Blind clients' (unnamed)",
+   "tier": "Tier 2 (as stated)",
+   "context": "Would benefit from climate information; possibly a blinds/louvres client (Elipso Louvres T1 / Slidetrack T2) – unresolved"
+  },
+  {
+   "client": "Car clients (unnamed)",
+   "tier": "Unknown",
+   "context": "Would benefit from industry information; possibly Tier 2 automotive clients – unconfirmed"
+  },
+  {
+   "client": "'An advisor … they do liquidation' (unnamed)",
+   "tier": "Tier 2 (as stated)",
+   "context": "Knowledge-bank candidate; possibly HM Advisory – unconfirmed"
+  },
+  {
+   "client": "Education-based clients (unnamed)",
+   "tier": "Unknown",
+   "context": "Knowledge-bank candidate"
+  },
+  {
+   "client": "Dental clients (unnamed)",
+   "tier": "Unknown",
+   "context": "Need up-to-date facts and compliance checks"
+  }
+ ],
+ "processes": [
+  {
+   "id": "SJ-P01",
+   "process": "Content briefing",
+   "trigger": "Client managers drop brief links into the master content sheet (due week 1)",
+   "owner_role": "Content Manager",
+   "frequency": {
+    "count": 1,
+    "per": "month (cycle); 45–55 briefs, 20–27 to freelancers (assumed)",
+    "scope": "All organic content (~100k words/month)"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "Brief on time",
+       "pct": 75
+      },
+      {
+       "outcome": "Brief late or changed (assumed 20–30%)",
+       "pct": 25
+      }
+     ],
+     "certainty": "assumed"
+    },
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Seen on the day",
+       "pct": 92.5
+      },
+      {
+       "outcome": "Missed for up to 2 days (assumed 5–10%)",
+       "pct": 7.5
+      }
+     ],
+     "certainty": "stated (event) / assumed (split)"
+    },
+    {
+     "after_step": 3,
+     "branches": [
+      {
+       "outcome": "In-house writer",
+       "pct": 50
+      },
+      {
+       "outcome": "Freelancer",
+       "pct": 50
+      }
+     ],
+     "certainty": "assumed (context pack: contractors 48% of words)"
+    }
+   ],
+   "team_volume_per_month": 47,
+   "monthly_cost_aud": [
+    968,
+    2800
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Drop brief link into master content sheet",
+     "actor_role": "Client manager",
+     "tool": "Master content sheet",
+     "touch_min": [
+      90,
+      275
+     ],
+     "wait": "Due week 1; often later",
+     "handoff_to": "Content Manager",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated step / assumed time (2–5 min × 45–55)"
+    },
+    {
+     "step": 2,
+     "action": "Check sheet for new briefs on calendar reminders",
+     "actor_role": "Content Manager",
+     "tool": "Google Calendar, master sheet, email",
+     "touch_min": [
+      40,
+      130
+     ],
+     "wait": "Up to 2 days if brief lands on a non-check day",
+     "handoff_to": "",
+     "flags": [
+      "bottleneck",
+      "single_person"
+     ],
+     "certainty": "stated step and 2-day delay / assumed 5–10 min × 8–13 checks"
+    },
+    {
+     "step": 3,
+     "action": "Read brief; assign writer (and editor); update status cells by hand",
+     "actor_role": "Content Manager",
+     "tool": "Master content sheet",
+     "touch_min": [
+      225,
+      550
+     ],
+     "wait": "",
+     "handoff_to": "Writer",
+     "flags": [
+      "manual_rekey",
+      "single_person"
+     ],
+     "certainty": "stated step / assumed 5–10 min × 45–55"
+    },
+    {
+     "step": 4,
+     "action": "Copy brief, prior client comms and feedback notes into freelancer's own sheet",
+     "actor_role": "Content Manager",
+     "tool": "Master sheet → 4 freelancer sheets",
+     "touch_min": [
+      200,
+      540
+     ],
+     "wait": "",
+     "handoff_to": "Freelancer",
+     "flags": [
+      "manual_rekey",
+      "error_prone",
+      "single_person"
+     ],
+     "certainty": "stated step / assumed 10–20 min × 20–27"
+    },
+    {
+     "step": 5,
+     "action": "Tell the writer the work is there",
+     "actor_role": "Content Manager",
+     "tool": "Email / tags",
+     "touch_min": [
+      45,
+      110
+     ],
+     "wait": "Freelancers have up to 2 weeks",
+     "handoff_to": "Writer",
+     "flags": [],
+     "certainty": "assumed 1–2 min × 45–55"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Brief late or changed after week 1",
+     "trigger": "Client hasn't approved, strategy change, new product",
+     "rate": "20–30% of briefs (assumed)",
+     "extra_steps": "Re-check, re-allocate, re-brief freelancer",
+     "extra_min": [
+      90,
+      330
+     ],
+     "certainty": "stated causes / assumed rate and 10–20 min"
+    },
+    {
+     "name": "Brief missed",
+     "trigger": "Dropped on a non-check day or missed email/tag",
+     "rate": "5–10% of briefs (assumed)",
+     "extra_steps": "Find, chase, re-plan; up to 2 days' wait",
+     "extra_min": [
+      34,
+      165
+     ],
+     "certainty": "stated event / assumed rate and 15–30 min"
+    }
+   ],
+   "monthly_hours": [
+    12.1,
+    35.0
+   ],
+   "monthly_hours_working": "Happy: 90+40+225+200+45 = 600 to 275+130+550+540+110 = 1,605 min; bad: 90+34 = 124 to 330+165 = 495 min; total 724–2,100 min = 12.1–35.0 h; SJ share (excl. step 1) 10.6–30.4 h; × $80 = $968–$2,800"
+  },
+  {
+   "id": "SJ-P02",
+   "process": "Content writing & editing",
+   "trigger": "Freelancer delivers a draft in their own sheet; in-house drafts finished",
+   "owner_role": "Content Manager",
+   "frequency": {
+    "count": 1,
+    "per": "month; 20–27 freelancer pieces edited, 45–55 handed to CMs (assumed)",
+    "scope": "All organic content"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "Freelancer knows the client – light edit",
+       "pct": null
+      },
+      {
+       "outcome": "New to the client / thin brief – heavier edit (assumed 20–30%)",
+       "pct": null
+      }
+     ],
+     "certainty": "stated (pattern) / assumed (split)"
+    },
+    {
+     "after_step": 4,
+     "branches": [
+      {
+       "outcome": "Ready",
+       "pct": null
+      },
+      {
+       "outcome": "Second pass",
+       "pct": null
+      }
+     ],
+     "certainty": "not discussed"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    1440,
+    4784
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Draft the content (not costed – writing time not discussed)",
+     "actor_role": "Freelancer / Content Manager / Content Specialist",
+     "tool": "Docs, freelancer sheet",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "Freelancers: up to 2 weeks",
+     "handoff_to": "Content Manager",
+     "flags": [],
+     "certainty": "stated step / time not discussed"
+    },
+    {
+     "step": 2,
+     "action": "Notice submission; reassign to an editor",
+     "actor_role": "Content Manager",
+     "tool": "Freelancer sheet, master sheet",
+     "touch_min": [
+      40,
+      135
+     ],
+     "wait": "Waits until someone sees it (no alert)",
+     "handoff_to": "Content Manager or Content Specialist",
+     "flags": [
+      "bottleneck",
+      "manual_rekey"
+     ],
+     "certainty": "stated step / assumed 2–5 min × 20–27"
+    },
+    {
+     "step": 3,
+     "action": "Find credible statistics and case studies for regulated-industry pieces",
+     "actor_role": "Writer / editor",
+     "tool": "Web, AI research",
+     "touch_min": [
+      150,
+      900
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual_rekey"
+     ],
+     "certainty": "stated pain / assumed 15–45 min × 10–20 pieces"
+    },
+    {
+     "step": 4,
+     "action": "Edit freelancer draft",
+     "actor_role": "Content Manager / Content Specialist",
+     "tool": "Docs",
+     "touch_min": [
+      600,
+      1620
+     ],
+     "wait": "Waits on 2 editors' capacity",
+     "handoff_to": "",
+     "flags": [
+      "bottleneck",
+      "single_person"
+     ],
+     "certainty": "stated step / assumed 30–60 min × 20–27"
+    },
+    {
+     "step": 5,
+     "action": "Copy edited version into client folder, separate from freelancer version",
+     "actor_role": "Content Manager / Content Specialist",
+     "tool": "Internal drive",
+     "touch_min": [
+      60,
+      135
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual_rekey",
+      "error_prone"
+     ],
+     "certainty": "stated step / assumed 3–5 min × 20–27"
+    },
+    {
+     "step": 6,
+     "action": "Send to client manager",
+     "actor_role": "Content Manager / Content Specialist",
+     "tool": "Email / sheet",
+     "touch_min": [
+      90,
+      165
+     ],
+     "wait": "",
+     "handoff_to": "Client manager",
+     "flags": [],
+     "certainty": "stated step / assumed 2–3 min × 45–55"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Thin brief → heavier edit / rework",
+     "trigger": "Brief missing client context or research",
+     "rate": "20–30% of freelancer pieces (assumed)",
+     "extra_steps": "Extra editing, rewrite, fact-check",
+     "extra_min": [
+      120,
+      486
+     ],
+     "certainty": "stated cause / assumed rate and 30–60 min"
+    },
+    {
+     "name": "Freelancer question relayed through SJ ('telephone')",
+     "trigger": "Freelancer lacks context",
+     "rate": "10–20% of freelancer pieces (assumed)",
+     "extra_steps": "Relay to CM/client and back",
+     "extra_min": [
+      20,
+      108
+     ],
+     "certainty": "stated pattern / assumed rate and 10–20 min"
+    },
+    {
+     "name": "Edited version not in the right drive",
+     "trigger": "Copy missed or misfiled",
+     "rate": "0–2 a month (assumed)",
+     "extra_steps": "Search for right version",
+     "extra_min": [
+      0,
+      40
+     ],
+     "certainty": "stated risk / assumed"
+    }
+   ],
+   "monthly_hours": [
+    18.0,
+    59.8
+   ],
+   "monthly_hours_working": "Happy: 40+150+600+60+90 = 940 to 135+900+1,620+135+165 = 2,955 min; bad: 120+20+0 = 140 to 486+108+40 = 634 min; total 1,080–3,589 min = 18.0–59.8 h; SJ share 9.5–43.1 h; drafting excluded; × $80 = $1,440–$4,784"
+  },
+  {
+   "id": "SJ-P03",
+   "process": "Client content approval",
+   "trigger": "Edited content handed to client manager in final week",
+   "owner_role": "Client manager (upload); Content Manager (revisions)",
+   "frequency": {
+    "count": 1,
+    "per": "month; 45–55 pieces (assumed)",
+    "scope": "All organic content"
+   },
+   "decision_points": [
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Approved first time",
+       "pct": 50
+      },
+      {
+       "outcome": "Changes requested (assumed 40–60%)",
+       "pct": 50
+      }
+     ],
+     "certainty": "assumed"
+    },
+    {
+     "after_step": 3,
+     "branches": [
+      {
+       "outcome": "CM answers content question",
+       "pct": null
+      },
+      {
+       "outcome": "SJ emails client directly",
+       "pct": null
+      }
+     ],
+     "certainty": "stated practice / no split"
+    }
+   ],
+   "team_volume_per_month": 47,
+   "monthly_cost_aud": [
+    1296,
+    3928
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Send content to client",
+     "actor_role": "Client manager",
+     "tool": "Email",
+     "touch_min": [
+      135,
+      275
+     ],
+     "wait": "",
+     "handoff_to": "Client",
+     "flags": [],
+     "certainty": "stated step / assumed 3–5 min × 45–55"
+    },
+    {
+     "step": 2,
+     "action": "Client reviews",
+     "actor_role": "Client",
+     "tool": "",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "Not stated – inside final week",
+     "handoff_to": "Client manager → Content Manager",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated step / wait not discussed"
+    },
+    {
+     "step": 3,
+     "action": "Feedback back to SJ; apply changes",
+     "actor_role": "Content Manager",
+     "tool": "Docs",
+     "touch_min": [
+      270,
+      990
+     ],
+     "wait": "",
+     "handoff_to": "Client manager",
+     "flags": [],
+     "certainty": "stated step / assumed 15–30 min × 40–60% of pieces"
+    },
+    {
+     "step": 4,
+     "action": "Log client feedback in freelancer's sheet",
+     "actor_role": "Content Manager",
+     "tool": "Freelancer sheets",
+     "touch_min": [
+      40,
+      162
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual_rekey"
+     ],
+     "certainty": "stated step / assumed 5–10 min"
+    },
+    {
+     "step": 5,
+     "action": "Upload approved content to client site",
+     "actor_role": "Client manager",
+     "tool": "Client CMS",
+     "touch_min": [
+      450,
+      1100
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated step / assumed 10–20 min × 45–55"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Second round of changes",
+     "trigger": "Client sends more feedback",
+     "rate": "10–20% of pieces (assumed)",
+     "extra_steps": "Re-edit, resend",
+     "extra_min": [
+      68,
+      330
+     ],
+     "certainty": "assumed 15–30 min"
+    },
+    {
+     "name": "SJ emails client directly to clarify",
+     "trigger": "CM can't answer content question",
+     "rate": "2–6 a month (assumed)",
+     "extra_steps": "Email client, wait, apply",
+     "extra_min": [
+      10,
+      90
+     ],
+     "certainty": "stated practice / assumed rate and 5–15 min"
+    }
+   ],
+   "monthly_hours": [
+    16.2,
+    49.1
+   ],
+   "monthly_hours_working": "Happy: 135+270+40+450 = 895 to 275+990+162+1,100 = 2,527 min; bad: 68+10 = 78 to 330+90 = 420 min; total 973–2,947 min = 16.2–49.1 h; SJ share 6.5–26.2 h; × $80 = $1,296–$3,928"
+  },
+  {
+   "id": "SJ-P04",
+   "process": "Internal task management",
+   "trigger": "Each new month; each status change",
+   "owner_role": "Content Manager",
+   "frequency": {
+    "count": 1,
+    "per": "month (rollover) + continuous updates",
+    "scope": "Master content sheet + 4 freelancer trackers"
+   },
+   "decision_points": [
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Sorted by sheet age (today)",
+       "pct": null
+      },
+      {
+       "outcome": "Sorted by client importance (wanted)",
+       "pct": null
+      }
+     ],
+     "certainty": "stated"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    256,
+    936
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Monthly rollover: add new month, drag formulas, fix autofill",
+     "actor_role": "Content Manager",
+     "tool": "Master sheet",
+     "touch_min": [
+      30,
+      60
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual_rekey",
+      "error_prone"
+     ],
+     "certainty": "stated (autofill broken) / assumed time"
+    },
+    {
+     "step": 2,
+     "action": "Update status by hand in two places",
+     "actor_role": "Content Manager",
+     "tool": "Master sheet",
+     "touch_min": [
+      90,
+      220
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual_rekey"
+     ],
+     "certainty": "stated step / assumed 2–4 min × 45–55"
+    },
+    {
+     "step": 3,
+     "action": "Carry client notes and feedback forward to next month and freelancer trackers (often not done)",
+     "actor_role": "Content Manager",
+     "tool": "Master sheet, freelancer trackers",
+     "touch_min": [
+      30,
+      150
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [
+      "manual_rekey",
+      "single_person"
+     ],
+     "certainty": "stated (notes don't carry over) / assumed 2–5 min × 15–30 notes"
+    },
+    {
+     "step": 4,
+     "action": "Check words per person against 20k KPI and overview tab",
+     "actor_role": "Content Manager",
+     "tool": "Overview tab",
+     "touch_min": [
+      10,
+      30
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated KPI / assumed time"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Sheet logic breaks",
+     "trigger": "KPI conditional formatting or autofill not working",
+     "rate": "Monthly (assumed)",
+     "extra_steps": "Troubleshoot formulas",
+     "extra_min": [
+      0,
+      60
+     ],
+     "certainty": "stated event / assumed time"
+    },
+    {
+     "name": "Missed client context",
+     "trigger": "Notes not carried forward",
+     "rate": "1–3 a month (assumed)",
+     "extra_steps": "Rework, re-ask CM",
+     "extra_min": [
+      30,
+      180
+     ],
+     "certainty": "stated risk / assumed 30–60 min"
+    }
+   ],
+   "monthly_hours": [
+    3.2,
+    11.7
+   ],
+   "monthly_hours_working": "Happy: 30+90+30+10 = 160 to 60+220+150+30 = 460 min; bad: 0+30 = 30 to 60+180 = 240 min; total 190–700 min = 3.2–11.7 h (all SJ); × $80 = $256–$936"
+  },
+  {
+   "id": "SJ-P05",
+   "process": "Knowledge & SOPs",
+   "trigger": "About every six months, or when search changes (latest: AI answers)",
+   "owner_role": "Content team (owner not stated)",
+   "frequency": {
+    "count": 2,
+    "per": "year",
+    "scope": "Content brief template / standards"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": [
+    96,
+    304
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Workshop the content briefing process",
+     "actor_role": "Content team (+ SEO managers – assumed)",
+     "tool": "Brief template",
+     "touch_min": [
+      60,
+      200
+     ],
+     "wait": "",
+     "handoff_to": "",
+     "flags": [],
+     "certainty": "stated cadence / assumed 3–5 people × 2–4 h ÷ 6"
+    },
+    {
+     "step": 2,
+     "action": "Update brief template and standards (e.g. answer-first)",
+     "actor_role": "Content Manager (assumed)",
+     "tool": "Brief template",
+     "touch_min": [
+      10,
+      30
+     ],
+     "wait": "",
+     "handoff_to": "Client managers, writers",
+     "flags": [],
+     "certainty": "stated changes / assumed owner and 1–3 h ÷ 6"
+    }
+   ],
+   "bad_paths": [],
+   "monthly_hours": [
+    1.2,
+    3.8
+   ],
+   "monthly_hours_working": "70–230 min/month averaged = 1.2–3.8 h; SJ share 0.4–1.6 h; × $80 = $96–$304"
+  }
+ ],
+ "pain_points": [
+  {
+   "id": "SJ-PP01",
+   "text": "Briefs, prior client comms and feedback copied by hand from master sheet into four freelancer sheets – her magic-wand pick",
+   "source": "interviewee",
+   "category": "Duplicate data entry",
+   "anchor": "Operations capacity & process",
+   "process": "Content briefing",
+   "impact": "3.3–9.0 h/month (estimated); error and missed-context risk",
+   "frequency": "Every freelancer piece",
+   "severity": 4,
+   "quote": "I copy all of the briefs and the, and the, like feedback or like any like prior, um, like comms I've had with the...",
+   "timestamp": "~04:23 (L052)",
+   "certainty": "stated",
+   "matches_existing_problem": "Content tracker and link sheets live outside Monday.com; Content delivery hinges on the Content Manager as writer, editor and contractor manager"
+  },
+  {
+   "id": "SJ-PP02",
+   "text": "No single intake or alert for new briefs – a brief can sit unseen for two days against a two-week freelancer turnaround",
+   "source": "interviewee",
+   "category": "Waiting / handoff delay",
+   "anchor": "Operations capacity & process",
+   "process": "Content briefing",
+   "impact": "Up to 2 days lost per missed brief",
+   "frequency": "Every brief; misses 5–10% (assumed)",
+   "severity": 4,
+   "quote": "if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days",
+   "timestamp": "~05:53 (L067)",
+   "certainty": "stated (event) / assumed (rate)",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP03",
+   "text": "Briefs arrive after the week-1 deadline or change mid-month",
+   "source": "interviewee",
+   "category": "Waiting / handoff delay",
+   "anchor": "Client experience & delivery",
+   "process": "Content briefing",
+   "impact": "Compressed writing window; re-allocation",
+   "frequency": "20–30% of briefs (assumed)",
+   "severity": 3,
+   "quote": "It might be the client hasn't approved something. Maybe they want to change the strategy, yada, yada.",
+   "timestamp": "~05:53 (L067)",
+   "certainty": "stated (event) / assumed (rate)",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP04",
+   "text": "Freelancer and edited versions copied by hand into client folders – risk of not finding the right version",
+   "source": "interviewee",
+   "category": "Rework / errors",
+   "anchor": "Client experience & delivery",
+   "process": "Content writing & editing",
+   "impact": "1–2.3 h/month copying (estimated); client-facing risk",
+   "frequency": "Every freelancer piece",
+   "severity": 3,
+   "quote": "we still need to differentiate between the freelancer version and the edited, like my edited version, which needs to live in obviously like our client folders",
+   "timestamp": "~08:38 (L092)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP05",
+   "text": "Content Manager is the middle person between freelancers and CMs/clients – context lost like 'telephone'",
+   "source": "interviewee",
+   "category": "Single point of failure (person)",
+   "anchor": "Leadership & dependency",
+   "process": "Content writing & editing",
+   "impact": "Rework; delays on questions",
+   "frequency": "Freelancer pieces",
+   "severity": 4,
+   "quote": "It's like telephone, it's like telephony sort of.",
+   "timestamp": "~17:20 (L173)",
+   "certainty": "stated",
+   "matches_existing_problem": "Content delivery hinges on the Content Manager as writer, editor and contractor manager"
+  },
+  {
+   "id": "SJ-PP06",
+   "text": "Incomplete briefs drive freelancer rework and longer editing",
+   "source": "interviewee (Austin restated; she agreed)",
+   "category": "Rework / errors",
+   "anchor": "Operations capacity & process",
+   "process": "Content writing & editing",
+   "impact": "2–8.1 h/month extra editing (assumed)",
+   "frequency": "20–30% of freelancer pieces (assumed)",
+   "severity": 3,
+   "quote": "the editing at the end of it will be much quicker because they've got like a much more complete brief",
+   "timestamp": "~15:23 (L163)",
+   "certainty": "stated (cause) / assumed (time)",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP07",
+   "text": "Credible statistics and case studies for regulated industries (finance; dental compliance) hard to find; no shared research source",
+   "source": "interviewee",
+   "category": "Manual / repetitive work",
+   "anchor": "Technology, AI & stack",
+   "process": "Content writing & editing",
+   "impact": "2.5–15 h/month research (assumed); compliance risk",
+   "frequency": "Regulated-industry pieces",
+   "severity": 3,
+   "quote": "it's like has been annoying to find the information from legitimate websites and legitimate case studies that have been done.",
+   "timestamp": "~11:59 (L127)",
+   "certainty": "stated (pain) / assumed (time)",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP08",
+   "text": "Master content sheet is a band-aid: status typed in two places; autofill and 20k KPI formatting broken",
+   "source": "interviewee",
+   "category": "Manual / repetitive work",
+   "anchor": "Technology, AI & stack",
+   "process": "Internal task management",
+   "impact": "1.5–4.7 h/month (estimated)",
+   "frequency": "Continuous",
+   "severity": 2,
+   "quote": "Yeah, they don't even auto-fill properly.",
+   "timestamp": "~22:55 (L263)",
+   "certainty": "stated",
+   "matches_existing_problem": "Content tracker and link sheets live outside Monday.com; partly Content stalls at client approval – or the tracker can't show what's finished"
+  },
+  {
+   "id": "SJ-PP09",
+   "text": "Client notes and feedback don't carry forward to next month or freelancer trackers – knowledge sits with Sarah",
+   "source": "interviewee",
+   "category": "Single point of failure (person)",
+   "anchor": "Leadership & dependency",
+   "process": "Internal task management",
+   "impact": "Missed context, rework; handover risk",
+   "frequency": "Monthly",
+   "severity": 4,
+   "quote": "There's notes in here, right? But they don't get, like, they don't get copied over to the next one.",
+   "timestamp": "~24:36 (L275)",
+   "certainty": "stated",
+   "matches_existing_problem": "Client knowledge lives in people's heads, not per client; Content delivery hinges on the Content Manager as writer, editor and contractor manager"
+  },
+  {
+   "id": "SJ-PP10",
+   "text": "Work sorted by sheet age, not client importance (incl. within tier)",
+   "source": "interviewee",
+   "category": "Missing visibility",
+   "anchor": "Client experience & delivery",
+   "process": "Internal task management",
+   "impact": "Higher-value clients not prioritised",
+   "frequency": "Monthly",
+   "severity": 2,
+   "quote": "this is just sorted by age. You know, this is an arbitrary sorting. So really it should be like importance",
+   "timestamp": "~25:04 (L283–L284)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP11",
+   "text": "Volume grew ~40k → ~100k words/month; spreadsheet set-up won't scale",
+   "source": "interviewee",
+   "category": "Capacity / overload",
+   "anchor": "Operations capacity & process",
+   "process": "Internal task management",
+   "impact": "Growth constraint",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "now we're like on 100,000 so I'm like very conscious like as we grow as we grow it's not going to be like sustainable",
+   "timestamp": "~06:53 (L069)",
+   "certainty": "stated",
+   "matches_existing_problem": "Content tracker and link sheets live outside Monday.com"
+  },
+  {
+   "id": "SJ-PP12",
+   "text": "Content questions routed through client managers lose detail; Sarah emails some clients directly",
+   "source": "interviewee",
+   "category": "Unclear ownership",
+   "anchor": "Client experience & delivery",
+   "process": "Client content approval",
+   "impact": "Minor delay; informal client contact",
+   "frequency": "Some clients",
+   "severity": 2,
+   "quote": "Like, so if you have a question, just ask the client.",
+   "timestamp": "~18:42 (L195)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  },
+  {
+   "id": "SJ-PP13",
+   "text": "Growth will bring junior writers needing editing and editor training – editing sits with two people",
+   "source": "interviewee",
+   "category": "Capacity / overload",
+   "anchor": "Leadership & dependency",
+   "process": "Content writing & editing",
+   "impact": "Future editing bottleneck",
+   "frequency": "As team grows",
+   "severity": 2,
+   "quote": "if we have junior staff members, we will need to edit their work. Plus, it would be good to train junior staff members up",
+   "timestamp": "~26:08 (L296)",
+   "certainty": "stated",
+   "matches_existing_problem": "Content delivery hinges on the Content Manager as writer, editor and contractor manager"
+  },
+  {
+   "id": "SJ-PP14",
+   "text": "One client sends a steady stream of ad hoc content work",
+   "source": "interviewee",
+   "category": "Capacity / overload",
+   "anchor": "Operations capacity & process",
+   "process": "Content briefing",
+   "impact": "Workload spikes",
+   "frequency": "Continuous",
+   "severity": 2,
+   "quote": "we have this one client that's always like giving like work all the time.",
+   "timestamp": "~15:15 (L162)",
+   "certainty": "stated",
+   "matches_existing_problem": "new"
+  }
+ ],
+ "bottlenecks": [
+  {
+   "id": "SJ-B01",
+   "step": "Brief intake (SJ-P01 step 2)",
+   "waiting_on": "Sarah's next calendar-reminder check or noticing an email/tag",
+   "typical_wait": "Up to 2 days; a Friday miss loses the weekend",
+   "affected": "All 45–55 briefs/month (assumed); misses 5–10%",
+   "knock_on": "Eats into freelancers' two-week turnaround"
+  },
+  {
+   "id": "SJ-B02",
+   "step": "Brief arrival (SJ-P01 step 1)",
+   "waiting_on": "Client managers – client approvals or strategy changes",
+   "typical_wait": "After the week-1 deadline – share not stated",
+   "affected": "20–30% of briefs (assumed)",
+   "knock_on": "Shorter writing window; final-week QA crunch"
+  },
+  {
+   "id": "SJ-B03",
+   "step": "Editing freelancer drafts (SJ-P02 steps 2 and 4)",
+   "waiting_on": "Two editors; no alert when a draft lands",
+   "typical_wait": "Not stated",
+   "affected": "20–27 freelancer pieces/month (assumed)",
+   "knock_on": "Handover to CMs waits; all QA on two people"
+  },
+  {
+   "id": "SJ-B04",
+   "step": "Freelancer questions (SJ-P02 bad path)",
+   "waiting_on": "Sarah relaying to CM or client and back",
+   "typical_wait": "Not stated",
+   "affected": "10–20% of freelancer pieces (assumed)",
+   "knock_on": "Delay and information loss ('telephone')"
+  },
+  {
+   "id": "SJ-B05",
+   "step": "Client review (SJ-P03 step 2)",
+   "waiting_on": "Client via CM",
+   "typical_wait": "Not stated – final week",
+   "affected": "All pieces",
+   "knock_on": "Publishing slips if feedback is late (assumed)"
+  }
+ ],
+ "suggestions": [
+  {
+   "id": "SJ-S01",
+   "idea": "Fix freelancer briefing first (magic-wand pick)",
+   "source": "interviewee",
+   "reaction": "Chose freelancer briefing when Austin asked for one fix",
+   "process": "Content briefing",
+   "quote": "Definitely the briefing the freelancer part.",
+   "timestamp": "~19:31 (L209)"
+  },
+  {
+   "id": "SJ-S02",
+   "idea": "Automate the content workflow on Monday.com with Sid – 'the biggest opportunity'",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Internal task management",
+   "quote": "Or even if you can help him out with that, I think that's where the biggest opportunity for our workflow will help.",
+   "timestamp": "~02:08 (L029)"
+  },
+  {
+   "id": "SJ-S03",
+   "idea": "Client managers brief once, in one place, and it flows to everyone",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content briefing",
+   "quote": "if like the client managers just brief it in one spot and then it goes out to all of the separate people",
+   "timestamp": "~06:39 (L068)"
+  },
+  {
+   "id": "SJ-S04",
+   "idea": "Less copy-paste between spreadsheets – one shared workspace",
+   "source": "interviewer",
+   "reaction": "Austin summarised; interviewee agreed",
+   "process": "Content briefing",
+   "quote": "it would just be good if there's less copy and pasting on different spreadsheets.",
+   "timestamp": "~08:20 (L089)"
+  },
+  {
+   "id": "SJ-S05",
+   "idea": "Auto-assign briefs, then ping Sarah to check",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content briefing",
+   "quote": "even if it would, like, assign automatically and then, like, ping me to be, like, you need to check this",
+   "timestamp": "~23:25 (L264)"
+  },
+  {
+   "id": "SJ-S06",
+   "idea": "Ping the assigned editor when a freelancer submits",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content writing & editing",
+   "quote": "would be awesome if like this edit this person who's assigned to be the editor is the one that's pinged",
+   "timestamp": "~24:15 (L272)"
+  },
+  {
+   "id": "SJ-S07",
+   "idea": "Freelancer boards on Monday.com, starting with the two contracted freelancers",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content briefing",
+   "quote": "if we're able to get those two on, I think that would be a really big help.",
+   "timestamp": "~27:14 (L307)"
+  },
+  {
+   "id": "SJ-S08",
+   "idea": "Retire the master sheet and run everything on Monday.com (long term)",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Internal task management",
+   "quote": "I would love to retire the sheet and just put everything on Monday is my, like, ultimate goal, but, like, baby steps.",
+   "timestamp": "~22:25 (L257)"
+  },
+  {
+   "id": "SJ-S09",
+   "idea": "Industry knowledge bank of statistics, case studies and credible sites to check and enrich briefs (finance first)",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content briefing",
+   "quote": "it would be good to sort of have a bank of information or like group of websites or something that like the briefs can be checked alongside",
+   "timestamp": "~10:40 (L124)"
+  },
+  {
+   "id": "SJ-S10",
+   "idea": "Research bot like Joe's Tina bot, built by industry rather than per brief",
+   "source": "interviewee",
+   "reaction": "Austin reframed as a research bot tailored to content briefs; she narrowed to industry level",
+   "process": "Content briefing",
+   "quote": "the Joe's like got that Tina bot thing that like checks against all of the industry statistics.",
+   "timestamp": "~11:23 (L125)"
+  },
+  {
+   "id": "SJ-S11",
+   "idea": "Client-specific knowledge banks for clients paying above a set amount",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content briefing",
+   "quote": "we should be doing it by client if they're paying a certain amount",
+   "timestamp": "~13:26 (L139)"
+  },
+  {
+   "id": "SJ-S12",
+   "idea": "Up-to-date facts and compliance checks for dental and regulated content",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content writing & editing",
+   "quote": "Up to date, up to date facts and... checking to see if anything's like... non-compliant would be really helpful.",
+   "timestamp": "~14:38 (L152–L154)"
+  },
+  {
+   "id": "SJ-S13",
+   "idea": "Fix the root cause – better briefs – not just Monday.com boards",
+   "source": "interviewer",
+   "reaction": "Agreed ('Yeah, yeah, yeah'); called it a work in progress",
+   "process": "Content briefing",
+   "quote": "That also doesn't solve the root cause that the briefs aren't good enough",
+   "timestamp": "~19:52 (L217)"
+  },
+  {
+   "id": "SJ-S14",
+   "idea": "Sort content work by client importance, including within tiers",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Internal task management",
+   "quote": "It should be like this, the level of importance.",
+   "timestamp": "~25:13 (L284)"
+  },
+  {
+   "id": "SJ-S15",
+   "idea": "Train junior staff to edit as the team grows",
+   "source": "interviewee",
+   "reaction": "",
+   "process": "Content writing & editing",
+   "quote": "it would be good to train junior staff members up to, like, learn how to start editing work as well.",
+   "timestamp": "~26:08 (L296)"
+  },
+  {
+   "id": "SJ-S16",
+   "idea": "Absorb more volume with more freelancers",
+   "source": "interviewee",
+   "reaction": "Reply to Austin's '200,000 more words' hypothetical",
+   "process": "Content writing & editing",
+   "quote": "we just would get more freelancers, but that wouldn't be that bad.",
+   "timestamp": "~17:53 (L184)"
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "SJ-O02",
+   "fixes": [
+    "SJ-PP01",
+    "SJ-PP04",
+    "SJ-PP05",
+    "SJ-PP09",
+    "SJ-PP11"
+   ],
+   "lens": "Change the process",
+   "change": "Freelancers work on their own Monday.com boards (start with the two contracted freelancers); brief, client notes and feedback linked from one per-client record, not copied; per-client notes persist month to month",
+   "matches_existing_solution": "new (related: AI business brain – per-client knowledge)",
+   "candidate_tool": "Monday.com connected boards / mirror columns",
+   "hours_saved_month": [
+    3.0,
+    12.9
+   ],
+   "effort": "M",
+   "prerequisites": "Freelancer Monday.com access; per-client record structure; migrate notes",
+   "adoption_risk": "M – freelancers must adopt Monday.com; already in progress with Sid",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Minutes of copy-paste per freelancer piece",
+     "measured_by": "Time log / process audit",
+     "baseline": "unknown (assumed 10–20 min)",
+     "baseline_quote": "It seems like very double-handedly at that point.",
+     "target": "≤ 2 min",
+     "type": "leading"
+    },
+    {
+     "kpi": "% of active clients with an up-to-date notes record visible to all writers",
+     "measured_by": "Monday.com client items",
+     "baseline": "Notes not carried over",
+     "baseline_quote": "But they don't get, like, they don't get copied over to the next one.",
+     "target": "100%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 48
+   },
+   "rank": 1,
+   "tag": "Strategic",
+   "rank_reason": "Her magic-wand pick; removes double handling and the 'break my leg' knowledge risk; already started with Sid"
+  },
+  {
+   "id": "SJ-O01",
+   "fixes": [
+    "SJ-PP02",
+    "SJ-PP03",
+    "SJ-PP08",
+    "SJ-PP14",
+    "SJ-B01",
+    "SJ-B03"
+   ],
+   "lens": "Automate",
+   "change": "Single brief-intake route in Monday.com (form/item per brief): rule-based auto-assignment Sarah confirms; alerts to Sarah on new/changed briefs, to writer on assignment, to editor on submission; status in one place",
+   "matches_existing_solution": "new (related: client approval portal)",
+   "candidate_tool": "Monday.com forms and automations; Make.com",
+   "hours_saved_month": [
+    3.8,
+    16.1
+   ],
+   "effort": "M",
+   "prerequisites": "CMs brief only via form; board design with Sid; assignment rules",
+   "adoption_risk": "M – CMs must change where they drop briefs; keep overview visibility",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Hours from brief submitted to writer assigned",
+     "measured_by": "Monday.com item timestamps",
+     "baseline": "Up to 2 days when missed",
+     "baseline_quote": "Maybe it means that I would see it for two days",
+     "target": "≤ 4 working hours",
+     "type": "leading"
+    },
+    {
+     "kpi": "% of briefs submitted through the single intake",
+     "measured_by": "Monday.com form log",
+     "baseline": "0% – sheet, email and tags",
+     "baseline_quote": "it's annoying too when you miss something because everything lives in different spreadsheets and people are just getting tagged.",
+     "target": "100%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 48
+   },
+   "rank": 2,
+   "tag": "Strategic",
+   "rank_reason": "Stops missed briefs and manual routing; largest admin hours pool"
+  },
+  {
+   "id": "SJ-O04",
+   "fixes": [
+    "SJ-PP03",
+    "SJ-PP05",
+    "SJ-PP06",
+    "SJ-PP12",
+    "SJ-B02",
+    "SJ-B04"
+   ],
+   "lens": "Change the process",
+   "change": "Brief minimum standard enforced at intake (client context, prior feedback, audience, sources, compliance notes, due date); late briefs roll to a defined slot; freelancers ask questions in the item thread and the CM answers directly",
+   "matches_existing_solution": "new",
+   "candidate_tool": "Monday.com required form fields and item updates; existing brief template",
+   "hours_saved_month": [
+    1.1,
+    7.2
+   ],
+   "effort": "S",
+   "prerequisites": "CM agreement; Karl / Laura back the cut-off",
+   "adoption_risk": "M – CMs carry more briefing effort",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "% of briefs in by end of week 1",
+     "measured_by": "Monday.com submission dates",
+     "baseline": "unknown",
+     "baseline_quote": "But obviously, there's some things that happen with that.",
+     "target": "≥ 90%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Freelancer pieces needing major rework",
+     "measured_by": "Editor flag on item",
+     "baseline": "unknown",
+     "baseline_quote": "",
+     "target": "under 10%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 36
+   },
+   "rank": 3,
+   "tag": "Quick win",
+   "rank_reason": "Process rule with no new tech; attacks the root cause Austin and Sarah agreed on"
+  },
+  {
+   "id": "SJ-O05",
+   "fixes": [
+    "SJ-PP08",
+    "SJ-PP10"
+   ],
+   "lens": "Change the process",
+   "change": "Until the sheet is retired: fix KPI conditional formatting and status formula (enter once); add a priority column (tier + client value) and sort by it; carry priority into Monday.com",
+   "matches_existing_solution": "new",
+   "candidate_tool": "Google Sheets; Monday.com priority column",
+   "hours_saved_month": [
+    0.2,
+    1.5
+   ],
+   "effort": "S",
+   "prerequisites": "Agreed client priority ranking (Karl / Laura)",
+   "adoption_risk": "L",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Months where KPI and status columns are correct without manual fixes",
+     "measured_by": "Sheet check",
+     "baseline": "Not working",
+     "baseline_quote": "But I don't know why it's not working.",
+     "target": "Every month",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 2,
+    "confidence": 4,
+    "ease": 4,
+    "priority": 32
+   },
+   "rank": 4,
+   "tag": "Fill-in",
+   "rank_reason": "Shown on screen; quick, but the sheet is being retired"
+  },
+  {
+   "id": "SJ-O03",
+   "fixes": [
+    "SJ-PP06",
+    "SJ-PP07"
+   ],
+   "lens": "Augment",
+   "change": "Industry research packs (finance first, then dental, automotive, education, liquidation): vetted sources, current statistics, case studies and compliance rules in a Claude project per industry; research section pulled into each brief; client-level packs for top-paying clients later",
+   "matches_existing_solution": "brief & proposal generator; AI business brain (industry layer)",
+   "candidate_tool": "Claude Projects; Joe's OpenClaw statistics bot as model",
+   "hours_saved_month": [
+    1.5,
+    13.1
+   ],
+   "effort": "M",
+   "prerequisites": "Source list per industry; compliance rules; refresh owner",
+   "adoption_risk": "L–M – she asked for it; stale statistics risk",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Editing minutes per freelancer piece (regulated industries)",
+     "measured_by": "Time log",
+     "baseline": "unknown (assumed 30–60 min)",
+     "baseline_quote": "",
+     "target": "–25%",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Briefs with a sourced research section",
+     "measured_by": "Brief audit",
+     "baseline": "unknown",
+     "baseline_quote": "it's like has been annoying to find the information from legitimate websites and legitimate case studies that have been done.",
+     "target": "100% of finance and dental briefs",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 27
+   },
+   "rank": 5,
+   "tag": "Strategic",
+   "rank_reason": "Closest tag – Impact 3 / Ease 3 not covered. Strong interviewee demand; hours poorly evidenced; needs an owner"
+  },
+  {
+   "id": "SJ-O06",
+   "fixes": [
+    "SJ-PP05",
+    "SJ-PP13",
+    "SJ-B03"
+   ],
+   "lens": "People & policy",
+   "change": "Written editing checklist / style guide; Content Specialist and contracted freelancers trained to self- and peer-edit; named backup for Sarah's clients",
+   "matches_existing_solution": "team wiki / L&D",
+   "candidate_tool": "Notion (Company Home) or Google Docs",
+   "hours_saved_month": [
+    0,
+    0
+   ],
+   "effort": "M",
+   "prerequisites": "Time to write checklist; agreement on roles",
+   "adoption_risk": "M – letting go of QA takes trust",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Share of freelancer pieces edited by someone other than Sarah",
+     "measured_by": "Monday.com editor field",
+     "baseline": "unknown – two editors today",
+     "baseline_quote": "me and the other person in the content team, we also edit all of the freelancers work.",
+     "target": "≥ 50%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Clients with a named backup writer/editor",
+     "measured_by": "Client list",
+     "baseline": "unknown",
+     "baseline_quote": "If someone has to take this over, they won't.",
+     "target": "100% of Tier 1 / Tier 2",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 27
+   },
+   "rank": 6,
+   "tag": "Strategic",
+   "rank_reason": "Closest tag – Impact 3 / Ease 3 not covered. Continuity and growth safeguard; no direct hours saved"
+  },
+  {
+   "id": "SJ-O07",
+   "fixes": [
+    "SJ-PP04"
+   ],
+   "lens": "Automate",
+   "change": "When a piece is marked edited, an automation files the edited version in the client's Drive folder with a standard name and links it on the item",
+   "matches_existing_solution": "new",
+   "candidate_tool": "Monday.com + Make.com + Google Drive",
+   "hours_saved_month": [
+    0.6,
+    2.5
+   ],
+   "effort": "S",
+   "prerequisites": "Client folder structure and naming convention",
+   "adoption_risk": "L",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Edited versions filed in correct client folder",
+     "measured_by": "Drive audit",
+     "baseline": "unknown – manual copy",
+     "baseline_quote": "we have to copy it into our hard drive too.",
+     "target": "100%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 2,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 24
+   },
+   "rank": 7,
+   "tag": "Fill-in",
+   "rank_reason": "Small time saving; removes a version-control risk"
+  }
+ ],
+ "strengths": [
+  {
+   "text": "Master sheet overview tab shows assignments and volume growth – wanted in any new system",
+   "quote": "i love this like in this overview tab you can see You see everyone's, what everybody's assigned to.",
+   "timestamp": "~26:29 (L297)"
+  },
+  {
+   "text": "Brief standard refreshed ~6-monthly – latest for AI-answer visibility (answer first)",
+   "quote": "the last one was you know about like how to better optimize the content so that it shows up in ai",
+   "timestamp": "~20:14 (L223)"
+  },
+  {
+   "text": "Clear monthly rhythm: briefs week 1, writing weeks 1–3, QA and approval final week",
+   "quote": "within the first like three weeks. And then after that, we send it back to the client manager",
+   "timestamp": "~03:25 (L045)"
+  },
+  {
+   "text": "Editing is straightforward once a freelancer knows the client",
+   "quote": "once a freelancer's like got the client and like understood it, then the editing's like relatively straightforward.",
+   "timestamp": "~15:59 (L165)"
+  },
+  {
+   "text": "Freelancers give overflow capacity",
+   "quote": "Having freelancers is like good and bad. We have, you know, overflow work",
+   "timestamp": "~15:52 (L164)"
+  },
+  {
+   "text": "AI already used for research and organising ideas; others use Claude for briefs",
+   "quote": "we do like use AI obviously from like a research, research sort of stuff and like organizing, thoughts",
+   "timestamp": "~11:23 (L125)"
+  },
+  {
+   "text": "Enjoys the writing and client work",
+   "quote": "and i enjoy doing it so yeah that's all good",
+   "timestamp": "~15:23 (L163)"
+  },
+  {
+   "text": "Monday.com migration under way, starting with freelancer boards",
+   "quote": "I am, yeah, meeting with Sid tomorrow to get the freelancers set up with their own board on Monday.",
+   "timestamp": "~19:41 (L213)"
+  }
+ ],
+ "facts": [
+  {
+   "value": "~40,000 → ~100,000",
+   "unit": "words per month",
+   "context": "Volume when Sarah started vs now",
+   "quote": "It was like, 40,000 words or something and now we're like on 100,000",
+   "timestamp": "~06:53 (L069)",
+   "certainty": "stated"
+  },
+  {
+   "value": "60 → 100",
+   "unit": "thousand words per month (unit assumed)",
+   "context": "Growth shown in master sheet",
+   "quote": "you can see how it's, like, grown already from 60 to 100",
+   "timestamp": "~22:25 (L257)",
+   "certainty": "stated (unit assumed)"
+  },
+  {
+   "value": "20,000",
+   "unit": "words per person per month",
+   "context": "Individual KPI",
+   "quote": "our KPI is 20,000 words per person.",
+   "timestamp": "~22:55 (L263)",
+   "certainty": "stated"
+  },
+  {
+   "value": "4",
+   "unit": "freelancers",
+   "context": "Each with own sheet",
+   "quote": "we've got like four freelancers at the moment.",
+   "timestamp": "~04:50 (L055)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2",
+   "unit": "freelancers on contract",
+   "context": "Set number of words per month",
+   "quote": "two of the freelancers are on contract. So they have a set number of words per month.",
+   "timestamp": "~27:14 (L307)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2",
+   "unit": "editors",
+   "context": "Sarah + one other edit all freelancer work",
+   "quote": "me and the other person in the content team, we also edit all of the freelancers work.",
+   "timestamp": "~05:07 (L059)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Week 1",
+   "unit": "brief deadline",
+   "context": "Client managers' briefs due",
+   "quote": "the briefs must be in by the first week of the month.",
+   "timestamp": "~05:53 (L067)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2",
+   "unit": "weeks",
+   "context": "Freelancer turnaround agreement",
+   "quote": "because of the agreement that we have with the freelancers, it can only be due within the next two week two weeks",
+   "timestamp": "~05:53 (L067)",
+   "certainty": "stated"
+  },
+  {
+   "value": "3 + 1",
+   "unit": "weeks",
+   "context": "Writing window, then QA/feedback/approval",
+   "quote": "within the first like three weeks.",
+   "timestamp": "~03:25 (L045)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Up to 2",
+   "unit": "days",
+   "context": "Delay when a brief lands on a non-check day",
+   "quote": "Maybe it means that I would see it for two days",
+   "timestamp": "~05:53 (L067)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~2",
+   "unit": "working days",
+   "context": "Lost when a delay falls on a Friday",
+   "quote": "if it's a delay on a Friday, then that's already a whole weekend when you've effectively lost like two working days",
+   "timestamp": "~10:11 (L118)",
+   "certainty": "stated"
+  },
+  {
+   "value": "1–2",
+   "unit": "Tier 1 clients",
+   "context": "Direct client contact",
+   "quote": "maybe like two of our tier one clients, I have more direct interaction with them.",
+   "timestamp": "~18:04 (L188)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~6",
+   "unit": "months",
+   "context": "Brief-process refresh cycle",
+   "quote": "Every sort of six months or so we like workshop the content briefing process.",
+   "timestamp": "~10:40 (L124)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Oct / Nov 2024",
+   "unit": "start date",
+   "context": "Master content sheet in use since",
+   "quote": "this is probably November from the year prior, 2024.",
+   "timestamp": "~22:21 (L254)",
+   "certainty": "stated (also 'last year in October', L249)"
+  },
+  {
+   "value": "Blog over service pages",
+   "unit": "content mix",
+   "context": "Service pages possibly no longer written",
+   "quote": "especially if we're not even doing service pages anymore, if we're like focusing on writing blog content.",
+   "timestamp": "~13:43 (L140)",
+   "certainty": "stated (hedged)"
+  }
+ ],
+ "tools": {
+  "official": [
+   "Master content spreadsheet (Google Sheets – words/month, assignments, overview tab, KPI formatting)",
+   "Four freelancer tracking sheets (Google Sheets)",
+   "Google Drive client folders",
+   "Email",
+   "Google Calendar reminders",
+   "Content brief template",
+   "Monday.com (migration starting – freelancer boards with Sid)",
+   "Client CMS (upload by client managers)"
+  ],
+  "shadow": [
+   "Calendar reminders to check for new briefs",
+   "AI (likely Claude) for research and organising ideas",
+   "Claude used by others to generate briefs",
+   "Joe's Tina bot (OpenClaw) for industry statistics – cited as a model",
+   "Emailing clients directly to bypass relays"
+  ],
+  "duplicated_data": [
+   "Briefs and client comms: master sheet → freelancer sheets",
+   "Client feedback and notes: master sheet, freelancer sheets, Sarah's memory",
+   "Drafts: freelancer version vs edited version in client folder",
+   "Status: two places in the master sheet"
+  ],
+  "missing_access": [
+   "Single brief intake with alerts",
+   "Per-client record of notes and feedback that persists",
+   "Client importance / value ranking",
+   "Vetted industry research and statistics source (finance, dental compliance, automotive, education, liquidation)"
+  ]
+ },
+ "dependencies": [
+  {
+   "what": "Client notes, feedback history and context for her clients",
+   "who_role": "Content Manager",
+   "if_absent": "Writers miss context; nobody can take over ('If someone has to take this over, they won't.')"
+  },
+  {
+   "what": "Brief intake, allocation and freelancer briefing",
+   "who_role": "Content Manager",
+   "if_absent": "Briefs sit unassigned; freelancer window shrinks"
+  },
+  {
+   "what": "Editing / QA of all freelancer work",
+   "who_role": "Content Manager + Content Specialist (inferred)",
+   "if_absent": "Freelancer content can't go to client managers"
+  },
+  {
+   "what": "Master content sheet logic and history",
+   "who_role": "Content Manager",
+   "if_absent": "Tracker breaks; KPI/overview lost"
+  },
+  {
+   "what": "Monday.com content automation",
+   "who_role": "Technical SEO Specialist (Sid)",
+   "if_absent": "Migration stalls"
+  },
+  {
+   "what": "Industry statistics bot (model for research bot)",
+   "who_role": "Founder (Joe) – Tina / OpenClaw agent",
+   "if_absent": "Know-how sits with the founder"
+  }
+ ],
+ "follow_ups": {
+  "questions": [
+   "Sarah: briefs per month and share to freelancers?",
+   "Sarah: minutes for allocation, freelancer briefing per piece and editing per freelancer piece; share of briefs late or changed?",
+   "Sarah: own writing volume and share of week writing vs admin?",
+   "Sarah: who is the second editor (Hayley Tantau?) and which two freelancers are contracted (Jess Kidd, Chloe Moss?)",
+   "Sarah: who decides brief-template changes and attends the 6-monthly workshop?",
+   "Sid: Monday.com plan for content and date to retire the master sheet?",
+   "Karl / Laura: who decides adding freelancers; is there a client priority ranking?",
+   "Joe: what does the Tina bot do for industry statistics – same Tina Slack agent as pacing/agenda updates?"
+  ],
+  "contradictions": [
+   "Start volume 40,000 words (L069) vs sheet growth 'from 60 to 100' (L257)",
+   "Sheet start 'last year in October' (L249) vs 'November … 2024' (L254)",
+   "100k words now vs context pack ~93k average – consistent if 100k is current",
+   "'Four freelancers' vs five contractor names in context pack",
+   "Tina described as industry-statistics bot vs context pack's pacing/agenda bot",
+   "Admin 'doesn't even dominate' (L104) vs 'most annoying part of this job' (L336) – pain is frustration and risk more than hours",
+   "Writing time excluded; SJ high-end share plus writing would exceed one FTE"
+  ],
+  "data_requests": [
+   "Master content spreadsheet incl. overview tab (Sarah – agreed L246, L327)",
+   "Four freelancer tracking sheets (Sarah)",
+   "Current content brief template and last workshop changes (Sarah)",
+   "Monday.com content/freelancer board design (Sid)",
+   "Contracted freelancers' word commitments (Sarah / Karl)",
+   "One month of brief-drop vs allocation dates (Sarah)"
+  ],
+  "verify": [
+   "40k → 100k words/month growth – check sheet totals",
+   "Up-to-2-day delay on missed briefs – check dates",
+   "20,000-word KPI per person – check with Karl / Laura",
+   "Austin's '36 is more than 20,000' (L261) – a writer at ~36k words?",
+   "'Not doing service pages anymore' (L140) – confirm content mix",
+   "Unresolved transcription: 'Superlative' (L041), 'blind clients' (L144), 'an advisor … liquidation' (L147–L148)"
+  ]
+ }
+}

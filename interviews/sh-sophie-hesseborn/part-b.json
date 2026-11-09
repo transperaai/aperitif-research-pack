@@ -1,0 +1,2335 @@
+{
+  "interview": {
+    "id": "SH",
+    "name": "Sophie Hesseborn",
+    "role": "Senior Performance Marketing Manager",
+    "team": "Performance",
+    "date": "2026-10-29",
+    "minutes": 60,
+    "clients_managed": 12
+  },
+  "time_allocation": [
+    {
+      "activity": "Strategy, client comms and briefing (dominant)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "because I'm doing less of the actual implementation, it's more around strategies, client comms, Overall and briefing.",
+      "timestamp": "~30:01 (L285)",
+      "certainty": "stated (no number); ~60% of mapped time estimated from section 2 midpoints"
+    },
+    {
+      "activity": "Ad copy review and feedback to implementers",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "the ad copywriting, reviewing the ad copywriting, giving feedback on the copy",
+      "timestamp": "~30:11 (L287)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Briefing implementers (Michaela / Tati)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "It's the briefing that takes... time in my day.",
+      "timestamp": "~53:14 (L570–L571)",
+      "certainty": "stated; 4–8 h/month assumed"
+    },
+    {
+      "activity": "Client WIPs",
+      "pct": null,
+      "hours_per_week": 2.5,
+      "billable": true,
+      "quote": "And that's between half and for an hour to 45 minute sessions.",
+      "timestamp": "~51:40 (L551)",
+      "certainty": "stated length 30–45 min; ~17.7 meetings/month estimated → 8.9–13.3 h/month (~2–3 h/week)"
+    },
+    {
+      "activity": "Pacing and budget checks",
+      "pct": 13,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "And this would be a check across every single platform and channel that the client is on.",
+      "timestamp": "~44:16 (L445)",
+      "certainty": "stated step; % estimated (8.7–14.8 h/month)"
+    },
+    {
+      "activity": "Reporting (monthly AgencyAnalytics + weekly e-com sheets)",
+      "pct": 10,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "And that's something that we manually do before 11 a.m. every single Monday.",
+      "timestamp": "~32:02 (L303)",
+      "certainty": "stated cadence; hours assumed (6.3–12.5 h/month)"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Launch new campaigns / ads / copy",
+      "decider_role": "Client",
+      "waiting_role": "Senior PMM, Michaela/Tati",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Budget pivot within agreed monthly total",
+      "decider_role": "Senior PMM (client informed)",
+      "waiting_role": "",
+      "typical_wait": "same day",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Change total budget / add a channel",
+      "decider_role": "Client",
+      "waiting_role": "Senior PMM",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "In-platform budget change after a pacing alert (Sophie wants it kept human)",
+      "decider_role": "Senior PMM",
+      "waiting_role": "Michaela/Tati",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Who produces creative",
+      "decider_role": "Set by client tier",
+      "waiting_role": "",
+      "typical_wait": "",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Turnaround priority",
+      "decider_role": "Tier / ad spend rule",
+      "waiting_role": "",
+      "typical_wait": "",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Tracking fix",
+      "decider_role": "Senior PMM + Conversion Tracking Specialist (contractor)",
+      "waiting_role": "Client",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "Bloomfield Estate",
+      "tier": "Not in context pack",
+      "context": "House-and-land packages; leads take 8–12 months to convert; client says lead quality is good"
+    },
+    {
+      "client": "DDEG (transcribed DDG/DGG; raised by Austin)",
+      "tier": "Tier 1 (SEO list) – assumed match",
+      "context": "Often asks for new service lines; new campaign needs research and copywriting before build"
+    },
+    {
+      "client": "Unnamed truck-parts client",
+      "tier": "",
+      "context": "Monthly specials; PMax refreshed monthly with static imagery"
+    },
+    {
+      "client": "Unnamed bank client",
+      "tier": "",
+      "context": "Separate home-loan and refinancing funnels (possibly Northern Inland Credit Union – unconfirmed)"
+    },
+    {
+      "client": "Unnamed e-com client (AU/NZ)",
+      "tier": "",
+      "context": "AU vs NZ URLs; $150 vs $170 free-shipping thresholds checked in QA"
+    },
+    {
+      "client": "Unnamed e-com client (Monday sheets)",
+      "tier": "",
+      "context": "Four spreadsheets updated manually before 11 am each Monday for finance/leadership meeting"
+    },
+    {
+      "client": "Unnamed client on Google, Bing and ChatGPT ads",
+      "tier": "",
+      "context": "Multi-channel example"
+    },
+    {
+      "client": "Unnamed recent Tier 1 client",
+      "tier": "Tier 1",
+      "context": "Recently gained; one client has weekly catch-ups"
+    }
+  ],
+  "processes": [
+    {
+      "id": "SH-P01",
+      "process": "Paid media – pacing & budget management",
+      "trigger": "First of month; mid-month check; Tina Slack bot pacing alerts; client budget change",
+      "owner_role": "Senior Performance Marketing Manager",
+      "frequency": {
+        "count": 2,
+        "per": "month per client (start + mid-month) + ad hoc budget changes",
+        "scope": "~12 clients, every channel"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "On pace – no action",
+              "pct": null
+            },
+            {
+              "outcome": "Over/under pacing – adjust",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        },
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Pivot within total – inform client",
+              "pct": null
+            },
+            {
+              "outcome": "Change total – client approval",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        696,
+        1184
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Open each ad account; check daily spend vs monthly budget per channel",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Ad platforms, pacing sheet",
+          "touch_min": [
+            15,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed (per client; context pack 15–20 min/account)"
+        },
+        {
+          "step": 2,
+          "action": "Meta: sum ad-set daily budgets to get account-level daily spend",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Meta Ads Manager",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "stated step (L292); time inside step 1"
+        },
+        {
+          "step": 3,
+          "action": "Decide pacing adjustment (days left, budget left, top campaigns)",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (Austin summary L217, agreed L218); time inside step 1"
+        },
+        {
+          "step": 4,
+          "action": "Brief adjustment in Monday or make the change (three clicks)",
+          "actor_role": "Senior Performance Marketing Manager / Michaela or Tati",
+          "tool": "Monday.com, ad platform",
+          "touch_min": [
+            1,
+            2
+          ],
+          "wait": "Until implementer picks up – not stated",
+          "handoff_to": "Michaela / Tati",
+          "flags": [],
+          "certainty": "stated (L168); wait assumed"
+        },
+        {
+          "step": 5,
+          "action": "Inform client of budget pivot (no total change)",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Email",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L483); time assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Client budget change re-keyed in three places",
+          "trigger": "Client asks to spend more/less",
+          "rate": "2–6/month (assumed)",
+          "extra_steps": "Update Monday, HubSpot, pacing sheet (+ platform)",
+          "extra_min": [
+            20,
+            90
+          ],
+          "certainty": "stated (L212–L213); rate and 10–15 min each assumed"
+        },
+        {
+          "name": "False over/underspend Slack alert from stale sheet",
+          "trigger": "Sheet updated a day late",
+          "rate": "2–4/month (assumed)",
+          "extra_steps": "Investigate which system is right",
+          "extra_min": [
+            20,
+            80
+          ],
+          "certainty": "stated (L213); rate and 10–20 min each assumed"
+        },
+        {
+          "name": "New-month tab and formula duplication",
+          "trigger": "Month start",
+          "rate": "1/month",
+          "extra_steps": "Copy tab, formulas, budgets",
+          "extra_min": [
+            60,
+            120
+          ],
+          "certainty": "stated (L201); time assumed; may be shared across team"
+        },
+        {
+          "name": "Meta account-level spend summed by hand weekly",
+          "trigger": "Weekly pacing support",
+          "rate": "~4/month",
+          "extra_steps": "Add up ad-set budgets",
+          "extra_min": [
+            60,
+            120
+          ],
+          "certainty": "stated (L291–L295); 15–30 min/week assumed"
+        },
+        {
+          "name": "Sheet not pulling / bug",
+          "trigger": "Connector failure",
+          "rate": "not stated",
+          "extra_steps": "Manual check in platform",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L199–L200); time inside step 1"
+        }
+      ],
+      "monthly_hours": [
+        8.7,
+        14.8
+      ],
+      "monthly_hours_working": "Happy 12 × 2 × 15–20 = 360–480 min; + budget changes 20–90 + false alerts 20–80 + rollover 60–120 + Meta summing 60–120 = 520–890 min = 8.7–14.8 h"
+    },
+    {
+      "id": "SH-P02",
+      "process": "Paid media – optimisation",
+      "trigger": "Start-of-month and mid-month performance checks; pacing findings; client requests",
+      "owner_role": "Senior Performance Marketing Manager",
+      "frequency": {
+        "count": 2,
+        "per": "month per client",
+        "scope": "~12 clients, per channel"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Small change (budget, negatives) – brief straight to team",
+              "pct": null
+            },
+            {
+              "outcome": "New ads/campaigns – client approval first",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1040,
+        2240
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Performance check: last 7 / 14 / 30 days",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Ad platforms",
+          "touch_min": [
+            20,
+            40
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated step (L450–L452); time assumed"
+        },
+        {
+          "step": 2,
+          "action": "Strategise optimisations (budget, negatives, geo, PMax signals, creative refresh)",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L228–L229, L458); time inside step 1"
+        },
+        {
+          "step": 3,
+          "action": "Write implementation brief in Monday",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Monday.com",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "Michaela / Tati",
+          "flags": [
+            "bottleneck",
+            "single_person"
+          ],
+          "certainty": "stated step (L472–L474); time assumed"
+        },
+        {
+          "step": 4,
+          "action": "Implement change",
+          "actor_role": "Michaela / Tati",
+          "tool": "Ad platforms",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Until picked up – not stated",
+          "handoff_to": "Senior Performance Marketing Manager (review)",
+          "flags": [],
+          "certainty": "stated (L038, L460–L462); team time not costed"
+        },
+        {
+          "step": 5,
+          "action": "Communicate findings / next steps to client",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Email / WIP",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L475–L478); time counted in SH-P07"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Creative refresh / new ads need client assets and approval",
+          "trigger": "Finding = refresh due",
+          "rate": "3–6/month (assumed)",
+          "extra_steps": "Request assets; brief copy/keyword research; send for approval; chase",
+          "extra_min": [
+            20,
+            40
+          ],
+          "certainty": "stated (L480–L482); rate/time assumed; client wait not stated"
+        },
+        {
+          "name": "High-spend account needs same-day change",
+          "trigger": "Tier / spend",
+          "rate": "not stated",
+          "extra_steps": "Reprioritise",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L514, L518)"
+        }
+      ],
+      "monthly_hours": [
+        13,
+        28
+      ],
+      "monthly_hours_working": "Happy 12 × 2 × 30–60 = 720–1,440 min (12–24 h); bad 3 × 20 = 60 to 6 × 40 = 240 min (1–4 h); total 13–28 h (assumed)"
+    },
+    {
+      "id": "SH-P03",
+      "process": "Paid media – campaign build",
+      "trigger": "New campaign, new service line, creative refresh, onboarding build",
+      "owner_role": "Senior Performance Marketing Manager (builds some, reviews all); Michaela/Tati build others",
+      "frequency": {
+        "count": null,
+        "per": "month",
+        "scope": "assumed 2–4 own builds + 4–8 reviews"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Google/Bing – bulk editor import",
+              "pct": null
+            },
+            {
+              "outcome": "Meta – manual build",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        },
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Client supplies creative",
+              "pct": null
+            },
+            {
+              "outcome": "Agency produces creative (by tier)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        184,
+        720
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Research + ad copy / headline variations (+ keyword research for Google)",
+          "actor_role": "Senior Performance Marketing Manager / Michaela or Tati",
+          "tool": "Claude, Sheets",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Client (approval)",
+          "flags": [],
+          "certainty": "stated (L270, L281); time not stated"
+        },
+        {
+          "step": 2,
+          "action": "Source assets: landing page or website URL, imagery, video",
+          "actor_role": "Senior Performance Marketing Manager / client",
+          "tool": "Drive, Canva",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Client assets – not stated",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated (L095, L281)"
+        },
+        {
+          "step": 3,
+          "action": "Build: Google/Bing via editor import; Meta manually",
+          "actor_role": "Senior Performance Marketing Manager or Michaela/Tati",
+          "tool": "Google Ads Editor, Bing editor, Meta Ads Manager",
+          "touch_min": [
+            45,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Senior PMM (QA)",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "stated Meta 45–60 min complex (L249); 10–30 simple (L258, L262)"
+        },
+        {
+          "step": 4,
+          "action": "Turn off Meta auto-on AI enhancements",
+          "actor_role": "Builder",
+          "tool": "Meta Ads Manager",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "error_prone"
+          ],
+          "certainty": "stated (L173–L177); inside step 3"
+        },
+        {
+          "step": 5,
+          "action": "QA vs approved spreadsheet: regional URLs, copy, offer thresholds",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Sheets, platform",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "Michaela / Tati (feedback)",
+          "flags": [
+            "error_prone",
+            "single_person"
+          ],
+          "certainty": "stated (L179–L181); time assumed"
+        },
+        {
+          "step": 6,
+          "action": "Feedback / mentoring on copy and build",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Slack / Monday.com",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Michaela / Tati",
+          "flags": [],
+          "certainty": "stated (L042); inside step 5"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Platform glitches during Meta build",
+          "trigger": "Meta bugs",
+          "rate": "1–2/month (assumed)",
+          "extra_steps": "Re-check settings",
+          "extra_min": [
+            15,
+            60
+          ],
+          "certainty": "stated (L260); rate/time assumed"
+        },
+        {
+          "name": "Instant form + conversion tracking needed",
+          "trigger": "Lead-gen funnel",
+          "rate": "not stated",
+          "extra_steps": "Build form, check fields, tracking",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L266–L267); time not stated"
+        }
+      ],
+      "monthly_hours": [
+        2.3,
+        9.0
+      ],
+      "monthly_hours_working": "Own builds 2 × 30 = 60 to 4 × 60 = 240 min; reviews 4 × 15 = 60 to 8 × 30 = 240 min; glitches 15–60 min; total 135–540 min = 2.3–9.0 h (assumed)"
+    },
+    {
+      "id": "SH-P04",
+      "process": "Monthly reporting",
+      "trigger": "Month end",
+      "owner_role": "Senior Performance Marketing Manager",
+      "frequency": {
+        "count": 1,
+        "per": "month per client",
+        "scope": "~12 clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        240,
+        480
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Check report shows last month's data (date range)",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "error_prone"
+          ],
+          "certainty": "stated (L538–L539); time assumed"
+        },
+        {
+          "step": 2,
+          "action": "Write last-page commentary: done this month, next month, pivots",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            10,
+            20
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L524); time assumed"
+        },
+        {
+          "step": 3,
+          "action": "Scheduled send at start of month",
+          "actor_role": "System",
+          "tool": "AgencyAnalytics",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L530–L533)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Report shows wrong period",
+          "trigger": "Date range not updated",
+          "rate": "not stated",
+          "extra_steps": "Correct and re-check",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L539); rate/time not stated"
+        }
+      ],
+      "monthly_hours": [
+        3,
+        6
+      ],
+      "monthly_hours_working": "12 × 15–30 min = 180–360 min = 3–6 h (assumed)"
+    },
+    {
+      "id": "SH-P05",
+      "process": "NEW: Weekly client KPI spreadsheet update",
+      "trigger": "Every Monday, before the client's 11 am finance/leadership meeting",
+      "owner_role": "Senior Performance Marketing Manager (\"we\" – may be shared with Michaela/Tati)",
+      "frequency": {
+        "count": 4.33,
+        "per": "month",
+        "scope": "1 e-commerce client"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        264,
+        520
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Pull daily/weekly spend, clicks, LPVs, frequency, add-to-carts, purchases, CTR, CPC into four sheets",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Ad platforms → 4 Google Sheets",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual_rekey",
+            "bottleneck"
+          ],
+          "certainty": "stated (L301–L302); time assumed"
+        },
+        {
+          "step": 2,
+          "action": "Write commentary: last 7 days, plans and priorities this week",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Google Sheets",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L306–L308); time assumed"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        3.3,
+        6.5
+      ],
+      "monthly_hours_working": "4.33 × 45–90 min = 195–390 min = 3.3–6.5 h (assumed)"
+    },
+    {
+      "id": "SH-P06",
+      "process": "Client meetings & prep",
+      "trigger": "Cadence by tier: monthly report review (Tier 2/3); weekly or fortnightly (Tier 1); fortnightly for new clients",
+      "owner_role": "Senior Performance Marketing Manager",
+      "frequency": {
+        "count": 17.7,
+        "per": "month",
+        "scope": "1 weekly + ~2 fortnightly + ~9 monthly (estimated)"
+      },
+      "decision_points": [
+        {
+          "after_step": 0,
+          "branches": [
+            {
+              "outcome": "Tier 2/3 – monthly report WIP",
+              "pct": null
+            },
+            {
+              "outcome": "Tier 1 / new – weekly or fortnightly on live dashboard",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1056,
+        2128
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Prep: review recent notes, historic conversations, dashboard",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Notes, AgencyAnalytics",
+          "touch_min": [
+            15,
+            45
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "manual_rekey"
+          ],
+          "certainty": "assumed (no figure given)"
+        },
+        {
+          "step": 2,
+          "action": "Run WIP",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Video call, AgencyAnalytics dashboard",
+          "touch_min": [
+            30,
+            45
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L551)"
+        },
+        {
+          "step": 3,
+          "action": "Extract actions from notes and convey them",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Note-taker output, Monday.com",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Michaela / Tati",
+          "flags": [
+            "error_prone"
+          ],
+          "certainty": "stated (L396–L398); inside step 1"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Missed client interest or follow-up",
+          "trigger": "Notes not reviewed",
+          "rate": "not stated",
+          "extra_steps": "Recover later",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L385–L391)"
+        }
+      ],
+      "monthly_hours": [
+        13.2,
+        26.6
+      ],
+      "monthly_hours_working": "Meetings 17.7 × 30–45 = 531–797 min (8.9–13.3 h); prep 17.7 × 15–45 = 266–797 min (4.4–13.3 h); total 13.2–26.6 h"
+    },
+    {
+      "id": "SH-P07",
+      "process": "NEW: Client email & ad hoc communication",
+      "trigger": "Client emails; findings; approvals; proactive ideas",
+      "owner_role": "Senior Performance Marketing Manager (24-hour response standard)",
+      "frequency": {
+        "count": 21,
+        "per": "working days/month",
+        "scope": "~12 clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Acknowledge now, action later",
+              "pct": null
+            },
+            {
+              "outcome": "Action immediately",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        840,
+        1680
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Read and acknowledge within 24 h",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Email",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed per day (comms stated as dominant, L285)"
+        },
+        {
+          "step": 2,
+          "action": "Action, brief or follow up",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Email, Monday.com",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Michaela / Tati / client",
+          "flags": [],
+          "certainty": "stated (L330); time inside step 1"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Comms crowd out strategy implementation",
+          "trigger": "Portfolio grows",
+          "rate": "when load rises",
+          "extra_steps": "Strategy deferred",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L334–L335); not quantified"
+        }
+      ],
+      "monthly_hours": [
+        10.5,
+        21
+      ],
+      "monthly_hours_working": "21 × 30–60 min = 630–1,260 min = 10.5–21 h (assumed)"
+    },
+    {
+      "id": "SH-P08",
+      "process": "Client onboarding – audit & strategy",
+      "trigger": "New client handed over from sales",
+      "owner_role": "Senior Performance Marketing Manager",
+      "frequency": {
+        "count": null,
+        "per": "month",
+        "scope": "assumed 0.5–1 onboarding/month"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Existing ad account – audit history",
+              "pct": null
+            },
+            {
+              "outcome": "Brand-new account – more research",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        },
+        {
+          "after_step": 7,
+          "branches": [
+            {
+              "outcome": "Client supplies creative",
+              "pct": null
+            },
+            {
+              "outcome": "Agency produces (tier)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        264,
+        1040
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Sales handover one-on-one call",
+          "actor_role": "Sales → Senior Performance Marketing Manager",
+          "tool": "Call, HubSpot",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L139–L140); time assumed"
+        },
+        {
+          "step": 2,
+          "action": "Gain ad-account access",
+          "actor_role": "Client",
+          "tool": "Platforms",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "not stated",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated (L052)"
+        },
+        {
+          "step": 3,
+          "action": "Audit each channel: setup, targeting, audiences, search terms, creative, budgets",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Platforms, audit checklist",
+          "touch_min": [
+            120,
+            300
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L090–L094); time assumed"
+        },
+        {
+          "step": 4,
+          "action": "Audit conversion tracking and GA4",
+          "actor_role": "Senior Performance Marketing Manager (+ Liam)",
+          "tool": "GA4, platforms",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Conversion Tracking Specialist if broken",
+          "flags": [],
+          "certainty": "stated (L096–L097); time assumed"
+        },
+        {
+          "step": 5,
+          "action": "Research: competitors (ad libraries), market, geo, economics, personas",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Ad libraries, Claude",
+          "touch_min": [
+            60,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L104–L106, L117–L118, L124); time assumed"
+        },
+        {
+          "step": 6,
+          "action": "Kickoff call to fill questionnaire gaps; build on client personas",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Call",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "Client",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L645–L651); time assumed"
+        },
+        {
+          "step": 7,
+          "action": "Strategy and roadmap; file in client Drive folder",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Google Drive",
+          "touch_min": [
+            90,
+            180
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L054, L066); time assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Sales context missing → re-ask client",
+          "trigger": "Handover gaps",
+          "rate": "most onboardings",
+          "extra_steps": "Re-ask questions; ask sales",
+          "extra_min": [
+            30,
+            60
+          ],
+          "certainty": "stated (L133, L137); time assumed"
+        },
+        {
+          "name": "Brand-new account – no history to audit",
+          "trigger": "New advertiser",
+          "rate": "not stated",
+          "extra_steps": "More research",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L091)"
+        },
+        {
+          "name": "Handed an existing client – files on personal drives",
+          "trigger": "Internal handover",
+          "rate": "not stated",
+          "extra_steps": "Search for documents",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L067–L071)"
+        }
+      ],
+      "monthly_hours": [
+        3.3,
+        13
+      ],
+      "monthly_hours_working": "Happy path ~6–12 h per onboarding (assumed); 0.5 × 6 h + 0.5 × 0.5 h = 3.25 h to 1 × 12 h + 1 × 1 h = 13 h"
+    },
+    {
+      "id": "SH-P09",
+      "process": "Performance monitoring & alerting",
+      "trigger": "Performance check shows no leads from a landing page/form",
+      "owner_role": "Senior Performance Marketing Manager; Conversion Tracking Specialist (contractor)",
+      "frequency": {
+        "count": null,
+        "per": "month",
+        "scope": "assumed 1–3 incidents"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Client-side page/form change",
+              "pct": null
+            },
+            {
+              "outcome": "Agency-side tracking fault",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        40,
+        360
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Notice zero leads in last 7 days during performance check",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Platforms, GA4",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "Up to ~7 days undetected",
+          "handoff_to": "",
+          "flags": [
+            "bottleneck"
+          ],
+          "certainty": "stated (L583–L584)"
+        },
+        {
+          "step": 2,
+          "action": "Diagnose: client changed page/form/form ID?",
+          "actor_role": "Senior Performance Marketing Manager",
+          "tool": "Website, GA4",
+          "touch_min": [
+            15,
+            45
+          ],
+          "wait": "",
+          "handoff_to": "Conversion Tracking Specialist",
+          "flags": [
+            "single_person"
+          ],
+          "certainty": "stated (L584); time assumed"
+        },
+        {
+          "step": 3,
+          "action": "Fix back end / ask client to notify changes",
+          "actor_role": "Senior Performance Marketing Manager / Conversion Tracking Specialist",
+          "tool": "GTM / platform",
+          "touch_min": [
+            15,
+            45
+          ],
+          "wait": "Wait on contractor – not stated",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L584, L592); time assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Busy meeting week delays the check – issue found too late",
+          "trigger": "Meeting-heavy week",
+          "rate": "not stated",
+          "extra_steps": "Client escalation / recovery",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L610)"
+        }
+      ],
+      "monthly_hours": [
+        0.5,
+        4.5
+      ],
+      "monthly_hours_working": "1 × 30 = 30 to 3 × 90 = 270 min = 0.5–4.5 h (assumed)"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "SH-PP01",
+      "text": "Budget and fee data held separately in HubSpot, Monday and pacing sheets; every change re-keyed in three places",
+      "source": "interviewee",
+      "category": "Duplicate data entry",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – pacing & budget management",
+      "impact": "Time + overspend risk",
+      "frequency": "Every budget change",
+      "severity": 4,
+      "quote": "I'll update it on Monday I'll make sure it's reflected in HubSpot and then the pacing sheet",
+      "timestamp": "~22:33 (L213)",
+      "certainty": "stated",
+      "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+    },
+    {
+      "id": "SH-PP02",
+      "text": "Pacing sheets need manual account ID, name and budget input and often don't pull correctly",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "Paid media – pacing & budget management",
+      "impact": "Time; wrong data",
+      "frequency": "Ongoing",
+      "severity": 4,
+      "quote": "we have to manually input like the ad account ID and the name and the budgets. And then it's not always pulling correctly.",
+      "timestamp": "~20:46 (L198–L199)",
+      "certainty": "stated",
+      "matches_existing_problem": "Meta pacing sheet is broken – Supermetrics connector failing"
+    },
+    {
+      "id": "SH-PP03",
+      "text": "New month means duplicating formulas to a new tab by hand",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Paid media – pacing & budget management",
+      "impact": "1–2 h/month (assumed)",
+      "frequency": "Monthly",
+      "severity": 3,
+      "quote": "It would be duplicating the formulas and whatnot to a new tab and then creating that one. And it's a lot of manual work.",
+      "timestamp": "~21:32 (L201)",
+      "certainty": "stated (time assumed)",
+      "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+    },
+    {
+      "id": "SH-PP04",
+      "text": "Stale sheet triggers false over/underspend Slack alerts",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – pacing & budget management",
+      "impact": "Time; alert fatigue",
+      "frequency": "After each lagged update",
+      "severity": 3,
+      "quote": "the Slack message will say like, oh, it's under, overspending but I know that the new budget is increased so the overspend is not true",
+      "timestamp": "~22:33 (L213)",
+      "certainty": "stated",
+      "matches_existing_problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend"
+    },
+    {
+      "id": "SH-PP05",
+      "text": "Meta account-level daily spend must be summed by hand from ad sets",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "Paid media – pacing & budget management",
+      "impact": "1–2 h/month (assumed)",
+      "frequency": "Weekly",
+      "severity": 2,
+      "quote": "if it's in ad set level you have to like go in and just like summarize just add everything up.",
+      "timestamp": "~30:53 (L292)",
+      "certainty": "stated",
+      "matches_existing_problem": "Meta pacing sheet is broken – Supermetrics connector failing (partial)"
+    },
+    {
+      "id": "SH-PP06",
+      "text": "One e-com client needs four spreadsheets updated by hand before 11 am every Monday",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Client experience & delivery",
+      "process": "NEW: Weekly client KPI spreadsheet update",
+      "impact": "3.3–6.5 h/month (assumed)",
+      "frequency": "Weekly",
+      "severity": 3,
+      "quote": "And that's something that we manually do before 11 a.m. every single Monday.",
+      "timestamp": "~32:02 (L303)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SH-PP07",
+      "text": "Sales handover context not passed on or findable – client re-asked questions",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Growth & sales engine",
+      "process": "Sales to delivery handover",
+      "impact": "Client friction; weaker strategy base",
+      "frequency": "Most onboardings",
+      "severity": 3,
+      "quote": "So we're like re-asking questions. And ideally, it would be nice to find that information somewhere.",
+      "timestamp": "~14:56 (L133)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+    },
+    {
+      "id": "SH-PP08",
+      "text": "Client documents historically on personal drives – hard to find on handover; no standard storage",
+      "source": "interviewee",
+      "category": "Single point of failure (person)",
+      "anchor": "Leadership & dependency",
+      "process": "Knowledge & SOPs",
+      "impact": "Handover time; continuity risk",
+      "frequency": "Each handover",
+      "severity": 3,
+      "quote": "I noticed that when I was being handed over clients to me, I was Just like trying to find documents.",
+      "timestamp": "~06:52 (L071)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client work files are owned by individual staff accounts, including staff who have left"
+    },
+    {
+      "id": "SH-PP09",
+      "text": "24-hour email standard means comms crowd out strategy implementation as the portfolio grows",
+      "source": "interviewee (answering Austin's 7–10 more clients hypothetical)",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "NEW: Client email & ad hoc communication",
+      "impact": "Strategy delayed; caps clients per manager",
+      "frequency": "When portfolio grows",
+      "severity": 4,
+      "quote": "Based on the 24-hour turnaround time, I would have to focus on the comms, which then... would lead to not implementing the strategies.",
+      "timestamp": "~34:59 (L334–L335)",
+      "certainty": "stated",
+      "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "SH-PP10",
+      "text": "Briefing optimisations to Michaela/Tati is slow and manual; the step she most wants sped up",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Operations capacity & process",
+      "process": "Paid media – optimisation",
+      "impact": "4–8 h/month briefing (assumed)",
+      "frequency": "Twice monthly per client",
+      "severity": 3,
+      "quote": "If there's like a speedy way of like getting that brief to the girls.",
+      "timestamp": "~35:33 (L343)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SH-PP11",
+      "text": "Tracking breaks (often unannounced client page/form changes) found only via manual performance checks, up to ~7 days later",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Performance visibility & margin",
+      "process": "Performance monitoring & alerting",
+      "impact": "Wasted spend; lost leads",
+      "frequency": "Not stated",
+      "severity": 4,
+      "quote": "it could potentially be that the client made changes on the landing page or website themselves and didn't tell us",
+      "timestamp": "~54:10 (L584)",
+      "certainty": "stated",
+      "matches_existing_problem": "No proactive performance alerting – problems found at month-end; Conversion tracking depends on one contractor"
+    },
+    {
+      "id": "SH-PP12",
+      "text": "Meeting-heavy weeks delay checks; tracking issue discovered too late, client unhappy",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Client experience & delivery",
+      "process": "Performance monitoring & alerting",
+      "impact": "Client friction",
+      "frequency": "Busy weeks",
+      "severity": 3,
+      "quote": "you might not have the chance to review it as quickly as you would have wanted to and then discovered the tracking issue too late",
+      "timestamp": "~56:00 (L610)",
+      "certainty": "stated",
+      "matches_existing_problem": "No proactive performance alerting – problems found at month-end"
+    },
+    {
+      "id": "SH-PP13",
+      "text": "Note-takers capture meetings but actions and talking points still extracted by hand; risk of missing client interests",
+      "source": "interviewee (after Austin prompted, L371–L381)",
+      "category": "Tool not used / adoption",
+      "anchor": "Client experience & delivery",
+      "process": "Client meetings & prep",
+      "impact": "Prep time; missed follow-ups",
+      "frequency": "Every meeting",
+      "severity": 3,
+      "quote": "we tried to add like note takers to meetings. But then it's like from those notes. taking the actions, conveying the",
+      "timestamp": "~40:37 (L396–L398)",
+      "certainty": "stated",
+      "matches_existing_problem": "Client-call prep takes longer than the call (partial)"
+    },
+    {
+      "id": "SH-PP14",
+      "text": "No standard research prompt for strategy; AI use is ad hoc",
+      "source": "interviewee",
+      "category": "Tool not used / adoption",
+      "anchor": "Technology, AI & stack",
+      "process": "Client onboarding – audit & strategy",
+      "impact": "Inconsistent research time",
+      "frequency": "Each strategy",
+      "severity": 2,
+      "quote": "It would be like now with Claude and stuff and generating report, but I don't have like a go-to prompt",
+      "timestamp": "~13:41 (L124)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SH-PP15",
+      "text": "Meta auto-enables new AI features; every build needs a manual toggle-off check",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Performance visibility & margin",
+      "process": "Paid media – campaign build",
+      "impact": "Wasted-spend risk",
+      "frequency": "Every Meta build",
+      "severity": 2,
+      "quote": "meta rolls out new things and it's like auto on and then you just have to be like super into the nitty gritty",
+      "timestamp": "~18:26 (L177)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SH-PP16",
+      "text": "Monthly report still needs manual commentary and a check that it shows the right month",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Client experience & delivery",
+      "process": "Monthly reporting",
+      "impact": "3–6 h/month (assumed)",
+      "frequency": "Monthly",
+      "severity": 2,
+      "quote": "It's just a manual task to update the last page of what we worked on and just ensuring that the data is reflected last month",
+      "timestamp": "~50:51 (L538)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SH-PP17",
+      "text": "Meta builds are manual (no bulk import like Google/Bing editors)",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Technology, AI & stack",
+      "process": "Paid media – campaign build",
+      "impact": "45–60 min per complex build",
+      "frequency": "Per build",
+      "severity": 2,
+      "quote": "The Google implementation is quicker because there's like this editor tool that can be used to like import an account build.",
+      "timestamp": "~25:43 (L239)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "SH-B01",
+      "step": "Optimisation briefs to implementers (SH-P02 step 3)",
+      "waiting_on": "Sophie's time to write briefs",
+      "typical_wait": "not stated",
+      "affected": "~12 clients × 2 cycles/month",
+      "knock_on": "Implementation lags; comms take priority"
+    },
+    {
+      "id": "SH-B02",
+      "step": "New ads / creative refresh launch (SH-P02, SH-P03 step 2)",
+      "waiting_on": "Client assets and approval",
+      "typical_wait": "not stated",
+      "affected": "Clients needing new creative/campaigns",
+      "knock_on": "Refresh delayed"
+    },
+    {
+      "id": "SH-B03",
+      "step": "Pacing sheet update after budget change (SH-P01)",
+      "waiting_on": "Manual update in three systems",
+      "typical_wait": "≥1 day lag (stated example)",
+      "affected": "Any client changing budget",
+      "knock_on": "False Slack alerts; Monday/HubSpot/sheet mismatch"
+    },
+    {
+      "id": "SH-B04",
+      "step": "Tracking-break detection (SH-P09 step 1)",
+      "waiting_on": "Next manual performance check",
+      "typical_wait": "up to ~7 days",
+      "affected": "Lead-gen clients",
+      "knock_on": "Lost leads, wasted spend, unhappy client"
+    },
+    {
+      "id": "SH-B05",
+      "step": "Monday 11 am e-com sheets (SH-P05)",
+      "waiting_on": "Manual data entry before deadline",
+      "typical_wait": "hard weekly deadline",
+      "affected": "1 client",
+      "knock_on": "Monday mornings consumed"
+    },
+    {
+      "id": "SH-B06",
+      "step": "Strategy start (SH-P08)",
+      "waiting_on": "Sales context / client re-answering",
+      "typical_wait": "not stated",
+      "affected": "Each new client",
+      "knock_on": "Weaker starting strategy; client repeats themselves"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "SH-S01",
+      "idea": "All client documents accessible via Monday (link Drive folder to Monday item)",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Knowledge & SOPs",
+      "quote": "In a dream scenario, we would have everything with easy access through Monday.",
+      "timestamp": "~07:06 (L075)"
+    },
+    {
+      "id": "SH-S02",
+      "idea": "Sales hands over prior conversation info",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Sales to delivery handover",
+      "quote": "when a performance manager gets handed over the client from the sales team, we would also receive a lot of previous information that sales have had",
+      "timestamp": "~14:41 (L132)"
+    },
+    {
+      "id": "SH-S03",
+      "idea": "Pacing alert auto-creates a Monday implementation task; budget change stays human",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Paid media – pacing & budget management",
+      "quote": "something automatically is created in Monday which is a task, to implement this",
+      "timestamp": "~23:58 (L219)"
+    },
+    {
+      "id": "SH-S04",
+      "idea": "Synchronise budget data across HubSpot, Monday and pacing sheet",
+      "source": "interviewer",
+      "reaction": "Interviewee described the pain; Austin: 'that's an easy fix'",
+      "process": "Paid media – pacing & budget management",
+      "quote": "Okay, that's an easy fix. So we can definitely fix that.",
+      "timestamp": "~23:23 (L216)"
+    },
+    {
+      "id": "SH-S05",
+      "idea": "Weekly total account-level daily spend (esp. Meta)",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Paid media – pacing & budget management",
+      "quote": "weekly basis to be like, \"Oh, what's the total daily spend in the accounts?\" It will support the pacing.",
+      "timestamp": "~31:10 (L295)"
+    },
+    {
+      "id": "SH-S06",
+      "idea": "Automate the Monday e-com spreadsheet update",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "NEW: Weekly client KPI spreadsheet update",
+      "quote": "And automating it in a way like that would be Fantastic.",
+      "timestamp": "~32:40 (L312)"
+    },
+    {
+      "id": "SH-S07",
+      "idea": "Faster way to get briefs to Michaela/Tati",
+      "source": "interviewee",
+      "reaction": "",
+      "process": "Paid media – optimisation",
+      "quote": "If there's like a speedy way of like getting that brief to the girls.",
+      "timestamp": "~35:33 (L343)"
+    },
+    {
+      "id": "SH-S08",
+      "idea": "Data-informed pre-drafted client emails to approve/edit",
+      "source": "interviewer",
+      "reaction": "Lukewarm: 'Probably. But I'm thinking like in what capacity?'",
+      "process": "NEW: Client email & ad hoc communication",
+      "quote": "automatically generates an email that's already like data informed and you just have to approve it or edit it",
+      "timestamp": "~37:38 (L371)"
+    },
+    {
+      "id": "SH-S09",
+      "idea": "Automated latest-notes summary with talking points and historic conversation review",
+      "source": "interviewee",
+      "reaction": "Raised after interviewer prompt about contact notes",
+      "process": "Client meetings & prep",
+      "quote": "It's more like an automated, like latest notes summary, maybe something like that.",
+      "timestamp": "~39:13 (L382)"
+    },
+    {
+      "id": "SH-S10",
+      "idea": "Bot that scans client websites and alerts on changes",
+      "source": "interviewer",
+      "reaction": "Agreed: 'That's really good.'",
+      "process": "Performance monitoring & alerting",
+      "quote": "we can create a bot that... that can proactively scan and monitor clients' websites.",
+      "timestamp": "~55:29 (L600–L601)"
+    },
+    {
+      "id": "SH-S11",
+      "idea": "Keep report commentary human",
+      "source": "interviewer",
+      "reaction": "Agreed ('Yeah')",
+      "process": "Monthly reporting",
+      "quote": "I feel as if you want to keep that pretty human anyway, because that's the relationship.",
+      "timestamp": "~51:06 (L540)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "SH-O03",
+      "fixes": [
+        "SH-PP06",
+        "SH-B05"
+      ],
+      "lens": "Automate",
+      "change": "Auto-fill data columns in the four client sheets each Monday from Meta/Google; Sophie writes commentary only. Alternative: client accepts a live dashboard",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Supermetrics / Looker Studio / AgencyAnalytics export to Sheets",
+      "hours_saved_month": [
+        2.0,
+        4.9
+      ],
+      "effort": "S",
+      "prerequisites": "Sheet structure from client; connector access",
+      "adoption_risk": "L",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes to complete Monday e-com update",
+          "measured_by": "Self-timed",
+          "baseline": "unknown (manual)",
+          "baseline_quote": "And that's something that we manually do before 11 a.m. every single Monday.",
+          "target": "≤ 20 min (commentary only)",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Stated weekly manual task with hard deadline; off-the-shelf connector"
+    },
+    {
+      "id": "SH-O01",
+      "fixes": [
+        "SH-PP01",
+        "SH-PP02",
+        "SH-PP03",
+        "SH-PP04",
+        "SH-PP05",
+        "SH-B03"
+      ],
+      "lens": "Automate",
+      "change": "One budget master (Monday client item) synced to HubSpot and the pacing sheet; account-level spend auto-pulled for all channels incl. Meta; monthly tab auto-rolls",
+      "matches_existing_solution": "pacing tracker & adjustment engine",
+      "candidate_tool": "Make.com + Google Ads/Meta APIs or a connector (Supermetrics renewal, Windsor.ai, Porter); Google Ads scripts",
+      "hours_saved_month": [
+        3.9,
+        9.2
+      ],
+      "effort": "M",
+      "prerequisites": "Decide budget master system and owner; API access for all ad accounts; connector budget",
+      "adoption_risk": "L – removes work",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Systems updated per budget change",
+          "measured_by": "Process audit / Monday log",
+          "baseline": "3",
+          "baseline_quote": "I'll update it on Monday I'll make sure it's reflected in HubSpot and then the pacing sheet",
+          "target": "1",
+          "type": "leading"
+        },
+        {
+          "kpi": "False pacing alerts per month",
+          "measured_by": "Slack alert log vs actual",
+          "baseline": "unknown (occurring)",
+          "baseline_quote": "the Slack message will say like, oh, it's under, overspending but I know that the new budget is increased so the overspend is not true",
+          "target": "0–1",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 48
+      },
+      "rank": 2,
+      "tag": "Strategic",
+      "rank_reason": "Clearest repeated pain; matches both critical pacing problems; scales across 61+ accounts"
+    },
+    {
+      "id": "SH-O04",
+      "fixes": [
+        "SH-PP10",
+        "SH-PP09",
+        "SH-B01"
+      ],
+      "lens": "Augment",
+      "change": "Standard Monday brief template (account, change, why, deadline, QA check) + AI drafts the brief from Sophie's findings or a voice note; she reviews and sends",
+      "matches_existing_solution": "brief & proposal generator (closest)",
+      "candidate_tool": "Monday.com forms/templates; Claude",
+      "hours_saved_month": [
+        1,
+        4
+      ],
+      "effort": "S",
+      "prerequisites": "Agree template with Michaela/Tati",
+      "adoption_risk": "L – Sophie asked for it",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes per implementation brief",
+          "measured_by": "Self-timed / Monday.com",
+          "baseline": "unknown",
+          "baseline_quote": "It's the briefing that takes... time in my day.",
+          "target": "–30–50%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Brief-to-implemented cycle time",
+          "measured_by": "Monday.com task created → done",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "–30%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 3,
+      "tag": "Quick win",
+      "rank_reason": "Sophie's own ask; template is cheap"
+    },
+    {
+      "id": "SH-O08",
+      "fixes": [
+        "SH-PP08"
+      ],
+      "lens": "Change the process",
+      "change": "Standard client folder structure in shared Drive, linked from each Monday client item; move files off personal drives",
+      "matches_existing_solution": "new (supports 'Client work files are owned by individual staff accounts')",
+      "candidate_tool": "Google Drive + Monday.com link column",
+      "hours_saved_month": [
+        0.5,
+        1
+      ],
+      "effort": "S",
+      "prerequisites": "Folder template; owner to migrate",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% client folders in shared Drive and linked from Monday",
+          "measured_by": "Drive / Monday audit",
+          "baseline": "unknown",
+          "baseline_quote": "I noticed that when I was being handed over clients to me, I was Just like trying to find documents.",
+          "target": "100%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 4,
+      "tag": "Quick win",
+      "rank_reason": "Low effort; agency-wide continuity risk"
+    },
+    {
+      "id": "SH-O06",
+      "fixes": [
+        "SH-PP11",
+        "SH-PP12",
+        "SH-B04"
+      ],
+      "lens": "Automate",
+      "change": "Daily conversion-volume anomaly check per form/landing page (zero leads vs baseline) + page/form change monitor; alerts account owner and Liam",
+      "matches_existing_solution": "proactive PPC anomaly monitor",
+      "candidate_tool": "Google Ads / GA4 custom alerts, Looker Studio, Make.com; page-change monitors (e.g. Visualping)",
+      "hours_saved_month": [
+        0.25,
+        2.3
+      ],
+      "effort": "M",
+      "prerequisites": "Baselines per conversion action; GA4 access for all clients",
+      "adoption_risk": "L – passive alerts",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Days from tracking break to detection",
+          "measured_by": "Alert timestamp vs break date",
+          "baseline": "up to ~7 days",
+          "baseline_quote": "no leads are pulling through. from this landing page in the last seven days",
+          "target": "≤ 1 day",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 36
+      },
+      "rank": 5,
+      "tag": "Strategic",
+      "rank_reason": "Protects spend and leads; Austin proposed, Sophie agreed; frequency not stated"
+    },
+    {
+      "id": "SH-O05",
+      "fixes": [
+        "SH-PP13",
+        "SH-PP09"
+      ],
+      "lens": "Augment",
+      "change": "Before each WIP, auto-generate a per-client summary: last call actions, open items, client interests, recent performance",
+      "matches_existing_solution": "client-call prep summaries; transcripts → per-client action runsheet",
+      "candidate_tool": "Otter/Gemini notes + Claude; Monday.com client item",
+      "hours_saved_month": [
+        1.3,
+        6.7
+      ],
+      "effort": "M",
+      "prerequisites": "Note-taker used consistently; per-client notes location",
+      "adoption_risk": "H – note-takers rarely used by team; automate capture",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Prep minutes per WIP",
+          "measured_by": "Self-timed",
+          "baseline": "unknown (Sophie gave none; Shrishti ~75 min per context pack)",
+          "baseline_quote": "",
+          "target": "≤ 15 min",
+          "type": "leading"
+        },
+        {
+          "kpi": "Missed follow-ups raised by client",
+          "measured_by": "Client feedback / WIP notes",
+          "baseline": "unknown",
+          "baseline_quote": "reviewing like historic conversations maybe I've missed something that we spoke about I don't want to miss anything",
+          "target": "0",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 6,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag – Impact 3 / Ease 3 not covered by the four tags; Sophie wants it but prep time not quantified; adoption risk high"
+    },
+    {
+      "id": "SH-O02",
+      "fixes": [
+        "SH-PP04",
+        "SH-PP10",
+        "SH-B01"
+      ],
+      "lens": "Augment",
+      "change": "Over/under-pacing alert creates a Monday task with account, gap and suggested reallocation; Sophie approves; implementer actions in platform",
+      "matches_existing_solution": "pacing tracker & adjustment engine",
+      "candidate_tool": "Monday.com automations + Make.com + Tina Slack bot",
+      "hours_saved_month": [
+        0.5,
+        2
+      ],
+      "effort": "M",
+      "prerequisites": "SH-O01 data must be reliable first",
+      "adoption_risk": "M – alert noise erodes trust if data is wrong",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Time from pacing alert to in-platform change",
+          "measured_by": "Monday.com task timestamps",
+          "baseline": "unknown",
+          "baseline_quote": "",
+          "target": "under 1 business day (same day for high spend)",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 7,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag – Impact 3 / Ease 3 not covered; Sophie's idea; depends on SH-O01"
+    },
+    {
+      "id": "SH-O07",
+      "fixes": [
+        "SH-PP07",
+        "SH-B06"
+      ],
+      "lens": "Change the process",
+      "change": "Mandatory handover fields in the HubSpot deal (goals, budget, competitors, call notes) pushed to the Monday client item via existing Make.com flow; questionnaire pre-filled",
+      "matches_existing_solution": "new (relates to AI business brain)",
+      "candidate_tool": "HubSpot + Make.com + Monday.com",
+      "hours_saved_month": [
+        0.25,
+        1
+      ],
+      "effort": "S",
+      "prerequisites": "Sales agrees fields; Growth Strategy Lead ownership",
+      "adoption_risk": "M – depends on sales filling it in",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Onboarding questions re-asked of client",
+          "measured_by": "Kickoff call checklist",
+          "baseline": "unknown",
+          "baseline_quote": "So we're like re-asking questions.",
+          "target": "0 on fields captured by sales",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 8,
+      "tag": "Fill-in",
+      "rank_reason": "Small hours for Sophie; depends on sales behaviour"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "AgencyAnalytics replaced the manual running sheet; monthly reports scheduled automatically",
+      "quote": "So Agency Analytics is taking that away. And we're scheduling this report to be sent at the start.",
+      "timestamp": "~50:38 (L529–L530)"
+    },
+    {
+      "text": "Shared Google Drive with a folder per client",
+      "quote": "And then we have a shared Google Drive for all our clients.",
+      "timestamp": "~06:08 (L065)"
+    },
+    {
+      "text": "Structured onboarding: audit document/roadmap checklist and onboarding questionnaire",
+      "quote": "we have this audit document and roadmap that we usually follow just as like a little checklist.",
+      "timestamp": "~05:21 (L054)"
+    },
+    {
+      "text": "Strong client relationships; churn mostly macroeconomic",
+      "quote": "I feel like I've built really good relationships with my clients as well.",
+      "timestamp": "~36:37 (L355)"
+    },
+    {
+      "text": "Clients value the strategy work",
+      "quote": "And they value our strategies a lot as well.",
+      "timestamp": "~17:04 (L160)"
+    },
+    {
+      "text": "Rigorous QA against approved copy (regional URLs, offer thresholds)",
+      "quote": "free shipping has a $150 threshold here, it has a $170 threshold here. Is that conveyed in the ad copy?",
+      "timestamp": "~18:50 (L179)"
+    },
+    {
+      "text": "Tier/spend-based prioritisation of turnaround",
+      "quote": "If it's like a high spending ad account, we don't want to waste any budget. So we want to make changes swiftly",
+      "timestamp": "~49:17 (L518)"
+    },
+    {
+      "text": "Google/Bing bulk-editor builds are quick",
+      "quote": "there's like this editor tool that can be used to like import an account build. And same for Bing.",
+      "timestamp": "~25:43 (L239–L240)"
+    },
+    {
+      "text": "Sales team available for questions at handover",
+      "quote": "they might know a bunch of questions because they've had previous chats with the prospects.",
+      "timestamp": "~15:48 (L149)"
+    },
+    {
+      "text": "Clear access to a tracking specialist",
+      "quote": "So if something is, if I'm troubleshooting something, I loop him in.",
+      "timestamp": "~55:14 (L592)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "~12",
+      "unit": "clients",
+      "context": "Sophie's current portfolio",
+      "quote": "Maybe like 12.",
+      "timestamp": "~32:56 (L316)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3",
+      "unit": "tiers",
+      "context": "1 Tier 1, 1 near-Tier 1 Tier 2, rest Tier 2/3",
+      "quote": "I've recently gotten one tier one client and then I have like a tier two client that's almost a tier one client",
+      "timestamp": "~33:05 (L320)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5th",
+      "unit": "month",
+      "context": "Sophie's tenure",
+      "quote": "I've only been at the aperitif for four plus months, this is my fifth month.",
+      "timestamp": "~06:44 (L070)",
+      "certainty": "stated"
+    },
+    {
+      "value": "24",
+      "unit": "hours",
+      "context": "Agency email response standard",
+      "quote": "from an agency perspective we have like a 24 hour sort of email response time.",
+      "timestamp": "~33:59 (L327)",
+      "certainty": "stated"
+    },
+    {
+      "value": "7–10",
+      "unit": "clients",
+      "context": "Austin's hypothetical extra load – 'would be a lot'",
+      "quote": "That would be a lot because I also have declined comms.",
+      "timestamp": "~33:54 (L326)",
+      "certainty": "stated (hypothetical)"
+    },
+    {
+      "value": "45–60",
+      "unit": "minutes",
+      "context": "Typical Meta campaign build",
+      "quote": "It's probably like, Maybe 45 minutes, maybe an hour.",
+      "timestamp": "~26:15 (L249)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~30",
+      "unit": "minutes",
+      "context": "Faster Meta build",
+      "quote": "It could also take like half an hour and depending on how swift.",
+      "timestamp": "~27:23 (L258)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3",
+      "unit": "clicks",
+      "context": "Budget change in platform",
+      "quote": "if it's like a budget change, that's three clicks.",
+      "timestamp": "~17:31 (L168)",
+      "certainty": "stated"
+    },
+    {
+      "value": "30–45",
+      "unit": "minutes",
+      "context": "WIP length",
+      "quote": "And that's between half and for an hour to 45 minute sessions.",
+      "timestamp": "~51:40 (L551)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1 weekly, ~2 fortnightly",
+      "unit": "client meetings",
+      "context": "Tier 1 cadence",
+      "quote": "I have weekly catch-ups with one client. I have fortnightly with a couple more.",
+      "timestamp": "~52:04 (L554)",
+      "certainty": "stated"
+    },
+    {
+      "value": "3",
+      "unit": "systems",
+      "context": "Budget/fee data in HubSpot, Monday, pacing sheets",
+      "quote": "at the moment we have the information of management fee and ad spend in HubSpot.",
+      "timestamp": "~21:50 (L205)",
+      "certainty": "stated"
+    },
+    {
+      "value": "4",
+      "unit": "spreadsheets",
+      "context": "Weekly e-com client update",
+      "quote": "we have like four different spreadsheets that we input Daily ad spend, weekly ad spend, and the metrics",
+      "timestamp": "~31:36 (L301)",
+      "certainty": "stated"
+    },
+    {
+      "value": "11 am Monday",
+      "unit": "deadline",
+      "context": "E-com client's finance/leadership meeting",
+      "quote": "The client has a finance meeting or a leadership meeting at 11 a.m.",
+      "timestamp": "~32:09 (L305)",
+      "certainty": "stated"
+    },
+    {
+      "value": "7 / 14 / 30",
+      "unit": "days",
+      "context": "Performance comparison windows",
+      "quote": "we can compare data from Like last seven days, last fortnight, and last month, previous or even last 30 days.",
+      "timestamp": "~44:45 (L452)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2",
+      "unit": "pacing checks/month",
+      "context": "Start + mid-month",
+      "quote": "we also have like a mid-month pacing check",
+      "timestamp": "~47:34 (L491)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~7",
+      "unit": "days",
+      "context": "Detection lag for broken tracking",
+      "quote": "no leads are pulling through. from this landing page in the last seven days",
+      "timestamp": "~54:06 (L583–L584)",
+      "certainty": "stated"
+    },
+    {
+      "value": "8–12",
+      "unit": "months",
+      "context": "Bloomfield Estate lead-to-sale cycle",
+      "quote": "it takes like eight to 12 months for a lead to convert.",
+      "timestamp": "~10:58 (L106)",
+      "certainty": "stated"
+    },
+    {
+      "value": "$150 / $170",
+      "unit": "free-shipping threshold",
+      "context": "AU vs NZ e-com client copy QA",
+      "quote": "free shipping has a $150 threshold here, it has a $170 threshold here.",
+      "timestamp": "~18:50 (L179)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~$1K",
+      "unit": "per month",
+      "context": "Example client budget increase",
+      "quote": "oh, we want to spend 1K more a month.",
+      "timestamp": "~22:26 (L212)",
+      "certainty": "stated (example)"
+    },
+    {
+      "value": "5–10",
+      "unit": "assets",
+      "context": "Typical creative refresh batch",
+      "quote": "you have a batch of like five or ten assets.",
+      "timestamp": "~17:59 (L172)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~10",
+      "unit": "creatives",
+      "context": "Per asset/ad group for e-com",
+      "quote": "So maybe we have like 10 different creatives per.",
+      "timestamp": "~27:17 (L256)",
+      "certainty": "stated"
+    },
+    {
+      "value": "6",
+      "unit": "ad platforms",
+      "context": "Google, Meta, Bing, ChatGPT, TikTok, Pinterest",
+      "quote": "we also run Bing ads, chat GPT ads, TikTok ads, Pinterest ads",
+      "timestamp": "~09:54 (L098)",
+      "certainty": "stated"
+    },
+    {
+      "value": "99%",
+      "unit": "of the time",
+      "context": "Meta AI enhancements should be off",
+      "quote": "in like Yeah, 99% of the time, like everything should be toggled off",
+      "timestamp": "~18:26 (L177)",
+      "certainty": "stated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Google Ads + Google Ads Editor",
+      "Microsoft (Bing) Ads + bulk editor",
+      "Meta Ads Manager",
+      "ChatGPT ads",
+      "TikTok Ads",
+      "Pinterest Ads",
+      "GA4",
+      "Pacing Google Sheets",
+      "Monday.com (briefs, budgets/fees)",
+      "HubSpot (management fee, ad spend, sales history)",
+      "Slack (Tina bot pacing alerts)",
+      "AgencyAnalytics (dashboards, scheduled monthly reports)",
+      "Shared Google Drive (client folders)",
+      "Onboarding questionnaire",
+      "Audit document + roadmap checklist",
+      "Competitor ad libraries"
+    ],
+    "shadow": [
+      "Claude for research – no standard prompt",
+      "Manual summing of Meta ad-set budgets",
+      "Four client spreadsheets re-keyed by hand every Monday",
+      "Meeting note-takers tried but not turned into actions",
+      "Historically personal Google Drives for client documents"
+    ],
+    "duplicated_data": [
+      "Management fee and ad spend: HubSpot, Monday.com, pacing sheets",
+      "Approved copy: spreadsheets and platforms",
+      "Client context: HubSpot, sales team, onboarding questionnaire"
+    ],
+    "missing_access": [
+      "Sales handover history (HubSpot not checked in depth)",
+      "Reliable automated spend pulls",
+      "Account-level Meta daily spend",
+      "Early warning of client website/form changes"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Strategy, client relationships and briefs for ~12 clients; QA of implementers' work",
+      "who_role": "Senior Performance Marketing Manager",
+      "if_absent": "Implementers have no briefs; 24-h comms and strategy stall"
+    },
+    {
+      "what": "Conversion/CRO tracking troubleshooting",
+      "who_role": "Conversion Tracking Specialist (Liam Lau, contractor)",
+      "if_absent": "Tracking issues wait"
+    },
+    {
+      "what": "Where client documents live (historically personal drives)",
+      "who_role": "Individual managers incl. past staff",
+      "if_absent": "Handover requires searching"
+    },
+    {
+      "what": "Sales conversation history",
+      "who_role": "Sales team",
+      "if_absent": "Client re-asked; weaker strategy base"
+    },
+    {
+      "what": "Pacing sheet formulas and setup",
+      "who_role": "Sheet maintainer (not named)",
+      "if_absent": "Monthly rollover and fixes stall"
+    },
+    {
+      "what": "Client personas / ICP",
+      "who_role": "Client-supplied; built on in kickoff call",
+      "if_absent": "Not documented by Aperitif as standard"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Sophie: emails/day and hours on comms; minutes per brief; prep time per WIP",
+      "Sophie: Monday e-com update – how long and who does it (Sophie, Michaela or Tati)?",
+      "Sophie: budget changes and false pacing alerts per month; how often tracking breaks",
+      "Sophie: which clients are the Monday 4-sheet e-com client, the AU/NZ e-com client and the bank client (NICU?)",
+      "Wendlley: who owns the pacing sheets and monthly rollover; is Monday or HubSpot the intended budget master?",
+      "Sales (Jethro): what is captured in HubSpot at handover?",
+      "How is Michaela/Tati capacity split between Sophie's and Shrishti's briefs?"
+    ],
+    "contradictions": [
+      "Budget 'three places': Sophie = HubSpot / Monday / pacing sheet; context pack = budget sheet / pacing sheet / platforms",
+      "Austin says pacing summary arrives 'every day' (L193); context pack says Tina bot posts M/W/F – not corrected by Sophie",
+      "Context pack: Tati does mid-month checks; Sophie describes the mid-month pacing check as 'we' (L491)",
+      "Context pack: Michaela and Tati report to Shrishti; Sophie also briefs both (L038)",
+      "Sophie: performance won't use HubSpot 'to the same extent anymore' (L075), yet budget/fee data still sits there (L205)"
+    ],
+    "data_requests": [
+      "Audit document + roadmap checklist and onboarding questionnaire – Sophie (agreed to Slack, L063)",
+      "Pacing sheet template and a sample month tab – Sophie / Wendlley",
+      "The four e-com client weekly spreadsheets – Sophie",
+      "Sample Monday implementation briefs – Sophie / Michaela",
+      "Austin's Figma process map from this session – Austin",
+      "AgencyAnalytics report template – Sophie"
+    ],
+    "verify": [
+      "All assumed time figures (comms 30–60 min/day, prep 15–45 min/WIP, pacing 15–20 min/client, audit 6–12 h)",
+      "Interview length (~60 min) and all timestamps are estimated",
+      "'DDG/DGG' = DDEG – confirm it is also a paid client",
+      "Whether the Monday e-com update is Sophie's time or shared"
+    ]
+  }
+}

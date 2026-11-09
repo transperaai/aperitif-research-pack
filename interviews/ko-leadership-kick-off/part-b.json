@@ -1,0 +1,2873 @@
+{
+ "interview": {
+  "id": "KO",
+  "name": "Joe Romeo; Julia Van Der Linden",
+  "role": "Founder & Principal Consultant; Head of Client Services",
+  "team": "Leadership",
+  "date": "2026-10-22",
+  "minutes": 90,
+  "clients_managed": null
+ },
+ "time_allocation": [
+  {
+   "activity": "Julia – team operations (reviews, development decks, new starter set-up, escalation pipeline)",
+   "pct": 70,
+   "hours_per_week": null,
+   "billable": false,
+   "quote": "Julia: \"it's probably like 70% operations at this stage and then 30 or 40% direct client work\"",
+   "timestamp": "~05:46 (L013)",
+   "certainty": "stated"
+  },
+  {
+   "activity": "Julia – direct client work (pitch support, firefighting)",
+   "pct": 35,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "Julia: \"it's probably like 70% operations at this stage and then 30 or 40% direct client work\"",
+   "timestamp": "~05:46 (L013)",
+   "certainty": "stated"
+  },
+  {
+   "activity": "Joe – plugging holes: sales, manual finance, tier-1 relationships, new product development, own marketing",
+   "pct": null,
+   "hours_per_week": null,
+   "billable": false,
+   "quote": "Joe: \"probably skewing more towards sales at the moment\"",
+   "timestamp": "~04:31 (L007)",
+   "certainty": "stated (qualitative)"
+  },
+  {
+   "activity": "Department leads (as reported by Julia) – own portfolio vs team and escalations",
+   "pct": 50,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "Julia: \"she'll spend 50% of her time on her client portfolio, and the remaining 50% will either be on team admin, mentorship on other team members, client escalations\"",
+   "timestamp": "~33:15 (L160)",
+   "certainty": "stated"
+  },
+  {
+   "activity": "Tier-1-facing seniors – portfolio load vs a standard manager",
+   "pct": 55,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "Joe: \"like 55% of a standard manager, because it's assumed they'll need half their time on admin\"",
+   "timestamp": "~32:51 (L158)",
+   "certainty": "stated"
+  },
+  {
+   "activity": "Rule of thumb for client time: time share follows revenue share of the portfolio",
+   "pct": null,
+   "hours_per_week": null,
+   "billable": true,
+   "quote": "Julia: \"I will tell her this client should take a third of your time\"",
+   "timestamp": "~35:38 (L170)",
+   "certainty": "stated (rule of thumb)"
+  }
+ ],
+ "decisions": [
+  {
+   "decision": "Sign off every contract",
+   "decider_role": "Founder",
+   "waiting_role": "Growth Strategy Lead (BD)",
+   "typical_wait": "Not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Pitch strategy for enterprise or pitch-worthy deals",
+   "decider_role": "Department leads",
+   "waiting_role": "BD",
+   "typical_wait": "Not stated",
+   "lands_on_leadership": false
+  },
+  {
+   "decision": "Whether a client enters the escalation pipeline and what the recovery plan is",
+   "decider_role": "Head of Client Services",
+   "waiting_role": "Account manager",
+   "typical_wait": "Not stated; about 5 cases a week",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Tier-1 relationship issues",
+   "decider_role": "Founder",
+   "waiting_role": "Head of Client Services",
+   "typical_wait": "Not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Whether delivery staff may propose an upsell or new channel",
+   "decider_role": "Head of Client Services",
+   "waiting_role": "Account manager",
+   "typical_wait": "Not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "AP run and payroll",
+   "decider_role": "Founder",
+   "waiting_role": "Bookkeeper",
+   "typical_wait": "Not stated",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Keep, trim or replace HubSpot / Monday.com",
+   "decider_role": "Founder",
+   "waiting_role": "Austin / team",
+   "typical_wait": "Before the HubSpot renewal (stated 'until September')",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Timesheets and the time-and-motion study",
+   "decider_role": "Founder and Head of Client Services",
+   "waiting_role": "Austin",
+   "typical_wait": "Immediate",
+   "lands_on_leadership": true
+  },
+  {
+   "decision": "Hiring to match workload",
+   "decider_role": "Founder / Head of Client Services",
+   "waiting_role": "Department leads",
+   "typical_wait": "'Takes time to hire' (L225)",
+   "lands_on_leadership": true
+  }
+ ],
+ "clients_mentioned": [
+  {
+   "client": "DDG (probably DDEG)",
+   "tier": "Tier 1 (DDEG, assumed)",
+   "context": "Austin's previous employer; he was vendor lead when Aperitif was brought on for SEO and Google Ads (L005). Joe uses 'DDG' as the example client for the monthly ticket set (L307: technical, content, links, report). Unconfirmed that DDG = DDEG."
+  },
+  {
+   "client": "Fashion e-commerce client (unnamed)",
+   "tier": "Not stated",
+   "context": "Illustrative $11,000 retainer equal to 30% of a senior performance manager's portfolio (L170); Julia's rule of thumb for time share."
+  },
+  {
+   "client": "Aged care / disability support provider (unnamed)",
+   "tier": "Not stated",
+   "context": "Team member saw a need for an extra channel; Julia arranged a meeting with the programmatic rep and the client signed on to programmatic (L289)."
+  },
+  {
+   "client": "New client that ran out of money (unnamed)",
+   "tier": "Not stated",
+   "context": "One month into a contract, with no warning signs (L130)."
+  },
+  {
+   "client": "Automotive clients (sector)",
+   "tier": "Context pack: Tier 1–3 mix",
+   "context": "Fuel price changes create sensitivity (L193)."
+  },
+  {
+   "client": "Childcare clients (sector)",
+   "tier": "Context pack: paid media vertical",
+   "context": "Susceptible to elections (L193)."
+  },
+  {
+   "client": "Tier-1 clients (general)",
+   "tier": "Tier 1",
+   "context": "Specify seniority in their contracts (L156); Joe holds personal relationships (L072)."
+  },
+  {
+   "client": "Lead-generation clients (general)",
+   "tier": "Mixed",
+   "context": "Lead quality falling; 'all of our clients are suffering' (L393)."
+  }
+ ],
+ "processes": [
+  {
+   "id": "KO-P01",
+   "process": "Sales – lead to proposal",
+   "trigger": "A lead arrives from a partner referral or a Meta ad and is created in HubSpot (L031).",
+   "owner_role": "Growth Strategy Lead (BD); Founder for enterprise or pitch-worthy deals",
+   "frequency": {
+    "count": null,
+    "per": "month",
+    "scope": "all inbound leads; volume not discussed"
+   },
+   "decision_points": [
+    {
+     "after_step": 3,
+     "branches": [
+      {
+       "outcome": "Enterprise / pitch-worthy: joint strategy in shared channel",
+       "pct": null
+      },
+      {
+       "outcome": "SME off the shelf: straight to pitch",
+       "pct": null
+      }
+     ],
+     "certainty": "stated; split not discussed"
+    },
+    {
+     "after_step": 5,
+     "branches": [
+      {
+       "outcome": "Raw inbound lead closes",
+       "pct": 10
+      },
+      {
+       "outcome": "Does not close",
+       "pct": 90
+      }
+     ],
+     "certainty": "estimated (Joe: 'might be one in ten', L268)"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "HubSpot creates the lead and posts a Slack message to the leads channel; it is auto-assigned to the BD",
+     "actor_role": "System",
+     "tool": "HubSpot, Slack",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "None",
+     "handoff_to": "BD",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "BD phones the lead, target within 5 minutes",
+     "actor_role": "BD",
+     "tool": "Phone, HubSpot",
+     "touch_min": null,
+     "wait": "Target 5 min to first call (stated as the ideal)",
+     "handoff_to": "BD",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated (target); touch not discussed"
+    },
+    {
+     "step": 3,
+     "action": "BD books and runs a discovery session (deep-dive questions)",
+     "actor_role": "BD",
+     "tool": "Phone/video",
+     "touch_min": null,
+     "wait": "Days (not stated)",
+     "handoff_to": "BD",
+     "flags": [],
+     "certainty": "assumed – confirm with Jethro"
+    },
+    {
+     "step": 4,
+     "action": "Branch: enterprise or pitch-worthy goes to the shared department-lead channel and a joint strategy; SME 'off the shelf' goes straight to pitch",
+     "actor_role": "BD, department leads, Joe",
+     "tool": "Slack, proposal decks",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "BD",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 5,
+     "action": "Pitch and negotiation; a technical or product person joins on the higher-end deals",
+     "actor_role": "BD, Founder, Head of Client Services, product person",
+     "tool": "Proposal deck, meeting",
+     "touch_min": null,
+     "wait": "Part of the 6–8 week cycle",
+     "handoff_to": "Next process (signing)",
+     "flags": [],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Lead unreachable or wrong budget",
+     "trigger": "Raw inbound lead never qualifies",
+     "rate": "'A big percentage' (not quantified)",
+     "extra_steps": "None – drops out",
+     "extra_min": null,
+     "certainty": "stated (qualitative)"
+    },
+    {
+     "name": "Lead not called promptly",
+     "trigger": "Missed or slow first call",
+     "rate": "Not quantified",
+     "extra_steps": "Lead goes cold",
+     "extra_min": null,
+     "certainty": "assumed – confirm with HubSpot activity data"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – touch time and volume not discussed"
+  },
+  {
+   "id": "KO-P02",
+   "process": "Sales – proposal to signed",
+   "trigger": "Prospect agrees to proceed after the pitch (L031).",
+   "owner_role": "Founder (signs off every contract); Growth Strategy Lead",
+   "frequency": {
+    "count": null,
+    "per": "month",
+    "scope": "won deals; volume not discussed"
+   },
+   "decision_points": [
+    {
+     "after_step": 2,
+     "branches": [
+      {
+       "outcome": "Contract signed after founder sign-off",
+       "pct": null
+      }
+     ],
+     "certainty": "stated; only path described"
+    }
+   ],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Negotiate through to signing",
+     "actor_role": "BD, Founder",
+     "tool": "Email/phone",
+     "touch_min": null,
+     "wait": "Part of the 6–8 week cycle",
+     "handoff_to": "Founder",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Complete the DocuSign by hand from the template",
+     "actor_role": "BD or Founder",
+     "tool": "DocuSign",
+     "touch_min": null,
+     "wait": "Waits for client signature (not stated)",
+     "handoff_to": "Founder",
+     "flags": [
+      "manual-rekey"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Founder signs off the contract",
+     "actor_role": "Founder",
+     "tool": "DocuSign",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Finance step",
+     "flags": [
+      "bottleneck",
+      "single-person"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 4,
+     "action": "First invoice issued in Xero; first payment received",
+     "actor_role": "Founder (invoices issued by hand, L007)",
+     "tool": "Xero",
+     "touch_min": null,
+     "wait": "Payment timing not stated",
+     "handoff_to": "Sales to delivery handover",
+     "flags": [
+      "manual-rekey"
+     ],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Contract not signed / deal falls over",
+     "trigger": "Prospect stalls",
+     "rate": "Not discussed",
+     "extra_steps": "Not discussed",
+     "extra_min": null,
+     "certainty": "not discussed"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – touch time and volume not discussed"
+  },
+  {
+   "id": "KO-P03",
+   "process": "Sales to delivery handover",
+   "trigger": "First payment received (L031).",
+   "owner_role": "BD (hands over); receiving account manager or channel lead",
+   "frequency": {
+    "count": null,
+    "per": "month",
+    "scope": "new clients; volume not discussed"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Internal handover meeting between BD and the team who will work the account (by channel)",
+     "actor_role": "BD, account manager(s)",
+     "tool": "Meeting, HubSpot",
+     "touch_min": [
+      30,
+      60
+     ],
+     "wait": "None",
+     "handoff_to": "Account manager",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (15 min); attendees assumed"
+    },
+    {
+     "step": 2,
+     "action": "Deal record in HubSpot converts into the delivery record; notes and call transcript travel with it",
+     "actor_role": "BD",
+     "tool": "HubSpot",
+     "touch_min": null,
+     "wait": "None",
+     "handoff_to": "Account manager",
+     "flags": [
+      "error-prone"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Client-facing handover from sales to the delivery team",
+     "actor_role": "BD, account manager, client",
+     "tool": "Video call",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Client onboarding – access & setup",
+     "flags": [],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Detail agreed in the pitch is lost",
+     "trigger": "Handover is the transcript only (L042)",
+     "rate": "Not quantified",
+     "extra_steps": "Re-asking the client",
+     "extra_min": null,
+     "certainty": "stated (qualitative); Austin raised the risk (L043)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "per run 30–60 person-min; monthly not costed (volume not discussed)"
+  },
+  {
+   "id": "KO-P04",
+   "process": "Client onboarding – access & setup",
+   "trigger": "Handover complete; client needs to supply onboarding information and access (L227).",
+   "owner_role": "Account manager / channel lead; Head of Client Services oversees capacity",
+   "frequency": {
+    "count": null,
+    "per": "month",
+    "scope": "new clients; volume not discussed"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Client completes its own onboarding information",
+     "actor_role": "Client",
+     "tool": "Forms/email",
+     "touch_min": null,
+     "wait": "Client-dependent; part of 'within the month'",
+     "handoff_to": "Account manager",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Client grants access to all platforms",
+     "actor_role": "Client",
+     "tool": "Platform invites",
+     "touch_min": null,
+     "wait": "Client-dependent",
+     "handoff_to": "Account manager",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Head of Client Services researches the new client's ownership and people by hand (private equity, LinkedIn)",
+     "actor_role": "Head of Client Services",
+     "tool": "Web, LinkedIn",
+     "touch_min": null,
+     "wait": "None",
+     "handoff_to": "Account manager (informal)",
+     "flags": [
+      "manual-rekey"
+     ],
+     "certainty": "stated (Julia describes it as her practice)"
+    },
+    {
+     "step": 4,
+     "action": "Team completes setup, audit and build",
+     "actor_role": "Account manager, specialists",
+     "tool": "Client platforms",
+     "touch_min": null,
+     "wait": "None",
+     "handoff_to": "Delivery",
+     "flags": [],
+     "certainty": "stated (labour-intensive); times not discussed"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Too many clients onboarded close together",
+     "trigger": "Burst of wins",
+     "rate": "'The most common' stretch cause (L220); frequency not given",
+     "extra_steps": "Extra load on BAU",
+     "extra_min": null,
+     "certainty": "stated (qualitative)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – touch time and volume not discussed"
+  },
+  {
+   "id": "KO-P05",
+   "process": "Internal task management",
+   "trigger": "1st of each month: automation orders the month's work for every client (L307). Name for this entry: monthly work-order generation (HubSpot tickets to Monday.com).",
+   "owner_role": "Founder (built the HubSpot version); Technical SEO Specialist (built the Monday.com version)",
+   "frequency": {
+    "count": 1,
+    "per": "month",
+    "scope": "every client; run is automated"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "HubSpot automation creates the month's tickets for each client: technical hours, content volume, links, report",
+     "actor_role": "System",
+     "tool": "HubSpot",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "None",
+     "handoff_to": "Monday.com",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Sync pushes the tickets to Monday.com boards so each person sees their own tasks across clients",
+     "actor_role": "System",
+     "tool": "Monday.com",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "None",
+     "handoff_to": "Task owners",
+     "flags": [
+      "single-person",
+      "error-prone"
+     ],
+     "certainty": "stated; reliability unverified"
+    },
+    {
+     "step": 3,
+     "action": "Tasks are assigned to individuals",
+     "actor_role": "System / managers",
+     "tool": "Monday.com",
+     "touch_min": null,
+     "wait": "None",
+     "handoff_to": "Task owners",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 4,
+     "action": "By month end all tasks are completed and closed with task notes",
+     "actor_role": "Task owners",
+     "tool": "Monday.com",
+     "touch_min": null,
+     "wait": "Up to a month",
+     "handoff_to": "Reporting",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 5,
+     "action": "Task notes are packaged into the client report and sent",
+     "actor_role": "Account manager",
+     "tool": "AgencyAnalytics",
+     "touch_min": null,
+     "wait": "Within first days of next month",
+     "handoff_to": "Client",
+     "flags": [],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Sync drops or misassigns tasks",
+     "trigger": "Monday.com version rebuilt without all HubSpot nuances (L303)",
+     "rate": "Unknown – 'stuff's getting missed'",
+     "extra_steps": "Joe checks by hand; missed work found late",
+     "extra_min": null,
+     "certainty": "stated (suspicion); scale not quantified"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – checking time not discussed"
+  },
+  {
+   "id": "KO-P06",
+   "process": "Client escalation",
+   "trigger": "A churn indicator appears: client panic about results, asks for the contract, new marketing manager, talk of going in-house, long silence (L128–L130). About 5 a week (L124).",
+   "owner_role": "Head of Client Services",
+   "frequency": {
+    "count": 21.7,
+    "per": "month",
+    "scope": "whole agency; reach the Head of Client Services"
+   },
+   "decision_points": [
+    {
+     "after_step": 1,
+     "branches": [
+      {
+       "outcome": "Routine / low-grade (e.g. client panic)",
+       "pct": null
+      },
+      {
+       "outcome": "Serious (e.g. new head of marketing wants in-house)",
+       "pct": null
+      }
+     ],
+     "certainty": "stated; split not given"
+    }
+   ],
+   "team_volume_per_month": 21.7,
+   "monthly_cost_aud": [
+    867,
+    2600
+   ],
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Team member or leader spots an indicator and the client enters the escalation pipeline",
+     "actor_role": "Account manager / Head of Client Services",
+     "tool": "Escalation pipeline",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Head of Client Services",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Head of Client Services joins the client call(s) to see how the team handles the sensitivity",
+     "actor_role": "Head of Client Services",
+     "tool": "Video call",
+     "touch_min": [
+      30,
+      90
+     ],
+     "wait": "Not stated",
+     "handoff_to": "Account manager",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "assumed – confirm average hours per case with Julia"
+    },
+    {
+     "step": 3,
+     "action": "Agree a plan to rectify 'ASAP'",
+     "actor_role": "Head of Client Services, account manager",
+     "tool": "Meeting/Slack",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Account manager",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 4,
+     "action": "For tier-1 clients with a personal link, the Founder calls the client contact",
+     "actor_role": "Founder",
+     "tool": "Phone",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Head of Client Services",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated (L072)"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Blindsided by a client with no early signs",
+     "trigger": "Example: new client says it has run out of money one month in (L130)",
+     "rate": "Occasional – not quantified",
+     "extra_steps": "Reactive handling",
+     "extra_min": null,
+     "certainty": "stated (one example today)"
+    },
+    {
+     "name": "Tier-1 relationship case while Joe is away",
+     "trigger": "Founder unavailable",
+     "rate": "Not quantified",
+     "extra_steps": "Julia absorbs",
+     "extra_min": null,
+     "certainty": "stated (L072)"
+    }
+   ],
+   "monthly_hours": [
+    10.8,
+    32.5
+   ],
+   "monthly_hours_working": "21.7 cases/month × 30–90 min = 650–1,950 min = 10.8–32.5 h (time per case assumed)"
+  },
+  {
+   "id": "KO-P07",
+   "process": "Finance & billing",
+   "trigger": "Regular AP and payroll cycles; invoices when work is billed (L007, L055). Frequencies not stated.",
+   "owner_role": "Founder; external bookkeeper and finance team for the rest",
+   "frequency": {
+    "count": null,
+    "per": "not stated",
+    "scope": "agency-wide"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Founder runs the AP run by hand",
+     "actor_role": "Founder",
+     "tool": "Bank, Xero",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Bookkeeper",
+     "flags": [
+      "single-person",
+      "manual-rekey"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Founder pays payroll",
+     "actor_role": "Founder",
+     "tool": "Bank",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Staff",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Founder issues invoices that the bookkeeper cannot handle; Head of Client Services is starting to help",
+     "actor_role": "Founder, Head of Client Services",
+     "tool": "Xero",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Clients",
+     "flags": [
+      "manual-rekey"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 4,
+     "action": "Bookkeeper team does revenue recognition and asks Joe about transactions now and then",
+     "actor_role": "Bookkeeper",
+     "tool": "Xero",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Founder",
+     "flags": [],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Transaction queries from the finance team",
+     "trigger": "Unclear transaction",
+     "rate": "Every now and then (L055)",
+     "extra_steps": "Founder reply",
+     "extra_min": null,
+     "certainty": "stated (qualitative)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – hours and frequency not discussed"
+  },
+  {
+   "id": "KO-P08",
+   "process": "NEW: Leadership business reporting & review",
+   "trigger": "Month end and quarter end (L135, L137, L142, L189).",
+   "owner_role": "Founder",
+   "frequency": {
+    "count": 1,
+    "per": "month",
+    "scope": "whole agency"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Accountants send the monthly financial update, within a couple of days of month end",
+     "actor_role": "Accountants",
+     "tool": "Reports",
+     "touch_min": null,
+     "wait": "A couple of days",
+     "handoff_to": "Founder",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "OpenClaw task calculates retention by portfolio and department on the 1st and the 30th/31st",
+     "actor_role": "System",
+     "tool": "OpenClaw",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "None",
+     "handoff_to": "Founder",
+     "flags": [
+      "single-person"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "DLER by department reviewed with the CFO team",
+     "actor_role": "Founder, CFO team",
+     "tool": "Reports",
+     "touch_min": null,
+     "wait": "Monthly",
+     "handoff_to": "Founder",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 4,
+     "action": "Retention reviewed monthly with department leads",
+     "actor_role": "Founder, department leads",
+     "tool": "Meeting",
+     "touch_min": null,
+     "wait": "Monthly",
+     "handoff_to": "Department leads",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 5,
+     "action": "Top-line numbers shared to the team quarterly",
+     "actor_role": "Founder",
+     "tool": "Update",
+     "touch_min": null,
+     "wait": "Quarterly",
+     "handoff_to": "Team",
+     "flags": [],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Number mismatch or lag",
+     "trigger": "Not described",
+     "rate": "Not discussed",
+     "extra_steps": "Not discussed",
+     "extra_min": null,
+     "certainty": "not discussed"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – times not discussed"
+  },
+  {
+   "id": "KO-P09",
+   "process": "Hiring & onboarding staff",
+   "trigger": "A hire is needed, usually because work has been won or someone leaves (L225).",
+   "owner_role": "Founder and Head of Client Services",
+   "frequency": {
+    "count": null,
+    "per": "year",
+    "scope": "all hires; not discussed"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Recruit; 'takes time to hire' (sales is especially hard to hire for)",
+     "actor_role": "Founder, Head of Client Services",
+     "tool": "Not named",
+     "touch_min": null,
+     "wait": "Weeks (not stated)",
+     "handoff_to": "Head of Client Services",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated (qualitative)"
+    },
+    {
+     "step": 2,
+     "action": "New starter set up in Employment Hero and guided by the Head of Client Services",
+     "actor_role": "Head of Client Services",
+     "tool": "Employment Hero",
+     "touch_min": null,
+     "wait": "None",
+     "handoff_to": "Team",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Training from several team members on purpose; Loom videos and 1:1s; sessions recorded and turned into Notion docs (goal, 'probably not' always done)",
+     "actor_role": "Team members",
+     "tool": "Loom, Notion",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "New starter",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 4,
+     "action": "Ramp to about 80% of target portfolio; DLER stabilises",
+     "actor_role": "New starter, manager",
+     "tool": "Portfolio",
+     "touch_min": null,
+     "wait": "About 90 days",
+     "handoff_to": "Department",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Ramp hit lands while workload is high",
+     "trigger": "Burst of new clients",
+     "rate": "Not quantified",
+     "extra_steps": "Team stretched",
+     "extra_min": null,
+     "certainty": "stated (qualitative)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – hours not discussed"
+  },
+  {
+   "id": "KO-P10",
+   "process": "NEW: Staff performance reviews & development matrices",
+   "trigger": "Quarterly and six-monthly review cycles (L345).",
+   "owner_role": "Head of Client Services",
+   "frequency": {
+    "count": null,
+    "per": "quarter",
+    "scope": "about 22 staff + 4 offshore"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Reviews held; KPIs scored 1–5",
+     "actor_role": "Managers, Head of Client Services",
+     "tool": "Review form",
+     "touch_min": null,
+     "wait": "Quarterly",
+     "handoff_to": "Employee",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Every employee gets a matrix: where you are, action, where you need to be",
+     "actor_role": "Head of Client Services",
+     "tool": "Matrix",
+     "touch_min": null,
+     "wait": "After review",
+     "handoff_to": "Employee",
+     "flags": [],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Head of Client Services sense-checks the development decks for all seniors",
+     "actor_role": "Head of Client Services",
+     "tool": "Decks",
+     "touch_min": null,
+     "wait": "After review period",
+     "handoff_to": "Seniors",
+     "flags": [],
+     "certainty": "stated (done the morning of the interview)"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Matrix opened once and then ignored until the next review",
+     "trigger": "Employee behaviour",
+     "rate": "Joe: common elsewhere",
+     "extra_steps": "Not discussed",
+     "extra_min": null,
+     "certainty": "stated (Joe's observation about other workplaces, L347)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – hours not discussed"
+  },
+  {
+   "id": "KO-P11",
+   "process": "Performance monitoring & alerting",
+   "trigger": "A Google Ads script runs on the account (L356).",
+   "owner_role": "Account managers; script owner not stated",
+   "frequency": {
+    "count": null,
+    "per": "continuous",
+    "scope": "Google Ads accounts; coverage not stated"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Script checks whether any conversions fired in the last 7 days",
+     "actor_role": "System",
+     "tool": "Google Ads script",
+     "touch_min": [
+      0,
+      0
+     ],
+     "wait": "Up to 7 days before a break is flagged",
+     "handoff_to": "Account manager",
+     "flags": [
+      "bottleneck"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "Notification fires and a manager jumps in to check",
+     "actor_role": "Account manager",
+     "tool": "Google Ads",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Conversion tracking",
+     "flags": [],
+     "certainty": "stated"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Conversion tracking breaks silently",
+     "trigger": "Tag or tracking failure",
+     "rate": "Not quantified",
+     "extra_steps": "Manual investigation",
+     "extra_min": null,
+     "certainty": "stated (Austin raised; Joe described the script)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – hours not discussed"
+  },
+  {
+   "id": "KO-P12",
+   "process": "Link building – sourcing & ordering",
+   "trigger": "Monthly link plans; about 200 links a month (L368). Only what Julia described is captured.",
+   "owner_role": "Link-building lead (not named here)",
+   "frequency": {
+    "count": 200,
+    "per": "month",
+    "scope": "whole link-building operation"
+   },
+   "decision_points": [],
+   "team_volume_per_month": null,
+   "monthly_cost_aud": null,
+   "happy_path": [
+    {
+     "step": 1,
+     "action": "Approved publishers and ordered links are kept in spreadsheets; there is no store of approved publishers",
+     "actor_role": "Link-building team",
+     "tool": "Spreadsheets",
+     "touch_min": null,
+     "wait": "None",
+     "handoff_to": "Link-building team",
+     "flags": [
+      "manual-rekey"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 2,
+     "action": "People update links in the sheets; invoices to outreachers are outstanding and need to be paid",
+     "actor_role": "Link-building team",
+     "tool": "Spreadsheets, payment",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Finance",
+     "flags": [
+      "bottleneck",
+      "manual-rekey"
+     ],
+     "certainty": "stated"
+    },
+    {
+     "step": 3,
+     "action": "Link data is then moved to the CRM and into the end report",
+     "actor_role": "Link-building team",
+     "tool": "CRM, report",
+     "touch_min": null,
+     "wait": "Not stated",
+     "handoff_to": "Client report",
+     "flags": [
+      "manual-rekey"
+     ],
+     "certainty": "stated (Julia calls it 'clunky')"
+    }
+   ],
+   "bad_paths": [
+    {
+     "name": "Dropped links are not checked automatically",
+     "trigger": "Link removed or changed after placement",
+     "rate": "Not quantified here",
+     "extra_steps": "Manual detection",
+     "extra_min": null,
+     "certainty": "stated (as a wish for automation)"
+    }
+   ],
+   "monthly_hours": null,
+   "monthly_hours_working": "not costed – covered in other interviews"
+  }
+ ],
+ "pain_points": [
+  {
+   "id": "KO-PP01",
+   "text": "Sales-to-delivery handover is the call transcript plus the HubSpot deal notes; no structured handover pack, so detail agreed in the pitch is lost",
+   "source": "interviewer (Austin framed it as a gap); fact confirmed by Joe",
+   "category": "Missing visibility",
+   "anchor": "Client experience & delivery",
+   "process": "Sales to delivery handover",
+   "impact": "Client has to repeat requirements; tacit knowledge lost",
+   "frequency": "Every new client (volume not discussed)",
+   "severity": 3,
+   "quote": "Joe: \"just the transcript.\"",
+   "timestamp": "~10:47 (L042)",
+   "certainty": "stated (Joe); impact assumed",
+   "matches_existing_problem": "Client knowledge lives in people's heads, not per client"
+  },
+  {
+   "id": "KO-PP02",
+   "text": "Tier-1 client relationships depend on the founder personally; delivery teams cannot take them over",
+   "source": "interviewee (Julia; Joe agrees)",
+   "category": "Single point of failure (person)",
+   "anchor": "Leadership & dependency",
+   "process": "Client escalation",
+   "impact": "Sensitive tier-1 issues stall or land on Julia when Joe is away; Joe cannot hand legacy clients off",
+   "frequency": "Whenever a tier-1 sensitivity arises or Joe is away",
+   "severity": 4,
+   "quote": "Julia: \"the biggest gap when Joe steps away is actually some of the select tier ones that he has a personal relationship with\"",
+   "timestamp": "~17:13 (L072)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP03",
+   "text": "Founder still runs the AP run, payroll and invoice issuing by hand",
+   "source": "interviewee (Joe)",
+   "category": "Manual / repetitive work",
+   "anchor": "Leadership & dependency",
+   "process": "Finance & billing",
+   "impact": "Founder hours on bank-account tasks; payments stall if he is away (hours not stated)",
+   "frequency": "Recurring (frequency not stated)",
+   "severity": 3,
+   "quote": "Joe: \"I still do the AP run manually and I still pay payroll, anything that involves a bank account.\"",
+   "timestamp": "~13:29 (L055)",
+   "certainty": "stated; hours not discussed",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP04",
+   "text": "Performance department has no senior leader; the Head of Client Services is covering operational gaps",
+   "source": "interviewee (Julia)",
+   "category": "Capacity / overload",
+   "anchor": "Leadership & dependency",
+   "process": "Client escalation",
+   "impact": "Julia's time diverted from client services and team operations; paid team without a senior sponsor",
+   "frequency": "Ongoing",
+   "severity": 4,
+   "quote": "Julia: \"At the moment, we're a bit headless when it comes to performance. We really want a performance — more senior leader.\"",
+   "timestamp": "~16:00 (L066)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP05",
+   "text": "Churn-risk escalations (about five a week) all land with the Head of Client Services; judgement questions on client comms follow the same route",
+   "source": "interviewee (Julia; Joe prompted the topic)",
+   "category": "Capacity / overload",
+   "anchor": "Client experience & delivery",
+   "process": "Client escalation",
+   "impact": "Julia joins client calls and sets recovery plans; time per case not stated",
+   "frequency": "About 5 a week",
+   "severity": 4,
+   "quote": "Julia: \"Probably five times a week, to be honest with you.\"",
+   "timestamp": "~26:27 (L124)",
+   "certainty": "stated (volume); time per case assumed",
+   "matches_existing_problem": "Escalations route around department leads to the Head of Client Services"
+  },
+  {
+   "id": "KO-PP06",
+   "text": "Churn risk is spotted by human pattern recognition only; no data signals, and some cases arrive with no warning",
+   "source": "detected (Austin proposed signals; Julia described the manual method)",
+   "category": "Missing visibility",
+   "anchor": "Performance visibility & margin",
+   "process": "Client escalation",
+   "impact": "Late detection of revenue at risk; a new client said it had run out of money one month in",
+   "frequency": "About 5 a week; surprises occasional",
+   "severity": 3,
+   "quote": "Julia: \"you can just recognise it based on their behaviour. Asking to see the contract, I haven't seen you in a while, new marketing manager coming in\"",
+   "timestamp": "~27:21 (L130)",
+   "certainty": "stated (method); frequency of surprises not discussed",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP07",
+   "text": "No timesheets or utilisation tracking, so time per client, utilisation and client-level profitability cannot be measured; DLER is the only proxy",
+   "source": "interviewee (Joe)",
+   "category": "Missing visibility",
+   "anchor": "Performance visibility & margin",
+   "process": "NEW: Leadership business reporting & review",
+   "impact": "Margin by client and service unknown (gross margin quoted only as 'roughly 30%'); capacity judged by a department-level ratio",
+   "frequency": "Ongoing",
+   "severity": 4,
+   "quote": "Joe: \"It's just a lot of people — no, Big Brother. Not much gain.\"",
+   "timestamp": "~42:16 (L206)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP08",
+   "text": "Onboarding too many clients at once is the most common cause of team stretch; onboarding is labour-intensive",
+   "source": "interviewee (Joe)",
+   "category": "Capacity / overload",
+   "anchor": "Operations capacity & process",
+   "process": "Client onboarding – access & setup",
+   "impact": "Team stretched; November flagged as busy",
+   "frequency": "Whenever several clients sign close together",
+   "severity": 4,
+   "quote": "Joe: \"Onboarding too many clients at once, or in a short amount of time, tends to be the most common one\"",
+   "timestamp": "~43:57 (L220)",
+   "certainty": "stated",
+   "matches_existing_problem": "Onboarding stalls on client access and disrupts BAU; Managers at capacity – Tier 2/3 clients get dropped first"
+  },
+  {
+   "id": "KO-PP09",
+   "text": "A new starter takes about 90 days to reach capacity and DLER takes a hit meanwhile; hiring is slow when work is won in a burst",
+   "source": "interviewee (Joe)",
+   "category": "Capacity / overload",
+   "anchor": "Operations capacity & process",
+   "process": "Hiring & onboarding staff",
+   "impact": "90-day lag before a hire carries a full portfolio",
+   "frequency": "Per hire",
+   "severity": 3,
+   "quote": "Joe: \"the ramp is, like, 90 days for a new starter\"",
+   "timestamp": "~44:27 (L225)",
+   "certainty": "stated",
+   "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first (partial)"
+  },
+  {
+   "id": "KO-PP10",
+   "text": "Staff do not follow the systems (notes not updated, ticketing not used correctly), which makes capacity hard to calculate",
+   "source": "interviewee (Joe)",
+   "category": "Tool not used / adoption",
+   "anchor": "Technology, AI & stack",
+   "process": "Internal task management",
+   "impact": "Capacity and workload cannot be read from ticket data; new starters copy the habit",
+   "frequency": "Ongoing",
+   "severity": 4,
+   "quote": "Joe: \"you can build the best system in the world, but like, people don't use it\"",
+   "timestamp": "~20:51 (L088)",
+   "certainty": "stated; ticketing detail at L090",
+   "matches_existing_problem": "Documentation is stale and rarely read (partial)"
+  },
+  {
+   "id": "KO-PP11",
+   "text": "HubSpot-to-Monday.com monthly work-order sync is unverified; Joe suspects tasks are being missed because the Monday version was rebuilt without all the nuances",
+   "source": "interviewee (Joe)",
+   "category": "Rework / errors",
+   "anchor": "Technology, AI & stack",
+   "process": "Internal task management",
+   "impact": "Missed monthly deliverables (technical, content, links, report) for some clients; size unknown",
+   "frequency": "Monthly, every client",
+   "severity": 4,
+   "quote": "Joe: \"I'm not fully confident that it's working correctly. Stuff's getting missed.\"",
+   "timestamp": "~62:00 (L303)",
+   "certainty": "stated; scale not quantified",
+   "matches_existing_problem": "Documentation and internal tooling held by the founder (partial)"
+  },
+  {
+   "id": "KO-PP12",
+   "text": "Monday.com costs about $1,000 a month and the founder sees it as an unnecessary cost that is not purpose-built; HubSpot is still about $22–25K a year",
+   "source": "interviewee (Joe)",
+   "category": "Revenue / margin leak",
+   "anchor": "Technology, AI & stack",
+   "process": "Internal task management",
+   "impact": "About $30K a year across HubSpot and Monday.com after one reduction",
+   "frequency": "Annual / monthly",
+   "severity": 3,
+   "quote": "Joe: \"Monday.com for me is the one I'm least satisfied with, 'cause I just see it as a cost.\"",
+   "timestamp": "~79:16 (L367)",
+   "certainty": "stated (cost); value of switching not assessed",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP13",
+   "text": "Change fatigue: Monday.com, AgencyAnalytics and Employment Hero were all rolled out inside 50 days and the staff survey said it was too much, too fast",
+   "source": "interviewee (Joe; Julia agrees people resist change)",
+   "category": "Tool not used / adoption",
+   "anchor": "Technology, AI & stack",
+   "process": "Internal task management",
+   "impact": "Lower adoption of new tools; resistance to further change",
+   "frequency": "One-off (recent), shapes any further rollout",
+   "severity": 3,
+   "quote": "Joe: \"we rolled out Monday.com, Agency Analytics, and Employment Hero, like — we did that in a 50-day period.\"",
+   "timestamp": "~81:29 (L381)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP14",
+   "text": "AI use is inconsistent and shallow; Joe's OpenClaw assistant is open to the team in Slack but nobody uses it, and nobody was told how",
+   "source": "interviewee (Joe)",
+   "category": "Tool not used / adoption",
+   "anchor": "Technology, AI & stack",
+   "process": "Knowledge & SOPs",
+   "impact": "Team gets little benefit from AI already in the stack",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "Joe: \"it's got access to the team via a Slack channel. No one utilises it.\"",
+   "timestamp": "~81:13 (L377)",
+   "certainty": "stated",
+   "matches_existing_problem": "Slack bots and agents have no visible owner or documentation (partial)"
+  },
+  {
+   "id": "KO-PP15",
+   "text": "No usable wiki: Julia says one is needed badly while Joe says everything is in Notion",
+   "source": "interviewee (Julia); Joe's view conflicts (L423)",
+   "category": "Missing visibility",
+   "anchor": "Operations capacity & process",
+   "process": "Knowledge & SOPs",
+   "impact": "Repeat questions go to leaders; Julia documents answers in Notion case by case",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "Julia: \"No. We need a wiki badly.\"",
+   "timestamp": "~19:11 (L082)",
+   "certainty": "stated",
+   "matches_existing_problem": "Documentation is stale and rarely read"
+  },
+  {
+   "id": "KO-PP16",
+   "text": "Link building has no CRM: publishers, orders and outstanding invoices live in spreadsheets, and there is no automatic check for dropped links",
+   "source": "interviewee (Julia)",
+   "category": "Duplicate data entry",
+   "anchor": "Operations capacity & process",
+   "process": "Link building – sourcing & ordering",
+   "impact": "About 200 links a month tracked by hand; invoices outstanding; dropped links not detected",
+   "frequency": "About 200 links a month (stated by Julia)",
+   "severity": 4,
+   "quote": "Julia: \"I would love, like, a CRM for our link-building team specifically. That is still being run out of spreadsheets.\"",
+   "timestamp": "~79:34 (L368)",
+   "certainty": "stated",
+   "matches_existing_problem": "Link building runs on 7+ disconnected spreadsheets; Paid links disappear after payment – detected manually (partial); Outreacher invoicing tracked as PayPal links in spreadsheet cells (partial)"
+  },
+  {
+   "id": "KO-PP17",
+   "text": "Sales is not yet consistent and still needs the founder (contract sign-off, strategy input); sales hires are hard to find and the pipeline depends on inbound and referral",
+   "source": "interviewee (Joe)",
+   "category": "Single point of failure (person)",
+   "anchor": "Growth & sales engine",
+   "process": "Sales – lead to proposal",
+   "impact": "Growth and the US expansion wait on Australian sales running without Joe",
+   "frequency": "Ongoing",
+   "severity": 4,
+   "quote": "Joe: \"sales to be consistent and coming in month to month without so much of my involvement\"",
+   "timestamp": "~86:25 (L403)",
+   "certainty": "stated",
+   "matches_existing_problem": "Sales commits to work delivery can't profitably do (partial – Joe brings a product person into pitches to check feasibility, L274)"
+  },
+  {
+   "id": "KO-PP18",
+   "text": "Only about one in ten raw leads closes; a large share are unreachable or have the wrong budget",
+   "source": "interviewee (Joe)",
+   "category": "Revenue / margin leak",
+   "anchor": "Growth & sales engine",
+   "process": "Sales – lead to proposal",
+   "impact": "Low conversion from MQL; cause split not measured",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "Joe: \"now, I think because the lead volume is higher, as we're running ads better, it might be one in ten.\"",
+   "timestamp": "~54:08 (L268)",
+   "certainty": "stated (Joe's estimate)",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP19",
+   "text": "Lead quality is falling across the lead-generation client base; platform algorithms favour cheap form fills",
+   "source": "interviewee (Joe)",
+   "category": "Client friction",
+   "anchor": "Client experience & delivery",
+   "process": "Performance monitoring & alerting",
+   "impact": "All lead-gen clients affected; quality of SQLs down",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "Joe: \"lead quality has gone down as a whole\"",
+   "timestamp": "~83:56 (L393)",
+   "certainty": "stated; not measured",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP20",
+   "text": "Client-facing specialists tend to report metrics instead of bringing a position or recommendation; soft-skills gap",
+   "source": "interviewee (Julia; Joe agrees)",
+   "category": "Client friction",
+   "anchor": "Client experience & delivery",
+   "process": "Client meetings & prep",
+   "impact": "Clients ask 'what should we do'; leaders pulled in",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "Julia: \"the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy\"",
+   "timestamp": "~68:58 (L326)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP21",
+   "text": "Most questions to Julia are client-communication or people-management judgement calls; she keeps them on purpose as an early-warning signal",
+   "source": "interviewee (Julia)",
+   "category": "Capacity / overload",
+   "anchor": "Leadership & dependency",
+   "process": "Client escalation",
+   "impact": "Volume not stated",
+   "frequency": "Ongoing",
+   "severity": 2,
+   "quote": "Julia: \"the most questions I get, outstandingly, is how to handle client communications\"",
+   "timestamp": "~19:30 (L084)",
+   "certainty": "stated",
+   "matches_existing_problem": "Escalations route around department leads to the Head of Client Services (partial)"
+  },
+  {
+   "id": "KO-PP22",
+   "text": "New-client research (ownership, private equity, LinkedIn profiles) is done by hand by Julia; no client dossier",
+   "source": "interviewee (Julia)",
+   "category": "Manual / repetitive work",
+   "anchor": "Client experience & delivery",
+   "process": "Client onboarding – audit & strategy",
+   "impact": "Time per client not stated",
+   "frequency": "Each new client",
+   "severity": 2,
+   "quote": "Julia: \"if we bring on a new client, I do want to stalk them across the internet\"",
+   "timestamp": "~37:30 (L181)",
+   "certainty": "stated; time not discussed",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP23",
+   "text": "AI is eroding the bread-and-butter SEO and paid offerings; diversification is informal and unwritten",
+   "source": "interviewee (Julia)",
+   "category": "Revenue / margin leak",
+   "anchor": "Growth & sales engine",
+   "process": "NEW: Leadership business reporting & review",
+   "impact": "Revenue risk to core services; no formal target",
+   "frequency": "Strategic",
+   "severity": 3,
+   "quote": "Julia: \"diversifying product offering a little bit more, particularly in light of the impact AI is having on our kind of bread-and-butter offerings\"",
+   "timestamp": "~29:27 (L139)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP24",
+   "text": "Outbound prospecting no longer works; the pipeline relies on inbound and referral",
+   "source": "interviewee (Joe)",
+   "category": "Revenue / margin leak",
+   "anchor": "Growth & sales engine",
+   "process": "Sales – lead to proposal",
+   "impact": "Single-channel dependence; 'happy to be proven wrong'",
+   "frequency": "Ongoing",
+   "severity": 2,
+   "quote": "Joe: \"I think with all these AI agents, it's just noise now.\"",
+   "timestamp": "~52:51 (L258)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP25",
+   "text": "Landing pages are outsourced, which is clunky and slow, and clients are reluctant to pay for them",
+   "source": "interviewee (Joe)",
+   "category": "Client friction",
+   "anchor": "Client experience & delivery",
+   "process": "NEW: Landing page builds",
+   "impact": "Slower launches; margin lost on outsourced builds (cost not stated here)",
+   "frequency": "Ongoing",
+   "severity": 3,
+   "quote": "Joe: \"outsourcing landing page builds is a bit clunky\"",
+   "timestamp": "~83:23 (L391)",
+   "certainty": "stated",
+   "matches_existing_problem": "NEW"
+  },
+  {
+   "id": "KO-PP26",
+   "text": "Team capacity is too tight to log time for a two-week time-and-motion study",
+   "source": "interviewee (Julia)",
+   "category": "Capacity / overload",
+   "anchor": "Operations capacity & process",
+   "process": "NEW: Leadership business reporting & review",
+   "impact": "Limits the audit's data collection; supports the overload finding",
+   "frequency": "Now",
+   "severity": 3,
+   "quote": "Julia: \"I think you'd be hard-pressed right now, given the team's capacity as well.\"",
+   "timestamp": "~88:54 (L417)",
+   "certainty": "stated",
+   "matches_existing_problem": "Managers at capacity – Tier 2/3 clients get dropped first (partial)"
+  }
+ ],
+ "bottlenecks": [
+  {
+   "id": "KO-B01",
+   "step": "Contract sign-off (after pitch)",
+   "waiting_on": "Joe's personal approval",
+   "typical_wait": "Not stated",
+   "affected": "Every new deal",
+   "knock_on": "Sales cycle depends on one person's availability; Joe says he does it 'just … to make sure'"
+  },
+  {
+   "id": "KO-B02",
+   "step": "Client escalation pipeline",
+   "waiting_on": "Julia joining calls and agreeing the recovery plan",
+   "typical_wait": "Not stated; about 5 cases a week",
+   "affected": "Clients flagged as sensitive or revenue at risk",
+   "knock_on": "All risk reading sits with one person; Tier-1 cases also need Joe"
+  },
+  {
+   "id": "KO-B03",
+   "step": "Client onboarding completion",
+   "waiting_on": "Client completing their onboarding information and granting access",
+   "typical_wait": "Ideally within a month",
+   "affected": "Every new client",
+   "knock_on": "Onboarding stretches and strains the team"
+  },
+  {
+   "id": "KO-B04",
+   "step": "New-hire ramp",
+   "waiting_on": "Time to hire plus 90 days to reach about 80% of a full portfolio",
+   "typical_wait": "About 90 days after start",
+   "affected": "Departments that win work in a burst",
+   "knock_on": "DLER dips and the team stretches"
+  },
+  {
+   "id": "KO-B05",
+   "step": "AP run and payroll",
+   "waiting_on": "Joe, as the person with bank access",
+   "typical_wait": "Not stated",
+   "affected": "Payments to suppliers and staff",
+   "knock_on": "Founder time; risk if he is away"
+  },
+  {
+   "id": "KO-B06",
+   "step": "Checking the HubSpot-to-Monday sync",
+   "waiting_on": "Joe, who built the HubSpot version and is 'constantly just trying to get to the bottom of it'",
+   "typical_wait": "Open since the Monday rollout (about a month)",
+   "affected": "All clients' monthly task sets",
+   "knock_on": "Missed tasks may go unseen until the report"
+  },
+  {
+   "id": "KO-B07",
+   "step": "Performance department direction",
+   "waiting_on": "A senior performance leader (seat open)",
+   "typical_wait": "Not stated",
+   "affected": "Paid media team",
+   "knock_on": "Julia covers operational gaps"
+  }
+ ],
+ "suggestions": [
+  {
+   "id": "KO-S01",
+   "idea": "A central 'brain' / point of truth per client so everyone is across everything from the sale onward",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: 'Sure', then pointed to who is managing handover. Light agreement.",
+   "process": "Sales to delivery handover",
+   "quote": "Austin: \"having almost like a central brain for each client, so like everyone's across everything, is probably a good idea\"",
+   "timestamp": "~10:49 (L043)"
+  },
+  {
+   "id": "KO-S02",
+   "idea": "Client-level churn-predictor dashboard (message and call frequency and similar signals)",
+   "source": "interviewer (Austin)",
+   "reaction": "No direct reaction recorded; Julia had just described pattern-recognition as the current method",
+   "process": "Client escalation",
+   "quote": "Austin: \"we had a dashboard of each client. So we were able to see the signs before a junior even raised it.\"",
+   "timestamp": "~27:52 (L131)"
+  },
+  {
+   "id": "KO-S03",
+   "idea": "Client dossier created on onboarding (ownership, private equity, pressures)",
+   "source": "interviewee (Julia)",
+   "reaction": "Austin: 'I literally have that agent at home right now' (offered; COI)",
+   "process": "Client onboarding – audit & strategy",
+   "quote": "Julia: \"You onboard a client and you immediately know: it's got private equity and they have pressures here as a result\"",
+   "timestamp": "~38:19 (L185)"
+  },
+  {
+   "id": "KO-S04",
+   "idea": "Macro view of what is coming for client industries (fuel, interest rates, elections, foreign affairs)",
+   "source": "interviewee (Julia)",
+   "reaction": "Austin: built something similar at DDG; Julia: 'really valuable' (L199)",
+   "process": "Client meetings & prep",
+   "quote": "Julia: \"It would be good to be able to pull just a macro view and get a sense of what's coming for our specific client industries.\"",
+   "timestamp": "~39:57 (L193)"
+  },
+  {
+   "id": "KO-S05",
+   "idea": "Link-building CRM that stores approved publishers and orders and automatically checks for dropped links and contacts the publisher",
+   "source": "interviewee (Julia)",
+   "reaction": "Joe: started building one but has no time; Austin: 'maybe we can do something together' (COI)",
+   "process": "Link building – sourcing & ordering",
+   "quote": "Julia: \"automatically check every so often whether those links drop off, and then automatically contacting the publisher if they're not up\"",
+   "timestamp": "~79:34 (L368)"
+  },
+  {
+   "id": "KO-S06",
+   "idea": "Replace HubSpot with a cheaper or custom CRM",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: renewal not until September, 'that buys me time'; he also values the end-to-end sales-to-delivery record (L305). Not committed.",
+   "process": "Internal task management",
+   "quote": "Austin: \"it's a waste of subscription money on HubSpot if it's just tracking the CRM\"",
+   "timestamp": "~64:21 (L308)"
+  },
+  {
+   "id": "KO-S07",
+   "idea": "Simulator / pattern-recognition training for new hires",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: never had a simulator; uses Loom videos, 1:1s and Notion docs",
+   "process": "Hiring & onboarding staff",
+   "quote": "Austin: \"I was going to suggest a pattern recognition sort of system\"",
+   "timestamp": "~46:40 (L232)"
+  },
+  {
+   "id": "KO-S08",
+   "idea": "Habit-based tool that captures the founder's sales know-how for new sales hires (Austin's own product)",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: 'Yeah, I would love to try that.' (L250). COI: Austin's product",
+   "process": "Sales – lead to proposal",
+   "quote": "Austin: \"it extracts all of the head knowledge and the expertise knowledge\"",
+   "timestamp": "~50:32 (L249)"
+  },
+  {
+   "id": "KO-S09",
+   "idea": "Signal-based outbound: agents scan a target list for trigger events",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: outbound has gone stale, 'Happy to be proven wrong.'",
+   "process": "Sales – lead to proposal",
+   "quote": "Austin: \"you get agents that scan your top 50 accounts that you want to target for that quarter, and then just wait for a signal\"",
+   "timestamp": "~53:19 (L259)"
+  },
+  {
+   "id": "KO-S10",
+   "idea": "Competitor tracking as a service (traffic, new products, new pages)",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: 'That'd be pretty cool.' Tier-1 clients get Google Ads competitor checks only today.",
+   "process": "Client meetings & prep",
+   "quote": "Austin: \"understanding how their traffic is going, if they're adding new products and stuff like that\"",
+   "timestamp": "~77:52 (L359)"
+  },
+  {
+   "id": "KO-S11",
+   "idea": "Bring a landing-page builder in-house and offer it as a value-add to existing clients",
+   "source": "interviewee (Joe)",
+   "reaction": "Not scoped; no PRD yet. Austin noted it as a point to look at.",
+   "process": "NEW: Landing page builds",
+   "quote": "Joe: \"we definitely want to replicate and then bring in-house\"",
+   "timestamp": "~83:23 (L391)"
+  },
+  {
+   "id": "KO-S12",
+   "idea": "Productise a better-quality lead offering (for example SMS verification)",
+   "source": "interviewee (Joe)",
+   "reaction": "Austin: wants to understand the levers; Joe: 'rabbit-out-of-the-hat aspiration'",
+   "process": "Performance monitoring & alerting",
+   "quote": "Joe: \"I would love to be able to productise better quality leads\"",
+   "timestamp": "~84:35 (L395)"
+  },
+  {
+   "id": "KO-S13",
+   "idea": "Send Otter call recordings into the CRM automatically",
+   "source": "interviewee (Joe)",
+   "reaction": "Joe says they should already flow; he can connect more if needed. Austin wants recordings to review client calls.",
+   "process": "Client meetings & prep",
+   "quote": "Joe: \"they should go into the CRM automatically\"",
+   "timestamp": "~67:41 (L320)"
+  },
+  {
+   "id": "KO-S14",
+   "idea": "Explain to the team how to use the OpenClaw assistant in Slack",
+   "source": "interviewee (Joe)",
+   "reaction": "Self-identified gap, not yet acted on",
+   "process": "Knowledge & SOPs",
+   "quote": "Joe: \"I probably haven't explained that they can do that.\"",
+   "timestamp": "~81:19 (L379)"
+  },
+  {
+   "id": "KO-S15",
+   "idea": "Two-week time-and-motion study (staff log every action and its duration)",
+   "source": "interviewer (Austin)",
+   "reaction": "Julia: team capacity makes it unrealistic; Austin dropped it (L418)",
+   "process": "Internal task management",
+   "quote": "Austin: \"every action someone does for the next two weeks. They just have to write down what they did and how long it took\"",
+   "timestamp": "~87:54 (L416)"
+  },
+  {
+   "id": "KO-S16",
+   "idea": "Introduce timesheets",
+   "source": "interviewer (Austin)",
+   "reaction": "Joe: 'Probably not'; 'Big Brother. Not much gain.' Julia: timed in/out 'corrodes cultures'",
+   "process": "Internal task management",
+   "quote": "Austin: \"Any openness to do that?\"",
+   "timestamp": "~42:01 (L203)"
+  },
+  {
+   "id": "KO-S17",
+   "idea": "Problem-plus-recommendation standard ('one problem, three options, one recommendation') for team-to-client and team-to-leader communication",
+   "source": "interviewer (Austin); Joe already coaches a version",
+   "reaction": "Joe: 'here's the problem, and this is what I recommend as a solution'",
+   "process": "Client meetings & prep",
+   "quote": "Austin: \"This is the one problem, three recommendations — so three solutions, one recommendation.\"",
+   "timestamp": "~69:20 (L327)"
+  },
+  {
+   "id": "KO-S18",
+   "idea": "Library of sales objections",
+   "source": "interviewee (Joe) – in progress",
+   "reaction": "Joe started building one",
+   "process": "Sales – lead to proposal",
+   "quote": "Joe: \"I've started building one.\"",
+   "timestamp": "~52:43 (L254)"
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "KO-O01",
+   "fixes": [
+    "KO-PP05",
+    "KO-PP06",
+    "KO-PP21",
+    "KO-B02"
+   ],
+   "lens": "Augment",
+   "change": "Turn the signs Julia already reads (contract requests, silence, new marketing manager, falling results) into a weekly per-client risk list from HubSpot, Monday and email activity, so cases surface earlier and Julia triages rather than detects. Keep the human escalation pipeline.",
+   "matches_existing_solution": "Churn-risk alerts",
+   "candidate_tool": "HubSpot dashboards (already used), Monday.com, Slack, OpenClaw",
+   "hours_saved_month": [
+    1.1,
+    8.1
+   ],
+   "effort": "M",
+   "prerequisites": "Agree the list of indicators with Julia; HubSpot activity data; define who acts on the weekly list",
+   "adoption_risk": "M – Julia values reading cases herself (L086), so frame it as a helper, not a replacement",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Escalations first flagged by a signal rather than by the client",
+     "measured_by": "Escalation log tagged by source",
+     "baseline": "Unknown – no log of how cases were detected",
+     "baseline_quote": "\"Probably five times a week, to be honest with you.\" ~26:27 (L124)",
+     "target": "Majority of cases flagged by signal within 90 days of launch",
+     "type": "leading"
+    },
+    {
+     "kpi": "Portfolio retention % (company and department)",
+     "measured_by": "OpenClaw retention task (already runs 1st and 30th/31st)",
+     "baseline": "Unknown – figure not stated",
+     "baseline_quote": "\"Retention, revenue — the main two.\" ~28:50 (L133)",
+     "target": "Hold or improve retention against the target Joe sets",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 45
+   },
+   "rank": 2,
+   "tag": "Strategic",
+   "rank_reason": "Retention is a stated top goal and the escalation load sits on one person; evidence is qualitative so confidence is 3."
+  },
+  {
+   "id": "KO-O02",
+   "fixes": [
+    "KO-PP01",
+    "KO-PP22"
+   ],
+   "lens": "Change the process",
+   "change": "Replace 'the transcript' with a one-page handover record per new client (promises made, goals, constraints, key contacts, client dossier) completed in the HubSpot deal before the internal handover; AI can draft it from the call transcript and a web dossier, with the BD confirming.",
+   "matches_existing_solution": "Transcripts → per-client action runsheet; AI business brain; brief & proposal generator",
+   "candidate_tool": "HubSpot deal record, Otter transcripts, Claude (draft), Notion",
+   "hours_saved_month": null,
+   "effort": "S",
+   "prerequisites": "Handover template; agree who owns it (BD); transcripts flowing into HubSpot",
+   "adoption_risk": "L – adds a short step, but fits the existing 15-minute meeting",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "New clients with a completed handover record before kick-off",
+     "measured_by": "HubSpot required fields",
+     "baseline": "Unknown – handover is 'just the transcript'",
+     "baseline_quote": "\"Yeah, well — just the transcript.\" ~10:47 (L042)",
+     "target": "100% within 2 working days of first payment",
+     "type": "leading"
+    },
+    {
+     "kpi": "Repeat information requests to a new client in the first 30 days",
+     "measured_by": "Account manager log",
+     "baseline": "Unknown",
+     "baseline_quote": "",
+     "target": "Fall by half in the first quarter",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 36
+   },
+   "rank": 3,
+   "tag": "Quick win",
+   "rank_reason": "Cheap, uses the existing HubSpot record and meeting; also feeds the per-client knowledge problem."
+  },
+  {
+   "id": "KO-O03",
+   "fixes": [
+    "KO-PP07",
+    "KO-PP26"
+   ],
+   "lens": "Change the process",
+   "change": "Get client-level effort without timesheets: use the hours already allocated on the monthly HubSpot/Monday tickets (technical hours, content volume) and compare allocated with revenue per client; add a quarterly manager estimate of time share for tier-1 clients only.",
+   "matches_existing_solution": "Sales wiki / spend calculator (partial); none directly",
+   "candidate_tool": "Monday.com, HubSpot tickets, Xero, spreadsheet",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Monthly tickets working (see KO-O06); revenue per client from Xero; Joe's agreement not to introduce timesheets",
+   "adoption_risk": "H – Joe and Julia reject timesheets ('Big Brother'); this avoids them but still needs honest ticket fields",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Clients with allocated hours vs revenue shown (margin per client)",
+     "measured_by": "Monday/HubSpot ticket fields + Xero",
+     "baseline": "0% – no timesheets or utilisation tracking",
+     "baseline_quote": "\"No.\" ~31:23 (L148)",
+     "target": "All tier-1 and tier-2 clients within one quarter",
+     "type": "leading"
+    },
+    {
+     "kpi": "DLER by department",
+     "measured_by": "Monthly CFO-team report",
+     "baseline": "2.75 and 3.2 (examples)",
+     "baseline_quote": "\"this is at 2.75, this is at 3.2\" ~39:30 (L189)",
+     "target": "Every department at or above 3.0",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 2,
+    "priority": 24
+   },
+   "rank": 9,
+   "tag": "Strategic",
+   "rank_reason": "Margin and capacity are unmeasurable today; culture limits the method."
+  },
+  {
+   "id": "KO-O04",
+   "fixes": [
+    "KO-PP03",
+    "KO-B05"
+   ],
+   "lens": "Change the process",
+   "change": "Move AP and payroll to bookkeeper-prepared batches that the Founder only approves in the bank (and Xero bill approvals), and have the bookkeeper issue standard invoices; Julia continues as backup approver.",
+   "matches_existing_solution": "New",
+   "candidate_tool": "Xero bill approvals, bank dual-approval, bookkeeper",
+   "hours_saved_month": null,
+   "effort": "S",
+   "prerequisites": "Hours per week from Joe; bank approval set-up; bookkeeper agreement",
+   "adoption_risk": "L – bookkeeper already does most finance work (L055)",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Founder hours a month on AP, payroll and invoicing",
+     "measured_by": "Joe's self-log for 4 weeks",
+     "baseline": "Unknown",
+     "baseline_quote": "\"I still do a lot of manual finance stuff, like issuing invoices and things like that.\" ~04:31 (L007)",
+     "target": "Cut by at least half",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 2,
+    "ease": 3,
+    "priority": 18
+   },
+   "rank": 12,
+   "tag": "Strategic",
+   "rank_reason": "Clear founder-time leak but hours not given, so confidence is 2. (Impact 3 / Ease ≤3 has no defined tag; Strategic is the closest)"
+  },
+  {
+   "id": "KO-O05",
+   "fixes": [
+    "KO-PP02",
+    "KO-PP17",
+    "KO-B01"
+   ],
+   "lens": "People & policy",
+   "change": "Name a second relationship owner (a director) for each tier-1 account who joins a quarterly call, and set a rule that standard SME contracts under a set value can be signed by the Head of Client Services; the Founder keeps tier-1 and non-standard deals.",
+   "matches_existing_solution": "New",
+   "candidate_tool": "HubSpot owner fields, calendar",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Joe's agreement; value threshold; list of tier-1 accounts and current relationship holders",
+   "adoption_risk": "M – Joe says some clients will only work with him (L099)",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Tier-1 accounts with a named second relationship owner",
+     "measured_by": "HubSpot company owner fields",
+     "baseline": "Unknown (appears to be none)",
+     "baseline_quote": "\"the biggest gap when Joe steps away is actually some of the select tier ones\" ~17:13 (L072)",
+     "target": "100% within 60 days",
+     "type": "leading"
+    },
+    {
+     "kpi": "Contracts signed without the Founder",
+     "measured_by": "DocuSign log",
+     "baseline": "0% – Joe signs every contract",
+     "baseline_quote": "\"I still sign off on every contract myself\" ~54:54 (L274)",
+     "target": "Standard SME deals signed without him",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 2,
+    "ease": 3,
+    "priority": 24
+   },
+   "rank": 8,
+   "tag": "Strategic",
+   "rank_reason": "Founder dependency is a core audit theme; the fix is a policy decision, evidence is Joe/Julia statements only."
+  },
+  {
+   "id": "KO-O06",
+   "fixes": [
+    "KO-PP11",
+    "KO-B06"
+   ],
+   "lens": "Augment",
+   "change": "Add a reconciliation check on the 1st of each month: count the tickets created per client in HubSpot and tasks created in Monday.com and compare with each client's scope; flag gaps to Slack. Document the mapping and name an owner.",
+   "matches_existing_solution": "New (related to AI business brain / Slack-bot ownership)",
+   "candidate_tool": "Make.com (already used), Monday.com API, HubSpot, Slack",
+   "hours_saved_month": null,
+   "effort": "S",
+   "prerequisites": "Export of both systems for one month; Joe's list of nuances; the Monday builder's input",
+   "adoption_risk": "L – runs in the background",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Clients whose monthly task set matches scope",
+     "measured_by": "Reconciliation report",
+     "baseline": "Unknown",
+     "baseline_quote": "\"I'm not fully confident that it's working correctly. Stuff's getting missed.\" ~62:00 (L303)",
+     "target": "100% each month, with alerts for gaps",
+     "type": "leading"
+    },
+    {
+     "kpi": "Deliverables completed in the month they are due",
+     "measured_by": "Monday.com task completion",
+     "baseline": "Unknown",
+     "baseline_quote": "\"delivered within the calendar month of when they're due\" ~31:26 (L150)",
+     "target": "At least 95%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 1,
+   "tag": "Quick win",
+   "rank_reason": "Delivery depends on this sync and the check is small; evidence is stated but not quantified."
+  },
+  {
+   "id": "KO-O07",
+   "fixes": [
+    "KO-PP12",
+    "KO-PP13"
+   ],
+   "lens": "Change the process",
+   "change": "Decide before the HubSpot renewal whether to keep, trim or replace HubSpot and Monday.com. Include migration cost, loss of the end-to-end sales-to-delivery record, and change fatigue. Sequence any move after KO-O06 and the adoption work.",
+   "matches_existing_solution": "Sales wiki / spend calculator (partial); none directly",
+   "candidate_tool": "Existing stack review; off-the-shelf CRMs",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Renewal date and contract terms; seat counts; cost of a replacement",
+   "adoption_risk": "H – change fatigue (50-day rollout) and Joe values the single record",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Annual HubSpot plus Monday.com spend",
+     "measured_by": "Xero",
+     "baseline": "About $30K a year",
+     "baseline_quote": "\"it's still the better part of 30 grand a year\" ~65:23 (L313)",
+     "target": "Decision recorded before the renewal; spend below $30K only if net of migration",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 2,
+    "priority": 18
+   },
+   "rank": 14,
+   "tag": "Strategic",
+   "rank_reason": "Money is clear, but change risk and Austin's own build interest (COI) argue for caution. (Impact 3 / Ease ≤3 has no defined tag; Strategic is the closest)"
+  },
+  {
+   "id": "KO-O08",
+   "fixes": [
+    "KO-PP16"
+   ],
+   "lens": "Automate",
+   "change": "Build or buy a link-building CRM that holds approved publishers, orders, invoice status, and re-checks live links on a schedule, messaging the publisher when a link drops.",
+   "matches_existing_solution": "Link-building CRM with live-link monitoring and invoice follow-up",
+   "candidate_tool": "Monday.com (partial), Airtable-type CRM, Ahrefs API, custom build",
+   "hours_saved_month": null,
+   "effort": "L",
+   "prerequisites": "Single link master (see existing 7+ sheets problem); owner; data clean-up",
+   "adoption_risk": "M – outreachers keep their own formats",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Links verified live at 90 days",
+     "measured_by": "Scheduled check results",
+     "baseline": "Unknown from this interview (context pack: checking stopped after April)",
+     "baseline_quote": "",
+     "target": "At least 95% verified",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Hours a month spent updating link sheets",
+     "measured_by": "Link-building team log",
+     "baseline": "Unknown",
+     "baseline_quote": "",
+     "target": "Halve",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 2,
+    "priority": 24
+   },
+   "rank": 10,
+   "tag": "Strategic",
+   "rank_reason": "Matches a Critical problem raised elsewhere; here it rests on Julia's description only, so confidence 3."
+  },
+  {
+   "id": "KO-O09",
+   "fixes": [
+    "KO-PP14",
+    "KO-PP15",
+    "KO-PP10"
+   ],
+   "lens": "Augment",
+   "change": "Make one place the answer source: consolidate the live SOPs and client pages in Notion with an owner per section, then connect it to the existing OpenClaw assistant so staff can ask it in Slack. Announce it and show one use case per team.",
+   "matches_existing_solution": "AI business brain; team wiki / L&D",
+   "candidate_tool": "Notion, OpenClaw, Slack",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Page owners; clean-up of stale pages; Joe handing admin of OpenClaw to a second person",
+   "adoption_risk": "M – adoption is the stated problem; Joe says 'No one utilises it'",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Weekly staff using the Slack assistant",
+     "measured_by": "Slack channel usage",
+     "baseline": "About zero",
+     "baseline_quote": "\"No one utilises it.\" ~81:13 (L377)",
+     "target": "At least half of staff weekly in 90 days",
+     "type": "leading"
+    },
+    {
+     "kpi": "Repeat questions to Julia and Joe",
+     "measured_by": "Julia's tally for 4 weeks",
+     "baseline": "Unknown",
+     "baseline_quote": "",
+     "target": "Fall by 30%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 27
+   },
+   "rank": 6,
+   "tag": "Strategic",
+   "rank_reason": "Pairs stated adoption pain with an existing asset; no tag defined for Impact 3 / Ease 3. (Impact 3 / Ease ≤3 has no defined tag; Strategic is the closest)"
+  },
+  {
+   "id": "KO-O10",
+   "fixes": [
+    "KO-PP10",
+    "KO-PP13",
+    "KO-PP14"
+   ],
+   "lens": "People & policy",
+   "change": "Pace change: a 90-day freeze on new tools while the current ones are bedded in; short role-based training on Monday.com ticket use and Claude; name one AI champion per department; add 'tickets updated' to KPI scoring.",
+   "matches_existing_solution": "Team wiki / L&D",
+   "candidate_tool": "Existing KPI matrices, Loom, Claude",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Joe and Julia agree a freeze; owner for training",
+   "adoption_risk": "M – staff already feel overloaded",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Tickets updated on time",
+     "measured_by": "Monday.com",
+     "baseline": "Unknown",
+     "baseline_quote": "\"the ticketing that we would use to work out capacity and stuff is not being followed correctly\" ~21:42 (L090)",
+     "target": "At least 90%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Pulse-survey item 'too many changes'",
+     "measured_by": "Next staff survey",
+     "baseline": "Raised as 'too many changes in a short amount of time'",
+     "baseline_quote": "\"too many changes in a short amount of time\" ~81:29 (L381)",
+     "target": "Fewer mentions",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 2,
+    "ease": 3,
+    "priority": 18
+   },
+   "rank": 13,
+   "tag": "Strategic",
+   "rank_reason": "Sound but depends on culture; evidence is Joe's account of survey feedback. (Impact 3 / Ease ≤3 has no defined tag; Strategic is the closest)"
+  },
+  {
+   "id": "KO-O11",
+   "fixes": [
+    "KO-PP17",
+    "KO-PP18",
+    "KO-PP24",
+    "KO-B01"
+   ],
+   "lens": "Change the process",
+   "change": "Set a speed-to-lead rule in HubSpot (task and Slack alert if no call in 5 minutes), build the objections library, add a closing and loss-reason field, and move routine SME contracts off the Founder. Test signal-based outbound in one segment.",
+   "matches_existing_solution": "Sales wiki / spend calculator; brief & proposal generator (partial)",
+   "candidate_tool": "HubSpot workflows, Slack, objections doc",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Lead volume and conversion data from HubSpot; new hire has bedded in",
+   "adoption_risk": "M – the sales hire is three weeks in",
+   "coi_flag": true,
+   "kpis": [
+    {
+     "kpi": "Raw lead to close rate",
+     "measured_by": "HubSpot deal stages",
+     "baseline": "About 1 in 10",
+     "baseline_quote": "\"it might be one in ten.\" ~54:08 (L268)",
+     "target": "1 in 7 in two quarters",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Leads called within 5 minutes",
+     "measured_by": "HubSpot call timestamps",
+     "baseline": "Unknown",
+     "baseline_quote": "\"ideally within five minutes\" ~08:20 (L031)",
+     "target": "At least 80%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 4,
+   "tag": "Strategic",
+   "rank_reason": "Joe names consistent sales as one of two things needed before the US push (L403)."
+  },
+  {
+   "id": "KO-O12",
+   "fixes": [
+    "KO-PP19",
+    "KO-PP23",
+    "KO-PP25"
+   ],
+   "lens": "Augment",
+   "change": "Test two to three new paid offers with the best demand signal: a lead-quality package (verification step), competitor tracking, and an in-house landing-page build. Write a one-page product brief for each before any build.",
+   "matches_existing_solution": "Unlinked brand-mention outreach (none directly); AI-assisted creative (partial)",
+   "candidate_tool": "Existing platforms; Claude; landing-page tool",
+   "hours_saved_month": null,
+   "effort": "L",
+   "prerequisites": "Product briefs; pricing; pilot clients",
+   "adoption_risk": "M – competes for leadership time that is already stretched",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Clients on a new offer",
+     "measured_by": "HubSpot products",
+     "baseline": "0",
+     "baseline_quote": "",
+     "target": "3 pilot clients in two quarters",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 2,
+    "ease": 2,
+    "priority": 12
+   },
+   "rank": 15,
+   "tag": "Strategic",
+   "rank_reason": "Strategic, but based on aspirations ('rabbit-out-of-the-hat', L399), so confidence is 2. (Impact 3 / Ease ≤3 has no defined tag; Strategic is the closest)"
+  },
+  {
+   "id": "KO-O13",
+   "fixes": [
+    "KO-PP20"
+   ],
+   "lens": "People & policy",
+   "change": "Adopt a 'problem plus recommendation' rule for client and internal updates, with a template in the monthly report and coaching in WIPs.",
+   "matches_existing_solution": "Client-call prep summaries (partial)",
+   "candidate_tool": "Report template, WIP agenda",
+   "hours_saved_month": null,
+   "effort": "S",
+   "prerequisites": "Julia and Joe agree wording; manager coaching",
+   "adoption_risk": "M – confidence is the real gap",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Monthly reports with an explicit recommendation",
+     "measured_by": "Report review sample",
+     "baseline": "Unknown",
+     "baseline_quote": "",
+     "target": "100% of tier-1 reports",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 27
+   },
+   "rank": 7,
+   "tag": "Strategic",
+   "rank_reason": "Both leaders raised it and Joe already coaches it. (Impact 3 / Ease ≤3 has no defined tag; Strategic is the closest)"
+  },
+  {
+   "id": "KO-O14",
+   "fixes": [
+    "KO-PP04",
+    "KO-B07"
+   ],
+   "lens": "People & policy",
+   "change": "Fill the senior performance leadership seat (or appoint an interim lead) and move the operational work Julia is covering back to it.",
+   "matches_existing_solution": "New",
+   "candidate_tool": "Recruitment",
+   "hours_saved_month": null,
+   "effort": "L",
+   "prerequisites": "Role scope and hiring decision",
+   "adoption_risk": "M – slow to hire, 90-day ramp",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Julia's share of time on performance operations",
+     "measured_by": "Julia's self-estimate",
+     "baseline": "Unknown",
+     "baseline_quote": "\"I'm plugging in a few gaps there.\" ~16:00 (L066)",
+     "target": "Under 10% within a quarter of the hire",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 2,
+    "priority": 24
+   },
+   "rank": 11,
+   "tag": "Strategic",
+   "rank_reason": "Capacity issue explicitly named by Julia."
+  },
+  {
+   "id": "KO-O15",
+   "fixes": [
+    "KO-PP08",
+    "KO-PP09",
+    "KO-B03",
+    "KO-B04"
+   ],
+   "lens": "Change the process",
+   "change": "Cap simultaneous onboardings per manager, and trigger a hire early when DLER passes an agreed level. Send access requests with the contract to start the clock earlier.",
+   "matches_existing_solution": "1-click audit (partial); none directly",
+   "candidate_tool": "HubSpot, DLER report, access-request template",
+   "hours_saved_month": null,
+   "effort": "M",
+   "prerequisites": "Agreed DLER trigger; onboarding calendar",
+   "adoption_risk": "M – can slow sales if the cap bites",
+   "coi_flag": false,
+   "kpis": [
+    {
+     "kpi": "Concurrent onboardings per manager",
+     "measured_by": "HubSpot onboarding tickets",
+     "baseline": "Unknown",
+     "baseline_quote": "\"Onboarding too many clients at once, or in a short amount of time, tends to be the most common one\" ~43:57 (L220)",
+     "target": "Max 2",
+     "type": "leading"
+    },
+    {
+     "kpi": "Days from signing to fully onboarded",
+     "measured_by": "HubSpot dates",
+     "baseline": "About 1 month",
+     "baseline_quote": "\"properly onboarded within the month\" ~44:54 (L227)",
+     "target": "Under 21 days",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 5,
+   "tag": "Strategic",
+   "rank_reason": "Joe names onboarding bursts as the main cause of stretch."
+  }
+ ],
+ "strengths": [
+  {
+   "text": "Clients get near real-time reporting through AgencyAnalytics dashboards",
+   "quote": "Joe: \"Clients get pretty much real-time reporting through Agency Analytics\"",
+   "timestamp": "~36:57 (L177)"
+  },
+  {
+   "text": "Business and financial reporting arrives within a few days of month end, and DLER has worked as a utilisation barometer for 12–24 months",
+   "quote": "Joe: \"it's been a really good barometer on utilisation\"",
+   "timestamp": "~39:30 (L189)"
+  },
+  {
+   "text": "A formal escalation pipeline exists, with the Head of Client Services joining client calls",
+   "quote": "Julia: \"They jump into a pipeline in which it's kind of formalised\"",
+   "timestamp": "~07:17 (L022)"
+  },
+  {
+   "text": "Retention tracking by portfolio and department runs automatically on an OpenClaw task",
+   "quote": "Joe: \"does the retention tracking out of everyone's portfolios\"",
+   "timestamp": "~29:04 (L137)"
+  },
+  {
+   "text": "KPIs are written down for everyone and reviewed quarterly and six-monthly",
+   "quote": "Joe: \"everyone has the KPIs written down\"",
+   "timestamp": "~74:24 (L345)"
+  },
+  {
+   "text": "Operations held up while the founder was on leave",
+   "quote": "Julia: \"people coped better than what I thought they would\"",
+   "timestamp": "~14:49 (L064)"
+  },
+  {
+   "text": "Handover uses one HubSpot record that carries the deal notes into delivery",
+   "quote": "Joe: \"it's the same deal record with all of the notes, just converting to the delivery record\"",
+   "timestamp": "~61:27 (L301)"
+  },
+  {
+   "text": "A Google Ads script already flags clients with no conversions",
+   "quote": "Joe: \"if there's no conversions fired, I think over a seven-day period\"",
+   "timestamp": "~77:34 (L356)"
+  },
+  {
+   "text": "Staff take pride in their work",
+   "quote": "Joe: \"I think there's a lot of pride.\"",
+   "timestamp": "~23:09 (L097)"
+  },
+  {
+   "text": "Upselling is deliberately restrained; delivery staff earn commission if they find work",
+   "quote": "Julia: \"this agency does quite a good job of not over-promoting it\"",
+   "timestamp": "~60:21 (L294)"
+  },
+  {
+   "text": "Every client gets a monthly set of tickets (technical, content, links, report) on the 1st",
+   "quote": "Joe: \"on the 1st of the month, there's a technical ticket\"",
+   "timestamp": "~63:45 (L307)"
+  },
+  {
+   "text": "Mistakes are handled without blame (example of a phishing incident)",
+   "quote": "Joe: \"we didn't make a big deal out of it the way that we probably could have\"",
+   "timestamp": "~72:24 (L339)"
+  },
+  {
+   "text": "Trainers are asked to record sessions so they can become Notion docs",
+   "quote": "Joe: \"I try, whenever someone does a training session, to get them to record it\"",
+   "timestamp": "~47:03 (L233)"
+  }
+ ],
+ "facts": [
+  {
+   "value": "~22",
+   "unit": "staff",
+   "context": "Team size excluding offshore (Joe says 'about 22'; four offshore on top)",
+   "quote": "Joe: \"Got four offshore. So it's about 22.\"",
+   "timestamp": "~22:39 (L094)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~30",
+   "unit": "years",
+   "context": "Average age of the team (Joe; Julia 'bimodal', 29–30)",
+   "quote": "Joe: \"30, if you were to average it? Probably, yeah.\"",
+   "timestamp": "~22:31 (L092)",
+   "certainty": "estimated"
+  },
+  {
+   "value": "<10",
+   "unit": "% of revenue",
+   "context": "Project (non-retainer) work",
+   "quote": "Joe: \"Very little project work. I'd say less than 10%.\"",
+   "timestamp": "~09:46 (L035)",
+   "certainty": "stated"
+  },
+  {
+   "value": "70 / 30–40",
+   "unit": "% of Julia's time",
+   "context": "Operations vs direct client work (sums to 100–110%, so overlapping)",
+   "quote": "Julia: \"it's probably like 70% operations at this stage and then 30 or 40% direct client work\"",
+   "timestamp": "~05:46 (L013)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~5",
+   "unit": "per week",
+   "context": "Churn-risk escalations that reach Julia",
+   "quote": "Julia: \"Probably five times a week, to be honest with you.\"",
+   "timestamp": "~26:27 (L124)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2",
+   "unit": "goals",
+   "context": "Written north stars: retention and revenue",
+   "quote": "Joe: \"Retention, revenue — the main two.\"",
+   "timestamp": "~28:50 (L133)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Monthly / quarterly",
+   "unit": "cadence",
+   "context": "Accountants' update monthly; quarterly lookback",
+   "quote": "Joe: \"I get an update monthly from the accountants. Then we do a quarterly lookback as well.\"",
+   "timestamp": "~28:58 (L135)",
+   "certainty": "stated"
+  },
+  {
+   "value": "1st and 30th/31st",
+   "unit": "dates",
+   "context": "OpenClaw task calculates retention by portfolio and department",
+   "quote": "Joe: \"does the retention tracking out of everyone's portfolios when it's the 1st and the 30th or 31st\"",
+   "timestamp": "~29:04 (L137)",
+   "certainty": "stated"
+  },
+  {
+   "value": "$120–150",
+   "unit": "per hour",
+   "context": "Rate billed out, by seniority",
+   "quote": "Joe: \"it's like 120 to 150, depending on seniority.\"",
+   "timestamp": "~31:41 (L152)",
+   "certainty": "stated"
+  },
+  {
+   "value": "$80",
+   "unit": "per hour",
+   "context": "Internal cost of staff time (confirms the context pack)",
+   "quote": "Joe: \"Well, 80 is cost.\"",
+   "timestamp": "~43:26 (L215)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~55",
+   "unit": "% of a standard portfolio",
+   "context": "Recurring revenue carried by tier-1-facing seniors",
+   "quote": "Joe: \"like 55% of a standard manager, because it's assumed they'll need half their time on admin\"",
+   "timestamp": "~32:51 (L158)",
+   "certainty": "stated"
+  },
+  {
+   "value": "≥3 : 1",
+   "unit": "DLER",
+   "context": "Minimum direct labour efficiency ratio (money under management vs salaries), by department",
+   "quote": "Joe: \"we try and have, like, a minimum of 3 to 1\"",
+   "timestamp": "~38:51 (L187)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2.75 and 3.2",
+   "unit": "DLER",
+   "context": "Example department readings; higher correlates with overstretch",
+   "quote": "Joe: \"this is at 2.75, this is at 3.2\"",
+   "timestamp": "~39:30 (L189)",
+   "certainty": "stated (illustrative)"
+  },
+  {
+   "value": "~30",
+   "unit": "% gross margin",
+   "context": "Roughly, both service lines",
+   "quote": "Joe: \"Gross? Yeah — 30%. You know, roughly.\"",
+   "timestamp": "~41:59 (L202)",
+   "certainty": "stated (rough)"
+  },
+  {
+   "value": "90",
+   "unit": "days",
+   "context": "New-hire ramp to about 80% of target portfolio",
+   "quote": "Joe: \"they're, like, at 80% of what they should be managing\"",
+   "timestamp": "~45:34 (L229)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~1",
+   "unit": "month",
+   "context": "Target time to fully onboard a client",
+   "quote": "Joe: \"they're properly onboarded within the month, or going on\"",
+   "timestamp": "~44:54 (L227)",
+   "certainty": "stated"
+  },
+  {
+   "value": "6–8",
+   "unit": "weeks",
+   "context": "Average sales cycle, first contact to close",
+   "quote": "Joe: \"Average six to eight weeks.\"",
+   "timestamp": "~53:48 (L260)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~4.9",
+   "unit": "$K MRR",
+   "context": "Average account value",
+   "quote": "Joe: \"MRR. If I was to average it out — five? Maybe slightly less than — 4.9.\"",
+   "timestamp": "~53:58 (L264)",
+   "certainty": "stated"
+  },
+  {
+   "value": "1 in 3 then, 1 in 10 now",
+   "unit": "close rate",
+   "context": "From raw inbound lead to close; earlier when Joe ran the funnel",
+   "quote": "Joe: \"I was closing like one in three.\"",
+   "timestamp": "~54:08 (L268)",
+   "certainty": "stated (estimate)"
+  },
+  {
+   "value": "15",
+   "unit": "minutes",
+   "context": "Internal sales-to-delivery handover meeting",
+   "quote": "Joe: \"the internal meetings are very quick, like 15 minutes\"",
+   "timestamp": "~61:27 (L301)",
+   "certainty": "stated"
+  },
+  {
+   "value": "22–25",
+   "unit": "$K a year",
+   "context": "HubSpot cost",
+   "quote": "Joe: \"Call it 22, 25 — one of them.\"",
+   "timestamp": "~65:07 (L311)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~1,000",
+   "unit": "$ a month",
+   "context": "Monday.com cost",
+   "quote": "Joe: \"Monday.com is about a thousand bucks a month now.\"",
+   "timestamp": "~65:07 (L311)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~30",
+   "unit": "$K a year",
+   "context": "HubSpot plus Monday.com combined after HubSpot was reduced",
+   "quote": "Joe: \"it's still the better part of 30 grand a year\"",
+   "timestamp": "~65:23 (L313)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~200",
+   "unit": "links a month",
+   "context": "Link volume (Julia; context pack says about 300)",
+   "quote": "Julia: \"We're doing about 200 links a month\"",
+   "timestamp": "~79:34 (L368)",
+   "certainty": "stated; conflicts with context pack"
+  },
+  {
+   "value": "50",
+   "unit": "days",
+   "context": "Time in which Monday.com, AgencyAnalytics and Employment Hero were rolled out",
+   "quote": "Joe: \"we did that in a 50-day period\"",
+   "timestamp": "~81:29 (L381)",
+   "certainty": "stated"
+  },
+  {
+   "value": "7",
+   "unit": "days",
+   "context": "Window with no conversions before the Google Ads script alerts",
+   "quote": "Joe: \"if there's no conversions fired, I think over a seven-day period\"",
+   "timestamp": "~77:34 (L356)",
+   "certainty": "stated"
+  },
+  {
+   "value": "~75",
+   "unit": "% pride",
+   "context": "Joe's guess at the share of staff who take pride in their work",
+   "quote": "Joe: \"I'd say maybe 75%?\"",
+   "timestamp": "~23:09 (L097)",
+   "certainty": "estimated (Joe's guess)"
+  },
+  {
+   "value": "$11,000",
+   "unit": "retainer",
+   "context": "Illustrative e-commerce retainer = 30% of a senior performance manager's portfolio; Julia's rule is time share follows revenue share",
+   "quote": "Julia: \"their retainer is, let's say, $11,000, which makes up 30% of their senior performance manager's portfolio\"",
+   "timestamp": "~35:38 (L170)",
+   "certainty": "stated (example)"
+  },
+  {
+   "value": "1–5",
+   "unit": "score",
+   "context": "Staff KPIs are scored one to five in quarterly and six-monthly reviews",
+   "quote": "Joe: \"KPIs scored one to five\"",
+   "timestamp": "~74:24 (L345)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Monthly",
+   "unit": "cadence",
+   "context": "Retention shared with department leads; top line shared quarterly",
+   "quote": "Joe: \"Monthly, with the department leads.\"",
+   "timestamp": "~30:00 (L142)",
+   "certainty": "stated"
+  },
+  {
+   "value": "1",
+   "unit": "month",
+   "context": "Age of the sales hire (started on the 1st of the month)",
+   "quote": "Julia: \"he just started on the first of the month\"",
+   "timestamp": "~56:22 (L281)",
+   "certainty": "stated"
+  },
+  {
+   "value": "2",
+   "unit": "people",
+   "context": "Title-only 'director' roles (not directorships): the two department leads",
+   "quote": "Joe: \"Title.\"",
+   "timestamp": "~26:11 (L121)",
+   "certainty": "stated"
+  },
+  {
+   "value": "None",
+   "unit": "tracking",
+   "context": "Timesheets and utilisation are not tracked",
+   "quote": "Joe: \"No.\"",
+   "timestamp": "~31:23 (L148)",
+   "certainty": "stated"
+  },
+  {
+   "value": "Not feasible now",
+   "unit": "study",
+   "context": "Two-week time-and-motion study declined on capacity grounds",
+   "quote": "Julia: \"I think you'd be hard-pressed right now, given the team's capacity as well.\"",
+   "timestamp": "~88:54 (L417)",
+   "certainty": "stated"
+  }
+ ],
+ "tools": {
+  "official": [
+   "HubSpot (CRM, lead alerts to Slack, deal record converting to delivery record, monthly ticket automation, dashboards for internal operations)",
+   "Slack (leads channel, shared department-lead channel)",
+   "Monday.com (per-person task boards; about $1,000 a month)",
+   "Notion (wiki, org chart)",
+   "Otter (call recordings, meant to flow into the CRM)",
+   "Employment Hero (HR/people)",
+   "Xero (invoicing and accounts)",
+   "AgencyAnalytics (client dashboards and monthly reports)",
+   "Ahrefs and Semrush (analysis)",
+   "DocuSign (completed by hand from a template)",
+   "Google Ads scripts (no-conversion alert)",
+   "Loom (training recordings)"
+  ],
+  "shadow": [
+   "Joe's OpenClaw tasks and memory (retention tracking on the 1st and 30th/31st; team has Slack access but does not use it)",
+   "Joe's 'mission control' dashboard built across several data sources (tool name unclear, L026)",
+   "Julia's manual client research on LinkedIn and the web before onboarding (L181)",
+   "Link-building spreadsheets (L368)"
+  ],
+  "duplicated_data": [
+   "Client delivery tasks live in HubSpot tickets and Monday.com boards (sync unverified)",
+   "Deal notes and call transcripts sit in HubSpot while the Notion wiki holds process documentation",
+   "Link data goes spreadsheet → CRM → client report (L368)"
+  ],
+  "missing_access": [
+   "Timesheets or any time-per-client data (L146–L148)",
+   "Client-level profitability (only department-level DLER)",
+   "A churn-risk dashboard or signals",
+   "A macro-trend view for client industries (L193)",
+   "A usable wiki / single source of truth (L082)",
+   "A link-building CRM (L368)",
+   "Competitor tracking beyond Google Ads for tier-1 clients (L360)",
+   "A written objections library (in progress, L254)"
+  ]
+ },
+ "dependencies": [
+  {
+   "what": "Tier-1 client relationships and rapport",
+   "who_role": "Founder",
+   "if_absent": "Sensitivities fall to the Head of Client Services; no immediate rapport (L072)"
+  },
+  {
+   "what": "Design of the HubSpot ticket automation",
+   "who_role": "Founder",
+   "if_absent": "Monday.com replica cannot be checked against the original (L303)"
+  },
+  {
+   "what": "Monday.com sync build",
+   "who_role": "Technical SEO Specialist (named by Joe as 'Sid')",
+   "if_absent": "Fixes depend on one person (details in his own interview)"
+  },
+  {
+   "what": "Bank-account actions: AP run, payroll",
+   "who_role": "Founder",
+   "if_absent": "Payments stall (L055)"
+  },
+  {
+   "what": "Contract sign-off",
+   "who_role": "Founder",
+   "if_absent": "Deals wait (L274)"
+  },
+  {
+   "what": "Reading the health of the agency through questions and escalations",
+   "who_role": "Head of Client Services",
+   "if_absent": "Early warnings are lost (L086)"
+  },
+  {
+   "what": "Performance team direction",
+   "who_role": "Head of Client Services (covering) – senior seat open",
+   "if_absent": "Operational drift in paid media (L066)"
+  },
+  {
+   "what": "Standards of 'what good looks like' in each department",
+   "who_role": "The two department leads (director titles, not directorships)",
+   "if_absent": "Standards may drift; Joe and Julia see them as hard roles to replace (L113)"
+  },
+  {
+   "what": "OpenClaw agents and memory",
+   "who_role": "Founder",
+   "if_absent": "Retention tracking and team assistant have no second owner (L137, L375)"
+  },
+  {
+   "what": "Sales pipeline",
+   "who_role": "Founder plus one new salesperson",
+   "if_absent": "Growth stalls (L403)"
+  }
+ ],
+ "follow_ups": {
+  "questions": [
+   "Who is 'Sophie' at L044 ('Sophie is managing it') and what is she managing: the handover, or the 'central brain' for each client?",
+   "Who is 'Michael' at L072 (Joe can call him for rapport): a client contact, or Michael Laps?",
+   "What exactly did Joe mean by '30% negative' at L272, and which stage of the funnel is 'one in ten' measured from?",
+   "Is there one senior performance leader seat open, given Julia says the team is 'headless' (L066) while Joe names the Performance Director as a department lead (L106)? Confirm the org chart.",
+   "How many new clients start each month, and how long does each onboarding take in staff hours? (Needed to cost KO-P03 and KO-P04.)",
+   "How many hours a week does Joe spend on AP, payroll and invoicing? (KO-P07.)",
+   "How long does a typical escalation case take Julia and the team? (The 30–90 min in KO-P06 is assumed.)",
+   "Where is the escalation pipeline kept (HubSpot, Monday.com, a sheet)?",
+   "What data sources feed Joe's 'mission control' dashboard and who else can maintain it?",
+   "Which year is the HubSpot renewal in ('until September', L309)?",
+   "Ask Sid how he rebuilt the HubSpot automation in Monday.com and which nuances may have been missed."
+  ],
+  "contradictions": [
+   "Julia says the handover is 'just the transcript' (Joe, L042) and Joe says it is the same HubSpot record with all the notes (L301): consistent, but the Performance Director interview (WS-PP06 in Transcript Findings) says the internal handover is sometimes rushed or skipped, which Joe's '15 minutes' description does not show.",
+   "Julia: 'We need a wiki badly' (L082) vs Joe: 'I think everything's in Notion' (L423) and 'there's a lot of documentation' (L088); the context pack shows 217 pages with 43% stale.",
+   "Julia: about 200 links a month (L368) vs the context pack (about 300 a month, ~2,800 orders Jan–Oct).",
+   "Joe says Otter recordings 'should go into the CRM automatically' (L320); the context pack says Otter is rarely used and transcripts barely read.",
+   "Joe says a Google Ads script alerts on seven days without conversions (L356); the context pack problem 'No proactive performance alerting' says issues are found at month end. Both may be true (the script covers one failure type).",
+   "Team size: Joe 'about 22' plus four offshore (L094) vs context pack about 27; consistent if 22 + 4 = 26.",
+   "Austin's quote of $24K a year saving on HubSpot (L310) vs Joe's combined HubSpot and Monday.com 'better part of 30 grand' after a reduction (L313): the saving from dropping HubSpot alone is not established.",
+   "Julia's 70% operations and 30–40% client work sums to 100–110% (L013)."
+  ],
+  "data_requests": [
+   "Org chart and current staff list (Joe, Notion).",
+   "Monthly HubSpot ticket automation spec and Monday.com sync mapping (Joe, Sid).",
+   "DLER by department for the last 12 months and the CFO-team pack (Joe).",
+   "P&L, revenue per client, churn numbers and retention % history (Joe, CFO team).",
+   "Escalation pipeline records for the last 3 months (Julia).",
+   "New-client count per month, win/loss reasons and funnel stages (Joe, BD).",
+   "HubSpot and Monday.com contracts, seat counts and renewal dates (Joe).",
+   "Pulse-check survey results, including the 'too many changes' and AI comments (Joe).",
+   "Performance matrices and review templates (Julia).",
+   "OpenClaw task list and who has access (Joe)."
+  ],
+  "verify": [
+   "Gross margin 'roughly 30%' for both service lines (L202) – get actuals.",
+   "Close rate 'one in ten' (L268) and '30% negative' (L272).",
+   "HubSpot about $22–25K a year, Monday.com about $1,000 a month, combined about $30K (L311, L313).",
+   "Ramp of 90 days (L229) against actual DLER history.",
+   "Average account value about $4.9K MRR (L264).",
+   "Julia's 'five a week' escalation rate (L124) from the pipeline record."
+  ]
+ }
+}

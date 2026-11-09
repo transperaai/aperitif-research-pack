@@ -1,0 +1,3892 @@
+{
+ "process_costs": [
+  {
+   "process": "Sales – lead to proposal",
+   "source_ids": [
+    "KO-P01",
+    "KZ-P13",
+    "MP-P03"
+   ],
+   "actors": [
+    "Founder",
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    3.0,
+    7.4,
+    11.8
+   ],
+   "cost_aud": [
+    240,
+    591,
+    943
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 2,
+   "touch_wait": "6–8 week sales cycle (KO-P01, KO-P02); founder availability gates proposals (MP-P03)",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Senior SEO Manager & LB Lead; described but not costed: KO-P01"
+  },
+  {
+   "process": "Sales – proposal to signed",
+   "source_ids": [
+    "KO-P02"
+   ],
+   "actors": [],
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "cost_aud": [
+    0,
+    0,
+    0
+   ],
+   "stated_share": 0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Not costed – no time discussed in KO-P02"
+  },
+  {
+   "process": "Sales to delivery handover",
+   "source_ids": [
+    "KO-P03",
+    "SB-P08",
+    "WS-P09"
+   ],
+   "actors": [
+    "Performance Marketing Director",
+    "Performance managers receiving handover",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    2.4,
+    8.2,
+    14.0
+   ],
+   "cost_aud": [
+    192,
+    656,
+    1120
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 2,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (WS-P09); high end scaled by the 160 h cap for Performance Marketing Director; described but not costed: KO-P03"
+  },
+  {
+   "process": "Client onboarding – access & setup",
+   "source_ids": [
+    "KO-P04",
+    "ZC-P08"
+   ],
+   "actors": [
+    "SEO Manager"
+   ],
+   "hours": [
+    0.3,
+    1.6,
+    3.0
+   ],
+   "cost_aud": [
+    24,
+    132,
+    240
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Touch 0.5–2 h (ZC-P08) vs \"can take a long time\" waiting on client access (ZC-P08, KO-P04) – wait dominates; not quantified",
+   "method": "Single actor; described but not costed: KO-P04"
+  },
+  {
+   "process": "Client onboarding – audit & strategy",
+   "source_ids": [
+    "DM-P08",
+    "KZ-P01",
+    "LS-P01",
+    "MC-P07",
+    "SD-P06",
+    "SH-P08",
+    "WS-P08",
+    "ZC-P07"
+   ],
+   "actors": [
+    "Performance Marketing Director",
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "SEO Director",
+    "SEO Manager",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)",
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    31.7,
+    76.5,
+    121.4
+   ],
+   "cost_aud": [
+    2536,
+    6123,
+    9710
+   ],
+   "stated_share": 0.002,
+   "people_evidenced": 8,
+   "touch_wait": "Touch 16–34 h per SEO onboarding (LS-P01, assumed) inside a 3-week window; paid: ≥1 week elapsed for audit+strategy, then 3–4 days tracking and 3–7 days build (SD-P06) ≈ 1:3 or worse",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (LS-P01, MC-P07, SD-P06); high end scaled by the 160 h cap for Performance Marketing Director, Performance Marketing Manager (DM), Performance Marketing Specialist, SEO Director, Senior PMM (SD), Senior SEO Manager & LB Lead"
+  },
+  {
+   "process": "Conversion tracking setup",
+   "source_ids": [],
+   "actors": [],
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "cost_aud": [
+    0,
+    0,
+    0
+   ],
+   "stated_share": 0,
+   "people_evidenced": 0,
+   "touch_wait": "Not known",
+   "method": "Not costed – not described in any interview"
+  },
+  {
+   "process": "Monthly SEO delivery",
+   "source_ids": [
+    "KZ-P03",
+    "KZ-P12",
+    "LS-P02",
+    "SB-P03",
+    "ZC-P09",
+    "ZC-P10"
+   ],
+   "actors": [
+    "SEO Director",
+    "SEO Manager",
+    "Senior SEO Manager & LB Lead",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    53.5,
+    73.3,
+    93.1
+   ],
+   "cost_aud": [
+    4280,
+    5864,
+    7449
+   ],
+   "stated_share": 0.002,
+   "people_evidenced": 4,
+   "touch_wait": "Client approvals days to weeks (LS-P02); tech queue (ZC-P09) – not quantified",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for SEO Director, Senior SEO Manager & LB Lead"
+  },
+  {
+   "process": "Technical SEO audit & fixes",
+   "source_ids": [
+    "KZ-P11",
+    "SB-P02"
+   ],
+   "actors": [
+    "Senior SEO Manager & LB Lead",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    51.0,
+    66.3,
+    81.6
+   ],
+   "cost_aud": [
+    4080,
+    5304,
+    6527
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 2,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Senior SEO Manager & LB Lead"
+  },
+  {
+   "process": "Content briefing",
+   "source_ids": [
+    "HT-P04",
+    "KZ-P02",
+    "KZ-P06",
+    "LS-P03",
+    "SJ-P01",
+    "ZC-P02"
+   ],
+   "actors": [
+    "Content Manager",
+    "Content Specialist",
+    "SEO Director",
+    "SEO Manager",
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    48.0,
+    81.0,
+    114.0
+   ],
+   "cost_aud": [
+    3840,
+    6480,
+    9119
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 5,
+   "touch_wait": "Briefs due week 1, often later; up to 2-day pick-up lag (SJ-P01) – wait not quantified as a ratio",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (SJ-P01); high end scaled by the 160 h cap for Content Specialist, SEO Director, Senior SEO Manager & LB Lead"
+  },
+  {
+   "process": "Content writing & editing",
+   "source_ids": [
+    "HT-P01",
+    "HT-P02",
+    "SJ-P02"
+   ],
+   "actors": [
+    "Content Manager",
+    "Content Specialist"
+   ],
+   "hours": [
+    106.5,
+    144.2,
+    181.8
+   ],
+   "cost_aud": [
+    8520,
+    11532,
+    14544
+   ],
+   "stated_share": 0.641,
+   "people_evidenced": 2,
+   "touch_wait": "Freelancer drafts up to 2 weeks; edits wait on two editors (SJ-P02) – not quantified as a ratio",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (SJ-P02); high end scaled by the 160 h cap for Content Specialist"
+  },
+  {
+   "process": "Client content approval",
+   "source_ids": [
+    "HT-P03",
+    "SJ-P03",
+    "ZC-P04"
+   ],
+   "actors": [
+    "Content Manager",
+    "Content Specialist",
+    "SEO Manager"
+   ],
+   "hours": [
+    17.5,
+    41.8,
+    66.0
+   ],
+   "cost_aud": [
+    1400,
+    3340,
+    5280
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 3,
+   "touch_wait": "Touch 24–50 min per piece (ZC-P04) vs ~1 week average client review (ZC-P04) ≈ 1:10+",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (SJ-P03); high end scaled by the 160 h cap for Content Specialist"
+  },
+  {
+   "process": "Link building – sourcing & ordering",
+   "source_ids": [
+    "KO-P12",
+    "KZ-P08",
+    "LS-P04",
+    "TG-P01",
+    "TG-P02",
+    "ZC-P03"
+   ],
+   "actors": [
+    "Outreach Specialist",
+    "SEO Manager",
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    43.3,
+    89.6,
+    135.9
+   ],
+   "cost_aud": [
+    3464,
+    7168,
+    10871
+   ],
+   "stated_share": 0.079,
+   "people_evidenced": 3,
+   "touch_wait": "Touch minutes per order vs 1–2 months order-to-live (LS-P04) and 1–2 weeks negotiation + 0–3 weeks publishing (TG-P02) – wait dominates",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (TG-P01); high end scaled by the 160 h cap for Senior SEO Manager & LB Lead; described but not costed: KO-P12, LS-P04"
+  },
+  {
+   "process": "Link building – QA & live checks",
+   "source_ids": [
+    "KZ-P10",
+    "MP-P04",
+    "TG-P03"
+   ],
+   "actors": [
+    "Outreach Specialist"
+   ],
+   "hours": [
+    10.8,
+    23.2,
+    35.7
+   ],
+   "cost_aud": [
+    864,
+    1860,
+    2856
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor; same work described twice – counted once (excluded MP-P04); described but not costed: KZ-P10"
+  },
+  {
+   "process": "Link building – outreacher invoicing",
+   "source_ids": [
+    "KZ-P09",
+    "TG-P05"
+   ],
+   "actors": [
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    1.3,
+    2.6,
+    3.8
+   ],
+   "cost_aud": [
+    104,
+    205,
+    306
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor; high end scaled by the 160 h cap for Senior SEO Manager & LB Lead; described but not costed: TG-P05"
+  },
+  {
+   "process": "Paid media – campaign build",
+   "source_ids": [
+    "DM-P03",
+    "MC-P01",
+    "SD-P05",
+    "SH-P03",
+    "WS-P02"
+   ],
+   "actors": [
+    "Performance Marketing Director",
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)"
+   ],
+   "hours": [
+    85.5,
+    115.9,
+    146.3
+   ],
+   "cost_aud": [
+    6840,
+    9273,
+    11706
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 5,
+   "touch_wait": "Touch ~1 working day per campaign vs 3–5 days elapsed (X-12; SD-P05 waits 1–2 days per approval loop) ≈ 1:3 to 1:5",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (MC-P01, SD-P05, WS-P02); high end scaled by the 160 h cap for Performance Marketing Director, Performance Marketing Manager (DM), Performance Marketing Specialist, Senior PMM (SD)"
+  },
+  {
+   "process": "Paid media – pacing & budget management",
+   "source_ids": [
+    "DM-P01",
+    "DM-P02",
+    "MC-P05",
+    "MP-P01",
+    "SD-P01",
+    "SH-P01",
+    "WS-P03"
+   ],
+   "actors": [
+    "Founder",
+    "Performance Marketing Director",
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)"
+   ],
+   "hours": [
+    50.1,
+    75.7,
+    101.4
+   ],
+   "cost_aud": [
+    4008,
+    6059,
+    8111
+   ],
+   "stated_share": 0.043,
+   "people_evidenced": 6,
+   "touch_wait": "Up to 2–3 days between checks (SD-P01); client approval of allocations unknown",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Performance Marketing Director, Performance Marketing Manager (DM), Performance Marketing Specialist, Senior PMM (SD)"
+  },
+  {
+   "process": "Paid media – optimisation",
+   "source_ids": [
+    "DM-P04",
+    "MC-P04",
+    "SD-P02",
+    "SD-P09",
+    "SH-P02",
+    "WS-P01",
+    "WS-P11"
+   ],
+   "actors": [
+    "Performance Marketing Director",
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)"
+   ],
+   "hours": [
+    67.5,
+    98.5,
+    129.5
+   ],
+   "cost_aud": [
+    5400,
+    7878,
+    10357
+   ],
+   "stated_share": 0.038,
+   "people_evidenced": 5,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (SD-P02); high end scaled by the 160 h cap for Performance Marketing Director, Performance Marketing Manager (DM), Senior PMM (SD)"
+  },
+  {
+   "process": "Performance monitoring & alerting",
+   "source_ids": [
+    "KO-P11",
+    "LS-P07",
+    "SB-P06",
+    "SD-P07",
+    "SH-P09",
+    "WS-P06",
+    "ZC-P06"
+   ],
+   "actors": [
+    "Performance Marketing Coordinator",
+    "Performance Marketing Director",
+    "SEO Director",
+    "SEO Manager",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    13.3,
+    26.0,
+    38.7
+   ],
+   "cost_aud": [
+    1064,
+    2079,
+    3094
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 6,
+   "touch_wait": "Breaks undetected up to ~7 days (KO-P11, SH-P09); checks only mid-month (SD-P07)",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (SD-P07); high end scaled by the 160 h cap for Performance Marketing Director, SEO Director, Senior PMM (SD); described but not costed: KO-P11"
+  },
+  {
+   "process": "Monthly reporting",
+   "source_ids": [
+    "DM-P05",
+    "KZ-P04",
+    "KZ-P05",
+    "LS-P06",
+    "MC-P06",
+    "SB-P04",
+    "SD-P03",
+    "SH-P04",
+    "SH-P05",
+    "ZC-P01"
+   ],
+   "actors": [
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "SEO Director",
+    "SEO Manager",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)",
+    "Senior SEO Manager & LB Lead",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    39.2,
+    52.0,
+    64.8
+   ],
+   "cost_aud": [
+    3136,
+    4158,
+    5181
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 8,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Performance Marketing Specialist, SEO Director, Senior PMM (SD), Senior SEO Manager & LB Lead"
+  },
+  {
+   "process": "Quarterly / 6-month review",
+   "source_ids": [
+    "LS-P05",
+    "WS-P04",
+    "ZC-P11"
+   ],
+   "actors": [
+    "Performance Marketing Director",
+    "SEO Director",
+    "SEO Manager"
+   ],
+   "hours": [
+    11.1,
+    17.2,
+    23.2
+   ],
+   "cost_aud": [
+    888,
+    1372,
+    1857
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 3,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Performance Marketing Director, SEO Director"
+  },
+  {
+   "process": "Client meetings & prep",
+   "source_ids": [
+    "DM-P06",
+    "HT-P06",
+    "LS-P08",
+    "SB-P05",
+    "SD-P04",
+    "SH-P06",
+    "WS-P12",
+    "ZC-P05"
+   ],
+   "actors": [
+    "Content Specialist",
+    "Performance Marketing Director",
+    "Performance Marketing Manager (DM)",
+    "SEO Director",
+    "SEO Manager",
+    "Senior PMM (SD)",
+    "Senior PMM (SH)",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    104.7,
+    146.3,
+    187.8
+   ],
+   "cost_aud": [
+    8376,
+    11701,
+    15026
+   ],
+   "stated_share": 0.392,
+   "people_evidenced": 8,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Content Specialist, Performance Marketing Director, Performance Marketing Manager (DM), SEO Director"
+  },
+  {
+   "process": "Client escalation",
+   "source_ids": [
+    "KO-P06",
+    "MP-P02"
+   ],
+   "actors": [
+    "Head of Client Services"
+   ],
+   "hours": [
+    10.8,
+    21.6,
+    32.5
+   ],
+   "cost_aud": [
+    864,
+    1732,
+    2600
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor; same work described twice – counted once (excluded MP-P02)"
+  },
+  {
+   "process": "Creative production",
+   "source_ids": [
+    "MC-P08",
+    "WS-P13"
+   ],
+   "actors": [
+    "Performance Marketing Director",
+    "Performance Marketing Specialist"
+   ],
+   "hours": [
+    1.7,
+    3.5,
+    5.4
+   ],
+   "cost_aud": [
+    136,
+    282,
+    429
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 2,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Performance Marketing Director, Performance Marketing Specialist"
+  },
+  {
+   "process": "Website migration",
+   "source_ids": [],
+   "actors": [],
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "cost_aud": [
+    0,
+    0,
+    0
+   ],
+   "stated_share": 0,
+   "people_evidenced": 0,
+   "touch_wait": "Not known",
+   "method": "Not costed – not described in any interview"
+  },
+  {
+   "process": "Internal task management",
+   "source_ids": [
+    "DM-P09",
+    "HT-P05",
+    "KO-P05",
+    "MC-P02",
+    "MP-P05",
+    "SB-P01",
+    "SB-P09",
+    "SD-P08",
+    "SJ-P04",
+    "TG-P04",
+    "WS-P07"
+   ],
+   "actors": [
+    "Content Manager",
+    "Content Specialist",
+    "Founder",
+    "Outreach Specialist",
+    "Performance Marketing Director",
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "Senior PMM (SD)",
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    64.5,
+    87.1,
+    109.7
+   ],
+   "cost_aud": [
+    5160,
+    6967,
+    8774
+   ],
+   "stated_share": 0.108,
+   "people_evidenced": 9,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (MC-P02); high end scaled by the 160 h cap for Content Specialist, Performance Marketing Director, Performance Marketing Manager (DM), Performance Marketing Specialist, Senior PMM (SD); described but not costed: KO-P05"
+  },
+  {
+   "process": "Knowledge & SOPs",
+   "source_ids": [
+    "MP-P07",
+    "SJ-P05",
+    "WS-P10",
+    "ZC-P12"
+   ],
+   "actors": [
+    "Content Manager",
+    "Founder",
+    "Performance Marketing Director",
+    "SEO Manager"
+   ],
+   "hours": [
+    15.4,
+    22.1,
+    28.7
+   ],
+   "cost_aud": [
+    1232,
+    1765,
+    2297
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 4,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; interviewee share only, other actors counted in their own records (SJ-P05); high end scaled by the 160 h cap for Performance Marketing Director"
+  },
+  {
+   "process": "Hiring & onboarding staff",
+   "source_ids": [
+    "KO-P09"
+   ],
+   "actors": [],
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "cost_aud": [
+    0,
+    0,
+    0
+   ],
+   "stated_share": 0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Not costed – no time discussed in KO-P09"
+  },
+  {
+   "process": "Finance & billing",
+   "source_ids": [
+    "KO-P07"
+   ],
+   "actors": [],
+   "hours": [
+    0,
+    0,
+    0
+   ],
+   "cost_aud": [
+    0,
+    0,
+    0
+   ],
+   "stated_share": 0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Not costed – no time discussed in KO-P07"
+  },
+  {
+   "process": "NEW: Client email & ad hoc requests",
+   "source_ids": [
+    "DM-P07",
+    "KZ-P07",
+    "MC-P03",
+    "SH-P07"
+   ],
+   "actors": [
+    "Performance Marketing Manager (DM)",
+    "Performance Marketing Specialist",
+    "Senior PMM (SH)",
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    34.3,
+    52.4,
+    70.5
+   ],
+   "cost_aud": [
+    2744,
+    4192,
+    5640
+   ],
+   "stated_share": 0.152,
+   "people_evidenced": 4,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for Performance Marketing Manager (DM), Performance Marketing Specialist, Senior SEO Manager & LB Lead"
+  },
+  {
+   "process": "NEW: Client offboarding & handover",
+   "source_ids": [
+    "MC-P09"
+   ],
+   "actors": [
+    "Performance Marketing Specialist"
+   ],
+   "hours": [
+    0.2,
+    0.7,
+    1.1
+   ],
+   "cost_aud": [
+    16,
+    54,
+    92
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor; high end scaled by the 160 h cap for Performance Marketing Specialist"
+  },
+  {
+   "process": "NEW: Content upload & page build (CMS)",
+   "source_ids": [
+    "SB-P07"
+   ],
+   "actors": [
+    "Technical SEO Specialist"
+   ],
+   "hours": [
+    3.5,
+    8.8,
+    14
+   ],
+   "cost_aud": [
+    280,
+    700,
+    1120
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor"
+  },
+  {
+   "process": "NEW: Performance forecasting",
+   "source_ids": [
+    "WS-P05"
+   ],
+   "actors": [
+    "Performance Marketing Director"
+   ],
+   "hours": [
+    1.4,
+    3.6,
+    5.8
+   ],
+   "cost_aud": [
+    112,
+    288,
+    464
+   ],
+   "stated_share": 0.146,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor; high end scaled by the 160 h cap for Performance Marketing Director"
+  },
+  {
+   "process": "NEW: Platform compliance checks",
+   "source_ids": [
+    "MC-P10"
+   ],
+   "actors": [
+    "Performance Marketing Specialist"
+   ],
+   "hours": [
+    1.1,
+    1.2,
+    1.3
+   ],
+   "cost_aud": [
+    88,
+    94,
+    101
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 1,
+   "touch_wait": "Not known",
+   "method": "Single actor; high end scaled by the 160 h cap for Performance Marketing Specialist"
+  },
+  {
+   "process": "NEW: Team management, coaching & oversight",
+   "source_ids": [
+    "KO-P10",
+    "KZ-P14",
+    "LS-P09",
+    "MP-P06"
+   ],
+   "actors": [
+    "Founder",
+    "SEO Director",
+    "Senior SEO Manager & LB Lead"
+   ],
+   "hours": [
+    70.0,
+    74.1,
+    78.2
+   ],
+   "cost_aud": [
+    5600,
+    5928,
+    6257
+   ],
+   "stated_share": 0.0,
+   "people_evidenced": 3,
+   "touch_wait": "Not known",
+   "method": "Sum of each actor's own share; high end scaled by the 160 h cap for SEO Director, Senior SEO Manager & LB Lead; described but not costed: KO-P10"
+  }
+ ],
+ "totals": {
+  "hours": [
+   944,
+   1422,
+   1901
+  ],
+  "cost_aud": [
+   75488,
+   113792,
+   152080
+  ],
+  "stated_share": 0.128,
+  "note": "Rebuilt per canonical process from 14 extractions (114 process records; 2 excluded as the same work described twice; 14 described but not costed). Each actor counted once per process; shares from managers who also described a colleague's work were cut to their own share. Seven people's high ends exceeded 160 h/month and were scaled down on their assumed items only. Only 13% of the mid-point hours rest on stated times – almost every time per task is assumed – so the low is the defensible figure and the high is a ceiling, not an estimate. Covers the 12 interviewed staff plus leadership, and two un-interviewed shares (coordinator checks; performance managers receiving handovers); excludes staff not interviewed (sales, technical SEO analysts, two performance managers, contractors)."
+ },
+ "opportunities": [
+  {
+   "id": "O-01",
+   "name": "Restore the pacing data feed and cover every live channel",
+   "fixes_clusters": [
+    "C-01",
+    "C-02",
+    "C-03",
+    "C-04"
+   ],
+   "fixes_pain_points": [
+    "MC-PP06",
+    "MC-PP07",
+    "MC-PP08",
+    "MP-PP02",
+    "SD-PP01",
+    "SD-PP15",
+    "SD-PP19",
+    "WS-PP02"
+   ],
+   "source_ids": [
+    "SD-O01",
+    "MC-O04",
+    "MP-O01",
+    "WS-O01"
+   ],
+   "lens": "Change the process",
+   "change": "Renew or replace the failing Supermetrics connector (or feed pacing from AgencyAnalytics/platform APIs), name one owner for the pacing pipeline and the M/W/F pacing bot, and add LinkedIn, ChatGPT ads, Criteo, Pinterest and TikTok to the tracker – rule: no spend goes live without a pacing line.",
+   "existing_solution": "Pacing tracker & adjustment engine (interim step)",
+   "tool": "Supermetrics renewal or Porter Metrics/Windsor.ai; AgencyAnalytics data; Google Sheets. Transpera build only if direct-API feed chosen.",
+   "hours_saved": [
+    7.2,
+    18.6
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SD-O01 5.0–8.9 + MC-O04 0.5–3.6 + MP-O01 0.0–1.0 + WS-O01 1.7–5.1 = 7.2–18.6 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 50.1–101.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    576,
+    1489
+   ],
+   "dollars_working": "7.2–18.6 h × $80 = $576–$1,489/month. Avoided overspend: one $10K credit already paid on an untracked/mis-paced incident (MP-PP01, stated; X-10 unresolved whether it is the LinkedIn incident). Frequency unknown, so not added to the monthly figure.",
+   "effort": "S",
+   "prerequisites": "Subscription budget sign-off; named pipeline owner; list of every live channel per client (LinkedIn currently missing).",
+   "adoption_risk": "L",
+   "adoption_note": "Restores an existing workflow people already use (SD-O01); the M/W/F bot already posts. Risk is ownership lapsing again – the feed broke unnoticed before (C-02, C-32).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on MC-O04, WS-O01).",
+   "kpis": [
+    {
+     "kpi": "Days pacing data auto-refreshed",
+     "baseline": "0",
+     "baseline_id": "SD-O01",
+     "target": "100% of working days",
+     "type": "leading"
+    },
+    {
+     "kpi": "% live platforms with a pacing line",
+     "baseline": "Below 100% (LinkedIn missing)",
+     "baseline_id": "MP-O01",
+     "target": "100%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 5,
+    "priority": 125
+   },
+   "rank": 1,
+   "tag": "Quick win",
+   "anchor": "Performance visibility & margin",
+   "horizon": "This month",
+   "processes": [
+    "Paid media – pacing & budget management"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "WS-S01",
+    "WS-S05"
+   ]
+  },
+  {
+   "id": "O-02",
+   "name": "AI data rule, company Claude seats and shared skills library",
+   "fixes_clusters": [
+    "C-05",
+    "C-12",
+    "C-21",
+    "C-28",
+    "C-33"
+   ],
+   "fixes_pain_points": [
+    "DM-PP11",
+    "DM-PP12",
+    "HT-PP08",
+    "LS-PP13",
+    "MC-PP19",
+    "MC-PP20",
+    "SB-PP12",
+    "SJ-PP06",
+    "SJ-PP07",
+    "WS-PP12",
+    "WS-PP13"
+   ],
+   "source_ids": [
+    "DM-O06",
+    "SB-O06",
+    "MC-O03",
+    "LS-O08",
+    "WS-O09",
+    "HT-O06",
+    "SJ-O03"
+   ],
+   "lens": "People & policy",
+   "change": "Founder issues a one-page AI rule (approved tools, what client data may be sent, human owns the decision, no raw AI screenshots in deliverables); move everyone onto company Claude seats sized to use; load proven personal workflows (forecasting prompt, search-term audit, content research prompts, industry research and compliance packs) into shared Claude Projects.",
+   "existing_solution": "New (enabler for AI business brain) / Team wiki & L&D",
+   "tool": "Claude Teams Projects and skills; Notion page for the rule. No build.",
+   "hours_saved": [
+    6.5,
+    36.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): DM-O06 0.0–0.0 + SB-O06 2.0–6.0 + MC-O03 1.0–2.4 + LS-O08 0.0–4.7 + WS-O09 1.4–7.5 + HT-O06 0.6–2.3 + SJ-O03 1.5–13.1 = 6.5–36.0 h/month. High ends of capped people scaled by their 160 h cap ratio. WS-O09 capped at 1.4–7.5 h (only that process is costed) Process hours available: 123.3–216.3 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    520,
+    2878
+   ],
+   "dollars_working": "6.5–36.0 h × $80 = $520–$2,878/month",
+   "effort": "S",
+   "prerequisites": "Decision on client-data rules and contract checks; seat budget.",
+   "adoption_risk": "L",
+   "adoption_note": "Staff already use AI daily and some pay personally (MC-O03); risk is the library going stale like the wiki (C-35).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on SB-O06, SJ-O03).",
+   "kpis": [
+    {
+     "kpi": "Written AI-data rule published and acknowledged by Performance team",
+     "baseline": "None",
+     "baseline_id": "DM-O06",
+     "target": "Published within 2 weeks; 100% acknowledged",
+     "type": "leading"
+    },
+    {
+     "kpi": "Staff paying for personal AI tools for work",
+     "baseline": "≥1",
+     "baseline_id": "MC-O03",
+     "target": "0",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 5,
+    "priority": 125
+   },
+   "rank": 2,
+   "tag": "Quick win",
+   "anchor": "Operations capacity & process",
+   "horizon": "This month",
+   "processes": [
+    "Knowledge & SOPs",
+    "NEW: Performance forecasting",
+    "Content writing & editing"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "LS-S01",
+    "WS-S03"
+   ]
+  },
+  {
+   "id": "O-03",
+   "name": "AI brief drafts from the Master SEO Document",
+   "fixes_clusters": [
+    "C-18",
+    "C-20"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP05",
+    "KZ-PP17",
+    "LS-PP03",
+    "ZC-PP03"
+   ],
+   "source_ids": [
+    "LS-O01",
+    "KZ-O09",
+    "ZC-O02",
+    "KZ-O05"
+   ],
+   "lens": "Augment",
+   "change": "A Claude skill reads the month's content plan in the Master SEO Document and drafts each brief (and regional localisation metadata) in the house template, output straight to the standard Google Doc; the SEO manager reviews and sends.",
+   "existing_solution": "Brief & proposal generator",
+   "tool": "Claude Teams skill + Google Docs template; Ahrefs for keywords. Transpera optional.",
+   "hours_saved": [
+    9.0,
+    22.3
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): LS-O01 4.0–6.3 + KZ-O09 3.8–11.0 + ZC-O02 1.2–5.0 = 9.0–22.3 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 48.0–114.0 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    720,
+    1780
+   ],
+   "dollars_working": "9.0–22.3 h × $80 = $720–$1,780/month",
+   "effort": "S",
+   "prerequisites": "One current brief template (C-20); per-client record for context (O-04).",
+   "adoption_risk": "L",
+   "adoption_note": "Managers already re-cut briefs by hand and want this; low new behaviour.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on LS-O01, KZ-O09, KZ-O05).",
+   "kpis": [
+    {
+     "kpi": "Minutes of SEO manager time per client for monthly briefs",
+     "baseline": "Unknown; assumed 30–60 min",
+     "baseline_id": "LS-O01",
+     "target": "≤ 15 min incl. review",
+     "type": "leading"
+    },
+    {
+     "kpi": "Briefs needing manual re-formatting",
+     "baseline": "All – copied into Word",
+     "baseline_id": "ZC-O02",
+     "target": "0",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 4,
+    "ease": 5,
+    "priority": 100
+   },
+   "rank": 3,
+   "tag": "Quick win",
+   "anchor": "Operations capacity & process",
+   "horizon": "This month",
+   "processes": [
+    "Content briefing"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "LS-S03",
+    "ZC-B03"
+   ]
+  },
+  {
+   "id": "O-04",
+   "name": "One per-client record fed by call summaries",
+   "fixes_clusters": [
+    "C-07",
+    "C-11",
+    "C-12",
+    "C-20",
+    "C-22",
+    "C-36"
+   ],
+   "fixes_pain_points": [
+    "HT-PP03",
+    "HT-PP04",
+    "HT-PP10",
+    "KZ-PP15",
+    "KZ-PP16",
+    "WS-PP08",
+    "WS-PP10",
+    "ZC-PP01",
+    "ZC-PP02",
+    "ZC-PP04",
+    "ZC-PP11",
+    "ZC-PP13"
+   ],
+   "source_ids": [
+    "HT-O01",
+    "WS-O05",
+    "ZC-O01",
+    "KZ-O11",
+    "ZC-O10"
+   ],
+   "lens": "Change the process",
+   "change": "Each client gets one record (Monday item or Notion page plus a Claude project for focus clients) holding strategy, USPs, page/keyword map, tone, compliance rules, feedback history and current status; WIP updates go there, not personal docs; every client call is recorded and its AI summary and actions appended within 24 h.",
+   "existing_solution": "Transcripts → per-client action runsheet; AI business brain (lightweight)",
+   "tool": "Monday.com/Notion, Otter or Gemini notes, Claude Teams Projects. Small Make.com automation; no Transpera build needed.",
+   "hours_saved": [
+    5.0,
+    18.2
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): HT-O01 1.0–3.8 + WS-O05 1.0–2.2 + ZC-O01 2.0–10.0 + KZ-O11 1.0–2.2 = 5.0–18.2 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 168.1–330.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    400,
+    1457
+   ],
+   "dollars_working": "5.0–18.2 h × $80 = $400–$1,457/month",
+   "effort": "S",
+   "prerequisites": "Template agreed across organic and paid; call recording consent; AI-data rule.",
+   "adoption_risk": "L",
+   "adoption_note": "Transcripts are captured but unused (X-21) – automation of the append step is preferred over asking people to file notes (\"I forget half the time\", KZ-O11).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on ZC-O01, ZC-O10).",
+   "kpis": [
+    {
+     "kpi": "% of active content clients with a current profile",
+     "baseline": "0 central",
+     "baseline_id": "HT-O01",
+     "target": "100%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Client calls logged in run sheet within 24 h",
+     "baseline": "unknown – transcripts unused",
+     "baseline_id": "ZC-O10",
+     "target": "≥ 95%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 5,
+    "ease": 5,
+    "priority": 100
+   },
+   "rank": 4,
+   "tag": "Quick win",
+   "anchor": "Client experience & delivery",
+   "horizon": "This month",
+   "processes": [
+    "Content briefing",
+    "Client meetings & prep",
+    "Knowledge & SOPs"
+   ],
+   "bias_flags": [
+    "C-07: COI: 'AI business brain' is Austin's own product idea (KO suggestions, interviewer-sourced)."
+   ],
+   "fixes_other": [
+    "ZC-B03"
+   ]
+  },
+  {
+   "id": "O-05",
+   "name": "Reports and review decks: auto-filled data, AI-drafted narrative",
+   "fixes_clusters": [
+    "C-06",
+    "C-17",
+    "C-33"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP18",
+    "LS-PP02",
+    "LS-PP04",
+    "LS-PP16",
+    "SH-PP06",
+    "WS-PP05",
+    "WS-PP13"
+   ],
+   "source_ids": [
+    "WS-O06",
+    "LS-O11",
+    "ZC-O11",
+    "LS-O02",
+    "SH-O03",
+    "KZ-O10"
+   ],
+   "lens": "Augment",
+   "change": "Turn one performance leader's AI quarterly-review workflow into one shared template + prompt + data pull for every QBR and 6-month review; auto-fill the \"work completed / planned\" report page and weekly client KPI sheets from platform and task data; managers write the commentary only.",
+   "existing_solution": "QBR / review deck generator",
+   "tool": "Google Slides/Sheets + AgencyAnalytics + Claude Teams; Make.com for sheet fills. Transpera build optional.",
+   "hours_saved": [
+    13.2,
+    39.7
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): WS-O06 6.0–22.1 + LS-O02 2.0–3.1 + ZC-O11 1.2–6.0 + SH-O03 2.0–4.9 + KZ-O10 2.0–3.6 = 13.2–39.7 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 50.3–88.0 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    1056,
+    3180
+   ],
+   "dollars_working": "13.2–39.7 h × $80 = $1,056–$3,180/month",
+   "effort": "M",
+   "prerequisites": "One current master template (C-06/R5 duplication errors); data access; AI-data rule.",
+   "adoption_risk": "L",
+   "adoption_note": "Builds on a workflow one leader already uses (WS-S02). Judgement call: merges Augment (decks) with Automate (data fills) because they share one data pull.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on WS-O06, LS-O11, ZC-O11, LS-O02, SH-O03, KZ-O10).",
+   "kpis": [
+    {
+     "kpi": "Hours per quarterly / 6-month review deck",
+     "baseline": "unknown",
+     "baseline_id": "WS-O06",
+     "target": "≤ 1.5 h",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Share of reports where the page is filled from system data",
+     "baseline": "0% (stated manual)",
+     "baseline_id": "LS-O02",
+     "target": "100%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 4,
+    "priority": 100
+   },
+   "rank": 5,
+   "tag": "Quick win",
+   "anchor": "Operations capacity & process",
+   "horizon": "This quarter",
+   "processes": [
+    "Quarterly / 6-month review",
+    "Monthly reporting"
+   ],
+   "bias_flags": [
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "LS-S04",
+    "LS-S10",
+    "LS-S13",
+    "SH-B05",
+    "WS-S02",
+    "ZC-P11"
+   ]
+  },
+  {
+   "id": "O-06",
+   "name": "All internal requests via Monday forms; Monday notifies, not people",
+   "fixes_clusters": [
+    "C-14",
+    "C-17",
+    "C-18",
+    "C-27",
+    "C-30",
+    "C-35"
+   ],
+   "fixes_pain_points": [
+    "DM-PP09",
+    "LS-PP11",
+    "LS-PP14",
+    "MC-PP01",
+    "MC-PP02",
+    "MC-PP03",
+    "MC-PP04",
+    "MC-PP05",
+    "MP-PP05",
+    "MP-PP06",
+    "SB-PP03",
+    "SB-PP04",
+    "SB-PP15",
+    "SD-PP12",
+    "SD-PP17",
+    "SH-PP09",
+    "SH-PP10"
+   ],
+   "source_ids": [
+    "SB-O01",
+    "MC-O01",
+    "SH-O04",
+    "LS-O10",
+    "SD-O09",
+    "DM-O03",
+    "MC-O05",
+    "MP-O11"
+   ],
+   "lens": "Change the process",
+   "change": "Internal and implementation requests go through Monday.com forms with required fields (account, change, why, budget, URLs, due date, QA); the week's briefs are due Monday morning and same-day asks need a reason; AI drafts the brief from a voice note. Stop the daily agenda message and \"post your update\" reminders – Monday native automations notify on overdue and stuck items and status is read from Monday.",
+   "existing_solution": "New / Brief & proposal generator (partial)",
+   "tool": "Monday.com forms and native automations; Claude for brief drafts. No build.",
+   "hours_saved": [
+    9.7,
+    28.5
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SB-O01 3.0–8.0 + MC-O01 2.1–6.9 + SH-O04 1.0–4.0 + LS-O10 1.0–2.4 + SD-O09 0.0–0.8 + DM-O03 0.5–1.5 + MP-O11 2.1–4.9 = 9.7–28.5 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 217.5–385.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    776,
+    2279
+   ],
+   "dollars_working": "9.7–28.5 h × $80 = $776–$2,279/month",
+   "effort": "S",
+   "prerequisites": "Form templates per team; managers agree the Monday cut-off.",
+   "adoption_risk": "M",
+   "adoption_note": "Requests already bypass Monday (C-30) and reminders go unacted (R16) – removing the reminder (Eliminate) and making the form the only route is the point.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on SH-O04, MP-O11).",
+   "kpis": [
+    {
+     "kpi": "% implementation tasks briefed ≥1 working day ahead",
+     "baseline": "unknown",
+     "baseline_id": "MC-O01",
+     "target": "≥70%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Tasks overdue >3 days",
+     "baseline": "unknown",
+     "baseline_id": "DM-O03",
+     "target": "−70%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 4,
+    "priority": 100
+   },
+   "rank": 6,
+   "tag": "Quick win",
+   "anchor": "Operations capacity & process",
+   "horizon": "This month",
+   "processes": [
+    "Internal task management",
+    "Paid media – campaign build",
+    "Paid media – optimisation"
+   ],
+   "bias_flags": [
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "DM-B03",
+    "LS-S12",
+    "MC-B02",
+    "MC-B05",
+    "MP-B04",
+    "SB-B03",
+    "SD-B04",
+    "SH-B01"
+   ]
+  },
+  {
+   "id": "O-07",
+   "name": "Automated live-link checks with publisher replacement claims",
+   "fixes_clusters": [
+    "C-25"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP10",
+    "MP-PP13",
+    "ZC-PP10"
+   ],
+   "source_ids": [
+    "MP-O05",
+    "KZ-O02",
+    "ZC-O08"
+   ],
+   "lens": "Automate",
+   "change": "Weekly or monthly automated check of every paid link (live, link present, dofollow, on the approved domain); removals emailed to the publisher with a 7-day fix deadline, then a replacement claim or PayPal dispute.",
+   "existing_solution": "Link-building CRM with live-link monitoring",
+   "tool": "Ahrefs/Screaming Frog scheduled crawl + Google Sheets/Make.com – no custom build needed; Transpera only if bundled into a link CRM.",
+   "hours_saved": [
+    5.0,
+    10.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MP-O05 5.0–10.0 + KZ-O02 0.0–0.0 + ZC-O08 0.0–0.0 = 5.0–10.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 10.8–35.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    800,
+    2100
+   ],
+   "dollars_working": "5.0–10.0 h × $80 = $400–$800/month + avoided loss $400–$1,300 = $800–$2,100/month. Avoided loss: ~10 dead links/month × $80–130 per link ≈ $800–1,300/month (KZ-P10/KZ-PP10, estimated). Recovery rate unknown – $ counts recovery of 50–100% (assumed).",
+   "effort": "M",
+   "prerequisites": "One link list with URLs (O-18); publisher terms that allow claims.",
+   "adoption_risk": "L",
+   "adoption_note": "Automation chosen because manual checking stopped after April (X-20); no staff behaviour needed except claims.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on MP-O05, KZ-O02, ZC-O08). Link monitor offered by Austin (KO).",
+   "kpis": [
+    {
+     "kpi": "% of paid links live at 90 days",
+     "baseline": "unknown",
+     "baseline_id": "KZ-O02",
+     "target": "≥ 97%",
+     "type": "lagging"
+    },
+    {
+     "kpi": "% paid links verified live each week",
+     "baseline": "0%",
+     "baseline_id": "MP-O05",
+     "target": "100%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 4,
+    "ease": 4,
+    "priority": 80
+   },
+   "rank": 7,
+   "tag": "Quick win",
+   "anchor": "Performance visibility & margin",
+   "horizon": "This quarter",
+   "processes": [
+    "Link building – QA & live checks"
+   ],
+   "bias_flags": [
+    "C-25: COI: as C-23 – link monitor offered by Austin (KO suggestions)."
+   ],
+   "fixes_other": [
+    "MP-B05"
+   ]
+  },
+  {
+   "id": "O-08",
+   "name": "Sales-to-delivery gate: handover fields, owner, access checklist",
+   "fixes_clusters": [
+    "C-08",
+    "C-09",
+    "C-10",
+    "C-31",
+    "C-32",
+    "C-38"
+   ],
+   "fixes_pain_points": [
+    "KO-PP01",
+    "KO-PP22",
+    "MC-PP10",
+    "MC-PP11",
+    "MC-PP12",
+    "MC-PP13",
+    "MC-PP14",
+    "MC-PP16",
+    "MC-PP17",
+    "SB-PP10",
+    "SB-PP11",
+    "SH-PP07",
+    "WS-PP06",
+    "WS-PP07",
+    "ZC-PP07"
+   ],
+   "source_ids": [
+    "KO-O02",
+    "WS-O02",
+    "SH-O07",
+    "MC-O07",
+    "SB-O03",
+    "ZC-O05",
+    "MC-O02",
+    "MC-O11",
+    "MC-O12"
+   ],
+   "lens": "Change the process",
+   "change": "A deal cannot move to onboarding until required HubSpot fields (goals, budget, competitors, promises, delivery owner) are filled, the pre-sales checklist is met (website live, creative supply, access) and a handover call is booked ≥2 business days ahead; the access checklist and how-to guides go out at signing; staged onboarding/offboarding boards in Monday unlock one task at a time, ping on client replies and track conversion-tracking status per action.",
+   "existing_solution": "Transcripts → per-client action runsheet (partial) / New",
+   "tool": "HubSpot required properties, existing Make.com flow, Monday.com boards and automations, Gmail→Slack filter. No Transpera build.",
+   "hours_saved": [
+    2.2,
+    10.4
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O02 0.0–0.0 + WS-O02 0.8–3.5 + SH-O07 0.2–1.0 + MC-O02 0.5–2.4 + SB-O03 0.5–2.0 + ZC-O05 0.2–1.5 = 2.2–10.4 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 2.9–18.1 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    180,
+    834
+   ],
+   "dollars_working": "2.2–10.4 h × $80 = $180–$834/month",
+   "effort": "S",
+   "prerequisites": "Sales lead and department leads agree the gate; HubSpot admin time.",
+   "adoption_risk": "M",
+   "adoption_note": "A handover step already exists on paper but is skipped (X-16) – enforce it in HubSpot stages rather than by SOP.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KO-O02, MC-O11).",
+   "kpis": [
+    {
+     "kpi": "% of new clients with handover call ≥2 business days before kick-off",
+     "baseline": "unknown",
+     "baseline_id": "WS-O02",
+     "target": "≥ 90%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Days from signing to full access",
+     "baseline": "'can take a long time'",
+     "baseline_id": "ZC-O05",
+     "target": "≤ 3 business days",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 5,
+    "ease": 4,
+    "priority": 80
+   },
+   "rank": 8,
+   "tag": "Quick win",
+   "anchor": "Client experience & delivery",
+   "horizon": "This month",
+   "processes": [
+    "Sales to delivery handover",
+    "Client onboarding – access & setup",
+    "NEW: Client offboarding & handover"
+   ],
+   "bias_flags": [
+    "C-10: COI: Austin offered his own client-research agent for new-client dossiers (KO suggestions, leadership's request).",
+    "C-38: Bias: interviewer raised the sales-overcommit problem first (MP-PP10); leadership agreed strongly."
+   ],
+   "fixes_other": [
+    "MC-B01",
+    "MC-B03",
+    "MC-B07",
+    "SB-B02",
+    "SH-B06",
+    "WS-B02",
+    "WS-B04",
+    "WS-S09",
+    "WS-S10",
+    "ZC-B02"
+   ]
+  },
+  {
+   "id": "O-09",
+   "name": "Implementer self-QA checklists for page and ad builds",
+   "fixes_clusters": [
+    "C-13",
+    "C-28",
+    "C-36"
+   ],
+   "fixes_pain_points": [
+    "DM-PP08",
+    "KZ-PP13",
+    "SB-PP07",
+    "SB-PP08",
+    "SD-PP16"
+   ],
+   "source_ids": [
+    "KZ-O04",
+    "SB-O05",
+    "DM-O04",
+    "SD-O12"
+   ],
+   "lens": "Change the process",
+   "change": "Implementers complete a QA checklist (devices, templates, text; Meta placements, aspect ratios, copy) before hand-off; one consolidated page-approval round from a single client approver on a visual draft; seniors spot-check rather than full QA except launches.",
+   "existing_solution": "New / AI-assisted creative (partial)",
+   "tool": "Monday.com checklist items; multi-device screenshot tool. No build.",
+   "hours_saved": [
+    3.1,
+    12.7
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O04 0.1–0.9 + SB-O05 2.0–8.0 + DM-O04 0.3–2.0 + SD-O12 0.7–1.9 = 3.1–12.7 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 89.0–160.3 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    248,
+    1018
+   ],
+   "dollars_working": "3.1–12.7 h × $80 = $248–$1,018/month",
+   "effort": "S",
+   "prerequisites": "Checklists written by the senior reviewers.",
+   "adoption_risk": "M",
+   "adoption_note": "Checklists are a known adoption risk (SOPs unread, C-35); make the Monday status depend on the checklist.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on SB-O05).",
+   "kpis": [
+    {
+     "kpi": "Builds with issues found by the client",
+     "baseline": "unknown – 'the client sees it first' (L551)",
+     "baseline_id": "KZ-O04",
+     "target": "0 a month",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Manager QA minutes per Meta launch",
+     "baseline": "20–30 ads checked one by one; minutes unknown",
+     "baseline_id": "DM-O04",
+     "target": "≤10 min",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 5,
+    "ease": 4,
+    "priority": 80
+   },
+   "rank": 9,
+   "tag": "Quick win",
+   "anchor": "Client experience & delivery",
+   "horizon": "This month",
+   "processes": [
+    "NEW: Content upload & page build (CMS)",
+    "Paid media – campaign build"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "DM-B02",
+    "SB-B01",
+    "SD-B05"
+   ]
+  },
+  {
+   "id": "O-10",
+   "name": "Switch on native platform alert rules and scripts now",
+   "fixes_clusters": [
+    "C-04",
+    "C-17"
+   ],
+   "fixes_pain_points": [
+    "DM-PP03",
+    "DM-PP10",
+    "MC-PP18",
+    "SD-PP04",
+    "SD-PP08"
+   ],
+   "source_ids": [
+    "SD-O04",
+    "DM-O02",
+    "SD-O11",
+    "MC-O09"
+   ],
+   "lens": "Change the process",
+   "change": "Turn on Meta automated rules (frequency > 3, CPL > 2× target) and Google Ads rules/scripts for CPL spikes, conversion drops (e.g. −30% week on week) and monthly negative-keyword candidates; route Merchant Center disapprovals to Slack and add a weekly owned Monday check.",
+   "existing_solution": "Proactive PPC anomaly monitor (interim, native)",
+   "tool": "Google Ads rules/scripts, Meta automated rules, Slack email routing, Monday recurring item. No build.",
+   "hours_saved": [
+    1.2,
+    8.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SD-O04 0.5–1.2 + DM-O02 0.7–6.8 + MC-O09 0.0–0.0 = 1.2–8.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 81.9–169.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    96,
+    641
+   ],
+   "dollars_working": "1.2–8.0 h × $80 = $96–$641/month",
+   "effort": "S",
+   "prerequisites": "Per-client thresholds agreed by account owners; Slack channel per team.",
+   "adoption_risk": "L",
+   "adoption_note": "Uses tools already paid for; no new behaviour beyond reading an alert. Watch for alert fatigue (reminders already go unacted – C-30).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on DM-O02).",
+   "kpis": [
+    {
+     "kpi": "Rules live per account",
+     "baseline": "0",
+     "baseline_id": "SD-O04",
+     "target": "100% of Meta accounts with frequency rule",
+     "type": "leading"
+    },
+    {
+     "kpi": "Time from performance drop to manager awareness",
+     "baseline": "Up to ~14 days (fortnightly checks) – estimated",
+     "baseline_id": "DM-O02",
+     "target": "Under 24 h",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 5,
+    "ease": 5,
+    "priority": 75
+   },
+   "rank": 10,
+   "tag": "Quick win",
+   "anchor": "Performance visibility & margin",
+   "horizon": "This month",
+   "processes": [
+    "Performance monitoring & alerting",
+    "Paid media – optimisation",
+    "NEW: Platform compliance checks"
+   ],
+   "bias_flags": [
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": []
+  },
+  {
+   "id": "O-11",
+   "name": "Pacing tracker reads budgets and spend, flags gaps",
+   "fixes_clusters": [
+    "C-01",
+    "C-02",
+    "C-03",
+    "C-04",
+    "C-27"
+   ],
+   "fixes_pain_points": [
+    "MC-PP07",
+    "MP-PP01",
+    "MP-PP02",
+    "MP-PP17",
+    "SD-PP01",
+    "SD-PP02",
+    "SD-PP03",
+    "SD-PP19",
+    "SH-PP01",
+    "SH-PP02",
+    "SH-PP03",
+    "SH-PP04",
+    "SH-PP05",
+    "SH-PP10"
+   ],
+   "source_ids": [
+    "SD-O02",
+    "SH-O01",
+    "MP-O03",
+    "MC-O10",
+    "SH-O02"
+   ],
+   "lens": "Automate",
+   "change": "One budget master (Monday client item or budget sheet) syncs to the pacing sheet; account- and campaign-level spend is pulled for all channels; the tracker recommends daily budgets, flags mismatches and creates a Monday task for over/under-pace; Day 1 resets run from bulk sheets/scripts.",
+   "existing_solution": "Pacing tracker & adjustment engine",
+   "tool": "Google Ads scripts + Meta bulk edit, Make.com, Monday.com; Transpera would build the sync and recommendation logic.",
+   "hours_saved": [
+    9.8,
+    20.8
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SD-O02 3.9–7.2 + SH-O01 3.9–9.2 + MC-O10 2.0–4.5 = 9.8–20.8 h/month. Leadership estimate MP-O03 5.0–12.0 is team-wide and overlaps the staff figures – used as a cross-check only. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 50.1–101.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    784,
+    1666
+   ],
+   "dollars_working": "9.8–20.8 h × $80 = $784–$1,666/month. Same $10K overspend exposure (MP-PP01) – counted once, under the first pacing opportunity.",
+   "effort": "M",
+   "prerequisites": "O-01 restored first; budget master agreed; API access to all ad accounts; decision on who approves auto-recommendations.",
+   "adoption_risk": "M",
+   "adoption_note": "Automation beats augmentation here: the manual three-place entry has failed repeatedly (MP-PP01, SH-PP01, SD-PP02). Risk is false alerts eroding trust (SH-PP04).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on SD-O02, SH-O01, MP-O03, MC-O10, SH-O02).",
+   "kpis": [
+    {
+     "kpi": "Systems updated per budget change",
+     "baseline": "3",
+     "baseline_id": "SH-O01",
+     "target": "1",
+     "type": "leading"
+    },
+    {
+     "kpi": "Minutes per pacing adjustment",
+     "baseline": "15–20 min per account",
+     "baseline_id": "SD-O02",
+     "target": "≤ 5 min",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 3,
+    "priority": 75
+   },
+   "rank": 11,
+   "tag": "Strategic",
+   "anchor": "Performance visibility & margin",
+   "horizon": "Needs a build",
+   "processes": [
+    "Paid media – pacing & budget management"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "SD-B02",
+    "SH-B01",
+    "SH-B03"
+   ]
+  },
+  {
+   "id": "O-12",
+   "name": "Cross-account performance monitor with draft diagnosis (paid and SEO)",
+   "fixes_clusters": [
+    "C-04",
+    "C-05",
+    "C-15",
+    "C-16",
+    "C-17"
+   ],
+   "fixes_pain_points": [
+    "DM-PP02",
+    "LS-PP05",
+    "LS-PP15",
+    "MC-PP08",
+    "MC-PP09",
+    "MP-PP16",
+    "MP-PP17",
+    "MP-PP18",
+    "SD-PP04",
+    "SD-PP14",
+    "SH-PP11",
+    "SH-PP12",
+    "WS-PP04",
+    "ZC-PP05",
+    "ZC-PP17"
+   ],
+   "source_ids": [
+    "SD-O05",
+    "DM-O01",
+    "MC-O06",
+    "MP-O04",
+    "WS-O03",
+    "SH-O06",
+    "LS-O03",
+    "ZC-O03"
+   ],
+   "lens": "Automate",
+   "change": "One daily table across all paid accounts (spend, conversions, CPA/ROAS/CPL, frequency, pace vs per-client rules) and a weekly SEO digest (GA4, Search Console, Ahrefs ranking/traffic drops, tech issues, wins). Exceptions go to the account owner in Slack/Monday with change history, search terms and auction data attached as a draft diagnosis. Replaces the manual mid-month check.",
+   "existing_solution": "Proactive PPC anomaly monitor",
+   "tool": "AgencyAnalytics alerts and Looker Studio first; otherwise Make.com + platform APIs + Claude. Transpera would build the rules engine and diagnosis step.",
+   "hours_saved": [
+    11.5,
+    37.1
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SD-O05 1.6–4.5 + DM-O01 3.3–8.7 + MC-O06 1.8–5.9 + WS-O03 1.0–5.5 + SH-O06 0.2–2.3 + LS-O03 2.0–4.7 + ZC-O03 1.6–5.5 = 11.5–37.1 h/month. Leadership estimate MP-O04 10.0–41.0 is team-wide and overlaps the staff figures – used as a cross-check only. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 134.3–261.3 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    924,
+    2966
+   ],
+   "dollars_working": "11.5–37.1 h × $80 = $924–$2,966/month",
+   "effort": "M",
+   "prerequisites": "Native rules (above) live first to learn thresholds; per-client targets; API access; conversion-tracking baseline per form (C-09 contractor dependency).",
+   "adoption_risk": "M",
+   "adoption_note": "Alerts compete with ignored reminders (C-30, MP-PP05). Automation preferred over a checklist because manual checks are already skipped (ZC-O03 baseline \"sometimes skipped\").",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on SD-O05, DM-O01, MC-O06, MP-O04, WS-O03, SH-O06, LS-O03, ZC-O03).",
+   "kpis": [
+    {
+     "kpi": "Days from drop to detection",
+     "baseline": "Up to ~2 weeks / month-end",
+     "baseline_id": "SD-O05",
+     "target": "≤ 2 days",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Days from tracking break to detection",
+     "baseline": "up to ~7 days",
+     "baseline_id": "SH-O06",
+     "target": "≤ 1 day",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 3,
+    "priority": 75
+   },
+   "rank": 12,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "Needs a build",
+   "processes": [
+    "Performance monitoring & alerting",
+    "Paid media – optimisation",
+    "Monthly SEO delivery"
+   ],
+   "bias_flags": [
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "DM-B04",
+    "LS-S05",
+    "SD-B07",
+    "SH-B04",
+    "WS-S04"
+   ]
+  },
+  {
+   "id": "O-13",
+   "name": "AI per-client summary for reports, calls and data questions",
+   "fixes_clusters": [
+    "C-05",
+    "C-06",
+    "C-07",
+    "C-17",
+    "C-33"
+   ],
+   "fixes_pain_points": [
+    "DM-PP01",
+    "DM-PP04",
+    "DM-PP05",
+    "DM-PP10",
+    "DM-PP11",
+    "SD-PP05",
+    "SD-PP06",
+    "SD-PP13",
+    "SD-PP14",
+    "SH-PP09",
+    "SH-PP13",
+    "WS-PP03",
+    "WS-PP08"
+   ],
+   "source_ids": [
+    "DM-O05",
+    "SD-O06",
+    "SH-O05",
+    "DM-O08",
+    "WS-O04",
+    "SD-O10"
+   ],
+   "lens": "Augment",
+   "change": "Each month (and before each call or WIP) an AI draft per client pulls change history, month-on-month metrics across channels, last call actions and open items; it drafts the AgencyAnalytics commentary, the pre-call brief and the post-call follow-up for the manager to edit. Phase 2: a per-client data layer (Ads, Meta, GA4, CRM) managers can query in plain English.",
+   "existing_solution": "Client-call prep summaries; AI business brain (phase 2)",
+   "tool": "AgencyAnalytics + Claude Teams project per client first; phase 2 data warehouse/Looker + Claude. Transpera would build the data pull and prompts.",
+   "hours_saved": [
+    14.0,
+    39.6
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): DM-O05 4.8–11.8 + SD-O06 5.0–13.9 + SH-O05 1.3–6.7 + WS-O04 2.9–7.2 = 14.0–39.6 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 178.2–323.1 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    1120,
+    3171
+   ],
+   "dollars_working": "14.0–39.6 h × $80 = $1,120–$3,171/month",
+   "effort": "M",
+   "prerequisites": "Company Claude seats and AI-data rule (C-33); call recording on; read-only API access to platforms.",
+   "adoption_risk": "M",
+   "adoption_note": "Prep is a personal craft; one manager gave no prep time (SH-O05 risk H). Transcripts exist but are unused (X-21) – design so the draft arrives unasked.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on DM-O05, SD-O06, SH-O05, DM-O08, WS-O04, SD-O10).",
+   "kpis": [
+    {
+     "kpi": "Prep + follow-up minutes per call",
+     "baseline": "60–75 min per 30-min call",
+     "baseline_id": "SD-O06",
+     "target": "≤ 30–40 min",
+     "type": "leading"
+    },
+    {
+     "kpi": "Minutes per client on monthly commentary",
+     "baseline": "~30 min",
+     "baseline_id": "DM-O05",
+     "target": "≤12 min",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 3,
+    "priority": 75
+   },
+   "rank": 13,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "Needs a build",
+   "processes": [
+    "Client meetings & prep",
+    "Monthly reporting",
+    "NEW: Client email & ad hoc requests"
+   ],
+   "bias_flags": [
+    "C-07: COI: 'AI business brain' is Austin's own product idea (KO suggestions, interviewer-sourced).",
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "WS-S06"
+   ]
+  },
+  {
+   "id": "O-14",
+   "name": "AI-prefilled onboarding audit and Master SEO Document",
+   "fixes_clusters": [
+    "C-09",
+    "C-10",
+    "C-39"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP01",
+    "KZ-PP02",
+    "KZ-PP03",
+    "KZ-PP04",
+    "KZ-PP21",
+    "SD-PP09",
+    "SD-PP10",
+    "SD-PP11"
+   ],
+   "source_ids": [
+    "KZ-O01",
+    "SD-O07",
+    "KZ-O12",
+    "SB-O09"
+   ],
+   "lens": "Augment",
+   "change": "From the signed site and read-only access, AI (Claude + Ahrefs) pre-fills the Master SEO Document (URL/keyword map, draft metadata, competitors) and a first-pass paid account audit against the 30-item checklist; the strategist reviews. The same engine can produce prospect decks and a lead-magnet audit later.",
+   "existing_solution": "1-click audit (read-only access + AI audit)",
+   "tool": "Claude Teams + Ahrefs API; Google Ads read-only access. Transpera would build the engine.",
+   "hours_saved": [
+    5.1,
+    29.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O01 4.2–19.5 + SD-O07 0.9–9.4 + SB-O09 0.0–0.0 = 5.1–29.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 31.7–121.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    408,
+    2316
+   ],
+   "dollars_working": "5.1–29.0 h × $80 = $408–$2,316/month",
+   "effort": "M",
+   "prerequisites": "The existing Claude SEO-strategy prompt guide as the base (strength); read-only access at signing (O-08); AI-data rule.",
+   "adoption_risk": "M",
+   "adoption_note": "Builds on a prompt guide that already cut strategy from ~3 days to ~75–90 min (pack §5) – adoption precedent is good. COI: Austin offered his own client-research agent for dossiers.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KZ-O01, SD-O07, KZ-O12, SB-O09). Austin offered his own client-research agent for new-client dossiers (KO).",
+   "kpis": [
+    {
+     "kpi": "Strategist hours per onboarding",
+     "baseline": "unknown – 'takes a really long time' (L164)",
+     "baseline_id": "KZ-O01",
+     "target": "–50 to –67%",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Audit hours per onboarding",
+     "baseline": "unknown",
+     "baseline_id": "SD-O07",
+     "target": "-40%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 5,
+    "ease": 3,
+    "priority": 75
+   },
+   "rank": 14,
+   "tag": "Strategic",
+   "anchor": "Client experience & delivery",
+   "horizon": "Needs a build",
+   "processes": [
+    "Client onboarding – audit & strategy"
+   ],
+   "bias_flags": [
+    "C-10: COI: Austin offered his own client-research agent for new-client dossiers (KO suggestions, leadership's request)."
+   ],
+   "fixes_other": [
+    "KZ-B03",
+    "SB-S09",
+    "SD-B03"
+   ]
+  },
+  {
+   "id": "O-15",
+   "name": "Enter budgets once, log every change, written overspend policy",
+   "fixes_clusters": [
+    "C-01",
+    "C-30"
+   ],
+   "fixes_pain_points": [
+    "MP-PP01",
+    "MP-PP05",
+    "SD-PP02"
+   ],
+   "source_ids": [
+    "SD-O03",
+    "MP-O02"
+   ],
+   "lens": "Change the process",
+   "change": "Allocations are typed once in the recommendations sheet and the pacing sheet reads from it; every budget change goes in one log the same day and is checked at WIP; a written overspend-credit policy says who pays and when.",
+   "existing_solution": "Pacing tracker & adjustment engine (process step) / New (policy)",
+   "tool": "Google Sheets formulas; Monday.com WIP item. No build.",
+   "hours_saved": [
+    0.8,
+    3.6
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SD-O03 0.3–0.6 + MP-O02 0.5–3.0 = 0.8–3.6 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 50.1–101.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    64,
+    286
+   ],
+   "dollars_working": "0.8–3.6 h × $80 = $64–$286/month. Protects against repeats of the $10K overspend credit (MP-PP01, stated).",
+   "effort": "S",
+   "prerequisites": "Agree which sheet is the source; leadership signs the overspend policy.",
+   "adoption_risk": "M",
+   "adoption_note": "Relies on people updating one log the same day – the same behaviour that failed before (MP-PP01, budgets not entered). Pair with O-11 to remove the manual step.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Places budgets hand-keyed",
+     "baseline": "3",
+     "baseline_id": "SD-O03",
+     "target": "2 (then 1 with O02)",
+     "type": "leading"
+    },
+    {
+     "kpi": "Overspend incidents per month",
+     "baseline": "~0.5–1 (estimated)",
+     "baseline_id": "MP-O02",
+     "target": "0",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 4,
+    "ease": 4,
+    "priority": 64
+   },
+   "rank": 15,
+   "tag": "Quick win",
+   "anchor": "Performance visibility & margin",
+   "horizon": "This month",
+   "processes": [
+    "Paid media – pacing & budget management"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "MP-B03"
+   ]
+  },
+  {
+   "id": "O-16",
+   "name": "Own and verify automations: register, backup admin, reconciliation",
+   "fixes_clusters": [
+    "C-30",
+    "C-31",
+    "C-32",
+    "C-35"
+   ],
+   "fixes_pain_points": [
+    "KO-PP11",
+    "KO-PP12",
+    "KO-PP13",
+    "SB-PP06",
+    "SB-PP11",
+    "TG-PP09"
+   ],
+   "source_ids": [
+    "SB-O04",
+    "TG-O07",
+    "KO-O06",
+    "KO-O07"
+   ],
+   "lens": "People & policy",
+   "change": "Register every Make scenario, bot, Apps Script and extension (purpose, owner, backup, location); name and train a second Monday/Make admin; run a 1st-of-month check that tickets in HubSpot and tasks in Monday match each client's scope; decide keep/trim/replace on HubSpot and Monday before the renewal.",
+   "existing_solution": "New (fixes \"Slack bots and agents have no visible owner\")",
+   "tool": "Notion register; HubSpot/Monday reports. No build.",
+   "hours_saved": [
+    1,
+    4
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SB-O04 1.0–3.0 + TG-O07 0.0–1.0 + KO-O06 0.0–0.0 = 1.0–4.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 66.9–123.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    80,
+    320
+   ],
+   "dollars_working": "1.0–4.0 h × $80 = $80–$320/month. Possible licence saving from the HubSpot/Monday decision – not quoted until invoices are checked (X-31).",
+   "effort": "S",
+   "prerequisites": "Time from the builders to document; renewal date.",
+   "adoption_risk": "L",
+   "adoption_note": "Mostly documentation; the pacing bot already broke unnoticed (pack §2).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KO-O06, KO-O07).",
+   "kpis": [
+    {
+     "kpi": "Make scenarios with written documentation",
+     "baseline": "unknown (assume 0)",
+     "baseline_id": "SB-O04",
+     "target": "100%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Clients whose monthly task set matches scope",
+     "baseline": "Unknown",
+     "baseline_id": "KO-O06",
+     "target": "100% each month, with alerts for gaps",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 5,
+    "priority": 60
+   },
+   "rank": 16,
+   "tag": "Quick win",
+   "anchor": "Technology, AI & stack",
+   "horizon": "This month",
+   "processes": [
+    "Internal task management",
+    "Sales to delivery handover"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "KO-B06"
+   ]
+  },
+  {
+   "id": "O-17",
+   "name": "Cap concurrent onboardings per manager; protect BAU time",
+   "fixes_clusters": [
+    "C-09",
+    "C-10",
+    "C-17",
+    "C-18",
+    "C-19",
+    "C-20"
+   ],
+   "fixes_pain_points": [
+    "KO-PP08",
+    "KO-PP09",
+    "KZ-PP02",
+    "KZ-PP05",
+    "KZ-PP22",
+    "KZ-PP23",
+    "MC-PP01",
+    "MC-PP09",
+    "MC-PP12",
+    "SD-PP07",
+    "SD-PP10",
+    "ZC-PP02",
+    "ZC-PP08"
+   ],
+   "source_ids": [
+    "KO-O15",
+    "KZ-O07",
+    "ZC-O06",
+    "SD-O08",
+    "MC-O08"
+   ],
+   "lens": "People & policy",
+   "change": "Maximum two concurrent onboardings per manager with an allocation rule; pool month-1 keyword research above the cap; when a specialist onboards, cap team implementation that week; send access requests with the contract to start the clock earlier.",
+   "existing_solution": "New",
+   "tool": "Monday.com workload view. No build.",
+   "hours_saved": [
+    0.0,
+    5.2
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O15 0.0–0.0 + KZ-O07 0.0–0.0 + ZC-O06 0.0–2.0 + SD-O08 0.0–1.6 + MC-O08 0.0–1.6 = 0.0–5.2 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 31.7–121.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    0,
+    418
+   ],
+   "dollars_working": "0.0–5.2 h × $80 = $0–$418/month",
+   "effort": "S",
+   "prerequisites": "Leadership agrees the cap and what happens to sales start dates.",
+   "adoption_risk": "M",
+   "adoption_note": "Conflicts with sales timing (C-38) – needs leadership to hold the line.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Concurrent onboardings per manager",
+     "baseline": "Up to 5 sites in a month (L164)",
+     "baseline_id": "KZ-O07",
+     "target": "≤ 2",
+     "type": "leading"
+    },
+    {
+     "kpi": "Days from signing to fully onboarded",
+     "baseline": "About 1 month",
+     "baseline_id": "KO-O15",
+     "target": "Under 21 days",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 5,
+    "ease": 4,
+    "priority": 60
+   },
+   "rank": 17,
+   "tag": "Quick win",
+   "anchor": "Operations capacity & process",
+   "horizon": "This month",
+   "processes": [
+    "Client onboarding – audit & strategy"
+   ],
+   "bias_flags": [
+    "C-10: COI: Austin offered his own client-research agent for new-client dossiers (KO suggestions, leadership's request).",
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "KO-B03",
+    "KO-B04"
+   ]
+  },
+  {
+   "id": "O-18",
+   "name": "One link record: standard order template, auto-sync, invoice run",
+   "fixes_clusters": [
+    "C-23",
+    "C-24",
+    "C-32"
+   ],
+   "fixes_pain_points": [
+    "KO-PP16",
+    "KZ-PP08",
+    "MP-PP14",
+    "MP-PP15",
+    "TG-PP05",
+    "TG-PP06",
+    "TG-PP07",
+    "TG-PP09",
+    "TG-PP10"
+   ],
+   "source_ids": [
+    "TG-O03",
+    "TG-O02",
+    "MP-O06",
+    "KO-O08",
+    "KZ-O13"
+   ],
+   "lens": "Change the process",
+   "change": "One standard order template with fixed order IDs; external publishers see a filtered view of one Aperitif-owned order sheet; a publisher's completed-link entry triggers copy to the master sheet and Monday.com via one owned automation; outreachers invoice against link IDs on a form and payment runs weekly in one approval pass. A link-building CRM only if the sheet route fails.",
+   "existing_solution": "Link-building CRM with live-link monitoring and invoice follow-up",
+   "tool": "Google Sheets + Apps Script/Make.com + Monday.com first; CRM would be a Transpera build.",
+   "hours_saved": [
+    6.0,
+    26.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): TG-O02 5.6–24.0 + KZ-O13 0.4–2.0 = 6.0–26.0 h/month. Leadership estimate MP-O06 4.0–9.0 is team-wide and overlaps the staff figures – used as a cross-check only. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 55.4–175.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    480,
+    2079
+   ],
+   "dollars_working": "6.0–26.0 h × $80 = $480–$2,079/month",
+   "effort": "M",
+   "prerequisites": "Agree the master sheet; document existing home-built scripts (C-32).",
+   "adoption_risk": "M",
+   "adoption_note": "Seven-plus sheets used by external publishers; change must not slow supply. COI: Austin offered to build a link CRM with leadership.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on TG-O02, MP-O06, KO-O08). Austin offered to build a link-building CRM/monitor with leadership (KO).",
+   "kpis": [
+    {
+     "kpi": "Published links re-keyed by hand",
+     "baseline": "All 300–340 a month",
+     "baseline_id": "TG-O02",
+     "target": "0",
+     "type": "leading"
+    },
+    {
+     "kpi": "Order-number mismatches per month",
+     "baseline": "'sometimes'",
+     "baseline_id": "TG-O03",
+     "target": "0",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 5,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 60
+   },
+   "rank": 18,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "This quarter",
+   "processes": [
+    "Link building – sourcing & ordering",
+    "Link building – QA & live checks",
+    "Link building – outreacher invoicing"
+   ],
+   "bias_flags": [
+    "C-23: COI: Austin offered to build a link-building CRM/link monitor with leadership ('maybe we can do something together', KO suggestions)."
+   ],
+   "fixes_other": [
+    "TG-B04"
+   ]
+  },
+  {
+   "id": "O-19",
+   "name": "Effort model: hours per client, load triggers, rebalanced books",
+   "fixes_clusters": [
+    "C-17",
+    "C-18",
+    "C-19",
+    "C-35",
+    "C-37"
+   ],
+   "fixes_pain_points": [
+    "KO-PP07",
+    "KO-PP26",
+    "LS-PP01",
+    "LS-PP02",
+    "MP-PP07",
+    "MP-PP18",
+    "MP-PP19",
+    "SB-PP13",
+    "SB-PP15",
+    "WS-PP01",
+    "WS-PP11"
+   ],
+   "source_ids": [
+    "KO-O03",
+    "MP-O13",
+    "LS-O06",
+    "WS-O08",
+    "SB-O08"
+   ],
+   "lens": "Change the process",
+   "change": "Use hours already allocated on monthly HubSpot/Monday tickets to compare allocated vs actual effort per client and per role (no timesheets); set client-load triggers per role for hiring; rebalance the two most overloaded senior books (move smaller clients and ~8 paid channels to senior managers).",
+   "existing_solution": "Sales wiki / spend calculator (partial) / New",
+   "tool": "HubSpot + Monday.com reporting; Google Sheets model. No build.",
+   "hours_saved": [
+    0.0,
+    0.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O03 0.0–0.0 + LS-O06 8.5–16.7 + WS-O08 8.7–12.7 + SB-O08 0.0–0.0 = 0.0–0.0 h/month. High ends of capped people scaled by their 160 h cap ratio. These 17.2–29.4 h are senior hours freed by moving work to others – redistributed, not saved agency-wide, so saving is shown as 0. Process hours available: 191.0–300.8 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    0,
+    0
+   ],
+   "dollars_working": "0.0–0.0 h × $80 = $0–$0/month",
+   "effort": "M",
+   "prerequisites": "Agreed hours per client tier from the price calculator; leadership decision on reassignments.",
+   "adoption_risk": "H",
+   "adoption_note": "Effort tracking has never existed (\"a bit of a feel\", KZ-O07); reassigning accounts touches client relationships.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Clients with allocated hours vs revenue shown (margin per client)",
+     "baseline": "0% – no timesheets or utilisation tracking",
+     "baseline_id": "KO-O03",
+     "target": "All tier-1 and tier-2 clients within one quarter",
+     "type": "leading"
+    },
+    {
+     "kpi": "Channels managed by the Director",
+     "baseline": "18",
+     "baseline_id": "WS-O08",
+     "target": "≤ 10",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 5,
+    "ease": 3,
+    "priority": 60
+   },
+   "rank": 19,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "This quarter",
+   "processes": [
+    "NEW: Team management, coaching & oversight",
+    "Monthly SEO delivery",
+    "Paid media – optimisation"
+   ],
+   "bias_flags": [
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "LS-B03",
+    "LS-S14"
+   ]
+  },
+  {
+   "id": "O-20",
+   "name": "Widen link supply: shared vetting skill, client matching, mentions",
+   "fixes_clusters": [
+    "C-23",
+    "C-24"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP06",
+    "KZ-PP07",
+    "KZ-PP08",
+    "KZ-PP09",
+    "LS-PP12",
+    "TG-PP01",
+    "TG-PP02",
+    "TG-PP04",
+    "TG-PP08",
+    "ZC-PP16"
+   ],
+   "source_ids": [
+    "KZ-O03",
+    "TG-O01",
+    "TG-O06",
+    "TG-O04",
+    "LS-O09",
+    "ZC-O09"
+   ],
+   "lens": "Augment",
+   "change": "One shared, versioned lead-review skill built from the link-building team's criteria and tested on past decisions; outreachers and broker intake run it before submitting, and only borderline domains go for human review; a client requirements table lets Claude suggest the best client per approved domain; review link quotas (fewer, higher-quality links); unlinked brand-mention outreach for Tier 1/2.",
+   "existing_solution": "Link-building CRM (part) / Unlinked brand-mention outreach",
+   "tool": "Claude Teams skill + Ahrefs; Google Forms intake; brand-mention monitor (Ahrefs Alerts). Transpera optional.",
+   "hours_saved": [
+    5.0,
+    19.5
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O03 2.0–5.3 + TG-O04 3.0–14.2 + LS-O09 0.0–0.0 + ZC-O09 0.0–0.0 = 5.0–19.5 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 43.3–135.9 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    400,
+    1560
+   ],
+   "dollars_working": "5.0–19.5 h × $80 = $400–$1,560/month",
+   "effort": "M",
+   "prerequisites": "Criteria written down by the link-building team; past approve/decline data.",
+   "adoption_risk": "M",
+   "adoption_note": "AI vetting today is inconsistent between people (C-24) – a versioned shared skill is the fix, but needs calibration.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on TG-O01, TG-O06, TG-O04, ZC-O09).",
+   "kpis": [
+    {
+     "kpi": "% of skill-approved leads Karl approves",
+     "baseline": "50%",
+     "baseline_id": "TG-O01",
+     "target": "≥ 85%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Days from domain added to KZ decision",
+     "baseline": "'a couple of days' (L132)",
+     "baseline_id": "KZ-O03",
+     "target": "≤ 1 working day",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 5,
+    "ease": 3,
+    "priority": 60
+   },
+   "rank": 20,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "This quarter",
+   "processes": [
+    "Link building – sourcing & ordering"
+   ],
+   "bias_flags": [
+    "C-23: COI: Austin offered to build a link-building CRM/link monitor with leadership ('maybe we can do something together', KO suggestions)."
+   ],
+   "fixes_other": [
+    "KZ-B01",
+    "LS-B02",
+    "LS-S08",
+    "TG-B01",
+    "TG-B02",
+    "TG-B05"
+   ]
+  },
+  {
+   "id": "O-21",
+   "name": "Delegation and triage rules for escalations and sign-offs",
+   "fixes_clusters": [
+    "C-17",
+    "C-35",
+    "C-36",
+    "C-37",
+    "C-39"
+   ],
+   "fixes_pain_points": [
+    "KO-PP02",
+    "KO-PP03",
+    "KO-PP17",
+    "MP-PP08",
+    "MP-PP09",
+    "WS-PP01",
+    "WS-PP09",
+    "WS-PP10"
+   ],
+   "source_ids": [
+    "MP-O09",
+    "WS-O07",
+    "KO-O05",
+    "KO-O04"
+   ],
+   "lens": "People & policy",
+   "change": "Escalation playbook (department lead first, leadership on defined triggers); triage SOP → senior manager → director; senior managers sign off experienced managers' strategies; standard SME contracts under a set value signed without the founder; bookkeeper prepares AP/payroll batches for approval only; a named second relationship owner for each Tier 1 account.",
+   "existing_solution": "New (fixes \"escalations route around department leads\")",
+   "tool": "Notion playbook; Xero bill approvals. No build.",
+   "hours_saved": [
+    5.3,
+    15.7
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MP-O09 2.0–8.0 + WS-O07 3.3–7.7 = 5.3–15.7 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 80.8–110.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    424,
+    1253
+   ],
+   "dollars_working": "5.3–15.7 h × $80 = $424–$1,253/month",
+   "effort": "S",
+   "prerequisites": "Leadership agrees thresholds; coaching for department leads.",
+   "adoption_risk": "M",
+   "adoption_note": "Habit of going to the top is entrenched (C-36); needs leadership to redirect consistently.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "% escalations handled by department leads",
+     "baseline": "Low",
+     "baseline_id": "MP-O09",
+     "target": "≥50%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Contracts signed without the Founder",
+     "baseline": "0% – Joe signs every contract",
+     "baseline_id": "KO-O05",
+     "target": "Standard SME deals signed without him",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 21,
+   "tag": "Quick win",
+   "anchor": "Leadership & dependency",
+   "horizon": "This month",
+   "processes": [
+    "Client escalation",
+    "NEW: Team management, coaching & oversight",
+    "Finance & billing"
+   ],
+   "bias_flags": [
+    "C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "fixes_other": [
+    "KO-B01",
+    "KO-B05",
+    "MP-B01",
+    "WS-B01",
+    "WS-B05"
+   ]
+  },
+  {
+   "id": "O-22",
+   "name": "Sales discipline: calculator, margin check, speed-to-lead",
+   "fixes_clusters": [
+    "C-24",
+    "C-29",
+    "C-38",
+    "C-39"
+   ],
+   "fixes_pain_points": [
+    "KO-PP17",
+    "KO-PP18",
+    "KO-PP19",
+    "KO-PP23",
+    "KO-PP24",
+    "KO-PP25",
+    "MP-PP10",
+    "MP-PP11",
+    "MP-PP12",
+    "TG-PP03"
+   ],
+   "source_ids": [
+    "MP-O07",
+    "TG-O05",
+    "KO-O11",
+    "KO-O12"
+   ],
+   "lens": "Change the process",
+   "change": "Price-calculator output mandatory in every proposal and a delivery-lead margin check above a scope threshold; price links by lead tier (premium for dynamic clients); HubSpot speed-to-lead alert (no call in 5 minutes), objections library and loss-reason field; pilot two or three new offers with written margins.",
+   "existing_solution": "Sales wiki / spend calculator",
+   "tool": "HubSpot workflows and required properties; existing price calculator. No build.",
+   "hours_saved": [
+    1,
+    4
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MP-O07 1.0–4.0 + TG-O05 0.0–0.0 = 1.0–4.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 3.0–11.8 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    80,
+    320
+   ],
+   "dollars_working": "1.0–4.0 h × $80 = $80–$320/month. Link margin leak on dynamic clients – not quantified (TG-O05).",
+   "effort": "S",
+   "prerequisites": "Calculator margin maths fixed first (R26 – margin maths wrong); sales lead buy-in.",
+   "adoption_risk": "M",
+   "adoption_note": "Sales is new and the interview was not recorded – evidence is leadership-only plus delivery staff (C-38).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KO-O11).",
+   "kpis": [
+    {
+     "kpi": "% proposals with calculator output",
+     "baseline": "unknown",
+     "baseline_id": "MP-O07",
+     "target": "100%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Leads called within 5 minutes",
+     "baseline": "Unknown",
+     "baseline_id": "KO-O11",
+     "target": "At least 80%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 22,
+   "tag": "Quick win",
+   "anchor": "Growth & sales engine",
+   "horizon": "This month",
+   "processes": [
+    "Sales – lead to proposal",
+    "Sales – proposal to signed"
+   ],
+   "bias_flags": [
+    "C-38: Bias: interviewer raised the sales-overcommit problem first (MP-PP10); leadership agreed strongly."
+   ],
+   "fixes_other": [
+    "KO-B01",
+    "MP-B02",
+    "TG-B03"
+   ]
+  },
+  {
+   "id": "O-23",
+   "name": "\"Problem plus recommendation\" rule in reports and calls",
+   "fixes_clusters": [
+    "C-16"
+   ],
+   "fixes_pain_points": [
+    "KO-PP20",
+    "LS-PP08",
+    "LS-PP09"
+   ],
+   "source_ids": [
+    "KO-O13",
+    "LS-O07"
+   ],
+   "lens": "People & policy",
+   "change": "Every client update and monthly report states the problem and a recommendation; add an \"opportunities\" step to call prep and 6-month reviews with an upsell template and short coaching in WIPs.",
+   "existing_solution": "Client-call prep summaries (partial) / New",
+   "tool": "Report template in AgencyAnalytics; WIP agenda. No build.",
+   "hours_saved": [
+    0,
+    0.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O13 0.0–0.0 + LS-O07 0.0–0.0 = 0.0–0.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 143.9–252.6 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    0,
+    0
+   ],
+   "dollars_working": "0.0–0.0 h × $80 = $0–$0/month. Expansion MRR not baselined (LS-O07).",
+   "effort": "S",
+   "prerequisites": "Template; leadership coaching time.",
+   "adoption_risk": "M",
+   "adoption_note": "Behaviour change across ~12 account managers; earlier SOPs went unread (C-35).",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Monthly reports with an explicit recommendation",
+     "baseline": "Unknown",
+     "baseline_id": "KO-O13",
+     "target": "100% of tier-1 reports",
+     "type": "leading"
+    },
+    {
+     "kpi": "Upsell/cross-sell proposals raised per month",
+     "baseline": "Unknown (\"a few\")",
+     "baseline_id": "LS-O07",
+     "target": "Set after baseline count",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 23,
+   "tag": "Quick win",
+   "anchor": "Client experience & delivery",
+   "horizon": "This month",
+   "processes": [
+    "Monthly reporting",
+    "Client meetings & prep"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "LS-S09"
+   ]
+  },
+  {
+   "id": "O-24",
+   "name": "Client approval SLAs with logged dates and reminders",
+   "fixes_clusters": [
+    "C-11",
+    "C-14"
+   ],
+   "fixes_pain_points": [
+    "DM-PP06",
+    "DM-PP07",
+    "LS-PP06",
+    "LS-PP07",
+    "LS-PP17",
+    "ZC-PP06"
+   ],
+   "source_ids": [
+    "LS-O04",
+    "ZC-O04",
+    "DM-O07",
+    "LS-O05"
+   ],
+   "lens": "Change the process",
+   "change": "Log sent and approved dates for every client approval; approval window in the client agreement (e.g. 5 business days, deemed approved for low-risk content; 2 days for paid optimisations under a \"change authority\" clause) with automatic reminders on day 3 and 5 and a stalled-client flag. A client portal (phase 2) only if SLAs do not move the numbers.",
+   "existing_solution": "Client approval portal (lightweight version first)",
+   "tool": "Monday.com date columns and automations; contract template. Portal would be a Transpera build.",
+   "hours_saved": [
+    2.6,
+    8.7
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): LS-O05 2.0–4.7 + ZC-O04 0.3–2.5 + DM-O07 0.3–1.5 = 2.6–8.7 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 85.0–195.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    208,
+    695
+   ],
+   "dollars_working": "2.6–8.7 h × $80 = $208–$695/month",
+   "effort": "S",
+   "prerequisites": "Contract wording change; account managers willing to enforce.",
+   "adoption_risk": "M",
+   "adoption_note": "Client-facing change; managers carry the blame for delays today (C-14).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on LS-O05).",
+   "kpis": [
+    {
+     "kpi": "Days from content sent to approval",
+     "baseline": "~7 days average",
+     "baseline_id": "ZC-O04",
+     "target": "≤ 4 business days",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Median approval turnaround for optimisations",
+     "baseline": "unknown",
+     "baseline_id": "DM-O07",
+     "target": "≤2 business days",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 4,
+    "priority": 48
+   },
+   "rank": 24,
+   "tag": "Quick win",
+   "anchor": "Client experience & delivery",
+   "horizon": "This month",
+   "processes": [
+    "Client content approval",
+    "Paid media – optimisation"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "DM-B01",
+    "DM-B04",
+    "DM-B05",
+    "LS-B01",
+    "LS-S06",
+    "LS-S07",
+    "LS-S11",
+    "ZC-B01"
+   ]
+  },
+  {
+   "id": "O-25",
+   "name": "Content intake on Monday with brief standard and slots",
+   "fixes_clusters": [
+    "C-07",
+    "C-18",
+    "C-21",
+    "C-22",
+    "C-32"
+   ],
+   "fixes_pain_points": [
+    "HT-PP01",
+    "HT-PP02",
+    "HT-PP05",
+    "HT-PP06",
+    "SJ-PP01",
+    "SJ-PP02",
+    "SJ-PP03",
+    "SJ-PP04",
+    "SJ-PP05",
+    "SJ-PP06",
+    "SJ-PP08",
+    "SJ-PP09",
+    "SJ-PP10",
+    "SJ-PP11",
+    "SJ-PP12",
+    "SJ-PP14"
+   ],
+   "source_ids": [
+    "SJ-O01",
+    "SJ-O02",
+    "SJ-O04",
+    "SJ-O05",
+    "SJ-O07",
+    "HT-O03",
+    "HT-O04",
+    "HT-O05"
+   ],
+   "lens": "Change the process",
+   "change": "One brief intake route in Monday.com with a minimum brief standard (context, prior feedback, sources, compliance, due date); rule-based assignment confirmed by the content team with alerts; freelancers on their own boards with guest access; late briefs roll to a defined slot; staggered freelancer due dates; the out-of-cycle client gets a reserved allowance and cut-off; edited files auto-filed and the tracker sheet linked until retired.",
+   "existing_solution": "New (fixes \"content tracker and link sheets live outside Monday\")",
+   "tool": "Monday.com forms, automations, guest access; Make.com for Drive filing. No Transpera build.",
+   "hours_saved": [
+    4.8,
+    20.1
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SJ-O01 3.8–16.1 + HT-O04 1.0–4.0 = 4.8–20.1 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 219.0–405.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    384,
+    1607
+   ],
+   "dollars_working": "4.8–20.1 h × $80 = $384–$1,607/month",
+   "effort": "M",
+   "prerequisites": "Monday seats for freelancers; owner other than the technical SEO specialist (C-32).",
+   "adoption_risk": "M",
+   "adoption_note": "Monday is already underused for content (C-30); the freelancer step is new behaviour.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on HT-O03).",
+   "kpis": [
+    {
+     "kpi": "% of briefs submitted through the single intake",
+     "baseline": "0% – sheet, email and tags",
+     "baseline_id": "SJ-O01",
+     "target": "100%",
+     "type": "leading"
+    },
+    {
+     "kpi": "% of briefs in by end of week 1",
+     "baseline": "unknown",
+     "baseline_id": "SJ-O04",
+     "target": "≥ 90%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 48
+   },
+   "rank": 25,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "This quarter",
+   "processes": [
+    "Content briefing",
+    "Content writing & editing",
+    "Internal task management"
+   ],
+   "bias_flags": [
+    "C-07: COI: 'AI business brain' is Austin's own product idea (KO suggestions, interviewer-sourced)."
+   ],
+   "fixes_other": [
+    "HT-B01",
+    "HT-B02",
+    "HT-B04",
+    "SJ-B01",
+    "SJ-B02",
+    "SJ-B03",
+    "SJ-B04"
+   ]
+  },
+  {
+   "id": "O-26",
+   "name": "Spread editing: checklist, trained backup editors, junior writer",
+   "fixes_clusters": [
+    "C-18",
+    "C-22"
+   ],
+   "fixes_pain_points": [
+    "HT-PP01",
+    "HT-PP03",
+    "HT-PP07",
+    "SJ-PP05",
+    "SJ-PP13"
+   ],
+   "source_ids": [
+    "SJ-O06",
+    "HT-O02"
+   ],
+   "lens": "People & policy",
+   "change": "Written editing checklist and style guide; content specialists and contracted freelancers trained to self- and peer-edit; named backup for each Tier 1/2 content client; finish the junior writer hire and shift overflow from freelancers.",
+   "existing_solution": "Team wiki / L&D",
+   "tool": "Hire; Notion style guide. No build.",
+   "hours_saved": [
+    0,
+    7.2
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SJ-O06 0.0–0.0 + HT-O02 0.0–7.2 = 0.0–7.2 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 106.5–181.8 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    0,
+    577
+   ],
+   "dollars_working": "0.0–7.2 h × $80 = $0–$577/month. Possible contractor saving if overflow moves in-house: target −20–30% of ~$14k/month (HT-O02, assumed) – not added to the $ total.",
+   "effort": "M",
+   "prerequisites": "Hire approved; style guide written by the content team.",
+   "adoption_risk": "M",
+   "adoption_note": "Depends on the content team finding time to write the guide while at capacity (C-22).",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Share of freelancer pieces edited by someone other than Sarah",
+     "baseline": "unknown – two editors today",
+     "baseline_id": "SJ-O06",
+     "target": "≥ 50%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Contractor spend per month",
+     "baseline": "~$14k/month (context pack)",
+     "baseline_id": "HT-O02",
+     "target": "-20–30%",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 3,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 26,
+   "tag": "Strategic",
+   "anchor": "Operations capacity & process",
+   "horizon": "This quarter",
+   "processes": [
+    "Content writing & editing"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "SJ-B03"
+   ]
+  },
+  {
+   "id": "O-27",
+   "name": "AI business brain over client records and SOPs",
+   "fixes_clusters": [
+    "C-04",
+    "C-07",
+    "C-30",
+    "C-33",
+    "C-35"
+   ],
+   "fixes_pain_points": [
+    "KO-PP10",
+    "KO-PP14",
+    "KO-PP15",
+    "MP-PP04",
+    "MP-PP06",
+    "MP-PP17",
+    "MP-PP20"
+   ],
+   "source_ids": [
+    "MP-O10",
+    "KO-O09"
+   ],
+   "lens": "Augment",
+   "change": "Once client records and live SOPs exist, connect them (plus transcripts, email and ad change logs) to the existing Slack assistant so staff ask it first and leadership gets a per-client pulse and Tier 1 summary.",
+   "existing_solution": "AI business brain",
+   "tool": "OpenClaw or Claude Teams over Notion/Monday/Drive; Transpera would build.",
+   "hours_saved": [
+    1,
+    4
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MP-O10 1.0–4.0 = 1.0–4.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 120.1–216.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    80,
+    320
+   ],
+   "dollars_working": "1.0–4.0 h × $80 = $80–$320/month",
+   "effort": "L",
+   "prerequisites": "O-04 and O-33 done first; owner per Notion section; AI-data rule.",
+   "adoption_risk": "M",
+   "adoption_note": "Near-zero weekly use of the current Slack assistant (KO-O09 baseline); wiki 43% stale (pack §7).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on MP-O10, KO-O09). \"AI business brain\" is Austin's own product idea (KO suggestions).",
+   "kpis": [
+    {
+     "kpi": "Weekly staff using the Slack assistant",
+     "baseline": "About zero",
+     "baseline_id": "KO-O09",
+     "target": "At least half of staff weekly in 90 days",
+     "type": "leading"
+    },
+    {
+     "kpi": "% client calls with transcript summary filed",
+     "baseline": "~0",
+     "baseline_id": "MP-O10",
+     "target": "≥90%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 27,
+   "tag": "Consider",
+   "anchor": "Technology, AI & stack",
+   "horizon": "Needs a build",
+   "processes": [
+    "Knowledge & SOPs",
+    "Client meetings & prep"
+   ],
+   "bias_flags": [
+    "C-07: COI: 'AI business brain' is Austin's own product idea (KO suggestions, interviewer-sourced)."
+   ],
+   "fixes_other": []
+  },
+  {
+   "id": "O-28",
+   "name": "Seasonal, trending and competitor content radar",
+   "fixes_clusters": [
+    "C-15"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP19",
+    "KZ-PP20",
+    "ZC-PP09",
+    "ZC-PP15",
+    "ZC-PP17"
+   ],
+   "source_ids": [
+    "KZ-O08",
+    "ZC-O07",
+    "ZC-O12"
+   ],
+   "lens": "Automate",
+   "change": "Scheduled Google Trends pull and events calendar per client niche, plus a competitor sitemap watch, posting suggested topics 2–3 months before peaks to the strategist.",
+   "existing_solution": "Seasonal & trending content radar",
+   "tool": "Google Trends + Make.com + Claude; Visualping for competitors. Transpera build likely.",
+   "hours_saved": [
+    2.2,
+    7.0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O08 1.9–5.5 + ZC-O07 0.3–1.5 = 2.2–7.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 135.8–277.6 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    176,
+    556
+   ],
+   "dollars_working": "2.2–7.0 h × $80 = $176–$556/month",
+   "effort": "M",
+   "prerequisites": "Topic lists per client; owner who acts on the feed.",
+   "adoption_risk": "M",
+   "adoption_note": "Another feed to read – adoption risk as with reminders (C-30).",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KZ-O08, ZC-O07, ZC-O12).",
+   "kpis": [
+    {
+     "kpi": "Seasonal / trend pieces live 4+ weeks before peak",
+     "baseline": "Peaks reached too late",
+     "baseline_id": "ZC-O07",
+     "target": "≥ 80%",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Major events with content published in time",
+     "baseline": "Missed World Series (L443)",
+     "baseline_id": "KZ-O08",
+     "target": "≥ 80% of calendar events",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 28,
+   "tag": "Consider",
+   "anchor": "Growth & sales engine",
+   "horizon": "Needs a build",
+   "processes": [
+    "Monthly SEO delivery",
+    "Content briefing",
+    "NEW: Client email & ad hoc requests"
+   ],
+   "bias_flags": [],
+   "fixes_other": []
+  },
+  {
+   "id": "O-29",
+   "name": "AI inbox triage and daily brief across Gmail, Slack, Monday",
+   "fixes_clusters": [
+    "C-30"
+   ],
+   "fixes_pain_points": [
+    "SB-PP01",
+    "SB-PP02",
+    "SB-PP05",
+    "SB-PP06"
+   ],
+   "source_ids": [
+    "SB-O02"
+   ],
+   "lens": "Augment",
+   "change": "AI labels and summarises email and Slack each morning, proposes one-click Monday tasks, and admin notifications move to a digest.",
+   "existing_solution": "AI business brain (partial)",
+   "tool": "Gmail/Gemini or Claude with Gmail; Monday.com. Transpera build optional.",
+   "hours_saved": [
+    6,
+    11
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SB-O02 6.0–11.0 = 6.0–11.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 64.5–109.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    480,
+    880
+   ],
+   "dollars_working": "6.0–11.0 h × $80 = $480–$880/month",
+   "effort": "M",
+   "prerequisites": "AI-data rule; Gmail admin approval.",
+   "adoption_risk": "M",
+   "adoption_note": "Single raiser; personal workflow change.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on SB-O02).",
+   "kpis": [
+    {
+     "kpi": "Minutes per day in inbox",
+     "baseline": "~60 min",
+     "baseline_id": "SB-O02",
+     "target": "≤30 min",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 4,
+    "ease": 3,
+    "priority": 36
+   },
+   "rank": 29,
+   "tag": "Consider",
+   "anchor": "Technology, AI & stack",
+   "horizon": "This quarter",
+   "processes": [
+    "Internal task management"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "SB-B03"
+   ]
+  },
+  {
+   "id": "O-30",
+   "name": "Client files and logins in company-owned shared locations",
+   "fixes_clusters": [
+    "C-34"
+   ],
+   "fixes_pain_points": [
+    "SB-PP09",
+    "SH-PP08"
+   ],
+   "source_ids": [
+    "SH-O08",
+    "SB-O07"
+   ],
+   "lens": "Change the process",
+   "change": "Standard client folder structure in the shared Drive linked from each Monday client item; move files off personal drives; finish the LastPass migration and link each vault entry from the client item.",
+   "existing_solution": "New (fixes \"client work files owned by individual staff accounts\")",
+   "tool": "Google Shared Drives, LastPass, Monday.com. No build.",
+   "hours_saved": [
+    1.2,
+    4.3
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): SH-O08 0.5–1.0 + SB-O07 0.7–3.3 = 1.2–4.3 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 15.4–28.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    96,
+    344
+   ],
+   "dollars_working": "1.2–4.3 h × $80 = $96–$344/month",
+   "effort": "S",
+   "prerequisites": "Shared Drive admin; owner for the migration.",
+   "adoption_risk": "L",
+   "adoption_note": "One-off migration; low behaviour change once links sit on the Monday item.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "% client folders in shared Drive and linked from Monday",
+     "baseline": "unknown",
+     "baseline_id": "SH-O08",
+     "target": "100%",
+     "type": "leading"
+    },
+    {
+     "kpi": "% of Monday client items with a LastPass link",
+     "baseline": "unknown",
+     "baseline_id": "SB-O07",
+     "target": "100%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 3,
+    "confidence": 2,
+    "ease": 5,
+    "priority": 30
+   },
+   "rank": 30,
+   "tag": "Quick win",
+   "anchor": "Technology, AI & stack",
+   "horizon": "This month",
+   "processes": [
+    "Knowledge & SOPs"
+   ],
+   "bias_flags": [],
+   "fixes_other": []
+  },
+  {
+   "id": "O-31",
+   "name": "Weekly churn-risk signal list per client",
+   "fixes_clusters": [
+    "C-16",
+    "C-36"
+   ],
+   "fixes_pain_points": [
+    "KO-PP05",
+    "KO-PP06",
+    "KO-PP21",
+    "MP-PP16"
+   ],
+   "source_ids": [
+    "KO-O01",
+    "MP-O08"
+   ],
+   "lens": "Augment",
+   "change": "Turn the signs leadership already reads (contract requests, silence, new marketing manager, falling results) into a weekly per-client risk list from HubSpot, Monday and email; v1 is keyword filters and a 50% conversion-drop flag, v2 adds AI over emails and transcripts. Humans keep the escalation pipeline.",
+   "existing_solution": "Churn-risk alerts",
+   "tool": "HubSpot workflows and dashboards, Gmail filters, Monday.com, OpenClaw; v2 Transpera build.",
+   "hours_saved": [
+    1.1,
+    8.1
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O01 1.1–8.1 = 1.1–8.1 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 10.8–32.5 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    88,
+    648
+   ],
+   "dollars_working": "1.1–8.1 h × $80 = $88–$648/month. Protects retention revenue; no churn $ stated in the interviews, so none added.",
+   "effort": "M",
+   "prerequisites": "Indicator list agreed with leadership; HubSpot activity data; named person who acts on the list.",
+   "adoption_risk": "M",
+   "adoption_note": "Leadership values reading cases personally (KO-O01) – frame as a helper. Leadership-only evidence.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KO-O01, MP-O08).",
+   "kpis": [
+    {
+     "kpi": "% churned clients flagged ≥30 days ahead",
+     "baseline": "unknown",
+     "baseline_id": "MP-O08",
+     "target": "≥80%",
+     "type": "leading"
+    },
+    {
+     "kpi": "Portfolio retention % (company and department)",
+     "baseline": "Unknown – figure not stated",
+     "baseline_id": "KO-O01",
+     "target": "Hold or improve retention against the target Joe sets",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 2,
+    "ease": 3,
+    "priority": 24
+   },
+   "rank": 31,
+   "tag": "Strategic",
+   "anchor": "Client experience & delivery",
+   "horizon": "This quarter",
+   "processes": [
+    "Client escalation"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "KO-B02"
+   ]
+  },
+  {
+   "id": "O-32",
+   "name": "Fill the senior performance leadership seat",
+   "fixes_clusters": [
+    "C-37"
+   ],
+   "fixes_pain_points": [
+    "KO-PP04"
+   ],
+   "source_ids": [
+    "KO-O14"
+   ],
+   "lens": "People & policy",
+   "change": "Hire or appoint an interim senior performance lead and move the operational work leadership is covering back to that seat.",
+   "existing_solution": "New",
+   "tool": "Hire. No build.",
+   "hours_saved": [
+    0,
+    0
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O14 0.0–0.0 = 0.0–0.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 80.8–110.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    0,
+    0
+   ],
+   "dollars_working": "0.0–0.0 h × $80 = $0–$0/month",
+   "effort": "L",
+   "prerequisites": "Budget; role scope agreed with the performance team.",
+   "adoption_risk": "M",
+   "adoption_note": "Hiring lead time; interim must have authority.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Julia's share of time on performance operations",
+     "baseline": "Unknown",
+     "baseline_id": "KO-O14",
+     "target": "Under 10% within a quarter of the hire",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 4,
+    "confidence": 2,
+    "ease": 3,
+    "priority": 24
+   },
+   "rank": 32,
+   "tag": "Strategic",
+   "anchor": "Leadership & dependency",
+   "horizon": "This quarter",
+   "processes": [
+    "Client escalation",
+    "NEW: Team management, coaching & oversight"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "KO-B07"
+   ]
+  },
+  {
+   "id": "O-33",
+   "name": "SOPs linked from Monday templates; stale pages retired",
+   "fixes_clusters": [
+    "C-30",
+    "C-33",
+    "C-35"
+   ],
+   "fixes_pain_points": [
+    "KO-PP10",
+    "KO-PP13",
+    "KO-PP14",
+    "MP-PP03",
+    "MP-PP04"
+   ],
+   "source_ids": [
+    "MP-O12",
+    "KO-O10"
+   ],
+   "lens": "Change the process",
+   "change": "Link the relevant SOP from each Monday task template (\"link first\" when answering a how-to question); retire Notion pages unused for 12 months; a 90-day pause on new tools while current ones bed in, short role-based training and one AI champion per department.",
+   "existing_solution": "Team wiki / L&D",
+   "tool": "Notion + Monday.com templates. No build.",
+   "hours_saved": [
+    0.5,
+    3
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MP-O12 0.5–3.0 = 0.5–3.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 15.4–28.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    40,
+    240
+   ],
+   "dollars_working": "0.5–3.0 h × $80 = $40–$240/month",
+   "effort": "S",
+   "prerequisites": "Owner per Notion section.",
+   "adoption_risk": "M",
+   "adoption_note": "SOPs are unread today (C-35, 43% of pages stale); leadership-only evidence for the tool freeze.",
+   "coi": true,
+   "coi_note": "Transpera could build this (flagged on KO-O10).",
+   "kpis": [
+    {
+     "kpi": "Repeat how-to questions to Founder per month",
+     "baseline": "unknown",
+     "baseline_id": "MP-O12",
+     "target": "-50%",
+     "type": "lagging"
+    },
+    {
+     "kpi": "Tickets updated on time",
+     "baseline": "Unknown",
+     "baseline_id": "KO-O10",
+     "target": "At least 90%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 2,
+    "confidence": 2,
+    "ease": 4,
+    "priority": 16
+   },
+   "rank": 33,
+   "tag": "Fill-in",
+   "anchor": "Technology, AI & stack",
+   "horizon": "This quarter",
+   "processes": [
+    "Knowledge & SOPs"
+   ],
+   "bias_flags": [],
+   "fixes_other": []
+  },
+  {
+   "id": "O-34",
+   "name": "Standard creative brief with one consolidated feedback round",
+   "fixes_clusters": [
+    "C-29"
+   ],
+   "fixes_pain_points": [
+    "MC-PP15"
+   ],
+   "source_ids": [
+    "MC-O13"
+   ],
+   "lens": "Change the process",
+   "change": "Standard design-partner brief with must-haves, examples and an acceptance checklist; one consolidated feedback round; trial AI creative (Canva) for simple variants.",
+   "existing_solution": "AI-assisted creative",
+   "tool": "Canva AI; brief template. No build.",
+   "hours_saved": [
+    0.3,
+    2.2
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MC-O13 0.3–2.2 = 0.3–2.2 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 1.7–5.4 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    24,
+    172
+   ],
+   "dollars_working": "0.3–2.2 h × $80 = $24–$172/month",
+   "effort": "S",
+   "prerequisites": "Template written by a specialist.",
+   "adoption_risk": "M",
+   "adoption_note": "Single raiser; outsourced partner must accept the format.",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "Creative revision rounds per Many Pixels brief",
+     "baseline": "Several",
+     "baseline_id": "MC-O13",
+     "target": "≤1",
+     "type": "lagging"
+    }
+   ],
+   "scores": {
+    "impact": 2,
+    "confidence": 2,
+    "ease": 4,
+    "priority": 16
+   },
+   "rank": 34,
+   "tag": "Fill-in",
+   "anchor": "Client experience & delivery",
+   "horizon": "This quarter",
+   "processes": [
+    "Creative production"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "MC-B04"
+   ]
+  },
+  {
+   "id": "O-35",
+   "name": "Joint monthly tech-priority check between strategist and tech team",
+   "fixes_clusters": [
+    "C-26"
+   ],
+   "fixes_pain_points": [
+    "KZ-PP11",
+    "KZ-PP12"
+   ],
+   "source_ids": [
+    "KZ-O06"
+   ],
+   "lens": "Change the process",
+   "change": "Strategist and technical SEO agree the month's tasks by impact before work starts; tech tickets due by the 25th so reports show them done.",
+   "existing_solution": "New",
+   "tool": "Monday.com. No build.",
+   "hours_saved": [
+    0.5,
+    1.5
+   ],
+   "hours_working": "Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O06 0.5–1.5 = 0.5–1.5 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 104.5–174.7 h. Certainty: assumed (reduction percentages are assumptions).",
+   "dollars": [
+    40,
+    118
+   ],
+   "dollars_working": "0.5–1.5 h × $80 = $40–$118/month",
+   "effort": "S",
+   "prerequisites": "None beyond a 30-minute monthly slot.",
+   "adoption_risk": "M",
+   "adoption_note": "Two queues with different managers (X-04 reporting lines unclear).",
+   "coi": false,
+   "coi_note": "",
+   "kpis": [
+    {
+     "kpi": "% of tech tasks done by report date",
+     "baseline": "unknown – sometimes still in progress on the 5th (L333)",
+     "baseline_id": "KZ-O06",
+     "target": "≥ 90%",
+     "type": "leading"
+    }
+   ],
+   "scores": {
+    "impact": 2,
+    "confidence": 2,
+    "ease": 4,
+    "priority": 16
+   },
+   "rank": 35,
+   "tag": "Fill-in",
+   "anchor": "Client experience & delivery",
+   "horizon": "This quarter",
+   "processes": [
+    "Technical SEO audit & fixes",
+    "Monthly SEO delivery"
+   ],
+   "bias_flags": [],
+   "fixes_other": [
+    "KZ-B04"
+   ]
+  }
+ ],
+ "coverage": {
+  "unaddressed_clusters": [],
+  "orphan_opportunities": [],
+  "source_opportunities_without_cluster": [
+   "SB-O09",
+   "ZC-O11"
+  ],
+  "thin_coverage": [
+   {
+    "cluster": "C-08",
+    "opps": [
+     "O-08"
+    ]
+   },
+   {
+    "cluster": "C-13",
+    "opps": [
+     "O-09"
+    ]
+   },
+   {
+    "cluster": "C-25",
+    "opps": [
+     "O-07"
+    ]
+   },
+   {
+    "cluster": "C-26",
+    "opps": [
+     "O-35"
+    ]
+   },
+   {
+    "cluster": "C-34",
+    "opps": [
+     "O-30"
+    ]
+   }
+  ]
+ },
+ "meta": {
+  "stage": 2,
+  "date": "2026-11-06",
+  "rate_aud_per_hour": 80,
+  "individual_cap_hours": 160,
+  "caps_applied": {
+   "SEO Director (hi)": [
+    204.0,
+    [
+     "assumed items ×0.72"
+    ]
+   ],
+   "Senior SEO Manager & LB Lead (hi)": [
+    217.2,
+    [
+     "assumed items ×0.72"
+    ]
+   ],
+   "Content Specialist (hi)": [
+    168.6,
+    [
+     "assumed items ×0.86"
+    ]
+   ],
+   "Performance Marketing Director (hi)": [
+    217.2,
+    [
+     "assumed items ×0.74"
+    ]
+   ],
+   "Senior PMM (SD) (hi)": [
+    196.8,
+    [
+     "assumed items ×0.71"
+    ]
+   ],
+   "Performance Marketing Manager (DM) (hi)": [
+    162.5,
+    [
+     "assumed items ×0.98"
+    ]
+   ],
+   "Performance Marketing Specialist (hi)": [
+    200.5,
+    [
+     "assumed items ×0.57"
+    ]
+   ]
+  },
+  "excluded_records": [
+   "MP-P02",
+   "MP-P04"
+  ],
+  "uncosted_records": [
+   "KO-P01",
+   "KO-P02",
+   "KO-P03",
+   "KO-P04",
+   "KO-P05",
+   "KO-P07",
+   "KO-P08",
+   "KO-P09",
+   "KO-P10",
+   "KO-P11",
+   "KO-P12",
+   "LS-P04",
+   "KZ-P10",
+   "TG-P05"
+  ],
+  "source_opportunities": 143,
+  "merged_opportunities": 35
+ }
+}

@@ -1,0 +1,2112 @@
+{
+  "interview": {
+    "id": "SB",
+    "name": "Sid (Siddharth) Bali",
+    "role": "Technical SEO Specialist",
+    "team": "Organic",
+    "date": "2026-11-04",
+    "minutes": 40,
+    "clients_managed": 20
+  },
+  "time_allocation": [
+    {
+      "activity": "Technical tasks (audits, fixes, uploads)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "It would definitely be the technical task.",
+      "timestamp": "~12:58 (L160)",
+      "certainty": "stated (dominant, no number); ~33–53% (50–80 h/month) estimated"
+    },
+    {
+      "activity": "Email triage and responses",
+      "pct": 12.5,
+      "hours_per_week": 5,
+      "billable": false,
+      "quote": "In a day, an hour.",
+      "timestamp": "~30:25 (L421)",
+      "certainty": "stated 1 h/day; % and weekly hours estimated (1 h ÷ 8 h; ×5 days)"
+    },
+    {
+      "activity": "Client comms, meetings and reporting (5 end-to-end clients)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "different clients have different dates where they want to have the meeting",
+      "timestamp": "~24:50 (L354)",
+      "certainty": "stated (no number); ~10–15% assumed"
+    },
+    {
+      "activity": "Content and link briefs (week 1)",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": true,
+      "quote": "Similarly with link building, but that's like a two minute process.",
+      "timestamp": "~24:37 (L353)",
+      "certainty": "stated (link brief 2 min); rest assumed"
+    },
+    {
+      "activity": "Ad hoc requests and overdue tickets",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": null,
+      "quote": "you're always getting swamped with some other message, some other email",
+      "timestamp": "~13:14 (L163)",
+      "certainty": "stated (no number)"
+    },
+    {
+      "activity": "Monday.com/Make administration",
+      "pct": null,
+      "hours_per_week": null,
+      "billable": false,
+      "quote": "I run the Monday shindig",
+      "timestamp": "~28:33 (L396)",
+      "certainty": "assumed 2–6 h/month"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Who is client owner for a new client",
+      "decider_role": "Not defined – Sid asks around; Austin suggested sales",
+      "waiting_role": "Technical SEO Specialist; new client's onboarding tasks",
+      "typical_wait": "not stated",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Yearly technical action plan per client",
+      "decider_role": "Strategist + technical team at onboarding",
+      "waiting_role": "Technical team",
+      "typical_wait": "at onboarding",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Depth of monthly technical work",
+      "decider_role": "Allocated hours and severity (pre-set)",
+      "waiting_role": "–",
+      "typical_wait": "–",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Web page approval",
+      "decider_role": "Client (several stakeholders)",
+      "waiting_role": "Technical SEO Specialist",
+      "typical_wait": "days to a month",
+      "lands_on_leadership": false
+    },
+    {
+      "decision": "Upgrade Claude plan (Pro for Teams → Max)",
+      "decider_role": "Founder (assumed)",
+      "waiting_role": "Whole team",
+      "typical_wait": "not stated",
+      "lands_on_leadership": true
+    },
+    {
+      "decision": "Which emails need action",
+      "decider_role": "Technical SEO Specialist (manual)",
+      "waiting_role": "Clients / colleagues",
+      "typical_wait": "within 24 h for clients",
+      "lands_on_leadership": false
+    }
+  ],
+  "clients_mentioned": [
+    {
+      "client": "EQ Saddlery",
+      "tier": "Tier 2",
+      "context": "Demo technical task: titles too long, meta descriptions too short (L073–L074)"
+    },
+    {
+      "client": "Adriatic",
+      "tier": "Tier 3",
+      "context": "Auto-generated monthly tasks: 2,000 (or 200) words, 5 links, 5 h on-site technical (L510–L512)"
+    },
+    {
+      "client": "trendsite.com.au",
+      "tier": "unknown – not in context pack",
+      "context": "JS-heavy site Sid shared to test Figma import (L269); client status unknown"
+    },
+    {
+      "client": "Aperitif (own site)",
+      "tier": "Tier 2 (own site)",
+      "context": "Austin imported it into Figma as a demo (L257)"
+    },
+    {
+      "client": "Unnamed client",
+      "tier": "unknown",
+      "context": "One page iterated with the client for a month (L203–L207); Webflow clients struggle to edit (L231–L235)"
+    },
+    {
+      "client": "Kshalo (unresolved)",
+      "tier": "unknown",
+      "context": "Mentioned when looking up logins in HubSpot (L081) – possibly a client or a HubSpot section"
+    }
+  ],
+  "processes": [
+    {
+      "id": "SB-P01",
+      "process": "Internal task management",
+      "trigger": "Start of each working day; incoming email/Slack all day",
+      "owner_role": "Technical SEO Specialist",
+      "frequency": {
+        "count": 1,
+        "per": "working day",
+        "scope": "all ~20 clients; 20–22 days/month"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Respond now",
+              "pct": null
+            },
+            {
+              "outcome": "Turn into task",
+              "pct": null
+            },
+            {
+              "outcome": "Ignore (much 'not really necessary', L391)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        1680,
+        2080
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Claude routine compiles daily list from Gmail + Monday into Slack 'Organizer'",
+          "actor_role": "Claude routine (automated)",
+          "tool": "Claude, Gmail, Monday, Slack",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "overnight/morning run",
+          "handoff_to": "Technical SEO Specialist",
+          "flags": [],
+          "certainty": "stated (L042)"
+        },
+        {
+          "step": 2,
+          "action": "Review agenda, Monday tasks, emails, Slack; plan the day",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Monday, Gmail, Slack",
+          "touch_min": [
+            15,
+            30
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "estimated (day set by ~10 a.m., L051); time assumed"
+        },
+        {
+          "step": 3,
+          "action": "Triage and respond to email through the day (24-h client SLA)",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Gmail",
+          "touch_min": [
+            60,
+            60
+          ],
+          "wait": "clients wait up to 24 h",
+          "handoff_to": "Clients / colleagues",
+          "flags": [
+            "⌨️",
+            "⚠️"
+          ],
+          "certainty": "stated 1 h/day (L421); SLA stated (L030)"
+        },
+        {
+          "step": 4,
+          "action": "Turn email/DM requests into actionable tasks",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Gmail/Slack → Monday",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Self",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated qualitatively (L030, L039); time inside step 3"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Missed action item",
+          "trigger": "No visual cue in routine output",
+          "rate": "2–6/month (assumed)",
+          "extra_steps": "Last-minute rush, possible client chase",
+          "extra_min": [
+            15,
+            30
+          ],
+          "certainty": "stated it happens (L046–L050); rate and time assumed"
+        },
+        {
+          "name": "Forwarded email chain",
+          "trigger": "Colleague forwards long chain with several sheet versions",
+          "rate": "2–6/month (assumed)",
+          "extra_steps": "Reconstruct thread, find current file",
+          "extra_min": [
+            30,
+            30
+          ],
+          "certainty": "time stated (L190); rate assumed"
+        },
+        {
+          "name": "Accidentally archived email",
+          "trigger": "Read-and-archive habit",
+          "rate": "2–4/month (assumed)",
+          "extra_steps": "Search archive",
+          "extra_min": [
+            10,
+            20
+          ],
+          "certainty": "stated it happens (L413); time and rate assumed"
+        },
+        {
+          "name": "Monday notification flood",
+          "trigger": "Sid is admin and gets every change",
+          "rate": "daily",
+          "extra_steps": "Skim/delete noise",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L396); inside the 1 h/day"
+        }
+      ],
+      "monthly_hours": [
+        21,
+        26
+      ],
+      "monthly_hours_working": "Email 1 h × 20–22 days = 20–22 h; bad paths low 2×0.5 + 2×0.25 + 2×0.17 ≈ 1.8 h, high 6×0.5 + 6×0.5 + 4×0.33 ≈ 7.3 h; total 21.8–29.3 h, high trimmed to 26 because the stated hour already includes some rework → 21–26 h; × $80 = $1,680–$2,080"
+    },
+    {
+      "id": "SB-P02",
+      "process": "Technical SEO audit & fixes",
+      "trigger": "Monthly technical tasks auto-created on the Monday SEO delivery board from allocated hours and the onboarding technical action plan; plus ad hoc",
+      "owner_role": "Technical SEO Specialist",
+      "frequency": {
+        "count": null,
+        "per": "continuous",
+        "scope": "~20 clients (5 end-to-end + ~15 technical-only)"
+      },
+      "decision_points": [
+        {
+          "after_step": 2,
+          "branches": [
+            {
+              "outcome": "Small fix (e.g. title/meta)",
+              "pct": null
+            },
+            {
+              "outcome": "Larger restructure",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (depends on allocated hours and severity, L109; no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        4000,
+        6400
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Open task list on SEO delivery board, pick by due date",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Monday.com",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "estimated from demo (L063)"
+        },
+        {
+          "step": 2,
+          "action": "Open client sheet / technical action plan",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Client sheet",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "estimated (L065–L067)"
+        },
+        {
+          "step": 3,
+          "action": "Run technical audit in parallel",
+          "actor_role": "Technical SEO Specialist + Claude",
+          "tool": "Claude MCP / audit tool",
+          "touch_min": [
+            5,
+            15
+          ],
+          "wait": "audit run time (minutes)",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated method (L068); time assumed"
+        },
+        {
+          "step": 4,
+          "action": "Look up client CMS login in HubSpot",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "HubSpot, LastPass",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated pain (L078–L084); time assumed"
+        },
+        {
+          "step": 5,
+          "action": "Make the fix in client CMS",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "WordPress / Shopify / Webflow",
+          "touch_min": [
+            15,
+            240
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "👤"
+          ],
+          "certainty": "stated range of work (L109); time assumed"
+        },
+        {
+          "step": 6,
+          "action": "Update client sheet with plain-English explanation",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Client sheet",
+          "touch_min": [
+            5,
+            10
+          ],
+          "wait": "",
+          "handoff_to": "Client owner",
+          "flags": [],
+          "certainty": "stated (L098); time assumed"
+        },
+        {
+          "step": 7,
+          "action": "Post Monday update tagging client owner",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Monday.com",
+          "touch_min": [
+            2,
+            5
+          ],
+          "wait": "owner reads at reporting time",
+          "handoff_to": "Client owner / SEO manager",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "stated (L099–L101); time assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Problem spawns sub-problems",
+          "trigger": "Fix uncovers related issues",
+          "rate": "'sometimes' (L162)",
+          "extra_steps": "Investigate sub-issues; may overrun allocated hours",
+          "extra_min": [
+            30,
+            120
+          ],
+          "certainty": "stated qualitatively; time assumed"
+        },
+        {
+          "name": "Ad hoc interrupts",
+          "trigger": "Urgent message/email",
+          "rate": "daily",
+          "extra_steps": "Context switch",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L163); not quantified"
+        },
+        {
+          "name": "Overdue tickets carried to week 4",
+          "trigger": "Above two",
+          "rate": "every month (L354)",
+          "extra_steps": "Catch-up week",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated; not quantified"
+        },
+        {
+          "name": "Split strategy/technical ownership",
+          "trigger": "Client not end-to-end",
+          "rate": "~15 technical-only clients",
+          "extra_steps": "Coordinate, 'move pieces around'",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L151); not quantified"
+        }
+      ],
+      "monthly_hours": [
+        50,
+        80
+      ],
+      "monthly_hours_working": "Not stated. 'Dominates' the day (L160); estimated as ~33–53% of a ~152 h month after 1 h/day email and client work = 50–80 h (assumed – confirm with allocated technical hours per client); × $80 = $4,000–$6,400"
+    },
+    {
+      "id": "SB-P03",
+      "process": "Monthly SEO delivery",
+      "trigger": "Week 1 of each month",
+      "owner_role": "SEO strategist (Sid for his end-to-end clients)",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "5 end-to-end clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        160,
+        320
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Write content briefs for the month",
+          "actor_role": "SEO strategist",
+          "tool": "Brief doc / content tracker",
+          "touch_min": [
+            20,
+            45
+          ],
+          "wait": "",
+          "handoff_to": "Content team",
+          "flags": [],
+          "certainty": "assumed (per client)"
+        },
+        {
+          "step": 2,
+          "action": "Write link-building brief",
+          "actor_role": "SEO strategist",
+          "tool": "Link brief / Monday",
+          "touch_min": [
+            2,
+            2
+          ],
+          "wait": "",
+          "handoff_to": "Link building",
+          "flags": [],
+          "certainty": "stated (L353)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        2,
+        4
+      ],
+      "monthly_hours_working": "5 clients × 22–47 min = 110–235 min ≈ 2–4 h; × $80 = $160–$320"
+    },
+    {
+      "id": "SB-P04",
+      "process": "Monthly reporting",
+      "trigger": "Week 1 of each month",
+      "owner_role": "SEO strategist (Sid for 5 clients)",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "5 end-to-end clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        320,
+        640
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Create monthly report",
+          "actor_role": "SEO strategist",
+          "tool": "Reporting tool (not named)",
+          "touch_min": [
+            45,
+            90
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "assumed (per client)"
+        },
+        {
+          "step": 2,
+          "action": "Present at client meeting (see SB-P05)",
+          "actor_role": "SEO strategist",
+          "tool": "Meeting",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "meeting date set by client",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "stated (L354)"
+        }
+      ],
+      "bad_paths": [],
+      "monthly_hours": [
+        4,
+        8
+      ],
+      "monthly_hours_working": "5 × 45–90 min = 3.75–7.5 h ≈ 4–8 h; × $80 = $320–$640"
+    },
+    {
+      "id": "SB-P05",
+      "process": "Client meetings & prep",
+      "trigger": "Client-specific meeting dates (weeks 2–3); client emails",
+      "owner_role": "SEO strategist",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "5 end-to-end clients"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        400,
+        800
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Prep for meeting",
+          "actor_role": "SEO strategist",
+          "tool": "Report, sheets",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "assumed"
+        },
+        {
+          "step": 2,
+          "action": "Run meeting, update client",
+          "actor_role": "SEO strategist",
+          "tool": "Call",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "scheduled by client",
+          "handoff_to": "Client",
+          "flags": [],
+          "certainty": "assumed (meeting stated, L354)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Client comms slip under higher load",
+          "trigger": "+5 end-to-end clients",
+          "rate": "hypothetical",
+          "extra_steps": "Comms not kept steady",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L338); not quantified"
+        }
+      ],
+      "monthly_hours": [
+        5,
+        10
+      ],
+      "monthly_hours_working": "5 × 60–120 min = 5–10 h; × $80 = $400–$800"
+    },
+    {
+      "id": "SB-P06",
+      "process": "Performance monitoring & alerting",
+      "trigger": "Week 4",
+      "owner_role": "SEO strategist",
+      "frequency": {
+        "count": 1,
+        "per": "month",
+        "scope": "5 end-to-end clients"
+      },
+      "decision_points": [
+        {
+          "after_step": 1,
+          "branches": [
+            {
+              "outcome": "Dip – needs attention",
+              "pct": null
+            },
+            {
+              "outcome": "Win – tell client",
+              "pct": null
+            },
+            {
+              "outcome": "No change",
+              "pct": null
+            }
+          ],
+          "certainty": "stated (L355; no split)"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        80,
+        160
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "End-of-month health check for dips and wins",
+          "actor_role": "SEO strategist",
+          "tool": "Analytics / rank tools (not named)",
+          "touch_min": [
+            10,
+            25
+          ],
+          "wait": "",
+          "handoff_to": "Client / next report",
+          "flags": [],
+          "certainty": "stated activity (L355); time assumed"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Dip found only at month-end",
+          "trigger": "No in-month alerting described",
+          "rate": "unknown",
+          "extra_steps": "Late fix",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "detected"
+        }
+      ],
+      "monthly_hours": [
+        1,
+        2
+      ],
+      "monthly_hours_working": "5 × 10–25 min = 50–125 min ≈ 1–2 h; × $80 = $80–$160"
+    },
+    {
+      "id": "SB-P07",
+      "process": "NEW: Content upload & page build (CMS)",
+      "trigger": "Approved content handed back for upload; client page changes",
+      "owner_role": "Technical SEO Specialist",
+      "frequency": {
+        "count": null,
+        "per": "month",
+        "scope": "assumed 3–6 pages/month"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Client approves first time",
+              "pct": null
+            },
+            {
+              "outcome": "Client requests changes",
+              "pct": null
+            }
+          ],
+          "certainty": "assumed 70–80% / 20–30%"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        280,
+        1120
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Receive approved copy from content team",
+          "actor_role": "Content team",
+          "tool": "Doc",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "depends on content approval",
+          "handoff_to": "Technical SEO Specialist",
+          "flags": [],
+          "certainty": "stated (L202)"
+        },
+        {
+          "step": 2,
+          "action": "Build/upload page in client CMS",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Webflow / WordPress / Shopify",
+          "touch_min": [
+            30,
+            60
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [
+            "⌨️"
+          ],
+          "certainty": "assumed"
+        },
+        {
+          "step": 3,
+          "action": "Client reviews; feedback by email",
+          "actor_role": "Client",
+          "tool": "Email",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "days",
+          "handoff_to": "Technical SEO Specialist",
+          "flags": [
+            "⏸"
+          ],
+          "certainty": "stated qualitatively (L204–L207)"
+        },
+        {
+          "step": 4,
+          "action": "Apply changes; repeat until approved",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "CMS",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Client",
+          "flags": [
+            "⚠️"
+          ],
+          "certainty": "stated"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Iteration loop on pixels/elements",
+          "trigger": "Unclear requirements; client team changes its mind (L235)",
+          "rate": "1–2 pages/month (assumed)",
+          "extra_steps": "Repeated change → review rounds; one page 'for a month' (L205)",
+          "extra_min": [
+            120,
+            240
+          ],
+          "certainty": "elapsed stated; touch and rate assumed"
+        },
+        {
+          "name": "Client can't use Webflow",
+          "trigger": "Client attempts own edits",
+          "rate": "not stated",
+          "extra_steps": "Sid relays and does it",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated (L235); inside above"
+        },
+        {
+          "name": "JavaScript-heavy site",
+          "trigger": "Mock-up/QA tools can't render",
+          "rate": "not stated",
+          "extra_steps": "Manual work",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated concern (L263)"
+        }
+      ],
+      "monthly_hours": [
+        3.5,
+        14
+      ],
+      "monthly_hours_working": "Happy 3–6 pages × 0.5–1 h = 1.5–6 h; bad 1–2 pages × 2–4 h = 2–8 h; total 3.5–14 h; × $80 = $280–$1,120"
+    },
+    {
+      "id": "SB-P08",
+      "process": "Sales to delivery handover",
+      "trigger": "Deal marked signed in HubSpot",
+      "owner_role": "Automated (Make scenario built by Sid); owner fix by Technical SEO Specialist",
+      "frequency": {
+        "count": null,
+        "per": "new client",
+        "scope": "assumed 1–4 SEO clients/month"
+      },
+      "decision_points": [
+        {
+          "after_step": 3,
+          "branches": [
+            {
+              "outcome": "Owner corrected by Sid",
+              "pct": null
+            },
+            {
+              "outcome": "Owner left as deal closer (Sid away)",
+              "pct": null
+            }
+          ],
+          "certainty": "stated risk (L501); no split"
+        }
+      ],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        8,
+        80
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Deal signed in HubSpot",
+          "actor_role": "Sales / founder",
+          "tool": "HubSpot",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Make",
+          "flags": [],
+          "certainty": "stated (L490)"
+        },
+        {
+          "step": 2,
+          "action": "Make scenario creates Monday client item and SEO onboarding checklist",
+          "actor_role": "Make + Monday (automated)",
+          "tool": "Make, Monday.com",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "seconds",
+          "handoff_to": "Monday client board",
+          "flags": [],
+          "certainty": "stated (L475, L490–L507)"
+        },
+        {
+          "step": 3,
+          "action": "Client owner auto-set to deal closer (wrong)",
+          "actor_role": "Make (automated)",
+          "tool": "Monday.com",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "⚠️",
+            "👤"
+          ],
+          "certainty": "stated (L477, L496–L498)"
+        },
+        {
+          "step": 4,
+          "action": "Ask who the client owner is and reassign by hand",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Slack → Monday.com",
+          "touch_min": [
+            5,
+            15
+          ],
+          "wait": "until someone answers (not stated)",
+          "handoff_to": "Assigned client owner",
+          "flags": [
+            "⏸",
+            "👤",
+            "⌨️"
+          ],
+          "certainty": "stated manual (L501); time assumed"
+        },
+        {
+          "step": 5,
+          "action": "Strategy created; recurring monthly tasks generated; two-way sync to SEO delivery board",
+          "actor_role": "Strategist + Monday automation",
+          "tool": "Monday.com",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "Delivery team",
+          "flags": [],
+          "certainty": "stated (L508–L521)"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Owner not corrected",
+          "trigger": "Sid absent",
+          "rate": "not stated",
+          "extra_steps": "Tasks sit with deal closer; confusion (L481)",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated risk (L501)"
+        }
+      ],
+      "monthly_hours": [
+        0.1,
+        1
+      ],
+      "monthly_hours_working": "1–4 clients × 5–15 min = 5–60 min ≈ 0.1–1 h; × $80 = $8–$80"
+    },
+    {
+      "id": "SB-P09",
+      "process": "Internal task management",
+      "trigger": "Ongoing changes, broken scenarios, new boards, admin notifications",
+      "owner_role": "Technical SEO Specialist (de facto system owner)",
+      "frequency": {
+        "count": null,
+        "per": "ongoing",
+        "scope": "whole Monday/Make set-up"
+      },
+      "decision_points": [],
+      "team_volume_per_month": null,
+      "monthly_cost_aud": [
+        160,
+        480
+      ],
+      "happy_path": [
+        {
+          "step": 1,
+          "action": "Maintain Make scenarios and Monday boards",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Make, Monday.com",
+          "touch_min": [
+            120,
+            360
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [
+            "👤"
+          ],
+          "certainty": "assumed (not discussed)"
+        },
+        {
+          "step": 2,
+          "action": "Receive all Monday change notifications",
+          "actor_role": "Technical SEO Specialist",
+          "tool": "Email",
+          "touch_min": [
+            0,
+            0
+          ],
+          "wait": "",
+          "handoff_to": "",
+          "flags": [],
+          "certainty": "stated (L396); inside SB-P01"
+        }
+      ],
+      "bad_paths": [
+        {
+          "name": "Sid absent",
+          "trigger": "Leave/sickness",
+          "rate": "not stated",
+          "extra_steps": "No one to fix scenarios or owner assignment",
+          "extra_min": [
+            0,
+            0
+          ],
+          "certainty": "stated for owner fix (L501); wider dependency detected"
+        }
+      ],
+      "monthly_hours": [
+        2,
+        6
+      ],
+      "monthly_hours_working": "Assumed 120–360 min/month = 2–6 h; × $80 = $160–$480"
+    }
+  ],
+  "pain_points": [
+    {
+      "id": "SB-PP01",
+      "text": "Daily Claude 'Organizer' routine doesn't flag what needs action; emails and Slack asks slip and become last-minute",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Technology, AI & stack",
+      "process": "Internal task management",
+      "impact": "Time; late client replies",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "I still miss out on things that I need to do, like emails that I need to respond to",
+      "timestamp": "~03:28 (L046)",
+      "certainty": "stated",
+      "matches_existing_problem": "Partial: Reminders go unacted; a broken reminder bot went unnoticed"
+    },
+    {
+      "id": "SB-PP02",
+      "text": "About an hour a day on email triage, much of it unnecessary",
+      "source": "interviewee",
+      "category": "Manual / repetitive work",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "~20–22 h/month ($1,600–$1,760)",
+      "frequency": "Daily",
+      "severity": 4,
+      "quote": "In a day, an hour.",
+      "timestamp": "~30:25 (L421)",
+      "certainty": "stated (1 h/day); monthly estimated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP03",
+      "text": "Requests arrive as forwarded email chains with conflicting sheet versions; ~30 min to untangle each",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "~1–3 h/month",
+      "frequency": "2–6/month (assumed)",
+      "severity": 3,
+      "quote": "And then I'm just stuck for 30 minutes trying to figure out, OK, this email is a response to this one.",
+      "timestamp": "~15:10 (L190)",
+      "certainty": "stated (time); rate assumed",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP04",
+      "text": "Colleagues send task requests by email and Slack DM instead of Monday",
+      "source": "interviewee",
+      "category": "Tool not used / adoption",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "Missed/late tasks; manual re-keying",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "not everybody uses Monday to like, you know, set up a task.",
+      "timestamp": "~02:50 (L039)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP05",
+      "text": "Read-and-archive habit buries important emails",
+      "source": "interviewee",
+      "category": "Rework / errors",
+      "anchor": "Operations capacity & process",
+      "process": "Internal task management",
+      "impact": "Search time",
+      "frequency": "Not stated",
+      "severity": 2,
+      "quote": "And then I realize I've archived something that I shouldn't have.",
+      "timestamp": "~29:52 (L413)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP06",
+      "text": "As Monday admin, Sid receives every Monday change notification",
+      "source": "interviewee",
+      "category": "Missing visibility",
+      "anchor": "Technology, AI & stack",
+      "process": "Internal task management",
+      "impact": "Inbox noise",
+      "frequency": "Daily",
+      "severity": 2,
+      "quote": "because I run the Monday shindig, I get every fucking notification out there.",
+      "timestamp": "~28:33 (L396)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP07",
+      "text": "Web page uploads loop with clients for weeks over pixels and elements; requirements unclear and client team changes its mind",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Client experience & delivery",
+      "process": "NEW: Content upload & page build (CMS)",
+      "impact": "2–8 h/month rework; page live up to a month late",
+      "frequency": "At least one live case",
+      "severity": 4,
+      "quote": "I have been going back and forth. for a month. for a singular page.",
+      "timestamp": "~16:16 (L204–L206)",
+      "certainty": "stated (elapsed); hours assumed",
+      "matches_existing_problem": "Partial: Content stalls at client approval – or the tracker can't show what's finished"
+    },
+    {
+      "id": "SB-PP08",
+      "text": "Webflow is complex; clients can't find controls so Sid relays and does edits",
+      "source": "interviewee",
+      "category": "Client friction",
+      "anchor": "Client experience & delivery",
+      "process": "NEW: Content upload & page build (CMS)",
+      "impact": "Extra rounds",
+      "frequency": "Not stated",
+      "severity": 2,
+      "quote": "Like Webflow is not easy.",
+      "timestamp": "~18:36 (L231)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP09",
+      "text": "Client logins sit in HubSpot, not with the Monday task; LastPass migration unfinished",
+      "source": "interviewee",
+      "category": "Duplicate data entry",
+      "anchor": "Technology, AI & stack",
+      "process": "Technical SEO audit & fixes",
+      "impact": "2–5 min tool switch per task",
+      "frequency": "Every task needing access",
+      "severity": 2,
+      "quote": "But then we still have to go into HubSpot and go into Kshalo and look into the login information",
+      "timestamp": "~07:08 (L081)",
+      "certainty": "stated; time assumed",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP10",
+      "text": "Make sets the HubSpot deal closer as Monday client owner – always wrong; fixed by hand",
+      "source": "interviewee",
+      "category": "Unclear ownership",
+      "anchor": "Operations capacity & process",
+      "process": "Sales to delivery handover",
+      "impact": "Confusion over who does onboarding tasks",
+      "frequency": "Every new client",
+      "severity": 4,
+      "quote": "the person who closes the deal on HubSpot is never the person who's going to manage the client account.",
+      "timestamp": "~33:23 (L477)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP11",
+      "text": "Monday/Make system depends on Sid (built it, admin, sole fixer); no documented backup",
+      "source": "interviewee (owner fix) + detected (wider system)",
+      "category": "Single point of failure (person)",
+      "anchor": "Technology, AI & stack",
+      "process": "Sales to delivery handover / Internal task management",
+      "impact": "Handover and task automation stall if he's away",
+      "frequency": "Ongoing risk",
+      "severity": 4,
+      "quote": "But if I'm not there, who's going to do it? It needs to have that system in place.",
+      "timestamp": "~35:09 (L501)",
+      "certainty": "stated (owner fix); wider dependency detected",
+      "matches_existing_problem": "Partial: Slack bots and agents have no visible owner or documentation"
+    },
+    {
+      "id": "SB-PP12",
+      "text": "Claude Pro-for-Teams token limits restrict a team that relies on AI; Claude in Chrome burns most tokens; no shared skills library",
+      "source": "interviewee",
+      "category": "Single point of failure (tool)",
+      "anchor": "Technology, AI & stack",
+      "process": "Agency-wide AI use",
+      "impact": "Work blocked when limits hit; not quantified",
+      "frequency": "Ongoing",
+      "severity": 3,
+      "quote": "it's severely limiting what the team can do because honestly everyone's become very reliant on AI.",
+      "timestamp": "~27:17 (L381)",
+      "certainty": "stated; impact not quantified",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP13",
+      "text": "Client communications would break first if end-to-end load grows; already 'borderline'",
+      "source": "interviewee (answering Austin's hypothetical)",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Client meetings & prep",
+      "impact": "Client experience; retention risk",
+      "frequency": "If +5 end-to-end clients",
+      "severity": 3,
+      "quote": "It's the client side where I will definitely be lacking.",
+      "timestamp": "~23:24 (L338)",
+      "certainty": "stated (hypothetical)",
+      "matches_existing_problem": "Partial: Managers at capacity – Tier 2/3 clients get dropped first"
+    },
+    {
+      "id": "SB-PP14",
+      "text": "Split strategy vs technical ownership adds coordination; no performance impact",
+      "source": "interviewee",
+      "category": "Waiting / handoff delay",
+      "anchor": "Client experience & delivery",
+      "process": "Technical SEO audit & fixes",
+      "impact": "Coordination time",
+      "frequency": "~15 technical-only clients",
+      "severity": 2,
+      "quote": "it's not a hindrance to performance, but I think it just gets in the way of work at times",
+      "timestamp": "~12:23 (L151)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    },
+    {
+      "id": "SB-PP15",
+      "text": "Constant ad hoc requests and sub-problems push planned tickets into an overdue catch-up week",
+      "source": "interviewee",
+      "category": "Capacity / overload",
+      "anchor": "Operations capacity & process",
+      "process": "Technical SEO audit & fixes",
+      "impact": "Overdue tickets every month",
+      "frequency": "Daily / monthly",
+      "severity": 3,
+      "quote": "there will be overdue tickets always.",
+      "timestamp": "~24:50 (L354)",
+      "certainty": "stated",
+      "matches_existing_problem": "new"
+    }
+  ],
+  "bottlenecks": [
+    {
+      "id": "SB-B01",
+      "step": "Page approval (SB-P07 steps 3–4)",
+      "waiting_on": "Client feedback rounds",
+      "typical_wait": "Days per round; one page a month (L205)",
+      "affected": "At least 1 page now; 1–2/month assumed",
+      "knock_on": "Go-live delayed; Sid's time"
+    },
+    {
+      "id": "SB-B02",
+      "step": "New-client owner assignment (SB-P08 step 4)",
+      "waiting_on": "Someone confirming the owner; Sid being available",
+      "typical_wait": "not stated",
+      "affected": "Every new client (1–4/month assumed)",
+      "knock_on": "Onboarding tasks unclear; stalls if Sid away"
+    },
+    {
+      "id": "SB-B03",
+      "step": "Requests stuck in inbox/DMs before becoming tasks (SB-P01)",
+      "waiting_on": "Sid noticing them",
+      "typical_wait": "Until last minute (L050)",
+      "affected": "unknown",
+      "knock_on": "Late responses; overdue tickets"
+    },
+    {
+      "id": "SB-B04",
+      "step": "Week-4 overdue tickets (SB-P02)",
+      "waiting_on": "Ad hoc work displacing planned tasks",
+      "typical_wait": "Up to a week",
+      "affected": "All clients",
+      "knock_on": "Catch-up week every month"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "SB-S01",
+      "idea": "Personal 'second brain'/PA watching Gmail, Slack and Monday with push notifications",
+      "source": "interviewee",
+      "reaction": "Austin named it 'second brain… PA'; Sid: 'Yes'",
+      "process": "Internal task management",
+      "quote": "I need something That can like, you know, be like a push notification or something like on my screen",
+      "timestamp": "~13:56 (L175)"
+    },
+    {
+      "id": "SB-S02",
+      "idea": "Email triage that labels what matters (respond to client / task request)",
+      "source": "interviewee",
+      "reaction": "Raised need; Austin proposed categories; Sid agreed ('Yeah', L404)",
+      "process": "Internal task management",
+      "quote": "i would like a way where my email can tell me what matters and what doesn't",
+      "timestamp": "~28:33 (L396)"
+    },
+    {
+      "id": "SB-S03",
+      "idea": "AI that edits pages inside the CMS by drag-and-drop rather than generating HTML",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "NEW: Content upload & page build (CMS)",
+      "quote": "I would like an AI that can use the CMS like WordPress or Shopify and create elements like a drag and drop",
+      "timestamp": "~17:08 (L213)"
+    },
+    {
+      "id": "SB-S04",
+      "idea": "Import pages into Figma so clients can drag, drop and comment",
+      "source": "interviewer",
+      "reaction": "Agreed ('That's a great idea', L226; 'the Figma thing is so good', L440) but asked about JavaScript-heavy sites (L263)",
+      "process": "NEW: Content upload & page build (CMS)",
+      "quote": "you can copy and paste the HTML onto like onto Figma. And then they can drag and drop and leave comments",
+      "timestamp": "~17:55 (L224–L225)"
+    },
+    {
+      "id": "SB-S05",
+      "idea": "Clearer up-front requirements for page changes",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "NEW: Content upload & page build (CMS)",
+      "quote": "I would like a clearer way of communication, or just understanding the requirements of what they want with the web page",
+      "timestamp": "~16:21 (L207)"
+    },
+    {
+      "id": "SB-S06",
+      "idea": "Upgrade team Claude plan to Max",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Agency-wide AI use",
+      "quote": "I think we use Pro for team, but I think we need Max.",
+      "timestamp": "~26:54 (L373)"
+    },
+    {
+      "id": "SB-S07",
+      "idea": "Shared Claude skills list/directory to cut token use",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Agency-wide AI use",
+      "quote": "we need to set up skills lists and a proper directory",
+      "timestamp": "~27:30 (L384)"
+    },
+    {
+      "id": "SB-S08",
+      "idea": "Fix client-owner assignment in the Make/Monday handover",
+      "source": "interviewee",
+      "reaction": "Austin suggested sales may need to own it; Sid unsure",
+      "process": "Sales to delivery handover",
+      "quote": "It needs to have that system in place.",
+      "timestamp": "~35:09 (L501)"
+    },
+    {
+      "id": "SB-S09",
+      "idea": "Simplified technical audit as a downloadable lead magnet",
+      "source": "interviewer",
+      "reaction": "Agreed",
+      "process": "NEW: Lead generation (Sales – lead to proposal)",
+      "quote": "if we had a dumbed down version of that, then Yeah, it could do wonders",
+      "timestamp": "~39:02 (L568)"
+    },
+    {
+      "id": "SB-S10",
+      "idea": "Do end-to-end (strategy + technical) for all his clients",
+      "source": "interviewee",
+      "reaction": "–",
+      "process": "Technical SEO audit & fixes / Client meetings & prep",
+      "quote": "I could just do end to end for all my clients and just like handle them.",
+      "timestamp": "~10:34 (L134)"
+    },
+    {
+      "id": "SB-S11",
+      "idea": "Finish moving logins into LastPass",
+      "source": "interviewee",
+      "reaction": "In progress",
+      "process": "Technical SEO audit & fixes",
+      "quote": "We're still in the process of getting everything into LastPass.",
+      "timestamp": "~07:17 (L084)"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "SB-O01",
+      "fixes": [
+        "SB-PP03",
+        "SB-PP04",
+        "SB-PP15",
+        "SB-B03"
+      ],
+      "lens": "Change the process",
+      "change": "Internal task requests go into Monday (form or Slack → Monday) with the ask summarised and current file linked – no forwarded chains",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Monday forms / email-to-board / Slack integration",
+      "hours_saved_month": [
+        3,
+        8
+      ],
+      "effort": "S",
+      "prerequisites": "Leadership backing; Monday request form",
+      "adoption_risk": "M – relies on colleagues changing habits",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of internal requests arriving as Monday items",
+          "measured_by": "Monday vs email/Slack sample (2 weeks)",
+          "baseline": "unknown",
+          "baseline_quote": "not everybody uses Monday to like, you know, set up a task.",
+          "target": "≥80%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Forwarded chains received per month",
+          "measured_by": "Gmail label count",
+          "baseline": "unknown (assume 2–6)",
+          "baseline_quote": "I'm forwarding you the chain.",
+          "target": "≤1",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 3,
+      "tag": "Quick win",
+      "rank_reason": "Cuts triage and 30-min chain untangling; process rule, no new tech"
+    },
+    {
+      "id": "SB-O02",
+      "fixes": [
+        "SB-PP01",
+        "SB-PP02",
+        "SB-PP05",
+        "SB-PP06",
+        "SB-B03"
+      ],
+      "lens": "Augment",
+      "change": "AI inbox triage and daily 'second brain' brief across Gmail, Slack and Monday: labels, push reminders, one-click Monday task; mute admin notifications",
+      "matches_existing_solution": "AI business brain (partial)",
+      "candidate_tool": "Claude (existing routine + connectors), Gmail filters, Monday email integration",
+      "hours_saved_month": [
+        6,
+        11
+      ],
+      "effort": "M",
+      "prerequisites": "Gmail/Slack access; agreed labels; Claude capacity (SB-O06)",
+      "adoption_risk": "M – existing routine 'not doing the job'; needs push alerts",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Minutes per day in inbox",
+          "measured_by": "Self-log / Gmail analytics",
+          "baseline": "~60 min",
+          "baseline_quote": "In a day, an hour.",
+          "target": "≤30 min",
+          "type": "lagging"
+        },
+        {
+          "kpi": "Client emails answered within 24 h",
+          "measured_by": "Gmail response-time sample",
+          "baseline": "unknown (24-h target)",
+          "baseline_quote": "Client comms are within the 24-hour limit",
+          "target": "≥95%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 4,
+        "confidence": 4,
+        "ease": 3,
+        "priority": 48
+      },
+      "rank": 2,
+      "tag": "Strategic",
+      "rank_reason": "Biggest stated time sink (1 h/day) and Sid's top personal need"
+    },
+    {
+      "id": "SB-O03",
+      "fixes": [
+        "SB-PP10",
+        "SB-PP11",
+        "SB-B02"
+      ],
+      "lens": "Change the process",
+      "change": "Required 'Delivery owner' field at deal close set by the department lead and mapped by Make; fallback Monday item 'Assign owner' to the lead",
+      "matches_existing_solution": "new",
+      "candidate_tool": "HubSpot deal property + Make + Monday",
+      "hours_saved_month": [
+        0.5,
+        2
+      ],
+      "effort": "S",
+      "prerequisites": "Decide who allocates accounts (Karl/Laura/Julia)",
+      "adoption_risk": "L – small change Sid can build",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "New clients with correct owner at board creation",
+          "measured_by": "Monday client board audit",
+          "baseline": "0%",
+          "baseline_quote": "the person who closes the deal on HubSpot is never the person who's going to manage the client account.",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Days from deal signed to owner confirmed",
+          "measured_by": "HubSpot close date vs Monday owner change",
+          "baseline": "unknown",
+          "baseline_quote": "Now I'm just manually doing it.",
+          "target": "Same day",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 4,
+        "ease": 4,
+        "priority": 48
+      },
+      "rank": 1,
+      "tag": "Quick win",
+      "rank_reason": "Clearly evidenced, every new client affected, small Make/HubSpot change"
+    },
+    {
+      "id": "SB-O04",
+      "fixes": [
+        "SB-PP11",
+        "SB-PP06"
+      ],
+      "lens": "People & policy",
+      "change": "Document Make scenarios and Monday architecture; name and train a second admin; route admin notifications to a digest",
+      "matches_existing_solution": "team wiki / L&D (partial)",
+      "candidate_tool": "Notion, Make scenario notes, Monday notification settings",
+      "hours_saved_month": [
+        1,
+        3
+      ],
+      "effort": "S",
+      "prerequisites": "Sid's time to document (4–8 h one-off, assumed); nominated backup",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "Make scenarios with written documentation",
+          "measured_by": "Notion/Make notes count",
+          "baseline": "unknown (assume 0)",
+          "baseline_quote": "But if I'm not there, who's going to do it?",
+          "target": "100%",
+          "type": "leading"
+        },
+        {
+          "kpi": "Trained Monday/Make admins",
+          "measured_by": "Admin list",
+          "baseline": "1 (detected)",
+          "baseline_quote": "because I run the Monday shindig",
+          "target": "2",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 36
+      },
+      "rank": 4,
+      "tag": "Quick win",
+      "rank_reason": "Removes single-person dependency on the task system"
+    },
+    {
+      "id": "SB-O05",
+      "fixes": [
+        "SB-PP07",
+        "SB-PP08",
+        "SB-B01"
+      ],
+      "lens": "Change the process",
+      "change": "Page-approval step: agree requirements up front, share a visual draft (Figma import or staging link) for one consolidated round from a single client approver; cap revision rounds",
+      "matches_existing_solution": "client approval portal (partial)",
+      "candidate_tool": "Figma (+ HTML import plugin), CMS staging",
+      "hours_saved_month": [
+        2,
+        8
+      ],
+      "effort": "M",
+      "prerequisites": "Client agreement on approver and rounds; test plugin on JS-heavy sites",
+      "adoption_risk": "M – needs client behaviour change",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Revision rounds per uploaded page",
+          "measured_by": "Monday task updates / email rounds",
+          "baseline": "unknown; one page looping a month",
+          "baseline_quote": "I have been going back and forth. for a month. for a singular page.",
+          "target": "≤2",
+          "type": "leading"
+        },
+        {
+          "kpi": "Days from upload to client sign-off",
+          "measured_by": "Monday status dates",
+          "baseline": "up to ~30 days worst case",
+          "baseline_quote": "for a month.",
+          "target": "≤5 working days",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 3,
+        "ease": 3,
+        "priority": 27
+      },
+      "rank": 5,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag – Impact 3 / Ease 3 not covered; real loop but frequency unknown"
+    },
+    {
+      "id": "SB-O06",
+      "fixes": [
+        "SB-PP12"
+      ],
+      "lens": "People & policy",
+      "change": "Claude usage policy: shared skills/prompt library, guidance on Claude in Chrome, right-size plan (Max seats for heavy users)",
+      "matches_existing_solution": "new",
+      "candidate_tool": "Claude Team/Max, shared skills directory",
+      "hours_saved_month": [
+        2,
+        6
+      ],
+      "effort": "S",
+      "prerequisites": "Usage data from Claude admin; budget decision",
+      "adoption_risk": "L",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Times staff hit Claude usage limits per week",
+          "measured_by": "Claude admin console / survey",
+          "baseline": "unknown",
+          "baseline_quote": "it's severely limiting what the team can do",
+          "target": "Near zero",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 2,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 6,
+      "tag": "Quick win",
+      "rank_reason": "Team-wide constraint, but no usage numbers yet"
+    },
+    {
+      "id": "SB-O07",
+      "fixes": [
+        "SB-PP09"
+      ],
+      "lens": "Change the process",
+      "change": "Finish LastPass migration; link the vault entry from each Monday client item",
+      "matches_existing_solution": "new",
+      "candidate_tool": "LastPass, Monday link column",
+      "hours_saved_month": [
+        0.7,
+        3.3
+      ],
+      "effort": "S",
+      "prerequisites": "Migration completion; access rules",
+      "adoption_risk": "L",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "% of Monday client items with a LastPass link",
+          "measured_by": "Monday column fill rate",
+          "baseline": "unknown",
+          "baseline_quote": "We're still in the process of getting everything into LastPass.",
+          "target": "100%",
+          "type": "leading"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 3,
+        "ease": 4,
+        "priority": 24
+      },
+      "rank": 7,
+      "tag": "Fill-in",
+      "rank_reason": "Small time saving; tidies credential risk"
+    },
+    {
+      "id": "SB-O08",
+      "fixes": [
+        "SB-PP13",
+        "SB-PP15"
+      ],
+      "lens": "People & policy",
+      "change": "Load guide for technical + end-to-end hybrid roles (e.g. ~5 end-to-end + ~15 technical) plus client-update cadence/templates before adding clients",
+      "matches_existing_solution": "none exact",
+      "candidate_tool": "Monday workload view",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "M",
+      "prerequisites": "Capacity model agreed with Karl/Julia",
+      "adoption_risk": "M",
+      "coi_flag": false,
+      "kpis": [
+        {
+          "kpi": "End-to-end clients per hybrid role vs guide",
+          "measured_by": "Monday owner counts",
+          "baseline": "5 end-to-end + ~15 technical",
+          "baseline_quote": "estimation it would be around 15.",
+          "target": "Within guide",
+          "type": "leading"
+        },
+        {
+          "kpi": "Overdue tickets at month-end",
+          "measured_by": "Monday overdue filter",
+          "baseline": "unknown",
+          "baseline_quote": "there will be overdue tickets always.",
+          "target": "–50%",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 3,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 18
+      },
+      "rank": 8,
+      "tag": "Strategic",
+      "rank_reason": "Closest tag – Impact 3 / Ease 3 not covered; hypothetical evidence"
+    },
+    {
+      "id": "SB-O09",
+      "fixes": [
+        "SB-S09"
+      ],
+      "lens": "Augment",
+      "change": "Publish a simplified version of the automated technical audit as a lead magnet",
+      "matches_existing_solution": "1-click audit (read-only access + AI audit) (partial)",
+      "candidate_tool": "Existing audit tool / Claude MCP, HubSpot forms",
+      "hours_saved_month": [
+        0,
+        0
+      ],
+      "effort": "M",
+      "prerequisites": "Scope; lead routing in HubSpot",
+      "adoption_risk": "M",
+      "coi_flag": true,
+      "kpis": [
+        {
+          "kpi": "Leads from audit download per month",
+          "measured_by": "HubSpot form source",
+          "baseline": "0 (not launched)",
+          "baseline_quote": "Because the current audit tool is very comprehensive.",
+          "target": "Set after pilot",
+          "type": "lagging"
+        }
+      ],
+      "scores": {
+        "impact": 2,
+        "confidence": 2,
+        "ease": 3,
+        "priority": 12
+      },
+      "rank": 9,
+      "tag": "Deprioritise",
+      "rank_reason": "Interviewer idea; no evidence of demand"
+    }
+  ],
+  "strengths": [
+    {
+      "text": "Deal-to-delivery handover automated (HubSpot → Make → Monday)",
+      "quote": "Every time a new deal is made on HubSpot, a client is created on Monday with the tasks that they need to have.",
+      "timestamp": "~36:03 (L509)"
+    },
+    {
+      "text": "Recurring monthly tasks auto-generate from a sheet",
+      "quote": "So those are pretty much automated from this sheet here.",
+      "timestamp": "~36:31 (L512)"
+    },
+    {
+      "text": "Two-way sync between client boards and SEO delivery board",
+      "quote": "It's a two-way thing between a client board and the SEO delivery board, which is like the main board for tasks.",
+      "timestamp": "~36:58 (L521)"
+    },
+    {
+      "text": "Technical audits automated",
+      "quote": "Yes, we have.",
+      "timestamp": "~38:30 (L555)"
+    },
+    {
+      "text": "Technical work planned at onboarding",
+      "quote": "We create a technical action plan the moment we onboard a client and we just go through it.",
+      "timestamp": "~09:30 (L116)"
+    },
+    {
+      "text": "Plain-English explanations for client owners' reports",
+      "quote": "that is a lot easier to digest for people who aren't technically sound.",
+      "timestamp": "~08:05 (L098)"
+    },
+    {
+      "text": "24-hour client response standard",
+      "quote": "Client comms are within the 24-hour limit",
+      "timestamp": "~02:11 (L030)"
+    },
+    {
+      "text": "Client results good across the team",
+      "quote": "everyone's clients are doing really well.",
+      "timestamp": "~12:40 (L155)"
+    },
+    {
+      "text": "Good technical–SEO team communication",
+      "quote": "there's a good round of communication that happens between the technical and the SEO team.",
+      "timestamp": "~12:16 (L150)"
+    },
+    {
+      "text": "Reporting already optimised",
+      "quote": "reporting we've optimized that's fine.",
+      "timestamp": "~27:30 (L384)"
+    },
+    {
+      "text": "Wide AI adoption (MCPs connected)",
+      "quote": "The whole team has MCPs connected",
+      "timestamp": "~27:24 (L382)"
+    },
+    {
+      "text": "End-to-end ownership lets technical and content reinforce each other",
+      "quote": "I'm going to do technical task A, where I know once it's done, content task B can get a lot more value out of it.",
+      "timestamp": "~11:36 (L147)"
+    }
+  ],
+  "facts": [
+    {
+      "value": "5",
+      "unit": "end-to-end clients",
+      "context": "Sid's book (said 4, corrected)",
+      "quote": "Actually, five.",
+      "timestamp": "~20:14 (L252)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~15",
+      "unit": "technical-only clients",
+      "context": "Rough estimate",
+      "quote": "estimation it would be around 15.",
+      "timestamp": "~22:52 (L322)",
+      "certainty": "stated (rough)"
+    },
+    {
+      "value": "1",
+      "unit": "hour/day",
+      "context": "Email triage",
+      "quote": "In a day, an hour.",
+      "timestamp": "~30:25 (L421)",
+      "certainty": "stated"
+    },
+    {
+      "value": "30",
+      "unit": "minutes",
+      "context": "Untangling one forwarded chain",
+      "quote": "And then I'm just stuck for 30 minutes",
+      "timestamp": "~15:10 (L190)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5",
+      "unit": "sheet versions",
+      "context": "In one forwarded chain",
+      "quote": "there's five different sheets in there.",
+      "timestamp": "~15:17 (L192)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~1",
+      "unit": "month",
+      "context": "One page's back-and-forth with a client",
+      "quote": "for a month. for a singular page.",
+      "timestamp": "~16:19 (L205–L206)",
+      "certainty": "stated"
+    },
+    {
+      "value": "24",
+      "unit": "hours",
+      "context": "Client response limit",
+      "quote": "Client comms are within the 24-hour limit",
+      "timestamp": "~02:11 (L030)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~10",
+      "unit": "a.m.",
+      "context": "Day planned by",
+      "quote": "by like 10 a.m., I know what I need to get done.",
+      "timestamp": "~04:03 (L051)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2",
+      "unit": "minutes",
+      "context": "Link-building brief",
+      "quote": "that's like a two minute process.",
+      "timestamp": "~24:37 (L353)",
+      "certainty": "stated"
+    },
+    {
+      "value": "2,000 (or 200)",
+      "unit": "words/month",
+      "context": "Adriatic monthly content task",
+      "quote": "So 2000 words.",
+      "timestamp": "~36:14 (L510)",
+      "certainty": "stated – inconsistent with L511"
+    },
+    {
+      "value": "5",
+      "unit": "links/month",
+      "context": "Adriatic",
+      "quote": "every month needs five links",
+      "timestamp": "~36:31 (L512)",
+      "certainty": "stated"
+    },
+    {
+      "value": "5",
+      "unit": "hours/month",
+      "context": "Adriatic on-site technical allocation",
+      "quote": "five hours of onsite technical work",
+      "timestamp": "~36:31 (L512)",
+      "certainty": "stated"
+    },
+    {
+      "value": "+20",
+      "unit": "technical clients",
+      "context": "Manageable if technical only",
+      "quote": "Technical, if it was just technical tasks, no.",
+      "timestamp": "~22:59 (L326)",
+      "certainty": "stated (hypothetical)"
+    },
+    {
+      "value": "+20 technical and +5 end-to-end",
+      "unit": "clients",
+      "context": "Overload",
+      "quote": "Yeah, then I'm screwed.",
+      "timestamp": "~23:10 (L330)",
+      "certainty": "stated (hypothetical)"
+    },
+    {
+      "value": "Pro for Teams",
+      "unit": "Claude plan",
+      "context": "Current; Sid wants Max",
+      "quote": "I think we use Pro for team, but I think we need Max.",
+      "timestamp": "~26:54 (L373)",
+      "certainty": "stated (belief)"
+    },
+    {
+      "value": "4",
+      "unit": "Gmail label groups",
+      "context": "Client, to respond, updates, platforms",
+      "quote": "It's every client, it's to respond, it's updates, it's platforms.",
+      "timestamp": "~28:33 (L396)",
+      "certainty": "stated"
+    },
+    {
+      "value": "1",
+      "unit": "HubSpot–Monday connection",
+      "context": "Deal signed → client created",
+      "quote": "That's the only connection between HubSpot and Monday currently.",
+      "timestamp": "~36:03 (L509)",
+      "certainty": "stated"
+    },
+    {
+      "value": "~40",
+      "unit": "minutes",
+      "context": "Interview length (60-min booking)",
+      "quote": "We can give you 20 minutes back in your day.",
+      "timestamp": "~39:33 (L575)",
+      "certainty": "estimated"
+    }
+  ],
+  "tools": {
+    "official": [
+      "Monday.com (all delivery tasks; SEO delivery board, client boards, onboarding checklists)",
+      "Make.com (HubSpot deal → Monday scenarios/webhooks)",
+      "HubSpot (sales CRM; client info and credentials)",
+      "Gmail",
+      "Slack",
+      "LastPass (rollout in progress)",
+      "Client CMSs: Webflow, WordPress, Shopify",
+      "Client sheets / technical action plans",
+      "Claude with MCPs (audits, daily routine)"
+    ],
+    "shadow": [
+      "Personal Claude routine posting daily list to own Slack channel 'Organizer'",
+      "Manual Gmail labels (client, to respond, updates, platforms)",
+      "Manual owner reassignment in Monday for each new client",
+      "Claude in Chrome used across the team",
+      "Austin's Figma import plugin (offered, not adopted)"
+    ],
+    "duplicated_data": [
+      "Client credentials in HubSpot and LastPass",
+      "Task status in client sheet and again as a Monday update",
+      "Request details split across email chains, multiple sheet versions and Monday"
+    ],
+    "missing_access": [
+      "Delivery owner not captured at deal stage",
+      "Credentials not reachable from Monday",
+      "No prioritisation layer over email/Slack",
+      "Claude capacity (token limits)"
+    ]
+  },
+  "dependencies": [
+    {
+      "what": "Monday.com architecture and Make scenarios (built, admin, maintains)",
+      "who_role": "Technical SEO Specialist",
+      "if_absent": "Handover automation and boards can't be fixed or changed"
+    },
+    {
+      "what": "Manual correction of client owner on every new client",
+      "who_role": "Technical SEO Specialist",
+      "if_absent": "New clients sit with the deal closer as owner; confusion over who does tasks"
+    },
+    {
+      "what": "Personal agenda routine (Claude → Slack 'Organizer')",
+      "who_role": "Technical SEO Specialist",
+      "if_absent": "Only affects Sid; undocumented"
+    },
+    {
+      "what": "Automated technical audit tool/process",
+      "who_role": "Technical team (Spencer Potts's earlier work per Sid; status unclear)",
+      "if_absent": "Not discussed"
+    },
+    {
+      "what": "Technical context for ~20 clients",
+      "who_role": "Technical SEO Specialist",
+      "if_absent": "Client owners lose the plain-English explanations used in monthly reports"
+    }
+  ],
+  "follow_ups": {
+    "questions": [
+      "Sid: how many new SEO clients per month go through HubSpot → Make → Monday, and how long does owner confirmation take?",
+      "Sid: hours per month on Monday/Make maintenance; is anything documented?",
+      "Sid: page uploads per month and how many loop more than twice; which client is the month-long page?",
+      "Sid: allocated technical hours per client (sheet that generates Monday tasks)",
+      "Karl / Julia: who should decide the delivery owner at deal close?",
+      "Joe: current Claude plan and seat count; usage-limit incidents",
+      "Confirm whether trendsite.com.au is a client and what 'Kshalo' (L081) refers to"
+    ],
+    "contradictions": [
+      "Context pack: Tonie and Zach report to Sid; Sid described no management duties",
+      "Context pack: 81-item technical audit run by technical SEO; Sid says audits are automated via Claude MCP",
+      "Nadiya ('Nadia') used as example client owner (L101) but has resigned per context pack",
+      "Four then five end-to-end clients (L249–L252)",
+      "Adriatic content: '2000 words' then '200 monthly words' (L510–L511)"
+    ],
+    "data_requests": [
+      "Make scenario list and diagram (Austin now has admin access) – Sid",
+      "Monday SEO delivery board and the task-generating sheet – Sid",
+      "HubSpot deal properties and form fields – Sid / sales",
+      "Claude admin usage report – Joe",
+      "Example forwarded chain and the looping page thread – Sid"
+    ],
+    "verify": [
+      "1 h/day email (single self-estimate)",
+      "Technical hours in SB-P02 (assumed)",
+      "Scope of 'we've automated technical audits'",
+      "Claude plan is Pro for Teams ('I think')"
+    ]
+  }
+}

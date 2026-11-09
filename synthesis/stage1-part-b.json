@@ -1,0 +1,4544 @@
+{
+ "clusters": [
+  {
+   "id": "C-01",
+   "problem": "Paid budgets re-keyed by hand in three places, so pacing runs against wrong figures",
+   "members": [
+    "MP-PP01 (interviewee)",
+    "SH-PP01 (interviewee)",
+    "SD-PP02 (interviewee)",
+    "SD-PP03 (interviewee)",
+    "MC-PP07 (interviewee)",
+    "SH-PP03 (interviewee)",
+    "SH-PP04 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 1,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "performance specialist",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (3 staff + 1 leadership).",
+   "damage_area": [
+    "margin/revenue",
+    "time",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "$10K credit paid by the agency on one incident (MP-PP01, stated). Day-1 budget set-up 1–2 h per client (SD-PP02, stated) and 4–7.5 h/month (MC-PP07, estimated); underspend fixes 15–20 min per account (SD-PP03, stated); new-month tab rebuild 1–2 h/month (SH-PP03, assumed). Indicative sum of member ranges ≈ 6–15.5 h/month (assumed – weakest label)."
+   ],
+   "severity": 5,
+   "severity_source": "MP-PP01",
+   "anchor": "Performance visibility & margin",
+   "processes": [
+    "Paid media – pacing & budget management"
+   ],
+   "quotes": [
+    {
+     "text": "The budget would change and they wouldn't update the sheet. So the trackers are tracking. but it's on the wrong number.",
+     "role_family": "leadership",
+     "id": "MP-PP01",
+     "timestamp": "~31:44 (L377–L378)"
+    },
+    {
+     "text": "One is the Google Sheet, one is the Pacing Sheet, and the other is the platform itself.",
+     "role_family": "a performance manager",
+     "id": "SD-PP02",
+     "timestamp": "~26:49 (L243)"
+    },
+    {
+     "text": "the Slack message will say like, oh, it's under, overspending but I know that the new budget is increased so the overspend is not true",
+     "role_family": "a performance manager",
+     "id": "SH-PP04",
+     "timestamp": "~22:33 (L213)"
+    }
+   ],
+   "existing_problem": "R2 Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend (pack #1)",
+   "verdict": "Split",
+   "verdict_note": "Context-pack #1 (registry R2) bundles two problems. Split into C-01 (budgets re-keyed in 3+ places, pacing against wrong figures) and C-03 (channels with no pacing at all). Reword C-01 as: 'Budgets are re-keyed by hand in three or more places, so pacing runs against wrong figures'. 'Three places' varies by person (see X-17).",
+   "root_cause_chain": [
+    "Pacing trackers pace against a budget figure that is out of date (MP-PP01, SH-PP04).",
+    "Every budget change must be re-keyed into the budget sheet, pacing sheet, platform, HubSpot and Monday.com by hand (SH-PP01, SD-PP02).",
+    "There is no single system of record for client budgets; each tool holds its own copy (SH-PP01).",
+    "The pacing set-up was built as monthly spreadsheets that must be rebuilt each month (SH-PP03, MC-PP07), not as a data model fed from one source."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (MC-O04, MC-O10, MP-O03, SD-O02, SH-O01, SH-O02) fix MC-PP07, MP-PP01, SD-PP02, SD-PP03, SH-PP01, SH-PP03, SH-PP04"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769811db952ca85e18ce3af"
+   ]
+  },
+  {
+   "id": "C-02",
+   "problem": "Pacing tools are broken or fragile, so Meta and Google pacing is done by hand",
+   "members": [
+    "SD-PP01 (interviewee)",
+    "SH-PP02 (interviewee)",
+    "SH-PP05 (interviewee)",
+    "SD-PP15 (interviewee)",
+    "SD-PP19 (detected)",
+    "MC-PP06 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "performance specialist"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "margin/revenue",
+    "risk/compliance"
+   ],
+   "impact_evidence": [
+    "Sheet fixes 0.5–4.5 h/month (MC-PP06, stated hours); Meta ad-set summing 1–2 h/month (SH-PP05, assumed); Director's daily Meta pacing in Claude not quantified (SD-PP01). Indicative ≈ 1.5–6.5 h/month (assumed) plus unquantified Director time."
+   ],
+   "severity": 5,
+   "severity_source": "SD-PP01",
+   "anchor": "Technology, AI & stack",
+   "processes": [
+    "Paid media – pacing & budget management"
+   ],
+   "quotes": [
+    {
+     "text": "the sheets have broken because we no longer have a Supermetric subscription.",
+     "role_family": "a performance manager",
+     "id": "SD-PP01",
+     "timestamp": "~22:57 (L193)"
+    },
+    {
+     "text": "we have to manually input like the ad account ID and the name and the budgets. And then it's not always pulling correctly.",
+     "role_family": "a performance manager",
+     "id": "SH-PP02",
+     "timestamp": "~20:46 (L198–L199)"
+    },
+    {
+     "text": "that's one more issue that Supermetrics is breaking down a lot.",
+     "role_family": "a performance team member",
+     "id": "MC-PP06",
+     "timestamp": "~20:25 (L198)"
+    }
+   ],
+   "existing_problem": "R1 Meta pacing sheet is broken – Supermetrics connector failing (pack #2)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R1 to: 'Pacing data feeds are failing (Supermetrics unreliable and not being renewed), so Meta and Google pacing is done by hand and one person paces Meta daily in Claude'. 'Lapsed' is contested (X-01).",
+   "root_cause_chain": [
+    "Meta (and some Google) pacing sheets don't pull data correctly (SH-PP02, MC-PP06).",
+    "The Supermetrics connector they depend on is failing and not being renewed (SD-PP01, MC-PP06).",
+    "Nobody owns the pacing data pipeline or its renewal; the workaround is one person pacing Meta by hand in Claude daily (SD-PP01) and an unowned Slack bot posting M/W/F (SD-PP19).",
+    "Pacing tooling was assembled from a paid connector, spreadsheets and a bot without an owner, monitoring or a renewal decision."
+   ],
+   "shared_root_cause": "RC-04",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (MC-O04, SD-O02, SH-O01) fix MC-PP06, SD-PP01, SD-PP19, SH-PP02, SH-PP05",
+    "Detected by extractor (not said outright): SD-PP19",
+    "Interviewer-framed: MC-PP06 – \"interviewee (Tina reliability framed by interviewer, agreed)\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981588f56dcb58d6b0625"
+   ]
+  },
+  {
+   "id": "C-03",
+   "problem": "Ad channels beyond Google and Meta have no pacing, so overspends go unseen",
+   "members": [
+    "MP-PP02 (interviewee)",
+    "WS-PP02 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 1,
+    "leadership": 1,
+    "roles": [
+     "performance manager",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "Medium",
+   "confidence_reason": "2 raises (1 staff + 1 leadership); no stated $ figure inside the cluster itself – the $10K sits in MP-PP01 and may be the same incident (X-10). Would confirm: a list of live platforms per client vs pacing lines, and leadership confirming the incident.",
+   "damage_area": [
+    "margin/revenue",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "'A couple' of overspend incidents (WS-PP02, stated); the $10K credit (MP-PP01) is linked to the LinkedIn gap in the context pack but may be one incident with two causes (X-10). Untracked: LinkedIn, ChatGPT ads, Criteo, Pinterest, TikTok (WS-PP02)."
+   ],
+   "severity": 5,
+   "severity_source": "WS-PP02",
+   "anchor": "Performance visibility & margin",
+   "processes": [
+    "Paid media – pacing & budget management"
+   ],
+   "quotes": [
+    {
+     "text": "I probably should set up a pacing track with the LinkedIn and then bang, this happens.",
+     "role_family": "leadership",
+     "id": "MP-PP02",
+     "timestamp": "~44:41 (L577)"
+    },
+    {
+     "text": "We have had a couple of issues with pacing, etc. and accounts. … overspending and stuff",
+     "role_family": "a performance manager",
+     "id": "WS-PP02",
+     "timestamp": "~42:27 (L517–L518)"
+    }
+   ],
+   "existing_problem": "R2 Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend (pack #1)",
+   "verdict": "Split",
+   "verdict_note": "Second half of R2. Medium confidence: confirm whether the $10K credit was the LinkedIn incident (X-10) and list live platforms per client vs pacing lines.",
+   "root_cause_chain": [
+    "Overspends occur on LinkedIn and other channels (MP-PP02, WS-PP02).",
+    "Pacing covers only Google and Meta (WS-PP02).",
+    "New channels are added to client plans without a step that adds them to pacing (MP-PP02).",
+    "Channel set-up has no checklist that ties 'live platform' to 'pacing line'."
+   ],
+   "shared_root_cause": "RC-02",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (MP-O03, WS-O01) fix MP-PP02, WS-PP02"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769811db952ca85e18ce3af"
+   ]
+  },
+  {
+   "id": "C-04",
+   "problem": "Performance drops and tracking breaks surface only in manual checks, often at month-end",
+   "members": [
+    "SD-PP04 (interviewee)",
+    "DM-PP03 (interviewee)",
+    "MC-PP08 (interviewee)",
+    "DM-PP02 (interviewee)",
+    "WS-PP04 (interviewee)",
+    "SH-PP11 (interviewee)",
+    "SH-PP12 (interviewee)",
+    "MP-PP17 (interviewer)",
+    "LS-PP05 (interviewee)",
+    "ZC-PP05 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 7,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "performance specialist",
+     "performance manager",
+     "performance manager",
+     "SEO manager",
+     "SEO manager"
+    ],
+    "corroborations": [
+     "MP-PP17 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "7 independent raises (7 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "margin/revenue",
+    "time"
+   ],
+   "impact_evidence": [
+    "Tracking breaks found up to ~7 days late (SH-PP11, stated); Tina covers budget only, so conversions/CPA/ROAS checked by hand across ~20 clients fortnightly – 8.8–20.9 h/month (DM-PP02, estimated); SEO checks 4–8 h/month (LS-PP05, assumed). Indicative ≈ 13–29 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "SD-PP04",
+   "anchor": "Performance visibility & margin",
+   "processes": [
+    "Performance monitoring & alerting",
+    "Monthly SEO delivery"
+   ],
+   "quotes": [
+    {
+     "text": "if I'm not in the account, then there's no way of knowing.",
+     "role_family": "a performance manager",
+     "id": "SD-PP04",
+     "timestamp": "~51:56 (L516)"
+    },
+    {
+     "text": "the one [the bot] is sending it out is just budget [pacing]… I look for each of the accounts, which actually takes time.",
+     "role_family": "a performance manager",
+     "id": "DM-PP02",
+     "timestamp": "~25:27 (L307)"
+    },
+    {
+     "text": "I still do it manually, which is silly.",
+     "role_family": "an SEO manager",
+     "id": "LS-PP05",
+     "timestamp": "~14:34 (L060)"
+    }
+   ],
+   "existing_problem": "R3 No proactive performance alerting – problems found at month-end (pack #13)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R3 to: 'Performance drops and tracking breaks surface only in manual checks – paid and SEO – often at month-end'. Adds SEO (LS, ZC) and tracking-break detection (SH-PP11). Note a Google Ads script already flags 7 days without conversions (X-22).",
+   "root_cause_chain": [
+    "Performance drops, tracking breaks and SEO dips are found only when someone opens the account – often at month-end or in a busy week, late (SD-PP04, SH-PP11, SH-PP12, ZC-PP05).",
+    "Existing automation flags budget only (Tina) or one failure type (Google Ads no-conversions script) and gives no cause (DM-PP02, WS-PP04, KO-str08).",
+    "There are no agreed thresholds or a roll-up view across accounts (LS-PP05, DM-PP03).",
+    "Monitoring was designed around people checking, not around signals pushed to people."
+   ],
+   "shared_root_cause": "RC-02",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (DM-O01, DM-O02, LS-O03, MC-O04, MC-O06, MP-O03, MP-O04, MP-O10, SD-O05, SH-O06, WS-O03, ZC-O03) fix DM-PP02, DM-PP03, LS-PP05, MC-PP08, MP-PP17, SD-PP04, SH-PP11, SH-PP12, WS-PP04, ZC-PP05",
+    "Interviewer-framed: DM-PP03 – \"interviewee (weekly update); interviewer extended to real-time thresholds\"",
+    "Interviewer-framed: MC-PP08 – \"interviewee (answering Austin's open question)\"",
+    "Interviewer-sourced (corroboration only): MP-PP17"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981d8a087ed06b4ec140a"
+   ]
+  },
+  {
+   "id": "C-05",
+   "problem": "Managers spend hours collating data across platforms for calls, queries and analysis",
+   "members": [
+    "SD-PP05 (interviewee)",
+    "SD-PP06 (interviewee)",
+    "DM-PP05 (interviewee)",
+    "SH-PP13 (interviewee)",
+    "SD-PP14 (interviewer)",
+    "DM-PP01 (interviewee)",
+    "SD-PP13 (interviewee)",
+    "WS-PP03 (interviewee)",
+    "WS-PP12 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "performance manager",
+     "performance manager"
+    ],
+    "corroborations": [
+     "SD-PP14 (performance manager)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (4 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Call prep + follow-up 1 h–1 h 15 per 30-min call (SD-PP05, stated) ≈ 16.7–34.1 h/month (estimated); 30 min data review per monthly WIP call ≈ 5–10 h/month (DM-PP05, stated per call); cross-platform query answering 3.5–19 h/month (DM-PP01, estimated); Tier 1 reconciliation 2.2–13 h/month (SD-PP13, assumed). Indicative ≈ 27–76 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "SD-PP05",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Client meetings & prep",
+    "Paid media – optimisation",
+    "Performance monitoring & alerting"
+   ],
+   "quotes": [
+    {
+     "text": "for a half an hour call, I'm basically spending about one hour, one hour, 15 minutes on that specific client",
+     "role_family": "a performance manager",
+     "id": "SD-PP05",
+     "timestamp": "~18:36 (L161)"
+    },
+    {
+     "text": "Even though it's a Google Ads related question, I'll be jumping onto the CRM, GA4 and everything to better understand.",
+     "role_family": "a performance manager",
+     "id": "DM-PP01",
+     "timestamp": "~02:52 (L046)"
+    },
+    {
+     "text": "there's a lot of data processing involved with this client specifically because they have a lot of different sources of truths.",
+     "role_family": "a performance manager",
+     "id": "SD-PP13",
+     "timestamp": "~09:32 (L076)"
+    }
+   ],
+   "existing_problem": "R4 Client-call prep takes longer than the call (pack #15)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R4 to: 'Managers spend hours collating data across platforms – call prep takes longer than the call'. Call prep is one symptom; ad-hoc queries and Tier 1 reconciliation are the others. Prep time differs by manager (X-24).",
+   "root_cause_chain": [
+    "Managers spend most prep and analysis time collating, not analysing (SD-PP14).",
+    "Data for one client sits in several ad platforms, GA4, the CRM and client sources of truth (DM-PP01, SD-PP13).",
+    "There is no per-client consolidated view or pre-built call pack; platform recommendations ignore account strategy so must be re-worked (WS-PP03).",
+    "AI note-takers and Claude help but need re-briefing each time and miss actions (SD-PP06, SH-PP13).",
+    "No shared data layer joins platform data with client context."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (DM-O05, DM-O08, SD-O05, SD-O06, SD-O10, SH-O05, WS-O04) fix DM-PP01, DM-PP05, SD-PP05, SD-PP06, SD-PP13, SD-PP14, SH-PP13, WS-PP03",
+    "Interviewer-framed: SH-PP13 – \"interviewee (after Austin prompted, L371–L381)\"",
+    "Interviewer-sourced (corroboration only): SD-PP14",
+    "Interviewer-framed: WS-PP03 – \"interviewee (consolidated view framed by interviewer; interviewee agreed)\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981efb9f8d9efda5367f0"
+   ]
+  },
+  {
+   "id": "C-06",
+   "problem": "Client reports, reviews and decks are assembled and narrated by hand each cycle",
+   "members": [
+    "DM-PP04 (interviewee)",
+    "SH-PP16 (interviewee)",
+    "LS-PP04 (interviewee)",
+    "KZ-PP18 (interviewee)",
+    "SH-PP06 (interviewee)",
+    "WS-PP05 (interviewee)",
+    "LS-PP16 (interviewer)",
+    "DM-PP14 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 5,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "SEO manager",
+     "SEO manager",
+     "performance manager"
+    ],
+    "corroborations": [
+     "LS-PP16 (SEO manager)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "5 independent raises (5 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Monthly commentary ~30 min per client ≈ 8.3–11.7 h/month for one manager (DM-PP04, stated per client); bespoke three-market deck half a day+ a month (KZ-PP18, stated); weekly client KPI sheets 3.3–6.5 h/month (SH-PP06, assumed); last report page 2–4 h/month (LS-PP04, assumed); commentary 3–6 h/month (SH-PP16, assumed). Indicative ≈ 21–35 h/month (assumed)."
+   ],
+   "severity": 3,
+   "severity_source": "DM-PP04",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Monthly reporting",
+    "Quarterly / 6-month review"
+   ],
+   "quotes": [
+    {
+     "text": "So this probably takes me like half a day, if not more, of like work hours.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP18",
+     "timestamp": "~41:42 (L409)"
+    },
+    {
+     "text": "it's completely manual now",
+     "role_family": "an SEO manager",
+     "id": "LS-PP04",
+     "timestamp": "~20:46 (L082)"
+    },
+    {
+     "text": "And that's something that we manually do before 11 a.m. every single Monday.",
+     "role_family": "a performance manager",
+     "id": "SH-PP06",
+     "timestamp": "~32:02 (L303)"
+    }
+   ],
+   "existing_problem": "R5 Client documents are built by duplicating previous ones – errors reach clients (pack #12)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R5 to: 'Client reports, reviews and decks are assembled and narrated by hand each cycle'. No interview evidences the 'duplicating previous ones → errors reach clients' mechanism (R5 rests on document evidence); client-facing errors are evidenced instead under C-13. AgencyAnalytics has already removed much manual charting (strength S-01).",
+   "root_cause_chain": [
+    "Monthly commentary, the 'work done/planned' page, bespoke decks and quarterly reviews are written by hand each cycle (DM-PP04, LS-PP04, KZ-PP18, WS-PP05).",
+    "AgencyAnalytics automates charts but not narrative, work-completed or context such as seasonality (SH-PP16, LS-PP16).",
+    "Work done and changes made aren't held in a structured place a report can draw from (DM-PP04 uses change history; LS-PP04).",
+    "Reporting inputs live across tickets, change logs and people's heads rather than one record."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (DM-O05, KZ-O10, LS-O02, SH-O03, WS-O06) fix DM-PP04, KZ-PP18, LS-PP04, LS-PP16, SH-PP06, WS-PP05",
+    "Interviewer-sourced (corroboration only): LS-PP16"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981b6a4eaf34024fb2334"
+   ]
+  },
+  {
+   "id": "C-07",
+   "problem": "Client knowledge sits in people's heads and personal docs, so briefs and cover suffer",
+   "members": [
+    "ZC-PP01 (interviewee)",
+    "ZC-PP04 (interviewee)",
+    "HT-PP04 (interviewer)",
+    "SJ-PP09 (interviewee)",
+    "KZ-PP15 (interviewee)",
+    "KZ-PP16 (interviewee)",
+    "ZC-PP13 (interviewee)",
+    "MP-PP20 (interviewer)",
+    "WS-PP08 (detected)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "content",
+     "SEO manager",
+     "performance manager"
+    ],
+    "corroborations": [
+     "HT-PP04 (content)",
+     "MP-PP20 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (4 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "risk/compliance",
+    "time"
+   ],
+   "impact_evidence": [
+    "Brief checking against strategy, USPs and history 5–20 h/month (ZC-PP01, estimated). Otherwise unquantified; risk is rework and failed cover."
+   ],
+   "severity": 4,
+   "severity_source": "ZC-PP01",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Content briefing",
+    "Monthly SEO delivery",
+    "Knowledge & SOPs"
+   ],
+   "quotes": [
+    {
+     "text": "There's notes in here, right? But they don't get, like, they don't get copied over to the next one.",
+     "role_family": "a content team member",
+     "id": "SJ-PP09",
+     "timestamp": "~24:36 (L275)"
+    },
+    {
+     "text": "I'm finding myself just like, writing, like scribbling down on a Google Doc, oh, the client's asked for this",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP04",
+     "timestamp": "~42:38 (L450)"
+    },
+    {
+     "text": "It's basically just like a data backup. I think I'm the only one that does anything with the transcripts.",
+     "role_family": "leadership",
+     "id": "MP-PP20",
+     "timestamp": "~41:56 (L522–L523)"
+    }
+   ],
+   "existing_problem": "R14 Client knowledge lives in people's heads, not per client (pack #9)",
+   "verdict": "Confirm",
+   "verdict_note": "R14 stands as written. 4 staff raises plus corroboration from leadership (MP-PP20) and a content team member (HT-PP04, interviewer-prompted).",
+   "root_cause_chain": [
+    "Briefs and cover depend on what the owning person remembers or keeps in a personal doc (ZC-PP04, SJ-PP09, HT-PP04).",
+    "Client notes and feedback don't carry forward month to month; project plans and master sheets aren't kept current under load (SJ-PP09, KZ-PP15).",
+    "Call notes and transcripts are captured but not reviewed or filed per client (KZ-PP16, ZC-PP13, MP-PP20); WIP status passes verbally (WS-PP08).",
+    "There is no per-client record that every tool and person writes to and reads from."
+   ],
+   "shared_root_cause": "RC-03",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (MP-O10, WS-O04, ZC-O01, ZC-O10) fix MP-PP20, WS-PP08, ZC-PP01, ZC-PP04, ZC-PP13",
+    "Interviewer-framed: ZC-PP01 – \"interviewee; interviewer framed 'fresh brain' – agreed\"",
+    "Interviewer-framed: ZC-PP04 – \"interviewee (answering interviewer)\"",
+    "Interviewer-sourced (corroboration only): HT-PP04",
+    "Interviewer-sourced (corroboration only): MP-PP20",
+    "Interviewer-framed: WS-PP08 – \"detected (interviewer probed)\"",
+    "Detected by extractor (not said outright): WS-PP08",
+    "COI: 'AI business brain' is Austin's own product idea (KO suggestions, interviewer-sourced)."
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff7698168a440ee525bce4877"
+   ]
+  },
+  {
+   "id": "C-08",
+   "problem": "Client handovers (sales to delivery, offboarding) have no structured pack or trigger",
+   "members": [
+    "KO-PP01 (interviewer)",
+    "SH-PP07 (interviewee)",
+    "MC-PP11 (interviewee)",
+    "WS-PP06 (interviewee)",
+    "MC-PP14 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance specialist",
+     "performance manager"
+    ],
+    "corroborations": [
+     "KO-PP01 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "time"
+   ],
+   "impact_evidence": [
+    "One offboarding: client chased handover docs 2–3 days after contract end (MC-PP14, stated). Internal handover call sometimes 10 min before client call (WS-PP06, stated). Two months' work for a client with no website (WS-PP07 sits in C-38)."
+   ],
+   "severity": 4,
+   "severity_source": "WS-PP06",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Sales to delivery handover",
+    "NEW: Client offboarding & handover"
+   ],
+   "quotes": [
+    {
+     "text": "So we're like re-asking questions. And ideally, it would be nice to find that information somewhere.",
+     "role_family": "a performance manager",
+     "id": "SH-PP07",
+     "timestamp": "~14:56 (L133)"
+    },
+    {
+     "text": "So sometimes I'm going in blind… I haven't talked to [sales] on what has been communicated on the sales side",
+     "role_family": "a performance team member",
+     "id": "MC-PP11",
+     "timestamp": "~30:11 (L266)"
+    },
+    {
+     "text": "Another two or three days has passed… the client is following up on the handover docs… So that makes us look bad.",
+     "role_family": "a performance team member",
+     "id": "MC-PP14",
+     "timestamp": "~27:55 (L249)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New problem. Related to R14 (client knowledge) and R18 (sales commits). Leadership describes a 15-minute handover on one HubSpot record (KO-str07); staff say it is often late or skipped (X-16).",
+   "root_cause_chain": [
+    "New clients are re-asked questions and onboarding calls run 'blind'; an offboarding handover was missed (SH-PP07, MC-PP11, MC-PP14).",
+    "The internal sales-to-delivery call happens late or is skipped (WS-PP06).",
+    "Handover relies on a call transcript and HubSpot notes rather than a required pack (KO-PP01, KO-str07).",
+    "Client lifecycle transitions have no required fields, checklist or trigger."
+   ],
+   "shared_root_cause": "RC-03",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O02) fix KO-PP01",
+    "Interviewer-sourced (corroboration only): KO-PP01"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769818e891ce057635a604d"
+   ]
+  },
+  {
+   "id": "C-09",
+   "problem": "Client onboarding stalls waiting on access, client inputs and the tracking contractor",
+   "members": [
+    "ZC-PP07 (interviewee)",
+    "SD-PP09 (interviewee)",
+    "SD-PP10 (interviewee)",
+    "MC-PP10 (interviewee)",
+    "MC-PP17 (interviewer)",
+    "MC-PP16 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "performance manager",
+     "performance specialist"
+    ],
+    "corroborations": [
+     "MC-PP17 (performance specialist)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "time",
+    "growth"
+   ],
+   "impact_evidence": [
+    "Ad copy 4–5 revision rounds; days–weeks to go-live while the build itself is ~1 day (MC-PP10, stated); up to 3 concurrent onboardings with no cap (SD-PP10, stated)."
+   ],
+   "severity": 4,
+   "severity_source": "SD-PP10",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Client onboarding – access & setup",
+    "Client onboarding – audit & strategy",
+    "Conversion tracking setup"
+   ],
+   "quotes": [
+    {
+     "text": "Getting access from them is a bit of a friction area. Sometimes it's instant. Sometimes there's a lot of following up.",
+     "role_family": "a performance manager",
+     "id": "SD-PP09",
+     "timestamp": "~41:01 (L414)"
+    },
+    {
+     "text": "The client has like four or five revisions that needed back and forth and stuff. So that's what's taking long.",
+     "role_family": "a performance team member",
+     "id": "MC-PP10",
+     "timestamp": "~31:22 (L271)"
+    },
+    {
+     "text": "I'm always asking if everything's done.",
+     "role_family": "a performance team member",
+     "id": "MC-PP16",
+     "timestamp": "~35:38 (L304)"
+    }
+   ],
+   "existing_problem": "R20 Onboarding stalls on client access and disrupts BAU (pack #10); R17 Conversion tracking depends on one contractor (pack #19)",
+   "verdict": "Split",
+   "verdict_note": "R20 splits: the 'stalls on access' half is C-09; the 'disrupts BAU' half is C-10. R17 (conversion tracking depends on one contractor) merges into C-09 – only one interview raises the wait (MC-PP16); the contractor dependency itself sits in the dependency table (SH, SD, MC).",
+   "root_cause_chain": [
+    "Go-live is delayed by days to weeks (MC-PP10, SD-PP10).",
+    "Onboarding waits on client access, questionnaire, approvals and the tracking contractor, in series (ZC-PP07, SD-PP09, MC-PP10, MC-PP16).",
+    "Client obligations (access, inputs, approval turnaround) aren't set as conditions at signing, and contractor status isn't visible (MC-PP16).",
+    "External dependencies are chased by email rather than tracked against agreed dates."
+   ],
+   "shared_root_cause": "RC-07",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (MC-O11, SD-O07) fix MC-PP10, MC-PP17, SD-PP09, SD-PP10",
+    "Interviewer-framed: SD-PP10 – \"interviewee (BAU disruption raised by interviewer – agreed)\"",
+    "Interviewer-sourced (corroboration only): MC-PP17"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769816bb3a6ed13ce47da58",
+    "https://app.notion.com/40fe204ff769812d9b86e757a536c275"
+   ]
+  },
+  {
+   "id": "C-10",
+   "problem": "Onboarding work is manual and heavy; clustered starts swamp BAU and wear staff down",
+   "members": [
+    "KO-PP08 (interviewee)",
+    "KZ-PP01 (interviewee)",
+    "KZ-PP02 (interviewee)",
+    "KZ-PP03 (interviewee)",
+    "KZ-PP04 (interviewee)",
+    "ZC-PP08 (interviewee)",
+    "MC-PP12 (interviewee)",
+    "SD-PP11 (interviewee)",
+    "KO-PP22 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 2,
+    "roles": [
+     "SEO manager",
+     "SEO manager",
+     "performance specialist",
+     "performance manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "6 independent raises (4 staff + 2 leadership).",
+   "damage_area": [
+    "time",
+    "people/morale",
+    "growth"
+   ],
+   "impact_evidence": [
+    "16–38 h per SEO onboarding, 8.3–39.5 h/month (KZ-PP01/KZ-PP04, assumed); paid account audit 4–8 h per onboarding (SD-PP11, assumed); five onboardings in one month (ZC-PP08, stated); 90-day ramp for new hires (KO-PP09 sits in C-17)."
+   ],
+   "severity": 5,
+   "severity_source": "KZ-PP01",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Client onboarding – audit & strategy"
+   ],
+   "quotes": [
+    {
+     "text": "onboarding takes a really long time… onboarding a new client is pretty hectic here as well.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP01",
+     "timestamp": "~17:23 (L164)"
+    },
+    {
+     "text": "One month specifically, I had onboarding five clients in the same month.",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP08",
+     "timestamp": "~20:36 (L218)"
+    },
+    {
+     "text": "if you're new to an agency and you're a junior or a new staff member and you're just copying onboarding after onboarding",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP03",
+     "timestamp": "~25:05 (L209)"
+    }
+   ],
+   "existing_problem": "R20 Onboarding stalls on client access and disrupts BAU (pack #10)",
+   "verdict": "Split",
+   "verdict_note": "Second half of R20 ('disrupts BAU'). Raised by 4 staff + both leaders. An SEO manager's Claude prompt guide already cut strategy time (strength S-02).",
+   "root_cause_chain": [
+    "Clustered onboardings swamp BAU, force overtime and demoralise junior staff (KO-PP08, KZ-PP01, KZ-PP03, ZC-PP08, MC-PP12).",
+    "Month-one deliverables (metadata, keyword lists, strategy deck, account audit, client research) are built largely by hand (KZ-PP04, SD-PP11, KO-PP22).",
+    "There is no cap on concurrent onboardings per manager and month one is over-serviced (SD-PP10, ZC-PP08).",
+    "Onboarding isn't modelled as capacity: sales close dates aren't matched to delivery load."
+   ],
+   "shared_root_cause": "RC-05",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O02, KZ-O01, SD-O07) fix KO-PP22, KZ-PP01, KZ-PP02, KZ-PP03, KZ-PP04, SD-PP11",
+    "Interviewer-framed: KZ-PP02 – \"interviewee (interviewer framed growth; interviewee agreed and gave the example)\"",
+    "COI: Austin offered his own client-research agent for new-client dossiers (KO suggestions, leadership's request)."
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769816bb3a6ed13ce47da58"
+   ]
+  },
+  {
+   "id": "C-11",
+   "problem": "Content stalls at client approval with no client-facing approval trail",
+   "members": [
+    "KZ-PP14 (interviewee)",
+    "ZC-PP06 (interviewee)",
+    "LS-PP06 (interviewee)",
+    "LS-PP07 (interviewer)",
+    "LS-PP17 (interviewee)",
+    "HT-PP10 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "SEO manager",
+     "SEO manager",
+     "content"
+    ],
+    "corroborations": [
+     "LS-PP07 (SEO manager)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (4 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "time"
+   ],
+   "impact_evidence": [
+    "Approval averages ~1 week per piece (ZC-PP06, stated); 20–40% of clients need several follow-ups (KZ-PP14, assumed); one client paused content (LS-PP06, stated)."
+   ],
+   "severity": 3,
+   "severity_source": "ZC-PP06",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Client content approval"
+   ],
+   "quotes": [
+    {
+     "text": "I think on average, it probably takes like a week on average. So it's quite a long time to get it done.",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP06",
+     "timestamp": "~41:13 (L435)"
+    },
+    {
+     "text": "Sometimes that doesn't always, like you need to follow up a few times as well.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP14",
+     "timestamp": "~30:56 (L296)"
+    },
+    {
+     "text": "a paper trail of approvals (when it was sent, when it was approved)",
+     "role_family": "an SEO manager (agreeing to interviewer's idea)",
+     "id": "LS-PP07",
+     "timestamp": "~23:08 (L094)"
+    }
+   ],
+   "existing_problem": "R10 Content stalls at client approval – or the tracker can't show what's finished (pack #11)",
+   "verdict": "Confirm",
+   "verdict_note": "R10 stands. The 'tracker can't show what's finished' half is better evidenced under C-21.",
+   "root_cause_chain": [
+    "Finished content waits ~1 week for approval and needs chasing (ZC-PP06, KZ-PP14).",
+    "Clients with many approvers, turnover or compliance teams stall or add rounds (LS-PP06, HT-PP10).",
+    "Approval happens over email and Word docs with no trail of sent/approved dates (LS-PP07, LS-PP17).",
+    "There is no client-facing approval step with a due date and default."
+   ],
+   "shared_root_cause": "RC-07",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (LS-O05) fix LS-PP07, LS-PP17",
+    "Interviewer-framed: ZC-PP06 – \"interviewee (answering interviewer)\"",
+    "Interviewer-sourced (corroboration only): LS-PP07"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981b68122d87f55dc84be"
+   ]
+  },
+  {
+   "id": "C-12",
+   "problem": "Regulated-industry content lacks shared compliance rules and credible sources",
+   "members": [
+    "ZC-PP11 (interviewee)",
+    "SJ-PP07 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "content"
+    ],
+    "corroborations": []
+   },
+   "confidence": "Medium",
+   "confidence_reason": "2 staff raises; no stated impact number (research hours assumed). Would confirm: count of regulated-client rejections or revision rounds over 6 months.",
+   "damage_area": [
+    "risk/compliance",
+    "client experience/retention",
+    "time"
+   ],
+   "impact_evidence": [
+    "One regulated client rejected content for breaching guidelines (ZC-PP11, stated); research 2.5–15 h/month (SJ-PP07, assumed)."
+   ],
+   "severity": 3,
+   "severity_source": "ZC-PP11",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Content briefing",
+    "Content writing & editing"
+   ],
+   "quotes": [
+    {
+     "text": "we sent over a piece of content and they were like, look, we can't publish this. It doesn't align with the guidelines.",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP11",
+     "timestamp": "~38:11 (L397)"
+    },
+    {
+     "text": "it's like has been annoying to find the information from legitimate websites and legitimate case studies that have been done.",
+     "role_family": "a content team member",
+     "id": "SJ-PP07",
+     "timestamp": "~11:59 (L127)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Paid client base clusters in dental and finance (context pack §4), so exposure is wider than SEO content.",
+   "root_cause_chain": [
+    "Regulated clients (dental, finance) reject or heavily revise content (ZC-PP11).",
+    "Writers struggle to find credible stats and case studies (SJ-PP07).",
+    "Compliance rules sit in one manager's run sheet and individual memory (ZC-str09, ZC-dep3); there is no shared research source.",
+    "Regulated-industry requirements are not captured as reusable client or vertical rules."
+   ],
+   "shared_root_cause": "RC-03",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (SJ-O03, ZC-O01) fix SJ-PP07, ZC-PP11",
+    "Interviewer-framed: ZC-PP11 – \"interviewee (answering interviewer)\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769816c906cebe25af6cc33"
+   ]
+  },
+  {
+   "id": "C-13",
+   "problem": "Page builds and content uploads reach clients with errors or loop for weeks",
+   "members": [
+    "KZ-PP13 (interviewee)",
+    "LS-PP10 (interviewee)",
+    "SB-PP07 (interviewee)",
+    "SB-PP08 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "SEO manager",
+     "technical SEO"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "time"
+   ],
+   "impact_evidence": [
+    "One page looped for a month (SB-PP07, stated); 2–8 h/month rework (SB-PP07, assumed); 10–20% of builds with errors (KZ-PP13, assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "KZ-PP13",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Monthly SEO delivery",
+    "NEW: Content upload & page build (CMS)"
+   ],
+   "quotes": [
+    {
+     "text": "sometimes you just don't pick things up and then the client sees it first and they're not happy.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP13",
+     "timestamp": "~55:27 (L551)"
+    },
+    {
+     "text": "I have been going back and forth. for a month. for a singular page.",
+     "role_family": "a technical SEO team member",
+     "id": "SB-PP07",
+     "timestamp": "~16:16 (L204–L206)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Partly overlaps R5's 'errors reach clients', but the cause here is build QA and unclear requirements, not document duplication.",
+   "root_cause_chain": [
+    "Clients find layout (especially mobile) and implementation errors first, or pages loop for weeks (KZ-PP13, LS-PP10, SB-PP07).",
+    "Implementers aren't web developers and there is no cross-device QA checklist (KZ-PP13).",
+    "Requirements aren't fixed before build and clients change their minds; CMS complexity (Webflow) adds relay rounds (SB-PP07, SB-PP08).",
+    "Page builds have no defined spec–build–QA–sign-off step."
+   ],
+   "shared_root_cause": "RC-07",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (SB-O05) fix SB-PP07, SB-PP08"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769811096cfd291b9f670da"
+   ]
+  },
+  {
+   "id": "C-14",
+   "problem": "Client approval cycles hold up paid optimisations and launches, while managers carry the blame",
+   "members": [
+    "DM-PP06 (interviewee)",
+    "DM-PP07 (interviewee)",
+    "SD-PP12 (interviewee)",
+    "SD-PP18 (interviewee)",
+    "SD-PP17 (interviewee)",
+    "WS-PP16 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "performance manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "people/morale",
+    "time"
+   ],
+   "impact_evidence": [
+    "Ad hoc launch ≥ 1 week given on-time creatives (SD-PP12, stated). Otherwise unquantified."
+   ],
+   "severity": 4,
+   "severity_source": "DM-PP06",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Paid media – optimisation",
+    "Paid media – campaign build"
+   ],
+   "quotes": [
+    {
+     "text": "I feel like my hands are tied back because I can't do anything on the account. I am just waiting for their approval",
+     "role_family": "a performance manager",
+     "id": "DM-PP06",
+     "timestamp": "~31:53 (L445)"
+    },
+    {
+     "text": "we seek the ad copy approval because it's on safer side. Otherwise, if something goes off, then we would be getting the blame.",
+     "role_family": "a performance manager",
+     "id": "DM-PP07",
+     "timestamp": "~30:57 (L433)"
+    },
+    {
+     "text": "generally we require at least a week's time provided the creatives are being sent to us on time.",
+     "role_family": "a performance manager",
+     "id": "SD-PP12",
+     "timestamp": "~34:59 (L360)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Part fixed by a client campaign brief template (SD-str01).",
+   "root_cause_chain": [
+    "Paid changes and launches wait on client sign-off, while managers are judged on results (DM-PP06).",
+    "Managers send even minor changes for approval to avoid blame (DM-PP07); launches need creatives and two approvals (SD-PP12).",
+    "Timing depends on when WIP meetings fall; clients briefed verbally until a template was introduced (SD-PP18, SD-PP17).",
+    "Approval thresholds (what needs sign-off, by when, and what happens by default) aren't agreed with clients."
+   ],
+   "shared_root_cause": "RC-07",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff76981e1b678c897751d71d3"
+   ]
+  },
+  {
+   "id": "C-15",
+   "problem": "Seasonal, trending and competitor signals are spotted too late, by hand",
+   "members": [
+    "ZC-PP09 (interviewee)",
+    "KZ-PP19 (interviewee)",
+    "KZ-PP20 (interviewee)",
+    "ZC-PP17 (interviewee)",
+    "ZC-PP15 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "SEO manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "2 staff raises with stated numbers: ~2-month lead time needed (ZC-PP09) and trends refreshable only every 2–3 days (KZ-PP19). Both from SEO managers.",
+   "damage_area": [
+    "growth",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "~2-month lead time needed for seasonal peaks (ZC-PP09, stated); trends refreshed only every 2–3 days by hand, 2.7–8.3 h/month (KZ-PP19, stated cadence, assumed hours)."
+   ],
+   "severity": 3,
+   "severity_source": "ZC-PP09",
+   "anchor": "Growth & sales engine",
+   "processes": [
+    "Monthly SEO delivery",
+    "Content briefing"
+   ],
+   "quotes": [
+    {
+     "text": "we were just getting to those seasonal peaks too late.",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP09",
+     "timestamp": "~30:44 (L322)"
+    },
+    {
+     "text": "I set up a tracker, but I'm like, I can only do this once every two, three days. I can't do this every single day.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP19",
+     "timestamp": "~38:17 (L388)"
+    },
+    {
+     "text": "like a major event and we'd be too late to even think to do like a content topic or an idea for it.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP20",
+     "timestamp": "~44:01 (L443)"
+    }
+   ],
+   "existing_problem": "R24 Seasonal and trending content is planned too late to catch the peak (pack #24)",
+   "verdict": "Confirm",
+   "verdict_note": "R24 stands; evidence widens it to news and competitor changes (ZC-PP15, ZC-PP17).",
+   "root_cause_chain": [
+    "Seasonal peaks and major events are missed for content (ZC-PP09, KZ-PP20).",
+    "Spotting depends on a manager noticing the story or checking trends by hand (ZC-PP17, KZ-PP19); competitors aren't monitored (ZC-PP15).",
+    "No calendar or monitoring feeds the content plan ahead of time (one manager built an events calendar himself, KZ-str09).",
+    "Content planning runs monthly from keyword research with no forward-looking signal input."
+   ],
+   "shared_root_cause": "RC-02",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KZ-O08, ZC-O03, ZC-O07, ZC-O12) fix KZ-PP19, KZ-PP20, ZC-PP09, ZC-PP15, ZC-PP17"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981e6ae3af6fc3a18a751"
+   ]
+  },
+  {
+   "id": "C-16",
+   "problem": "Churn risk is spotted late and account teams report rather than advise",
+   "members": [
+    "KO-PP06 (detected)",
+    "MP-PP16 (interviewee)",
+    "LS-PP15 (interviewee)",
+    "KO-PP20 (interviewee)",
+    "LS-PP08 (interviewee)",
+    "LS-PP09 (interviewer)"
+   ],
+   "raised_by": {
+    "staff": 1,
+    "leadership": 2,
+    "roles": [
+     "SEO manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": [
+     "LS-PP09 (SEO manager)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (1 staff + 2 leadership). Mostly leadership evidence.",
+   "damage_area": [
+    "client experience/retention",
+    "margin/revenue"
+   ],
+   "impact_evidence": [
+    "About five churn-risk escalations a week (KO-PP05, in C-36); a six-year client lost (MP-PP16, stated). No churn-cost figure."
+   ],
+   "severity": 4,
+   "severity_source": "MP-PP16",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Client escalation",
+    "Client meetings & prep"
+   ],
+   "quotes": [
+    {
+     "text": "the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy",
+     "role_family": "leadership",
+     "id": "KO-PP20",
+     "timestamp": "~68:58 (L326)"
+    },
+    {
+     "text": "Some go out of the blue.",
+     "role_family": "an SEO manager",
+     "id": "LS-PP15",
+     "timestamp": "~21:12 (L084)"
+    },
+    {
+     "text": "I've also just had like some bad feedback from clients who are now not with us anymore. And as a client has been with us for like six years.",
+     "role_family": "leadership",
+     "id": "MP-PP16",
+     "timestamp": "~30:48 (L361)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Mostly leadership evidence (both leaders) plus one SEO manager. Existing idea 'churn-risk alerts' applies. Upsell restraint is deliberate (KO-str10) – don't frame as an upsell failure.",
+   "root_cause_chain": [
+    "Clients leave 'out of the blue' or after poor feedback (LS-PP15, MP-PP16).",
+    "Churn risk is read by human pattern-recognition only, mostly by leadership (KO-PP06).",
+    "Account teams under load describe metrics rather than bring a position or spot expansion (KO-PP20, LS-PP08, LS-PP09).",
+    "No early-warning signals or account-health review is built into the monthly cycle."
+   ],
+   "shared_root_cause": "RC-02",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O01, LS-O03, MP-O04, MP-O08) fix KO-PP06, LS-PP15, MP-PP16",
+    "Interviewer-framed: KO-PP06 – \"detected (Austin proposed signals; leadership described the manual method)\"",
+    "Detected by extractor (not said outright): KO-PP06",
+    "Interviewer-sourced (corroboration only): LS-PP09"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769813f888bfe3b3ee38213"
+   ]
+  },
+  {
+   "id": "C-17",
+   "problem": "Managers are at capacity, so lower-tier clients and account hygiene slip first",
+   "members": [
+    "LS-PP01 (interviewee)",
+    "LS-PP02 (interviewee)",
+    "WS-PP01 (interviewee)",
+    "SD-PP07 (interviewee)",
+    "SD-PP08 (interviewee)",
+    "MC-PP09 (interviewee)",
+    "DM-PP10 (interviewee)",
+    "SB-PP13 (interviewee)",
+    "SH-PP09 (interviewee)",
+    "KO-PP26 (interviewee)",
+    "MC-PP18 (interviewee)",
+    "KO-PP09 (interviewee)",
+    "MP-PP18 (interviewee)",
+    "MP-PP19 (interviewee)",
+    "MP-PP21 (interviewer)"
+   ],
+   "raised_by": {
+    "staff": 7,
+    "leadership": 2,
+    "roles": [
+     "SEO manager",
+     "performance manager",
+     "performance manager",
+     "performance specialist",
+     "performance manager",
+     "technical SEO",
+     "performance manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": [
+     "MP-PP21 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "9 independent raises (7 staff + 2 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "people/morale",
+    "growth"
+   ],
+   "impact_evidence": [
+    "Director channel load ≈ 10 → 18 with no extra resource (WS-PP01, stated); low-tier optimisation squeezed to ~2 days/week (MC-PP09, stated); Merchant Center unchecked ~3 weeks (MC-PP18, stated); 90-day ramp per hire (KO-PP09, stated). Hours: Stage 2."
+   ],
+   "severity": 4,
+   "severity_source": "LS-PP01",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Paid media – optimisation",
+    "Monthly SEO delivery",
+    "Hiring & onboarding staff"
+   ],
+   "quotes": [
+    {
+     "text": "the first set of clients that take a hit in performance or get neglected are those tier 3, tier 2 clients",
+     "role_family": "a performance manager",
+     "id": "SD-PP07",
+     "timestamp": "~12:35 (L110)"
+    },
+    {
+     "text": "Based on the 24-hour turnaround time, I would have to focus on the comms, which then... would lead to not implementing the strategies.",
+     "role_family": "a performance manager",
+     "id": "SH-PP09",
+     "timestamp": "~34:59 (L334–L335)"
+    },
+    {
+     "text": "the ramp is, like, 90 days for a new starter",
+     "role_family": "leadership",
+     "id": "KO-PP09",
+     "timestamp": "~44:27 (L225)"
+    }
+   ],
+   "existing_problem": "R21 Managers at capacity – Tier 2/3 clients get dropped first (pack #6)",
+   "verdict": "Confirm",
+   "verdict_note": "R21 stands. Widest raise in the set (7 staff + 2 leadership).",
+   "root_cause_chain": [
+    "Tier 2/3 clients and hygiene work (SQRs, Merchant Center checks) slip first (SD-PP07, SD-PP08, MC-PP18).",
+    "Managers carry 12–20 accounts plus team load, ad hoc work and pitches (LS-PP01, DM-PP10, SH-PP09).",
+    "Hires take ~90 days to carry a portfolio and growth comes in bursts (KO-PP09, MP-PP18).",
+    "Capacity isn't modelled against effort (see C-19), so load is discovered when it breaks."
+   ],
+   "shared_root_cause": "RC-05",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (DM-O02, DM-O05, DM-O08, LS-O11, MC-O06, MP-O04, SH-O04, SH-O05) fix DM-PP10, LS-PP02, MC-PP09, MP-PP18, SH-PP09",
+    "Interviewer-framed: SB-PP13 – \"interviewee (answering Austin's hypothetical)\"",
+    "Interviewer-framed: SH-PP09 – \"interviewee (answering Austin's 7–10 more clients hypothetical)\"",
+    "Interviewer-sourced (corroboration only): MP-PP21",
+    "Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981208c95f2a96063afd7"
+   ]
+  },
+  {
+   "id": "C-18",
+   "problem": "Unplanned same-day and high-touch client requests break the planned month",
+   "members": [
+    "HT-PP01 (interviewee)",
+    "HT-PP02 (interviewee)",
+    "SJ-PP14 (interviewee)",
+    "KZ-PP23 (interviewee)",
+    "KZ-PP05 (interviewee)",
+    "SB-PP15 (interviewee)",
+    "MC-PP01 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 5,
+    "leadership": 0,
+    "roles": [
+     "content",
+     "content",
+     "SEO manager",
+     "technical SEO",
+     "performance specialist"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "5 independent raises (5 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "people/morale",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Re-planning 1.4–5.8 h/month (MC-PP01, assumed); unplanned out-of-cycle work 2–6 h/month disrupting ~7 clients' schedule (HT-PP02, assumed). Indicative ≈ 3.4–11.8 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "MC-PP01",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Internal task management",
+    "Content writing & editing",
+    "Paid media – campaign build"
+   ],
+   "quotes": [
+    {
+     "text": "even the seo tech doesn't brief it, they just give us things to do at the last minute.",
+     "role_family": "a content team member",
+     "id": "HT-PP02",
+     "timestamp": "~13:57 (L155)"
+    },
+    {
+     "text": "they'll [brief] it in like middle of the day. But sometimes they need it on that day as well.",
+     "role_family": "a performance team member",
+     "id": "MC-PP01",
+     "timestamp": "~14:03 (L130–L131)"
+    },
+    {
+     "text": "if like another one or two clients come up during the week and they need something, I've got to like map that around [one high-touch client] a lot of the time",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP23",
+     "timestamp": "~16:52 (L160)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Partly related to R21 (capacity).",
+   "root_cause_chain": [
+    "Planned days and month-end deadlines break under same-day and last-minute requests (MC-PP01, HT-PP01, SB-PP15).",
+    "A few high-touch clients sit outside the normal cycle and are worked around (HT-PP02, SJ-PP14, KZ-PP23).",
+    "Brief, report and client deadlines cluster in the same days (KZ-PP05).",
+    "There is no intake triage, service-level or buffer rule for unplanned work."
+   ],
+   "shared_root_cause": "RC-05",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KZ-O09) fix KZ-PP05"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769819496a5d0c622b9e531"
+   ]
+  },
+  {
+   "id": "C-19",
+   "problem": "Effort per client isn't tracked, so capacity, pricing and margin are set by feel",
+   "members": [
+    "KO-PP07 (interviewee)",
+    "KZ-PP22 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 1,
+    "leadership": 1,
+    "roles": [
+     "SEO manager",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "2 raises (1 staff + 1 leadership) with a stated number (gross margin 'roughly 30%', DLER only proxy, KO-PP07). Mostly leadership evidence; rests on two people.",
+   "damage_area": [
+    "margin/revenue",
+    "growth"
+   ],
+   "impact_evidence": [
+    "Gross margin quoted only as 'roughly 30%'; DLER the only proxy (KO-PP07, stated)."
+   ],
+   "severity": 4,
+   "severity_source": "KO-PP07",
+   "anchor": "Performance visibility & margin",
+   "processes": [
+    "Finance & billing",
+    "Monthly SEO delivery"
+   ],
+   "quotes": [
+    {
+     "text": "to be honest, like a little bit of a feel, I'd say",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP22",
+     "timestamp": "~46:36 (L473)"
+    },
+    {
+     "text": "It's just a lot of people — no, Big Brother. Not much gain.",
+     "role_family": "leadership",
+     "id": "KO-PP07",
+     "timestamp": "~42:16 (L206)"
+    }
+   ],
+   "existing_problem": "R26 Pricing is inconsistent across templates and the margin maths is wrong (pack #17)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R26 to: 'Effort per client isn't tracked, so pricing, capacity and margin are set by feel'. No interview evidences 'inconsistent across templates' or 'wrong margin maths' (R26 rests on document evidence) – keep those as document findings.",
+   "root_cause_chain": [
+    "Margin by client and service is unknown (KO-PP07).",
+    "Effort per client is set by 'feel' and fee; the pricing calculator isn't kept current (KZ-PP22).",
+    "No time or effort data is captured – timesheets are rejected as 'Big Brother' (KO-PP07).",
+    "There is no lightweight effort signal (e.g. ticket estimates) tied to retainer value."
+   ],
+   "shared_root_cause": "RC-05",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/410e204ff7698185a4cdd8510d2a40ee"
+   ]
+  },
+  {
+   "id": "C-20",
+   "problem": "Content briefs are re-cut and reformatted by hand, eating the first half of each month",
+   "members": [
+    "LS-PP03 (interviewee)",
+    "ZC-PP02 (interviewee)",
+    "ZC-PP03 (interviewee)",
+    "KZ-PP17 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "SEO manager",
+     "SEO manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "growth"
+   ],
+   "impact_evidence": [
+    "Briefing 12.7–42 h/month for one manager (ZC-PP02, stated range); re-cutting briefs 6–12 h/month for one director (LS-PP03, assumed); localisation prep 5.4–14.4 h/month (KZ-PP17, estimated); reformatting 1.7–5 h/month (ZC-PP03, estimated). Indicative ≈ 26–73 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "ZC-PP02",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Content briefing"
+   ],
+   "quotes": [
+    {
+     "text": "especially early months, the content briefing is pretty much all of my day or say a few days to a week.",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP02",
+     "timestamp": "~13:00 (L117)"
+    },
+    {
+     "text": "content briefs; we could have automated those years ago.",
+     "role_family": "an SEO manager",
+     "id": "LS-PP03",
+     "timestamp": "~20:17 (L080)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. A Claude brief project built in technical SEO already speeds briefing (ZC-str01).",
+   "root_cause_chain": [
+    "Briefing takes most of the early month and is the first thing to break with more clients (ZC-PP02).",
+    "Briefs are re-cut by hand from a plan that already exists, then reformatted from Claude into Word (LS-PP03, ZC-PP03).",
+    "The content plan isn't held in a structure that can generate briefs directly.",
+    "Brief production was never redesigned as data-to-document; it relies on manager time."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KZ-O05, LS-O01, ZC-O01) fix KZ-PP17, LS-PP03, ZC-PP02"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769810aafa6ce47457ecf5a"
+   ]
+  },
+  {
+   "id": "C-21",
+   "problem": "Content hand-offs run on hand-copied sheets: briefs late or unseen, statuses double-keyed",
+   "members": [
+    "SJ-PP01 (interviewee)",
+    "SJ-PP02 (interviewee)",
+    "SJ-PP03 (interviewee)",
+    "SJ-PP06 (interviewee)",
+    "HT-PP09 (interviewee)",
+    "SJ-PP04 (interviewee)",
+    "SJ-PP08 (interviewee)",
+    "HT-PP05 (interviewee)",
+    "SJ-PP11 (interviewee)",
+    "SJ-PP10 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 0,
+    "roles": [
+     "content",
+     "content"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "2 staff raises (both content team) with stated figures: brief unseen up to 2 days vs a 2-week turnaround (SJ-PP02); volume ~40k → ~100k words/month (SJ-PP11). Most members come from one interview (SJ).",
+   "damage_area": [
+    "time",
+    "client experience/retention",
+    "growth"
+   ],
+   "impact_evidence": [
+    "Copying briefs into freelancer sheets 3.3–9 h/month (SJ-PP01, estimated); a brief can sit unseen 2 days against a 2-week turnaround (SJ-PP02, stated); 20–30% of briefs late or changed (SJ-PP03, assumed); volume ~40k → ~100k words/month (SJ-PP11, stated). Indicative ≈ 9–27 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "SJ-PP01",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Content briefing",
+    "Content writing & editing",
+    "Internal task management"
+   ],
+   "quotes": [
+    {
+     "text": "if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days",
+     "role_family": "a content team member",
+     "id": "SJ-PP02",
+     "timestamp": "~05:53 (L067)"
+    },
+    {
+     "text": "now we're like on 100,000 so I'm like very conscious like as we grow as we grow it's not going to be like sustainable",
+     "role_family": "a content team member",
+     "id": "SJ-PP11",
+     "timestamp": "~06:53 (L069)"
+    },
+    {
+     "text": "this is just sorted by age. You know, this is an arbitrary sorting. So really it should be like importance",
+     "role_family": "a content team member",
+     "id": "SJ-PP10",
+     "timestamp": "~25:04 (L283–L284)"
+    }
+   ],
+   "existing_problem": "R11 Content tracker and link sheets live outside Monday.com (pack #26)",
+   "verdict": "Split",
+   "verdict_note": "R11 splits: content tracker → C-21; link sheets → C-23. 2 staff raises with stated figures (High by rule) – both from the content team.",
+   "root_cause_chain": [
+    "Briefs arrive late, unseen or incomplete and freelancer work needs rework (SJ-PP02, SJ-PP03, SJ-PP06).",
+    "Briefs, feedback and versions are copied by hand between the master sheet, four freelancer sheets and client folders (SJ-PP01, SJ-PP04).",
+    "Content tracking runs on spreadsheets beside Monday.com with status typed twice and broken formulas (SJ-PP08, HT-PP05).",
+    "The content workflow was never moved into the task system; the migration has no clear driver (see C-32)."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (HT-O03, SJ-O03) fix HT-PP05, SJ-PP06",
+    "Interviewer-framed: SJ-PP06 – \"interviewee (Austin restated; she agreed)\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769812bb6b9dae3c44d0839"
+   ]
+  },
+  {
+   "id": "C-22",
+   "problem": "Content delivery hinges on one manager as editor, router and freelancer manager",
+   "members": [
+    "SJ-PP05 (interviewee)",
+    "HT-PP03 (interviewee)",
+    "SJ-PP13 (interviewee)",
+    "SJ-PP12 (interviewee)",
+    "HT-PP07 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 0,
+    "roles": [
+     "content",
+     "content"
+    ],
+    "corroborations": []
+   },
+   "confidence": "Medium",
+   "confidence_reason": "2 staff raises, both from the content team; no stated number. Corroborated in dependency sections of two SEO interviews (KZ, LS). Would confirm: share of words edited by the Content Manager from the tracker.",
+   "damage_area": [
+    "risk/compliance",
+    "growth",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Contractor spend ~$14k/month is from the context pack, not stated in interview (HT-PP07). No stated hours."
+   ],
+   "severity": 4,
+   "severity_source": "SJ-PP05",
+   "anchor": "Leadership & dependency",
+   "processes": [
+    "Content writing & editing"
+   ],
+   "quotes": [
+    {
+     "text": "It's like telephone, it's like telephony sort of.",
+     "role_family": "a content team member",
+     "id": "SJ-PP05",
+     "timestamp": "~17:20 (L173)"
+    },
+    {
+     "text": "when [the content lead] went on leave, it was like crunchy for me for sure.",
+     "role_family": "a content team member",
+     "id": "HT-PP03",
+     "timestamp": "~18:24 (L208)"
+    }
+   ],
+   "existing_problem": "R9 Content delivery hinges on the Content Manager as writer, editor and contractor manager (pack #5)",
+   "verdict": "Confirm",
+   "verdict_note": "R9 stands. Also supported by dependency sections in two other interviews (content QA and briefing know-how, KZ-dep7, LS-dep1).",
+   "root_cause_chain": [
+    "Content cover is thin and context is lost passing through one person (HT-PP03, SJ-PP05).",
+    "One manager routes questions, briefs freelancers and edits most output; editing sits with two people (SJ-PP05, SJ-PP13).",
+    "Freelancers aren't trained in house style; client questions go via managers (HT-PP07, SJ-PP12).",
+    "Content was scaled by adding freelancers around one editor rather than by building editing capacity and direct briefs."
+   ],
+   "shared_root_cause": "RC-06",
+   "flags": [
+    "Interviewer-framed: HT-PP07 – \"interviewee (cost wording garbled, may be Austin's, L214–L215)\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769811b9981d8c28a6528e8"
+   ]
+  },
+  {
+   "id": "C-23",
+   "problem": "Link building runs on disconnected sheets; every order, link and invoice is re-keyed",
+   "members": [
+    "KO-PP16 (interviewee)",
+    "MP-PP14 (interviewee)",
+    "MP-PP15 (interviewee)",
+    "TG-PP05 (interviewee)",
+    "TG-PP06 (interviewee)",
+    "TG-PP07 (interviewee)",
+    "KZ-PP08 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 2,
+    "roles": [
+     "link-building",
+     "SEO manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (2 staff + 2 leadership).",
+   "damage_area": [
+    "time",
+    "margin/revenue",
+    "growth"
+   ],
+   "impact_evidence": [
+    "~200 links a month tracked by hand (KO-PP16, stated by leadership – contested, X-05); CRM re-keying 5–10 h/month (MP-PP14, estimated); publisher-sheet copy-paste 5–23 h/month (TG-PP05, assumed); re-keying published links 5–17 h/month (TG-PP06, assumed). Indicative ≈ 15–50 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "KO-PP16",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Link building – sourcing & ordering",
+    "Link building – QA & live checks",
+    "Link building – outreacher invoicing"
+   ],
+   "quotes": [
+    {
+     "text": "I would love, like, a CRM for our link-building team specifically. That is still being run out of spreadsheets.",
+     "role_family": "leadership",
+     "id": "KO-PP16",
+     "timestamp": "~79:34 (L368)"
+    },
+    {
+     "text": "for the other publishers, since we have different sheets for them, so I copy and paste documents on the sheets",
+     "role_family": "the link-building team",
+     "id": "TG-PP05",
+     "timestamp": "~04:25 (L031)"
+    },
+    {
+     "text": "When these links go into the tracker, It's still kind of manually being copied over into the CRM for reporting",
+     "role_family": "leadership",
+     "id": "MP-PP14",
+     "timestamp": "~04:32 (L048)"
+    }
+   ],
+   "existing_problem": "R6 Link building runs on 7+ disconnected spreadsheets (pack #4); R11 Content tracker and link sheets live outside Monday.com (pack #26); R8 Outreacher invoicing tracked as PayPal links in spreadsheet cells (pack #20)",
+   "verdict": "Confirm",
+   "verdict_note": "R6 confirmed. R11 split – link half here. R8 (outreacher invoicing as PayPal links) merges here: invoicing admin is evidenced (KZ-PP08, KO-PP16) but not the PayPal-cell detail.",
+   "root_cause_chain": [
+    "Every order, published link and invoice is re-keyed between publisher sheets, the master sheet, Monday.com and the CRM (TG-PP05, TG-PP06, MP-PP14).",
+    "The home-built master-sheet → Monday sync is unreliable (TG-PP07).",
+    "Link building grew as an 'agency inside the agency' on spreadsheets with no CRM; the lead's time goes on admin (KO-PP16, KZ-PP08).",
+    "No one had capacity to redesign it (MP-PP15)."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O08, MP-O06, TG-O02) fix KO-PP16, MP-PP14, MP-PP15, TG-PP06, TG-PP07",
+    "COI: Austin offered to build a link-building CRM/link monitor with leadership ('maybe we can do something together', KO suggestions)."
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769810ca893d816b25addef",
+    "https://app.notion.com/40fe204ff769812bb6b9dae3c44d0839",
+    "https://app.notion.com/40fe204ff7698131876fec27eeb87b51"
+   ]
+  },
+  {
+   "id": "C-24",
+   "problem": "Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent",
+   "members": [
+    "KZ-PP06 (interviewee)",
+    "KZ-PP09 (interviewee)",
+    "TG-PP01 (interviewee)",
+    "TG-PP02 (interviewee)",
+    "TG-PP10 (interviewee)",
+    "KZ-PP07 (interviewee)",
+    "LS-PP12 (interviewee)",
+    "TG-PP12 (interviewee)",
+    "TG-PP04 (interviewee)",
+    "TG-PP03 (interviewee)",
+    "TG-PP08 (interviewee)",
+    "ZC-PP16 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "link-building",
+     "SEO manager",
+     "SEO manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (4 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "margin/revenue",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Links take 1–2 months end to end (LS-PP12, stated); vetting ~60 domains = 1–2 h a batch, 5–12 h/month (KZ-PP06, estimated); skill passed 54, lead approved 27 (TG-PP02, stated); 32 of ~1,000 leads pass the skill (TG-PP01, stated); domain matching 10–28 h/month (TG-PP04, assumed). Indicative ≈ 15–40 h/month (assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "TG-PP01",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Link building – sourcing & ordering"
+   ],
+   "quotes": [
+    {
+     "text": "I'll get 60 domains I need to vet and I'll go through one at a time... that's at least an hour or two process",
+     "role_family": "the link-building team",
+     "id": "KZ-PP06",
+     "timestamp": "~13:14 (L131)"
+    },
+    {
+     "text": "I'm not pretty sure if this is already accurate. So, really need your help with this.",
+     "role_family": "the link-building team",
+     "id": "TG-PP01",
+     "timestamp": "~17:49–18:01 (L170–L171)"
+    },
+    {
+     "text": "One link takes a month to two months, with a delay usually.",
+     "role_family": "an SEO manager",
+     "id": "LS-PP12",
+     "timestamp": "~22:18 (L090)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Scarce, expensive Tier 1 sites for three of the largest clients (TG-PP03) is a margin risk worth costing in Stage 2.",
+   "root_cause_chain": [
+    "Links reach clients late – 1–2 months (LS-PP12, KZ-PP07, TG-PP12).",
+    "Domains queue for one approver and are vetted by hand; supply of qualifying sites is scarce (KZ-PP06, KZ-PP07, TG-PP03, TG-PP08).",
+    "The AI lead-review skill gives inconsistent answers versus the approver (TG-PP01, TG-PP02, TG-PP10).",
+    "Vetting criteria live in one approver's judgement and were never calibrated into the skill or delegated."
+   ],
+   "shared_root_cause": "RC-06",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (TG-O01, TG-O04, TG-O06, ZC-O09) fix TG-PP01, TG-PP02, TG-PP04, TG-PP08, ZC-PP16",
+    "Interviewer-framed: TG-PP03 – \"interviewee (pricing angle: interviewer)\"",
+    "Interviewer-framed: TG-PP08 – \"interviewee (finite-supply question: interviewer)\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769813aaa23cf4c2049bdf4"
+   ]
+  },
+  {
+   "id": "C-25",
+   "problem": "Paid links vanish after payment and nobody re-checks that they stay live",
+   "members": [
+    "MP-PP13 (interviewee)",
+    "KZ-PP10 (interviewee)",
+    "ZC-PP10 (interviewee)",
+    "TG-PP11 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 1,
+    "roles": [
+     "SEO manager",
+     "SEO manager",
+     "link-building",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (3 staff + 1 leadership).",
+   "damage_area": [
+    "margin/revenue",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "~100 dead links in ~10 months (KZ-PP10, stated count) ≈ 10/month × ~$80–130 = $800–1,300/month (estimated – unit cost from context pack). The context pack's 32% Jan–Apr is a different measure (X-06)."
+   ],
+   "severity": 5,
+   "severity_source": "KZ-PP10",
+   "anchor": "Performance visibility & margin",
+   "processes": [
+    "Link building – QA & live checks"
+   ],
+   "quotes": [
+    {
+     "text": "over the last like 10 months or whatever it was, there's like 100 links that just like were no longer working, like 404s or they took them down",
+     "role_family": "the link-building team",
+     "id": "KZ-PP10",
+     "timestamp": "~54:38 (L546)"
+    },
+    {
+     "text": "Yeah, we have no visibility on whether links stay live or not.",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP10",
+     "timestamp": "~36:35 (L373)"
+    },
+    {
+     "text": "we don't have a way to currently check whether these are dropping off",
+     "role_family": "leadership",
+     "id": "MP-PP13",
+     "timestamp": "~04:32 (L048)"
+    }
+   ],
+   "existing_problem": "R7 Paid links disappear after payment – detected manually (pack #3)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R7 to drop the '32% fault rate' until X-06 is resolved: 'Paid links vanish after payment and nobody re-checks that they stay live (~100 found dead in ~10 months)'.",
+   "root_cause_chain": [
+    "Paid links vanish after payment unnoticed (MP-PP13, ZC-PP10).",
+    "Post-publication checks stopped after April; the publication-time checker's accuracy is uncertain (TG-PP11).",
+    "No account lead or system re-checks old links, and publishers aren't held to replacement terms (KZ-PP10).",
+    "Link QA was a manual task with no owner once volume grew."
+   ],
+   "shared_root_cause": "RC-02",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KZ-O02, MP-O05, ZC-O08) fix KZ-PP10, MP-PP13, ZC-PP10",
+    "COI: as C-23 – link monitor offered by Austin (KO suggestions)."
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981f989dcde7f6575b490"
+   ]
+  },
+  {
+   "id": "C-26",
+   "problem": "Strategy and technical SEO run as separate queues, so big technical work slips",
+   "members": [
+    "KZ-PP11 (interviewee)",
+    "KZ-PP12 (interviewee)",
+    "SB-PP14 (interviewee)",
+    "ZC-PP12 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "SEO manager",
+     "technical SEO",
+     "SEO manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "client experience/retention",
+    "time"
+   ],
+   "impact_evidence": [
+    "~15 technical-only clients with split ownership (SB-PP14, stated); one month of SEO delivery lost to a dev-hours swap (ZC-PP12, stated)."
+   ],
+   "severity": 3,
+   "severity_source": "KZ-PP11",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Technical SEO audit & fixes",
+    "Monthly reporting"
+   ],
+   "quotes": [
+    {
+     "text": "sometimes it's pretty simple tasks in there and the beefier tasks are all the way six months from now kind of thing as well.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP11",
+     "timestamp": "~32:57 (L316)"
+    },
+    {
+     "text": "task still in progress and now it's like, well, I'm putting nothing in the report.",
+     "role_family": "an SEO manager",
+     "id": "KZ-PP12",
+     "timestamp": "~34:37 (L337)"
+    },
+    {
+     "text": "can we swap this seo hours to dev hours to get this get this implemented",
+     "role_family": "an SEO manager",
+     "id": "ZC-PP12",
+     "timestamp": "~10:38 (L087)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. One technical team member sees no performance impact (SB-PP14) – note the disagreement.",
+   "root_cause_chain": [
+    "Big technical tasks are pushed months out and reports show nothing for technical (KZ-PP11, KZ-PP12).",
+    "Strategists have little say in technical priority; ownership is split (KZ-PP11, SB-PP14).",
+    "SEO hours vs dev work aren't defined in scope (ZC-PP12).",
+    "Strategy and technical work run as separate queues with no shared priority order."
+   ],
+   "shared_root_cause": "RC-05",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff7698188a460d2fc6e105ee9"
+   ]
+  },
+  {
+   "id": "C-27",
+   "problem": "Internal task briefs from managers to implementers are slow to write and often incomplete",
+   "members": [
+    "SH-PP10 (interviewee)",
+    "DM-PP13 (interviewee)",
+    "MC-PP04 (interviewee)",
+    "MC-PP05 (interviewee)",
+    "LS-PP14 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "performance specialist",
+     "SEO manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (4 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "people/morale"
+   ],
+   "impact_evidence": [
+    "Briefing 4–8 h/month (SH-PP10, assumed); chasing details 1.4–5.8 h/month specialist + 0.7–2.9 h/month manager (MC-PP04, assumed). Indicative ≈ 6–17 h/month (assumed)."
+   ],
+   "severity": 3,
+   "severity_source": "SH-PP10",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Paid media – optimisation",
+    "Paid media – campaign build",
+    "Internal task management"
+   ],
+   "quotes": [
+    {
+     "text": "briefing requires another time. So better do it yourself so that it's all sorted.",
+     "role_family": "a performance manager",
+     "id": "DM-PP13",
+     "timestamp": "~05:47 (L076)"
+    },
+    {
+     "text": "Oh, sometimes I need… to chase up the account manager for details.",
+     "role_family": "a performance team member",
+     "id": "MC-PP04",
+     "timestamp": "~45:52 (L431–L432)"
+    },
+    {
+     "text": "Some will send one sentence and I need more.",
+     "role_family": "an SEO manager",
+     "id": "LS-PP14",
+     "timestamp": "~12:06 (L048)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Monday.com briefs with full detail are already seen as a strength (MC-str01).",
+   "root_cause_chain": [
+    "Managers do minor changes themselves rather than brief; implementers chase missing details (DM-PP13, MC-PP04).",
+    "Briefs are written from scratch per task and arrive incomplete (SH-PP10, LS-PP14).",
+    "Monday.com notifications don't always land, so Slack is the backup (MC-PP05).",
+    "There are no task-type brief templates with required fields."
+   ],
+   "shared_root_cause": "RC-03",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (SH-O02, SH-O04) fix SH-PP10"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff76981c88fe8f4907efc6ba1"
+   ]
+  },
+  {
+   "id": "C-28",
+   "problem": "Meta campaign builds are manual and every ad needs hand QA",
+   "members": [
+    "SH-PP15 (interviewee)",
+    "SH-PP17 (interviewee)",
+    "MC-PP20 (interviewee)",
+    "DM-PP08 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "performance specialist",
+     "performance manager"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "time",
+    "risk/compliance"
+   ],
+   "impact_evidence": [
+    "45–60 min per complex Meta build (SH-PP17, stated); 20–30 ads QA'd by hand per launch (DM-PP08, stated); ~50 preview links per large build (MC-PP20, stated)."
+   ],
+   "severity": 3,
+   "severity_source": "DM-PP08",
+   "anchor": "Operations capacity & process",
+   "processes": [
+    "Paid media – campaign build"
+   ],
+   "quotes": [
+    {
+     "text": "if another person is working on it, I won't be having that clarity. I just need to go and individually check each ad.",
+     "role_family": "a performance manager",
+     "id": "DM-PP08",
+     "timestamp": "~20:32 (L237)"
+    },
+    {
+     "text": "The Google implementation is quicker because there's like this editor tool that can be used to like import an account build.",
+     "role_family": "a performance manager",
+     "id": "SH-PP17",
+     "timestamp": "~25:43 (L239)"
+    },
+    {
+     "text": "meta rolls out new things and it's like auto on and then you just have to be like super into the nitty gritty",
+     "role_family": "a performance manager",
+     "id": "SH-PP15",
+     "timestamp": "~18:26 (L177)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Low-to-medium severity; quick-win territory.",
+   "root_cause_chain": [
+    "Every Meta ad is checked by hand for format, placement and auto-enabled AI features (DM-PP08, SH-PP15).",
+    "Meta has no bulk import like Google/Bing editors (SH-PP17).",
+    "The one fix (a Claude skill for preview links) is on a personal account (MC-PP20, MC-PP19).",
+    "No shared build template or QA checklist exists for Meta."
+   ],
+   "shared_root_cause": "RC-04",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769810e9f37d9b2921c73bf"
+   ]
+  },
+  {
+   "id": "C-29",
+   "problem": "Creative and landing pages are outsourced, slow and hard to brief",
+   "members": [
+    "KO-PP25 (interviewee)",
+    "WS-PP14 (interviewee)",
+    "MP-PP22 (interviewee)",
+    "MC-PP15 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 1,
+    "roles": [
+     "performance manager",
+     "performance specialist",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (2 staff + 1 leadership).",
+   "damage_area": [
+    "time",
+    "margin/revenue",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Landing pages ~$1,500 each (WS-PP14, stated); creative rework 1.2–5.5 h/month (MC-PP15, assumed)."
+   ],
+   "severity": 3,
+   "severity_source": "KO-PP25",
+   "anchor": "Client experience & delivery",
+   "processes": [
+    "Creative production",
+    "NEW: Landing page builds"
+   ],
+   "quotes": [
+    {
+     "text": "they'll be doing the exact opposite of what you briefed in. So you have to back and forth.",
+     "role_family": "a performance team member",
+     "id": "MC-PP15",
+     "timestamp": "~32:18 (L275)"
+    },
+    {
+     "text": "We don't have the capacity. And like we usually sell them to the clients as well.",
+     "role_family": "a performance manager",
+     "id": "WS-PP14",
+     "timestamp": "~53:31 (L686)"
+    },
+    {
+     "text": "outsourcing landing page builds is a bit clunky",
+     "role_family": "leadership",
+     "id": "KO-PP25",
+     "timestamp": "~83:23 (L391)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Clients are now charged for creative (WS-str09).",
+   "root_cause_chain": [
+    "Launches slow and conversion suffers for lack of landing pages and creative (KO-PP25, WS-PP14).",
+    "There is no in-house capacity; outsourced vendors ignore detailed briefs (MC-PP15).",
+    "Clients resist paying for landing pages; AI creative tools suit e-commerce, not Aperitif's clients (KO-PP25, MP-PP22).",
+    "Creative supply is ad hoc rather than a priced service with a vendor brief standard."
+   ],
+   "shared_root_cause": "RC-07",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff76981918b83ff403f9c9ba2"
+   ]
+  },
+  {
+   "id": "C-30",
+   "problem": "Monday.com isn't the single home for work: requests bypass it and statuses go stale",
+   "members": [
+    "SB-PP01 (interviewee)",
+    "SB-PP02 (interviewee)",
+    "SB-PP03 (interviewee)",
+    "SB-PP04 (interviewee)",
+    "SB-PP05 (interviewee)",
+    "SB-PP06 (interviewee)",
+    "MC-PP02 (interviewee)",
+    "MC-PP03 (interviewee)",
+    "DM-PP09 (interviewee)",
+    "MP-PP05 (interviewee)",
+    "MP-PP06 (interviewer)",
+    "WS-PP15 (detected)",
+    "KO-PP10 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 4,
+    "leadership": 1,
+    "roles": [
+     "technical SEO",
+     "performance specialist",
+     "performance manager",
+     "performance manager",
+     "leadership"
+    ],
+    "corroborations": [
+     "MP-PP06 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "5 independent raises (4 staff + 1 leadership).",
+   "damage_area": [
+    "time",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Email triage ~1 h/day ≈ 20–22 h/month for one person (SB-PP02, stated per day, estimated monthly); untangling email chains 1–3 h/month (SB-PP03); duplicate agenda message 1.7–3.3 h/month (MC-PP02). Indicative ≈ 23–28 h/month (estimated)."
+   ],
+   "severity": 4,
+   "severity_source": "SB-PP02",
+   "anchor": "Technology, AI & stack",
+   "processes": [
+    "Internal task management"
+   ],
+   "quotes": [
+    {
+     "text": "not everybody uses Monday to like, you know, set up a task.",
+     "role_family": "a technical SEO team member",
+     "id": "SB-PP04",
+     "timestamp": "~02:50 (L039)"
+    },
+    {
+     "text": "it might be sitting under like an awaiting approval or something, even though that has been done.",
+     "role_family": "a performance manager",
+     "id": "DM-PP09",
+     "timestamp": "~14:53 (L171)"
+    },
+    {
+     "text": "Half an hour ago, the reminder went out. We still don't have updates.",
+     "role_family": "leadership",
+     "id": "MP-PP05",
+     "timestamp": "~23:43 (L259)"
+    }
+   ],
+   "existing_problem": "R16 Reminders go unacted; a broken reminder bot went unnoticed (pack #25)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R16 to: 'Monday.com isn't the single home for work: requests bypass it, statuses go stale and reminders go unacted'. The broken-bot detail belongs in C-32.",
+   "root_cause_chain": [
+    "Tasks are missed or go late; leadership can't see whether work is happening (SB-PP01, MP-PP06, DM-PP09).",
+    "Requests arrive by email and Slack DM; statuses, priorities and reminders aren't maintained (SB-PP04, MC-PP03, MP-PP05, WS-PP15).",
+    "Monday.com was rolled out quickly without agreed working rules or reminders (KO-PP13, DM-PP09).",
+    "No one enforces 'if it's not in Monday, it doesn't exist'."
+   ],
+   "shared_root_cause": "RC-08",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O09, KO-O10, MP-O10, MP-O11, SB-O02) fix KO-PP10, MP-PP05, MP-PP06, SB-PP01, SB-PP02, SB-PP05, SB-PP06",
+    "Interviewer-framed: MP-PP05 – \"interviewee (leadership); Austin observed the same\"",
+    "Interviewer-sourced (corroboration only): MP-PP06",
+    "Detected by extractor (not said outright): WS-PP15"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981e9b92fcb8a575cb3f4"
+   ]
+  },
+  {
+   "id": "C-31",
+   "problem": "HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost",
+   "members": [
+    "KO-PP11 (interviewee)",
+    "KO-PP12 (interviewee)",
+    "SB-PP10 (interviewee)",
+    "MC-PP13 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 1,
+    "roles": [
+     "technical SEO",
+     "performance specialist",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (2 staff + 1 leadership).",
+   "damage_area": [
+    "time",
+    "margin/revenue",
+    "risk/compliance"
+   ],
+   "impact_evidence": [
+    "HubSpot ~$22–25K/yr plus Monday.com ~$1,000/month (KO-PP12, stated). Wrong owner on every new client (SB-PP10, stated)."
+   ],
+   "severity": 4,
+   "severity_source": "KO-PP11",
+   "anchor": "Technology, AI & stack",
+   "processes": [
+    "Sales to delivery handover",
+    "Internal task management",
+    "Client onboarding – access & setup"
+   ],
+   "quotes": [
+    {
+     "text": "I'm not fully confident that it's working correctly. Stuff's getting missed.",
+     "role_family": "leadership",
+     "id": "KO-PP11",
+     "timestamp": "~62:00 (L303)"
+    },
+    {
+     "text": "the person who closes the deal on HubSpot is never the person who's going to manage the client account.",
+     "role_family": "a technical SEO team member",
+     "id": "SB-PP10",
+     "timestamp": "~33:23 (L477)"
+    },
+    {
+     "text": "So the first time I onboarded a client, I don't know where to start.",
+     "role_family": "a performance team member",
+     "id": "MC-PP13",
+     "timestamp": "~26:52 (L246)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Tool cost (KO-PP12) is leadership-only evidence.",
+   "root_cause_chain": [
+    "Monthly work orders may be missing tasks and every new client gets the wrong owner (KO-PP11, SB-PP10).",
+    "The Make/Monday rebuild of the HubSpot automation lost nuances and hasn't been checked against scope (KO-PP11).",
+    "HubSpot drops all onboarding tasks at once with no staged sequence (MC-PP13).",
+    "Integrations were rebuilt without a spec, test cases or reconciliation report."
+   ],
+   "shared_root_cause": "RC-04",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O06, KO-O07) fix KO-PP11, KO-PP12"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff76981998f05d3821fbd38e3"
+   ]
+  },
+  {
+   "id": "C-32",
+   "problem": "Home-built automations and tools have one builder, no documentation and no backup",
+   "members": [
+    "SB-PP11 (interviewee)",
+    "TG-PP09 (detected)",
+    "HT-PP06 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 3,
+    "leadership": 0,
+    "roles": [
+     "technical SEO",
+     "link-building",
+     "content"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (3 staff + 0 leadership).",
+   "damage_area": [
+    "risk/compliance",
+    "time"
+   ],
+   "impact_evidence": [
+    "Four home-built link tools, 0 documented (TG-PP09, detected). Not quantified."
+   ],
+   "severity": 4,
+   "severity_source": "SB-PP11",
+   "anchor": "Technology, AI & stack",
+   "processes": [
+    "Internal task management",
+    "Link building – QA & live checks"
+   ],
+   "quotes": [
+    {
+     "text": "But if I'm not there, who's going to do it? It needs to have that system in place.",
+     "role_family": "a technical SEO team member",
+     "id": "SB-PP11",
+     "timestamp": "~35:09 (L501)"
+    },
+    {
+     "text": "but if there is really simpler way, and more accurate because yeah, I'm not really sure if these are really working well.",
+     "role_family": "the link-building team",
+     "id": "TG-PP09",
+     "timestamp": "~42:29 (L452)"
+    },
+    {
+     "text": "Yeah, I think that's what [the builder is doing] but I don't know where it's at.",
+     "role_family": "a content team member",
+     "id": "HT-PP06",
+     "timestamp": "~20:07 (L232)"
+    }
+   ],
+   "existing_problem": "R15 Slack bots and agents have no visible owner or documentation (pack #21)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R15 to: 'Home-built automations, bots and tools have one builder, no documentation and no backup'. Widens from Slack bots to Make/Monday, link tools and the Tina pacing bot (SD-PP19 sits in C-02).",
+   "root_cause_chain": [
+    "Tools and automations stop or go wrong unnoticed when their builder is away or moves role (SB-PP11, TG-PP09, HT-PP06).",
+    "Each was built by one person to solve their own problem, with no documentation or backup (SB-PP11, TG-PP09).",
+    "There is no register of internal tools, owners or review dates.",
+    "Building is rewarded; maintaining and handing over isn't part of anyone's role."
+   ],
+   "shared_root_cause": "RC-04",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (HT-O03, TG-O02) fix HT-PP06, TG-PP09",
+    "Detected by extractor (not said outright): TG-PP09",
+    "Interviewer-framed: HT-PP06 – \"interviewee; interviewer added the builder's reduced time\""
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769813ea8eec750d9aace68"
+   ]
+  },
+  {
+   "id": "C-33",
+   "problem": "AI use is personal and ungoverned: no policy, shared skills, client context or seats",
+   "members": [
+    "KO-PP14 (interviewee)",
+    "LS-PP13 (interviewee)",
+    "DM-PP12 (interviewee)",
+    "MC-PP19 (interviewee)",
+    "WS-PP13 (detected)",
+    "SB-PP12 (interviewee)",
+    "KZ-PP24 (interviewee)",
+    "SH-PP14 (interviewee)",
+    "HT-PP08 (interviewee)",
+    "DM-PP11 (interviewee)",
+    "ZC-PP14 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 9,
+    "leadership": 1,
+    "roles": [
+     "SEO manager",
+     "performance manager",
+     "performance specialist",
+     "performance manager",
+     "technical SEO",
+     "SEO manager",
+     "performance manager",
+     "content",
+     "SEO manager",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "10 independent raises (9 staff + 1 leadership).",
+   "damage_area": [
+    "risk/compliance",
+    "time",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Not quantified. One staff member pays for her own Claude account used for work (MC-PP19, stated); token limits block work (SB-PP12, stated)."
+   ],
+   "severity": 3,
+   "severity_source": "KO-PP14",
+   "anchor": "Technology, AI & stack",
+   "processes": [
+    "Knowledge & SOPs",
+    "Client onboarding – audit & strategy"
+   ],
+   "quotes": [
+    {
+     "text": "we've had a few cases where team members used AI for the whole thing and it was a mess.",
+     "role_family": "an SEO manager",
+     "id": "LS-PP13",
+     "timestamp": "~07:00 (L026)"
+    },
+    {
+     "text": "Personally, I set up my personal [Claude] using my work email and I'm paying for it every month.",
+     "role_family": "a performance team member",
+     "id": "MC-PP19",
+     "timestamp": "~39:17 (L343)"
+    },
+    {
+     "text": "I'm not sure how much it is okay to have the data privacy and everything when we do that.",
+     "role_family": "a performance manager",
+     "id": "DM-PP12",
+     "timestamp": "~15:21 (L181)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Broadest staff raise (9 staff + 1 leadership). Policy gap (DM-PP12) is a prerequisite for any AI opportunity in Stage 2.",
+   "root_cause_chain": [
+    "AI output varies, needs re-briefing and double-checking, and some deliverables went out poor (LS-PP13, HT-PP08, DM-PP11, ZC-PP14).",
+    "Each person builds their own prompts, skills and accounts; some sit on personal accounts (MC-PP19, WS-PP13, SH-PP14).",
+    "There is no policy on client data in AI, no shared skills library, no client context and too few seats (DM-PP12, SB-PP12).",
+    "AI adoption has been bottom-up with no owner or standards."
+   ],
+   "shared_root_cause": "RC-04",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (DM-O08, KO-O09, KO-O10, SB-O06, WS-O06) fix DM-PP11, KO-PP14, SB-PP12, WS-PP13",
+    "Detected by extractor (not said outright): WS-PP13"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff769810cb2c8de6b51137637"
+   ]
+  },
+  {
+   "id": "C-34",
+   "problem": "Client files and logins sit in personal drives and the CRM, not with the work",
+   "members": [
+    "SH-PP08 (interviewee)",
+    "SB-PP09 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 0,
+    "roles": [
+     "performance manager",
+     "technical SEO"
+    ],
+    "corroborations": []
+   },
+   "confidence": "Medium",
+   "confidence_reason": "2 staff raises on related but different assets (files vs logins); no stated number. Would confirm: a Drive ownership report for client folders.",
+   "damage_area": [
+    "risk/compliance",
+    "time"
+   ],
+   "impact_evidence": [
+    "2–5 min tool switch per task needing access (SB-PP09, assumed)."
+   ],
+   "severity": 3,
+   "severity_source": "SH-PP08",
+   "anchor": "Technology, AI & stack",
+   "processes": [
+    "Knowledge & SOPs",
+    "Technical SEO audit & fixes"
+   ],
+   "quotes": [
+    {
+     "text": "I noticed that when I was being handed over clients to me, I was Just like trying to find documents.",
+     "role_family": "a performance manager",
+     "id": "SH-PP08",
+     "timestamp": "~06:52 (L071)"
+    },
+    {
+     "text": "But then we still have to go into HubSpot and go into [the client record] and look into the login information",
+     "role_family": "a technical SEO team member",
+     "id": "SB-PP09",
+     "timestamp": "~07:08 (L081)"
+    }
+   ],
+   "existing_problem": "R23 Client work files are owned by individual staff accounts, including staff who have left (pack #7)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R23 to: 'Client files and logins sit in personal drives and the CRM, not with the work'. 'Including staff who have left' isn't evidenced in interviews (document evidence only). A shared per-client Drive now exists (SH-str02).",
+   "root_cause_chain": [
+    "Handover means hunting for documents and logins (SH-PP08, SB-PP09).",
+    "Client files historically sit on personal drives; logins sit in HubSpot; the LastPass move is unfinished.",
+    "There is no standard per-client storage rule linked from the task."
+   ],
+   "shared_root_cause": "RC-01",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff769814e99e7da6322099cae"
+   ]
+  },
+  {
+   "id": "C-35",
+   "problem": "SOPs and new systems aren't adopted, so leaders re-explain and mistakes repeat",
+   "members": [
+    "MP-PP03 (interviewee)",
+    "MP-PP04 (interviewee)",
+    "WS-PP09 (interviewee)",
+    "KO-PP15 (interviewee)",
+    "LS-PP11 (interviewee)",
+    "KO-PP13 (interviewee)",
+    "MP-PP07 (interviewer)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 2,
+    "roles": [
+     "performance manager",
+     "SEO manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": [
+     "MP-PP07 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (2 staff + 2 leadership).",
+   "damage_area": [
+    "time",
+    "people/morale",
+    "risk/compliance"
+   ],
+   "impact_evidence": [
+    "Founder re-explaining 1–5 h/month (MP-PP04, assumed). Three tools rolled out in 50 days (KO-PP13, stated). Notion: 217 pages, 43% not edited in a year (context pack, Austin's stats)."
+   ],
+   "severity": 4,
+   "severity_source": "MP-PP03",
+   "anchor": "Leadership & dependency",
+   "processes": [
+    "Knowledge & SOPs"
+   ],
+   "quotes": [
+    {
+     "text": "you can build all the best processes in the world but nobody actually follows them.",
+     "role_family": "leadership",
+     "id": "MP-PP03",
+     "timestamp": "~20:49 (L229)"
+    },
+    {
+     "text": "I'm sick of just explaining the same thing over and over again.",
+     "role_family": "leadership",
+     "id": "MP-PP04",
+     "timestamp": "~22:08 (L242)"
+    },
+    {
+     "text": "It's just that sometimes people Forget like I tried to remind everyone",
+     "role_family": "a performance manager",
+     "id": "WS-PP09",
+     "timestamp": "~19:08 (L237)"
+    }
+   ],
+   "existing_problem": "R12 Documentation is stale and rarely read (pack #14); R13 Documentation and internal tooling held by the founder (pack #8)",
+   "verdict": "Confirm",
+   "verdict_note": "R12 confirmed. R13 (documentation and tooling held by the founder) merges here – evidence is MP-PP04 plus dependency rows (OpenClaw, HubSpot automation design); leadership-only.",
+   "root_cause_chain": [
+    "Leaders re-explain the same things and mistakes repeat (MP-PP04, WS-PP09, MP-PP07).",
+    "SOPs exist but aren't read or followed; knowledge-sharing time gets squeezed (MP-PP03, LS-PP11).",
+    "Change was rolled out fast (three tools in 50 days) and staff said it was too much (KO-PP13).",
+    "Adoption is assumed once something is built; nobody owns or measures it."
+   ],
+   "shared_root_cause": "RC-08",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O07, KO-O09, KO-O10, MP-O10) fix KO-PP13, KO-PP15, MP-PP04",
+    "Interviewer-framed: MP-PP03 – \"interviewee (leadership); Austin's Notion stats agree\"",
+    "Interviewer-sourced (corroboration only): MP-PP07"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981e1ac5af94b85e59678",
+    "https://app.notion.com/40fe204ff7698159a507c9835dc6a1f0"
+   ]
+  },
+  {
+   "id": "C-36",
+   "problem": "Escalations, sign-offs, QA and Tier 1 relationships funnel to a few senior people",
+   "members": [
+    "KO-PP05 (interviewee)",
+    "KO-PP21 (interviewee)",
+    "MP-PP08 (interviewee)",
+    "WS-PP10 (interviewee)",
+    "SD-PP16 (detected)",
+    "KO-PP02 (interviewee)",
+    "KO-PP03 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 2,
+    "leadership": 2,
+    "roles": [
+     "performance manager",
+     "performance manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "4 independent raises (2 staff + 2 leadership).",
+   "damage_area": [
+    "time",
+    "risk/compliance",
+    "growth"
+   ],
+   "impact_evidence": [
+    "About five churn-risk escalations a week (KO-PP05, stated); escalations 4–16 h/month (MP-PP08, assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "KO-PP05",
+   "anchor": "Leadership & dependency",
+   "processes": [
+    "Client escalation",
+    "Client onboarding – audit & strategy",
+    "Finance & billing"
+   ],
+   "quotes": [
+    {
+     "text": "Probably five times a week, to be honest with you.",
+     "role_family": "leadership",
+     "id": "KO-PP05",
+     "timestamp": "~26:27 (L124)"
+    },
+    {
+     "text": "Basically, as a performance director, kind of I need to oversee everything.",
+     "role_family": "a performance manager",
+     "id": "WS-PP10",
+     "timestamp": "~18:11 (L222)"
+    },
+    {
+     "text": "the biggest gap when [a leader] steps away is actually some of the select tier ones that he has a personal relationship with",
+     "role_family": "leadership",
+     "id": "KO-PP02",
+     "timestamp": "~17:13 (L072)"
+    }
+   ],
+   "existing_problem": "R22 Escalations route around department leads to the Head of Client Services (pack #23)",
+   "verdict": "Reword",
+   "verdict_note": "Reword R22 to: 'Escalations, sign-offs, QA and Tier 1 relationships funnel to a few senior people'. Leadership keeps some escalations deliberately as an early-warning signal (KO-PP21).",
+   "root_cause_chain": [
+    "Escalations, strategy sign-off, QA and Tier 1 relationships queue on a few senior people (KO-PP05, WS-PP10, SD-PP16, KO-PP02).",
+    "Department leads aren't yet trusted with escalations; QA isn't delegated (MP-PP08, SD-PP16).",
+    "Founder still runs AP, payroll and contract sign-off (KO-PP03).",
+    "Decision rights and sign-off thresholds aren't written down by level."
+   ],
+   "shared_root_cause": "RC-06",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O01) fix KO-PP05, KO-PP21",
+    "Interviewer-framed: KO-PP05 – \"interviewee (leadership; leadership prompted the topic)\"",
+    "Detected by extractor (not said outright): SD-PP16"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981e2924cfbae1ffa8478"
+   ]
+  },
+  {
+   "id": "C-37",
+   "problem": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
+   "members": [
+    "KO-PP04 (interviewee)",
+    "WS-PP11 (interviewee)",
+    "MP-PP09 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 1,
+    "leadership": 2,
+    "roles": [
+     "performance manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (1 staff + 2 leadership). Mostly leadership evidence.",
+   "damage_area": [
+    "people/morale",
+    "client experience/retention",
+    "growth"
+   ],
+   "impact_evidence": [
+    "Head of Performance left ~2 weeks before 28 Oct; Director absorbed a Tier 1 account (WS-PP11, stated)."
+   ],
+   "severity": 4,
+   "severity_source": "KO-PP04",
+   "anchor": "Leadership & dependency",
+   "processes": [
+    "Hiring & onboarding staff",
+    "Client escalation"
+   ],
+   "quotes": [
+    {
+     "text": "At the moment, we're a bit headless when it comes to performance. We really want a performance — more senior leader.",
+     "role_family": "leadership",
+     "id": "KO-PP04",
+     "timestamp": "~16:00 (L066)"
+    },
+    {
+     "text": "I have been polled [pulled] into a more tier one client and trying to get on top of it because I was not involved at all",
+     "role_family": "a performance manager",
+     "id": "WS-PP11",
+     "timestamp": "~12:53 (L169)"
+    },
+    {
+     "text": "they've only been in management since they've been with us. They've been all promoted into those roles.",
+     "role_family": "leadership",
+     "id": "MP-PP09",
+     "timestamp": "~36:55 (L465)"
+    }
+   ],
+   "existing_problem": "none",
+   "verdict": "New",
+   "verdict_note": "New. Contested detail on who leads performance (X-09).",
+   "root_cause_chain": [
+    "Paid media runs without a senior sponsor and leadership plugs gaps (KO-PP04, WS-PP11).",
+    "The senior performance seat is vacant; leads were promoted without people-leadership training (MP-PP09).",
+    "Leadership development has started but isn't structured (MP-str04).",
+    "No management-capability plan accompanies promotions."
+   ],
+   "shared_root_cause": "RC-06",
+   "flags": [],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff76981e18b83f14ee089f51e"
+   ]
+  },
+  {
+   "id": "C-38",
+   "problem": "Sales commits scope and spend that delivery can't meet profitably",
+   "members": [
+    "MP-PP10 (interviewer)",
+    "MP-PP12 (interviewee)",
+    "WS-PP07 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 1,
+    "leadership": 1,
+    "roles": [
+     "performance manager",
+     "leadership"
+    ],
+    "corroborations": [
+     "MP-PP10 (leadership)"
+    ]
+   },
+   "confidence": "High",
+   "confidence_reason": "2 raises (1 staff + 1 leadership) with a stated figure – two months' work for a client with no website (WS-PP07). Bias: interviewer raised MP-PP10 first; no sales-side interview recorded.",
+   "damage_area": [
+    "margin/revenue",
+    "client experience/retention"
+   ],
+   "impact_evidence": [
+    "Two months' work for a client with no website (WS-PP07, stated)."
+   ],
+   "severity": 4,
+   "severity_source": "MP-PP10",
+   "anchor": "Growth & sales engine",
+   "processes": [
+    "Sales – proposal to signed",
+    "Sales to delivery handover"
+   ],
+   "quotes": [
+    {
+     "text": "we can't be promising all of these things and including them in the scope when like it's not even going to be profitable",
+     "role_family": "leadership (agreeing to interviewer framing)",
+     "id": "MP-PP10",
+     "timestamp": "~15:24 (L165)"
+    },
+    {
+     "text": "I'm trying to encourage [sales] to use this instead of just pulling numbers out of [thin air].",
+     "role_family": "leadership",
+     "id": "MP-PP12",
+     "timestamp": "~20:41 (L225)"
+    },
+    {
+     "text": "They didn't even have a website ready. So we went two months off doing work for them",
+     "role_family": "a performance manager",
+     "id": "WS-PP07",
+     "timestamp": "~54:49 (L710)"
+    }
+   ],
+   "existing_problem": "R18 Sales commits to work delivery can't profitably do (pack #16)",
+   "verdict": "Confirm",
+   "verdict_note": "R18 stands. Bias flag: interviewer raised MP-PP10 first. Sales lead's interview not recorded – no sales-side view.",
+   "root_cause_chain": [
+    "Clients are sold scope or spend that is unprofitable or undeliverable (MP-PP10, WS-PP07).",
+    "The ad-spend calculator isn't used consistently on sales calls (MP-PP12).",
+    "Sales has no delivery-feasibility or prerequisite gate before signing (WS-PP07).",
+    "Sales and delivery run separately with no shared deal checklist."
+   ],
+   "shared_root_cause": "RC-05",
+   "flags": [
+    "Interviewer-sourced (corroboration only): MP-PP10",
+    "Interviewer-framed: MP-PP12 – \"interviewee (leadership); Austin agreed\"",
+    "Bias: interviewer raised the sales-overcommit problem first (MP-PP10); leadership agreed strongly."
+   ],
+   "registry_pages": [
+    "https://app.notion.com/40fe204ff76981f585acc9b86b6be9b9"
+   ]
+  },
+  {
+   "id": "C-39",
+   "problem": "Growth depends on the founder and inbound leads while AI erodes core services",
+   "members": [
+    "KO-PP17 (interviewee)",
+    "MP-PP11 (interviewee)",
+    "KO-PP18 (interviewee)",
+    "KO-PP24 (interviewee)",
+    "KO-PP23 (interviewee)",
+    "KO-PP19 (interviewee)",
+    "KZ-PP21 (interviewee)"
+   ],
+   "raised_by": {
+    "staff": 1,
+    "leadership": 2,
+    "roles": [
+     "SEO manager",
+     "leadership",
+     "leadership"
+    ],
+    "corroborations": []
+   },
+   "confidence": "High",
+   "confidence_reason": "3 independent raises (1 staff + 2 leadership). Mostly leadership evidence.",
+   "damage_area": [
+    "growth",
+    "margin/revenue"
+   ],
+   "impact_evidence": [
+    "About 1 in 10 raw leads closes (KO-PP18, stated estimate); prospect decks 2–8 h/month (KZ-PP21, assumed)."
+   ],
+   "severity": 4,
+   "severity_source": "KO-PP17",
+   "anchor": "Growth & sales engine",
+   "processes": [
+    "Sales – lead to proposal",
+    "NEW: Leadership business reporting & review"
+   ],
+   "quotes": [
+    {
+     "text": "sales to be consistent and coming in month to month without so much of my involvement",
+     "role_family": "leadership",
+     "id": "KO-PP17",
+     "timestamp": "~86:25 (L403)"
+    },
+    {
+     "text": "diversifying product offering a little bit more, particularly in light of the impact AI is having on our kind of bread-and-butter offerings",
+     "role_family": "leadership",
+     "id": "KO-PP23",
+     "timestamp": "~29:27 (L139)"
+    },
+    {
+     "text": "now, I think because the lead volume is higher, as we're running ads better, it might be one in ten.",
+     "role_family": "leadership",
+     "id": "KO-PP18",
+     "timestamp": "~54:08 (L268)"
+    }
+   ],
+   "existing_problem": "R19 Proposals are rebuilt from scratch per prospect (pack #22)",
+   "verdict": "New",
+   "verdict_note": "New, largely leadership-only (both leaders) plus one SEO manager on prospect decks. R19 (proposals rebuilt per prospect) merges here – one staff raise (KZ-PP21).",
+   "root_cause_chain": [
+    "Growth and US expansion wait on sales running without the founder (KO-PP17, MP-PP11).",
+    "Pipeline relies on inbound and referral; outbound no longer works and lead quality is falling (KO-PP24, KO-PP19, KO-PP18).",
+    "Prospect decks are built by hand by delivery staff on top of BAU (KZ-PP21).",
+    "Sales know-how, deal shaping and diversification plans are unwritten (KO-PP23)."
+   ],
+   "shared_root_cause": "RC-06",
+   "flags": [
+    "COI – extraction opportunities that Transpera would build (KO-O11, KZ-O12) fix KO-PP17, KO-PP18, KO-PP24, KZ-PP21"
+   ],
+   "registry_pages": [
+    "https://app.notion.com/p/410e204ff7698149a72ccd9d798ea640",
+    "https://app.notion.com/40fe204ff769816c8f78fdc8c0b16830"
+   ]
+  }
+ ],
+ "root_causes": [
+  {
+   "id": "RC-01",
+   "statement": "No system of record: budgets, client data, briefs, links and files are held in many hand-maintained copies, so people re-key, reconcile and collate by hand.",
+   "clusters": [
+    "C-01",
+    "C-05",
+    "C-06",
+    "C-20",
+    "C-21",
+    "C-23",
+    "C-34"
+   ],
+   "anchor": "Operations capacity & process"
+  },
+  {
+   "id": "RC-02",
+   "statement": "Monitoring is human: nothing pushes signals on spend, performance, tracking, link status, trends or churn, so problems surface late.",
+   "clusters": [
+    "C-03",
+    "C-04",
+    "C-15",
+    "C-16",
+    "C-25"
+   ],
+   "anchor": "Performance visibility & margin"
+  },
+  {
+   "id": "RC-03",
+   "statement": "Client context isn't captured per client, so every hand-off – sales to delivery, manager to writer or specialist, cover – loses detail.",
+   "clusters": [
+    "C-07",
+    "C-08",
+    "C-12",
+    "C-27"
+   ],
+   "anchor": "Client experience & delivery"
+  },
+  {
+   "id": "RC-04",
+   "statement": "Tools, automations and AI workflows are built by individuals with no owner, documentation, policy or renewal plan, so they break or stay personal.",
+   "clusters": [
+    "C-02",
+    "C-28",
+    "C-31",
+    "C-32",
+    "C-33"
+   ],
+   "anchor": "Technology, AI & stack"
+  },
+  {
+   "id": "RC-05",
+   "statement": "There is no effort model: time per client isn't measured, scope and onboardings aren't checked against capacity, and intake isn't triaged – so work is sold, priced and scheduled by feel.",
+   "clusters": [
+    "C-10",
+    "C-17",
+    "C-18",
+    "C-19",
+    "C-26",
+    "C-38"
+   ],
+   "anchor": "Operations capacity & process"
+  },
+  {
+   "id": "RC-06",
+   "statement": "Decisions and quality gates sit with a few senior people because authority isn't delegated and the management layer is thin.",
+   "clusters": [
+    "C-22",
+    "C-24",
+    "C-36",
+    "C-37",
+    "C-39"
+   ],
+   "anchor": "Leadership & dependency"
+  },
+  {
+   "id": "RC-07",
+   "statement": "External dependencies – client access, approvals, inputs, contractors and vendors – aren't contracted, time-boxed or tracked, so delivery waits.",
+   "clusters": [
+    "C-09",
+    "C-11",
+    "C-13",
+    "C-14",
+    "C-29"
+   ],
+   "anchor": "Client experience & delivery"
+  },
+  {
+   "id": "RC-08",
+   "statement": "Adoption isn't designed or enforced: systems and SOPs are built, then assumed to be used.",
+   "clusters": [
+    "C-30",
+    "C-35"
+   ],
+   "anchor": "Leadership & dependency"
+  }
+ ],
+ "contradictions": [
+  {
+   "id": "X-01",
+   "topic": "Supermetrics status",
+   "claim_a": {
+    "ids": "SD-PP01",
+    "claim": "\"the sheets have broken because we no longer have a Supermetric subscription\" (~22:57, L193)"
+   },
+   "claim_b": {
+    "ids": "MC-PP06 / MC follow-up",
+    "claim": "Still connected but 'breaking down a lot'; not being renewed (~20:25, L198). WS follow-up (4 Nov Meta pacing call): subscription not cancelled, connection keeps dropping."
+   },
+   "explanation": "Subscription is in run-off or on a reduced plan: the connector still exists but fails, and there is no plan to renew. Context pack's 'lapsed' is too strong.",
+   "status": "Needs Aperitif (billing record)",
+   "pack_effect": "Describe as 'failing and not being renewed', not 'lapsed'. Affects C-02 wording."
+  },
+  {
+   "id": "X-02",
+   "topic": "Google pacing – manual vs scripted",
+   "claim_a": {
+    "ids": "MP-str03 / MP follow-up",
+    "claim": "Joe: Google Ads and Meta pacing 'built' / 'sorted' (~44:15, L573); KO-str08 Google Ads script flags no-conversion accounts."
+   },
+   "claim_b": {
+    "ids": "SD-PP15",
+    "claim": "Claude connects to Meta but not Google Ads, so Google stays manual (~15:50, L131); SH-PP02 sheets need manual IDs and don't pull correctly."
+   },
+   "explanation": "A Google pacing sheet exists, but its feed and all adjustments are manual; the script covers one failure type (no conversions), not pacing.",
+   "status": "Needs data (open the Google pacing sheet; check its feed)",
+   "pack_effect": "Don't say Google pacing is automated. C-01/C-02."
+  },
+  {
+   "id": "X-03",
+   "topic": "Tina pacing cadence",
+   "claim_a": {
+    "ids": "SD-PP19",
+    "claim": "Tina updates Monday, Wednesday, Friday (~27:21, L260); SD-X03 also says 'twice a week'."
+   },
+   "claim_b": {
+    "ids": "DM-X01 / SH-X02 / MC-X02",
+    "claim": "Diya checks performance fortnightly (weekly for new clients); Austin said Tina posts daily (SH L193, MC L407, DM L304)."
+   },
+   "explanation": "Tina posts budget pacing M/W/F. Diya's fortnightly cadence is her manual performance check, a different task. 'Daily' was the interviewer's assumption and wasn't corrected.",
+   "status": "Resolved (from evidence) – confirm in Slack",
+   "pack_effect": "Use M/W/F for the bot; fortnightly for manual performance checks. C-02, C-04."
+  },
+  {
+   "id": "X-04",
+   "topic": "Who Tonie and Zach report to",
+   "claim_a": {
+    "ids": "Context pack §2",
+    "claim": "Both report to Sid."
+   },
+   "claim_b": {
+    "ids": "KZ follow-up (L089, L094); TG follow-up; SB follow-up",
+    "claim": "Karl says both report to him; all Tonie's approvals go to Karl; Sid describes no management duties."
+   },
+   "explanation": "Org chart is out of date; both work to Karl in practice.",
+   "status": "Needs Aperitif (confirm the chart)",
+   "pack_effect": "Dependency table uses Karl as approver. C-24, C-32."
+  },
+  {
+   "id": "X-05",
+   "topic": "Link volume per month",
+   "claim_a": {
+    "ids": "KO-PP16",
+    "claim": "Julia: about 200 links a month (L368)."
+   },
+   "claim_b": {
+    "ids": "LS-PP12 / TG-str09 / context pack",
+    "claim": "Laura: 250 → 312 a month (L090); Tonie: 300–340 a month (L084); pack ~300 (2,800 Jan–Oct)."
+   },
+   "explanation": "Volume has grown; 200 is an older or rough leadership figure. 312 and 300–340 are consistent with the order book.",
+   "status": "Needs data (order book by month)",
+   "pack_effect": "Use ~300 a month (300–340 stated by the outreach lead) with the range; drop 200. C-23, C-24."
+  },
+  {
+   "id": "X-06",
+   "topic": "Link fault rate",
+   "claim_a": {
+    "ids": "Context pack (problem #3)",
+    "claim": "32% fault rate Jan–Apr; checking stopped after April."
+   },
+   "claim_b": {
+    "ids": "KZ-PP10",
+    "claim": "~100 dead links in ~10 months (~3% of ~3,000) (~54:38, L546)."
+   },
+   "explanation": "Different measures: 32% is likely faults found at live-check (not live, wrong domain, wrong anchor) when checks ran; ~100 is links later removed.",
+   "status": "Needs data (Austin's Jan–Apr analysis definitions)",
+   "pack_effect": "Don't quote 32% as a removal rate. C-25 reworded without it."
+  },
+  {
+   "id": "X-07",
+   "topic": "Hayley's client count",
+   "claim_a": {
+    "ids": "Context pack §2",
+    "claim": "17 content clients."
+   },
+   "claim_b": {
+    "ids": "HT-X01",
+    "claim": "About 7 this month (L147)."
+   },
+   "explanation": "17 is likely all clients she has written for this year; ~7 is the active monthly book.",
+   "status": "Needs Aperitif",
+   "pack_effect": "Use '~7 active a month' for capacity maths. C-22."
+  },
+  {
+   "id": "X-08",
+   "topic": "easyAML ownership",
+   "claim_a": {
+    "ids": "Context pack §4",
+    "claim": "Google Ads manager DM."
+   },
+   "claim_b": {
+    "ids": "SD-X01",
+    "claim": "Shrishti calls easyAML her client."
+   },
+   "explanation": "Possibly split by platform, recently reassigned, or the pacing-sheet initials are stale.",
+   "status": "Needs Aperitif",
+   "pack_effect": "Minor; don't cite easyAML ownership."
+  },
+  {
+   "id": "X-09",
+   "topic": "Performance team leadership",
+   "claim_a": {
+    "ids": "KO-PP04",
+    "claim": "Julia: 'a bit headless when it comes to performance' (22 Oct, L066)."
+   },
+   "claim_b": {
+    "ids": "WS-PP11 / WS-X04 / context pack",
+    "claim": "Wendlley is Performance Marketing Director; 'JP', a Head of Performance, left ~2 weeks before 28 Oct; KO-dep08 calls lead titles 'director titles, not directorships'."
+   },
+   "explanation": "Consistent: a senior Head of Performance (JP) above the Director left mid-October; the Director title doesn't carry that seat.",
+   "status": "Resolved (from evidence) – confirm JP's role",
+   "pack_effect": "Say 'senior performance seat vacant since mid-October'. C-37."
+  },
+  {
+   "id": "X-10",
+   "topic": "$10K Leaselab overspend vs LinkedIn overspend",
+   "claim_a": {
+    "ids": "MP-PP01",
+    "claim": "$10K credit (Leaselab): budget changed but sheet not updated, so tracker paced against the wrong number (L377)."
+   },
+   "claim_b": {
+    "ids": "MP-PP02 / context pack",
+    "claim": "LinkedIn had no pacing tracker – 'now we've got to spend on LinkedIn because we didn't have a pacing tracker' (L577); pack: '$10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure)'. MP-X02: Joe says it sat with 'our most senior person'; pack lists DM on Leaselab Google."
+   },
+   "explanation": "Probably one Leaselab LinkedIn incident with two causes (no LinkedIn tracker and a stale budget figure), but the transcript doesn't tie them explicitly.",
+   "status": "Needs Austin (confirm with Joe)",
+   "pack_effect": "Cite as one incident only once confirmed; until then '$10K credit on one Leaselab overspend'. C-01, C-03."
+  },
+  {
+   "id": "X-11",
+   "topic": "Julia at the mid-point meeting",
+   "claim_a": {
+    "ids": "Evidence Log",
+    "claim": "Mid-point listed as Joe & Julia."
+   },
+   "claim_b": {
+    "ids": "MP-X01",
+    "claim": "No line firmly attributable to Julia."
+   },
+   "explanation": "Julia may have been present but silent, or absent.",
+   "status": "Needs Austin",
+   "pack_effect": "All MP raises counted as Joe's. If Julia was absent, nothing changes; if present and agreeing, still no extra raise."
+  },
+  {
+   "id": "X-12",
+   "topic": "Campaign build 1 day vs 3–5 days",
+   "claim_a": {
+    "ids": "Context pack §5",
+    "claim": "Build 3–5 days."
+   },
+   "claim_b": {
+    "ids": "MC-PP10 / MC-str08",
+    "claim": "Build ~1 day once approvals are in (L271); SD-PP12 ad hoc launch ≥ 1 week incl. creatives and approvals."
+   },
+   "explanation": "Touch time ~1 day; elapsed time 3–5 days or more because of approvals and creatives.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Report touch vs elapsed separately. C-09, C-14."
+  },
+  {
+   "id": "X-13",
+   "topic": "Diya's client tiers",
+   "claim_a": {
+    "ids": "DM-X02",
+    "claim": "Mostly Tier 2/3 clients."
+   },
+   "claim_b": {
+    "ids": "Context pack §4",
+    "claim": "DM on Leaselab ($141K Google), White & Co, easyAML, AMIGA."
+   },
+   "explanation": "Context-pack tiers are SEO tiers; paid has its own (or no formal) tiering by spend.",
+   "status": "Needs Aperitif (paid tier list)",
+   "pack_effect": "Don't use SEO tiers for paid-side statements. C-17."
+  },
+  {
+   "id": "X-14",
+   "topic": "Sarah's 4 vs 5 freelancers",
+   "claim_a": {
+    "ids": "SJ-X04",
+    "claim": "'Four freelancers'."
+   },
+   "claim_b": {
+    "ids": "Context pack §2",
+    "claim": "Five contractor names (Chloe, Jess, Kayla, Aly, Ben)."
+   },
+   "explanation": "Four active now; one occasional or former.",
+   "status": "Needs Aperitif",
+   "pack_effect": "Minor. C-21, C-22."
+  },
+  {
+   "id": "X-15",
+   "topic": "Is there a usable wiki?",
+   "claim_a": {
+    "ids": "KO-PP15",
+    "claim": "Julia: 'We need a wiki badly' (L082)."
+   },
+   "claim_b": {
+    "ids": "KO follow-up",
+    "claim": "Joe: 'everything's in Notion' (L423), 'a lot of documentation' (L088)."
+   },
+   "explanation": "Both true: content exists (217 pages) but is stale (43% unedited in a year) and unread (MP-PP03, WS-PP09).",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Frame as adoption/currency, not absence. C-35."
+  },
+  {
+   "id": "X-16",
+   "topic": "Sales-to-delivery handover",
+   "claim_a": {
+    "ids": "KO-str07 / KO follow-up",
+    "claim": "Joe: one HubSpot record with all notes plus a 15-minute internal call (L301)."
+   },
+   "claim_b": {
+    "ids": "WS-PP06 / MC-PP11 / SH-PP07",
+    "claim": "Call sometimes 10 min before client call or skipped; onboarding calls run 'blind'; clients re-asked."
+   },
+   "explanation": "Process exists on paper, not run reliably.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Present as a compliance gap, not a missing process. C-08."
+  },
+  {
+   "id": "X-17",
+   "topic": "Which 'three places' budgets live in",
+   "claim_a": {
+    "ids": "SH-PP01",
+    "claim": "HubSpot, Monday.com and pacing sheets."
+   },
+   "claim_b": {
+    "ids": "SD-PP02 / context pack",
+    "claim": "Google budget sheet, pacing sheet and the platform."
+   },
+   "explanation": "In practice five places: budget sheet, pacing sheet, platform, HubSpot, Monday.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Say 'three or more places'. C-01."
+  },
+  {
+   "id": "X-18",
+   "topic": "Technical audit – manual 81 items vs automated",
+   "claim_a": {
+    "ids": "Context pack §5",
+    "claim": "81-item Technical SEO Audit run by technical SEO."
+   },
+   "claim_b": {
+    "ids": "SB-X02 / SB-str04",
+    "claim": "Audits automated via Claude MCP (Spencer's earlier work; status unclear)."
+   },
+   "explanation": "Automation may exist for part of the checklist; unclear which is current.",
+   "status": "Needs Aperitif",
+   "pack_effect": "Don't cite audit effort until confirmed. C-10, C-26."
+  },
+  {
+   "id": "X-19",
+   "topic": "Is the link-building lead overstretched?",
+   "claim_a": {
+    "ids": "KZ-X04 (L156)",
+    "claim": "'No, I feel okay.'"
+   },
+   "claim_b": {
+    "ids": "KZ-X04 (L201, L560)",
+    "claim": "Overtime in onboarding months; 'at my cap'."
+   },
+   "explanation": "Fine in normal months, over capacity in onboarding peaks.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Supports C-10's peak framing."
+  },
+  {
+   "id": "X-20",
+   "topic": "Live link checks stopped after April",
+   "claim_a": {
+    "ids": "Context pack (problem #3)",
+    "claim": "Live checks stopped after April."
+   },
+   "claim_b": {
+    "ids": "TG-X02",
+    "claim": "Outreach lead checks status at publication with a browser extension."
+   },
+   "explanation": "Publication-time check continues; post-publication re-checks stopped.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Word C-25 as 'nobody re-checks after publication'."
+  },
+  {
+   "id": "X-21",
+   "topic": "Are call transcripts used?",
+   "claim_a": {
+    "ids": "KO-X04",
+    "claim": "Joe: Otter recordings 'should go into the CRM automatically' (L320)."
+   },
+   "claim_b": {
+    "ids": "MP-PP20 / KZ-PP16 / ZC-PP13",
+    "claim": "Only Joe uses transcripts; Gemini notes switched on inconsistently and rarely reviewed."
+   },
+   "explanation": "Captured (sometimes) but not used.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "C-07: capture exists, use doesn't."
+  },
+  {
+   "id": "X-22",
+   "topic": "Is there any proactive alerting?",
+   "claim_a": {
+    "ids": "KO-str08 / KO-X05",
+    "claim": "Google Ads script flags 7 days without conversions (L356)."
+   },
+   "claim_b": {
+    "ids": "SD-PP04 / DM-PP03 / WS-PP04",
+    "claim": "Issues seen only in the account; alerts give no cause."
+   },
+   "explanation": "Script covers one failure mode only.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "C-04 says 'one narrow alert exists'."
+  },
+  {
+   "id": "X-23",
+   "topic": "What is 'Tina'?",
+   "claim_a": {
+    "ids": "SJ-X05",
+    "claim": "Industry-statistics bot."
+   },
+   "claim_b": {
+    "ids": "Context pack / SD-PP19",
+    "claim": "Pacing and agenda bot."
+   },
+   "explanation": "Tina is an OpenClaw agent workspace with several functions.",
+   "status": "Needs Austin (confirm with Joe)",
+   "pack_effect": "Name the function, not 'Tina', in the pack. C-02, C-32."
+  },
+  {
+   "id": "X-24",
+   "topic": "Call-prep time",
+   "claim_a": {
+    "ids": "SD-PP05",
+    "claim": "1 h–1 h 15 per 30-min call incl. follow-up (L161)."
+   },
+   "claim_b": {
+    "ids": "DM-PP05",
+    "claim": "~30 min data review per monthly WIP call (L257)."
+   },
+   "explanation": "Different scopes (prep+follow-up vs data review) and client complexity.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Report a range by tier in Stage 2. C-05."
+  },
+  {
+   "id": "X-25",
+   "topic": "Underperformance tickets – HubSpot or Monday",
+   "claim_a": {
+    "ids": "WS-X03 (L367)",
+    "claim": "'Flow in HubSpot'."
+   },
+   "claim_b": {
+    "ids": "WS-X03 (L378)",
+    "claim": "'Migrated from HubSpot to Monday'."
+   },
+   "explanation": "Migrated; the HubSpot description is out of date.",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "C-30."
+  },
+  {
+   "id": "X-26",
+   "topic": "Content volume baseline",
+   "claim_a": {
+    "ids": "SJ-X01 (L069)",
+    "claim": "Started at 40,000 words a month."
+   },
+   "claim_b": {
+    "ids": "SJ-X01 (L257) / context pack",
+    "claim": "Sheet growth 'from 60 to 100'; pack ~93k average."
+   },
+   "explanation": "Different start points; ~100k is current and consistent with ~93k average.",
+   "status": "Needs data (tracker history)",
+   "pack_effect": "Use ~93–100k/month. C-21."
+  },
+  {
+   "id": "X-27",
+   "topic": "Spencer Potts's status",
+   "claim_a": {
+    "ids": "Context pack §2",
+    "claim": "Role unclear; not on chart."
+   },
+   "claim_b": {
+    "ids": "LS-X05 / SB-dep4",
+    "claim": "Laura places him on the tech team; Sid cites his earlier audit work."
+   },
+   "explanation": "Probably current or recent tech team member.",
+   "status": "Needs Aperitif",
+   "pack_effect": "Dependency table lists him tentatively. C-26."
+  },
+  {
+   "id": "X-28",
+   "topic": "Scope for savings in organic",
+   "claim_a": {
+    "ids": "LS-X02 / MP-X04",
+    "claim": "Austin's wrap-ups suggested little room to save time in organic/SEO."
+   },
+   "claim_b": {
+    "ids": "LS-PP03, LS-PP04, LS-PP12, C-20, C-21, C-23",
+    "claim": "Laura then lists briefs, content sheets, link building and slides; many organic clusters carry hours."
+   },
+   "explanation": "Interviewer framing was leading (bias flag).",
+   "status": "Resolved (from evidence)",
+   "pack_effect": "Pack must not say organic has little opportunity."
+  },
+  {
+   "id": "X-29",
+   "topic": "Disney not in client lists",
+   "claim_a": {
+    "ids": "KZ-X03",
+    "claim": "Described as one of Karl's largest, highest-paying clients."
+   },
+   "claim_b": {
+    "ids": "Context pack §4",
+    "claim": "Not listed (nor AquaSafe)."
+   },
+   "explanation": "Client lists are SEO/link order-book based; Disney may be a project/localisation client.",
+   "status": "Needs Aperitif",
+   "pack_effect": "Strip from quotes either way. C-18, C-06, C-20."
+  },
+  {
+   "id": "X-30",
+   "topic": "Individual high-end hours exceed one FTE",
+   "claim_a": {
+    "ids": "KZ, TG, ZC, SJ, HT, WS, SD, DM, MC follow-ups",
+    "claim": "High-end monthly hours 159–217 h per person."
+   },
+   "claim_b": {
+    "ids": "Working month ~160 h",
+    "claim": "Can't all be true at the high end."
+   },
+   "explanation": "Assumed ranges stack; Stage 2 caps each person at 160 h.",
+   "status": "Resolved (by Stage 2 rule)",
+   "pack_effect": "Stage 1 'indicative' hour sums are ceilings, not estimates."
+  },
+  {
+   "id": "X-31",
+   "topic": "HubSpot saving",
+   "claim_a": {
+    "ids": "KO-X07 (L310)",
+    "claim": "Austin quoted $24K/yr saving on HubSpot."
+   },
+   "claim_b": {
+    "ids": "KO-PP12 (L313)",
+    "claim": "Joe: HubSpot + Monday 'better part of 30 grand' after a reduction."
+   },
+   "explanation": "The saving from dropping HubSpot alone isn't established.",
+   "status": "Needs data (invoices)",
+   "pack_effect": "Don't quote a HubSpot saving. C-31."
+  }
+ ],
+ "known_facts_check": [
+  {
+   "fact": "Paid media: 61 Google Ads clients, ~$788K/month Google budget (Nov 2026); 41 Meta lines (~$422K)",
+   "status": "Not evidenced",
+   "ids": [],
+   "note": "No interviewee gave agency totals. Director's own channels 10 → 18 (WS-PP01) is consistent with growth."
+  },
+  {
+   "fact": "Account managers carry 12–20 accounts (Laura 12; Shrishti 14 clients / 24 channels; Zach up to 20)",
+   "status": "Supported",
+   "ids": [
+    "LS-PP01",
+    "SD-str05",
+    "SD-dep1",
+    "DM-PP10",
+    "ZC-dep6"
+   ],
+   "note": "Laura 12 (LS-PP01); Shrishti 14 (SD-str05) and 24 channels (SD-dep1); Diya ~20 (DM-PP10); Zach ~19 (ZC-dep6). Michaela 10–11 (MC-X01)."
+  },
+  {
+   "fact": "Pre-call prep ~1h15 for a 30–45 min client call (Shrishti)",
+   "status": "Supported",
+   "ids": [
+    "SD-PP05",
+    "DM-PP05"
+   ],
+   "note": "Shrishti: 1 h–1 h 15 per 30-min call incl. follow-up (SD-PP05). Diya ~30 min (DM-PP05) – scope differs (X-24)."
+  },
+  {
+   "fact": "Pacing adjustments ~15–20 min per account (Shrishti)",
+   "status": "Supported",
+   "ids": [
+    "SD-PP03"
+   ],
+   "note": "Stated (SD-PP03). The Director says the budget change itself is easy; time is in analysis (WS-X02)."
+  },
+  {
+   "fact": "Onboarding ~1 week minimum once access is received; tracking 3–4 days; build 3–5 days",
+   "status": "Contradicted (build)",
+   "ids": [
+    "MC-PP10",
+    "MC-str08",
+    "SD-PP12",
+    "SD-PP10"
+   ],
+   "note": "Build touch time ~1 day once approvals are in (MC-PP10); 3–5 days is elapsed. Tracking 3–4 days not evidenced (only 'can't see when done', MC-PP16). Don't quote 3–5-day build until X-12 wording agreed."
+  },
+  {
+   "fact": "Content: ~93k words/month, ~47 requests/month; contractors 48%, Content Manager 37%, Content Specialist 15%; contractors ~$14k/month",
+   "status": "Partly supported",
+   "ids": [
+    "SJ-PP11",
+    "HT-PP07"
+   ],
+   "note": "Volume ~100k now (SJ-PP11) – consistent. Split and $14k not stated in interviews (HT-PP07 cites the pack)."
+  },
+  {
+   "fact": "Link building: ~2,800 orders Jan–Oct (~300/month); ~$80–130 per link; priced to clients at $250–500",
+   "status": "Partly supported / contested",
+   "ids": [
+    "TG-str09",
+    "LS-PP12",
+    "KO-PP16",
+    "KZ-PP10"
+   ],
+   "note": "300–340/month (TG) and 312 (LS) support ~300; leadership's ~200 contradicts (X-05). Unit cost and price not stated in interviews."
+  },
+  {
+   "fact": "SEO price calculator: technical $150/hr, SEO manager $150/hr, content $0.50/word, links $250/$500, +30% markup",
+   "status": "Not evidenced",
+   "ids": [
+    "LS-str02",
+    "KZ-str07",
+    "KZ-PP22"
+   ],
+   "note": "Calculator exists (LS, KZ) but rates not discussed; KZ says it isn't kept up to date."
+  },
+  {
+   "fact": "SEO career ladder: SEO Manager $40–50k MRR; Senior $50–60k MRR; retention targets 98% / 95%",
+   "status": "Not evidenced",
+   "ids": [],
+   "note": "Not discussed. Retention tracked by OpenClaw task (KO-str04)."
+  },
+  {
+   "fact": "Notion wiki: 217 pages, 43% not edited in over a year; Joe last editor on 39%",
+   "status": "Supported (interviewer-sourced)",
+   "ids": [
+    "MP-PP03",
+    "KO-PP15"
+   ],
+   "note": "Austin's own stats, agreed by Joe in MP-PP03; Julia says a wiki is badly needed (KO-PP15)."
+  },
+  {
+   "fact": "Recent incident: $10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure)",
+   "status": "Supported – link unconfirmed",
+   "ids": [
+    "MP-PP01",
+    "MP-PP02"
+   ],
+   "note": "$10K credit and both causes stated, but the transcript doesn't explicitly tie the $10K to LinkedIn (X-10). Don't quote as one incident until confirmed."
+  }
+ ],
+ "dependencies": [
+  {
+   "what": "Founder-held functions: Tier 1 relationships, contract sign-off, AP/payroll, sales pipeline and deal shaping, ad-spend calculator, SOP answers, OpenClaw agents (retention task, Slack assistant, stats bot), AI-data permission, sales context for onboarding",
+   "role": "Founder",
+   "name": "Joe Romeo",
+   "ids": [
+    "KO-dep1",
+    "KO-dep2",
+    "KO-dep4",
+    "KO-dep5",
+    "KO-dep9",
+    "KO-dep10",
+    "MP-dep2",
+    "MP-dep3",
+    "MP-dep4",
+    "MP-dep7",
+    "SJ-dep6",
+    "DM-dep6",
+    "MC-dep6"
+   ],
+   "if_absent": "Deals, payments and Tier 1 sensitivities stall; retention tracking and agents have no second owner; managers improvise on AI use",
+   "documented": false,
+   "documented_note": "No (some SOPs in Notion; agents undocumented)",
+   "cluster": "C-36, C-39, C-35, C-33, C-08"
+  },
+  {
+   "what": "Link-building operating flow: sourcing, allocation, orders, master sheet, publisher relationships, four home-built tools (lead skill, duplicate checker, link-status extension, Monday sync)",
+   "role": "Outreach Specialist",
+   "name": "Tonie Guevarra",
+   "ids": [
+    "TG-dep1",
+    "TG-dep2",
+    "TG-dep3",
+    "TG-dep5",
+    "KZ-dep4"
+   ],
+   "if_absent": "300–340 links a month stall; tools go stale unnoticed",
+   "documented": false,
+   "documented_note": "No (criteria written, tools not)",
+   "cluster": "C-23, C-24, C-32"
+  },
+  {
+   "what": "Link approval and payment: domain approval for all orders, outreacher/publisher invoices, link process knowledge, any new link service",
+   "role": "Senior SEO Manager & Link-building Lead",
+   "name": "Karl Zaharopoulos",
+   "ids": [
+    "KZ-dep1",
+    "KZ-dep2",
+    "TG-dep4",
+    "TG-dep6",
+    "LS-dep2",
+    "MP-dep6",
+    "ZC-dep7"
+   ],
+   "if_absent": "Vetting stops, links late across all clients, outreachers unpaid",
+   "documented": false,
+   "documented_note": "Partly (lead criteria written, TG-str03)",
+   "cluster": "C-24, C-23"
+  },
+  {
+   "what": "Content operations: brief intake and allocation, freelancer briefing, editing/QA of freelancer work, master content sheet logic, client notes and feedback history",
+   "role": "Content Manager",
+   "name": "Sarah Julian",
+   "ids": [
+    "SJ-dep1",
+    "SJ-dep2",
+    "SJ-dep3",
+    "SJ-dep4",
+    "KZ-dep7",
+    "HT-dep2",
+    "LS-dep1"
+   ],
+   "if_absent": "Briefs sit unassigned; content goes unedited; 'If someone has to take this over, they won't.'",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-22, C-21, C-07"
+  },
+  {
+   "what": "Monday.com architecture and Make scenarios (built, admin, sole fixer); manual owner fix on every new client; content Sheets–Monday integration; Claude brief project",
+   "role": "Technical SEO Specialist",
+   "name": "Sid Bali",
+   "ids": [
+    "KO-dep3",
+    "SB-dep1",
+    "SB-dep2",
+    "SB-dep3",
+    "SJ-dep5",
+    "HT-dep4",
+    "ZC-dep4"
+   ],
+   "if_absent": "Handover automation and boards can't be fixed; content migration stalls; brief project drifts",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-31, C-32, C-21, C-20"
+  },
+  {
+   "what": "Meta pacing done daily by hand in Claude",
+   "role": "Performance Marketing Director",
+   "name": "Wendlley Simoes",
+   "ids": [
+    "SD-dep6"
+   ],
+   "if_absent": "No Meta pacing data; Director time absorbed daily",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-02"
+  },
+  {
+   "what": "Paid client status (WIP doc), strategy sign-off for all new clients, Gemini forecasting and AI quarterly-review workflow, inherited Tier 1 account",
+   "role": "Performance Marketing Director",
+   "name": "Wendlley Simoes",
+   "ids": [
+    "WS-dep1",
+    "WS-dep2",
+    "WS-dep4",
+    "WS-dep5"
+   ],
+   "if_absent": "No single written status; strategies wait or go unchecked; team reverts to manual forecasting",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-36, C-07, C-33, C-37"
+  },
+  {
+   "what": "Escalation handling, reading agency health, covering performance direction, onboarding capacity decisions",
+   "role": "Head of Client Services",
+   "name": "Julia Van Der Linden",
+   "ids": [
+    "KO-dep6",
+    "KO-dep7",
+    "MP-dep1",
+    "SD-dep8"
+   ],
+   "if_absent": "Escalations stall or fall to the founder; early warnings lost; overload rests on each manager",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-36, C-37, C-16"
+  },
+  {
+   "what": "Conversion tracking set-up and troubleshooting",
+   "role": "Conversion Tracking Specialist (contractor)",
+   "name": "Liam Lau",
+   "ids": [
+    "SH-dep2",
+    "SD-dep7",
+    "MC-dep5"
+   ],
+   "if_absent": "Onboarding go-live blocked; status known only by asking",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-09"
+  },
+  {
+   "what": "Tina Slack bot – M/W/F budget pacing updates",
+   "role": "Slack agent (no visible owner; likely founder's OpenClaw)",
+   "name": "– (bot)",
+   "ids": [
+    "SD-dep4",
+    "DM-dep4",
+    "MC-dep4"
+   ],
+   "if_absent": "Pacing flags stop or go wrong unnoticed",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-02, C-32"
+  },
+  {
+   "what": "Pacing sheet formulas, monthly rebuild and Supermetrics fixes; campaign-level allocations; the budget figure on each pacing line",
+   "role": "Performance Marketing Specialist; Senior Performance Marketing Manager; unnamed sheet maintainer",
+   "name": "Michaela Cruz; Shrishti Dokwal",
+   "ids": [
+    "MC-dep2",
+    "SD-dep1",
+    "SH-dep5",
+    "MP-dep5"
+   ],
+   "if_absent": "Team budget source of truth not ready on Day 1; adjustments for 24 channels stall",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-01, C-02"
+  },
+  {
+   "what": "Strategy, analysis and QA gate for delegated paid work; largest-client reconciliation logic; sign-off on a specialist's onboarding strategy",
+   "role": "Senior Performance Marketing Manager",
+   "name": "Shrishti Dokwal",
+   "ids": [
+    "SD-dep2",
+    "SD-dep3",
+    "MC-dep7"
+   ],
+   "if_absent": "QA queue stops; largest client's analysis loses continuity",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-36, C-05"
+  },
+  {
+   "what": "Implementation capacity for paid (builds, landing-page and creative briefs, designer coordination)",
+   "role": "Performance Marketing Specialist; Performance Marketing Coordinator",
+   "name": "Michaela Cruz; Tatiana Stinson",
+   "ids": [
+    "MC-dep3",
+    "DM-dep5",
+    "WS-dep6"
+   ],
+   "if_absent": "Builds queue; managers build themselves",
+   "documented": false,
+   "documented_note": "Partly (Monday briefs)",
+   "cluster": "C-18, C-27"
+  },
+  {
+   "what": "Mid-month 15-vs-15 performance check",
+   "role": "Performance Marketing Coordinator",
+   "name": "Tatiana Stinson",
+   "ids": [
+    "SD-dep5"
+   ],
+   "if_absent": "Performance drops unflagged",
+   "documented": false,
+   "documented_note": "No (planned handover to bot)",
+   "cluster": "C-04"
+  },
+  {
+   "what": "Paid client context per account (what converts, budget tolerance, strategy splits, personas), monthly commentary, Meta ad QA, ~12-client strategy and briefs",
+   "role": "Each paid account manager",
+   "name": "Diya Manoj; Sophie Hesseborn; account owners",
+   "ids": [
+    "DM-dep1",
+    "DM-dep2",
+    "DM-dep3",
+    "SH-dep1",
+    "SH-dep6",
+    "WS-dep3"
+   ],
+   "if_absent": "Cover manager rebuilds context; wrong negatives; budget moves could breach client agreements",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-07, C-06, C-28"
+  },
+  {
+   "what": "SEO/content client context: strategy, USPs, history, tone of voice, regulated-client rules, approvals chasing, out-of-cycle client, project status, technical context",
+   "role": "SEO managers, content writers, technical SEO",
+   "name": "Zach Chamberlain; Hayley Tantau; Karl Zaharopoulos; Sid Bali",
+   "ids": [
+    "ZC-dep1",
+    "ZC-dep2",
+    "ZC-dep3",
+    "ZC-dep6",
+    "HT-dep1",
+    "HT-dep3",
+    "KZ-dep8",
+    "SB-dep5"
+   ],
+   "if_absent": "Briefs unchecked; repeat client corrections; content rejected; cover can't see plan",
+   "documented": false,
+   "documented_note": "Partly (regulated run sheet; briefs)",
+   "cluster": "C-07, C-12, C-11"
+  },
+  {
+   "what": "Highest-touch client: relationship, localisation prep, bespoke report",
+   "role": "Senior SEO Manager",
+   "name": "Karl Zaharopoulos",
+   "ids": [
+    "KZ-dep3"
+   ],
+   "if_absent": "Daily requests from the highest-touch client unanswered",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-18, C-06"
+  },
+  {
+   "what": "SEO strategy, templates, Tier 1 review decks and the capacity model",
+   "role": "SEO Director",
+   "name": "Laura Shillington",
+   "ids": [
+    "LS-dep4",
+    "LS-dep6"
+   ],
+   "if_absent": "Month-one strategy and 6-month reviews stall; hiring timing loses its basis",
+   "documented": false,
+   "documented_note": "Partly",
+   "cluster": "C-06, C-17"
+  },
+  {
+   "what": "Claude SEO-strategy prompt guide",
+   "role": "Senior SEO Manager",
+   "name": "Karl Zaharopoulos",
+   "ids": [
+    "ZC-dep5"
+   ],
+   "if_absent": "Strategy reverts toward ~3 days by hand",
+   "documented": false,
+   "documented_note": "Partly (guide exists)",
+   "cluster": "C-10, C-33"
+  },
+  {
+   "what": "Personal AI skills and workflows (preview links, audit/search-term prompts; prompting workflow)",
+   "role": "Performance Marketing Specialist; Content Specialist",
+   "name": "Michaela Cruz; Hayley Tantau",
+   "ids": [
+    "MC-dep1",
+    "HT-dep5"
+   ],
+   "if_absent": "Skills leave with the person; juniors start from scratch",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-33, C-28"
+  },
+  {
+   "what": "Technical delivery, audits and priority order; SEO performance-check routine",
+   "role": "Technical SEO team",
+   "name": "Sid Bali; Spencer Potts (status unclear); Everhardt Strauss",
+   "ids": [
+    "LS-dep3",
+    "LS-dep5",
+    "KZ-dep5",
+    "SB-dep4"
+   ],
+   "if_absent": "Tech tasks and audits stall",
+   "documented": false,
+   "documented_note": "Unclear",
+   "cluster": "C-26, C-04"
+  },
+  {
+   "what": "Page builds and uploads",
+   "role": "Implementation support",
+   "name": "JC Aranzado; Khaselyn Ibanez",
+   "ids": [
+    "KZ-dep6"
+   ],
+   "if_absent": "Content and pages not published",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-13"
+  },
+  {
+   "what": "Where client documents live (historically personal drives)",
+   "role": "Individual managers incl. past staff",
+   "name": "–",
+   "ids": [
+    "SH-dep3"
+   ],
+   "if_absent": "Handover requires searching",
+   "documented": false,
+   "documented_note": "Partly (shared Drive now)",
+   "cluster": "C-34"
+  },
+  {
+   "what": "Sales conversation history and pre-sales expectations",
+   "role": "Sales team / Growth Strategy Lead",
+   "name": "Jethro Jason",
+   "ids": [
+    "SH-dep4",
+    "WS-dep7"
+   ],
+   "if_absent": "Clients re-asked; expectations reset with each sales hire",
+   "documented": false,
+   "documented_note": "No",
+   "cluster": "C-08, C-38"
+  },
+  {
+   "what": "Departmental standards of 'what good looks like'",
+   "role": "The two department leads",
+   "name": "Laura Shillington; Wendlley Simoes",
+   "ids": [
+    "KO-dep8"
+   ],
+   "if_absent": "Standards drift; hard roles to replace",
+   "documented": false,
+   "documented_note": "Partly",
+   "cluster": "C-37"
+  }
+ ],
+ "strengths": [
+  {
+   "id": "S-01",
+   "text": "AgencyAnalytics has automated report building and given clients self-serve dashboards; little re-keying from GA4 now",
+   "role_family": "leadership; SEO managers; performance managers; performance specialist; technical SEO",
+   "ids": [
+    "KO-str01",
+    "KZ-str02",
+    "ZC-str03",
+    "SH-str01",
+    "SD-str03",
+    "MC-str05",
+    "WS-str05",
+    "SB-str10"
+   ],
+   "protects": [
+    "C-06"
+   ]
+  },
+  {
+   "id": "S-02",
+   "text": "Individually built AI tools already save real time: a Claude SEO-strategy prompt guide cut onboarding strategy from ~3 days to about an hour; Gemini forecasting cut hours to ~15 min; Claude audits halved optimisation time; a Claude brief project standardised briefs; link-team tools flag duplicates",
+   "role_family": "SEO managers; link-building team; performance managers; performance specialist; content team; technical SEO",
+   "ids": [
+    "ZC-str02",
+    "KZ-str01",
+    "KZ-str03",
+    "ZC-str01",
+    "ZC-str06",
+    "TG-str01",
+    "TG-str02",
+    "TG-str04",
+    "WS-str01",
+    "WS-str02",
+    "MC-str02",
+    "MC-str03",
+    "MC-str04",
+    "SD-str02",
+    "DM-str03",
+    "HT-str04",
+    "LS-str04",
+    "SB-str11",
+    "SJ-str06"
+   ],
+   "protects": [
+    "C-10",
+    "C-20",
+    "C-24",
+    "C-05",
+    "C-28"
+   ]
+  },
+  {
+   "id": "S-03",
+   "text": "Monday.com is adopted as the ticket system: deal-to-delivery handover, monthly task generation and two-way board sync are automated; full briefs in tickets cut back-and-forth",
+   "role_family": "technical SEO; leadership; performance managers; performance specialist; content team",
+   "ids": [
+    "SB-str01",
+    "SB-str02",
+    "SB-str03",
+    "KO-str11",
+    "WS-str04",
+    "SD-str04",
+    "MC-str01",
+    "HT-str08",
+    "SJ-str08"
+   ],
+   "protects": [
+    "C-30",
+    "C-31",
+    "C-21"
+   ]
+  },
+  {
+   "id": "S-04",
+   "text": "Structured briefs, criteria and templates already work where they exist: client campaign brief template, refreshed content brief standard, jointly fixed briefs, written link-lead criteria, onboarding questionnaire and audit checklist, regulated-client guideline run sheet",
+   "role_family": "performance managers; content team; link-building team; SEO managers",
+   "ids": [
+    "SD-str01",
+    "SJ-str02",
+    "HT-str01",
+    "HT-str07",
+    "DM-str06",
+    "DM-str07",
+    "SH-str03",
+    "TG-str03",
+    "TG-str05",
+    "ZC-str09"
+   ],
+   "protects": [
+    "C-21",
+    "C-27",
+    "C-12",
+    "C-14",
+    "C-09"
+   ]
+  },
+  {
+   "id": "S-05",
+   "text": "A predictable monthly rhythm and tier-based prioritisation: briefs week 1, writing weeks 1–3, QA last week; Tier 1 protected under load; content and link plans approved once at onboarding; technical work planned at onboarding",
+   "role_family": "content team; performance managers; SEO managers; technical SEO",
+   "ids": [
+    "SJ-str03",
+    "HT-str02",
+    "HT-str03",
+    "SH-str07",
+    "WS-str07",
+    "SD-str08",
+    "KZ-str06",
+    "SB-str05"
+   ],
+   "protects": [
+    "C-17",
+    "C-11",
+    "C-18"
+   ]
+  },
+  {
+   "id": "S-06",
+   "text": "Strong client relationships and proactive, transparent communication: frequent touchpoints, 24-hour response standard, plain-English reporting, narrative 6-month reviews, live platform walk-throughs, mid-month updates, news-driven ideas",
+   "role_family": "SEO managers; performance managers; performance specialist; technical SEO",
+   "ids": [
+    "KZ-str05",
+    "SH-str04",
+    "SH-str05",
+    "SD-str06",
+    "MC-str06",
+    "ZC-str04",
+    "SB-str07",
+    "SB-str06",
+    "LS-str08",
+    "WS-str10",
+    "SB-str08"
+   ],
+   "protects": [
+    "C-16"
+   ]
+  },
+  {
+   "id": "S-07",
+   "text": "A quality culture: trusted content QA, rigorous QA against approved copy, a writer learning loop, senior review of strategies, human-in-the-loop AI, test-and-learn management, blame-free handling of mistakes",
+   "role_family": "SEO managers; performance managers; performance specialist; leadership",
+   "ids": [
+    "KZ-str04",
+    "SH-str06",
+    "ZC-str08",
+    "MC-str09",
+    "SD-str07",
+    "DM-str08",
+    "KO-str12"
+   ],
+   "protects": [
+    "C-13",
+    "C-28",
+    "C-33"
+   ]
+  },
+  {
+   "id": "S-08",
+   "text": "Leadership measurement and escalation infrastructure: monthly financials within days, DLER as a utilisation barometer, automated retention tracking, written KPIs reviewed quarterly, a formal escalation pipeline, a Google Ads no-conversion alert",
+   "role_family": "leadership; performance managers",
+   "ids": [
+    "KO-str02",
+    "KO-str04",
+    "KO-str05",
+    "KO-str03",
+    "MP-str05",
+    "WS-str08",
+    "KO-str08"
+   ],
+   "protects": [
+    "C-16",
+    "C-19",
+    "C-04"
+   ]
+  },
+  {
+   "id": "S-09",
+   "text": "Capacity planning and people development: a retainer-based capacity model, weekly training sessions restored, a junior-to-senior role matrix, new technical hires, leads being developed, trainers asked to record sessions, SOPs written for repeat questions, the team pitches in at onboarding peaks",
+   "role_family": "SEO managers; leadership; content team; performance managers",
+   "ids": [
+    "LS-str01",
+    "LS-str03",
+    "LS-str05",
+    "LS-str10",
+    "MP-str04",
+    "HT-str09",
+    "DM-str02",
+    "ZC-str07",
+    "KO-str13",
+    "MP-str06",
+    "WS-str03"
+   ],
+   "protects": [
+    "C-17",
+    "C-35",
+    "C-37",
+    "C-10"
+   ]
+  },
+  {
+   "id": "S-10",
+   "text": "Sales and pricing tools exist: an ad-spend calculator, structured spend discovery, a pricing calculator that splits retainers, a single HubSpot record for handover, sales available for questions, commission for delivery staff who find work",
+   "role_family": "leadership; SEO managers; performance managers",
+   "ids": [
+    "MP-str01",
+    "MP-str02",
+    "LS-str02",
+    "KZ-str07",
+    "KO-str07",
+    "SH-str09",
+    "KO-str10"
+   ],
+   "protects": [
+    "C-38",
+    "C-19",
+    "C-08"
+   ]
+  },
+  {
+   "id": "S-11",
+   "text": "Human writing is a point of pride and difference: writers keep their own clients, feedback is carried into briefs, freelancers give overflow, high-volume localisation across three markets, on-page drafting lets clients see design",
+   "role_family": "SEO managers; content team; leadership",
+   "ids": [
+    "LS-str07",
+    "HT-str10",
+    "KO-str09",
+    "SJ-str07",
+    "HT-str05",
+    "HT-str06",
+    "SJ-str04",
+    "SJ-str05",
+    "KZ-str08",
+    "ZC-str10",
+    "LS-str06",
+    "SJ-str01",
+    "LS-str09"
+   ],
+   "protects": [
+    "C-22",
+    "C-07"
+   ]
+  },
+  {
+   "id": "S-12",
+   "text": "Fast, well-divided paid delivery where tooling allows: Google/Bing bulk-editor builds are quick, specialists build while managers strategise, strategy-aware budget management, agenda before each WIP, creative now charged to clients, access to a tracking specialist",
+   "role_family": "performance managers; performance specialist",
+   "ids": [
+    "SH-str08",
+    "MC-str07",
+    "MC-str08",
+    "DM-str01",
+    "DM-str09",
+    "DM-str05",
+    "WS-str06",
+    "WS-str09",
+    "SH-str10",
+    "DM-str04",
+    "MP-str03",
+    "SH-str02",
+    "SD-str05"
+   ],
+   "protects": [
+    "C-28",
+    "C-27",
+    "C-29",
+    "C-34"
+   ]
+  },
+  {
+   "id": "S-13",
+   "text": "Openness to change and engagement with the audit: leadership open to hard feedback, creative AI trials delegated, staff arrived with idea lists, technical capacity covered by new hires, operations held while the founder was away, proactive events calendar, small-agency flexibility, technical–SEO collaboration",
+   "role_family": "leadership; link-building team; performance managers; SEO managers; technical SEO",
+   "ids": [
+    "MP-str07",
+    "MP-str08",
+    "MP-str09",
+    "TG-str08",
+    "DM-str10",
+    "KO-str06",
+    "KZ-str09",
+    "ZC-str05",
+    "SB-str04",
+    "SB-str09",
+    "SB-str12",
+    "TG-str06",
+    "TG-str07",
+    "TG-str09"
+   ],
+   "protects": [
+    "C-35",
+    "C-15",
+    "C-26"
+   ]
+  }
+ ],
+ "existing_problem_verdicts": [
+  {
+   "pack_no": 1,
+   "registry_id": 2,
+   "problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend",
+   "verdict": "Split",
+   "cluster": "C-01, C-03",
+   "note": "Re-keying/wrong-figure half → C-01; untracked-channel half → C-03.",
+   "registry_page": "https://app.notion.com/40fe204ff769811db952ca85e18ce3af"
+  },
+  {
+   "pack_no": 2,
+   "registry_id": 1,
+   "problem": "Meta pacing sheet is broken – Supermetrics connector failing",
+   "verdict": "Reword",
+   "cluster": "C-02",
+   "note": "Supermetrics status contested (X-01); widen to Google and the Tina bot.",
+   "registry_page": "https://app.notion.com/40fe204ff76981588f56dcb58d6b0625"
+  },
+  {
+   "pack_no": 3,
+   "registry_id": 7,
+   "problem": "Paid links disappear after payment – detected manually",
+   "verdict": "Reword",
+   "cluster": "C-25",
+   "note": "Drop the 32% figure until X-06 is resolved.",
+   "registry_page": "https://app.notion.com/40fe204ff76981f989dcde7f6575b490"
+  },
+  {
+   "pack_no": 4,
+   "registry_id": 6,
+   "problem": "Link building runs on 7+ disconnected spreadsheets",
+   "verdict": "Confirm",
+   "cluster": "C-23",
+   "note": "",
+   "registry_page": "https://app.notion.com/40fe204ff769810ca893d816b25addef"
+  },
+  {
+   "pack_no": 5,
+   "registry_id": 9,
+   "problem": "Content delivery hinges on the Content Manager as writer, editor and contractor manager",
+   "verdict": "Confirm",
+   "cluster": "C-22",
+   "note": "Medium confidence (2 content-team raises).",
+   "registry_page": "https://app.notion.com/40fe204ff769811b9981d8c28a6528e8"
+  },
+  {
+   "pack_no": 6,
+   "registry_id": 21,
+   "problem": "Managers at capacity – Tier 2/3 clients get dropped first",
+   "verdict": "Confirm",
+   "cluster": "C-17",
+   "note": "",
+   "registry_page": "https://app.notion.com/40fe204ff76981208c95f2a96063afd7"
+  },
+  {
+   "pack_no": 7,
+   "registry_id": 23,
+   "problem": "Client work files are owned by individual staff accounts, including staff who have left",
+   "verdict": "Reword",
+   "cluster": "C-34",
+   "note": "Departed-staff ownership not evidenced in interviews.",
+   "registry_page": "https://app.notion.com/40fe204ff769814e99e7da6322099cae"
+  },
+  {
+   "pack_no": 8,
+   "registry_id": 13,
+   "problem": "Documentation and internal tooling held by the founder",
+   "verdict": "Merge",
+   "cluster": "→ C-35",
+   "note": "Leadership-only; tooling side sits in dependencies.",
+   "registry_page": "https://app.notion.com/40fe204ff7698159a507c9835dc6a1f0"
+  },
+  {
+   "pack_no": 9,
+   "registry_id": 14,
+   "problem": "Client knowledge lives in people's heads, not per client",
+   "verdict": "Confirm",
+   "cluster": "C-07",
+   "note": "",
+   "registry_page": "https://app.notion.com/40fe204ff7698168a440ee525bce4877"
+  },
+  {
+   "pack_no": 10,
+   "registry_id": 20,
+   "problem": "Onboarding stalls on client access and disrupts BAU",
+   "verdict": "Split",
+   "cluster": "C-09, C-10",
+   "note": "Access/inputs half → C-09; BAU-disruption half → C-10.",
+   "registry_page": "https://app.notion.com/40fe204ff769816bb3a6ed13ce47da58"
+  },
+  {
+   "pack_no": 11,
+   "registry_id": 10,
+   "problem": "Content stalls at client approval – or the tracker can't show what's finished",
+   "verdict": "Confirm",
+   "cluster": "C-11",
+   "note": "",
+   "registry_page": "https://app.notion.com/40fe204ff76981b68122d87f55dc84be"
+  },
+  {
+   "pack_no": 12,
+   "registry_id": 5,
+   "problem": "Client documents are built by duplicating previous ones – errors reach clients",
+   "verdict": "Reword",
+   "cluster": "C-06",
+   "note": "Duplication-error mechanism not evidenced in interviews.",
+   "registry_page": "https://app.notion.com/40fe204ff76981b6a4eaf34024fb2334"
+  },
+  {
+   "pack_no": 13,
+   "registry_id": 3,
+   "problem": "No proactive performance alerting – problems found at month-end",
+   "verdict": "Reword",
+   "cluster": "C-04",
+   "note": "Add SEO and tracking breaks.",
+   "registry_page": "https://app.notion.com/40fe204ff76981d8a087ed06b4ec140a"
+  },
+  {
+   "pack_no": 14,
+   "registry_id": 12,
+   "problem": "Documentation is stale and rarely read",
+   "verdict": "Confirm",
+   "cluster": "C-35",
+   "note": "",
+   "registry_page": "https://app.notion.com/40fe204ff76981e1ac5af94b85e59678"
+  },
+  {
+   "pack_no": 15,
+   "registry_id": 4,
+   "problem": "Client-call prep takes longer than the call",
+   "verdict": "Reword",
+   "cluster": "C-05",
+   "note": "Call prep is one symptom of data collation.",
+   "registry_page": "https://app.notion.com/40fe204ff76981efb9f8d9efda5367f0"
+  },
+  {
+   "pack_no": 16,
+   "registry_id": 18,
+   "problem": "Sales commits to work delivery can't profitably do",
+   "verdict": "Confirm",
+   "cluster": "C-38",
+   "note": "Interviewer raised first (bias flag).",
+   "registry_page": "https://app.notion.com/40fe204ff76981f585acc9b86b6be9b9"
+  },
+  {
+   "pack_no": 17,
+   "registry_id": 26,
+   "problem": "Pricing is inconsistent across templates and the margin maths is wrong",
+   "verdict": "Reword",
+   "cluster": "C-19",
+   "note": "Template inconsistency/margin maths are document findings only.",
+   "registry_page": "https://app.notion.com/410e204ff7698185a4cdd8510d2a40ee"
+  },
+  {
+   "pack_no": 18,
+   "registry_id": 25,
+   "problem": "No single home for current templates – versions held by individuals",
+   "verdict": "Retire",
+   "cluster": "–",
+   "note": "Not raised in any of the 14 interviews; keep only as a document finding (5 non-interview evidence rows).",
+   "registry_page": "https://app.notion.com/40fe204ff769811f9330cde79b4e0b11"
+  },
+  {
+   "pack_no": 19,
+   "registry_id": 17,
+   "problem": "Conversion tracking depends on one contractor",
+   "verdict": "Merge",
+   "cluster": "→ C-09",
+   "note": "One interview raises the wait (MC-PP16); dependency noted by three.",
+   "registry_page": "https://app.notion.com/40fe204ff769812d9b86e757a536c275"
+  },
+  {
+   "pack_no": 20,
+   "registry_id": 8,
+   "problem": "Outreacher invoicing tracked as PayPal links in spreadsheet cells",
+   "verdict": "Merge",
+   "cluster": "→ C-23",
+   "note": "Invoicing admin evidenced (KZ-PP08, KO-PP16); PayPal-cell detail not.",
+   "registry_page": "https://app.notion.com/40fe204ff7698131876fec27eeb87b51"
+  },
+  {
+   "pack_no": 21,
+   "registry_id": 15,
+   "problem": "Slack bots and agents have no visible owner or documentation",
+   "verdict": "Reword",
+   "cluster": "C-32",
+   "note": "Widen beyond Slack bots.",
+   "registry_page": "https://app.notion.com/40fe204ff769813ea8eec750d9aace68"
+  },
+  {
+   "pack_no": 22,
+   "registry_id": 19,
+   "problem": "Proposals are rebuilt from scratch per prospect",
+   "verdict": "Merge",
+   "cluster": "→ C-39",
+   "note": "Single staff raise (KZ-PP21).",
+   "registry_page": "https://app.notion.com/40fe204ff769816c8f78fdc8c0b16830"
+  },
+  {
+   "pack_no": 23,
+   "registry_id": 22,
+   "problem": "Escalations route around department leads to the Head of Client Services",
+   "verdict": "Reword",
+   "cluster": "C-36",
+   "note": "Widen to sign-offs, QA and Tier 1 relationships.",
+   "registry_page": "https://app.notion.com/40fe204ff76981e2924cfbae1ffa8478"
+  },
+  {
+   "pack_no": 24,
+   "registry_id": 24,
+   "problem": "Seasonal and trending content is planned too late to catch the peak",
+   "verdict": "Confirm",
+   "cluster": "C-15",
+   "note": "Widen to news and competitor signals.",
+   "registry_page": "https://app.notion.com/40fe204ff76981e6ae3af6fc3a18a751"
+  },
+  {
+   "pack_no": 25,
+   "registry_id": 16,
+   "problem": "Reminders go unacted; a broken reminder bot went unnoticed",
+   "verdict": "Reword",
+   "cluster": "C-30",
+   "note": "Reframe around Monday.com hygiene.",
+   "registry_page": "https://app.notion.com/40fe204ff76981e9b92fcb8a575cb3f4"
+  },
+  {
+   "pack_no": 26,
+   "registry_id": 11,
+   "problem": "Content tracker and link sheets live outside Monday.com",
+   "verdict": "Split",
+   "cluster": "C-21, C-23",
+   "note": "Content tracker → C-21; link sheets → C-23.",
+   "registry_page": "https://app.notion.com/40fe204ff769812bb6b9dae3c44d0839"
+  }
+ ],
+ "meta": {
+  "stage": 1,
+  "date": "2026-11-06",
+  "pain_points": 243,
+  "clusters": 39,
+  "review_page": "https://app.notion.com/p/410e204ff76980af8523d8d22dcdd909",
+  "id_conventions": "PREFIX-PPnn = pain point; PREFIX-strNN = nth strength in section 7; PREFIX-depN = nth row of section 10; R# = Problems registry auto-ID; pack # = context-pack numbering"
+ }
+}

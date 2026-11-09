@@ -1,0 +1,1382 @@
+[
+ {
+  "id": "P-01",
+  "title": "Meta pacing sheet is broken – Supermetrics connector failing",
+  "austin_call": "Solve now",
+  "austin_note": "This can be the pacing checker solution",
+  "status": "addressed",
+  "reason": "Fixed by DS-01",
+  "fixed_by": [
+   "DS-01"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-02"
+  ],
+  "pain_points": [
+   "MC-PP06",
+   "SD-PP01",
+   "SD-PP15",
+   "SD-PP19",
+   "SH-PP02",
+   "SH-PP05"
+  ],
+  "theme": "Process / automation",
+  "severity": "Critical",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981588f56dcb58d6b0625",
+  "file": "problems/p-01-meta-pacing-sheet-is-broken-supermetrics-connector.md"
+ },
+ {
+  "id": "P-02",
+  "title": "Budgets maintained by hand in three places; some channels (incl. LinkedIn) not tracked; a missed budget change cost a $10K credit",
+  "austin_call": "Solve now",
+  "austin_note": "This can be the pacing checker solution",
+  "status": "addressed",
+  "reason": "Fixed by DS-01",
+  "fixed_by": [
+   "DS-01"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-01",
+   "C-03"
+  ],
+  "pain_points": [
+   "MC-PP07",
+   "MP-PP01",
+   "MP-PP02",
+   "SD-PP02",
+   "SD-PP03",
+   "SH-PP01",
+   "SH-PP03",
+   "SH-PP04",
+   "WS-PP02"
+  ],
+  "theme": "Process / automation",
+  "severity": "Critical",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff769811db952ca85e18ce3af",
+  "file": "problems/p-02-budgets-maintained-by-hand-in-three-places.md"
+ },
+ {
+  "id": "P-03",
+  "title": "No proactive performance alerting – problems found at month-end",
+  "austin_call": "Solve now",
+  "austin_note": "this can be an extension of the pacing checker or a software like revealbot (bir.ch). this would enable people to only have to check accounts when notified rather than juggling accounts or catching things late.",
+  "status": "addressed",
+  "reason": "Fixed by DS-01, DS-22, DS-23, DS-27, DS-29",
+  "fixed_by": [
+   "DS-01",
+   "DS-22",
+   "DS-23",
+   "DS-27",
+   "DS-29"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-04"
+  ],
+  "pain_points": [
+   "DM-PP02",
+   "DM-PP03",
+   "LS-PP05",
+   "MC-PP08",
+   "MP-PP17",
+   "SD-PP04",
+   "SH-PP11",
+   "SH-PP12",
+   "WS-PP04",
+   "ZC-PP05"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
+  "file": "problems/p-03-no-proactive-performance-alerting-problems-found-at.md"
+ },
+ {
+  "id": "P-04",
+  "title": "Client-call prep takes longer than the call",
+  "austin_call": "Solve now",
+  "austin_note": "AI brain and research tools can help here to best equip and prepare staff with a dossier or brief before a call in order to best perform in meetings",
+  "status": "addressed",
+  "reason": "Fixed by DS-04, DS-25",
+  "fixed_by": [
+   "DS-04",
+   "DS-25"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-05"
+  ],
+  "pain_points": [
+   "DM-PP01",
+   "DM-PP05",
+   "SD-PP05",
+   "SD-PP06",
+   "SD-PP13",
+   "SD-PP14",
+   "SH-PP13",
+   "WS-PP03",
+   "WS-PP12"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981efb9f8d9efda5367f0",
+  "file": "problems/p-04-client-call-prep-takes-longer-than-the.md"
+ },
+ {
+  "id": "P-05",
+  "title": "Client documents are built by duplicating previous ones – errors reach clients",
+  "austin_call": "Solve now",
+  "austin_note": "better document repository and also workflows to speed up client document generation. we could use claude skills for this.",
+  "status": "addressed",
+  "reason": "Fixed by DS-05",
+  "fixed_by": [
+   "DS-05"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-06"
+  ],
+  "pain_points": [
+   "DM-PP04",
+   "DM-PP14",
+   "KZ-PP18",
+   "LS-PP04",
+   "LS-PP16",
+   "SH-PP06",
+   "SH-PP16",
+   "WS-PP05"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981b6a4eaf34024fb2334",
+  "file": "problems/p-05-client-documents-are-built-by-duplicating-previous.md"
+ },
+ {
+  "id": "P-06",
+  "title": "Link building runs on 7+ disconnected spreadsheets",
+  "austin_call": "Solve now",
+  "austin_note": "Connects to the previous mentioned link building crm",
+  "status": "addressed",
+  "reason": "Fixed by DS-11",
+  "fixed_by": [
+   "DS-11"
+  ],
+  "also_helped_by": [],
+  "related_only": [
+   "DS-07"
+  ],
+  "clusters": [
+   "C-23"
+  ],
+  "pain_points": [
+   "KO-PP16",
+   "KZ-PP08",
+   "MP-PP14",
+   "MP-PP15",
+   "TG-PP05",
+   "TG-PP06",
+   "TG-PP07"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff769810ca893d816b25addef",
+  "file": "problems/p-06-link-building-runs-on-7-disconnected-spreadsheets.md"
+ },
+ {
+  "id": "P-07",
+  "title": "Paid links disappear after payment – detected manually",
+  "austin_call": "Solve now",
+  "austin_note": "Can use Jev AI to scan websites every 5 days to see if the content ha been deleted or removed or editted",
+  "status": "addressed",
+  "reason": "Fixed by DS-07",
+  "fixed_by": [
+   "DS-07"
+  ],
+  "also_helped_by": [],
+  "related_only": [
+   "DS-11"
+  ],
+  "clusters": [
+   "C-25"
+  ],
+  "pain_points": [
+   "KZ-PP10",
+   "MP-PP13",
+   "TG-PP11",
+   "ZC-PP10"
+  ],
+  "theme": "Process / automation",
+  "severity": "Critical",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981f989dcde7f6575b490",
+  "file": "problems/p-07-paid-links-disappear-after-payment-detected-manually.md"
+ },
+ {
+  "id": "P-08",
+  "title": "Outreacher invoicing tracked as PayPal links in spreadsheet cells",
+  "austin_call": "Solve later",
+  "austin_note": "can go into the link build crm",
+  "status": "addressed",
+  "reason": "Fixed by DS-11",
+  "fixed_by": [
+   "DS-11"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-23"
+  ],
+  "pain_points": [
+   "KO-PP16",
+   "KZ-PP08",
+   "MP-PP14",
+   "MP-PP15",
+   "TG-PP05",
+   "TG-PP06",
+   "TG-PP07"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "Medium – raised by 2",
+  "notion_id": "40fe204ff7698131876fec27eeb87b51",
+  "file": "problems/p-08-outreacher-invoicing-tracked-as-paypal-links-in.md"
+ },
+ {
+  "id": "P-09",
+  "title": "Content delivery hinges on the Content Manager as writer, editor and contractor manager",
+  "austin_call": "Solve later",
+  "austin_note": "We need a better project management system fr content managers. this could be a smart claude AI poweredn system that turns briefs in to tasks and also manages and track writers",
+  "status": "partly_addressed",
+  "reason": "Solve later; no DS fixes it – only \"also helps\" by DS-03",
+  "fixed_by": [],
+  "also_helped_by": [
+   "DS-03"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-22"
+  ],
+  "pain_points": [
+   "HT-PP03",
+   "HT-PP07",
+   "SJ-PP05",
+   "SJ-PP12",
+   "SJ-PP13"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "Medium – raised by 2",
+  "notion_id": "40fe204ff769811b9981d8c28a6528e8",
+  "file": "problems/p-09-content-delivery-hinges-on-the-content-manager.md"
+ },
+ {
+  "id": "P-10",
+  "title": "Content stalls at client approval – or the tracker can't show what's finished",
+  "austin_call": "Park",
+  "austin_note": "Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov).",
+  "status": "parked",
+  "reason": "Parked by Austin: Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov).",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-11"
+  ],
+  "pain_points": [
+   "HT-PP10",
+   "KZ-PP14",
+   "LS-PP06",
+   "LS-PP07",
+   "LS-PP17",
+   "ZC-PP06"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981b68122d87f55dc84be",
+  "file": "problems/p-10-content-stalls-at-client-approval-or-the.md"
+ },
+ {
+  "id": "P-11",
+  "title": "Content tracker and link sheets live outside Monday.com",
+  "austin_call": "Park",
+  "austin_note": "",
+  "status": "parked",
+  "reason": "Parked by Austin (no note given); DS-03 only \"also helps\" (DS-03: auto-created Monday tasks (problem parked))",
+  "fixed_by": [],
+  "also_helped_by": [
+   "DS-03"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-21",
+   "C-23"
+  ],
+  "pain_points": [
+   "HT-PP05",
+   "HT-PP09",
+   "KO-PP16",
+   "KZ-PP08",
+   "MP-PP14",
+   "MP-PP15",
+   "SJ-PP01",
+   "SJ-PP02",
+   "SJ-PP03",
+   "SJ-PP04",
+   "SJ-PP06",
+   "SJ-PP08",
+   "SJ-PP10",
+   "SJ-PP11",
+   "TG-PP05",
+   "TG-PP06",
+   "TG-PP07"
+  ],
+  "theme": "Process / automation",
+  "severity": "Low",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff769812bb6b9dae3c44d0839",
+  "file": "problems/p-11-content-tracker-and-link-sheets-live-outside.md"
+ },
+ {
+  "id": "P-12",
+  "title": "Documentation is stale and rarely read",
+  "austin_call": "Solve now",
+  "austin_note": "AI business brain that peopel cna ask any question and it utilises the documentation we alreayd have. this will reduce question and also be a great tool when onboarding new staff. its also good for cross cutting teams who need to learn different parts of the business and clients",
+  "status": "addressed",
+  "reason": "Fixed by DS-02, DS-15",
+  "fixed_by": [
+   "DS-02",
+   "DS-15"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-35"
+  ],
+  "pain_points": [
+   "KO-PP13",
+   "KO-PP15",
+   "LS-PP11",
+   "MP-PP03",
+   "MP-PP04",
+   "MP-PP07",
+   "WS-PP09"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981e1ac5af94b85e59678",
+  "file": "problems/p-12-documentation-is-stale-and-rarely-read.md"
+ },
+ {
+  "id": "P-13",
+  "title": "Documentation and internal tooling held by the founder",
+  "austin_call": "Solve now",
+  "austin_note": "inherently will be solved when i build solution for them and create good documentation and user docs",
+  "status": "addressed",
+  "reason": "Fixed by DS-15",
+  "fixed_by": [
+   "DS-15"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-35"
+  ],
+  "pain_points": [
+   "KO-PP13",
+   "KO-PP15",
+   "LS-PP11",
+   "MP-PP03",
+   "MP-PP04",
+   "MP-PP07",
+   "WS-PP09"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "Low – raised by 1",
+  "notion_id": "40fe204ff7698159a507c9835dc6a1f0",
+  "file": "problems/p-13-documentation-and-internal-tooling-held-by-the.md"
+ },
+ {
+  "id": "P-14",
+  "title": "Client knowledge lives in people's heads, not per client",
+  "austin_call": "Solve now",
+  "austin_note": "A company wide Ai brain or a per client ai brain that captures all facts and nuance. this is also great to see who are profitable and which ICPs and BPS you should double down with and how to manage specific personalities.",
+  "status": "addressed",
+  "reason": "Fixed by DS-04",
+  "fixed_by": [
+   "DS-04"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-07"
+  ],
+  "pain_points": [
+   "HT-PP04",
+   "KZ-PP15",
+   "KZ-PP16",
+   "MP-PP20",
+   "SJ-PP09",
+   "WS-PP08",
+   "ZC-PP01",
+   "ZC-PP04",
+   "ZC-PP13"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff7698168a440ee525bce4877",
+  "file": "problems/p-14-client-knowledge-lives-in-people-s-heads.md"
+ },
+ {
+  "id": "P-15",
+  "title": "Slack bots and agents have no visible owner or documentation",
+  "austin_call": "Solve now",
+  "austin_note": "",
+  "status": "addressed",
+  "reason": "Fixed by DS-10",
+  "fixed_by": [
+   "DS-10"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-32"
+  ],
+  "pain_points": [
+   "HT-PP06",
+   "SB-PP11",
+   "TG-PP09"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff769813ea8eec750d9aace68",
+  "file": "problems/p-15-slack-bots-and-agents-have-no-visible.md"
+ },
+ {
+  "id": "P-16",
+  "title": "Reminders go unacted; a broken reminder bot went unnoticed",
+  "austin_call": "Solve now",
+  "austin_note": "we need to modernise and make robust systems for slack bots that the team relies on",
+  "status": "addressed",
+  "reason": "Fixed by DS-06, DS-30",
+  "fixed_by": [
+   "DS-06",
+   "DS-30"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-30"
+  ],
+  "pain_points": [
+   "DM-PP09",
+   "KO-PP10",
+   "MC-PP02",
+   "MC-PP03",
+   "MP-PP05",
+   "MP-PP06",
+   "SB-PP01",
+   "SB-PP02",
+   "SB-PP03",
+   "SB-PP04",
+   "SB-PP05",
+   "SB-PP06",
+   "WS-PP15"
+  ],
+  "theme": "Cultural",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981e9b92fcb8a575cb3f4",
+  "file": "problems/p-16-reminders-go-unacted-a-broken-reminder-bot.md"
+ },
+ {
+  "id": "P-17",
+  "title": "Conversion tracking depends on one contractor",
+  "austin_call": "Solve later",
+  "austin_note": "can create a change tracker for client websites and landing pages so we can get ahead of conversion breaking. could also be other methods once i get more intel as too what breaks conversion tracking",
+  "status": "partly_addressed",
+  "reason": "Solve later; no DS fixes it – only \"also helps\" by DS-01",
+  "fixed_by": [],
+  "also_helped_by": [
+   "DS-01"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-09"
+  ],
+  "pain_points": [
+   "MC-PP10",
+   "MC-PP16",
+   "MC-PP17",
+   "SD-PP09",
+   "SD-PP10",
+   "ZC-PP07"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "Low – raised by 1",
+  "notion_id": "40fe204ff769812d9b86e757a536c275",
+  "file": "problems/p-17-conversion-tracking-depends-on-one-contractor.md"
+ },
+ {
+  "id": "P-18",
+  "title": "Sales commits to work delivery can't profitably do",
+  "austin_call": "Solve now",
+  "austin_note": "can be solved with previous solution i had above",
+  "status": "addressed",
+  "reason": "Fixed by DS-05, DS-08",
+  "fixed_by": [
+   "DS-05",
+   "DS-08"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-38"
+  ],
+  "pain_points": [
+   "MP-PP10",
+   "MP-PP12",
+   "WS-PP07"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981f585acc9b86b6be9b9",
+  "file": "problems/p-18-sales-commits-to-work-delivery-can-t.md"
+ },
+ {
+  "id": "P-19",
+  "title": "Proposals are rebuilt from scratch per prospect",
+  "austin_call": "Solve now",
+  "austin_note": "proposal generator and supporting ai agents",
+  "status": "addressed",
+  "reason": "Fixed by DS-05",
+  "fixed_by": [
+   "DS-05"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-39"
+  ],
+  "pain_points": [
+   "KO-PP17",
+   "KO-PP18",
+   "KO-PP19",
+   "KO-PP23",
+   "KO-PP24",
+   "KZ-PP21",
+   "MP-PP11"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "Low – raised by 1",
+  "notion_id": "40fe204ff769816c8f78fdc8c0b16830",
+  "file": "problems/p-19-proposals-are-rebuilt-from-scratch-per-prospect.md"
+ },
+ {
+  "id": "P-20",
+  "title": "Onboarding stalls on client access and disrupts BAU",
+  "austin_call": "Solve later",
+  "austin_note": "This requires a shadow session to actually soak i the exact workflows and bottle necks. but this should definitely be optimised if we want to scale",
+  "status": "addressed",
+  "reason": "Fixed by DS-09; also helped by DS-08, DS-20",
+  "fixed_by": [
+   "DS-09"
+  ],
+  "also_helped_by": [
+   "DS-08",
+   "DS-20"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-09",
+   "C-10"
+  ],
+  "pain_points": [
+   "KO-PP08",
+   "KO-PP22",
+   "KZ-PP01",
+   "KZ-PP02",
+   "KZ-PP03",
+   "KZ-PP04",
+   "MC-PP10",
+   "MC-PP12",
+   "MC-PP16",
+   "MC-PP17",
+   "SD-PP09",
+   "SD-PP10",
+   "SD-PP11",
+   "ZC-PP07",
+   "ZC-PP08"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
+  "file": "problems/p-20-onboarding-stalls-on-client-access-and-disrupts.md"
+ },
+ {
+  "id": "P-21",
+  "title": "Managers at capacity – Tier 2/3 clients get dropped first",
+  "austin_call": "Solve now",
+  "austin_note": "We need to reduce the amount of effort required to manage t2 and t 3 clients, and also have better optics and observability",
+  "status": "partly_addressed",
+  "reason": "Solve now; no DS fixes it – only \"also helps\" by DS-01, DS-05, DS-06, DS-30 (DS-05: \"also helps (partly)\"; capacity not solved – O-17/O-19/O-32 dropped) (DS-30: \"also helps (partly)\" – the right work surfaces first)",
+  "fixed_by": [],
+  "also_helped_by": [
+   "DS-01",
+   "DS-05",
+   "DS-06",
+   "DS-30"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-17"
+  ],
+  "pain_points": [
+   "DM-PP10",
+   "KO-PP09",
+   "KO-PP26",
+   "LS-PP01",
+   "LS-PP02",
+   "MC-PP09",
+   "MC-PP18",
+   "MP-PP18",
+   "MP-PP19",
+   "MP-PP21",
+   "SB-PP13",
+   "SD-PP07",
+   "SD-PP08",
+   "SH-PP09",
+   "WS-PP01"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981208c95f2a96063afd7",
+  "file": "problems/p-21-managers-at-capacity-tier-2-3-clients.md"
+ },
+ {
+  "id": "P-22",
+  "title": "Escalations route around department leads to the Head of Client Services",
+  "austin_call": "Solve now",
+  "austin_note": "as mentioned system solution from before",
+  "status": "addressed",
+  "reason": "Fixed by DS-14; also helped by DS-04",
+  "fixed_by": [
+   "DS-14"
+  ],
+  "also_helped_by": [
+   "DS-04"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-36"
+  ],
+  "pain_points": [
+   "KO-PP02",
+   "KO-PP03",
+   "KO-PP05",
+   "KO-PP21",
+   "MP-PP08",
+   "SD-PP16",
+   "WS-PP10"
+  ],
+  "theme": "Cultural",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
+  "file": "problems/p-22-escalations-route-around-department-leads-to-the.md"
+ },
+ {
+  "id": "P-23",
+  "title": "Client work files are owned by individual staff accounts, including staff who have left",
+  "austin_call": "Solve now",
+  "austin_note": "from what i had access to, google sheet templates and client work isn't stored in a central place and its very hard to navigate. meaning one person can ‘t learn everything on day one. they must speak to 7 -9 people just to orientate. i think a solution of a leaner google drive that is enforced by an ai brain can solve this. This is also integral for exiting at higher multiples",
+  "status": "addressed",
+  "reason": "Fixed by DS-17",
+  "fixed_by": [
+   "DS-17"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-34"
+  ],
+  "pain_points": [
+   "SB-PP09",
+   "SH-PP08"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "Medium – raised by 2",
+  "notion_id": "40fe204ff769814e99e7da6322099cae",
+  "file": "problems/p-23-client-work-files-are-owned-by-individual.md"
+ },
+ {
+  "id": "P-24",
+  "title": "Seasonal and trending content is planned too late to catch the peak",
+  "austin_call": "Solve now",
+  "austin_note": "can be connected to the AI client brain research agents",
+  "status": "addressed",
+  "reason": "Fixed by DS-16, DS-32, DS-33",
+  "fixed_by": [
+   "DS-16",
+   "DS-32",
+   "DS-33"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-15"
+  ],
+  "pain_points": [
+   "KZ-PP19",
+   "KZ-PP20",
+   "ZC-PP09",
+   "ZC-PP15",
+   "ZC-PP17"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
+  "file": "problems/p-24-seasonal-and-trending-content-is-planned-too.md"
+ },
+ {
+  "id": "P-25",
+  "title": "No single home for current templates – versions held by individuals",
+  "austin_call": "Solve now",
+  "austin_note": "as per last notes about this",
+  "status": "addressed",
+  "reason": "Fixed by DS-15; also helped by DS-05",
+  "fixed_by": [
+   "DS-15"
+  ],
+  "also_helped_by": [
+   "DS-05"
+  ],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "Medium – raised by 2",
+  "notion_id": "40fe204ff769811f9330cde79b4e0b11",
+  "file": "problems/p-25-no-single-home-for-current-templates-versions.md"
+ },
+ {
+  "id": "P-26",
+  "title": "Pricing is inconsistent across templates and the margin maths is wrong",
+  "austin_call": "Reject",
+  "austin_note": "",
+  "status": "rejected",
+  "reason": "Rejected by Austin (no note given)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-19"
+  ],
+  "pain_points": [
+   "KO-PP07",
+   "KZ-PP22"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff7698185a4cdd8510d2a40ee",
+  "file": "problems/p-26-pricing-is-inconsistent-across-templates-and-the.md"
+ },
+ {
+  "id": "P-27",
+  "title": "Client handovers (sales to delivery, offboarding) have no structured pack or trigger",
+  "austin_call": "Solve now",
+  "austin_note": "Standard list of requirements delivery needs from sales calls that can then be automatically sent to delivery team to review and confirm. so we don’t need to rely on Joe signing every contract. we can remove joe from that component of sales by capturing his decision making and enforcing sales is asking the right question.",
+  "status": "addressed",
+  "reason": "Fixed by DS-04, DS-08",
+  "fixed_by": [
+   "DS-04",
+   "DS-08"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-08"
+  ],
+  "pain_points": [
+   "KO-PP01",
+   "MC-PP11",
+   "MC-PP14",
+   "SH-PP07",
+   "WS-PP06"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769818e891ce057635a604d",
+  "file": "problems/p-27-client-handovers-have-no-structured-pack-or.md"
+ },
+ {
+  "id": "P-28",
+  "title": "Regulated-industry content lacks shared compliance rules and credible sources",
+  "austin_call": "Solve now",
+  "austin_note": "this can be in the AI client brains so we can keep track of all this stuff and also create research agents for the teams",
+  "status": "addressed",
+  "reason": "Fixed by DS-02, DS-04",
+  "fixed_by": [
+   "DS-02",
+   "DS-04"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-12"
+  ],
+  "pain_points": [
+   "SJ-PP07",
+   "ZC-PP11"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "Medium – raised by 2",
+  "notion_id": "410e204ff769816c906cebe25af6cc33",
+  "file": "problems/p-28-regulated-industry-content-lacks-shared-compliance-rules.md"
+ },
+ {
+  "id": "P-29",
+  "title": "Page builds and content uploads reach clients with errors or loop for weeks",
+  "austin_call": "Park",
+  "austin_note": "Not solving in this proposal – the fix (O-09) was dropped (Austin, 9 Nov).",
+  "status": "parked",
+  "reason": "Parked by Austin: Not solving in this proposal – the fix (O-09) was dropped (Austin, 9 Nov).",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-13"
+  ],
+  "pain_points": [
+   "KZ-PP13",
+   "LS-PP10",
+   "SB-PP07",
+   "SB-PP08"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769811096cfd291b9f670da",
+  "file": "problems/p-29-page-builds-and-content-uploads-reach-clients.md"
+ },
+ {
+  "id": "P-30",
+  "title": "Client approval cycles hold up paid optimisations and launches, while managers carry the blame",
+  "austin_call": "Park",
+  "austin_note": "Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov).",
+  "status": "parked",
+  "reason": "Parked by Austin: Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov).",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-14"
+  ],
+  "pain_points": [
+   "DM-PP06",
+   "DM-PP07",
+   "SD-PP12",
+   "SD-PP17",
+   "SD-PP18",
+   "WS-PP16"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff76981e1b678c897751d71d3",
+  "file": "problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md"
+ },
+ {
+  "id": "P-31",
+  "title": "Churn risk is spotted late and account teams report rather than advise",
+  "austin_call": "Solve now",
+  "austin_note": "AI Proactive Churn protection and proactive growth & feedback tracking system that connects too meetings, emails, and other available sources to see whats going on and maximise action opportunities.",
+  "status": "addressed",
+  "reason": "Fixed by DS-14, DS-24, DS-28",
+  "fixed_by": [
+   "DS-14",
+   "DS-24",
+   "DS-28"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-16"
+  ],
+  "pain_points": [
+   "KO-PP06",
+   "KO-PP20",
+   "LS-PP08",
+   "LS-PP09",
+   "LS-PP15",
+   "MP-PP16"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769813f888bfe3b3ee38213",
+  "file": "problems/p-31-churn-risk-is-spotted-late-and-account.md"
+ },
+ {
+  "id": "P-32",
+  "title": "Unplanned same-day and high-touch client requests break the planned month",
+  "austin_call": "Park",
+  "austin_note": "",
+  "status": "parked",
+  "reason": "Parked by Austin (no note given); DS-03, DS-06 only \"also helps\" (DS-03: slots and cut-offs for the out-of-cycle client, text only) (DS-06: via cluster C-18 in text)",
+  "fixed_by": [],
+  "also_helped_by": [
+   "DS-03",
+   "DS-06"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-18"
+  ],
+  "pain_points": [
+   "HT-PP01",
+   "HT-PP02",
+   "KZ-PP05",
+   "KZ-PP23",
+   "MC-PP01",
+   "SB-PP15",
+   "SJ-PP14"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769819496a5d0c622b9e531",
+  "file": "problems/p-32-unplanned-same-day-and-high-touch-client.md"
+ },
+ {
+  "id": "P-33",
+  "title": "Content briefs are re-cut and reformatted by hand, eating the first half of each month",
+  "austin_call": "Solve now",
+  "austin_note": "We could make a claude workflow or bot that auto turns briefs into task items",
+  "status": "addressed",
+  "reason": "Fixed by DS-03",
+  "fixed_by": [
+   "DS-03"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-20"
+  ],
+  "pain_points": [
+   "KZ-PP17",
+   "LS-PP03",
+   "ZC-PP02",
+   "ZC-PP03"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769810aafa6ce47457ecf5a",
+  "file": "problems/p-33-content-briefs-are-re-cut-and-reformatted.md"
+ },
+ {
+  "id": "P-34",
+  "title": "Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent",
+  "austin_call": "Solve now",
+  "austin_note": "Claude + Jev AI powered linkbuilding CRM to speed up the whole end to end link building system for everyone.",
+  "status": "addressed",
+  "reason": "Fixed by DS-12, DS-31",
+  "fixed_by": [
+   "DS-12",
+   "DS-31"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-24"
+  ],
+  "pain_points": [
+   "KZ-PP06",
+   "KZ-PP07",
+   "KZ-PP09",
+   "LS-PP12",
+   "TG-PP01",
+   "TG-PP02",
+   "TG-PP03",
+   "TG-PP04",
+   "TG-PP08",
+   "TG-PP10",
+   "TG-PP12",
+   "ZC-PP16"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769813aaa23cf4c2049bdf4",
+  "file": "problems/p-34-link-sourcing-is-slow-manual-and-supply.md"
+ },
+ {
+  "id": "P-35",
+  "title": "Strategy and technical SEO run as separate queues, so big technical work slips",
+  "austin_call": "Park",
+  "austin_note": "Not solving in this proposal – the fix (O-35) was dropped (Austin, 9 Nov).",
+  "status": "parked",
+  "reason": "Parked by Austin: Not solving in this proposal – the fix (O-35) was dropped (Austin, 9 Nov).",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-26"
+  ],
+  "pain_points": [
+   "KZ-PP11",
+   "KZ-PP12",
+   "SB-PP14",
+   "ZC-PP12"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff7698188a460d2fc6e105ee9",
+  "file": "problems/p-35-strategy-and-technical-seo-run-as-separate.md"
+ },
+ {
+  "id": "P-36",
+  "title": "Internal task briefs from managers to implementers are slow to write and often incomplete",
+  "austin_call": "Solve now",
+  "austin_note": "as per last notes about this",
+  "status": "addressed",
+  "reason": "Fixed by DS-06",
+  "fixed_by": [
+   "DS-06"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-27"
+  ],
+  "pain_points": [
+   "DM-PP13",
+   "LS-PP14",
+   "MC-PP04",
+   "MC-PP05",
+   "SH-PP10"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff76981c88fe8f4907efc6ba1",
+  "file": "problems/p-36-internal-task-briefs-from-managers-to-implementers.md"
+ },
+ {
+  "id": "P-37",
+  "title": "Meta campaign builds are manual and every ad needs hand QA",
+  "austin_call": "Park",
+  "austin_note": "",
+  "status": "parked",
+  "reason": "Parked by Austin (no note given)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-28"
+  ],
+  "pain_points": [
+   "DM-PP08",
+   "MC-PP20",
+   "SH-PP15",
+   "SH-PP17"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769810e9f37d9b2921c73bf",
+  "file": "problems/p-37-meta-campaign-builds-are-manual-and-every.md"
+ },
+ {
+  "id": "P-38",
+  "title": "Creative and landing pages are outsourced, slow and hard to brief",
+  "austin_call": "Solve now",
+  "austin_note": "create standardise way to document briefs with maximum detail.\n\nLong term build creative and landing pages while augmented by AI",
+  "status": "addressed",
+  "reason": "Fixed by DS-18, DS-21",
+  "fixed_by": [
+   "DS-18",
+   "DS-21"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [
+   "C-29"
+  ],
+  "pain_points": [
+   "KO-PP25",
+   "MC-PP15",
+   "MP-PP22",
+   "WS-PP14"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff76981918b83ff403f9c9ba2",
+  "file": "problems/p-38-creative-and-landing-pages-are-outsourced-slow.md"
+ },
+ {
+  "id": "P-39",
+  "title": "HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost",
+  "austin_call": "Park",
+  "austin_note": "Sid Bali made this duct tape solution, he should own it. I think a gap repository needs to be kept so he can actually make these changes as they are found. (claude can you add this to solutions please)",
+  "status": "parked",
+  "reason": "Parked by Austin: Sid Bali made this duct tape solution, he should own it. I think a gap repository needs to be kept so he can actually make these changes as they are found. (claude can you add this to solutions please); DS-10 only \"also helps\" (DS-10: \"also helps (you parked this problem)\")",
+  "fixed_by": [],
+  "also_helped_by": [
+   "DS-10"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-31"
+  ],
+  "pain_points": [
+   "KO-PP11",
+   "KO-PP12",
+   "MC-PP13",
+   "SB-PP10"
+  ],
+  "theme": "Process / automation",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff76981998f05d3821fbd38e3",
+  "file": "problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md"
+ },
+ {
+  "id": "P-40",
+  "title": "AI use is personal and ungoverned: no policy, shared skills, client context or seats",
+  "austin_call": "Solve later",
+  "austin_note": "standardised userflows and ai training",
+  "status": "addressed",
+  "reason": "Fixed by DS-02; also helped by DS-05",
+  "fixed_by": [
+   "DS-02"
+  ],
+  "also_helped_by": [
+   "DS-05"
+  ],
+  "related_only": [],
+  "clusters": [
+   "C-33"
+  ],
+  "pain_points": [
+   "DM-PP11",
+   "DM-PP12",
+   "HT-PP08",
+   "KO-PP14",
+   "KZ-PP24",
+   "LS-PP13",
+   "MC-PP19",
+   "SB-PP12",
+   "SH-PP14",
+   "WS-PP13",
+   "ZC-PP14"
+  ],
+  "theme": "Process / automation",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff769810cb2c8de6b51137637",
+  "file": "problems/p-40-ai-use-is-personal-and-ungoverned-no.md"
+ },
+ {
+  "id": "P-41",
+  "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
+  "austin_call": "Park",
+  "austin_note": "not really a problem i can solve but i do want to talk about this being a cultural issues (claude make the necessary changes please)",
+  "status": "parked",
+  "reason": "Parked by Austin: not really a problem i can solve but i do want to talk about this being a cultural issues (claude make the necessary changes please)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [
+   "DS-14"
+  ],
+  "clusters": [
+   "C-37"
+  ],
+  "pain_points": [
+   "KO-PP04",
+   "MP-PP09",
+   "WS-PP11"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff76981e18b83f14ee089f51e",
+  "file": "problems/p-41-management-layer-is-thin-paid-media-lacks.md"
+ },
+ {
+  "id": "P-42",
+  "title": "Growth depends on the founder and inbound leads while AI erodes core services",
+  "austin_call": "Reject",
+  "austin_note": "",
+  "status": "rejected",
+  "reason": "Rejected by Austin (no note given)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [
+   "DS-19"
+  ],
+  "clusters": [
+   "C-39"
+  ],
+  "pain_points": [
+   "KO-PP17",
+   "KO-PP18",
+   "KO-PP19",
+   "KO-PP23",
+   "KO-PP24",
+   "KZ-PP21",
+   "MP-PP11"
+  ],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "410e204ff7698149a72ccd9d798ea640",
+  "file": "problems/p-42-growth-depends-on-the-founder-and-inbound.md"
+ },
+ {
+  "id": "P-43",
+  "title": "A calm, loyal culture makes standards and accountability hard to enforce",
+  "austin_call": "Reject",
+  "austin_note": "",
+  "status": "rejected",
+  "reason": "Rejected by Austin (no note given)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "412e204ff76981b99e8dd9d8c72f7ebc",
+  "file": "problems/p-43-a-calm-loyal-culture-makes-standards-and.md"
+ },
+ {
+  "id": "P-44",
+  "title": "Change fatigue and quiet AI anxiety slow adoption",
+  "austin_call": "Solve now",
+  "austin_note": "staged and well thought out systems need to be layered into the business and cant be vibe coded when a problem arises",
+  "status": "addressed",
+  "reason": "Fixed by DS-02",
+  "fixed_by": [
+   "DS-02"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Cultural",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "412e204ff769817b85d2f6e269eb277d",
+  "file": "problems/p-44-change-fatigue-and-quiet-ai-anxiety-slow.md"
+ },
+ {
+  "id": "P-45",
+  "title": "Ideas and concerns are held back; people fear 'stuffing up' in front of seniors",
+  "austin_call": "Reject",
+  "austin_note": "",
+  "status": "rejected",
+  "reason": "Rejected by Austin (no note given)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Cultural",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "412e204ff7698133a070eeb8e0d46282",
+  "file": "problems/p-45-ideas-and-concerns-are-held-back-people.md"
+ },
+ {
+  "id": "P-46",
+  "title": "Client-pleasing comes before margin, scope and staff time",
+  "austin_call": "Reject",
+  "austin_note": "",
+  "status": "rejected",
+  "reason": "Rejected by Austin (no note given)",
+  "fixed_by": [],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Cultural",
+  "severity": "High",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "412e204ff76981cabacdcef909635864",
+  "file": "problems/p-46-client-pleasing-comes-before-margin-scope-and.md"
+ },
+ {
+  "id": "P-47",
+  "title": "Teams work in silos and don't see each other's work or priorities",
+  "austin_call": "Solve now",
+  "austin_note": "an AI company/client brains solves this",
+  "status": "addressed",
+  "reason": "Fixed by DS-15; also helped by DS-04",
+  "fixed_by": [
+   "DS-15"
+  ],
+  "also_helped_by": [
+   "DS-04"
+  ],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Cultural",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "412e204ff76981af9182ca6683db10ee",
+  "file": "problems/p-47-teams-work-in-silos-and-don-t.md"
+ },
+ {
+  "id": "P-48",
+  "title": "Problems are fixed after they break, by individual vigilance",
+  "austin_call": "Solve now",
+  "austin_note": "designated champions who are capable and also built good system that limit breaking. this should be solved also by the systems i build and manage",
+  "status": "addressed",
+  "reason": "Fixed by DS-15",
+  "fixed_by": [
+   "DS-15"
+  ],
+  "also_helped_by": [],
+  "related_only": [],
+  "clusters": [],
+  "pain_points": [],
+  "theme": "Cultural",
+  "severity": "Medium",
+  "confidence": "High – raised by 3+ people",
+  "notion_id": "412e204ff769811fb874c5d98c0c5b0e",
+  "file": "problems/p-48-problems-are-fixed-after-they-break-by.md"
+ }
+]

@@ -1,0 +1,5672 @@
+[
+ {
+  "id": "DM-PP01",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Answering even a Google Ads question means jumping across CRM, GA4 and other platforms",
+  "quote": "Even though it's a Google Ads related question, I'll be jumping onto the CRM, GA4 and everything to better understand.",
+  "ref": "~02:52 (L046)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-27"
+  ]
+ },
+ {
+  "id": "DM-PP02",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Tina pacing covers budget only; conversions and CPA/ROAS/CPL checked account by account by hand",
+  "quote": "the one Tina is sending it out is just budget basing… I look for each of the accounts, which actually takes time.",
+  "ref": "~25:27 (L307)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-29"
+  ]
+ },
+ {
+  "id": "DM-PP03",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No alert when an account's performance drops suddenly; found only by going into each account",
+  "quote": "if there is like a sudden drop… if you get like a weekly update, that would be like really helpful.",
+  "ref": "~16:37 (L193)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP04",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Monthly commentary written by hand from change history, ~30 min per client",
+  "quote": "it will be 30 minutes for each client, I would say.",
+  "ref": "~23:04 (L272)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP05",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "~30 min data review before every monthly WIP call",
+  "quote": "for every monthly bit, what I do is I put like a 30 minutes just before that call to analyze the data",
+  "ref": "~21:42 (L257)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP06",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Some clients must approve even minor optimisations; manager waits but is blamed for results",
+  "quote": "I feel like my hands are tied back because I can't do anything on the account. I am just waiting for their approval",
+  "ref": "~31:53 (L445)",
+  "problems": [
+   "P-30"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-14",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP07",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Creative/ad-copy changes always sent for approval, even when clients say it isn't needed, to avoid blame",
+  "quote": "we seek the ad copy approval because it's on safer side. Otherwise, if something goes off, then we would be getting the blame.",
+  "ref": "~30:57 (L433)",
+  "problems": [
+   "P-30"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-14",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP08",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Manager QAs every Meta ad built by specialists (20–30 per launch) to catch format/placement errors",
+  "quote": "if another person is working on it, I won't be having that clarity. I just need to go and individually check each ad.",
+  "ref": "~20:32 (L237)",
+  "problems": [
+   "P-37"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-28",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP09",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Monday.com sends no reminders for overdue tasks; items sit in 'awaiting approval' when nobody updates them",
+  "quote": "it might be sitting under like an awaiting approval or something, even though that has been done.",
+  "ref": "~14:53 (L171)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "DM-PP10",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "~20-client portfolio; overloaded when several clients want things the same day",
+  "quote": "what if like, you know, five or six clients come to you on a single day and ask you for like so much of things.",
+  "ref": "~08:41 (L106)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP11",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Using Claude helps but briefing it with each situation takes time",
+  "quote": "that also requires a lot of time to just brief it, make it understand what exactly is the situation.",
+  "ref": "~04:00 (L063)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP12",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No clear rule on whether Claude may connect to client ad platforms (data privacy), so she hasn't used it",
+  "quote": "I'm not sure how much it is okay to have the data privacy and everything when we do that.",
+  "ref": "~15:21 (L181)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "DM-PP13",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Briefing specialists costs enough time that the manager does minor changes herself",
+  "quote": "briefing requires another time. So better do it yourself so that it's all sorted.",
+  "ref": "~05:47 (L076)",
+  "problems": [
+   "P-36"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06",
+  "cluster": "C-27",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "DM-PP14",
+  "interview": "DM",
+  "person": "Diya Manoj",
+  "role": "Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Clients question the agency for drops caused by economy or tests, creating explanation work",
+  "quote": "even though the client knows about it they won't be you know taking it… they'll just come back and question you",
+  "ref": "~10:27 (L116)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP01",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "End of month is crunchy: own work must be done by the 24th so freelancer overflow can be edited in the last week",
+  "quote": "So the end of the month is often crunchy",
+  "ref": "~13:12 (L150)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "HT-PP02",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "One high-priority client sits outside the content cycle – not briefed by SEO, sends last-minute work; writers hold buffer",
+  "quote": "even the seo tech doesn't brief it, they just give us things to do at the last minute.",
+  "ref": "~13:57 (L155)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "HT-PP03",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Content cover is thin: when the Content Manager was on leave, HT took on freelancer assignment plus her book – crunchy",
+  "quote": "when Sarah went on leave, it was like crunchy for me for sure.",
+  "ref": "~18:24 (L208)",
+  "problems": [
+   "P-09"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-22",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP04",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "interviewer-raised",
+  "pain_point": "Client nuance (tone of voice, compliance preferences) copied brief to brief and held by the owning writer; handover docs could be stronger",
+  "quote": "it does usually get copied and pasted from brief to brief.",
+  "ref": "~09:03 (L108)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP05",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Freelancer work and word-count tracker in Google Sheets (some per freelancer) and email alongside Monday.com – double-ups",
+  "quote": "I think for the sake of simplicity and double ups, yeah, we should go to Monday.",
+  "ref": "~15:53 (L177)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP06",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Nobody clearly driving the Sheets–Monday.com tracker connection; it sat with Sid, who is moving to client work",
+  "quote": "Yeah, I think that's what's kid [Sid] but I don't know where it's at.",
+  "ref": "~20:07 (L232)",
+  "problems": [
+   "P-15"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-10",
+  "cluster": "C-32",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP07",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Overflow relies on costly freelancers not trained in house style; junior hire under way",
+  "quote": "they're amazing, but we want someone that we can train in.",
+  "ref": "~19:03 (L217)",
+  "problems": [
+   "P-09"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-22",
+  "root_cause": "RC-06",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP08",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "AI tools skew vague; good output needs very specific prompts and individual trial and error",
+  "quote": "my main gripe with. like a Claude or a chat GPT is that they do lean like unspecific.",
+  "ref": "~21:57 (L254–L255)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP09",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Briefs used to lack detail and context (fixed by joint training; could drift without quarterly refresh)",
+  "quote": "with the SEO specialists to kind of make the briefs better because we weren't getting what we wanted out of them.",
+  "ref": "~05:26 (L072)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "HT-PP10",
+  "interview": "HT",
+  "person": "Hayley Tantau",
+  "role": "Content Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Compliance-sensitive (dental) clients still comment on drafts even with fully detailed briefs – extra review rounds",
+  "quote": "She'll still comment anyway, which is totally fair because it's like APRA guidelines and her business on the line.",
+  "ref": "~09:45 (L117)",
+  "problems": [
+   "P-10"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-11",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP01",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "interviewer-raised",
+  "pain_point": "Sales-to-delivery handover is the call transcript plus the HubSpot deal notes; no structured handover pack, so detail agreed in the pitch is lost",
+  "quote": "Joe: \"just the transcript.\"",
+  "ref": "~10:47 (L042)",
+  "problems": [
+   "P-27"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-08",
+  "cluster": "C-08",
+  "root_cause": "RC-03",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-08"
+  ]
+ },
+ {
+  "id": "KO-PP02",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Tier-1 client relationships depend on the founder personally; delivery teams cannot take them over",
+  "quote": "Julia: \"the biggest gap when Joe steps away is actually some of the select tier ones that he has a personal relationship with\"",
+  "ref": "~17:13 (L072)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-13"
+  ]
+ },
+ {
+  "id": "KO-PP03",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Founder still runs the AP run, payroll and invoice issuing by hand",
+  "quote": "Joe: \"I still do the AP run manually and I still pay payroll, anything that involves a bank account.\"",
+  "ref": "~13:29 (L055)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-13"
+  ]
+ },
+ {
+  "id": "KO-PP04",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Performance department has no senior leader; the Head of Client Services is covering operational gaps",
+  "quote": "Julia: \"At the moment, we're a bit headless when it comes to performance. We really want a performance — more senior leader.\"",
+  "ref": "~16:00 (L066)",
+  "problems": [
+   "P-41"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-37",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP05",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Churn-risk escalations (about five a week) all land with the Head of Client Services; judgement questions on client comms follow the same route",
+  "quote": "Julia: \"Probably five times a week, to be honest with you.\"",
+  "ref": "~26:27 (L124)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04",
+   "DS-13"
+  ]
+ },
+ {
+  "id": "KO-PP06",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "inferred",
+  "pain_point": "Churn risk is spotted by human pattern recognition only; no data signals, and some cases arrive with no warning",
+  "quote": "Julia: \"you can just recognise it based on their behaviour. Asking to see the contract, I haven't seen you in a while, new marketing manager coming in\"",
+  "ref": "~27:21 (L130)",
+  "problems": [
+   "P-31"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14;DS-24;DS-28",
+  "cluster": "C-16",
+  "root_cause": "RC-02",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-14"
+  ]
+ },
+ {
+  "id": "KO-PP07",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "No timesheets or utilisation tracking, so time per client, utilisation and client-level profitability cannot be measured; DLER is the only proxy",
+  "quote": "Joe: \"It's just a lot of people — no, Big Brother. Not much gain.\"",
+  "ref": "~42:16 (L206)",
+  "problems": [
+   "P-26"
+  ],
+  "status": "rejected",
+  "addressed_by": "",
+  "cluster": "C-19",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP08",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding too many clients at once is the most common cause of team stretch; onboarding is labour-intensive",
+  "quote": "Joe: \"Onboarding too many clients at once, or in a short amount of time, tends to be the most common one\"",
+  "ref": "~43:57 (L220)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP09",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "A new starter takes about 90 days to reach capacity and DLER takes a hit meanwhile; hiring is slow when work is won in a burst",
+  "quote": "Joe: \"the ramp is, like, 90 days for a new starter\"",
+  "ref": "~44:27 (L225)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP10",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Staff do not follow the systems (notes not updated, ticketing not used correctly), which makes capacity hard to calculate",
+  "quote": "Joe: \"you can build the best system in the world, but like, people don't use it\"",
+  "ref": "~20:51 (L088)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-15"
+  ]
+ },
+ {
+  "id": "KO-PP11",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "HubSpot-to-Monday.com monthly work-order sync is unverified; Joe suspects tasks are being missed because the Monday version was rebuilt without all the nuances",
+  "quote": "Joe: \"I'm not fully confident that it's working correctly. Stuff's getting missed.\"",
+  "ref": "~62:00 (L303)",
+  "problems": [
+   "P-39"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-31",
+  "root_cause": "RC-04",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP12",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Monday.com costs about $1,000 a month and the founder sees it as an unnecessary cost that is not purpose-built; HubSpot is still about $22–25K a year",
+  "quote": "Joe: \"Monday.com for me is the one I'm least satisfied with, 'cause I just see it as a cost.\"",
+  "ref": "~79:16 (L367)",
+  "problems": [
+   "P-39"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-31",
+  "root_cause": "RC-04",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP13",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Change fatigue: Monday.com, AgencyAnalytics and Employment Hero were all rolled out inside 50 days and the staff survey said it was too much, too fast",
+  "quote": "Joe: \"we rolled out Monday.com, Agency Analytics, and Employment Hero, like — we did that in a 50-day period.\"",
+  "ref": "~81:29 (L381)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP14",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "AI use is inconsistent and shallow; Joe's OpenClaw assistant is open to the team in Slack but nobody uses it, and nobody was told how",
+  "quote": "Joe: \"it's got access to the team via a Slack channel. No one utilises it.\"",
+  "ref": "~81:13 (L377)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-15"
+  ]
+ },
+ {
+  "id": "KO-PP15",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "No usable wiki: Julia says one is needed badly while Joe says everything is in Notion",
+  "quote": "Julia: \"No. We need a wiki badly.\"",
+  "ref": "~19:11 (L082)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "a wiki needs to be built through an AI brain",
+  "cited_in": [
+   "DS-15"
+  ]
+ },
+ {
+  "id": "KO-PP16",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Link building has no CRM: publishers, orders and outstanding invoices live in spreadsheets, and there is no automatic check for dropped links",
+  "quote": "Julia: \"I would love, like, a CRM for our link-building team specifically. That is still being run out of spreadsheets.\"",
+  "ref": "~79:34 (L368)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-07",
+   "DS-11"
+  ]
+ },
+ {
+  "id": "KO-PP17",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Sales is not yet consistent and still needs the founder (contract sign-off, strategy input); sales hires are hard to find and the pipeline depends on inbound and referral",
+  "quote": "Joe: \"sales to be consistent and coming in month to month without so much of my involvement\"",
+  "ref": "~86:25 (L403)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-19"
+  ]
+ },
+ {
+  "id": "KO-PP18",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Only about one in ten raw leads closes; a large share are unreachable or have the wrong budget",
+  "quote": "Joe: \"now, I think because the lead volume is higher, as we're running ads better, it might be one in ten.\"",
+  "ref": "~54:08 (L268)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-19"
+  ]
+ },
+ {
+  "id": "KO-PP19",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Lead quality is falling across the lead-generation client base; platform algorithms favour cheap form fills",
+  "quote": "Joe: \"lead quality has gone down as a whole\"",
+  "ref": "~83:56 (L393)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP20",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Client-facing specialists tend to report metrics instead of bringing a position or recommendation; soft-skills gap",
+  "quote": "Julia: \"the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy\"",
+  "ref": "~68:58 (L326)",
+  "problems": [
+   "P-31"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14;DS-24;DS-28",
+  "cluster": "C-16",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-14",
+   "DS-28"
+  ]
+ },
+ {
+  "id": "KO-PP21",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Most questions to Julia are client-communication or people-management judgement calls; she keeps them on purpose as an early-warning signal",
+  "quote": "Julia: \"the most questions I get, outstandingly, is how to handle client communications\"",
+  "ref": "~19:30 (L084)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-14"
+  ]
+ },
+ {
+  "id": "KO-PP22",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "New-client research (ownership, private equity, LinkedIn profiles) is done by hand by Julia; no client dossier",
+  "quote": "Julia: \"if we bring on a new client, I do want to stalk them across the internet\"",
+  "ref": "~37:30 (L181)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-20"
+  ]
+ },
+ {
+  "id": "KO-PP23",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "AI is eroding the bread-and-butter SEO and paid offerings; diversification is informal and unwritten",
+  "quote": "Julia: \"diversifying product offering a little bit more, particularly in light of the impact AI is having on our kind of bread-and-butter offerings\"",
+  "ref": "~29:27 (L139)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP24",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Outbound prospecting no longer works; the pipeline relies on inbound and referral",
+  "quote": "Joe: \"I think with all these AI agents, it's just noise now.\"",
+  "ref": "~52:51 (L258)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KO-PP25",
+  "interview": "KO",
+  "person": "Joe Romeo",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Landing pages are outsourced, which is clunky and slow, and clients are reluctant to pay for them",
+  "quote": "Joe: \"outsourcing landing page builds is a bit clunky\"",
+  "ref": "~83:23 (L391)",
+  "problems": [
+   "P-38"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-18;DS-21",
+  "cluster": "C-29",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-18"
+  ]
+ },
+ {
+  "id": "KO-PP26",
+  "interview": "KO",
+  "person": "Julia Van Der Linden",
+  "role": "Leadership (kick-off)",
+  "source_type": "staff-raised",
+  "pain_point": "Team capacity is too tight to log time for a two-week time-and-motion study",
+  "quote": "Julia: \"I think you'd be hard-pressed right now, given the team's capacity as well.\"",
+  "ref": "~88:54 (L417)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP01",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding a new SEO client takes most of month one and competes with BAU; a five-site month forced out-of-hours work",
+  "quote": "onboarding takes a really long time. I don't know if Laura brought that up, but onboarding a new client is pretty hectic here as well.",
+  "ref": "~17:23 (L164)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 5,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-09"
+  ]
+ },
+ {
+  "id": "KZ-PP02",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding effort caps how many new clients managers can take – growth is constrained by delivery time",
+  "quote": "it's pretty hard to take multiple new clients or give multiple new clients to like, for example, to Zach.",
+  "ref": "~23:55 (L204)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-09"
+  ]
+ },
+ {
+  "id": "KZ-PP03",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Back-to-back onboardings are repetitive and demoralising for junior/new staff – a staff-retention risk",
+  "quote": "if you're new to an agency and you're a junior or a new staff member and you're just copying onboarding after onboarding",
+  "ref": "~25:05 (L209)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-09"
+  ]
+ },
+ {
+  "id": "KZ-PP04",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Month-one deliverables are largely manual: metadata copy-paste, keyword list, and a hand-built strategy deck from GSC/GA4",
+  "quote": "This is a bit manual. We just copy-paste all the keywords basically from in here that we had.",
+  "ref": "~19:38 (L183)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-09"
+  ]
+ },
+ {
+  "id": "KZ-PP05",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Deadlines cluster: briefs due in the last days of the month, reports in week one, plus client priorities – 'pretty chaotic'",
+  "quote": "client priorities kind of dropping in at the same time, it can get like pretty chaotic to like get everything done together.",
+  "ref": "~10:01 (L108)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP06",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Domain vetting is slow and manual: ~60 domains through Ahrefs plus a manual spam check takes 1–2 h a batch",
+  "quote": "I'll get 60 domains I need to vet and I'll go through one at a time... that's at least an hour or two process",
+  "ref": "~13:14 (L131)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "KZ-PP07",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "A link takes at least a month end to end; late links come from review delays, domains added to the sheet unseen and publishers going quiet",
+  "quote": "It takes me a couple of days maybe to get to reviewing the domains and then Tony [Tonie] will add more to the sheet and I don't see",
+  "ref": "~13:55 (L132)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "KZ-PP08",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "The link lead's time goes on admin (vetting, invoices) instead of developing and growing the link team",
+  "quote": "it's like typically going to like that admin side rather than like helping do bigger things and growing the team a bit more",
+  "ref": "~11:11 (L111)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "KZ-PP09",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Outreach shortlists included spammy, low-quality domains, adding review time (now mitigated by shared Claude prompts)",
+  "quote": "i'm looking through these sites that are like dictionary websites and stuff that are clearly just trying to like get spammy keywords",
+  "ref": "~15:00 (L145)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP10",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "No link QA: nobody checks that links are live, on the approved domain, still there months later, or that the domain hasn't decayed; a one-off report found ~100 dead links in ~10 m…",
+  "quote": "over the last like 10 months or whatever it was, there's like 100 links that just like were no longer working, like 404s or they took them down",
+  "ref": "~54:38 (L546)",
+  "problems": [
+   "P-07"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-07",
+  "cluster": "C-25",
+  "root_cause": "RC-02",
+  "certainty": "partly stated",
+  "severity": 5,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-07"
+  ]
+ },
+ {
+  "id": "KZ-PP11",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Strategists have little visibility of or say in technical priorities; simple tasks get done first and the big ones are pushed months out",
+  "quote": "sometimes it's pretty simple tasks in there and the beefier tasks are all the way six months from now kind of thing as well.",
+  "ref": "~32:57 (L316)",
+  "problems": [
+   "P-35"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-26",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP12",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Technical tasks are often unfinished when the monthly report is due, so the report has nothing for technical",
+  "quote": "task still in progress and now it's like, well, I'm putting nothing in the report.",
+  "ref": "~34:37 (L337)",
+  "problems": [
+   "P-35"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-26",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP13",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Page builds reach clients with errors (especially mobile layouts) – implementers aren't web developers and there's no structured cross-device QA",
+  "quote": "sometimes you just don't pick things up and then the client sees it first and they're not happy.",
+  "ref": "~55:27 (L551)",
+  "problems": [
+   "P-29"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-13",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP14",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Finished content waits on client approval and sometimes needs several follow-ups",
+  "quote": "Sometimes that doesn't always, like you need to follow up a few times as well.",
+  "ref": "~30:56 (L296)",
+  "problems": [
+   "P-10"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-11",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP15",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Master sheet and project plan aren't kept current under load",
+  "quote": "keeping the project plan updated, which I'm very bad at.",
+  "ref": "~29:11 (L278)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP16",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "AI call notes (Gemini) are switched on inconsistently and rarely reviewed afterwards",
+  "quote": "I usually just forget to look at the notes even after as well or maybe I don't summarize them too.",
+  "ref": "~03:56 (L068)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP17",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Disney localisation SEO prep is manual and high-volume: 5–10 docs a week × 3 markets × 15–20 min",
+  "quote": "if you're doing 10 of those a week, it's obviously pretty time impactful as well.",
+  "ref": "~40:10 (L401)",
+  "problems": [
+   "P-33"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-20",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP18",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Disney's bespoke three-market report deck is built by hand – half a day or more each month",
+  "quote": "So this probably takes me like half a day, if not more, of like work hours.",
+  "ref": "~41:42 (L409)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05"
+  ]
+ },
+ {
+  "id": "KZ-PP19",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Google Trends monitoring for Disney can only be refreshed every 2–3 days by hand, not daily",
+  "quote": "I set up a tracker, but I'm like, I can only do this once every two, three days. I can't do this every single day.",
+  "ref": "~38:17 (L388)",
+  "problems": [
+   "P-24"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-16;DS-32;DS-33",
+  "cluster": "C-15",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-16"
+  ]
+ },
+ {
+  "id": "KZ-PP20",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Major events are missed for content because topics are spotted too late (e.g. World Series)",
+  "quote": "like a major event and we'd be too late to even think to do like a content topic or an idea for it.",
+  "ref": "~44:01 (L443)",
+  "problems": [
+   "P-24"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-16;DS-32;DS-33",
+  "cluster": "C-15",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-16"
+  ]
+ },
+ {
+  "id": "KZ-PP21",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Prospect decks for sales are slow to build (research, Ahrefs, story) and land on top of BAU",
+  "quote": "That can be quite time consuming depending on the client and stuff too.",
+  "ref": "~26:23 (L234)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05",
+   "DS-09"
+  ]
+ },
+ {
+  "id": "KZ-PP22",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Effort per client is set by 'feel' and fee rather than tracked retainer hours; the pricing calculator isn't kept up to date",
+  "quote": "to be honest, like a little bit of a feel, I'd say",
+  "ref": "~46:36 (L473)",
+  "problems": [
+   "P-26"
+  ],
+  "status": "rejected",
+  "addressed_by": "",
+  "cluster": "C-19",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP23",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "One high-touch client's daily requests force other clients' work to be scheduled around it",
+  "quote": "if like another one or two clients come up during the week and they need something, I've got to like map that around Disney a lot of the time",
+  "ref": "~16:52 (L160)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "KZ-PP24",
+  "interview": "KZ",
+  "person": "Karl Zaharopoulos",
+  "role": "Senior SEO Manager & Link-building Lead",
+  "source_type": "staff-raised",
+  "pain_point": "Freelance writers' AI use can't be verified (KZ's experience at his last agency; unknown here)",
+  "quote": "they'll tell you that they didn't use AI and then someone will say like, 'Hey, my content looks like AI.'",
+  "ref": "~52:06 (L532)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP01",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Laura is near capacity because of the team load, so she cannot hand over smaller clients until hires land",
+  "quote": "I've still got a few smaller clients that it would be good to hand over, but I'm nearing capacity so I can't yet.",
+  "ref": "~01:20 (L003)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP02",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Smaller clients take disproportionate time (her top day-to-day annoyance)",
+  "quote": "having the smaller clients. I need to handle them, and I spend too much time on them.",
+  "ref": "~20:17 (L080)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05"
+  ]
+ },
+ {
+  "id": "LS-PP03",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Monthly content briefs are re-cut by hand from a plan that already exists",
+  "quote": "content briefs; we could have automated those years ago.",
+  "ref": "~20:17 (L080)",
+  "problems": [
+   "P-33"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-20",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "LS-PP04",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Last page of the monthly report (work completed / planned) is fully manual",
+  "quote": "it's completely manual now",
+  "ref": "~20:46 (L082)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP05",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Laura checks client performance by hand; no roll-up showing drops, red flags and wins",
+  "quote": "I still do it manually, which is silly.",
+  "ref": "~14:34 (L060)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-22"
+  ]
+ },
+ {
+  "id": "LS-PP06",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Clients with many internal approvals (or staff turnover) stall or pause content",
+  "quote": "one client has had a few people leave and has now paused content, so we're working on links",
+  "ref": "~19:05 (L074)",
+  "problems": [
+   "P-10"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-11",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP07",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "interviewer-raised",
+  "pain_point": "No single client-facing place for content, approval trail, stats and report",
+  "quote": "a paper trail of approvals (when it was sent, when it was approved)",
+  "ref": "~23:08 (L094)",
+  "problems": [
+   "P-10"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-11",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP08",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Account teams can drift into \"going through the motions\" and miss new opportunities, a retention risk",
+  "quote": "A busy workload might be contributing to retention problems if clients feel like we're just going through the motions.",
+  "ref": "~11:29 (L046)",
+  "problems": [
+   "P-31"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14;DS-24;DS-28",
+  "cluster": "C-16",
+  "root_cause": "RC-02",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-14",
+   "DS-24"
+  ]
+ },
+ {
+  "id": "LS-PP09",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "interviewer-raised",
+  "pain_point": "Upsell and cross-sell is occasional; no template or training",
+  "quote": "a few upsells, but not much. That's an opportunity.",
+  "ref": "~19:35 (L076)",
+  "problems": [
+   "P-31"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14;DS-24;DS-28",
+  "cluster": "C-16",
+  "root_cause": "RC-02",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-14"
+  ]
+ },
+ {
+  "id": "LS-PP10",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Content implementation errors reach clients",
+  "quote": "a few content implementation errors, where the client said it wasn't done right",
+  "ref": "~11:29 (L046)",
+  "problems": [
+   "P-29"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-13",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP11",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Knowledge sharing and training get squeezed out by workload",
+  "quote": "needing to share our stuff with the team, but we're too busy",
+  "ref": "~10:50 (L044)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "LS-PP12",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Link building is slow (1–2 months per link) and still largely manual; volume keeps rising",
+  "quote": "One link takes a month to two months, with a delay usually.",
+  "ref": "~22:18 (L090)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11",
+   "DS-12"
+  ]
+ },
+ {
+  "id": "LS-PP13",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "No agreed guardrails for AI use in strategy and client deliverables",
+  "quote": "we've had a few cases where team members used AI for the whole thing and it was a mess.",
+  "ref": "~07:00 (L026)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "LS-PP14",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Team requests to Laura vary in quality (one sentence versus a full brief)",
+  "quote": "Some will send one sentence and I need more.",
+  "ref": "~12:06 (L048)",
+  "problems": [
+   "P-36"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06",
+  "cluster": "C-27",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "need to standardies requests",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "LS-PP15",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Churn early warning is limited to ranking trend; some clients leave \"out of the blue\"; resellers bring work in-house",
+  "quote": "Some go out of the blue.",
+  "ref": "~21:12 (L084)",
+  "problems": [
+   "P-31"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14;DS-24;DS-28",
+  "cluster": "C-16",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-14",
+   "DS-23"
+  ]
+ },
+ {
+  "id": "LS-PP16",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "interviewer-raised",
+  "pain_point": "Reports do not explain seasonality; the AI summary will not either",
+  "quote": "it probably wouldn't comment on seasonality. That requires intervention.",
+  "ref": "~15:53 (L064)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-26",
+   "DS-28"
+  ]
+ },
+ {
+  "id": "LS-PP17",
+  "interview": "LS",
+  "person": "Laura Shillington",
+  "role": "SEO Director",
+  "source_type": "staff-raised",
+  "pain_point": "Reviewing client/strategy feedback in Word docs with screenshots is clumsy",
+  "quote": "Word doc with screenshots it was hard to review; I'd open the link, look, go back and type.",
+  "ref": "~16:46 (L066)",
+  "problems": [
+   "P-10"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-11",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP01",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Implementation tasks briefed mid-day (often after Performance team call) and needed same day – planned day breaks",
+  "quote": "they'll briefing it in like middle of the day. But sometimes they need it on that day as well.",
+  "ref": "~14:03 (L130–L131)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP02",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Daily agenda message to manager duplicates Monday.com view and goes stale",
+  "quote": "I feel like that's kind of redundant on my end. If they have access to monday.com",
+  "ref": "~05:10 (L053)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP03",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Priority field often blank; tasks not briefed for week ahead – no forward view",
+  "quote": "sometimes they leave this as blank which is also if that is in place that would help me prioritize my task",
+  "ref": "~10:33 (L106)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-30"
+  ]
+ },
+ {
+  "id": "MC-PP04",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Briefs sometimes miss details – chases account manager",
+  "quote": "Oh, sometimes I need… to chase up the account manager for details.",
+  "ref": "~45:52 (L431–L432)",
+  "problems": [
+   "P-36"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06",
+  "cluster": "C-27",
+  "root_cause": "RC-03",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "need to standardies requests",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "MC-PP05",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Monday.com notifications don't always reach AM; Slack used as backup",
+  "quote": "Sometimes Monday.com doesn't notify them.",
+  "ref": "~11:13 (L109)",
+  "problems": [
+   "P-36"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06",
+  "cluster": "C-27",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "MC-PP06",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Supermetrics-fed team pacing sheet keeps breaking; Tina pacing updates unreliable; Supermetrics not being renewed",
+  "quote": "that's one more issue that Supermetrics is breaking down a lot.",
+  "ref": "~20:25 (L198)",
+  "problems": [
+   "P-01"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-02",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP07",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Day 1 each month is a full day of manual budget reverts and pacing-sheet setup",
+  "quote": "that's what my whole day would look like, just changing budgets and stuff",
+  "ref": "~20:51 (L201)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP08",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "No automated performance-trend alerting – Tina reports budget only; declines found in manual checks",
+  "quote": "I wanted Tina to report the performance of the account.",
+  "ref": "~44:09 (L409)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-29"
+  ]
+ },
+ {
+  "id": "MC-PP09",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Own low-tier client optimisation squeezed to ~2 days/week; block taken by overflow tasks",
+  "quote": "two days in a week. So majority would be the tasks.",
+  "ref": "~04:12 (L050)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP10",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding stalls on client lag – questionnaire, strategy, ad copy (4–5 revisions), previews in series",
+  "quote": "The client has like four or five revisions that needed back and forth and stuff. So that's what's taking long.",
+  "ref": "~31:22 (L271)",
+  "problems": [
+   "P-17",
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-09",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-08"
+  ]
+ },
+ {
+  "id": "MC-PP11",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding calls run 'blind' – no sales handover from Joe, questionnaire not back – clients get repeat questions",
+  "quote": "So sometimes I'm going in blind. So I haven't been, I haven't talked to Joe on what has been communicated on the sales side",
+  "ref": "~30:11 (L266)",
+  "problems": [
+   "P-27"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-08",
+  "cluster": "C-08",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04",
+   "DS-08"
+  ]
+ },
+ {
+  "id": "MC-PP12",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding own client on top of team implementation overwhelms her",
+  "quote": "But if I'm onboarding a client, that's where everything changes.",
+  "ref": "~15:48 (L160)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP13",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "HubSpot drops every onboarding task at once – no staged, guided sequence",
+  "quote": "So the first time I onboarded a client, I don't know where to start.",
+  "ref": "~26:52 (L246)",
+  "problems": [
+   "P-39"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-31",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-08"
+  ]
+ },
+ {
+  "id": "MC-PP14",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Offboarding has no trigger – handover doc missed; client chased 2–3 days after contract end",
+  "quote": "Another two or three days has passed… the client is following up on the handover docs… So that makes us look bad.",
+  "ref": "~27:55 (L249)",
+  "problems": [
+   "P-27"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-08",
+  "cluster": "C-08",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "ai client brain should create. sub 3 click hand over report",
+  "cited_in": [
+   "DS-04"
+  ]
+ },
+ {
+  "id": "MC-PP15",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Many Pixels creative ignores detailed briefs – repeated back-and-forth",
+  "quote": "they'll be doing the exact opposite of what you briefed in. So you have to back and forth.",
+  "ref": "~32:18 (L275)",
+  "problems": [
+   "P-38"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-18;DS-21",
+  "cluster": "C-29",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-21"
+  ]
+ },
+ {
+  "id": "MC-PP16",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "No way to see when tracking contractor has finished – repeated chasing",
+  "quote": "I'm always asking if everything's done.",
+  "ref": "~35:38 (L304)",
+  "problems": [
+   "P-17",
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-09",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "ai to track website changes",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP17",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "interviewer-raised",
+  "pain_point": "Client replies sit until next scheduled email check, losing hours in onboarding",
+  "quote": "If an account manager receives a task that's in an email… that's going to get missed until the end of the day.",
+  "ref": "~28:41 (L254)",
+  "problems": [
+   "P-17",
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-09",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MC-PP18",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Google Merchant Center / Partner checks not done for ~3 weeks",
+  "quote": "I haven't checked Google Merchant Center for like three weeks now. So that's kind of an issue as well.",
+  "ref": "~06:10 (L061)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-29"
+  ]
+ },
+ {
+  "id": "MC-PP19",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "AI skills sit on a personal Claude account she pays for; company Claude won't connect to her browser",
+  "quote": "Personally, I set up my personal cloud [Claude] using my work email and I'm paying for it every month.",
+  "ref": "~39:17 (L343)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "MC-PP20",
+  "interview": "MC",
+  "person": "Michaela Cruz",
+  "role": "Performance Marketing Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Meta preview links for ~50-ad builds tedious – solved only by personal Claude skill",
+  "quote": "And 50 ad preview links is very, very, like, a lot. So I use Claude to generate those links.",
+  "ref": "~40:16 (L354)",
+  "problems": [
+   "P-37"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-28",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "MP-PP01",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Budget changes not entered in pacing sheet; tracker paces against wrong number; overspend paid by agency",
+  "quote": "The budget would change and they wouldn't update the sheet. So the trackers are tracking. but it's on the wrong number.",
+  "ref": "~31:44 (L377–L378)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 5,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-01"
+  ]
+ },
+ {
+  "id": "MP-PP02",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "LinkedIn had no pacing tracker",
+  "quote": "I probably should set up a pacing track with the LinkedIn and then bang, this happens.",
+  "ref": "~44:41 (L577)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-03",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-01"
+  ]
+ },
+ {
+  "id": "MP-PP03",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Processes and SOPs built but not followed or read",
+  "quote": "you can build all the best processes in the world but nobody actually follows them.",
+  "ref": "~20:49 (L229)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MP-PP04",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Founder repeatedly re-explains how to do things",
+  "quote": "I'm sick of just explaining the same thing over and over again.",
+  "ref": "~22:08 (L242)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-15"
+  ]
+ },
+ {
+  "id": "MP-PP05",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Reminders go out but updates don't follow",
+  "quote": "Half an hour ago, the reminder went out. We still don't have updates.",
+  "ref": "~23:43 (L259)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "MP-PP06",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "interviewer-raised",
+  "pain_point": "Leadership can't see whether work is happening, especially on remote days",
+  "quote": "And that's the day people, the days people are in the office. What about the days everyone's at home?",
+  "ref": "~24:25 (L274)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "AI business brain to track activity",
+  "cited_in": [
+   "DS-06",
+   "DS-15"
+  ]
+ },
+ {
+  "id": "MP-PP07",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "interviewer-raised",
+  "pain_point": "Culture of 'make the mistake and ask forgiveness' rather than fixing root causes",
+  "quote": "make the mistake and ask for forgiveness first, rather than just fix the root cause.",
+  "ref": "~25:54 (L290, Austin)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MP-PP08",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Escalations go to Head of Client Services, not department leads",
+  "quote": "I would love for them to be involved on the escalation processes, but I don't think they've got the soft skills yet",
+  "ref": "~35:44 (L446)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-13"
+  ]
+ },
+ {
+  "id": "MP-PP09",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Department leads promoted into management without people-leadership experience",
+  "quote": "they've only been in management since they've been with us. They've been all promoted into those roles.",
+  "ref": "~36:55 (L465)",
+  "problems": [
+   "P-41"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-37",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-13"
+  ]
+ },
+ {
+  "id": "MP-PP10",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "interviewer-raised",
+  "pain_point": "Sales commits scope and ad spend that isn't profitable or feasible",
+  "quote": "we can't be promising all of these things and including them in the scope when like it's not even going to be profitable",
+  "ref": "~15:24 (L165)",
+  "problems": [
+   "P-18"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05;DS-08",
+  "cluster": "C-38",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05",
+   "DS-08"
+  ]
+ },
+ {
+  "id": "MP-PP11",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Founder still pulled into building deal strategies and ad-spend numbers",
+  "quote": "So I'm still getting involved in a lot of that, but I don't want to",
+  "ref": "~17:18 (L192)",
+  "problems": [
+   "P-19",
+   "P-42"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-39",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05"
+  ]
+ },
+ {
+  "id": "MP-PP12",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Ad-spend calculator exists but isn't used consistently on sales calls",
+  "quote": "I'm trying to encourage [the sales lead] to use this instead of just pulling numbers out of his Backside.",
+  "ref": "~20:41 (L225)",
+  "problems": [
+   "P-18"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05;DS-08",
+  "cluster": "C-38",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05"
+  ]
+ },
+ {
+  "id": "MP-PP13",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Publishers remove paid links after payment; nobody checks they're still live",
+  "quote": "we don't have a way to currently check whether these are dropping off",
+  "ref": "~04:32 (L048)",
+  "problems": [
+   "P-07"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-07",
+  "cluster": "C-25",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-07"
+  ]
+ },
+ {
+  "id": "MP-PP14",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Links copied by hand from tracker into CRM for reporting",
+  "quote": "When these links go into the tracker, It's still kind of manually being copied over into the CRM for reporting",
+  "ref": "~04:32 (L048)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "MP-PP15",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Link-building admin still on sheets; no capacity to improve it",
+  "quote": "there's stuff that we just can't do at the moment because we just don't have the manpower.",
+  "ref": "~04:32 (L048)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "MP-PP16",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "No early warning of churn risk; six-year client lost after poor feedback",
+  "quote": "I've also just had like some bad feedback from clients who are now not with us anymore. And as a client has been with us for like six years.",
+  "ref": "~30:48 (L361)",
+  "problems": [
+   "P-31"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14;DS-24;DS-28",
+  "cluster": "C-16",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04",
+   "DS-14"
+  ]
+ },
+ {
+  "id": "MP-PP17",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "interviewer-raised",
+  "pain_point": "Account data not pre-synthesised; consultants review ad accounts by hand, capping clients per head",
+  "quote": "rather than people having to synthesize that information by going onto the ad account, reviewing all the stats",
+  "ref": "~01:01 (L023, Austin)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-15"
+  ]
+ },
+ {
+  "id": "MP-PP18",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Growth depends on hiring; each hire feels like a risk",
+  "quote": "So when I keep hiring people, I feel like I'm just taking a little bit of risk.",
+  "ref": "~10:31 (L114)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MP-PP19",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Pushing for higher performance risks attrition",
+  "quote": "now with this next generation, they just quit, man.",
+  "ref": "~27:44 (L313)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MP-PP20",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "interviewer-raised",
+  "pain_point": "Call transcripts (Otter) paid for but only the Founder uses them",
+  "quote": "It's basically just like a data backup. I think I'm the only one that does anything with the transcripts.",
+  "ref": "~41:56 (L522–L523, Joe D)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04",
+   "DS-15"
+  ]
+ },
+ {
+  "id": "MP-PP21",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "interviewer-raised",
+  "pain_point": "SEO revenue per employee hard to lift because value is human writing",
+  "quote": "A lot of your value proposition is based on human writing … So it's very hard to increase revenue per employee there.",
+  "ref": "~02:45 (L034, Austin)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "MP-PP22",
+  "interview": "MP",
+  "person": "Joe Romeo",
+  "role": "Leadership (mid-point)",
+  "source_type": "staff-raised",
+  "pain_point": "Only Canva for creative; most AI creative tools target e-comm, not Aperitif's clients",
+  "quote": "You can see that a lot of these tools are built for e-comm … It's not really our ICP.",
+  "ref": "~09:06 (L093–L094)",
+  "problems": [
+   "P-38"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-18;DS-21",
+  "cluster": "C-29",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-21"
+  ]
+ },
+ {
+  "id": "SB-PP01",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Daily Claude 'Organizer' routine doesn't flag what needs action; emails and Slack asks slip and become last-minute",
+  "quote": "I still miss out on things that I need to do, like emails that I need to respond to",
+  "ref": "~03:28 (L046)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06",
+   "DS-30"
+  ]
+ },
+ {
+  "id": "SB-PP02",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "About an hour a day on email triage, much of it unnecessary",
+  "quote": "In a day, an hour.",
+  "ref": "~30:25 (L421)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06",
+   "DS-30"
+  ]
+ },
+ {
+  "id": "SB-PP03",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Requests arrive as forwarded email chains with conflicting sheet versions; ~30 min to untangle each",
+  "quote": "And then I'm just stuck for 30 minutes trying to figure out, OK, this email is a response to this one.",
+  "ref": "~15:10 (L190)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "AI request extractor and email chains summaries tha tis also conencted to ai company/client brain to make it easier because its already loaded with all the context.",
+  "cited_in": [
+   "DS-04",
+   "DS-06"
+  ]
+ },
+ {
+  "id": "SB-PP04",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Colleagues send task requests by email and Slack DM instead of Monday",
+  "quote": "not everybody uses Monday to like, you know, set up a task.",
+  "ref": "~02:50 (L039)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "SB-PP05",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Read-and-archive habit buries important emails",
+  "quote": "And then I realize I've archived something that I shouldn't have.",
+  "ref": "~29:52 (L413)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SB-PP06",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "As Monday admin, Sid receives every Monday change notification",
+  "quote": "because I run the Monday shindig, I get every fucking notification out there.",
+  "ref": "~28:33 (L396)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SB-PP07",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Web page uploads loop with clients for weeks over pixels and elements; requirements unclear and client team changes its mind",
+  "quote": "I have been going back and forth. for a month. for a singular page.",
+  "ref": "~16:16 (L204–L206)",
+  "problems": [
+   "P-29"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-13",
+  "root_cause": "RC-07",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SB-PP08",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Webflow is complex; clients can't find controls so Sid relays and does edits",
+  "quote": "Like Webflow is not easy.",
+  "ref": "~18:36 (L231)",
+  "problems": [
+   "P-29"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-13",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SB-PP09",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Client logins sit in HubSpot, not with the Monday task; LastPass migration unfinished",
+  "quote": "But then we still have to go into HubSpot and go into Kshalo and look into the login information",
+  "ref": "~07:08 (L081)",
+  "problems": [
+   "P-23"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-17",
+  "cluster": "C-34",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-17"
+  ]
+ },
+ {
+  "id": "SB-PP10",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Make sets the HubSpot deal closer as Monday client owner – always wrong; fixed by hand",
+  "quote": "the person who closes the deal on HubSpot is never the person who's going to manage the client account.",
+  "ref": "~33:23 (L477)",
+  "problems": [
+   "P-39"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-31",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-10"
+  ]
+ },
+ {
+  "id": "SB-PP11",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Monday/Make system depends on Sid (built it, admin, sole fixer); no documented backup",
+  "quote": "But if I'm not there, who's going to do it? It needs to have that system in place.",
+  "ref": "~35:09 (L501)",
+  "problems": [
+   "P-15"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-10",
+  "cluster": "C-32",
+  "root_cause": "RC-04",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-10"
+  ]
+ },
+ {
+  "id": "SB-PP12",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Claude Pro-for-Teams token limits restrict a team that relies on AI; Claude in Chrome burns most tokens; no shared skills library",
+  "quote": "it's severely limiting what the team can do because honestly everyone's become very reliant on AI.",
+  "ref": "~27:17 (L381)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "SB-PP13",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Client communications would break first if end-to-end load grows; already 'borderline'",
+  "quote": "It's the client side where I will definitely be lacking.",
+  "ref": "~23:24 (L338)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SB-PP14",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Split strategy vs technical ownership adds coordination; no performance impact",
+  "quote": "it's not a hindrance to performance, but I think it just gets in the way of work at times",
+  "ref": "~12:23 (L151)",
+  "problems": [
+   "P-35"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-26",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SB-PP15",
+  "interview": "SB",
+  "person": "Sid Bali",
+  "role": "Technical SEO Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Constant ad hoc requests and sub-problems push planned tickets into an overdue catch-up week",
+  "quote": "there will be overdue tickets always.",
+  "ref": "~24:50 (L354)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-06"
+  ]
+ },
+ {
+  "id": "SD-PP01",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Pacing is the #1 pain: sheets broke when Supermetrics lapsed; the whole process is manual; the Performance Director now does Meta pacing by hand in Claude daily (single-person dep…",
+  "quote": "the sheets have broken because we no longer have a Supermetric subscription.",
+  "ref": "~22:57 (L193)",
+  "problems": [
+   "P-01"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-02",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 5,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP02",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Budget allocations keyed by hand into three places",
+  "quote": "One is the Google Sheet, one is the Pacing Sheet, and the other is the platform itself.",
+  "ref": "~26:49 (L243)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP03",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Underspend adjustments calculated manually, 15–20 min per account",
+  "quote": "It's a bit manual. I'm sure there's a better way of doing it",
+  "ref": "~28:40 (L281)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP04",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No proactive alerting – issues only seen when in the account, mostly at month-end",
+  "quote": "if I'm not in the account, then there's no way of knowing.",
+  "ref": "~51:56 (L516)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-01"
+  ]
+ },
+ {
+  "id": "SD-PP05",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Call prep and follow-up take 1 h–1 h 15 per 30-min call, mostly data collation",
+  "quote": "for a half an hour call, I'm basically spending about one hour, one hour, 15 minutes on that specific client",
+  "ref": "~18:36 (L161)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04"
+  ]
+ },
+ {
+  "id": "SD-PP06",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "AI note-taker action items not accurate enough; follow-ups still manual",
+  "quote": "It still doesn't do the most accurate job of sending the action items as discussed.",
+  "ref": "~18:59 (L162)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP07",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "At full capacity; ad hoc work and pitches push out BAU; Tier 2/3 dropped first",
+  "quote": "the first set of clients that take a hit in performance or get neglected are those tier 3, tier 2 clients",
+  "ref": "~12:35 (L110)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP08",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "SQR hygiene not done monthly because of capacity",
+  "quote": "ideally should be done every month but again depends on our time and capacity",
+  "ref": "~50:17 (L504)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP09",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Client account access at onboarding can need a lot of chasing",
+  "quote": "Getting access from them is a bit of a friction area. Sometimes it's instant. Sometimes there's a lot of following up.",
+  "ref": "~41:01 (L414)",
+  "problems": [
+   "P-17",
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-09",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP10",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding dependencies and approvals delay timelines; disrupts BAU; no cap on concurrent onboardings",
+  "quote": "because of how dependent the dependency there is in terms of approvals and managing a lot of people for one thing The timelines have been delayed.",
+  "ref": "~42:19 (L422)",
+  "problems": [
+   "P-17",
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-09",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP11",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding account audit is manual, line by line, the longest step",
+  "quote": "the audit is what takes majority of the times during the whole onboarding process",
+  "ref": "~39:57 (L412)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-09"
+  ]
+ },
+ {
+  "id": "SD-PP12",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Ad hoc campaign launch takes ≥ 1 week; depends on client creatives and two approvals",
+  "quote": "generally we require at least a week's time provided the creatives are being sent to us on time.",
+  "ref": "~34:59 (L360)",
+  "problems": [
+   "P-30"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-14",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-21"
+  ]
+ },
+ {
+  "id": "SD-PP13",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Tier 1 (Five Good Friends) analysis needs manual reconciliation across several sources of truth",
+  "quote": "there's a lot of data processing involved with this client specifically because they have a lot of different sources of truths.",
+  "ref": "~09:32 (L076)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP14",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "interviewer-raised",
+  "pain_point": "Data collation, not analysis, is where the time goes – including much of Tati's work",
+  "quote": "a lot of daddies [Tati's] work goes in just collating that data very manually.",
+  "ref": "~47:51 (L489)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP15",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Claude connects to Meta but not Google Ads; Google stays manual",
+  "quote": "I have connected my meta ads to cloud [Claude] now, game changer, and Google Ads tool isn't a connector yet.",
+  "ref": "~15:50 (L131)",
+  "problems": [
+   "P-01"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-02",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP16",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "inferred",
+  "pain_point": "All delegated work returns to SD for QA – single gate while at capacity",
+  "quote": "That's when I have to go in and review whatever work they've done to make sure it's all to the T.",
+  "ref": "~06:06 (L056–L057)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "detected",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP17",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Clients historically briefed campaigns verbally with nothing documented (partly fixed by template)",
+  "quote": "So there was no such documented brief for us.",
+  "ref": "~07:04 (L060)",
+  "problems": [
+   "P-30"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-14",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP18",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Timelines depend on when WIP / client meetings fall",
+  "quote": "makes the timelines either faster or delayed depending on when they're organized.",
+  "ref": "~32:18 (L327)",
+  "problems": [
+   "P-30"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-14",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SD-PP19",
+  "interview": "SD",
+  "person": "Shrishti Dokwal",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "inferred",
+  "pain_point": "Pacing cadence depends on the Tina Slack agent bot, which has no visible owner or documentation",
+  "quote": "Tina gives us updates and Monday, Wednesday, Friday.",
+  "ref": "~27:21 (L260)",
+  "problems": [
+   "P-01"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-02",
+  "root_cause": "RC-04",
+  "certainty": "detected",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-10"
+  ]
+ },
+ {
+  "id": "SH-PP01",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Budget and fee data held separately in HubSpot, Monday and pacing sheets; every change re-keyed in three places",
+  "quote": "I'll update it on Monday I'll make sure it's reflected in HubSpot and then the pacing sheet",
+  "ref": "~22:33 (L213)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP02",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Pacing sheets need manual account ID, name and budget input and often don't pull correctly",
+  "quote": "we have to manually input like the ad account ID and the name and the budgets. And then it's not always pulling correctly.",
+  "ref": "~20:46 (L198–L199)",
+  "problems": [
+   "P-01"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-02",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-01"
+  ]
+ },
+ {
+  "id": "SH-PP03",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "New month means duplicating formulas to a new tab by hand",
+  "quote": "It would be duplicating the formulas and whatnot to a new tab and then creating that one. And it's a lot of manual work.",
+  "ref": "~21:32 (L201)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP04",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Stale sheet triggers false over/underspend Slack alerts",
+  "quote": "the Slack message will say like, oh, it's under, overspending but I know that the new budget is increased so the overspend is not true",
+  "ref": "~22:33 (L213)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-01",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP05",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Meta account-level daily spend must be summed by hand from ad sets",
+  "quote": "if it's in ad set level you have to like go in and just like summarize just add everything up.",
+  "ref": "~30:53 (L292)",
+  "problems": [
+   "P-01"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-02",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP06",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "One e-com client needs four spreadsheets updated by hand before 11 am every Monday",
+  "quote": "And that's something that we manually do before 11 a.m. every single Monday.",
+  "ref": "~32:02 (L303)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP07",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Sales handover context not passed on or findable – client re-asked questions",
+  "quote": "So we're like re-asking questions. And ideally, it would be nice to find that information somewhere.",
+  "ref": "~14:56 (L133)",
+  "problems": [
+   "P-27"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-08",
+  "cluster": "C-08",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-08"
+  ]
+ },
+ {
+  "id": "SH-PP08",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Client documents historically on personal drives – hard to find on handover; no standard storage",
+  "quote": "I noticed that when I was being handed over clients to me, I was Just like trying to find documents.",
+  "ref": "~06:52 (L071)",
+  "problems": [
+   "P-23"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-17",
+  "cluster": "C-34",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-17"
+  ]
+ },
+ {
+  "id": "SH-PP09",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "24-hour email standard means comms crowd out strategy implementation as the portfolio grows",
+  "quote": "Based on the 24-hour turnaround time, I would have to focus on the comms, which then... would lead to not implementing the strategies.",
+  "ref": "~34:59 (L334–L335)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-28"
+  ]
+ },
+ {
+  "id": "SH-PP10",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Briefing optimisations to Michaela/Tati is slow and manual; the step she most wants sped up",
+  "quote": "If there's like a speedy way of like getting that brief to the girls.",
+  "ref": "~35:33 (L343)",
+  "problems": [
+   "P-36"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06",
+  "cluster": "C-27",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "need to standardies requests",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP11",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Tracking breaks (often unannounced client page/form changes) found only via manual performance checks, up to ~7 days later",
+  "quote": "it could potentially be that the client made changes on the landing page or website themselves and didn't tell us",
+  "ref": "~54:10 (L584)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-18",
+   "DS-29"
+  ]
+ },
+ {
+  "id": "SH-PP12",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Meeting-heavy weeks delay checks; tracking issue discovered too late, client unhappy",
+  "quote": "you might not have the chance to review it as quickly as you would have wanted to and then discovered the tracking issue too late",
+  "ref": "~56:00 (L610)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-29"
+  ]
+ },
+ {
+  "id": "SH-PP13",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Note-takers capture meetings but actions and talking points still extracted by hand; risk of missing client interests",
+  "quote": "we tried to add like note takers to meetings. But then it's like from those notes. taking the actions, conveying the",
+  "ref": "~40:37 (L396–L398)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP14",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No standard research prompt for strategy; AI use is ad hoc",
+  "quote": "It would be like now with Claude and stuff and generating report, but I don't have like a go-to prompt",
+  "ref": "~13:41 (L124)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP15",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Meta auto-enables new AI features; every build needs a manual toggle-off check",
+  "quote": "meta rolls out new things and it's like auto on and then you just have to be like super into the nitty gritty",
+  "ref": "~18:26 (L177)",
+  "problems": [
+   "P-37"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-28",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-29"
+  ]
+ },
+ {
+  "id": "SH-PP16",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Monthly report still needs manual commentary and a check that it shows the right month",
+  "quote": "It's just a manual task to update the last page of what we worked on and just ensuring that the data is reflected last month",
+  "ref": "~50:51 (L538)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SH-PP17",
+  "interview": "SH",
+  "person": "Sophie Hesseborn",
+  "role": "Senior Performance Marketing Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Meta builds are manual (no bulk import like Google/Bing editors)",
+  "quote": "The Google implementation is quicker because there's like this editor tool that can be used to like import an account build.",
+  "ref": "~25:43 (L239)",
+  "problems": [
+   "P-37"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-28",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SJ-PP01",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Briefs, prior client comms and feedback copied by hand from master sheet into four freelancer sheets – her magic-wand pick",
+  "quote": "I copy all of the briefs and the, and the, like feedback or like any like prior, um, like comms I've had with the...",
+  "ref": "~04:23 (L052)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "SJ-PP02",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No single intake or alert for new briefs – a brief can sit unseen for two days against a two-week freelancer turnaround",
+  "quote": "if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days",
+  "ref": "~05:53 (L067)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "SJ-PP03",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Briefs arrive after the week-1 deadline or change mid-month",
+  "quote": "It might be the client hasn't approved something. Maybe they want to change the strategy, yada, yada.",
+  "ref": "~05:53 (L067)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SJ-PP04",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Freelancer and edited versions copied by hand into client folders – risk of not finding the right version",
+  "quote": "we still need to differentiate between the freelancer version and the edited, like my edited version, which needs to live in obviously like our client folders",
+  "ref": "~08:38 (L092)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "SJ-PP05",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Content Manager is the middle person between freelancers and CMs/clients – context lost like 'telephone'",
+  "quote": "It's like telephone, it's like telephony sort of.",
+  "ref": "~17:20 (L173)",
+  "problems": [
+   "P-09"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-22",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SJ-PP06",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Incomplete briefs drive freelancer rework and longer editing",
+  "quote": "the editing at the end of it will be much quicker because they've got like a much more complete brief",
+  "ref": "~15:23 (L163)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "SJ-PP07",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Credible statistics and case studies for regulated industries (finance; dental compliance) hard to find; no shared research source",
+  "quote": "it's like has been annoying to find the information from legitimate websites and legitimate case studies that have been done.",
+  "ref": "~11:59 (L127)",
+  "problems": [
+   "P-28"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-04",
+  "cluster": "C-12",
+  "root_cause": "RC-03",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "SJ-PP08",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Master content sheet is a band-aid: status typed in two places; autofill and 20k KPI formatting broken",
+  "quote": "Yeah, they don't even auto-fill properly.",
+  "ref": "~22:55 (L263)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SJ-PP09",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Client notes and feedback don't carry forward to next month or freelancer trackers – knowledge sits with Sarah",
+  "quote": "There's notes in here, right? But they don't get, like, they don't get copied over to the next one.",
+  "ref": "~24:36 (L275)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04"
+  ]
+ },
+ {
+  "id": "SJ-PP10",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Work sorted by sheet age, not client importance (incl. within tier)",
+  "quote": "this is just sorted by age. You know, this is an arbitrary sorting. So really it should be like importance",
+  "ref": "~25:04 (L283–L284)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "SJ-PP11",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Volume grew ~40k → ~100k words/month; spreadsheet set-up won't scale",
+  "quote": "now we're like on 100,000 so I'm like very conscious like as we grow as we grow it's not going to be like sustainable",
+  "ref": "~06:53 (L069)",
+  "problems": [
+   "P-11"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-21",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "SJ-PP12",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Content questions routed through client managers lose detail; Sarah emails some clients directly",
+  "quote": "Like, so if you have a question, just ask the client.",
+  "ref": "~18:42 (L195)",
+  "problems": [
+   "P-09"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-22",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SJ-PP13",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Growth will bring junior writers needing editing and editor training – editing sits with two people",
+  "quote": "if we have junior staff members, we will need to edit their work. Plus, it would be good to train junior staff members up",
+  "ref": "~26:08 (L296)",
+  "problems": [
+   "P-09"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-22",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "SJ-PP14",
+  "interview": "SJ",
+  "person": "Sarah Julian",
+  "role": "Content Manager",
+  "source_type": "staff-raised",
+  "pain_point": "One client sends a steady stream of ad hoc content work",
+  "quote": "we have this one client that's always like giving like work all the time.",
+  "ref": "~15:15 (L162)",
+  "problems": [
+   "P-32"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-18",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "TG-PP01",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Claude lead-review skill rejects most leads (32 of ~1,000) and its accuracy is unknown",
+  "quote": "I'm not pretty sure if this is already accurate. So, really need your help with this.",
+  "ref": "~17:49–18:01 (L170–L171)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "TG-PP02",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Same skill, different answers: 54 passed Tonie's check, Karl approved 27",
+  "quote": "He only approved 27.",
+  "ref": "~22:51 (L227)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "TG-PP03",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Tier 1 (single-niche) sites for dynamic clients (BCR, Five Good Friends, Leaselab) are scarce and expensive",
+  "quote": "the struggle is that we hardly find leads for the dynamic clients.",
+  "ref": "~11:14 (L090)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12",
+   "DS-31"
+  ]
+ },
+ {
+  "id": "TG-PP04",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Matching approved domains to clients is manual and time-consuming",
+  "quote": "Yes, because it is also one of the time-consuming tasks.",
+  "ref": "~35:46 (L369)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "partly stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "TG-PP05",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Orders to external publishers copy-pasted into each publisher's own sheet; order numbers sometimes change",
+  "quote": "for the other publishers, since we have different sheets for them, so I copy and paste documents on the sheets",
+  "ref": "~04:25 (L031)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "TG-PP06",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Every published link re-keyed from publisher sheets into the master sheet and other sheets",
+  "quote": "And then every published links I've found here. I encode it to the master sheet.",
+  "ref": "~39:07–39:13 (L404–L405)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "TG-PP07",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Home-built master sheet → Monday.com sync unreliable; managers raised concerns",
+  "quote": "for the October, it added already, but I received a few concerns from the managers, from the handlers.",
+  "ref": "~41:14 (L439)",
+  "problems": [
+   "P-06",
+   "P-11",
+   "P-08"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-11",
+  "cluster": "C-23",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "TG-PP08",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Self-sourcing new qualifying sites is limited; AI search gives few results; supply leans on brokers",
+  "quote": "But this gives limited results.",
+  "ref": "~27:40 (L279)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "TG-PP09",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "inferred",
+  "pain_point": "Four home-built tools are undocumented, unreviewed and run by one person",
+  "quote": "but if there is really simpler way, and more accurate because yeah, I'm not really sure if these are really working well.",
+  "ref": "~42:29 (L452)",
+  "problems": [
+   "P-15"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-10",
+  "cluster": "C-32",
+  "root_cause": "RC-04",
+  "certainty": "detected",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-11"
+  ]
+ },
+ {
+  "id": "TG-PP10",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Duplicate domains for the same client were a problem; checker accuracy still uncertain",
+  "quote": "previously we really have trouble in having duplicated domains for the same client.",
+  "ref": "~32:04 (L330)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12"
+  ]
+ },
+ {
+  "id": "TG-PP11",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Link-status checker accuracy uncertain",
+  "quote": "if you could see other easier or more accurate way to checking it, really helpful.",
+  "ref": "~33:55 (L352)",
+  "problems": [
+   "P-07"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-07",
+  "cluster": "C-25",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-07"
+  ]
+ },
+ {
+  "id": "TG-PP12",
+  "interview": "TG",
+  "person": "Tonie Guevarra",
+  "role": "Outreach Specialist",
+  "source_type": "staff-raised",
+  "pain_point": "Publisher negotiation 1–2 weeks; some links take 1–3 weeks to publish",
+  "quote": "While some, it takes one, two, three weeks. It depends on the publisher.",
+  "ref": "~12:50 (L101)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP01",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Director's own channel load nearly doubled (≈10 → 18) on 4 clients since July with no extra resource; own portfolio squeezed",
+  "quote": "But then I went from managing probably like 10 channels to like 18.",
+  "ref": "~06:35 (L102)",
+  "problems": [
+   "P-21"
+  ],
+  "status": "partly_addressed",
+  "addressed_by": "DS-01;DS-05;DS-06;DS-30",
+  "cluster": "C-17",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP02",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Pacing covers only Google and Meta; LinkedIn, ChatGPT ads, Criteo, Pinterest, TikTok untracked; overspends have happened",
+  "quote": "We have had a couple of issues with pacing, etc. and accounts. … overspending and stuff",
+  "ref": "~42:27 (L517–L518)",
+  "problems": [
+   "P-02"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01",
+  "cluster": "C-03",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 5,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP03",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Platform recommendations ignore account strategy (location splits, client-agreed budgets); analysis means consolidating by hand",
+  "quote": "if you knew that the campaigns are separated by location … you need to understand a little bit more out of the strategy",
+  "ref": "~25:57 (L315)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP04",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Alerts flag a conversion drop but give no cause; diagnosis is manual",
+  "quote": "currently we have a notification … Like, oh, we've noticed like a decrease in conversions in the past like seven, 14 days",
+  "ref": "~59:22 (L780)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-27"
+  ]
+ },
+ {
+  "id": "WS-PP05",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Quarterly review presentations are repetitive and time-consuming",
+  "quote": "these presentations and stuff that we need to do every quarter, etc. Which is like a lot of time consuming",
+  "ref": "~58:46 (L771–L773)",
+  "problems": [
+   "P-05"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05",
+  "cluster": "C-06",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05"
+  ]
+ },
+ {
+  "id": "WS-PP06",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Internal sales-to-delivery onboarding call happens late (sometimes 10 min before client call) or the process is skipped, incl. by the founder",
+  "quote": "Sometimes that call happens like 10 minutes before the client call.",
+  "ref": "~20:43 (L251)",
+  "problems": [
+   "P-27"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-08",
+  "cluster": "C-08",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "ai brain should to provide this automatically with the call be required for clarifications rather than knowledge transfer",
+  "cited_in": [
+   "DS-08"
+  ]
+ },
+ {
+  "id": "WS-PP07",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Clients sold without delivery pre-requisites (live website, creatives) – two months' work with no website",
+  "quote": "They didn't even have a website ready. So we went two months off doing work for them",
+  "ref": "~54:49 (L710)",
+  "problems": [
+   "P-18"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-05;DS-08",
+  "cluster": "C-38",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05",
+   "DS-08",
+   "DS-18"
+  ]
+ },
+ {
+  "id": "WS-PP08",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "inferred",
+  "pain_point": "Client status passes verbally in WIPs and lives only in the Director's own WIP doc",
+  "quote": "But I don't go and make the same notes that I wrote on the performance [WIP] Doc somewhere else",
+  "ref": "~30:12 (L358)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "partly stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP09",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Team members still ask questions the Notion SOPs answer; people forget the SOPs",
+  "quote": "It's just that sometimes people Forget like I tried to remind everyone",
+  "ref": "~19:08 (L237)",
+  "problems": [
+   "P-13",
+   "P-12"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-15",
+  "cluster": "C-35",
+  "root_cause": "RC-08",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP10",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "All new-client strategy sign-off and oversight of every paid account funnels to the Director, who answers to the founder for any issue",
+  "quote": "Basically, as a performance director, kind of I need to oversee everything.",
+  "ref": "~18:11 (L222)",
+  "problems": [
+   "P-22"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-14",
+  "cluster": "C-36",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-13"
+  ]
+ },
+ {
+  "id": "WS-PP11",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Head of Performance left ~2 weeks ago; Director absorbed a Tier 1 account she hadn't been involved in",
+  "quote": "I have been polled [pulled] into a more tier one client and trying to get on top of it because I was not involved at all",
+  "ref": "~12:53 (L169)",
+  "problems": [
+   "P-41"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-37",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP12",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Forecasting used to take hours of manual data work; external shocks make history unreliable",
+  "quote": "I used to take like hours doing this and Gemini did it in like 15 minutes",
+  "ref": "~38:18 (L462)",
+  "problems": [
+   "P-04"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04;DS-25",
+  "cluster": "C-05",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-25",
+   "DS-33"
+  ]
+ },
+ {
+  "id": "WS-PP13",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "inferred",
+  "pain_point": "AI shortcuts (Gemini forecasting, AI quarterly reviews) are personal workflows, not shared with the team",
+  "quote": "I guess I started getting Google as well, or like Gemini, yeah, to help me out with forecasting.",
+  "ref": "~37:37 (L456)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "detected",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-05",
+   "DS-25"
+  ]
+ },
+ {
+  "id": "WS-PP14",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "No in-house capacity for landing pages or video; landing pages ~$1,500 each are a barrier; in-house creative loops were slow",
+  "quote": "We don't have the capacity. And like we usually sell them to the clients as well.",
+  "ref": "~53:31 (L686)",
+  "problems": [
+   "P-38"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-18;DS-21",
+  "cluster": "C-29",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-18",
+   "DS-21"
+  ]
+ },
+ {
+  "id": "WS-PP15",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "inferred",
+  "pain_point": "Underperformance tickets described as a HubSpot flow though tasks moved to Monday.com; Director doesn't log her own tasks",
+  "quote": "If I'm doing it myself, I don't usually add it to that as well.",
+  "ref": "~31:47 (L383)",
+  "problems": [
+   "P-16"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-06;DS-30",
+  "cluster": "C-30",
+  "root_cause": "RC-08",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "WS-PP16",
+  "interview": "WS",
+  "person": "Wendlley Simoes",
+  "role": "Performance Marketing Director",
+  "source_type": "staff-raised",
+  "pain_point": "Google RSA previews show only 2–3 headlines, so ad copy approvals need explaining",
+  "quote": "With Google, It's a bit more complicated because you have so many headlines.",
+  "ref": "~57:16 (L749)",
+  "problems": [
+   "P-30"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-14",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP01",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Claude has no per-client memory: every brief is checked by hand against strategy, USPs, client conversations and other pages (cannibalisation risk)",
+  "quote": "There's things that might not, that that cloud [Claude] project won't pick up on.",
+  "ref": "~22:58 (L243)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP02",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Content briefing takes most of the early month; first thing to break with more clients (+10 clients ≈ +50 pages)",
+  "quote": "especially early months, the content briefing is pretty much all of my day or say a few days to a week.",
+  "ref": "~13:00 (L117)",
+  "problems": [
+   "P-33"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-20",
+  "root_cause": "RC-01",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "ZC-PP03",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Briefs copied from Claude into Word and re-formatted by hand",
+  "quote": "copying it from Claude into Word, making sure that all the headings and stuff are in tabs and properly structured.",
+  "ref": "~40:37 (L430)",
+  "problems": [
+   "P-33"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-03",
+  "cluster": "C-20",
+  "root_cause": "RC-01",
+  "certainty": "partly stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-03"
+  ]
+ },
+ {
+  "id": "ZC-PP04",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No repository of client tone of voice, preferences or feedback – kept in a personal Google Doc and pasted into briefs",
+  "quote": "I'm finding myself just like, writing, like scribbling down on a Google Doc, oh, the client's asked for this",
+  "ref": "~42:38 (L450)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-04"
+  ]
+ },
+ {
+  "id": "ZC-PP05",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Monday performance check often skipped when busy; dips and wins surface at month-end",
+  "quote": "I find that these can sometimes be an afterthought because you know you're busy",
+  "ref": "~27:39 (L285)",
+  "problems": [
+   "P-03"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-01;DS-22;DS-23;DS-27;DS-29",
+  "cluster": "C-04",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-22"
+  ]
+ },
+ {
+  "id": "ZC-PP06",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Client content approval averages ~1 week and needs chasing; results stall until published",
+  "quote": "I think on average, it probably takes like a week on average. So it's quite a long time to get it done.",
+  "ref": "~41:13 (L435)",
+  "problems": [
+   "P-10"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-11",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP07",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Getting access from new clients (tradies, car dealers) takes a long time",
+  "quote": "trying to get the access of those kind of guys, it can take a long time.",
+  "ref": "~08:17 (L066)",
+  "problems": [
+   "P-17",
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-09",
+  "root_cause": "RC-07",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-08"
+  ]
+ },
+ {
+  "id": "ZC-PP08",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Onboarding peaks (five in one month) overload the manager because month 1 is over-serviced",
+  "quote": "One month specifically, I had onboarding five clients in the same month.",
+  "ref": "~20:36 (L218)",
+  "problems": [
+   "P-20"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-09",
+  "cluster": "C-10",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP09",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Seasonal content planned too late to catch peaks (~2-month lead time)",
+  "quote": "we were just getting to those seasonal peaks too late.",
+  "ref": "~30:44 (L322)",
+  "problems": [
+   "P-24"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-16;DS-32;DS-33",
+  "cluster": "C-15",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-16"
+  ]
+ },
+ {
+  "id": "ZC-PP10",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No visibility on whether paid links stay live; no account lead re-checks old links",
+  "quote": "Yeah, we have no visibility on whether links stay live or not.",
+  "ref": "~36:35 (L373)",
+  "problems": [
+   "P-07"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-07",
+  "cluster": "C-25",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 4,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-07"
+  ]
+ },
+ {
+  "id": "ZC-PP11",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Regulated clients (dental, financial services) – content rejected once for breaching guidelines; briefs take longer",
+  "quote": "we sent over a piece of content and they were like, look, we can't publish this. It doesn't align with the guidelines.",
+  "ref": "~38:11 (L397)",
+  "problems": [
+   "P-28"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02;DS-04",
+  "cluster": "C-12",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": [
+   "DS-02"
+  ]
+ },
+ {
+  "id": "ZC-PP12",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Unclear line between SEO hours and dev work – a CRO mock-up led to a request to swap SEO hours for dev hours",
+  "quote": "can we swap this seo hours to dev hours to get this get this implemented",
+  "ref": "~10:38 (L087)",
+  "problems": [
+   "P-35"
+  ],
+  "status": "parked",
+  "addressed_by": "",
+  "cluster": "C-26",
+  "root_cause": "RC-05",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP13",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Meeting transcripts not used; client run sheets kept by hand",
+  "quote": "get those meeting notes and transcriptions kind of just like to populate a month, like a run sheet, just like date, time, this is what we talked about.",
+  "ref": "~34:13 (L354)",
+  "problems": [
+   "P-14"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-04",
+  "cluster": "C-07",
+  "root_cause": "RC-03",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP14",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Claude keyword research can go 'AWOL' in niche industries – output triple-checked",
+  "quote": "I definitely find that double checking it is really important when it's quite a niche industry.",
+  "ref": "~15:41 (L150)",
+  "problems": [
+   "P-40"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-02",
+  "cluster": "C-33",
+  "root_cause": "RC-04",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": []
+ },
+ {
+  "id": "ZC-PP15",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "No monitoring of competitors' new pages or site changes",
+  "quote": "just kind of see what they're doing and have they created a new page or whatever.",
+  "ref": "~32:40 (L343)",
+  "problems": [
+   "P-24"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-16;DS-32;DS-33",
+  "cluster": "C-15",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-16",
+   "DS-32"
+  ]
+ },
+ {
+  "id": "ZC-PP16",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "Unlinked client brand mentions aren't monitored or turned into links",
+  "quote": "one thing that we're currently not doing that I think we could would be automated scraping for brand mentions.",
+  "ref": "~34:41 (L363)",
+  "problems": [
+   "P-34"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-12;DS-31",
+  "cluster": "C-24",
+  "root_cause": "RC-06",
+  "certainty": "stated",
+  "severity": 3,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-12",
+   "DS-31"
+  ]
+ },
+ {
+  "id": "ZC-PP17",
+  "interview": "ZC",
+  "person": "Zach Chamberlain",
+  "role": "SEO Manager",
+  "source_type": "staff-raised",
+  "pain_point": "News-driven content ideas depend on the manager spotting the story",
+  "quote": "the surcharge updates in Australia was headline news. So I managed to fast track that and get it in the pipeline as soon as possible.",
+  "ref": "~31:43 (L333)",
+  "problems": [
+   "P-24"
+  ],
+  "status": "addressed",
+  "addressed_by": "DS-16;DS-32;DS-33",
+  "cluster": "C-15",
+  "root_cause": "RC-02",
+  "certainty": "stated",
+  "severity": 2,
+  "austin_flag": "Agree",
+  "austin_note": "",
+  "cited_in": [
+   "DS-16",
+   "DS-33"
+  ]
+ }
+]
