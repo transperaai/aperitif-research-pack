@@ -14,7 +14,9 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["LS-PP05", "ZC-PP05"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$3.5K–$9.8K"
+value: "17–39 h/mo · A$88K–202K capacity (≈ 2–5 SEO clients)"
+value_time_h_month: [17, 39]
+value_capacity_aud_per_year: [88000, 202000]
 build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
 monthly: "A$1,250/month + tokens ~US$8–35"
 notion_section: "SEO: automated Monday client performance check"
@@ -52,7 +54,7 @@ notion_section: "SEO: automated Monday client performance check"
 > | --- | --- | --- |
 > | **SEO performance bundle** – Monday performance check, drop and anomaly alerts, mid-month wins (shared GA4 / Search Console / Ahrefs pipeline) | **A\$8,500** | **A\$1,250/month** maintenance + AI tokens \~US\$8–35/month |
 
-**Team:** SEO. **Your decision (9 Nov):** a separate solution for the SEO team ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
+**Team:** SEO. **Decision (9 Nov):** a separate solution for the SEO team ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
 
 ## How it works
 
@@ -95,7 +97,7 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 | --- | --- |
 | SEO managers | 4 (per org chart; \~17 clients each) |
 | MRR managed per manager today | \~A\$55.6K (A\$222,374 live SEO MRR across 68 clients ÷ 4) |
-| Time freed per manager | \~5–11 h/month ≈ 4–8% of \~130 productive hours (assumption) |
+| Time freed per manager | \~4–10 h/month ≈ 3–8% of \~130 productive hours (assumption) |
 | **Capacity unlocked across the SEO team** | **\~A\$7.3K–16.8K MRR ≈ A\$88K–202K a year** (≈ 2–5 more SEO clients at the \~A\$3,270 average) |
 
 Capacity to grow into without hiring, not guaranteed revenue.

@@ -14,7 +14,8 @@ problems_also_helped: []
 problems_related_only: ["P-06"]
 pain_points_cited: ["KO-PP16", "KZ-PP10", "MP-PP13", "TG-PP11", "ZC-PP10"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$10K–$25K"
+value: "Up to A$10K–16K/yr recovered; client results protected"
+value_recovered_aud_per_year_up_to: [10000, 16000]
 build_cost: "A$2,250"
 monthly: "A$350/month + tokens ~US$1–10 (+ optional proxy ~US$0–50)"
 notion_section: "Link watchdog agent: monitors every paid link"
@@ -53,7 +54,7 @@ notion_section: "Link watchdog agent: monitors every paid link"
 > | --- | --- | --- |
 > | **Link watchdog agent** – weekly checks of every paid link, drop alerts, templated publisher emails, publisher reliability score | **A\$2,250** | **A\$350/month** maintenance + AI tokens \~US\$1–10/month (+ optional proxy for blocked sites \~US\$0–50) |
 
-**Your decision (9 Nov):** an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider **link-building workflow CRM**. Tool options: **Jev AI** (no output tokens needed, so cheap to run) or another automation method.
+**Decision (9 Nov):** an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider **link-building workflow CRM**. Tool options: **Jev AI** (no output tokens needed, so cheap to run) or another automation method.
 
 ## How it works (draft)
 
@@ -67,9 +68,9 @@ notion_section: "Link watchdog agent: monitors every paid link"
 
 ## Opportunities it covers
 
-- **[O-07](../opportunities/README.md#o-07)** Automated live-link checks with publisher replacement claims – rank 7, priority 80, quick win, effort M (5–10 h/month plus avoided loss, assumed)
+- **[O-07](../opportunities/README.md#o-07)** Automated live-link checks with publisher replacement claims – rank 7, priority 80, quick win, effort M
 - Connects to **[O-18](../opportunities/README.md#o-18)** One link record (order template, auto-sync, invoice run), which is the CRM side – now its own solution, [DS-11](ds-11-link-building-workflow-crm.md) (link-building CRM).
-- Your earlier idea: a *link monitor* (offered at kick-off).
+- Austin's earlier idea: a *link monitor* (offered at kick-off).
 
 ## Problems it fixes and the evidence
 

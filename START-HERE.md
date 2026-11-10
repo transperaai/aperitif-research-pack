@@ -90,6 +90,7 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 | Question | Go to |
 | --- | --- |
 | What is recommended and why? | [solutions/](solutions/README.md) – one file per DS |
+| What is each solution worth (time, capacity, DLER)? | [VALUE-BY-BUNDLE.md](VALUE-BY-BUNDLE.md) |
 | What did people actually say? | [pain-points/](pain-points/README.md), then the [transcripts](interviews/README.md) |
 | What is broken, and what did Austin decide about it? | [problems/](problems/README.md) |
 | Which ideas were dropped, parked or not recommended? | [decisions/not-recommending.md](decisions/not-recommending.md), [opportunities/](opportunities/README.md) |

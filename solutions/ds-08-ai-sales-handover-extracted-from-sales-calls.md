@@ -14,7 +14,7 @@ problems_also_helped: ["P-20"]
 problems_related_only: []
 pain_points_cited: ["KO-PP01", "MC-PP10", "MC-PP11", "MC-PP13", "MP-PP10", "SH-PP07", "WS-PP06", "WS-PP07", "ZC-PP07"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP01 (interviewer-raised)", "MP-PP10 (interviewer-raised)"]
-coi_per_year: "$2K–$10K"
+value: "New standard: at least an hour of prepared information before kick-off"
 build_cost: "A$1,250"
 monthly: "A$300/month + tokens ~US$1–10"
 notion_section: "AI sales handover: extracted from sales calls, confirmed by delivery"
@@ -54,7 +54,7 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 > | --- | --- | --- |
 > | **AI sales handover + new-client auto set-up** (handover from sales calls, delivery confirm/deny, new client brain entry, Drive/Monday/Slack set-up) | **A\$1,250** | **A\$300/month** maintenance + AI tokens \~US\$1–10/month |
 
-**Your decision (9 Nov):** **no hard blocks** on deals. Instead, the handover is **extracted by AI from the sales call transcripts**, the sales rep is shown **questions to fill any gaps**, the result **loads into the AI client brain ([DS-04](ds-04-ai-client-brain.md))**, and the delivery departments get a **notification to review and confirm or deny – with reasons**.
+**Decision (9 Nov):** **no hard blocks** on deals. Instead, the handover is **extracted by AI from the sales call transcripts**, the sales rep is shown **questions to fill any gaps**, the result **loads into the AI client brain ([DS-04](ds-04-ai-client-brain.md))**, and the delivery departments get a **notification to review and confirm or deny – with reasons**.
 
 ## How it works (draft)
 
@@ -68,13 +68,13 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 
 ## Opportunities it covers
 
-- **[O-08](../opportunities/README.md#o-08)** Sales-to-delivery gate: handover fields, owner, access checklist – rank 8, priority 80, quick win (2–10 h/month, assumed) – **the handover part, rebuilt without hard gates**.
+- **[O-08](../opportunities/README.md#o-08)** Sales-to-delivery gate: handover fields, owner, access checklist – rank 8, priority 80, quick win – **the handover part, rebuilt without hard gates**.
 - Related: [DS-04](ds-04-ai-client-brain.md)'s "handover report in under three clicks" uses the same brain for client-to-client and offboarding handovers.
 
 ## Problems it fixes and the evidence
 
-- [Client handovers (sales to delivery, offboarding) have no structured pack or trigger](../problems/p-27-client-handovers-have-no-structured-pack-or.md) – High. 3 staff, plus the founder's description of the current handover ([KO-PP01](../pain-points/README.md#ko-pp01), raised by you). *"So sometimes I'm going in blind. So I haven't been, I haven't talked to Joe on what has been communicated on the sales side"* – a performance team member ([MC-PP11](../pain-points/README.md#mc-pp11)). *"So we're like re-asking questions."* – a senior performance manager ([SH-PP07](../pain-points/README.md#sh-pp07)). The internal handover call sometimes happens *"like 10 minutes before the client call"* or is skipped ([WS-PP06](../pain-points/README.md#ws-pp06)).
-- [Sales commits to work delivery can't profitably do](../problems/p-18-sales-commits-to-work-delivery-can-t.md) – clients sold without delivery prerequisites: *"They didn't even have a website ready. So we went two months off doing work for them"* – the performance director ([WS-PP07](../pain-points/README.md#ws-pp07)). Delivery's confirm/deny step surfaces this before kick-off. *Bias note: you raised over-commit first ([MP-PP10](../pain-points/README.md#mp-pp10)).*
+- [Client handovers (sales to delivery, offboarding) have no structured pack or trigger](../problems/p-27-client-handovers-have-no-structured-pack-or.md) – High. 3 staff, plus the founder's description of the current handover ([KO-PP01](../pain-points/README.md#ko-pp01), raised by Austin). *"So sometimes I'm going in blind. So I haven't been, I haven't talked to Joe on what has been communicated on the sales side"* – a performance team member ([MC-PP11](../pain-points/README.md#mc-pp11)). *"So we're like re-asking questions."* – a senior performance manager ([SH-PP07](../pain-points/README.md#sh-pp07)). The internal handover call sometimes happens *"like 10 minutes before the client call"* or is skipped ([WS-PP06](../pain-points/README.md#ws-pp06)).
+- [Sales commits to work delivery can't profitably do](../problems/p-18-sales-commits-to-work-delivery-can-t.md) – clients sold without delivery prerequisites: *"They didn't even have a website ready. So we went two months off doing work for them"* – the performance director ([WS-PP07](../pain-points/README.md#ws-pp07)). Delivery's confirm/deny step surfaces this before kick-off. *Bias note: Austin raised over-commit first ([MP-PP10](../pain-points/README.md#mp-pp10)).*
 - Also helps: onboarding delays from access and missing information ([C-09](../synthesis/clusters-and-root-causes.md#c-09) – [ZC-PP07](../pain-points/README.md#zc-pp07), [MC-PP10](../pain-points/README.md#mc-pp10)), since access needs and prerequisites are captured at handover.
 
 ## Future state (draft)
@@ -109,7 +109,6 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Hours saved assumed.
 - Sales calls are recorded with prospect consent and the transcripts are reachable (the founder already relies on them).
 - The sales lead wasn't interviewed, so the sales side of the evidence is leadership's view.
 - Depends on [DS-04](ds-04-ai-client-brain.md) (client brain) and the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)).

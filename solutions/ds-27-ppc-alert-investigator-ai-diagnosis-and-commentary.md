@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["DM-PP01", "WS-PP04"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$3K–$18K"
+value: "Counted in DS-01 – removes the \"what's going on\" time when an alert fires"
 build_cost: "A$5,000"
 monthly: "A$750/month + tokens ~US$15–60"
 notion_section: "PPC: alert investigator – AI diagnosis and commentary"
@@ -65,16 +65,16 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 >
 > *Needs [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (Adpulse) and [DS-04](ds-04-ai-client-brain.md) (client brain) in place.*
 
-**Team:** PPC. **Your decision (9 Nov):** when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
+**Team:** PPC. **Decision (9 Nov):** when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
 
 ## Is it already covered?
 
-**Partly.** [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (pacing + alerting) **alerts** on thresholds, and Bïrch-style SaaS runs **rules** (pause, scale, notify) – neither diagnoses why something happened. [O-12](../opportunities/README.md#o-12) included a "draft diagnosis" step that [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) didn't carry over. So this is a separate layer on top of whichever alerting tool you choose in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md).
+**Partly.** [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (pacing + alerting) **alerts** on thresholds, and Bïrch-style SaaS runs **rules** (pause, scale, notify) – neither diagnoses why something happened. [O-12](../opportunities/README.md#o-12) included a "draft diagnosis" step that [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) didn't carry over. So this is a separate layer on top of [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s alerting (Adpulse).
 
 ## How it works (draft)
 
 1. A [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) alert (e.g. CPA spike, conversion drop, spend anomaly) triggers the investigator.
-2. It pulls the context: change history, search terms, auction insights, budget and bid changes, landing-page and tracking status, GA4/CRM data.
+2. It pulls the alert's metrics from Adpulse and context from the client brain ([DS-04](ds-04-ai-client-brain.md)).
 3. It writes a short commentary: what changed, the most likely causes ranked, and what to check first.
 4. The manager gets the alert and the diagnosis together in Slack.
 
@@ -82,7 +82,7 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 
 - [No proactive performance alerting – problems found at month-end](../problems/p-03-no-proactive-performance-alerting-problems-found-at.md) – the diagnosis part:
   - *"currently we have a notification … Like, oh, we've noticed like a decrease in conversions in the past like seven, 14 days"* – Wendlley, Performance Marketing Director: alerts give no cause, and diagnosis is manual ([WS-PP04](../pain-points/README.md#ws-pp04), stated).
-  - *"Even though it's a Google Ads related question, I'll be jumping onto the CRM, GA4 and everything to better understand."* – Diya Manoj, Performance Marketing Manager ([DM-PP01](../pain-points/README.md#dm-pp01), stated; est. 3.5–19 h/month).
+  - *"Even though it's a Google Ads related question, I'll be jumping onto the CRM, GA4 and everything to better understand."* – Diya Manoj, Performance Marketing Manager ([DM-PP01](../pain-points/README.md#dm-pp01), stated).
 - Source: [O-12](../opportunities/README.md#o-12)'s "draft diagnosis" step (exceptions sent with change history, search terms and auction data).
 
 ## Future state
@@ -99,7 +99,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 ## Value (revised with Austin, 10 Nov)
 
-> **Gets the account manager straight to the fix.** When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 15–20 minutes working out what's going on.
+> **Gets the account manager straight to the fix.** When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 20–30 minutes working out what's going on.
 
 **1. Time saved and 2. Capacity unlocked:** counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md). The time spent working out what's going on in an account is part of the weekly session already valued there, so it isn't counted again. DS-27 is what makes that time disappear when an alert fires – the diagnosis arrives with it.
 
@@ -110,7 +110,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 **Goals:** more MRR managed per person · good performance · good customer service
 
-*Inputs from Austin (10 Nov): \~20 min to work out what's going on and fix it today.*
+*Inputs from Austin (10 Nov): \~20–30 min to work out what's going on and fix it today.*
 
 ## Indicative build cost and OpEx
 
@@ -118,4 +118,4 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Needs API access to ad accounts, GA4 and the CRM.
+- Needs [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (Adpulse) and [DS-04](ds-04-ai-client-brain.md) live.

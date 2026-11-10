@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["SB-PP09", "SH-PP08"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$1K–$4K"
+value: "Nothing lost when someone leaves"
 build_cost: "Free"
 monthly: "none"
 notion_section: "Client files and logins in company-owned shared locations"
@@ -54,7 +54,7 @@ notion_section: "Client files and logins in company-owned shared locations"
 >
 > *Staff time to move their files is separate.*
 
-**Your decision (9 Nov):** adopt [O-30](../opportunities/README.md#o-30), **connected to the AI client brains ([DS-04](ds-04-ai-client-brain.md))** – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
+**Decision (9 Nov):** adopt [O-30](../opportunities/README.md#o-30), **connected to the AI client brains ([DS-04](ds-04-ai-client-brain.md))** – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
 
 ## What changes
 
@@ -65,7 +65,7 @@ notion_section: "Client files and logins in company-owned shared locations"
 
 ## Opportunities it covers
 
-- **[O-30](../opportunities/README.md#o-30)** Client files and logins in company-owned shared locations – rank 30, quick win, effort S (1–4 h/month, assumed)
+- **[O-30](../opportunities/README.md#o-30)** Client files and logins in company-owned shared locations – rank 30, quick win, effort S
 
 ## Problems it fixes and the evidence
 

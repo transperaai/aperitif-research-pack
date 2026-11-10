@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["WS-PP12", "ZC-PP17"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "Timely ideas from news and regulation"
 build_cost: "A$1,000"
 monthly: "A$300/month + tokens ~US$10–40 + news API ~US$5–50"
 notion_section: "Macro trend tracker per client"
@@ -40,7 +40,7 @@ notion_section: "Macro trend tracker per client"
 | Build cost | A\$1,000 |
 | Monthly | A\$300/month + tokens \~US\$10–40 + news API \~US\$5–50 |
 
-**Team:** SEO, content and paid strategists. **Your decision (9 Nov):** split out of [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
+**Team:** SEO, content and paid strategists. **Decision (9 Nov):** split out of [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
 
 ## Vision
 
@@ -85,4 +85,4 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Your earlier idea plus Zach's suggestion; one stated example ([ZC-PP17](../pain-points/README.md#zc-pp17)).
+- Austin's earlier idea plus Zach's suggestion; one stated example ([ZC-PP17](../pain-points/README.md#zc-pp17)).

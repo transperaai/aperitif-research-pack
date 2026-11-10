@@ -14,7 +14,9 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["LS-PP15"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "7–11 h/mo · A$35K–58K capacity (≈ 1–1.5 SEO clients)"
+value_time_h_month: [7, 11]
+value_capacity_aud_per_year: [35000, 58000]
 build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
 monthly: "A$1,250/month + tokens ~US$8–35"
 notion_section: "SEO: drop and anomaly alerts"
@@ -46,7 +48,7 @@ notion_section: "SEO: drop and anomaly alerts"
 
 > **Pricing:** part of the **SEO performance bundle** – see [DS-22](ds-22-seo-automated-monday-client-performance-check.md) (A\$8,500 build, A\$1,250/month for [DS-22](ds-22-seo-automated-monday-client-performance-check.md) + DS-23 + [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md)).
 
-**Team:** SEO. **Your decision (9 Nov):** separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
+**Team:** SEO. **Decision (9 Nov):** separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
 
 ## How it works
 
@@ -80,7 +82,7 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 
 | Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Working out why a client dropped (collating data, reading market signals) | 68 clients × \~0.4 drops a month × 15–25 min saved (20–30 min → \~5 min) | **\~7–11 h** (\~3.5–6 h per manager) |
+| Working out why a client dropped (collating data, reading market signals) | 68 clients × \~0.4 drops a month × 15–25 min saved (20–30 min → \~5 min) | **\~7–11 h** (\~2–3 h per manager) |
 
 **2. Capacity and revenue unlocked:** \~7–11 h ÷ \~130 productive hours × \~A\$55.6K MRR per manager → **\~A\$2.9K–4.9K MRR across the SEO team ≈ A\$35K–58K a year of capacity** (≈ 1–1.5 more SEO clients). Drops found early also protect retention.
 

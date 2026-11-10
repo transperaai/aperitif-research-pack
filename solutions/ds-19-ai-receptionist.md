@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: ["P-42"]
 pain_points_cited: ["KO-PP17", "KO-PP18"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "No missed leads; callers reach the right person"
 build_cost: "A$100"
 monthly: "A$250/month management + Aircall A$150 PAYG min (A$0.44/min) or A$370/1,000 min"
 notion_section: "AI receptionist"
@@ -45,7 +45,7 @@ notion_section: "AI receptionist"
 
 > **Just a call director.** An inbound new lead goes to Joe; an existing client goes to their account manager. Nothing more complex than that.
 >
-> **Options for Joe (your call, 9 Nov):**
+> **Options for Joe (Austin's call, 9 Nov):**
 >
 > - **Recommended: Aircall's AI receptionist add-on** – about **A\$370/month** for 1,000 minutes; nothing to build or maintain.
 > - **Alternative: Transpera builds a simple call director** – cheaper to run, but a build to maintain (needs a feasibility study before pricing).
@@ -59,7 +59,7 @@ notion_section: "AI receptionist"
 > | **Recommended – Aircall AI receptionist add-on** (call director: new lead → Joe, existing client → account manager) | **A\$100** set-up | **A\$250/month** management + Aircall: A\$150/month minimum pay-as-you-go (A\$0.44/min) or A\$370/month for 1,000 minutes |
 > | **Custom call director** | **Needs a deeper feasibility study** before pricing | – |
 
-**Your decision (9 Nov):** add the AI receptionist (your earlier idea). There's no merged opportunity and **little direct interview evidence** – it goes in as your recommendation.
+**Decision (9 Nov):** add the AI receptionist (Austin's earlier idea). There's no merged opportunity and **little direct interview evidence** – it goes in as Austin's recommendation.
 
 ## How it works (draft)
 
@@ -69,7 +69,7 @@ notion_section: "AI receptionist"
 
 ## Problems it fixes and the evidence
 
-- **Lead handling (indirect):** only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget ([KO-PP18](../pain-points/README.md#ko-pp18), leadership). Sales still depends on the founder ([KO-PP17](../pain-points/README.md#ko-pp17)). An AI receptionist would qualify and book leads quickly. *Note: you rejected the related problem "Growth depends on the founder and inbound leads".*
+- **Lead handling (indirect):** only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget ([KO-PP18](../pain-points/README.md#ko-pp18), leadership). Sales still depends on the founder ([KO-PP17](../pain-points/README.md#ko-pp17)). An AI receptionist would qualify and book leads quickly. *Note: Austin rejected the related problem "Growth depends on the founder and inbound leads".*
 - **Existing tool:** the context pack says the Aircall phone system reportedly already has an AI receptionist *(unverified)*.
 
 ## Future state
@@ -97,8 +97,7 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Your suggestion; weak interview evidence.
-- Aircall's existing AI receptionist to be checked first – it may already do this.
+- Austin's suggestion; weak interview evidence.
 
 ## Decided (9 Nov)
 
@@ -106,6 +105,6 @@ See this solution's green **Pricing & priority** box above.
 - **Phone only.**
 - ~~Uses Aircall's built-in AI receptionist~~ **Corrected (audit, 9 Nov):** Aircall's AI receptionist is a **paid add-on** (about A\$370/month for 1,000 minutes), not built in.
 
-## Open questions for you
+## Open questions
 
-- **Build vs buy, and is it worth it?** Austin to research whether a custom AI receptionist is cheaper or better than Aircall's add-on, and whether call volumes justify either.
+- Open: whether call volumes justify the add-on.

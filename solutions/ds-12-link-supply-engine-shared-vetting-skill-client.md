@@ -14,7 +14,9 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KZ-PP06", "KZ-PP07", "LS-PP12", "TG-PP01", "TG-PP02", "TG-PP03", "TG-PP04", "TG-PP08", "TG-PP10", "ZC-PP16"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$5K–$19K"
+value: "6.5–15 h/mo · ~3–8 more links a month"
+value_time_h_month: [6.5, 15]
+value_extra_links_month: [3, 8]
 build_cost: "A$500"
 monthly: "absorbed into link-building CRM maintenance (DS-11)"
 notion_section: "Link supply engine: shared vetting, client matching, brand mentions"
@@ -54,7 +56,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 > | --- | --- | --- |
 > | **Link supply engine – Claude skill** (vetting + client matching), results passed into the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md)) through a **custom MCP** | **A\$500** | Absorbed into the link-building CRM maintenance ([DS-11](ds-11-link-building-workflow-crm.md)); runs on Claude seats |
 
-**Your decision (9 Nov):** adopt [O-20](../opportunities/README.md#o-20) as written. It works as the **sourcing stage of the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md))**: domains are vetted and matched before they become orders.
+**Decision (9 Nov):** adopt [O-20](../opportunities/README.md#o-20) as written. It works as the **sourcing stage of the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md))**: domains are vetted and matched before they become orders.
 
 ## How it works
 
@@ -66,7 +68,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 
 ## Opportunities it covers
 
-- **[O-20](../opportunities/README.md#o-20)** Widen link supply: shared vetting skill, client matching, mentions – rank 20, strategic, effort M (5–20 h/month, assumed)
+- **[O-20](../opportunities/README.md#o-20)** Widen link supply: shared vetting skill, client matching, mentions – rank 20, strategic, effort M
 
 ## Problems it fixes and the evidence
 

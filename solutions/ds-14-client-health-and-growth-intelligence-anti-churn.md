@@ -14,7 +14,8 @@ problems_also_helped: []
 problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP06", "KO-PP20", "KO-PP21", "LS-PP08", "LS-PP09", "LS-PP15", "MP-PP16"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP06 (inferred)", "LS-PP09 (interviewer-raised)"]
-coi_per_year: "~$22K–$44K prevented churn (ASSUMED) + $1K–$8K staff time"
+value: "A$90K–120K/yr retained (3–4 clients saved)"
+value_retained_aud_per_year: [90000, 120000]
 build_cost: "A$6,500"
 monthly: "A$500/month (for now) + tokens ~US$40–150"
 notion_section: "Client health & growth intelligence (anti-churn + expansion)"
@@ -29,7 +30,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | account managers and leadership *(inferred)* |
 | Status | Decided – churn basis to confirm; priced |
-| Source type | mixed – Austin addition: contact personality profiling and self-learning; churn COI on Austin's assumed \$5K retainer, 3%/yr, >=61 clients |
+| Source type | mixed – Austin addition: contact personality profiling and self-learning |
 | Opportunities | [O-31](../opportunities/README.md#o-31) (full), [O-23](../opportunities/README.md#o-23) (opportunities/upsell part), [O-21](../opportunities/README.md#o-21) (Part B (merged from DS-13)) |
 | Earlier ideas | – |
 | Fixes | [P-31 Churn risk is spotted late and account teams report rather than advise](../problems/p-31-churn-risk-is-spotted-late-and-account.md); [P-22 Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) (Part B rules (from DS-13)) |
@@ -55,7 +56,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 >
 > *Needs [DS-04](ds-04-ai-client-brain.md) live for 2–3 months first; privacy check on profiling client contacts before launch.*
 
-**Your decision (9 Nov):** a **proactive system** that tracks every client's words and sentiment, builds a picture of each contact's **personality type**, watches for **signals of churn** and **signals of room to cross-sell or expand**, and alerts the right people. It learns from outcomes, so it **gets smarter over time** – the aim is to minimise churn and maximise account growth.
+**Decision (9 Nov):** a **proactive system** that tracks every client's words and sentiment, builds a picture of each contact's **personality type**, watches for **signals of churn** and **signals of room to cross-sell or expand**, and alerts the right people. It learns from outcomes, so it **gets smarter over time** – the aim is to minimise churn and maximise account growth.
 
 ## How it works (draft)
 
@@ -71,12 +72,12 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 
 - **[O-31](../opportunities/README.md#o-31)** Weekly churn-risk signal list per client – rank 31, strategic, effort M (1–8 h/month; protects retention revenue) – extended from a weekly list to continuous alerts with AI.
 - **[O-23](../opportunities/README.md#o-23)** "Problem plus recommendation" rule – the **opportunities / upsell** part (rank 23).
-- Your notes: anti-churn and growth AI tracking and alerting.
+- Austin's notes: anti-churn and growth AI tracking and alerting.
 
 ## Problems it fixes and the evidence
 
 - [Churn risk is spotted late and account teams report rather than advise](../problems/p-31-churn-risk-is-spotted-late-and-account.md) – leadership + 1 staff. *"you can just recognise it based on their behaviour. Asking to see the contract, I haven't seen you in a while, new marketing manager coming in"* – Head of Client Services ([KO-PP06](../pain-points/README.md#ko-pp06), *problem inferred from her description*). A **six-year client was lost** after poor feedback ([MP-PP16](../pain-points/README.md#mp-pp16)). *"Some go out of the blue."* – SEO director ([LS-PP15](../pain-points/README.md#ls-pp15)).
-- **Missed growth:** upsell is occasional – *"a few upsells, but not much. That's an opportunity."* ([LS-PP09](../pain-points/README.md#ls-pp09), raised by you); teams describe metrics rather than bringing a recommendation ([KO-PP20](../pain-points/README.md#ko-pp20)); busy teams risk *"just going through the motions"* ([LS-PP08](../pain-points/README.md#ls-pp08)).
+- **Missed growth:** upsell is occasional – *"a few upsells, but not much. That's an opportunity."* ([LS-PP09](../pain-points/README.md#ls-pp09), raised by Austin); teams describe metrics rather than bringing a recommendation ([KO-PP20](../pain-points/README.md#ko-pp20)); busy teams risk *"just going through the motions"* ([LS-PP08](../pain-points/README.md#ls-pp08)).
 - [Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) – she keeps them partly as her early-warning signal ([KO-PP21](../pain-points/README.md#ko-pp21)); DS-14 gives everyone that signal.
 
 ## Future state (draft)
@@ -134,8 +135,5 @@ See this solution's green **Pricing & priority** box above.
 
 - **Who gets alerts:** the account owner, the **department lead and Julia at every risk level**. Julia's alerts can be **toggled on and off**; she wants them on for now. ([DS-13](ds-13-merged-into-ds-14.md)'s aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
 - **Churn basis:** the client board (10 archived clients ended 31 Aug–17 Oct 2026, average \~A\$2,500); 3–4 saved a year is Austin's estimate – confirm the churn rate with Joe.
-
-## Open questions for you
-
 - **Personality profiles:** client contacts only – not prospects.
-- **Merged with [DS-13](ds-13-merged-into-ds-14.md) (your call, 9 Nov):** the escalation and delegation rules ([O-21](../opportunities/README.md#o-21)) are Part B of this solution – see the [DS-13](ds-13-merged-into-ds-14.md) section above for the rules, evidence and their own cost of inactivity (\$5K–\$15K a year, leadership time).
+- **Merged with [DS-13](ds-13-merged-into-ds-14.md) (Austin's call, 9 Nov):** the escalation and delegation rules ([O-21](../opportunities/README.md#o-21)) are Part B of this solution – see the [DS-13](ds-13-merged-into-ds-14.md) section above for the rules and evidence.

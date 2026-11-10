@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KO-PP20", "LS-PP16", "SH-PP09"]
 pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
-coi_per_year: "Not quantified separately"
+value: "Consistent, faster client updates, saved to the brain"
 build_cost: "A$1,000"
 monthly: "A$200/month + tokens ~US$10–40"
 notion_section: "Client comms assistant: monthly updates and expectation setting"
@@ -52,7 +52,7 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 > | --- | --- | --- |
 > | **Client comms assistant** – monthly updates and expectation-setting notes, approved by the manager, saved to the client brain | **A\$1,000** | **A\$200/month** maintenance + AI tokens \~US\$10–40/month |
 
-**Team:** account managers (PPC and SEO). **Your decision (9 Nov):** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
+**Team:** account managers (PPC and SEO). **Decision (9 Nov):** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
 
 ## How it works (draft)
 
@@ -65,7 +65,7 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 
 - **Comms crowd out strategy:** *"Based on the 24-hour turnaround time, I would have to focus on the comms, which then... would lead to not implementing the strategies."* – Sophie Hesseborn, Senior Performance Marketing Manager ([SH-PP09](../pain-points/README.md#sh-pp09), stated).
 - [Churn risk is spotted late and account teams report rather than advise](../problems/p-31-churn-risk-is-spotted-late-and-account.md): *"the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy"* – Julia, Head of Client Services ([KO-PP20](../pain-points/README.md#ko-pp20)). Clients may misread seasonal dips ([LS-PP16](../pain-points/README.md#ls-pp16), *raised by the interviewer*).
-- Related: [O-23](../opportunities/README.md#o-23)'s "problem plus recommendation" rule (which you kept dropped as a rule) – this tool does it in the drafts instead.
+- Related: [O-23](../opportunities/README.md#o-23)'s "problem plus recommendation" rule (which stays dropped as a rule) – this tool does it in the drafts instead.
 
 ## Future state
 
@@ -94,4 +94,4 @@ See this solution's green **Pricing & priority** box above.
 ## Assumptions
 
 - Managers approve every message before it goes; nothing is sent to clients automatically without review.
-- Your suggestion, supported by [SH-PP09](../pain-points/README.md#sh-pp09) and [KO-PP20](../pain-points/README.md#ko-pp20).
+- Austin's suggestion, supported by [SH-PP09](../pain-points/README.md#sh-pp09) and [KO-PP20](../pain-points/README.md#ko-pp20).

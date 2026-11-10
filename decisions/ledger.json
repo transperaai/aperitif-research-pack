@@ -5631,14 +5631,14 @@
    "title": "Modern ad budget pacing + performance alerting",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – tool choice (build vs buy) and cost TBC",
+   "austin_call": "Decided – Adpulse recommended; priced",
    "status": "addressed",
    "addressed_by": "DS-01",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-01;O-11;O-15;O-10;O-12;EI-13;EI-15",
    "links_down": "",
    "evidence_ids": "MP-PP01;MP-PP02;SD-PP04;SH-PP02",
-   "notes": "Fixes: P-02;P-01;P-03 | Helps: P-21;P-17 | COI/yr: $15K–$38K"
+   "notes": "Fixes: P-02;P-01;P-03 | Helps: P-21;P-17 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5647,14 +5647,14 @@
    "title": "AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – includes the AI data rule and company Claude seats; cost TBC. <b>DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it</b>",
+   "austin_call": "Decided – includes the AI data rule and company Claude seats; priced. <b>DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it</b>",
    "status": "addressed",
    "addressed_by": "DS-02",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-02;O-33;EI-08",
    "links_down": "",
    "evidence_ids": "DM-PP12;LS-PP13;MC-PP19;MC-PP20;SB-PP12;SJ-PP07;ZC-PP11",
-   "notes": "Fixes: P-40;P-12;P-28;P-44 | Decision to include the AI data rule and company seats is Austin's | COI/yr: $6K–$35K"
+   "notes": "Fixes: P-40;P-12;P-28;P-44 | Decision to include the AI data rule and company seats is Austin's | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5663,14 +5663,14 @@
    "title": "Automated AI brief drafts → Monday.com tasks",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-03",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-03;O-25",
    "links_down": "",
    "evidence_ids": "HT-PP01;HT-PP02;LS-PP03;SJ-PP01;SJ-PP02;SJ-PP04;SJ-PP06;SJ-PP10;SJ-PP11;SJ-PP14;ZC-PP02;ZC-PP03",
-   "notes": "Fixes: P-33 | Helps: P-11;P-09;P-32 | COI/yr: $10K–$29K"
+   "notes": "Fixes: P-33 | Helps: P-11;P-09;P-32 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5679,14 +5679,14 @@
    "title": "AI client brain (per client) – under the AI Business Brain banner",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-04",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-04;O-13;O-27;O-26;EI-07;EI-12;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "KO-PP05;MC-PP11;MC-PP14;MP-PP16;MP-PP20;SB-PP03;SD-PP05;SJ-PP09;ZC-PP04",
-   "notes": "Fixes: P-14;P-04;P-27;P-28 | Helps: P-22;P-47 | Design choices (all clients, all sources, custom app, visible client page) are Austin decisions | COI/yr: $14K–$43K | Interviewer/detected PPs cited: MP-PP20"
+   "notes": "Fixes: P-14;P-04;P-27;P-28 | Helps: P-22;P-47 | Design choices (all clients, all sources, custom app, visible client page) are Austin decisions | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: MP-PP20"
   },
   {
    "layer": "solution",
@@ -5695,14 +5695,14 @@
    "title": "Automated deck generator: quarterly + 6-month reviews and proposals",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-05",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-05;O-22;O-14;EI-16",
    "links_down": "",
    "evidence_ids": "KZ-PP18;KZ-PP21;LS-PP02;MP-PP10;MP-PP11;MP-PP12;WS-PP05;WS-PP07;WS-PP13",
-   "notes": "Fixes: P-05;P-19;P-18 | Helps: P-21;P-40;P-25 | COI/yr: $9K–$22K | Interviewer/detected PPs cited: MP-PP10;WS-PP13"
+   "notes": "Fixes: P-05;P-19;P-18 | Helps: P-21;P-40;P-25 | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: MP-PP10;WS-PP13"
   },
   {
    "layer": "solution",
@@ -5711,14 +5711,14 @@
    "title": "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com",
    "person": "",
    "source": "mixed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-06",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-06;O-29",
    "links_down": "",
    "evidence_ids": "DM-PP09;LS-PP14;MC-PP04;MC-PP05;MP-PP05;MP-PP06;SB-PP01;SB-PP02;SB-PP03;SB-PP04;SB-PP15",
-   "notes": "Fixes: P-16;P-36 | Helps: P-21;P-32 | Austin addition: DM and email sweeping (\"Roomba\"); one interview (SB-PP04) confirms DMs as a request route | COI/yr: $9K–$27K | Interviewer/detected PPs cited: MP-PP06"
+   "notes": "Fixes: P-16;P-36 | Helps: P-21;P-32 | Austin addition: DM and email sweeping (\"Roomba\"); one interview (SB-PP04) confirms DMs as a request route | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: MP-PP06"
   },
   {
    "layer": "solution",
@@ -5727,14 +5727,14 @@
    "title": "Link watchdog agent: monitors every paid link",
    "person": "",
    "source": "mixed",
-   "austin_call": "Decided – tool choice and cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-07",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-07;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "KO-PP16;KZ-PP10;MP-PP13;TG-PP11;ZC-PP10",
-   "notes": "Fixes: P-07 | Austin addition: Jev AI as tool option; publisher emails that learn from sent edits | COI/yr: $10K–$25K"
+   "notes": "Fixes: P-07 | Austin addition: Jev AI as tool option; publisher emails that learn from sent edits | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5743,14 +5743,14 @@
    "title": "AI sales handover: extracted from sales calls, confirmed by delivery",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-08",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-08",
    "links_down": "",
    "evidence_ids": "KO-PP01;MC-PP10;MC-PP11;MC-PP13;MP-PP10;SH-PP07;WS-PP06;WS-PP07;ZC-PP07",
-   "notes": "Fixes: P-27;P-18 | Helps: P-20 | No-hard-block design is Austin decision | COI/yr: $2K–$10K | Interviewer/detected PPs cited: KO-PP01;MP-PP10"
+   "notes": "Fixes: P-27;P-18 | Helps: P-20 | No-hard-block design is Austin decision | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: KO-PP01;MP-PP10"
   },
   {
    "layer": "solution",
@@ -5759,14 +5759,14 @@
    "title": "AI-prefilled onboarding audit and Master SEO Document",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided (as written) – cost TBC",
+   "austin_call": "Decided (as written) – priced",
    "status": "addressed",
    "addressed_by": "DS-09",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-14;EI-01",
    "links_down": "",
    "evidence_ids": "KZ-PP01;KZ-PP02;KZ-PP03;KZ-PP04;KZ-PP21;SD-PP11",
-   "notes": "Fixes: P-20 | COI/yr: $5K–$28K"
+   "notes": "Fixes: P-20 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5775,14 +5775,14 @@
    "title": "Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-10",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-16",
    "links_down": "",
    "evidence_ids": "SB-PP10;SB-PP11;SD-PP19",
-   "notes": "Fixes: P-15 | Helps: P-39 | COI/yr: $1K–$4K | Interviewer/detected PPs cited: SD-PP19"
+   "notes": "Fixes: P-15 | Helps: P-39 | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: SD-PP19"
   },
   {
    "layer": "solution",
@@ -5791,14 +5791,14 @@
    "title": "Link-building workflow CRM (orders, publishers, links, invoicing and payments)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – build vs buy and cost TBC",
+   "austin_call": "Decided – custom build; priced",
    "status": "addressed",
    "addressed_by": "DS-11",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-18",
    "links_down": "",
    "evidence_ids": "KO-PP16;KZ-PP08;LS-PP12;MP-PP14;MP-PP15;TG-PP05;TG-PP06;TG-PP07;TG-PP09",
-   "notes": "Fixes: P-06;P-08 | CRM-first is Austin decision | COI/yr: $6K–$25K | Interviewer/detected PPs cited: TG-PP09"
+   "notes": "Fixes: P-06;P-08 | CRM-first is Austin decision | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: TG-PP09"
   },
   {
    "layer": "solution",
@@ -5807,14 +5807,14 @@
    "title": "Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided (as written) – cost TBC",
+   "austin_call": "Decided (as written) – priced",
    "status": "addressed",
    "addressed_by": "DS-12",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-20;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "KZ-PP06;KZ-PP07;LS-PP12;TG-PP01;TG-PP02;TG-PP03;TG-PP04;TG-PP08;TG-PP10;ZC-PP16",
-   "notes": "Fixes: P-34 | COI/yr: $5K–$19K"
+   "notes": "Fixes: P-34 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5830,7 +5830,7 @@
    "links_up": "O-21",
    "links_down": "",
    "evidence_ids": "KO-PP02;KO-PP03;KO-PP05;MP-PP08;MP-PP09;WS-PP10",
-   "notes": "Fixes: P-22 | Merged into DS-14 (Austin, 9 Nov) | COI/yr: $5K–$15K"
+   "notes": "Fixes: P-22 | Merged into DS-14 (Austin, 9 Nov) | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5839,14 +5839,14 @@
    "title": "Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)",
    "person": "",
    "source": "mixed",
-   "austin_call": "Decided – churn basis to confirm; cost TBC",
+   "austin_call": "Decided – churn basis to confirm; priced",
    "status": "addressed",
    "addressed_by": "DS-14",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-31;O-23;O-21",
    "links_down": "",
    "evidence_ids": "KO-PP06;KO-PP20;KO-PP21;LS-PP08;LS-PP09;LS-PP15;MP-PP16",
-   "notes": "Fixes: P-31;P-22 | Austin addition: contact personality profiling and self-learning; churn COI on Austin's assumed $5K retainer, 3%/yr, >=61 clients | COI/yr: ~$22K–$44K prevented churn (ASSUMED) + $1K–$8K staff time | Interviewer/detected PPs cited: KO-PP06;LS-PP09"
+   "notes": "Fixes: P-31;P-22 | Austin addition: contact personality profiling and self-learning | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: KO-PP06;LS-PP09"
   },
   {
    "layer": "solution",
@@ -5855,14 +5855,14 @@
    "title": "AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)",
    "person": "",
    "source": "mixed",
-   "austin_call": "Decided – framing; cost TBC",
+   "austin_call": "Decided – framing; priced",
    "status": "addressed",
    "addressed_by": "DS-15",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-27;EI-02;EI-20",
    "links_down": "",
    "evidence_ids": "KO-PP10;KO-PP14;KO-PP15;MP-PP04;MP-PP06;MP-PP17;MP-PP20",
-   "notes": "Fixes: P-12;P-13;P-25;P-47;P-48 | Austin addition: umbrella framing grouping DS-02, DS-04, DS-10, DS-14 | COI/yr: ~$44K–$134K combined (DS-02+DS-04+DS-10+DS-14, before overlap); company layer alone $1K–$4K | Interviewer/detected PPs cited: MP-PP06;MP-PP17;MP-PP20"
+   "notes": "Fixes: P-12;P-13;P-25;P-47;P-48 | Austin addition: umbrella framing grouping DS-02, DS-04, DS-10, DS-14 | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: MP-PP06;MP-PP17;MP-PP20"
   },
   {
    "layer": "solution",
@@ -5871,14 +5871,14 @@
    "title": "Seasonal & trending content radar per client (split 9 Nov)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-16",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-28;EI-19;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "KZ-PP19;KZ-PP20;ZC-PP09;ZC-PP15;ZC-PP17",
-   "notes": "Fixes: P-24 | Seasonal & trending part only since the 9 Nov split (competitor spy is DS-32, macro tracker DS-33) | COI/yr: $2K–$7K"
+   "notes": "Fixes: P-24 | Seasonal & trending part only since the 9 Nov split (competitor spy is DS-32, macro tracker DS-33) | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5887,14 +5887,14 @@
    "title": "Client files and logins in company-owned shared locations, linked to each client brain",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided (as written) – cost TBC",
+   "austin_call": "Decided (as written) – priced",
    "status": "addressed",
    "addressed_by": "DS-17",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-30",
    "links_down": "",
    "evidence_ids": "SB-PP09;SH-PP08",
-   "notes": "Fixes: P-23 | COI/yr: $1K–$4K"
+   "notes": "Fixes: P-23 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5903,14 +5903,14 @@
    "title": "Landing page generator (ad landing pages, Aperitif-hosted)",
    "person": "",
    "source": "Austin addition",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-18",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "EI-09",
    "links_down": "",
    "evidence_ids": "KO-PP25;SH-PP11;WS-PP07;WS-PP14",
-   "notes": "Fixes: P-38 | Earlier idea, no merged opportunity; problem evidence KO-PP25, WS-PP14 | COI/yr: Not quantified"
+   "notes": "Fixes: P-38 | Earlier idea, no merged opportunity; problem evidence KO-PP25, WS-PP14 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5926,7 +5926,7 @@
    "links_up": "EI-03",
    "links_down": "",
    "evidence_ids": "KO-PP17;KO-PP18",
-   "notes": "Fixes: none | Earlier idea; weak evidence (KO-PP17, KO-PP18 indirect); no problem fixed; decided 9 Nov (call director; Aircall add-on recommended) | COI/yr: Not quantified"
+   "notes": "Fixes: none | Earlier idea; weak evidence (KO-PP17, KO-PP18 indirect); no problem fixed; decided 9 Nov (call director; Aircall add-on recommended) | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5935,14 +5935,14 @@
    "title": "New-client dossier agent (at signing → client brain)",
    "person": "",
    "source": "Austin addition",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-20",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "EI-17",
    "links_down": "",
    "evidence_ids": "KO-PP22",
-   "notes": "Fixes: none | Helps: P-20 | Earlier idea; one leadership quote (KO-PP22) | COI/yr: Not quantified"
+   "notes": "Fixes: none | Helps: P-20 | Earlier idea; one leadership quote (KO-PP22) | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5958,7 +5958,7 @@
    "links_up": "EI-04",
    "links_down": "",
    "evidence_ids": "MC-PP15;MP-PP22;SD-PP12;WS-PP14",
-   "notes": "Fixes: P-38 | Earlier idea; tool list from web research Nov 2026, not interviews | COI/yr: Not quantified"
+   "notes": "Fixes: P-38 | Earlier idea; tool list from web research Nov 2026, not interviews | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5967,14 +5967,14 @@
    "title": "SEO: automated Monday client performance check (GA4, Search Console, Ahrefs)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-22",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-12;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "LS-PP05;ZC-PP05",
-   "notes": "Fixes: P-03 | Also rests on Zach's written AI suggestions doc (WS-ZC-01) | COI/yr: $3.5K–$9.8K"
+   "notes": "Fixes: P-03 | Also rests on Zach's written AI suggestions doc (WS-ZC-01) | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5983,14 +5983,14 @@
    "title": "SEO: drop and anomaly alerts",
    "person": "",
    "source": "mixed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-23",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-12;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "LS-PP15",
-   "notes": "Fixes: P-03 | Mainly Zach's written AI suggestions doc (WS-ZC-01) plus LS-PP15 | COI/yr: Not quantified"
+   "notes": "Fixes: P-03 | Mainly Zach's written AI suggestions doc (WS-ZC-01) plus LS-PP15 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -5999,14 +5999,14 @@
    "title": "SEO: mid-month wins sent to clients",
    "person": "",
    "source": "mixed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-24",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-12;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "LS-PP08",
-   "notes": "Fixes: P-31 | Mainly Zach's written AI suggestions doc (WS-ZC-01) plus ZC-O03 and LS-PP08 | COI/yr: Not quantified"
+   "notes": "Fixes: P-31 | Mainly Zach's written AI suggestions doc (WS-ZC-01) plus ZC-O03 and LS-PP08 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -6015,14 +6015,14 @@
    "title": "PPC: performance forecasting tool",
    "person": "",
    "source": "Austin addition",
-   "austin_call": "Added – cost TBC",
+   "austin_call": "Added – priced",
    "status": "addressed",
    "addressed_by": "DS-25",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-02",
    "links_down": "",
    "evidence_ids": "WS-PP12;WS-PP13",
-   "notes": "Fixes: P-04 | Austin – new; evidence is one person (WS-PP12, WS-PP13 detected) | COI/yr: Not separately quantified | Interviewer/detected PPs cited: WS-PP13"
+   "notes": "Fixes: P-04 | Austin – new; evidence is one person (WS-PP12, WS-PP13 detected) | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: WS-PP13"
   },
   {
    "layer": "solution",
@@ -6031,14 +6031,14 @@
    "title": "SEO: performance forecasting tool",
    "person": "",
    "source": "Austin addition",
-   "austin_call": "Added – cost TBC; weak SEO evidence",
+   "austin_call": "Added – priced; weak SEO evidence",
    "status": "addressed",
    "addressed_by": "DS-26",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "",
    "links_down": "",
    "evidence_ids": "LS-PP16",
-   "notes": "Fixes: none | Austin – new; no SEO forecasting pain point raised (LS-PP16 is interviewer-raised) | COI/yr: Not quantified | Interviewer/detected PPs cited: LS-PP16"
+   "notes": "Fixes: none | Austin – new; no SEO forecasting pain point raised (LS-PP16 is interviewer-raised) | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: LS-PP16"
   },
   {
    "layer": "solution",
@@ -6047,14 +6047,14 @@
    "title": "PPC: alert investigator – AI diagnosis and commentary on flagged activity",
    "person": "",
    "source": "mixed",
-   "austin_call": "Added – cost TBC",
+   "austin_call": "Added – priced",
    "status": "addressed",
    "addressed_by": "DS-27",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-12",
    "links_down": "",
    "evidence_ids": "DM-PP01;WS-PP04",
-   "notes": "Fixes: P-03 | Austin – new on top of O-12's draft-diagnosis step; WS-PP04, DM-PP01 | COI/yr: $3K–$18K"
+   "notes": "Fixes: P-03 | Austin – new on top of O-12's draft-diagnosis step; WS-PP04, DM-PP01 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -6063,14 +6063,14 @@
    "title": "Client comms assistant: monthly updates and expectation setting",
    "person": "",
    "source": "mixed",
-   "austin_call": "Added – cost TBC",
+   "austin_call": "Added – priced",
    "status": "addressed",
    "addressed_by": "DS-28",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "",
    "links_down": "",
    "evidence_ids": "KO-PP20;LS-PP16;SH-PP09",
-   "notes": "Fixes: P-31 | Austin – new; SH-PP09, KO-PP20 (O-23 related) | COI/yr: Not quantified separately | Interviewer/detected PPs cited: LS-PP16"
+   "notes": "Fixes: P-31 | Austin – new; SH-PP09, KO-PP20 (O-23 related) | Value: see VALUE-BY-BUNDLE.md | Interviewer/detected PPs cited: LS-PP16"
   },
   {
    "layer": "solution",
@@ -6079,14 +6079,14 @@
    "title": "PPC: automated Monday client performance check (Google Ads, Meta and other channels)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Added – cost TBC",
+   "austin_call": "Added – priced",
    "status": "addressed",
    "addressed_by": "DS-29",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-12;EI-15",
    "links_down": "",
    "evidence_ids": "DM-PP02;MC-PP08;MC-PP18;SH-PP11;SH-PP12;SH-PP15",
-   "notes": "Fixes: P-03 | DS-22's PPC twin; DM-PP02, MC-PP08, MC-PP18, SH-PP11/12/15 | COI/yr: $8K–$20K"
+   "notes": "Fixes: P-03 | DS-22's PPC twin; DM-PP02, MC-PP08, MC-PP18, SH-PP11/12/15 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -6095,14 +6095,14 @@
    "title": "Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals",
    "person": "",
    "source": "mixed",
-   "austin_call": "Added – cost TBC",
+   "austin_call": "Added – priced",
    "status": "addressed",
    "addressed_by": "DS-30",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-29",
    "links_down": "",
    "evidence_ids": "MC-PP03;SB-PP01;SB-PP02",
-   "notes": "Fixes: P-16 | Helps: P-21 | Split from DS-06 (Austin, 9 Nov); Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief | COI/yr: $6K–$11K"
+   "notes": "Fixes: P-16 | Helps: P-21 | Split from DS-06 (Austin, 9 Nov); Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -6111,14 +6111,14 @@
    "title": "Proactive brand-mention tracking for backlinks (split from DS-12)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Added – cost TBC",
+   "austin_call": "Added – priced",
    "status": "addressed",
    "addressed_by": "DS-31",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-20;EI-21;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "TG-PP03;ZC-PP16",
-   "notes": "Fixes: P-34 | Split from DS-12 (9 Nov); ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01) | COI/yr: Not quantified"
+   "notes": "Fixes: P-34 | Split from DS-12 (9 Nov); ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01) | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -6127,14 +6127,14 @@
    "title": "Competitor spy per client (split from DS-16)",
    "person": "",
    "source": "evidence-backed",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-32",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "O-28;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "ZC-PP15",
-   "notes": "Fixes: P-24 | Split from DS-16 (9 Nov); one stated pain point (ZC-PP15) plus Zach's written doc | COI/yr: Not quantified separately"
+   "notes": "Fixes: P-24 | Split from DS-16 (9 Nov); one stated pain point (ZC-PP15) plus Zach's written doc | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "solution",
@@ -6143,14 +6143,14 @@
    "title": "Macro trend tracker per client (split from DS-16)",
    "person": "",
    "source": "Austin addition",
-   "austin_call": "Decided – cost TBC",
+   "austin_call": "Decided – priced",
    "status": "addressed",
    "addressed_by": "DS-33",
    "reason": "In the final set (Austin, 9 Nov)",
    "links_up": "EI-11;WS-ZC-01",
    "links_down": "",
    "evidence_ids": "WS-PP12;ZC-PP17",
-   "notes": "Fixes: P-24 | Split from DS-16 (9 Nov); Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12 | COI/yr: Not quantified"
+   "notes": "Fixes: P-24 | Split from DS-16 (9 Nov); Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12 | Value: see VALUE-BY-BUNDLE.md"
   },
   {
    "layer": "written_source",

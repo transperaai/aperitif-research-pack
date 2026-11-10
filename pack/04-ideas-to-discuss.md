@@ -19,7 +19,7 @@ Package Aperitif's paid media know-how into fixed, repeatable offers: a **done-f
 ### Why it might be worth a conversation
 From the interviews and the context pack:
 - **Leadership wants to diversify.** *"diversifying product offering a little bit more, particularly in light of the impact AI is having on our kind of bread-and-butter offerings"* – Julia (KO-PP23).
-- **Paid media has grown fast.** From 18 clients and ~$30K monthly ad budget (Dec 2022) to 61 clients and ~$788K (Nov 2026) – context pack.
+- **Paid media has grown fast.** From 18 clients (Dec 2022, context pack) to 67 live PPC clients (client board, 10 Nov).
 - **The sales pipeline is mostly inbound and still needs Joe.** *"sales to be consistent and coming in month to month without so much of my involvement"* – Joe (KO-PP17). About one raw lead in ten closes, and many have the wrong budget (KO-PP18).
 - **Lead quality is falling across lead-gen clients** (KO-PP19). A lower-touch offer could suit prospects too small for a full retainer. *This is an assumption, not something anyone said.*
 

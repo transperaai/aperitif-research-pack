@@ -14,7 +14,7 @@ problems_also_helped: ["P-20"]
 problems_related_only: []
 pain_points_cited: ["KO-PP22"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "New standard: every new client researched before kick-off"
 build_cost: "A$200"
 monthly: "absorbed into DS-04 maintenance"
 notion_section: "New-client dossier agent"
@@ -52,7 +52,7 @@ notion_section: "New-client dossier agent"
 > | --- | --- | --- |
 > | **New-client dossier** – Claude, connected through an MCP to the AI client brain ([DS-04](ds-04-ai-client-brain.md)) | **A\$200** | Absorbed into the client brain maintenance ([DS-04](ds-04-ai-client-brain.md)); runs on Claude seats |
 
-**Your decision (9 Nov):** option B – when a client **signs**, an agent researches them and loads a dossier into the **client brain ([DS-04](ds-04-ai-client-brain.md))**. (Prospect research before the sales call is not included.)
+**Decision (9 Nov):** option B – when a client **signs**, an agent researches them and loads a dossier into the **client brain ([DS-04](ds-04-ai-client-brain.md))**. (Prospect research before the sales call is not included.)
 
 ## How it works (draft)
 
@@ -64,7 +64,7 @@ notion_section: "New-client dossier agent"
 ## Problems it fixes and the evidence
 
 - **New-client research done by hand:** *"if we bring on a new client, I do want to stalk them across the internet"* – Head of Client Services ([KO-PP22](../pain-points/README.md#ko-pp22)). Ownership, private equity and LinkedIn profiles are looked up manually; there's no client dossier. Linked problem: [Onboarding stalls on client access and disrupts BAU](../problems/p-20-onboarding-stalls-on-client-access-and-disrupts.md).
-- You offered your own client-research agent for this at kick-off.
+- Austin offered his own client-research agent for this at kick-off.
 
 ## Future state
 
@@ -91,7 +91,7 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Your suggestion, supported by one leadership quote.
+- Austin's suggestion, supported by one leadership quote.
 - Uses public information only; LinkedIn data access to be confirmed.
 
 ## Decided (9 Nov)

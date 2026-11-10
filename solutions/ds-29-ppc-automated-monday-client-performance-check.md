@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["DM-PP02", "MC-PP08", "MC-PP18", "SH-PP11", "SH-PP12", "SH-PP15"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$8K–$20K"
+value: "New standard: clients hear from Aperitif before they ask (trust, retention)"
 build_cost: "A$1,500"
 monthly: "A$500/month + tokens ~US$5–25"
 notion_section: "PPC: automated Monday client performance check"
@@ -54,7 +54,7 @@ notion_section: "PPC: automated Monday client performance check"
 > | --- | --- | --- |
 > | **PPC Monday performance check – with Adpulse** (Adpulse dashboards and monitors + a Claude summary per client to Slack/Monday and the brain) | **A\$1,500** | **A\$500/month** maintenance + AI tokens \~US\$5–25/month (Adpulse licence counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)) |
 
-**Team:** PPC. **Your decision (9 Nov):** the PPC version of [DS-22](ds-22-seo-automated-monday-client-performance-check.md) – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
+**Team:** PPC. **Decision (9 Nov):** the PPC version of [DS-22](ds-22-seo-automated-monday-client-performance-check.md) – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
 
 ## How it is different from DS-01 and DS-27
 
@@ -72,7 +72,7 @@ notion_section: "PPC: automated Monday client performance check"
 ## Problems it fixes and the evidence
 
 - [No proactive performance alerting – problems found at month-end](../problems/p-03-no-proactive-performance-alerting-problems-found-at.md) – the weekly-check part:
-  - *"the one Tina is sending it out is just budget basing… I look for each of the accounts, which actually takes time."* – Diya Manoj, Performance Marketing Manager ([DM-PP02](../pain-points/README.md#dm-pp02), stated; est. 8.8–20.9 h/month for one manager).
+  - *"the one Tina is sending it out is just budget basing… I look for each of the accounts, which actually takes time."* – Diya Manoj, Performance Marketing Manager ([DM-PP02](../pain-points/README.md#dm-pp02), stated).
   - *"I wanted Tina to report the performance of the account."* – Michaela Cruz, Performance Marketing Specialist ([MC-PP08](../pain-points/README.md#mc-pp08), stated).
   - Tracking breaks found only in manual checks, up to \~7 days later ([SH-PP11](../pain-points/README.md#sh-pp11), Sophie Hesseborn); meeting-heavy weeks delay checks ([SH-PP12](../pain-points/README.md#sh-pp12)).
   - *"I haven't checked Google Merchant Center for like three weeks now."* – Michaela Cruz ([MC-PP18](../pain-points/README.md#mc-pp18), stated).

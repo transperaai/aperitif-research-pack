@@ -14,7 +14,7 @@ problems_also_helped: ["P-21"]
 problems_related_only: []
 pain_points_cited: ["MC-PP03", "SB-PP01", "SB-PP02"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$6K–$11K"
+value: "Focus each morning"
 build_cost: "A$2,000"
 monthly: "A$500/month + tokens ~US$20–70"
 notion_section: "Daily priorities assistant"
@@ -40,7 +40,7 @@ notion_section: "Daily priorities assistant"
 | Build cost | A\$2,000 |
 | Monthly | A\$500/month + tokens \~US\$20–70 |
 
-**Team:** everyone. **Your decision (9 Nov):** split out of [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md) as its own solution.
+**Team:** everyone. **Decision (9 Nov):** split out of [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md) as its own solution.
 
 ## Vision
 
@@ -73,7 +73,7 @@ notion_section: "Daily priorities assistant"
   - About an hour a day on email triage ([SB-PP02](../pain-points/README.md#sb-pp02), stated: *"In a day, an hour."*).
   - Priority field often blank, no forward view of the week ([MC-PP03](../pain-points/README.md#mc-pp03), Michaela Cruz).
 - Also helps: [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) (partly – the right work surfaces first).
-- Source: [O-29](../opportunities/README.md#o-29) – AI inbox triage and daily brief across Gmail, Slack and Monday (6–11 h/month for one person, assumed).
+- Source: [O-29](../opportunities/README.md#o-29) – AI inbox triage and daily brief across Gmail, Slack and Monday.
 
 ## Future state
 

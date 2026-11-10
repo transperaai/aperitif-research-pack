@@ -118,11 +118,12 @@ You are reading a structured evidence base. Use it like this.
 **Rules:**
 
 - Cite IDs for every claim (e.g. "DS-06 fixes P-16; evidence SB-PP04, stated").
-- Do not treat assumptions as facts. Hours saved, COI figures and churn numbers are marked *assumed* or *estimated*; the churn basis is Austin's assumption. Build prices are in each solution file; value figures are in VALUE-BY-BUNDLE.md with a basis label on every number – do not invent any.
+- Do not treat assumptions as facts. Value figures (time saved, capacity unlocked, retained, recovered) come only from VALUE-BY-BUNDLE.md, which is authoritative and has a basis label on every number – do not invent any, and never add time and capacity together. Any cost-of-inactivity (COI) figure elsewhere is superseded. Build prices are in each solution file.
 - Austin's calls are decisions, not evidence. A *Park* problem stays parked even if a solution "also helps".
 - Where sources conflict, check `synthesis/contradictions.md` and `method/gaps-and-issues.md` before stating a fact.
 - Merge outputs (Stage 1–3, 6 Nov) predate Austin's decisions; the ledger and solution files are current.
+- In the synthesis and merge documents (`synthesis/`, `method/merge-prompt.md`), **COI means conflict of interest** (Transpera could build the fix, or Austin has a link to it) – not cost of inactivity.
 
 ## Regenerating
 
-This repo is generated. Do not edit files by hand; change the sources and run `python3 /home/claude/deliverable/build_repo.py` (add `--no-ledger` to skip the ledger rebuild). Reasons Austin marked internal on his page are withheld; the suggested wording for Joe is kept. Source hashes for the current build are in [data/build-info.json](data/build-info.json).
+This repo is generated. Do not edit files by hand; change the sources and re-run the build script (`build_repo.py`, kept with the sources, not in this repo). Reasons Austin marked internal on his page are withheld; the suggested wording for Joe is kept. Source hashes for the current build are in [data/build-info.json](data/build-info.json).

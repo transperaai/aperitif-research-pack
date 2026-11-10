@@ -1,4 +1,4 @@
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89 as of 2026-11-10T07:20:03.494Z:
+Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89 as of 2026-11-10T08:23:49.672Z:
 <page url="https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89" icon="💧">
 <ancestor-path></ancestor-path>
 <properties>
@@ -7,9 +7,9 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413
 <iconMetadata>{"type":"emoji","emoji":"💧"}</iconMetadata>
 <content>
 <callout icon="💧" color="blue_bg">
-Austin's final solutions, worked through one opportunity at a time. Each entry records your decision, the opportunities and problems it covers, the evidence, and the one-pager checklist (future state · KPIs · COI = cost of inactivity · build cost/OpEx · assumptions). Cost of inactivity is what Aperitif keeps losing each month and year if nothing changes: recoverable staff hours × \$80/hr, plus any money or clients at risk. Each solution's price and draft priority are in its green <b>Pricing & priority</b> box.
+The 32 recommended solutions. Each one-pager covers the vision, how it works, the problems it fixes with evidence, KPIs, value (time saved, capacity unlocked, other value – see Value by bundle) and assumptions. Each solution's price and draft priority are in its green <b>Pricing & priority</b> box.
 
-<b>Currency:</b> all figures are <b>AUD</b> (cost of inactivity, build costs, ad spend) except <b>SaaS and API prices, which are in USD</b> (marked US\$).
+<b>Currency:</b> all figures are <b>AUD</b> (value, build costs, ad spend) except <b>SaaS and API prices, which are in USD</b> (marked US\$).
 
 <b>Sources also used:</b> Zach's written "AI suggestions" doc ([Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit)) – cited in DS-04, DS-07, DS-12, DS-16 and DS-22 to DS-24.
 </callout>
@@ -54,9 +54,9 @@ Austin's final solutions, worked through one opportunity at a time. Each entry r
 
 <b>Not recommending (to write up in the pack):</b>
 
-- <b>Email inbox PA assistant</b> – an AI that manages people's inboxes and drafts or sends replies on their behalf (your call, 9 Nov). <i>Your reason (internal):</i> [internal reason withheld from this repo – see the suggested wording for Joe] <i>Suggested wording for Joe:</i> an assistant that acts on someone's behalf only works where people reliably check its output; the audit found systems and reminders often aren't followed (KO-PP10, MP-PP03, MP-PP05), so the risk of unchecked replies going to clients is too high for now. DS-06 (capture requests) and DS-30 (daily priorities) help with the inbox without acting for anyone.
+- <b>Email inbox PA assistant</b> – an AI that manages people's inboxes and drafts or sends replies on their behalf (Austin's call, 9 Nov). An assistant that acts on someone's behalf only works where people reliably check its output; the audit found systems and reminders often aren't followed (KO-PP10, MP-PP03, MP-PP05), so the risk of unchecked replies going to clients is too high for now. DS-06 (capture requests) and DS-30 (daily priorities) help with the inbox without acting for anyone.
 
-<b>Not included (your call, 9 Nov):</b> O-09 Implementer self-QA checklists for page and ad builds · O-17 Cap concurrent onboardings per manager · O-19 Effort model: hours per client, load triggers, rebalanced books · O-22 Sales discipline (speed-to-lead, objections library, loss reasons) – the calculator-in-every-proposal part stays in DS-05 · O-24 Client approval SLAs with logged dates and reminders · O-26 except the style guide (editing training, backup editors, junior hire) – the style guide moved into DS-04 · O-32 Fill the senior performance leadership seat · O-34 Standard creative brief with one feedback round · O-35 Joint monthly tech-priority check (O-34 and O-35 are process changes, not builds).
+<b>Not included (Austin's call, 9 Nov):</b> O-09 Implementer self-QA checklists for page and ad builds · O-17 Cap concurrent onboardings per manager · O-19 Effort model: hours per client, load triggers, rebalanced books · O-22 Sales discipline (speed-to-lead, objections library, loss reasons) – the calculator-in-every-proposal part stays in DS-05 · O-24 Client approval SLAs with logged dates and reminders · O-26 except the style guide (editing training, backup editors, junior hire) – the style guide moved into DS-04 · O-32 Fill the senior performance leadership seat · O-34 Standard creative brief with one feedback round · O-35 Joint monthly tech-priority check (O-34 and O-35 are process changes, not builds).
 
 ---
 
@@ -87,7 +87,7 @@ Tool being looked at: <b>Adpulse</b> – covers every channel incl. LinkedIn, pa
 | <b>Smaller option – modernise the existing pacing bot</b> (won't get the full Adpulse unlock) | A\$1,250 | A\$300/month management |
 </callout>
 
-<b>Your decision (9 Nov):</b> a modern ad budget pacing tool that connects to <b>every live channel</b>, tracks pace and performance per client against <b>thresholds set per client</b> by the team, and sends <b>Slack alerts</b>.
+<b>Decision (9 Nov):</b> a modern ad budget pacing tool that connects to <b>every live channel</b>, tracks pace and performance per client against <b>thresholds set per client</b> by the team, and sends <b>Slack alerts</b>.
 
 - <b>Alerts only for now</b> – no automated actions (pause/scale); budget changes stay manual.
 - <b>Ownership:</b> Austin owns it technically; the business (account managers / performance lead) owns data validity – correct budgets, thresholds and channel lists.
@@ -107,10 +107,10 @@ Tool being looked at: <b>Adpulse</b> – covers every channel incl. LinkedIn, pa
 - <b>O-11</b> Pacing tracker reads budgets and spend, flags gaps – rank 11, 75 (10–21 h/month)
 - <b>O-15</b> Enter budgets once, log every change, written overspend policy – rank 15, 64 (1–4 h/month)
 - <b>O-10</b> Switch on native platform alert rules and scripts now – rank 10, 75 (1–8 h/month) – <i>interim step while the tool is chosen</i>
-- <b>O-12</b> Cross-account performance monitor with draft diagnosis – rank 12, 75 – <b>the paid part only</b>. The SEO part (weekly GA4 / Search Console / Ahrefs digest) is now its own SEO-team solutions: DS-22, DS-23, DS-24 (your call, 9 Nov).
-- Your earlier ideas: <i>Pacing tracker + adjustment engine</i> and <i>Proactive PPC monitor and anomaly detector</i>
+- <b>O-12</b> Cross-account performance monitor with draft diagnosis – rank 12, 75 – <b>the paid part only</b>. The SEO part (weekly GA4 / Search Console / Ahrefs digest) is now its own SEO-team solutions: DS-22, DS-23, DS-24 (Austin's call, 9 Nov).
+- Austin's earlier ideas: <i>Pacing tracker + adjustment engine</i> and <i>Proactive PPC monitor and anomaly detector</i>
 
-Value for this solution is worked out in <b>Value</b> below (\~62–71 h/month saved; \~A\$200K–220K a year of PPC capacity). The hour ranges listed against each opportunity above are earlier estimates and are superseded.
+Value for this solution is worked out in <b>Value</b> below (\~56–64 h/month saved; \~A\$186K–213K a year of PPC capacity). The hour ranges listed against each opportunity above are earlier estimates and are superseded.
 
 ### Problems it fixes and the evidence
 
@@ -159,7 +159,7 @@ Adpulse already covers every channel, pacing, spike/drop alerts and Slack. A thi
 
 - <b>Bïrch (formerly Revealbot)</b> runs rules across Meta, Google Ads, TikTok and Snapchat, checking roughly every 15 minutes. <b>It does not list LinkedIn</b>, which has no pacing line today (MP-PP02). Automated rules need the Pro plan (US\$99/month at low spend); pricing scales with total connected ad spend. At Aperitif's \~A\$1.2M/month (Google \~A\$788K + Meta \~A\$422K) it would be an enterprise quote.
 - <b>Pacing-specific SaaS that does include LinkedIn</b> exists – e.g. [Shape.io](http://Shape.io) (Google, Meta, Microsoft, LinkedIn, X, Pinterest, TikTok), Pace, Adpulse, ReportGarden, BuyerBridge. Worth pricing at least one against the custom build before committing.
-- <b>Implication for your decision:</b> because it must cover <i>every</i> channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. <b>Recommended: Adpulse – see Pricing & priority.</b>
+- <b>Implication for the decision:</b> because it must cover <i>every</i> channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. <b>Recommended: Adpulse – see Pricing & priority.</b>
 
 ### Future state (draft)
 
@@ -232,11 +232,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 - Bïrch facts from its pricing page and reviews, Nov 2026; LinkedIn support not listed.
 - Supermetrics is connected but failing, not cancelled (contradiction X-01).
 
-### Open questions for you
-
-- Build vs buy: shortlist one all-channel pacing SaaS to price against a custom build (Claude can compare [Shape.io](http://Shape.io) / Pace / Adpulse on channels, Slack alerts, per-client thresholds and price when you're ready).
-- Indicative build cost and OpEx (yours to set).
-
 ### Decided
 
 - One tool, all channels · per-client thresholds · Slack alerts only · Austin = technical owner, business = data validity.
@@ -268,7 +263,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 <b>Who does what:</b> Austin supplies the playbook entries that come from his builds (how each solution works, its prompts and SOPs). The team writes and shares their own Claude skills and prompts – Transpera doesn't build skills for individuals.
 </callout>
 
-<b>Your decision (9 Nov):</b> one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
+<b>Decision (9 Nov):</b> one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
 
 ### What goes in it (draft)
 
@@ -284,7 +279,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 - <b>O-02</b> AI data rule, company Claude seats and shared skills library – rank 2, priority 125, quick win, effort S <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/de4235cb-0fb2-4bbf-8065-e0bf2d4add4c/414e204f-f769-8039-ac16-001c53a83fcd">(6.5–36 h/month, assum</span>ed)
 - <b>O-33</b> SOPs linked from Monday templates; stale pages retired – the SOP half
-- Your earlier idea: <i>L&D platform – training, manuals and SOPs made clear</i>
+- Austin's earlier idea: <i>L&D platform – training, manuals and SOPs made clear</i>
 - Foundation for: O-05 (AI-drafted reports), O-13 (per-client AI summary), O-27 (AI business brain)
 
 ### Problems it fixes and the evidence
@@ -292,7 +287,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 - <mention url="https://app.notion.com/p/410e204ff769810cb2c8de6b51137637">AI use is personal and ungoverned: no policy, shared skills, client context or seats</mention> – <b>9 staff + 1 leadership, the broadest staff raise in the audit.</b> <i>"I'm not sure how much it is okay to have the data privacy and everything when we do that."</i> – a performance manager (DM-PP12). <i>"we've had a few cases where team members used AI for the whole thing and it was a mess."</i> – the SEO Director (LS-PP13). One staff member pays for her own Claude account (MC-PP19); the team plan hits usage limits (SB-PP12).
 - <mention url="https://app.notion.com/p/40fe204ff76981e1ac5af94b85e59678">Documentation is stale and rarely read</mention> – the SOP section, once linked into the workflow.
 - <mention url="https://app.notion.com/p/410e204ff769816c906cebe25af6cc33">Regulated-industry content lacks shared compliance rules and credible sources</mention> – the compliance and research packs.
-- <mention url="https://app.notion.com/p/412e204ff769817b85d2f6e269eb277d">Change fatigue and quiet AI anxiety slow adoption</mention> – a clear, staged playbook instead of tools appearing ad hoc (your note: systems layered in, not vibe-coded).
+- <mention url="https://app.notion.com/p/412e204ff769817b85d2f6e269eb277d">Change fatigue and quiet AI anxiety slow adoption</mention> – a clear, staged playbook instead of tools appearing ad hoc (Austin's note: systems layered in, not vibe-coded).
 
 ### Future state (draft)
 
@@ -338,7 +333,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Hours saved assumed (no stated times for AI tasks).
 - The rule needs the founder's sign-off on client-data use and a check against client contracts.
 - Adoption risk: the library goes stale like the wiki (C-35) unless it is linked from Monday and owned.
 
@@ -370,26 +364,26 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Upgrade – full automation</b>, connected to the AI brain (DS-04/DS-15), incl. content intake | A\$1,750 feature addition | AI tokens \~US\$5–25/month + Make |
 </callout>
 
-<b>Your decision (9 Nov):</b> AI generates the monthly brief drafts, and each brief is turned into a task in [Monday.com](http://Monday.com). Recommended version: a <b>Claude skill</b> (cheap); the <b>fully automated</b> end-to-end version is offered as the upgrade (see Decided).
+<b>Decision (9 Nov):</b> AI generates the monthly brief drafts, and each brief is turned into a task in [Monday.com](http://Monday.com). Recommended version: a <b>Claude skill</b> (cheap); the <b>fully automated</b> end-to-end version is offered as the upgrade (see Decided).
 
 ### How it works (draft)
 
 1. Each month the automation reads the content plan in the client's <b>Master SEO Document</b>.
 2. It drafts each brief in the house template (keywords, structure, internal links, tone, regional/localisation metadata where needed) straight into the standard Google Doc – no copy-paste into Word.
-3. The SEO manager reviews and approves the draft (human stays in the loop).
+3. The content team reviews and approves the draft (human stays in the loop).
 4. On approval, a [<b>Monday.com</b>](http://Monday.com)<b> task</b> is created automatically for each brief: assigned writer, due date, link to the brief, client, word count.
 5. Monday notifies the content manager and writer – no brief sits unseen in a sheet.
 
 ### Opportunities it covers
 
-- <b>O-03</b> AI brief drafts from the Master SEO Document – rank 3, priority 100, quick win, effort S (9–22 h/month, assumed)
-- <b>O-25</b> Content intake on Monday with brief standard and slots – all of it (task creation plus intake, added 9 Nov) (rank 25, 5–20 h/month, assumed; overlaps O-03)
-- Your notes: <i>"We could make a claude workflow or bot that auto turns briefs into task items"</i>
+- <b>O-03</b> AI brief drafts from the Master SEO Document – rank 3, priority 100, quick win, effort S
+- <b>O-25</b> Content intake on Monday with brief standard and slots – all of it (task creation plus intake, added 9 Nov) (rank 25; overlaps O-03)
+- Austin's notes: <i>"We could make a claude workflow or bot that auto turns briefs into task items"</i>
 
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/410e204ff769810aafa6ce47457ecf5a">Content briefs are re-cut and reformatted by hand, eating the first half of each month</mention> – High. 3 staff. <i>"especially early months, the content briefing is pretty much all of my day or say a few days to a week."</i> – an SEO manager (ZC-PP02). <i>"content briefs; we could have automated those years ago."</i> – the SEO Director (LS-PP03). Briefs are copied from Claude into Word and reformatted by hand (ZC-PP03).
-- Briefs arrive unseen or late – 2 content team members (C-21, part of <mention url="https://app.notion.com/p/40fe204ff769812bb6b9dae3c44d0839">Content tracker and link sheets live outside Monday.com</mention>, which you parked). <i>"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"</i> – a content team member (SJ-PP02). Auto-created Monday tasks remove this.
+- Briefs arrive unseen or late – 2 content team members (C-21, part of <mention url="https://app.notion.com/p/40fe204ff769812bb6b9dae3c44d0839">Content tracker and link sheets live outside Monday.com</mention>, parked for now). <i>"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"</i> – a content team member (SJ-PP02). Auto-created Monday tasks remove this.
 - Also helps (Solve later): <mention url="https://app.notion.com/p/40fe204ff769811b9981d8c28a6528e8">Content delivery hinges on the Content Manager as writer, editor and contractor manager</mention> – less routing by hand.
 
 ### Future state (draft)
@@ -400,14 +394,14 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| SEO manager time per client on monthly briefs | Unknown; assumed 30–60 min (LS-O01) – "a few days to a week" early in the month (ZC-PP02) | ≤ 15 min incl. review |
+| Content-team time per brief | \~20 min | \~5–10 min |
 | Briefs needing manual reformatting | All – copied into Word (ZC-O02) | 0 |
 | Time from brief approved to writer task created | Up to 2 days unseen (SJ-PP02) | Same day, automatic |
 
 ### <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/d67b6b84-833b-477a-adfe-e4fa45d22cb5/414e204f-f769-80a6-b1b0-001c016aa8bb">Value (revised with Austin, 10 Nov)</span>
 
 <callout icon="📈" color="green_bg">
-<b>Every brief is clear, consistent and in one place.</b> Managers fill in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
+<b>Every brief is clear, consistent and in one place.</b> The content team fills in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
 </callout>
 
 <b>1. Time saved</b>
@@ -420,7 +414,7 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 
 Briefs are written by the content team (Sarah Julian and Hayley Tantau), who are measured on words delivered each month – so the freed time goes into <b>more words written</b>, not more clients managed. It isn't counted as MRR capacity.
 
-The bigger win is clarity: briefs often lack it today, so writers go back and forth. A standard form fixes what goes into every brief, and drafts can be out on day one of the month instead of waiting on managers.
+The bigger win is clarity: briefs often lack it today, so writers go back and forth. A standard form fixes what goes into every brief, and drafts can be out on day one of the month instead of waiting on the form.
 
 <b>3. Problems it eliminates</b>
 
@@ -428,7 +422,7 @@ The bigger win is clarity: briefs often lack it today, so writers go back and fo
 - <b>P-11</b> Content tracker and link sheets live outside [Monday.com](http://Monday.com)
 - Helps: <b>P-09</b> Content delivery hinges on the Content Manager · <b>P-32</b> Unplanned requests break the planned month
 
-<b>Goals:</b> good performance · good customer service · more MRR managed per person
+<b>Goals:</b> good customer service · good performance · trust
 
 <i>Inputs from Austin (10 Nov): \~20 min per brief today, often lacking clarity; standardise with a form, produce automatically, save in the brain. Assumption: \~5–10 min per brief with the form.</i>
 
@@ -450,7 +444,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Added 9 Nov: the rest of O-25 (content intake)
 
-<b>Your decision:</b> fold the rest of O-25 into this solution.
+<b>Decision:</b> fold the rest of O-25 into this solution.
 
 | Part | What it does |
 | --- | --- |
@@ -462,8 +456,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Priority order | Work sorted by client importance, not sheet age |
 
 <b>Evidence (content team – 16 pain points):</b> the content manager copies every brief, prior comms and feedback by hand into four freelancer sheets – her magic-wand pick: <i>"I copy all of the briefs and the… feedback or like any like prior… comms"</i> (SJ-PP01, stated). Volume grew from \~40K to \~100K words a month: <i>"as we grow it's not going to be like sustainable"</i> (SJ-PP11). Incomplete briefs drive freelancer rework (SJ-PP06); work is <i>"just sorted by age"</i> not importance (SJ-PP10); edited versions are filed by hand (SJ-PP04); the end of the month is <i>"often crunchy"</i> (HT-PP01); one client sits outside the cycle and sends last-minute work (HT-PP02, SJ-PP14).
-
-<b>Cost of inactivity:</b> O-25's 4.8–20.1 h/month sits mainly in the content writing & editing process, not the briefing figure above; only its non-overlapping task-creation part is in DS-03's 10–30 h. The intake changes add roughly the rest – assumed, to be split out when costed. The extra risk is scale: the spreadsheet set-up breaks as volume keeps rising (SJ-PP11).
 
 <b>Assumptions:</b> freelancers accept Monday guest boards; the content manager agrees the assignment rules and slot calendar.
 
@@ -504,7 +496,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Hosting and AI tokens | – | <b>TBC</b> – to research; the brain will be model-agnostic. Worksheet draft: tokens \~US\$60–300/month, hosting shared, one-off backfill \~US\$100–500 |
 </callout>
 
-<b>Your decision (9 Nov):</b> an AI brain <b>for each client</b> that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to <b>review and query</b>. It sits under the <b>AI Business Brain</b> banner but is treated as a separate solution for now.
+<b>Decision (9 Nov):</b> an AI brain <b>for each client</b> that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to <b>review and query</b>. It sits under the <b>AI Business Brain</b> banner but is treated as a separate solution for now.
 
 ### What it pulls <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/0e70869d-0a8a-4e91-8e21-112d28e4c6df/414e204f-f769-805c-850f-001c9685287f">together</span> (draft)
 
@@ -533,11 +525,11 @@ The query box is there for questions; the call-outs, logs and actions are always
 
 ### Opportunities it covers
 
-- <b>O-04</b> One per-client record fed by call summaries – rank 4, priority 100, quick win, effort S (5–18 h/month, assumed)
-- <b>O-13</b> AI per-client summary for reports, calls and data questions – rank 13, 75, strategic, effort M (14–40 h/month, assumed; overlaps O-04)
+- <b>O-04</b> One per-client record fed by call summaries – rank 4, priority 100, quick win, effort S
+- <b>O-13</b> AI per-client summary for reports, calls and data questions – rank 13, 75, strategic, effort M (overlaps O-04)
 - <b>O-27</b> AI business brain over client records and SOPs – the per-client part (rank 27, Consider) – the company-wide part stays for a later solution
-- Your earlier ideas: <i>Individual AI client Brains</i>, <i>Meeting transcripts → per-client action runsheet</i>
-- Your notes: client brain for call prep dossiers, handover reports ("sub 3 click hand over report"), research and compliance context, request and email-chain summaries
+- Austin's earlier ideas: <i>Individual AI client Brains</i>, <i>Meeting transcripts → per-client action runsheet</i>
+- Austin's notes: client brain for call prep dossiers, handover reports ("sub 3 click hand over report"), research and compliance context, request and email-chain summaries
 
 ### Problems it fixes and the evidence
 
@@ -546,7 +538,7 @@ The query box is there for questions; the call-outs, logs and actions are always
 - <mention url="https://app.notion.com/p/410e204ff769818e891ce057635a604d">Client handovers (sales to delivery, offboarding) have no structured pack or trigger</mention> – High. 3 staff. <i>"So sometimes I'm going in blind…"</i> – a performance team member (MC-PP11). Handover docs missed until the client chased (MC-PP14).
 - <mention url="https://app.notion.com/p/410e204ff769816c906cebe25af6cc33">Regulated-industry content lacks shared compliance rules and credible sources</mention> – the client's compliance rules live in its brain.
 - <mention url="https://app.notion.com/p/40fe204ff76981e2924cfbae1ffa8478">Escalations route around department leads to the Head of Client Services</mention> – partly: about five churn-risk escalations a week land with the Head of Client Services (KO-PP05); with each client's history in one place, department leads can handle more of them themselves.
-- Also helps: <mention url="https://app.notion.com/p/412e204ff76981af9182ca6683db10ee">Teams work in silos and don't see each other's work or priorities</mention> (organic and paid see the same client picture); request extraction from email chains (SB-PP03, your note).
+- Also helps: <mention url="https://app.notion.com/p/412e204ff76981af9182ca6683db10ee">Teams work in silos and don't see each other's work or priorities</mention> (organic and paid see the same client picture); request extraction from email chains (SB-PP03, Austin's note).
 - <b>Zach's written AI suggestions</b> (Google Doc): Otter/Gemini notes sit in different places and he keeps a Google Doc as the source of truth for client meetings – he wants transcripts turned into actions and collected in <b>one runsheet per client</b>. The client brain does this.
 
 ### Future state (draft)
@@ -612,10 +604,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 - <b>All sources at once</b> – transcripts, Slack, email, the work and the client profile; no phasing.
 - <b>A custom app</b> that connects to the different sources.
 
-<callout icon="⚠️" color="yellow_bg">
-Implications to cover in the one-pager: an all-clients, all-sources custom app is the largest build in the proposal, so (1) show the low-build version (client record + Claude Project) alongside it as the cheaper alternative; (2) it needs the AI-data rule (DS-02), client call-recording consent and read access to Slack, email and ad platforms before launch; (3) client-tagging of Slack and email messages has to work reliably for every client.
-</callout>
-
 ---
 
 ## DS-05 · Automated deck generator: quarterly + 6-month reviews and proposals
@@ -648,7 +636,7 @@ Implications to cover in the one-pager: an all-clients, all-sources custom app i
 | <b>Deck generator</b> – quarterly + 6-month reviews, the multi-market monthly deck and proposals | <b>A\$1,850–\$2,250</b> | <b>A\$350/month</b> maintenance + AI tokens \~US\$5–40/month |
 </callout>
 
-<b>Your decision (9 Nov):</b> <b>monthly reports stay in AgencyAnalytics</b> – no change. <b>Quarterly and 6-month (bi-annual) review decks</b> are generated automatically through a deck generator, and <b>proposals are automated</b> the same way. It could be a custom build.
+<b>Decision (9 Nov):</b> <b>monthly reports stay in AgencyAnalytics</b> – no change. <b>Quarterly and 6-month (bi-annual) review decks</b> are generated automatically through a deck generator, and <b>proposals are automated</b> the same way. It could be a custom build.
 
 ### How it works (draft)
 
@@ -660,18 +648,18 @@ Implications to cover in the one-pager: an all-clients, all-sources custom app i
 
 ### Opportunities it covers
 
-- <b>O-05</b> Reports and review decks: auto-filled data, AI-drafted narrative – rank 5, priority 100, quick win, effort M – <b>the quarterly / 6-month deck part</b>. The monthly report parts (report last page, weekly KPI sheets) are left out, per your decision.
+- <b>O-05</b> Reports and review decks: auto-filled data, AI-drafted narrative – rank 5, priority 100, quick win, effort M – <b>the quarterly / 6-month deck part</b>. The monthly report parts (report last page, weekly KPI sheets) are left out, as decided.
 - <b>O-22</b> Sales discipline – the <b>calculator-in-every-proposal</b> part (rank 22).
 - <b>O-14</b> AI-prefilled onboarding audit – the <b>prospect-deck</b> part ("the same engine can produce prospect decks", rank 14).
-- Your earlier ideas: <i>Proposal generator</i>, <i>QBR / review deck generator</i>.
+- Austin's earlier ideas: <i>Proposal generator</i>, <i>QBR / review deck generator</i>.
 - Builds on a workflow the performance director already uses: AI-assisted quarterly reviews (WS-O06, strength WS-S02).
 
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/40fe204ff76981b6a4eaf34024fb2334">Client documents are built by duplicating previous ones – errors reach clients</mention> (C-06) – 5 staff. <i>"these presentations and stuff that we need to do every quarter, etc. Which is like a lot of time consuming"</i> – the performance director (WS-PP05, stated). One senior SEO manager builds a bespoke multi-market deck by hand: <i>"So this probably takes me like half a day, if not more, of like work hours."</i> (KZ-PP18, stated).
-- Also helps (partly): <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> (C-17) – 6-month reviews for smaller clients are where the SEO director loses time (LS-PP02). <b>Capacity itself is not solved by a build</b>: the fixes aimed at its cause (O-17 onboarding cap, O-19 effort model, O-32 senior performance hire) were dropped, and it is covered in the <b>culture / people recommendations</b> instead (your call, 9 Nov).
+- Also helps (partly): <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> (C-17) – 6-month reviews for smaller clients are where the SEO director loses time (LS-PP02). <b>Capacity itself is not solved by a build</b>: the fixes aimed at its cause (O-17 onboarding cap, O-19 effort model, O-32 senior performance hire) were dropped, and it is covered in the <b>culture / people recommendations</b> instead (Austin's call, 9 Nov).
 - <mention url="https://app.notion.com/p/40fe204ff769816c8f78fdc8c0b16830">Proposals are rebuilt from scratch per prospect</mention> (C-39) – leadership + 1 staff. Prospect decks are slow to build (research, Ahrefs, story) and land on top of BAU (KZ-PP21, stated). The founder is still pulled into building deal strategies and ad-spend numbers: <i>"So I'm still getting involved in a lot of that, but I don't want to"</i> – leadership (MP-PP11).
-- <mention url="https://app.notion.com/p/40fe204ff76981f585acc9b86b6be9b9">Sales commits to work delivery can't profitably do</mention> (C-38) – leadership + 1 staff (the performance director, WS-PP07); the price calculator exists but isn't used consistently (MP-PP12). <i>Bias note: you raised this one first (MP-PP10) and leadership agreed.</i>
+- <mention url="https://app.notion.com/p/40fe204ff76981f585acc9b86b6be9b9">Sales commits to work delivery can't profitably do</mention> (C-38) – leadership + 1 staff (the performance director, WS-PP07); the price calculator exists but isn't used consistently (MP-PP12). <i>Bias note: Austin raised this one first (MP-PP10) and leadership agreed.</i>
 - Also helps (Solve later): <mention url="https://app.notion.com/p/410e204ff769810cb2c8de6b51137637">AI use is personal and ungoverned: no policy, shared skills, client context or seats</mention> – the director's personal AI review workflow becomes the shared standard (WS-PP13, <i>inferred</i>).
 - <mention url="https://app.notion.com/p/40fe204ff769811f9330cde79b4e0b11">No single home for current templates – versions held by individuals</mention> – Solve now; the generator runs from one master template per deck type, stored centrally (and registered in DS-10).
 
@@ -752,7 +740,7 @@ Approach and price: see Pricing & priority.
 
 - It catches stray requests from Slack, DMs and email and puts them into Monday, so the brain (DS-04) always knows what's been asked.
 - <b>Task status sweep (added 9 Nov):</b> the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved (DM-PP09), and nudges the owner.
-- The <b>daily priorities</b> assistant is now its own solution, <b>DS-30</b> (your call: "another thing").
+- The <b>daily priorities</b> assistant is now its own solution, <b>DS-30</b> (Austin's call: "another thing").
 </callout>
 
 ### Pricing & priority
@@ -765,7 +753,7 @@ Approach and price: see Pricing & priority.
 | <b>Request sweeper + task-status sweep</b> – connected to the AI brain (runs on the DS-04 platform) | <b>A\$500</b> | <b>A\$150/month</b>  • AI tokens \~US\$30–120/month |
 </callout>
 
-<b>Your decision (9 Nov):</b> Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in <b>direct messages</b> and <b>email</b> – and puts them into [Monday.com](http://Monday.com) as tasks.
+<b>Decision (9 Nov):</b> Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in <b>direct messages</b> and <b>email</b> – and puts them into [Monday.com](http://Monday.com) as tasks.
 
 ### How it works (draft)
 
@@ -779,17 +767,17 @@ Approach and price: see Pricing & priority.
 
 ### Opportunities it covers
 
-- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">O-06</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf"> All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win (9.7–28.5 h/month, assumed) – </span><b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">the capture part</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">. Your solution catches requests where people actually send them rather than relying on everyone using the form.</span>
-- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8eb0fd54-208e-46fd-b3b5-d48ee1d36881/414e204f-f769-80f2-b5aa-001c36cbfadf">SB-O02</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8eb0fd54-208e-46fd-b3b5-d48ee1d36881/414e204f-f769-80f2-b5aa-001c36cbfadf"> AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks (6–11 h/month for one person, assumed).</span>
-- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8c69e1b9-4a32-4db5-9f0e-fcb11cf12794/414e204f-f769-80f2-b5aa-001c36cbfadf">O-29</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8c69e1b9-4a32-4db5-9f0e-fcb11cf12794/414e204f-f769-80f2-b5aa-001c36cbfadf"> AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M (6–11 h/month for one person, assumed; more if rolled out to everyone) – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.</span>
-- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/66772ed0-eb05-45cb-be33-0817c1b1c2f8/414e204f-f769-80f2-b5aa-001c36cbfadf">Not included (your call):</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/66772ed0-eb05-45cb-be33-0817c1b1c2f8/414e204f-f769-80f2-b5aa-001c36cbfadf"> O-06's Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">O-06</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf"> All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win – </span><b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">the capture part</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">. This solution catches requests where people actually send them rather than relying on everyone using the form.</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8eb0fd54-208e-46fd-b3b5-d48ee1d36881/414e204f-f769-80f2-b5aa-001c36cbfadf">SB-O02</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8eb0fd54-208e-46fd-b3b5-d48ee1d36881/414e204f-f769-80f2-b5aa-001c36cbfadf"> AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks.</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8c69e1b9-4a32-4db5-9f0e-fcb11cf12794/414e204f-f769-80f2-b5aa-001c36cbfadf">O-29</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8c69e1b9-4a32-4db5-9f0e-fcb11cf12794/414e204f-f769-80f2-b5aa-001c36cbfadf"> AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/66772ed0-eb05-45cb-be33-0817c1b1c2f8/414e204f-f769-80f2-b5aa-001c36cbfadf">Not included (Austin's call):</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/66772ed0-eb05-45cb-be33-0817c1b1c2f8/414e204f-f769-80f2-b5aa-001c36cbfadf"> O-06's Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.</span>
 
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/40fe204ff76981e9b92fcb8a575cb3f4">Reminders go unacted; a broken reminder bot went unnoticed</mention> (C-30) – Solve now. Staff + leadership. <i>"not everybody uses Monday to like, you know, set up a task."</i> – a technical SEO specialist, who also gets requests by Slack DM and email (SB-PP04, stated). Forwarded email chains take <b>\~30 minutes each</b> to untangle (SB-PP03). Requests in email and Slack slip and become last-minute (SB-PP01). Leadership: <i>"Half an hour ago, the reminder went out. We still don't have updates."</i> (MP-PP05).
 - <mention url="https://app.notion.com/p/410e204ff76981c88fe8f4907efc6ba1">Internal task briefs from managers to implementers are slow to write and often incomplete</mention> (C-27) – Solve now. Requests range from one sentence to a full brief (LS-PP14); implementers chase account managers for missing details (MC-PP04); Monday notifications don't always land, so Slack becomes the backup (MC-PP05). The sweeper's missing-field check addresses this.
-- Also helps: <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests (C-18, which you parked) become visible in Monday, even if they're still same-day.
-- <i>Your observation:</i> a lot of the stray requests are in DMs – one interview confirms DMs as a request route (SB-PP04).
+- Also helps: <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests (C-18, parked for now) become visible in Monday, even if they're still same-day.
+- <i>Austin's observation:</i> a lot of the stray requests are in DMs – one interview confirms DMs as a request route (SB-PP04).
 
 ### Future state (draft)
 
@@ -821,7 +809,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Hours saved assumed.
 - <b>DM access is the hard part:</b> a Slack app can only read a person's DMs if that person authorises it (a user-level permission). Channels are straightforward. Needs staff consent and a clear rule on what the sweeper reads and keeps (ties to the AI-data rule in DS-02).
 - Monday's own Slack integration can already turn a message into a task by hand – the sweeper adds the automatic detection.
 - Automatic creation in Slack may produce some junk tasks at first; the evidence link makes them quick to spot and delete. Detection rules get tuned over the first few weeks.
@@ -854,7 +841,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Link watchdog agent</b> – weekly checks of every paid link, drop alerts, templated publisher emails, publisher reliability score | <b>A\$2,250</b> | <b>A\$350/month</b> maintenance + AI tokens \~US\$1–10/month (+ optional proxy for blocked sites \~US\$0–50) |
 </callout>
 
-<b>Your decision (9 Nov):</b> an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider <b>link-building workflow CRM</b>. Tool options: <b>Jev AI</b> (no output tokens needed, so cheap to run) or another automation method.
+<b>Decision (9 Nov):</b> an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider <b>link-building workflow CRM</b>. Tool options: <b>Jev AI</b> (no output tokens needed, so cheap to run) or another automation method.
 
 ### How it works (draft)
 
@@ -868,9 +855,9 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-07</b> Automated live-link checks with publisher replacement claims – rank 7, priority 80, quick win, effort M (5–10 h/month plus avoided loss, assumed)
+- <b>O-07</b> Automated live-link checks with publisher replacement claims – rank 7, priority 80, quick win, effort M
 - Connects to <b>O-18</b> One link record (order template, auto-sync, invoice run), which is the CRM side – now its own solution, DS-11 (link-building CRM).
-- Your earlier idea: a <i>link monitor</i> (offered at kick-off).
+- Austin's earlier idea: a <i>link monitor</i> (offered at kick-off).
 
 ### Problems it fixes and the evidence
 
@@ -954,7 +941,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>AI sales handover + new-client auto set-up</b> (handover from sales calls, delivery confirm/deny, new client brain entry, Drive/Monday/Slack set-up) | <b>A\$1,250</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$1–10/month |
 </callout>
 
-<b>Your decision (9 Nov):</b> <b>no hard blocks</b> on deals. Instead, the handover is <b>extracted by AI from the sales call transcripts</b>, the sales rep is shown <b>questions to fill any gaps</b>, the result <b>loads into the AI client brain (DS-04)</b>, and the delivery departments get a <b>notification to review and confirm or deny – with reasons</b>.
+<b>Decision (9 Nov):</b> <b>no hard blocks</b> on deals. Instead, the handover is <b>extracted by AI from the sales call transcripts</b>, the sales rep is shown <b>questions to fill any gaps</b>, the result <b>loads into the AI client brain (DS-04)</b>, and the delivery departments get a <b>notification to review and confirm or deny – with reasons</b>.
 
 ### How it works (draft)
 
@@ -968,13 +955,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-08</b> Sales-to-delivery gate: handover fields, owner, access checklist – rank 8, priority 80, quick win (2–10 h/month, assumed) – <b>the handover part, rebuilt without hard gates</b>.
+- <b>O-08</b> Sales-to-delivery gate: handover fields, owner, access checklist – rank 8, priority 80, quick win – <b>the handover part, rebuilt without hard gates</b>.
 - Related: DS-04's "handover report in under three clicks" uses the same brain for client-to-client and offboarding handovers.
 
 ### Problems it fixes and the evidence
 
-- <mention url="https://app.notion.com/p/410e204ff769818e891ce057635a604d">Client handovers (sales to delivery, offboarding) have no structured pack or trigger</mention> – High. 3 staff, plus the founder's description of the current handover (KO-PP01, raised by you). <i>"So sometimes I'm going in blind. So I haven't been, I haven't talked to Joe on what has been communicated on the sales side"</i> – a performance team member (MC-PP11). <i>"So we're like re-asking questions."</i> – a senior performance manager (SH-PP07). The internal handover call sometimes happens <i>"like 10 minutes before the client call"</i> or is skipped (WS-PP06).
-- <mention url="https://app.notion.com/p/40fe204ff76981f585acc9b86b6be9b9">Sales commits to work delivery can't profitably do</mention> – clients sold without delivery prerequisites: <i>"They didn't even have a website ready. So we went two months off doing work for them"</i> – the performance director (WS-PP07). Delivery's confirm/deny step surfaces this before kick-off. <i>Bias note: you raised over-commit first (MP-PP10).</i>
+- <mention url="https://app.notion.com/p/410e204ff769818e891ce057635a604d">Client handovers (sales to delivery, offboarding) have no structured pack or trigger</mention> – High. 3 staff, plus the founder's description of the current handover (KO-PP01, raised by Austin). <i>"So sometimes I'm going in blind. So I haven't been, I haven't talked to Joe on what has been communicated on the sales side"</i> – a performance team member (MC-PP11). <i>"So we're like re-asking questions."</i> – a senior performance manager (SH-PP07). The internal handover call sometimes happens <i>"like 10 minutes before the client call"</i> or is skipped (WS-PP06).
+- <mention url="https://app.notion.com/p/40fe204ff76981f585acc9b86b6be9b9">Sales commits to work delivery can't profitably do</mention> – clients sold without delivery prerequisites: <i>"They didn't even have a website ready. So we went two months off doing work for them"</i> – the performance director (WS-PP07). Delivery's confirm/deny step surfaces this before kick-off. <i>Bias note: Austin raised over-commit first (MP-PP10).</i>
 - Also helps: onboarding delays from access and missing information (C-09 – ZC-PP07, MC-PP10), since access needs and prerequisites are captured at handover.
 
 ### Future state (draft)
@@ -1011,7 +998,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Hours saved assumed.
 - Sales calls are recorded with prospect consent and the transcripts are reachable (the founder already relies on them).
 - The sales lead wasn't interviewed, so the sales side of the evidence is leadership's view.
 - Depends on DS-04 (client brain) and the AI-data rule (DS-02).
@@ -1045,7 +1031,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Onboarding audit – Claude skills</b> (organic: pre-fills the Master SEO Document; paid: drafts the 30-item audit) – the only version recommended | <b>A\$1,500</b> | <b>A\$400/month</b> maintenance (runs on Claude seats) |
 </callout>
 
-<b>Your decision (9 Nov):</b> adopt O-14 as written – it speeds up onboarding audits.
+<b>Decision (9 Nov):</b> adopt O-14 as written – it speeds up onboarding audits.
 
 ### How it works
 
@@ -1057,8 +1043,8 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-14</b> AI-prefilled onboarding audit and Master SEO Document – rank 14, priority 75, strategic, effort M (5–29 h/month, assumed)
-- Your earlier idea: <i>1-click audit (read-only access + AI audit)</i>; you also offered your client-research agent for new-client dossiers (kick-off).
+- <b>O-14</b> AI-prefilled onboarding audit and Master SEO Document – rank 14, priority 75, strategic, effort M
+- Austin's earlier idea: <i>1-click audit (read-only access + AI audit)</i>; Austin also offered his client-research agent for new-client dossiers (kick-off).
 
 ### Problems it fixes and the evidence
 
@@ -1139,7 +1125,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Help docs and systems register</b> – documentation, not a build; connected to the AI brain so @oracle answers from it | <b>A\$0 – no charge</b> (documentation supplied with each build) | – (Notion already paid) |
 </callout>
 
-<b>Your decision (9 Nov):</b> adopt O-16. In your words, it's <b>one place with the information for everything that's built and what to do if something breaks</b>. It sits alongside the AI playbook (DS-02) and covers every solution in this pack as it goes live.
+<b>Decision (9 Nov):</b> adopt O-16. In Austin's words, it's <b>one place with the information for everything that's built and what to do if something breaks</b>. It sits alongside the AI playbook (DS-02) and covers every solution in this pack as it goes live.
 
 ### What goes in it
 
@@ -1156,12 +1142,12 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 
 ### Opportunities it covers
 
-- <b>O-16</b> Own and verify automations: register, backup admin, reconciliation – rank 16, quick win, effort S (1–4 h/month, assumed). Includes naming and training a <b>second Monday/Make admin</b> and a <b>monthly check</b> that HubSpot tickets and Monday tasks match each client's scope; the HubSpot/Monday keep-or-trim decision before renewal comes out of the register.
+- <b>O-16</b> Own and verify automations: register, backup admin, reconciliation – rank 16, quick win, effort S. Includes naming and training a <b>second Monday/Make admin</b> and a <b>monthly check</b> that HubSpot tickets and Monday tasks match each client's scope; the HubSpot/Monday keep-or-trim decision before renewal comes out of the register.
 
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/40fe204ff769813ea8eec750d9aace68">Slack bots and agents have no visible owner or documentation</mention> – <i>"But if I'm not there, who's going to do it? It needs to have that system in place."</i> – the technical SEO specialist who built and maintains it (SB-PP11).
-- Also helps (you parked this problem): <mention url="https://app.notion.com/p/410e204ff76981998f05d3821fbd38e3">HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost</mention> – the register documents these automations so errors are found faster; it doesn't fix them. <i>"the person who closes the deal on HubSpot is never the person who's going to manage the client account."</i> (SB-PP10), fixed by hand each time.
+- Also helps (parked for now): <mention url="https://app.notion.com/p/410e204ff76981998f05d3821fbd38e3">HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost</mention> – the register documents these automations so errors are found faster; it doesn't fix them. <i>"the person who closes the deal on HubSpot is never the person who's going to manage the client account."</i> (SB-PP10), fixed by hand each time.
 - Unowned automations: the pacing bot has no visible owner or documentation (<i>inferred from the interview, not stated</i> – SD-PP19), and the Supermetrics feed failed without anyone owning the fix (DS-01).
 
 ### Future state
@@ -1226,7 +1212,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 <i>Maintenance for the link-building solutions (DS-07, DS-11, DS-12, DS-31) may be consolidated into one fee – to settle at the end.</i>
 </callout>
 
-<b>Your decision (9 Nov):</b> go <b>straight to a link-building workflow CRM</b> (not the sheets-first route in O-18), covering the whole workflow <b>including outreacher invoicing and payments</b>. Recommended: a custom AI-native build. The link watchdog (DS-07) reads its link list from here.
+<b>Decision (9 Nov):</b> go <b>straight to a link-building workflow CRM</b> (not the sheets-first route in O-18), covering the whole workflow <b>including outreacher invoicing and payments</b>. Recommended: a custom AI-native build. The link watchdog (DS-07) reads its link list from here.
 
 ### What it covers (draft)
 
@@ -1241,13 +1227,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-18</b> One link record: standard order template, auto-sync, invoice run – rank 18, strategic, effort M (6–26 h/month, assumed) – rebuilt as a CRM.
-- Your earlier idea: <i>link-building CRM</i>. Leadership asked for it directly (KO-PP16).
+- <b>O-18</b> One link record: standard order template, auto-sync, invoice run – rank 18, strategic, effort M – rebuilt as a CRM.
+- Austin's earlier idea: <i>link-building CRM</i>. Leadership asked for it directly (KO-PP16).
 
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/40fe204ff769810ca893d816b25addef">Link building runs on 7+ disconnected spreadsheets</mention> – Solve now. Staff + leadership. <i>"I would love, like, a CRM for our link-building team specifically. That is still being run out of spreadsheets."</i> – Head of Client Services (KO-PP16). <i>"every published links I've found here. I encode it to the master sheet."</i> – the outreach specialist, re-keying all 300–340 links a month by hand (TG-PP06). Orders are copy-pasted into each publisher's own sheet and order numbers sometimes change (TG-PP05); the home-built Monday sync is unreliable (TG-PP07); leadership: links are <i>"still kind of manually being copied over into the CRM for reporting"</i> (MP-PP14).
-- <mention url="https://app.notion.com/p/40fe204ff7698131876fec27eeb87b51">Outreacher invoicing tracked as PayPal links in spreadsheet cells</mention> – Solve later; included per your decision.
+- <mention url="https://app.notion.com/p/40fe204ff7698131876fec27eeb87b51">Outreacher invoicing tracked as PayPal links in spreadsheet cells</mention> – Solve later; included as decided.
 - <b>Link lead's time on admin:</b> <i>"it's like typically going to like that admin side rather than like helping do bigger things and growing the team"</i> (KZ-PP08). Leadership: no manpower to improve it (MP-PP15).
 - <b>Home-built tools nobody else understands:</b> four home-built tools run by one person; the outreach specialist isn't sure they work properly (<i>undocumented status inferred, not stated</i> – TG-PP09).
 - Enables DS-07: <mention url="https://app.notion.com/p/40fe204ff76981f989dcde7f6575b490">Paid links disappear after payment – detected manually</mention> needs one clean link list.
@@ -1264,7 +1250,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Published links re-keyed by hand | All 300–340 a month (TG-O02) | 0 |
+| Published links re-keyed by hand | \~283 a month (client board) | 0 |
 | Order-number mismatches per month | "sometimes" (TG-O03) | 0 |
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time (KZ-PP08) | Baseline, then −50% |
@@ -1305,9 +1291,9 @@ See this solution's green <b>Pricing & priority</b> box above.
 - Existing sheets can be migrated (link history, order IDs) without losing data.
 - Payment method (PayPal or other) stays the same; only the tracking moves.
 
-### Open questions for you
+### Build vs buy
 
-- <b>Build vs buy:</b> custom build, or an off-the-shelf link-building CRM (e.g. Pitchbox, BuzzStream, Respona)? Claude can compare them on publisher portals, invoicing and Monday sync when you're ready.
+- Off-the-shelf link-building CRMs (e.g. Pitchbox, BuzzStream, Respona) were considered; a <b>custom AI-native build</b> is recommended so it fits Aperitif's broker and publisher workflow and connects to the client brain.
 
 ---
 
@@ -1331,7 +1317,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Link supply engine – Claude skill</b> (vetting + client matching), results passed into the link-building CRM (DS-11) through a <b>custom MCP</b> | <b>A\$500</b> | Absorbed into the link-building CRM maintenance (DS-11); runs on Claude seats |
 </callout>
 
-<b>Your decision (9 Nov):</b> adopt O-20 as written. It works as the <b>sourcing stage of the link-building CRM (DS-11)</b>: domains are vetted and matched before they become orders.
+<b>Decision (9 Nov):</b> adopt O-20 as written. It works as the <b>sourcing stage of the link-building CRM (DS-11)</b>: domains are vetted and matched before they become orders.
 
 ### How it works
 
@@ -1343,7 +1329,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-20</b> Widen link supply: shared vetting skill, client matching, mentions – rank 20, strategic, effort M (5–20 h/month, assumed)
+- <b>O-20</b> Widen link supply: shared vetting skill, client matching, mentions – rank 20, strategic, effort M
 
 ### Problems it fixes and the evidence
 
@@ -1410,10 +1396,10 @@ See this solution's green <b>Pricing & priority</b> box above.
 ## DS-13 · Merged into DS-14 – Escalation and delegation rules
 
 <callout icon="🔗" color="gray_bg">
-<b>Merged into DS-14 (your call, 9 Nov).</b> This is now <b>Part B of DS-14 · Client health & growth intelligence</b>: DS-14's alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift. Its cost of inactivity is not added to DS-14's.
+<b>Merged into DS-14 (Austin's call, 9 Nov).</b> This is now <b>Part B of DS-14 · Client health & growth intelligence</b>: DS-14's alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift.
 </callout>
 
-<b>Your decision (9 Nov):</b> the O-21 rules are fine, but they must be <b>connected to the anti-churn and growth intelligence (DS-14)</b>: its alerts are what trigger an escalation, and the rules say who acts on each one.
+<b>Decision (9 Nov):</b> the O-21 rules are fine, but they must be <b>connected to the anti-churn and growth intelligence (DS-14)</b>: its alerts are what trigger an escalation, and the rules say who acts on each one.
 
 ### The rules
 
@@ -1428,7 +1414,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-21</b> Delegation and triage rules for escalations and sign-offs – rank 21, quick win, effort S (5–16 h/month, assumed)
+- <b>O-21</b> Delegation and triage rules for escalations and sign-offs – rank 21, quick win, effort S
 
 ### Problems it fixes and the evidence
 
@@ -1449,16 +1435,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Escalations handled by department leads | Low – \~5 a week go to the Head of Client Services (KO-PP05) | ≥ 50% |
 | Contracts signed without the founder | 0% (KO-O05) | All standard SME deals |
 | Tier 1 accounts with a second relationship owner | Unknown (KO-PP02) | 100% |
-
-### Cost of inactivity (COI)
-
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable leadership and senior time | 5–16 h (\$0.4K–\$1.3K) | <b>\$5K–\$15K</b> |
-
-Also at risk, not quantified: Tier 1 relationships lost if the founder steps back (KO-PP02); the Head of Client Services' time absorbed by escalations instead of growth; leads not developing because decisions skip them.
-
-<i>Basis: O-21 recoverable hours (mostly founder, Head of Client Services and director time). Assumed. \$80/hr – leadership time is worth more than the internal rate, so this understates it.</i>
 
 ### Indicative build cost and OpEx
 
@@ -1495,7 +1471,7 @@ Covered by DS-14 – see its <b>Pricing & priority</b> box.
 <i>Needs DS-04 live for 2–3 months first; privacy check on profiling client contacts before launch.</i>
 </callout>
 
-<b>Your decision (9 Nov):</b> a <b>proactive system</b> that tracks every client's words and sentiment, builds a picture of each contact's <b>personality type</b>, watches for <b>signals of churn</b> and <b>signals of room to cross-sell or expand</b>, and alerts the right people. It learns from outcomes, so it <b>gets smarter over time</b> – the aim is to minimise churn and maximise account growth.
+<b>Decision (9 Nov):</b> a <b>proactive system</b> that tracks every client's words and sentiment, builds a picture of each contact's <b>personality type</b>, watches for <b>signals of churn</b> and <b>signals of room to cross-sell or expand</b>, and alerts the right people. It learns from outcomes, so it <b>gets smarter over time</b> – the aim is to minimise churn and maximise account growth.
 
 ### How it works (draft)
 
@@ -1511,12 +1487,12 @@ Covered by DS-14 – see its <b>Pricing & priority</b> box.
 
 - <b>O-31</b> Weekly churn-risk signal list per client – rank 31, strategic, effort M (1–8 h/month; protects retention revenue) – extended from a weekly list to continuous alerts with AI.
 - <b>O-23</b> "Problem plus recommendation" rule – the <b>opportunities / upsell</b> part (rank 23).
-- Your notes: anti-churn and growth AI tracking and alerting.
+- Austin's notes: anti-churn and growth AI tracking and alerting.
 
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/410e204ff769813f888bfe3b3ee38213">Churn risk is spotted late and account teams report rather than advise</mention> – leadership + 1 staff. <i>"you can just recognise it based on their behaviour. Asking to see the contract, I haven't seen you in a while, new marketing manager coming in"</i> – Head of Client Services (KO-PP06, <i>problem inferred from her description</i>). A <b>six-year client was lost</b> after poor feedback (MP-PP16). <i>"Some go out of the blue."</i> – SEO director (LS-PP15).
-- <b>Missed growth:</b> upsell is occasional – <i>"a few upsells, but not much. That's an opportunity."</i> (LS-PP09, raised by you); teams describe metrics rather than bringing a recommendation (KO-PP20); busy teams risk <i>"just going through the motions"</i> (LS-PP08).
+- <b>Missed growth:</b> upsell is occasional – <i>"a few upsells, but not much. That's an opportunity."</i> (LS-PP09, raised by Austin); teams describe metrics rather than bringing a recommendation (KO-PP20); busy teams risk <i>"just going through the motions"</i> (LS-PP08).
 - <mention url="https://app.notion.com/p/40fe204ff76981e2924cfbae1ffa8478">Escalations route around department leads to the Head of Client Services</mention> – she keeps them partly as her early-warning signal (KO-PP21); DS-14 gives everyone that signal.
 
 ### Future state (draft)
@@ -1576,11 +1552,8 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 - <b>Who gets alerts:</b> the account owner, the <b>department lead and Julia at every risk level</b>. Julia's alerts can be <b>toggled on and off</b>; she wants them on for now. (DS-13's aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
 - <b>Churn basis:</b> the client board (10 archived clients ended 31 Aug–17 Oct 2026, average \~A\$2,500); 3–4 saved a year is Austin's estimate – confirm the churn rate with Joe.
-
-### Open questions for you
-
 - <b>Personality profiles:</b> client contacts only – not prospects.
-- <b>Merged with DS-13 (your call, 9 Nov):</b> the escalation and delegation rules (O-21) are Part B of this solution – see the DS-13 section above for the rules, evidence and their own cost of inactivity (\$5K–\$15K a year, leadership time).
+- <b>Merged with DS-13 (Austin's call, 9 Nov):</b> the escalation and delegation rules (O-21) are Part B of this solution – see the DS-13 section above for the rules and evidence.
 
 ---
 
@@ -1611,7 +1584,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>AI Business Brain – company layer</b>: @oracle front door, home view, weekly leadership pulse; <b>Joe's OpenClaw agents move into it</b> | <b>A\$2,500</b> (placeholder – scope not fully defined yet) | <b>TBC</b>  • AI tokens \~US\$2–15/month |
 </callout>
 
-<b>Your decision (9 Nov):</b> the AI Business Brain is the <b>umbrella</b>. It has solutions under it – the client brain, <b>smart SOPs people can query</b>, and similar – rather than being one separate tool.
+<b>Decision (9 Nov):</b> the AI Business Brain is the <b>umbrella</b>. It has solutions under it – the client brain, <b>smart SOPs people can query</b>, and similar – rather than being one separate tool.
 
 ### What sits under it
 
@@ -1628,15 +1601,15 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Opportunities it covers
 
 - <b>O-27</b> AI business brain over client records and SOPs – rank 27, Consider, effort L (1–4 h/month on its own) – <b>the company-wide layer</b>; the per-client part is DS-04.
-- Your earlier ideas: <i>AI Business Brain</i>, <i>Team wiki – fast answers, self-updating, fits into workflows</i>.
+- Austin's earlier ideas: <i>AI Business Brain</i>, <i>Team wiki – fast answers, self-updating, fits into workflows</i>.
 
 ### Problems it fixes and the evidence
 
 - <b>No usable wiki; the founder re-explains things:</b> <i>"No. We need a wiki badly."</i> – Head of Client Services (KO-PP15). <i>"I'm sick of just explaining the same thing over and over again."</i> – leadership (MP-PP04). Linked problems: <mention url="https://app.notion.com/p/40fe204ff76981e1ac5af94b85e59678">Documentation is stale and rarely read</mention>, <mention url="https://app.notion.com/p/40fe204ff7698159a507c9835dc6a1f0">Documentation and internal tooling held by the founder</mention>.
-- <b>The AI assistant nobody uses:</b> <i>"it's got access to the team via a Slack channel. No one utilises it."</i> – founder (KO-PP14). Transcripts paid for but unused: <i>"I think I'm the only one that does anything with the transcripts."</i> (MP-PP20, <i>raised by you</i>).
-- <b>Leadership visibility:</b> can't see whether work is happening on remote days (MP-PP06, <i>raised by you</i>); account data isn't pre-synthesised (<i>your own observation in the mid-point interview, not staff evidence</i> – MP-PP17).
-- <mention url="https://app.notion.com/p/40fe204ff769811f9330cde79b4e0b11">No single home for current templates – versions held by individuals</mention> – Solve now. The brain becomes the one home for current templates: the playbook (DS-02) holds the master templates and the brain answers "where's the latest X template?" with the link (your call, 9 Nov).
-- <mention url="https://app.notion.com/p/412e204ff76981af9182ca6683db10ee">Teams work in silos and don't see each other's work or priorities</mention> – Solve now (culture). Every team reads the same client brains and company layer, so SEO, paid and content see each other's work and priorities for a client (your call, 9 Nov).
+- <b>The AI assistant nobody uses:</b> <i>"it's got access to the team via a Slack channel. No one utilises it."</i> – founder (KO-PP14). Transcripts paid for but unused: <i>"I think I'm the only one that does anything with the transcripts."</i> (MP-PP20, <i>raised by Austin</i>).
+- <b>Leadership visibility:</b> can't see whether work is happening on remote days (MP-PP06, <i>raised by Austin</i>); account data isn't pre-synthesised (<i>Austin's own observation in the mid-point interview, not staff evidence</i> – MP-PP17).
+- <mention url="https://app.notion.com/p/40fe204ff769811f9330cde79b4e0b11">No single home for current templates – versions held by individuals</mention> – Solve now. The brain becomes the one home for current templates: the playbook (DS-02) holds the master templates and the brain answers "where's the latest X template?" with the link (Austin's call, 9 Nov).
+- <mention url="https://app.notion.com/p/412e204ff76981af9182ca6683db10ee">Teams work in silos and don't see each other's work or priorities</mention> – Solve now (culture). Every team reads the same client brains and company layer, so SEO, paid and content see each other's work and priorities for a client (Austin's call, 9 Nov).
 - <b>Systems not followed:</b> <i>"you can build the best system in the world, but like, people don't use it"</i> – founder (KO-PP10). This is the brain's main adoption risk.
 - <mention url="https://app.notion.com/p/412e204ff769811fb874c5d98c0c5b0e">Problems are fixed after they break, by individual vigilance</mention> – Solve now (culture). The brain and the proactive solutions under it (pacing alerts DS-01, link watchdog DS-07, health signals DS-14, market radar DS-16, systems register DS-10) shift the team from reacting to being warned early.
 
@@ -1657,7 +1630,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Value (revised with Austin, 10 Nov)
 
-<b>Better visibility for leadership, not hours.</b> One place to ask anything about the business in Slack, a weekly leadership pulse, and a home for Joe's OpenClaw agents. Its value is optics: leadership sees what's happening without asking around. No hours claimed.
+<b>Better visibility for leadership, not hours.</b> One place to ask anything about the business in Slack, a weekly leadership pulse, and a home for Joe's OpenClaw agents. Its value is visibility: leadership sees what's happening without asking around. No hours claimed.
 
 <b>Problems it eliminates:</b> <b>P-12</b> Documentation is stale and rarely read · <b>P-13</b> Documentation and internal tooling held by the founder · <b>P-25</b> No single home for current templates · helps <b>P-47</b> and <b>P-48</b>
 
@@ -1684,7 +1657,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Vision
 
 <callout icon="🎯" color="blue_bg">
-<b>Split into three solutions (your call, 9 Nov):</b> DS-16 is now the <b>seasonal & trending content radar</b>; the <b>competitor spy</b> is DS-32 and the <b>macro trend tracker</b> is DS-33. Each one <b>lives in every client's brain</b> (DS-04) and <b>alerts the strategist in Slack</b>. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
+<b>Split into three solutions (Austin's call, 9 Nov):</b> DS-16 is now the <b>seasonal & trending content radar</b>; the <b>competitor spy</b> is DS-32 and the <b>macro trend tracker</b> is DS-33. Each one <b>lives in every client's brain</b> (DS-04) and <b>alerts the strategist in Slack</b>. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
 </callout>
 
 ### Pricing & priority
@@ -1697,7 +1670,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Seasonal & trending content radar</b> – a <b>Claude routine</b> connected to an MCP that uploads results into each AI client brain (DS-04) and alerts the strategist in Slack | <b>A\$750</b> | <b>A\$300/month</b> maintenance (+ trends/search data source if needed, \~US\$20–100/month – to verify) |
 </callout>
 
-<b>Your decision (9 Nov):</b> one radar <b>for each client</b> with three parts: a <b>seasonal and trending content radar</b>, a <b>competitor spy</b>, and a <b>macro trend tracker</b> for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain (DS-15) and writes into each client brain (DS-04).
+<b>Decision (9 Nov):</b> one radar <b>for each client</b> with three parts: a <b>seasonal and trending content radar</b>, a <b>competitor spy</b>, and a <b>macro trend tracker</b> for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain (DS-15) and writes into each client brain (DS-04).
 
 ### The three parts
 
@@ -1711,8 +1684,8 @@ All three post to the client's strategist (Slack/Monday) and are stored in the c
 
 ### Opportunities it covers
 
-- <b>O-28</b> Seasonal, trending and competitor content radar – rank 28, Consider, effort M (2–7 h/month, assumed)
-- Your earlier ideas: <i>Seasonal & trending content radar per client</i>, <i>Macro trend tracker agent for client industries</i>.
+- <b>O-28</b> Seasonal, trending and competitor content radar – rank 28, Consider, effort M
+- Austin's earlier ideas: <i>Seasonal & trending content radar per client</i>, <i>Macro trend tracker agent for client industries</i>.
 
 ### Problems it fixes and the evidence
 
@@ -1754,7 +1727,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Hours saved assumed; evidence is from organic only (2 people).
+- Evidence is from organic only (2 people).
 - Each client's competitor list and niche keywords exist or can be pulled from the Master SEO Document.
 - Alert volume is tuned per client so strategists aren't flooded.
 
@@ -1784,7 +1757,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 <i>Staff time to move their files is separate.</i>
 </callout>
 
-<b>Your decision (9 Nov):</b> adopt O-30, <b>connected to the AI client brains (DS-04)</b> – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
+<b>Decision (9 Nov):</b> adopt O-30, <b>connected to the AI client brains (DS-04)</b> – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
 
 ### What changes
 
@@ -1795,7 +1768,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-30</b> Client files and logins in company-owned shared locations – rank 30, quick win, effort S (1–4 h/month, assumed)
+- <b>O-30</b> Client files and logins in company-owned shared locations – rank 30, quick win, effort S
 
 ### Problems it fixes and the evidence
 
@@ -1848,13 +1821,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 <callout icon="🎯" color="blue_bg">
 <b>An AI tool like "Landing Page Labs":</b> clone a client's website brand identity (colours, fonts, style) and make landing pages for ads. It uses Aperitif's own <b>CRO-optimised page structures</b>; the team just customises the content, assets and creatives in a CMS.
 
-<b>Buy-first check (9 Nov):</b> off-the-shelf AI builders already do brand cloning and AI page generation – e.g. LanderLab (clone any page from a URL), Leadpages (generate a page from a website with brand Style Kits), Flint (extracts a brand system from the client's site), Swipe Pages and Unbounce (AI builder, A/B testing, dynamic text replacement for ad keywords). Worth trialling one with Aperitif's CRO templates before building.
+Off-the-shelf builders (LanderLab, Leadpages, Unbounce) were compared; a custom generator is recommended so Aperitif can offer landing pages as a service.
 </callout>
 
 ### Pricing & priority
 
 <callout icon="💵" color="green_bg">
-<b>Priority: Impact 2 / 5 · Effort 2 / 5 (draft – re-score for custom build)</b> · Standalone
+<b>Priority: Impact 2 / 5 · Effort 2 / 5 (draft)</b> · Standalone
 
 | Option | Build cost | Monthly cost |
 | --- | --- | --- |
@@ -1862,13 +1835,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <i>For comparison – off-the-shelf builder</i> (e.g. LanderLab) with Aperitif templates | – | US\$119–239/month |
 </callout>
 
-<b>Your decision (9 Nov):</b> add the landing page generator (your earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
+<b>Decision (9 Nov):</b> add the landing page generator (Austin's earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
 
 ### How it works (draft)
 
 1. The manager picks the client, campaign and offer.
 2. The generator pulls the client's brand, tone, style guide and USPs from the client brain (DS-04), and the campaign's keywords and ad copy.
-3. It builds the page from Aperitif's own templates – copy, layout, form, tracking tags – ready to publish to the client's CMS or a hosted page.
+3. It builds the page from Aperitif's own templates – copy, layout, form, tracking tags – ready to publish on Aperitif's hosted page builder.
 4. The manager reviews and edits, then publishes. Variants for testing can be generated from the same page.
 
 ### Problems it fixes and the evidence
@@ -1904,14 +1877,14 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Your suggestion; evidence is leadership + one staff member.
-- Clients' CMSs allow publishing generated pages (or a hosted page builder is used).
+- Austin's suggestion; evidence is leadership + one staff member.
+- Pages are published on Aperitif's own hosted page builder, so no client CMS access is needed.
 
 ### Decided (9 Nov)
 
 - <b>Aperitif-controlled hosting</b> – pages are mainly <b>landing pages for ads</b>, published on a page builder Aperitif controls (not the client's CMS).
-- <b>Internal tool for now</b> – not sold as a separate product yet.
-- Pages outsourced per year: <b>unknown</b> – COI stays unquantified until counted (worth asking the performance director).
+- <b>Offered to clients as a service.</b>
+- Pages outsourced per year: <b>unknown</b>.
 
 ---
 
@@ -1922,7 +1895,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 <callout icon="🎯" color="blue_bg">
 <b>Just a call director.</b> An inbound new lead goes to Joe; an existing client goes to their account manager. Nothing more complex than that.
 
-<b>Options for Joe (your call, 9 Nov):</b>
+<b>Options for Joe (Austin's call, 9 Nov):</b>
 
 - <b>Recommended: Aircall's AI receptionist add-on</b> – about <b>A\$370/month</b> for 1,000 minutes; nothing to build or maintain.
 - <b>Alternative: Transpera builds a simple call director</b> – cheaper to run, but a build to maintain (needs a feasibility study before pricing).
@@ -1939,7 +1912,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Custom call director</b> | <b>Needs a deeper feasibility study</b> before pricing | – |
 </callout>
 
-<b>Your decision (9 Nov):</b> add the AI receptionist (your earlier idea). There's no merged opportunity and <b>little direct interview evidence</b> – it goes in as your recommendation.
+<b>Decision (9 Nov):</b> add the AI receptionist (Austin's earlier idea). There's no merged opportunity and <b>little direct interview evidence</b> – it goes in as Austin's recommendation.
 
 ### How it works (draft)
 
@@ -1949,7 +1922,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Problems it fixes and the evidence
 
-- <b>Lead handling (indirect):</b> only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget (KO-PP18, leadership). Sales still depends on the founder (KO-PP17). An AI receptionist would qualify and book leads quickly. <i>Note: you rejected the related problem "Growth depends on the founder and inbound leads".</i>
+- <b>Lead handling (indirect):</b> only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget (KO-PP18, leadership). Sales still depends on the founder (KO-PP17). An AI receptionist would qualify and book leads quickly. <i>Note: Austin rejected the related problem "Growth depends on the founder and inbound leads".</i>
 - <b>Existing tool:</b> the context pack says the Aircall phone system reportedly already has an AI receptionist <i>(unverified)</i>.
 
 ### Future state
@@ -1977,8 +1950,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Your suggestion; weak interview evidence.
-- Aircall's existing AI receptionist to be checked first – it may already do this.
+- Austin's suggestion; weak interview evidence.
 
 ### Decided (9 Nov)
 
@@ -1986,9 +1958,9 @@ See this solution's green <b>Pricing & priority</b> box above.
 - <b>Phone only.</b>
 - <s>Uses Aircall's built-in AI receptionist</s> <b>Corrected (audit, 9 Nov):</b> Aircall's AI receptionist is a <b>paid add-on</b> (about A\$370/month for 1,000 minutes), not built in.
 
-### Open questions for you
+### Open questions
 
-- <b>Build vs buy, and is it worth it?</b> Austin to research whether a custom AI receptionist is cheaper or better than Aircall's add-on, and whether call volumes justify either.
+- Open: whether call volumes justify the add-on.
 
 ---
 
@@ -2010,7 +1982,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>New-client dossier</b> – Claude, connected through an MCP to the AI client brain (DS-04) | <b>A\$200</b> | Absorbed into the client brain maintenance (DS-04); runs on Claude seats |
 </callout>
 
-<b>Your decision (9 Nov):</b> option B – when a client <b>signs</b>, an agent researches them and loads a dossier into the <b>client brain (DS-04)</b>. (Prospect research before the sales call is not included.)
+<b>Decision (9 Nov):</b> option B – when a client <b>signs</b>, an agent researches them and loads a dossier into the <b>client brain (DS-04)</b>. (Prospect research before the sales call is not included.)
 
 ### How it works (draft)
 
@@ -2022,7 +1994,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Problems it fixes and the evidence
 
 - <b>New-client research done by hand:</b> <i>"if we bring on a new client, I do want to stalk them across the internet"</i> – Head of Client Services (KO-PP22). Ownership, private equity and LinkedIn profiles are looked up manually; there's no client dossier. Linked problem: <mention url="https://app.notion.com/p/40fe204ff769816bb3a6ed13ce47da58">Onboarding stalls on client access and disrupts BAU</mention>.
-- You offered your own client-research agent for this at kick-off.
+- Austin offered his own client-research agent for this at kick-off.
 
 ### Future state
 
@@ -2049,7 +2021,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Your suggestion, supported by one leadership quote.
+- Austin's suggestion, supported by one leadership quote.
 - Uses public information only; LinkedIn data access to be confirmed.
 
 ### Decided (9 Nov)
@@ -2076,7 +2048,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>AI creative tools – recommendations only</b> (Canva AI first; trial [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield for a month) | <b>A\$0 – free</b> | \~US\$70–380/month for two tools, depending on tier (Canva already paid) |
 </callout>
 
-<b>Your decision (9 Nov):</b> no build – recommend <b>existing AI tools</b> the team can use to augment creative production.
+<b>Decision (9 Nov):</b> no build – recommend <b>existing AI tools</b> the team can use to augment creative production.
 
 ### Suggested shortlist to trial (research, Nov 2026 – verify pricing and fit before recommending)
 
@@ -2148,7 +2120,7 @@ Simple ad variants and resizes are made in-house with AI tools in minutes; the d
 | <b>SEO performance bundle</b> – Monday performance check, drop and anomaly alerts, mid-month wins (shared GA4 / Search Console / Ahrefs pipeline) | <b>A\$8,500</b> | <b>A\$1,250/month</b> maintenance + AI tokens \~US\$8–35/month |
 </callout>
 
-<b>Team:</b> SEO. <b>Your decision (9 Nov):</b> a separate solution for the SEO team (DS-01 is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
+<b>Team:</b> SEO. <b>Decision (9 Nov):</b> a separate solution for the SEO team (DS-01 is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
 
 ### How it works
 
@@ -2193,7 +2165,7 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 | --- | --- |
 | SEO managers | 4 (per org chart; \~17 clients each) |
 | MRR managed per manager today | \~A\$55.6K (A\$222,374 live SEO MRR across 68 clients ÷ 4) |
-| Time freed per manager | \~5–11 h/month ≈ 4–8% of \~130 productive hours (assumption) |
+| Time freed per manager | \~4–10 h/month ≈ 3–8% of \~130 productive hours (assumption) |
 | <b>Capacity unlocked across the SEO team</b> | <b>\~A\$7.3K–16.8K MRR ≈ A\$88K–202K a year</b> (≈ 2–5 more SEO clients at the \~A\$3,270 average) |
 
 Capacity to grow into without hiring, not guaranteed revenue.
@@ -2230,7 +2202,7 @@ Shared with DS-22: <b>proactive performance intel comes to the team</b> – drop
 <b>Pricing:</b> part of the <b>SEO performance bundle</b> – see DS-22 (A\$8,500 build, A\$1,250/month for DS-22 + DS-23 + DS-24).
 </callout>
 
-<b>Team:</b> SEO. <b>Your decision (9 Nov):</b> separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
+<b>Team:</b> SEO. <b>Decision (9 Nov):</b> separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
 
 ### How it works
 
@@ -2266,7 +2238,7 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 
 | Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Working out why a client dropped (collating data, reading market signals) | 68 clients × \~0.4 drops a month × 15–25 min saved (20–30 min → \~5 min) | <b>\~7–11 h</b> (\~3.5–6 h per manager) |
+| Working out why a client dropped (collating data, reading market signals) | 68 clients × \~0.4 drops a month × 15–25 min saved (20–30 min → \~5 min) | <b>\~7–11 h</b> (\~2–3 h per manager) |
 
 <b>2. Capacity and revenue unlocked:</b> \~7–11 h ÷ \~130 productive hours × \~A\$55.6K MRR per manager → <b>\~A\$2.9K–4.9K MRR across the SEO team ≈ A\$35K–58K a year of capacity</b> (≈ 1–1.5 more SEO clients). Drops found early also protect retention.
 
@@ -2301,7 +2273,7 @@ Shared with DS-22: <b>a steady flow of intel</b> the team uses to report to the 
 <b>Pricing:</b> part of the <b>SEO performance bundle</b> – see DS-22 (A\$8,500 build, A\$1,250/month for DS-22 + DS-23 + DS-24).
 </callout>
 
-<b>Team:</b> SEO. <b>Your decision (9 Nov):</b> separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
+<b>Team:</b> SEO. <b>Decision (9 Nov):</b> separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
 
 ### How it works
 
@@ -2359,7 +2331,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Forecasting simulator</b> – built as Claude skills with a <b>guided simulator</b> (toggle budgets, seasonality, events) and <b>agentic use</b> (it can pull the data and run scenarios itself), PPC and SEO versions | <b>A\$3,000</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$3–30/month |
 </callout>
 
-<b>Team:</b> PPC. <b>Your decision (9 Nov):</b> a forecasting tool that predicts each client's paid performance from history, seasonality, economic trends and predictions, and other outside factors.
+<b>Team:</b> PPC. <b>Decision (9 Nov):</b> a forecasting tool that predicts each client's paid performance from history, seasonality, economic trends and predictions, and other outside factors.
 
 ### How it works (draft)
 
@@ -2373,7 +2345,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 - <mention url="https://app.notion.com/p/40fe204ff76981efb9f8d9efda5367f0">Client-call prep takes longer than the call</mention> – forecasting part:
   - <i>"I used to take like hours doing this and Gemini did it in like 15 minutes"</i> – Wendlley Simoes, Performance Marketing Director, on forecasting (WS-PP12, stated). External shocks also make history unreliable for forecasting.
   - The director's Gemini forecasting is a personal workflow, not shared with the team (WS-PP13, <i>inferred</i>).
-- Source opportunity: WS-O09 – share the director's forecasting approach as a standard for all managers (2–18 h/month, assumed; currently counted in DS-02's prompt library).
+- Source opportunity: WS-O09 – share the director's forecasting approach as a standard for all managers.
 
 ### Future state
 
@@ -2398,7 +2370,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Mainly your suggestion; evidence is one person (the performance director), who has largely solved it personally with Gemini.
+- Mainly Austin's suggestion; evidence is one person (the performance director), who has largely solved it personally with Gemini.
 - Economic and trend data sources to be chosen.
 
 ---
@@ -2415,7 +2387,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 <b>Pricing:</b> part of the <b>forecasting bundle</b> – see DS-25 (A\$3,000 build, A\$300/month for DS-25 + DS-26).
 </callout>
 
-<b>Team:</b> SEO. <b>Your decision (9 Nov):</b> the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
+<b>Team:</b> SEO. <b>Decision (9 Nov):</b> the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
 
 ### How it works (draft)
 
@@ -2427,7 +2399,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Problems it fixes and the evidence
 
 - Related: <i>"it probably wouldn't comment on seasonality. That requires intervention."</i> – Laura, SEO Director, on reports (LS-PP16, <i>raised by the interviewer</i>).
-- No SEO forecasting pain point was raised directly – <b>your addition</b>.
+- No SEO forecasting pain point was raised directly – <b>Austin's addition</b>.
 
 ### KPIs (draft)
 
@@ -2448,7 +2420,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Your suggestion; weak direct evidence.
+- Austin's suggestion; weak direct evidence.
 
 ---
 
@@ -2483,16 +2455,16 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 <i>Needs DS-01 (Adpulse) and DS-04 (client brain) in place.</i>
 </callout>
 
-<b>Team:</b> PPC. <b>Your decision (9 Nov):</b> when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
+<b>Team:</b> PPC. <b>Decision (9 Nov):</b> when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
 
 ### Is it already covered?
 
-<b>Partly.</b> DS-01 (pacing + alerting) <b>alerts</b> on thresholds, and Bïrch-style SaaS runs <b>rules</b> (pause, scale, notify) – neither diagnoses why something happened. O-12 included a "draft diagnosis" step that DS-01 didn't carry over. So this is a separate layer on top of whichever alerting tool you choose in DS-01.
+<b>Partly.</b> DS-01 (pacing + alerting) <b>alerts</b> on thresholds, and Bïrch-style SaaS runs <b>rules</b> (pause, scale, notify) – neither diagnoses why something happened. O-12 included a "draft diagnosis" step that DS-01 didn't carry over. So this is a separate layer on top of DS-01's alerting (Adpulse).
 
 ### How it works (draft)
 
 1. A DS-01 alert (e.g. CPA spike, conversion drop, spend anomaly) triggers the investigator.
-2. It pulls the context: change history, search terms, auction insights, budget and bid changes, landing-page and tracking status, GA4/CRM data.
+2. It pulls the alert's metrics from Adpulse and context from the client brain (DS-04).
 3. It writes a short commentary: what changed, the most likely causes ranked, and what to check first.
 4. The manager gets the alert and the diagnosis together in Slack.
 
@@ -2500,7 +2472,7 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 
 - <mention url="https://app.notion.com/p/40fe204ff76981d8a087ed06b4ec140a">No proactive performance alerting – problems found at month-end</mention> – the diagnosis part:
   - <i>"currently we have a notification … Like, oh, we've noticed like a decrease in conversions in the past like seven, 14 days"</i> – Wendlley, Performance Marketing Director: alerts give no cause, and diagnosis is manual (WS-PP04, stated).
-  - <i>"Even though it's a Google Ads related question, I'll be jumping onto the CRM, GA4 and everything to better understand."</i> – Diya Manoj, Performance Marketing Manager (DM-PP01, stated; est. 3.5–19 h/month).
+  - <i>"Even though it's a Google Ads related question, I'll be jumping onto the CRM, GA4 and everything to better understand."</i> – Diya Manoj, Performance Marketing Manager (DM-PP01, stated).
 - Source: O-12's "draft diagnosis" step (exceptions sent with change history, search terms and auction data).
 
 ### Future state
@@ -2518,7 +2490,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 ### Value (revised with Austin, 10 Nov)
 
 <callout icon="📈" color="green_bg">
-<b>Gets the account manager straight to the fix.</b> When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 15–20 minutes working out what's going on.
+<b>Gets the account manager straight to the fix.</b> When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 20–30 minutes working out what's going on.
 </callout>
 
 <b>1. Time saved and 2. Capacity unlocked:</b> counted in DS-01. The time spent working out what's going on in an account is part of the weekly session already valued there, so it isn't counted again. DS-27 is what makes that time disappear when an alert fires – the diagnosis arrives with it.
@@ -2530,7 +2502,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 <b>Goals:</b> more MRR managed per person · good performance · good customer service
 
-<i>Inputs from Austin (10 Nov): \~20 min to work out what's going on and fix it today.</i>
+<i>Inputs from Austin (10 Nov): \~20–30 min to work out what's going on and fix it today.</i>
 
 ### Indicative build cost and OpEx
 
@@ -2538,7 +2510,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Needs API access to ad accounts, GA4 and the CRM.
+- Needs DS-01 (Adpulse) and DS-04 live.
 
 ---
 
@@ -2560,7 +2532,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>Client comms assistant</b> – monthly updates and expectation-setting notes, approved by the manager, saved to the client brain | <b>A\$1,000</b> | <b>A\$200/month</b> maintenance + AI tokens \~US\$10–40/month |
 </callout>
 
-<b>Team:</b> account managers (PPC and SEO). <b>Your decision (9 Nov):</b> a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
+<b>Team:</b> account managers (PPC and SEO). <b>Decision (9 Nov):</b> a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
 
 ### How it works (draft)
 
@@ -2573,7 +2545,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 - <b>Comms crowd out strategy:</b> <i>"Based on the 24-hour turnaround time, I would have to focus on the comms, which then... would lead to not implementing the strategies."</i> – Sophie Hesseborn, Senior Performance Marketing Manager (SH-PP09, stated).
 - <mention url="https://app.notion.com/p/410e204ff769813f888bfe3b3ee38213">Churn risk is spotted late and account teams report rather than advise</mention>: <i>"the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy"</i> – Julia, Head of Client Services (KO-PP20). Clients may misread seasonal dips (LS-PP16, <i>raised by the interviewer</i>).
-- Related: O-23's "problem plus recommendation" rule (which you kept dropped as a rule) – this tool does it in the drafts instead.
+- Related: O-23's "problem plus recommendation" rule (which stays dropped as a rule) – this tool does it in the drafts instead.
 
 ### Future state
 
@@ -2602,7 +2574,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Assumptions
 
 - Managers approve every message before it goes; nothing is sent to clients automatically without review.
-- Your suggestion, supported by SH-PP09 and KO-PP20.
+- Austin's suggestion, supported by SH-PP09 and KO-PP20.
 
 ---
 
@@ -2626,7 +2598,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 | <b>PPC Monday performance check – with Adpulse</b> (Adpulse dashboards and monitors + a Claude summary per client to Slack/Monday and the brain) | <b>A\$1,500</b> | <b>A\$500/month</b> maintenance + AI tokens \~US\$5–25/month (Adpulse licence counted in DS-01) |
 </callout>
 
-<b>Team:</b> PPC. <b>Your decision (9 Nov):</b> the PPC version of DS-22 – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
+<b>Team:</b> PPC. <b>Decision (9 Nov):</b> the PPC version of DS-22 – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
 
 ### How it is different from DS-01 and DS-27
 
@@ -2644,7 +2616,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/40fe204ff76981d8a087ed06b4ec140a">No proactive performance alerting – problems found at month-end</mention> – the weekly-check part:
-  - <i>"the one Tina is sending it out is just budget basing… I look for each of the accounts, which actually takes time."</i> – Diya Manoj, Performance Marketing Manager (DM-PP02, stated; est. 8.8–20.9 h/month for one manager).
+  - <i>"the one Tina is sending it out is just budget basing… I look for each of the accounts, which actually takes time."</i> – Diya Manoj, Performance Marketing Manager (DM-PP02, stated).
   - <i>"I wanted Tina to report the performance of the account."</i> – Michaela Cruz, Performance Marketing Specialist (MC-PP08, stated).
   - Tracking breaks found only in manual checks, up to \~7 days later (SH-PP11, Sophie Hesseborn); meeting-heavy weeks delay checks (SH-PP12).
   - <i>"I haven't checked Google Merchant Center for like three weeks now."</i> – Michaela Cruz (MC-PP18, stated).
@@ -2681,7 +2653,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ## DS-30 · Daily priorities assistant
 
-<b>Team:</b> everyone. <b>Your decision (9 Nov):</b> split out of DS-06 as its own solution.
+<b>Team:</b> everyone. <b>Decision (9 Nov):</b> split out of DS-06 as its own solution.
 
 ### Vision
 
@@ -2718,7 +2690,7 @@ See this solution's green <b>Pricing & priority</b> box above.
   - About an hour a day on email triage (SB-PP02, stated: <i>"In a day, an hour."</i>).
   - Priority field often blank, no forward view of the week (MC-PP03, Michaela Cruz).
 - Also helps: <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> (partly – the right work surfaces first).
-- Source: O-29 – AI inbox triage and daily brief across Gmail, Slack and Monday (6–11 h/month for one person, assumed).
+- Source: O-29 – AI inbox triage and daily brief across Gmail, Slack and Monday.
 
 ### Future state
 
@@ -2753,7 +2725,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ## DS-31 · Proactive brand-mention tracking for backlinks
 
-<b>Team:</b> link building / SEO. <b>Your decision (9 Nov):</b> split out of DS-12 as its own solution.
+<b>Team:</b> link building / SEO. <b>Decision (9 Nov):</b> split out of DS-12 as its own solution.
 
 ### Vision
 
@@ -2815,7 +2787,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ## DS-32 · Competitor spy per client
 
-<b>Team:</b> SEO and content strategists (paid can use it too). <b>Your decision (9 Nov):</b> split out of DS-16.
+<b>Team:</b> SEO and content strategists (paid can use it too). <b>Decision (9 Nov):</b> split out of DS-16.
 
 ### Vision
 
@@ -2826,7 +2798,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Pricing & priority
 
 <callout icon="💵" color="green_bg">
-<b>Priority: Reconsider · Impact 2 / 5 · Effort 3 / 5 (draft – confirm)</b> · Bundle: Market intelligence
+<b>Priority: Fill-in · Impact 2 / 5 · Effort 3 / 5 (draft – confirm)</b> · Bundle: Market intelligence
 
 | Item | Build cost | Monthly cost |
 | --- | --- | --- |
@@ -2870,7 +2842,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ## DS-33 · Macro trend tracker per client
 
-<b>Team:</b> SEO, content and paid strategists. <b>Your decision (9 Nov):</b> split out of DS-16.
+<b>Team:</b> SEO, content and paid strategists. <b>Decision (9 Nov):</b> split out of DS-16.
 
 ### Vision
 
@@ -2919,6 +2891,6 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Your earlier idea plus Zach's suggestion; one stated example (ZC-PP17).
+- Austin's earlier idea plus Zach's suggestion; one stated example (ZC-PP17).
 </content>
 </page>

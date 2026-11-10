@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["ZC-PP15"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified separately"
+value: "React to competitors first"
 build_cost: "A$1,000"
 monthly: "A$300/month + tokens ~US$10–40 (+ optional Visualping US$100–140)"
 notion_section: "Competitor spy per client"
@@ -40,7 +40,7 @@ notion_section: "Competitor spy per client"
 | Build cost | A\$1,000 |
 | Monthly | A\$300/month + tokens \~US\$10–40 (+ optional Visualping US\$100–140) |
 
-**Team:** SEO and content strategists (paid can use it too). **Your decision (9 Nov):** split out of [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
+**Team:** SEO and content strategists (paid can use it too). **Decision (9 Nov):** split out of [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
 
 ## Vision
 
@@ -48,7 +48,7 @@ notion_section: "Competitor spy per client"
 
 ## Pricing & priority
 
-> **Priority: Reconsider · Impact 2 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Market intelligence
+> **Priority: Fill-in · Impact 2 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Market intelligence
 >
 > | Item | Build cost | Monthly cost |
 > | --- | --- | --- |

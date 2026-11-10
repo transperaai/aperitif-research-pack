@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KO-PP25", "SH-PP11", "WS-PP07", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "A new service offering (outsourced today at ~A$1,500 a page)"
 build_cost: "A$12,000"
 monthly: "A$1,500/month + hosting/tokens"
 notion_section: "Landing page generator"
@@ -44,24 +44,24 @@ notion_section: "Landing page generator"
 
 > **An AI tool like "Landing Page Labs":** clone a client's website brand identity (colours, fonts, style) and make landing pages for ads. It uses Aperitif's own **CRO-optimised page structures**; the team just customises the content, assets and creatives in a CMS.
 >
-> **Buy-first check (9 Nov):** off-the-shelf AI builders already do brand cloning and AI page generation – e.g. LanderLab (clone any page from a URL), Leadpages (generate a page from a website with brand Style Kits), Flint (extracts a brand system from the client's site), Swipe Pages and Unbounce (AI builder, A/B testing, dynamic text replacement for ad keywords). Worth trialling one with Aperitif's CRO templates before building.
+> Off-the-shelf builders (LanderLab, Leadpages, Unbounce) were compared; a custom generator is recommended so Aperitif can offer landing pages as a service.
 
 ## Pricing & priority
 
-> **Priority: Impact 2 / 5 · Effort 2 / 5 (draft – re-score for custom build)** · Standalone
+> **Priority: Impact 2 / 5 · Effort 2 / 5 (draft)** · Standalone
 >
 > | Option | Build cost | Monthly cost |
 > | --- | --- | --- |
 > | **Recommended – custom landing page generator** (brand cloning, Aperitif CRO templates, CMS for content and assets, Aperitif-hosted) | **A\$12,000** | **A\$1,500/month** maintenance + hosting/tokens |
 > | *For comparison – off-the-shelf builder* (e.g. LanderLab) with Aperitif templates | – | US\$119–239/month |
 
-**Your decision (9 Nov):** add the landing page generator (your earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
+**Decision (9 Nov):** add the landing page generator (Austin's earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
 
 ## How it works (draft)
 
 1. The manager picks the client, campaign and offer.
 2. The generator pulls the client's brand, tone, style guide and USPs from the client brain ([DS-04](ds-04-ai-client-brain.md)), and the campaign's keywords and ad copy.
-3. It builds the page from Aperitif's own templates – copy, layout, form, tracking tags – ready to publish to the client's CMS or a hosted page.
+3. It builds the page from Aperitif's own templates – copy, layout, form, tracking tags – ready to publish on Aperitif's hosted page builder.
 4. The manager reviews and edits, then publishes. Variants for testing can be generated from the same page.
 
 ## Problems it fixes and the evidence
@@ -97,11 +97,11 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Your suggestion; evidence is leadership + one staff member.
-- Clients' CMSs allow publishing generated pages (or a hosted page builder is used).
+- Austin's suggestion; evidence is leadership + one staff member.
+- Pages are published on Aperitif's own hosted page builder, so no client CMS access is needed.
 
 ## Decided (9 Nov)
 
 - **Aperitif-controlled hosting** – pages are mainly **landing pages for ads**, published on a page builder Aperitif controls (not the client's CMS).
-- **Internal tool for now** – not sold as a separate product yet.
-- Pages outsourced per year: **unknown** – COI stays unquantified until counted (worth asking the performance director).
+- **Offered to clients as a service.**
+- Pages outsourced per year: **unknown**.

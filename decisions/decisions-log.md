@@ -1,5 +1,7 @@
 # Decisions log (Austin)
 
+> **Historical record (written before 10 Nov 2026).** Cost-of-inactivity (COI) figures, the churn basis (\$5K retainer, 3%/yr, ≥61 clients) and "cost TBC" statuses quoted here are superseded. Current value: [VALUE-BY-BUNDLE.md](../VALUE-BY-BUNDLE.md); current prices: each solution file.
+
 *Copied from `decisions_9nov_late.md`. Times are AEDT on 9 Nov 2026.*
 
 ## Austin decisions on ledger issues (9 Nov, 20:34) – apply to ledger after audit

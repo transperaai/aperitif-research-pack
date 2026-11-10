@@ -14,7 +14,9 @@ problems_also_helped: ["P-21", "P-40", "P-25"]
 problems_related_only: []
 pain_points_cited: ["KZ-PP18", "KZ-PP21", "LS-PP02", "MP-PP10", "MP-PP11", "MP-PP12", "WS-PP05", "WS-PP07", "WS-PP13"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP10 (interviewer-raised)", "WS-PP13 (inferred)"]
-coi_per_year: "$9K–$22K"
+value: "22–32 h/mo · A$69K–104K capacity (≈ 1.5–2 clients)"
+value_time_h_month: [22, 32]
+value_capacity_aud_per_year: [69000, 104000]
 build_cost: "A$1850–A$2250"
 monthly: "A$350/month maintenance + tokens ~US$5–40"
 notion_section: "Automated deck generator: quarterly + 6-month reviews and proposals"
@@ -64,7 +66,7 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 > | --- | --- | --- |
 > | **Deck generator** – quarterly + 6-month reviews, the multi-market monthly deck and proposals | **A\$1,850–\$2,250** | **A\$350/month** maintenance + AI tokens \~US\$5–40/month |
 
-**Your decision (9 Nov):** **monthly reports stay in AgencyAnalytics** – no change. **Quarterly and 6-month (bi-annual) review decks** are generated automatically through a deck generator, and **proposals are automated** the same way. It could be a custom build.
+**Decision (9 Nov):** **monthly reports stay in AgencyAnalytics** – no change. **Quarterly and 6-month (bi-annual) review decks** are generated automatically through a deck generator, and **proposals are automated** the same way. It could be a custom build.
 
 ## How it works (draft)
 
@@ -76,18 +78,18 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 
 ## Opportunities it covers
 
-- **[O-05](../opportunities/README.md#o-05)** Reports and review decks: auto-filled data, AI-drafted narrative – rank 5, priority 100, quick win, effort M – **the quarterly / 6-month deck part**. The monthly report parts (report last page, weekly KPI sheets) are left out, per your decision.
+- **[O-05](../opportunities/README.md#o-05)** Reports and review decks: auto-filled data, AI-drafted narrative – rank 5, priority 100, quick win, effort M – **the quarterly / 6-month deck part**. The monthly report parts (report last page, weekly KPI sheets) are left out, as decided.
 - **[O-22](../opportunities/README.md#o-22)** Sales discipline – the **calculator-in-every-proposal** part (rank 22).
 - **[O-14](../opportunities/README.md#o-14)** AI-prefilled onboarding audit – the **prospect-deck** part ("the same engine can produce prospect decks", rank 14).
-- Your earlier ideas: *Proposal generator*, *QBR / review deck generator*.
+- Austin's earlier ideas: *Proposal generator*, *QBR / review deck generator*.
 - Builds on a workflow the performance director already uses: AI-assisted quarterly reviews (WS-O06, strength WS-S02).
 
 ## Problems it fixes and the evidence
 
 - [Client documents are built by duplicating previous ones – errors reach clients](../problems/p-05-client-documents-are-built-by-duplicating-previous.md) ([C-06](../synthesis/clusters-and-root-causes.md#c-06)) – 5 staff. *"these presentations and stuff that we need to do every quarter, etc. Which is like a lot of time consuming"* – the performance director ([WS-PP05](../pain-points/README.md#ws-pp05), stated). One senior SEO manager builds a bespoke multi-market deck by hand: *"So this probably takes me like half a day, if not more, of like work hours."* ([KZ-PP18](../pain-points/README.md#kz-pp18), stated).
-- Also helps (partly): [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) ([C-17](../synthesis/clusters-and-root-causes.md#c-17)) – 6-month reviews for smaller clients are where the SEO director loses time ([LS-PP02](../pain-points/README.md#ls-pp02)). **Capacity itself is not solved by a build**: the fixes aimed at its cause ([O-17](../opportunities/README.md#o-17) onboarding cap, [O-19](../opportunities/README.md#o-19) effort model, [O-32](../opportunities/README.md#o-32) senior performance hire) were dropped, and it is covered in the **culture / people recommendations** instead (your call, 9 Nov).
+- Also helps (partly): [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) ([C-17](../synthesis/clusters-and-root-causes.md#c-17)) – 6-month reviews for smaller clients are where the SEO director loses time ([LS-PP02](../pain-points/README.md#ls-pp02)). **Capacity itself is not solved by a build**: the fixes aimed at its cause ([O-17](../opportunities/README.md#o-17) onboarding cap, [O-19](../opportunities/README.md#o-19) effort model, [O-32](../opportunities/README.md#o-32) senior performance hire) were dropped, and it is covered in the **culture / people recommendations** instead (Austin's call, 9 Nov).
 - [Proposals are rebuilt from scratch per prospect](../problems/p-19-proposals-are-rebuilt-from-scratch-per-prospect.md) ([C-39](../synthesis/clusters-and-root-causes.md#c-39)) – leadership + 1 staff. Prospect decks are slow to build (research, Ahrefs, story) and land on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21), stated). The founder is still pulled into building deal strategies and ad-spend numbers: *"So I'm still getting involved in a lot of that, but I don't want to"* – leadership ([MP-PP11](../pain-points/README.md#mp-pp11)).
-- [Sales commits to work delivery can't profitably do](../problems/p-18-sales-commits-to-work-delivery-can-t.md) ([C-38](../synthesis/clusters-and-root-causes.md#c-38)) – leadership + 1 staff (the performance director, [WS-PP07](../pain-points/README.md#ws-pp07)); the price calculator exists but isn't used consistently ([MP-PP12](../pain-points/README.md#mp-pp12)). *Bias note: you raised this one first ([MP-PP10](../pain-points/README.md#mp-pp10)) and leadership agreed.*
+- [Sales commits to work delivery can't profitably do](../problems/p-18-sales-commits-to-work-delivery-can-t.md) ([C-38](../synthesis/clusters-and-root-causes.md#c-38)) – leadership + 1 staff (the performance director, [WS-PP07](../pain-points/README.md#ws-pp07)); the price calculator exists but isn't used consistently ([MP-PP12](../pain-points/README.md#mp-pp12)). *Bias note: Austin raised this one first ([MP-PP10](../pain-points/README.md#mp-pp10)) and leadership agreed.*
 - Also helps (Solve later): [AI use is personal and ungoverned: no policy, shared skills, client context or seats](../problems/p-40-ai-use-is-personal-and-ungoverned-no.md) – the director's personal AI review workflow becomes the shared standard ([WS-PP13](../pain-points/README.md#ws-pp13), *inferred*).
 - [No single home for current templates – versions held by individuals](../problems/p-25-no-single-home-for-current-templates-versions.md) – Solve now; the generator runs from one master template per deck type, stored centrally (and registered in [DS-10](ds-10-systems-register-and-break-fix-runbook.md)).
 

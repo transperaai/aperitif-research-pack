@@ -1,5 +1,7 @@
 # Gaps and issues – Aperitif decision ledger (rebuild on v3 page, DS-01..DS-33)
 
+> **Historical record (written before 10 Nov 2026).** Cost-of-inactivity (COI) figures, the churn basis (\$5K retainer, 3%/yr, ≥61 clients) and "cost TBC" statuses quoted here are superseded. Current value: [VALUE-BY-BUNDLE.md](../VALUE-BY-BUNDLE.md); current prices: each solution file.
+
 Built 9 Nov 2026 from the v3 Distilled Solutions page (DS-01..DS-33, after the vision pass), Austin's late decisions, the Problems/Opportunities/Pain Points data and Stage 1/2 merge files. Reported, not fixed. IDs: P-xx = Problems DB "ID"; EI-xx = earlier ideas (alphabetical).
 
 ## B. Solve now / Solve later with no fixing DS (3)

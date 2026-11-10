@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KZ-PP19", "KZ-PP20", "ZC-PP09", "ZC-PP15", "ZC-PP17"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$2K–$7K"
+value: "Content lands before the peak, not after"
 build_cost: "A$750"
 monthly: "A$300/month (+ trends data ~US$20–100 if needed)"
 notion_section: "Per-client market radar → now: Seasonal & trending content radar"
@@ -42,7 +42,7 @@ notion_section: "Per-client market radar → now: Seasonal & trending content ra
 
 ## Vision
 
-> **Split into three solutions (your call, 9 Nov):** DS-16 is now the **seasonal & trending content radar**; the **competitor spy** is [DS-32](ds-32-competitor-spy-per-client.md) and the **macro trend tracker** is [DS-33](ds-33-macro-trend-tracker-per-client.md). Each one **lives in every client's brain** ([DS-04](ds-04-ai-client-brain.md)) and **alerts the strategist in Slack**. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
+> **Split into three solutions (Austin's call, 9 Nov):** DS-16 is now the **seasonal & trending content radar**; the **competitor spy** is [DS-32](ds-32-competitor-spy-per-client.md) and the **macro trend tracker** is [DS-33](ds-33-macro-trend-tracker-per-client.md). Each one **lives in every client's brain** ([DS-04](ds-04-ai-client-brain.md)) and **alerts the strategist in Slack**. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
 
 ## Pricing & priority
 
@@ -52,7 +52,7 @@ notion_section: "Per-client market radar → now: Seasonal & trending content ra
 > | --- | --- | --- |
 > | **Seasonal & trending content radar** – a **Claude routine** connected to an MCP that uploads results into each AI client brain ([DS-04](ds-04-ai-client-brain.md)) and alerts the strategist in Slack | **A\$750** | **A\$300/month** maintenance (+ trends/search data source if needed, \~US\$20–100/month – to verify) |
 
-**Your decision (9 Nov):** one radar **for each client** with three parts: a **seasonal and trending content radar**, a **competitor spy**, and a **macro trend tracker** for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and writes into each client brain ([DS-04](ds-04-ai-client-brain.md)).
+**Decision (9 Nov):** one radar **for each client** with three parts: a **seasonal and trending content radar**, a **competitor spy**, and a **macro trend tracker** for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and writes into each client brain ([DS-04](ds-04-ai-client-brain.md)).
 
 ## The three parts
 
@@ -66,8 +66,8 @@ All three post to the client's strategist (Slack/Monday) and are stored in the c
 
 ## Opportunities it covers
 
-- **[O-28](../opportunities/README.md#o-28)** Seasonal, trending and competitor content radar – rank 28, Consider, effort M (2–7 h/month, assumed)
-- Your earlier ideas: *Seasonal & trending content radar per client*, *Macro trend tracker agent for client industries*.
+- **[O-28](../opportunities/README.md#o-28)** Seasonal, trending and competitor content radar – rank 28, Consider, effort M
+- Austin's earlier ideas: *Seasonal & trending content radar per client*, *Macro trend tracker agent for client industries*.
 
 ## Problems it fixes and the evidence
 
@@ -109,7 +109,7 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Hours saved assumed; evidence is from organic only (2 people).
+- Evidence is from organic only (2 people).
 - Each client's competitor list and niche keywords exist or can be pulled from the Master SEO Document.
 - Alert volume is tuned per client so strategists aren't flooded.
 

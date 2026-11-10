@@ -14,7 +14,7 @@ problems_also_helped: ["P-39"]
 problems_related_only: []
 pain_points_cited: ["SB-PP10", "SB-PP11", "SD-PP19"]
 pain_points_interviewer_raised_or_inferred: ["SD-PP19 (inferred)"]
-coi_per_year: "$1K–$4K"
+value: "No reliance on one person"
 build_cost: "Free"
 monthly: "none (Notion already paid)"
 notion_section: "Systems register and break-fix runbook"
@@ -52,7 +52,7 @@ notion_section: "Systems register and break-fix runbook"
 > | --- | --- | --- |
 > | **Help docs and systems register** – documentation, not a build; connected to the AI brain so @oracle answers from it | **A\$0 – no charge** (documentation supplied with each build) | – (Notion already paid) |
 
-**Your decision (9 Nov):** adopt [O-16](../opportunities/README.md#o-16). In your words, it's **one place with the information for everything that's built and what to do if something breaks**. It sits alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)) and covers every solution in this pack as it goes live.
+**Decision (9 Nov):** adopt [O-16](../opportunities/README.md#o-16). In Austin's words, it's **one place with the information for everything that's built and what to do if something breaks**. It sits alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)) and covers every solution in this pack as it goes live.
 
 ## What goes in it
 
@@ -69,12 +69,12 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 
 ## Opportunities it covers
 
-- **[O-16](../opportunities/README.md#o-16)** Own and verify automations: register, backup admin, reconciliation – rank 16, quick win, effort S (1–4 h/month, assumed). Includes naming and training a **second Monday/Make admin** and a **monthly check** that HubSpot tickets and Monday tasks match each client's scope; the HubSpot/Monday keep-or-trim decision before renewal comes out of the register.
+- **[O-16](../opportunities/README.md#o-16)** Own and verify automations: register, backup admin, reconciliation – rank 16, quick win, effort S. Includes naming and training a **second Monday/Make admin** and a **monthly check** that HubSpot tickets and Monday tasks match each client's scope; the HubSpot/Monday keep-or-trim decision before renewal comes out of the register.
 
 ## Problems it fixes and the evidence
 
 - [Slack bots and agents have no visible owner or documentation](../problems/p-15-slack-bots-and-agents-have-no-visible.md) – *"But if I'm not there, who's going to do it? It needs to have that system in place."* – the technical SEO specialist who built and maintains it ([SB-PP11](../pain-points/README.md#sb-pp11)).
-- Also helps (you parked this problem): [HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – the register documents these automations so errors are found faster; it doesn't fix them. *"the person who closes the deal on HubSpot is never the person who's going to manage the client account."* ([SB-PP10](../pain-points/README.md#sb-pp10)), fixed by hand each time.
+- Also helps (parked for now): [HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – the register documents these automations so errors are found faster; it doesn't fix them. *"the person who closes the deal on HubSpot is never the person who's going to manage the client account."* ([SB-PP10](../pain-points/README.md#sb-pp10)), fixed by hand each time.
 - Unowned automations: the pacing bot has no visible owner or documentation (*inferred from the interview, not stated* – [SD-PP19](../pain-points/README.md#sd-pp19)), and the Supermetrics feed failed without anyone owning the fix ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)).
 
 ## Future state

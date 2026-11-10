@@ -14,7 +14,9 @@ problems_also_helped: ["P-22", "P-47"]
 problems_related_only: []
 pain_points_cited: ["KO-PP05", "MC-PP11", "MC-PP14", "MP-PP16", "MP-PP20", "SB-PP03", "SD-PP05", "SJ-PP09", "ZC-PP04"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP20 (interviewer-raised)"]
-coi_per_year: "$14K–$43K"
+value: "6–9 h/mo · A$26K–39K capacity; the foundation for DS-03, 05, 14, 27, 28"
+value_time_h_month: [6, 9]
+value_capacity_aud_per_year: [26000, 39000]
 build_cost: "A$12,500"
 monthly: "A$850/month maintenance; hosting + tokens TBC (model-agnostic; research needed)"
 notion_section: "AI client brain (per client)"
@@ -69,7 +71,7 @@ notion_section: "AI client brain (per client)"
 > | **AI client brain** (all clients, all sources, visible client pages, call-outs, health card, digest) – **includes the shared platform** (client registry, connectors, @oracle Slack bot, role-based access, memory with citations) | **A\$12,500** | **A\$850/month** maintenance |
 > | Hosting and AI tokens | – | **TBC** – to research; the brain will be model-agnostic. Worksheet draft: tokens \~US\$60–300/month, hosting shared, one-off backfill \~US\$100–500 |
 
-**Your decision (9 Nov):** an AI brain **for each client** that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to **review and query**. It sits under the **AI Business Brain** banner but is treated as a separate solution for now.
+**Decision (9 Nov):** an AI brain **for each client** that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to **review and query**. It sits under the **AI Business Brain** banner but is treated as a separate solution for now.
 
 ## What it pulls together (draft)
 
@@ -98,11 +100,11 @@ The query box is there for questions; the call-outs, logs and actions are always
 
 ## Opportunities it covers
 
-- **[O-04](../opportunities/README.md#o-04)** One per-client record fed by call summaries – rank 4, priority 100, quick win, effort S (5–18 h/month, assumed)
-- **[O-13](../opportunities/README.md#o-13)** AI per-client summary for reports, calls and data questions – rank 13, 75, strategic, effort M (14–40 h/month, assumed; overlaps [O-04](../opportunities/README.md#o-04))
+- **[O-04](../opportunities/README.md#o-04)** One per-client record fed by call summaries – rank 4, priority 100, quick win, effort S
+- **[O-13](../opportunities/README.md#o-13)** AI per-client summary for reports, calls and data questions – rank 13, 75, strategic, effort M (overlaps [O-04](../opportunities/README.md#o-04))
 - **[O-27](../opportunities/README.md#o-27)** AI business brain over client records and SOPs – the per-client part (rank 27, Consider) – the company-wide part stays for a later solution
-- Your earlier ideas: *Individual AI client Brains*, *Meeting transcripts → per-client action runsheet*
-- Your notes: client brain for call prep dossiers, handover reports ("sub 3 click hand over report"), research and compliance context, request and email-chain summaries
+- Austin's earlier ideas: *Individual AI client Brains*, *Meeting transcripts → per-client action runsheet*
+- Austin's notes: client brain for call prep dossiers, handover reports ("sub 3 click hand over report"), research and compliance context, request and email-chain summaries
 
 ## Problems it fixes and the evidence
 
@@ -111,7 +113,7 @@ The query box is there for questions; the call-outs, logs and actions are always
 - [Client handovers (sales to delivery, offboarding) have no structured pack or trigger](../problems/p-27-client-handovers-have-no-structured-pack-or.md) – High. 3 staff. *"So sometimes I'm going in blind…"* – a performance team member ([MC-PP11](../pain-points/README.md#mc-pp11)). Handover docs missed until the client chased ([MC-PP14](../pain-points/README.md#mc-pp14)).
 - [Regulated-industry content lacks shared compliance rules and credible sources](../problems/p-28-regulated-industry-content-lacks-shared-compliance-rules.md) – the client's compliance rules live in its brain.
 - [Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) – partly: about five churn-risk escalations a week land with the Head of Client Services ([KO-PP05](../pain-points/README.md#ko-pp05)); with each client's history in one place, department leads can handle more of them themselves.
-- Also helps: [Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) (organic and paid see the same client picture); request extraction from email chains ([SB-PP03](../pain-points/README.md#sb-pp03), your note).
+- Also helps: [Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) (organic and paid see the same client picture); request extraction from email chains ([SB-PP03](../pain-points/README.md#sb-pp03), Austin's note).
 - **Zach's written AI suggestions** (Google Doc): Otter/Gemini notes sit in different places and he keeps a Google Doc as the source of truth for client meetings – he wants transcripts turned into actions and collected in **one runsheet per client**. The client brain does this.
 
 ## Future state (draft)
@@ -174,5 +176,3 @@ See this solution's green **Pricing & priority** box above.
 - **All clients** from the start (not Tier 1 first).
 - **All sources at once** – transcripts, Slack, email, the work and the client profile; no phasing.
 - **A custom app** that connects to the different sources.
-
-> Implications to cover in the one-pager: an all-clients, all-sources custom app is the largest build in the proposal, so (1) show the low-build version (client record + Claude Project) alongside it as the cheaper alternative; (2) it needs the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)), client call-recording consent and read access to Slack, email and ad platforms before launch; (3) client-tagging of Slack and email messages has to work reliably for every client.

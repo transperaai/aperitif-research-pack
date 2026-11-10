@@ -14,7 +14,9 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KZ-PP01", "KZ-PP02", "KZ-PP03", "KZ-PP04", "KZ-PP21", "SD-PP11"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$5K–$28K"
+value: "10–22 h/mo · A$51K–113K capacity (≈ 1–3 SEO clients)"
+value_time_h_month: [10, 22]
+value_capacity_aud_per_year: [51000, 113000]
 build_cost: "A$1,500"
 monthly: "A$400/month (runs on seats)"
 notion_section: "AI-prefilled onboarding audit and Master SEO Document"
@@ -54,7 +56,7 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 > | --- | --- | --- |
 > | **Onboarding audit – Claude skills** (organic: pre-fills the Master SEO Document; paid: drafts the 30-item audit) – the only version recommended | **A\$1,500** | **A\$400/month** maintenance (runs on Claude seats) |
 
-**Your decision (9 Nov):** adopt [O-14](../opportunities/README.md#o-14) as written – it speeds up onboarding audits.
+**Decision (9 Nov):** adopt [O-14](../opportunities/README.md#o-14) as written – it speeds up onboarding audits.
 
 ## How it works
 
@@ -66,8 +68,8 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 
 ## Opportunities it covers
 
-- **[O-14](../opportunities/README.md#o-14)** AI-prefilled onboarding audit and Master SEO Document – rank 14, priority 75, strategic, effort M (5–29 h/month, assumed)
-- Your earlier idea: *1-click audit (read-only access + AI audit)*; you also offered your client-research agent for new-client dossiers (kick-off).
+- **[O-14](../opportunities/README.md#o-14)** AI-prefilled onboarding audit and Master SEO Document – rank 14, priority 75, strategic, effort M
+- Austin's earlier idea: *1-click audit (read-only access + AI audit)*; Austin also offered his client-research agent for new-client dossiers (kick-off).
 
 ## Problems it fixes and the evidence
 

@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["LS-PP08"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "New standard: wins shared between reports (trust, retention)"
 build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
 monthly: "A$1,250/month + tokens ~US$8–35"
 notion_section: "SEO: mid-month wins sent to clients"
@@ -46,7 +46,7 @@ notion_section: "SEO: mid-month wins sent to clients"
 
 > **Pricing:** part of the **SEO performance bundle** – see [DS-22](ds-22-seo-automated-monday-client-performance-check.md) (A\$8,500 build, A\$1,250/month for [DS-22](ds-22-seo-automated-monday-client-performance-check.md) + [DS-23](ds-23-seo-drop-and-anomaly-alerts.md) + DS-24).
 
-**Team:** SEO. **Your decision (9 Nov):** separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
+**Team:** SEO. **Decision (9 Nov):** separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
 
 ## How it works
 

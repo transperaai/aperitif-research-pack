@@ -68,7 +68,7 @@ About 11 hours of conversation in total (estimated); staff interviews averaged a
 
 ## Limitations (stated once)
 
-- **No accurate task times.** Very few times were stated in interviews. Most hours in the cost-of-inactivity figures are **assumed** and labelled as such. For example, only about 4% of DS-01's hours rest on stated times. Treat every hour and dollar figure as indicative.
+- **No accurate task times.** Very few times were stated in interviews. Aperitif doesn't keep timesheets, so the value figures are task counts from the client board × the time per task the team described, and every number carries a basis label (client board, interview, Austin/leadership input, or assumption). Treat every hour and dollar figure as indicative – see VALUE-BY-BUNDLE.md.
 - **Short interviews.** Most staff interviews were 30–60 minutes. Processes were documented from what people could describe in that time.
 - **Two and a half weeks.** The audit ran over about 2.5 weeks with limited time from people who are already at capacity. Austin has not lived in the business.
 - **Unrecorded interview.** Jethro Jason's interview wasn't recorded (see above).
@@ -88,7 +88,7 @@ Each step fed the next. Every finding traces back down the chain to a transcript
 5. **Problems.** Clusters merged with the 26 known problems into one problem list. A separate culture sweep added six culture problems.
 6. **Process costs and opportunities.** Monthly hours costed per process at $80/hr. Each interview's opportunities merged into one list and ranked.
 7. **Austin's decisions.** Austin made a call on every problem (solve now, later, park, reject) and every opportunity and earlier idea (keep, change, drop).
-8. **Solutions.** The kept items were written up as solutions DS-01 to DS-33, each with evidence, future state, KPIs, cost of inactivity and assumptions.
+8. **Solutions.** The kept items were written up as solutions DS-01 to DS-33, each with evidence, future state, KPIs, value (time saved and capacity unlocked – revised with Austin on 10 Nov against the live client board) and assumptions.
 9. **Independent audit.** A separate check on 9 Nov re-checked every quote against the transcripts and recomputed every cost figure. Its fixes were applied.
 
 ---

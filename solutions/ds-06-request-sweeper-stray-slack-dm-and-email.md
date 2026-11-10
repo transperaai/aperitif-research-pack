@@ -14,7 +14,7 @@ problems_also_helped: ["P-21", "P-32"]
 problems_related_only: []
 pain_points_cited: ["DM-PP09", "LS-PP14", "MC-PP04", "MC-PP05", "MP-PP05", "MP-PP06", "SB-PP01", "SB-PP02", "SB-PP03", "SB-PP04", "SB-PP15"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP06 (interviewer-raised)"]
-coi_per_year: "$9K–$27K"
+value: "Nothing gets missed"
 build_cost: "A$500"
 monthly: "A$150/month + tokens ~US$30–120"
 notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com"
@@ -46,7 +46,7 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 >
 > - It catches stray requests from Slack, DMs and email and puts them into Monday, so the brain ([DS-04](ds-04-ai-client-brain.md)) always knows what's been asked.
 > - **Task status sweep (added 9 Nov):** the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved ([DM-PP09](../pain-points/README.md#dm-pp09)), and nudges the owner.
-> - The **daily priorities** assistant is now its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)** (your call: "another thing").
+> - The **daily priorities** assistant is now its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)** (Austin's call: "another thing").
 
 ## Pricing & priority
 
@@ -56,7 +56,7 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 > | --- | --- | --- |
 > | **Request sweeper + task-status sweep** – connected to the AI brain (runs on the [DS-04](ds-04-ai-client-brain.md) platform) | **A\$500** | **A\$150/month**  • AI tokens \~US\$30–120/month |
 
-**Your decision (9 Nov):** Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in **direct messages** and **email** – and puts them into Monday.com as tasks.
+**Decision (9 Nov):** Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in **direct messages** and **email** – and puts them into Monday.com as tasks.
 
 ## How it works (draft)
 
@@ -70,17 +70,17 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 
 ## Opportunities it covers
 
-- **[O-06](../opportunities/README.md#o-06)** All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win (9.7–28.5 h/month, assumed) – **the capture part**. Your solution catches requests where people actually send them rather than relying on everyone using the form.
-- **SB-O02** AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks (6–11 h/month for one person, assumed).
-- **[O-29](../opportunities/README.md#o-29)** AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M (6–11 h/month for one person, assumed; more if rolled out to everyone) – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.
-- **Not included (your call):** [O-06](../opportunities/README.md#o-06)'s Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.
+- **[O-06](../opportunities/README.md#o-06)** All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win – **the capture part**. This solution catches requests where people actually send them rather than relying on everyone using the form.
+- **SB-O02** AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks.
+- **[O-29](../opportunities/README.md#o-29)** AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.
+- **Not included (Austin's call):** [O-06](../opportunities/README.md#o-06)'s Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.
 
 ## Problems it fixes and the evidence
 
 - [Reminders go unacted; a broken reminder bot went unnoticed](../problems/p-16-reminders-go-unacted-a-broken-reminder-bot.md) ([C-30](../synthesis/clusters-and-root-causes.md#c-30)) – Solve now. Staff + leadership. *"not everybody uses Monday to like, you know, set up a task."* – a technical SEO specialist, who also gets requests by Slack DM and email ([SB-PP04](../pain-points/README.md#sb-pp04), stated). Forwarded email chains take **\~30 minutes each** to untangle ([SB-PP03](../pain-points/README.md#sb-pp03)). Requests in email and Slack slip and become last-minute ([SB-PP01](../pain-points/README.md#sb-pp01)). Leadership: *"Half an hour ago, the reminder went out. We still don't have updates."* ([MP-PP05](../pain-points/README.md#mp-pp05)).
 - [Internal task briefs from managers to implementers are slow to write and often incomplete](../problems/p-36-internal-task-briefs-from-managers-to-implementers.md) ([C-27](../synthesis/clusters-and-root-causes.md#c-27)) – Solve now. Requests range from one sentence to a full brief ([LS-PP14](../pain-points/README.md#ls-pp14)); implementers chase account managers for missing details ([MC-PP04](../pain-points/README.md#mc-pp04)); Monday notifications don't always land, so Slack becomes the backup ([MC-PP05](../pain-points/README.md#mc-pp05)). The sweeper's missing-field check addresses this.
-- Also helps: [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests ([C-18](../synthesis/clusters-and-root-causes.md#c-18), which you parked) become visible in Monday, even if they're still same-day.
-- *Your observation:* a lot of the stray requests are in DMs – one interview confirms DMs as a request route ([SB-PP04](../pain-points/README.md#sb-pp04)).
+- Also helps: [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests ([C-18](../synthesis/clusters-and-root-causes.md#c-18), parked for now) become visible in Monday, even if they're still same-day.
+- *Austin's observation:* a lot of the stray requests are in DMs – one interview confirms DMs as a request route ([SB-PP04](../pain-points/README.md#sb-pp04)).
 
 ## Future state (draft)
 
@@ -112,7 +112,6 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Hours saved assumed.
 - **DM access is the hard part:** a Slack app can only read a person's DMs if that person authorises it (a user-level permission). Channels are straightforward. Needs staff consent and a clear rule on what the sweeper reads and keeps (ties to the AI-data rule in [DS-02](ds-02-ai-playbook-repository.md)).
 - Monday's own Slack integration can already turn a message into a task by hand – the sweeper adds the automatic detection.
 - Automatic creation in Slack may produce some junk tasks at first; the evidence link makes them quick to spot and delete. Detection rules get tuned over the first few weeks.

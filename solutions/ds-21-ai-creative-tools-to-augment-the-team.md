@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["MC-PP15", "MP-PP22", "SD-PP12", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "Faster creative in-house"
 build_cost: "Free"
 monthly: "software paid direct ~US$70–380/month"
 notion_section: "AI creative tools to augment the team"
@@ -52,7 +52,7 @@ notion_section: "AI creative tools to augment the team"
 > | --- | --- | --- |
 > | **AI creative tools – recommendations only** (Canva AI first; trial [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield for a month) | **A\$0 – free** | \~US\$70–380/month for two tools, depending on tier (Canva already paid) |
 
-**Your decision (9 Nov):** no build – recommend **existing AI tools** the team can use to augment creative production.
+**Decision (9 Nov):** no build – recommend **existing AI tools** the team can use to augment creative production.
 
 ## Suggested shortlist to trial (research, Nov 2026 – verify pricing and fit before recommending)
 

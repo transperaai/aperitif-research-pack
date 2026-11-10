@@ -14,7 +14,8 @@ problems_also_helped: ["P-11", "P-09", "P-32"]
 problems_related_only: []
 pain_points_cited: ["HT-PP01", "HT-PP02", "LS-PP03", "SJ-PP01", "SJ-PP02", "SJ-PP04", "SJ-PP06", "SJ-PP10", "SJ-PP11", "SJ-PP14", "ZC-PP02", "ZC-PP03"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$10K–$29K"
+value: "8–12 h/mo of content-team time → more words written (not counted as MRR)"
+value_time_h_month: [8, 12]
 build_cost: "A$350"
 monthly: "A$100/month management (may bundle with other Claude-skill solutions)"
 notion_section: "Automated AI brief drafts → Monday.com tasks"
@@ -53,26 +54,26 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 > | **Recommended – Claude skill** (briefs from the master sheet, Monday task on approval) | A\$350 | A\$100/month management (may be bundled with other Claude-skill solutions) + Make (existing plan likely covers it) |
 > | **Upgrade – full automation**, connected to the AI brain ([DS-04](ds-04-ai-client-brain.md)/DS-15), incl. content intake | A\$1,750 feature addition | AI tokens \~US\$5–25/month + Make |
 
-**Your decision (9 Nov):** AI generates the monthly brief drafts, and each brief is turned into a task in Monday.com. Recommended version: a **Claude skill** (cheap); the **fully automated** end-to-end version is offered as the upgrade (see Decided).
+**Decision (9 Nov):** AI generates the monthly brief drafts, and each brief is turned into a task in Monday.com. Recommended version: a **Claude skill** (cheap); the **fully automated** end-to-end version is offered as the upgrade (see Decided).
 
 ## How it works (draft)
 
 1. Each month the automation reads the content plan in the client's **Master SEO Document**.
 2. It drafts each brief in the house template (keywords, structure, internal links, tone, regional/localisation metadata where needed) straight into the standard Google Doc – no copy-paste into Word.
-3. The SEO manager reviews and approves the draft (human stays in the loop).
+3. The content team reviews and approves the draft (human stays in the loop).
 4. On approval, a [**Monday.com**](http://Monday.com) **task** is created automatically for each brief: assigned writer, due date, link to the brief, client, word count.
 5. Monday notifies the content manager and writer – no brief sits unseen in a sheet.
 
 ## Opportunities it covers
 
-- **[O-03](../opportunities/README.md#o-03)** AI brief drafts from the Master SEO Document – rank 3, priority 100, quick win, effort S (9–22 h/month, assumed)
-- **[O-25](../opportunities/README.md#o-25)** Content intake on Monday with brief standard and slots – all of it (task creation plus intake, added 9 Nov) (rank 25, 5–20 h/month, assumed; overlaps [O-03](../opportunities/README.md#o-03))
-- Your notes: *"We could make a claude workflow or bot that auto turns briefs into task items"*
+- **[O-03](../opportunities/README.md#o-03)** AI brief drafts from the Master SEO Document – rank 3, priority 100, quick win, effort S
+- **[O-25](../opportunities/README.md#o-25)** Content intake on Monday with brief standard and slots – all of it (task creation plus intake, added 9 Nov) (rank 25; overlaps [O-03](../opportunities/README.md#o-03))
+- Austin's notes: *"We could make a claude workflow or bot that auto turns briefs into task items"*
 
 ## Problems it fixes and the evidence
 
 - [Content briefs are re-cut and reformatted by hand, eating the first half of each month](../problems/p-33-content-briefs-are-re-cut-and-reformatted.md) – High. 3 staff. *"especially early months, the content briefing is pretty much all of my day or say a few days to a week."* – an SEO manager ([ZC-PP02](../pain-points/README.md#zc-pp02)). *"content briefs; we could have automated those years ago."* – the SEO Director ([LS-PP03](../pain-points/README.md#ls-pp03)). Briefs are copied from Claude into Word and reformatted by hand ([ZC-PP03](../pain-points/README.md#zc-pp03)).
-- Briefs arrive unseen or late – 2 content team members ([C-21](../synthesis/clusters-and-root-causes.md#c-21), part of [Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md), which you parked). *"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"* – a content team member ([SJ-PP02](../pain-points/README.md#sj-pp02)). Auto-created Monday tasks remove this.
+- Briefs arrive unseen or late – 2 content team members ([C-21](../synthesis/clusters-and-root-causes.md#c-21), part of [Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md), parked for now). *"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"* – a content team member ([SJ-PP02](../pain-points/README.md#sj-pp02)). Auto-created Monday tasks remove this.
 - Also helps (Solve later): [Content delivery hinges on the Content Manager as writer, editor and contractor manager](../problems/p-09-content-delivery-hinges-on-the-content-manager.md) – less routing by hand.
 
 ## Future state (draft)
@@ -83,13 +84,13 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| SEO manager time per client on monthly briefs | Unknown; assumed 30–60 min (LS-O01) – "a few days to a week" early in the month ([ZC-PP02](../pain-points/README.md#zc-pp02)) | ≤ 15 min incl. review |
+| Content-team time per brief | \~20 min | \~5–10 min |
 | Briefs needing manual reformatting | All – copied into Word (ZC-O02) | 0 |
 | Time from brief approved to writer task created | Up to 2 days unseen ([SJ-PP02](../pain-points/README.md#sj-pp02)) | Same day, automatic |
 
 ## Value (revised with Austin, 10 Nov)
 
-> **Every brief is clear, consistent and in one place.** Managers fill in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
+> **Every brief is clear, consistent and in one place.** The content team fills in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
 
 **1. Time saved**
 
@@ -101,7 +102,7 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 
 Briefs are written by the content team (Sarah Julian and Hayley Tantau), who are measured on words delivered each month – so the freed time goes into **more words written**, not more clients managed. It isn't counted as MRR capacity.
 
-The bigger win is clarity: briefs often lack it today, so writers go back and forth. A standard form fixes what goes into every brief, and drafts can be out on day one of the month instead of waiting on managers.
+The bigger win is clarity: briefs often lack it today, so writers go back and forth. A standard form fixes what goes into every brief, and drafts can be out on day one of the month instead of waiting on the form.
 
 **3. Problems it eliminates**
 
@@ -109,7 +110,7 @@ The bigger win is clarity: briefs often lack it today, so writers go back and fo
 - **P-11** Content tracker and link sheets live outside Monday.com
 - Helps: **P-09** Content delivery hinges on the Content Manager · **P-32** Unplanned requests break the planned month
 
-**Goals:** good performance · good customer service · more MRR managed per person
+**Goals:** good customer service · good performance · trust
 
 *Inputs from Austin (10 Nov): \~20 min per brief today, often lacking clarity; standardise with a form, produce automatically, save in the brain. Assumption: \~5–10 min per brief with the form.*
 
@@ -131,7 +132,7 @@ See this solution's green **Pricing & priority** box above.
 
 ## Added 9 Nov: the rest of O-25 (content intake)
 
-**Your decision:** fold the rest of [O-25](../opportunities/README.md#o-25) into this solution.
+**Decision:** fold the rest of [O-25](../opportunities/README.md#o-25) into this solution.
 
 | Part | What it does |
 | --- | --- |
@@ -143,7 +144,5 @@ See this solution's green **Pricing & priority** box above.
 | Priority order | Work sorted by client importance, not sheet age |
 
 **Evidence (content team – 16 pain points):** the content manager copies every brief, prior comms and feedback by hand into four freelancer sheets – her magic-wand pick: *"I copy all of the briefs and the… feedback or like any like prior… comms"* ([SJ-PP01](../pain-points/README.md#sj-pp01), stated). Volume grew from \~40K to \~100K words a month: *"as we grow it's not going to be like sustainable"* ([SJ-PP11](../pain-points/README.md#sj-pp11)). Incomplete briefs drive freelancer rework ([SJ-PP06](../pain-points/README.md#sj-pp06)); work is *"just sorted by age"* not importance ([SJ-PP10](../pain-points/README.md#sj-pp10)); edited versions are filed by hand ([SJ-PP04](../pain-points/README.md#sj-pp04)); the end of the month is *"often crunchy"* ([HT-PP01](../pain-points/README.md#ht-pp01)); one client sits outside the cycle and sends last-minute work ([HT-PP02](../pain-points/README.md#ht-pp02), [SJ-PP14](../pain-points/README.md#sj-pp14)).
-
-**Cost of inactivity:** [O-25](../opportunities/README.md#o-25)'s 4.8–20.1 h/month sits mainly in the content writing & editing process, not the briefing figure above; only its non-overlapping task-creation part is in DS-03's 10–30 h. The intake changes add roughly the rest – assumed, to be split out when costed. The extra risk is scale: the spreadsheet set-up breaks as volume keeps rising ([SJ-PP11](../pain-points/README.md#sj-pp11)).
 
 **Assumptions:** freelancers accept Monday guest boards; the content manager agrees the assignment rules and slot calendar.

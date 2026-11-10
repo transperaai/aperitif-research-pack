@@ -1,5 +1,7 @@
 # Independent audit – Aperitif Distilled Solutions (DS-01..DS-21)
 
+> **Historical record (written before 10 Nov 2026).** Cost-of-inactivity (COI) figures, the churn basis (\$5K retainer, 3%/yr, ≥61 clients) and "cost TBC" statuses quoted here are superseded. Current value: [VALUE-BY-BUNDLE.md](../../VALUE-BY-BUNDLE.md); current prices: each solution file.
+
 Audited 9 Nov 2026 (read-only). Sources: distilled_solutions_page.txt, ledger outputs, painpoints/rows.json, Problems and Opportunities exports, stage1/stage2 merge files, 14 transcripts, context pack. Scratch scripts are in /home/claude/ledger/audit/_work/.
 
 ## Verdict (10 lines)

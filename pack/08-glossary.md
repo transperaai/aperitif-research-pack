@@ -6,7 +6,8 @@ Plain-English meanings for the terms used in this pack.
 
 | Term | Meaning |
 | --- | --- |
-| **COI – cost of inactivity** | What Aperitif keeps losing each month and year if nothing changes: recoverable staff hours × $80/hr, plus any money or clients at risk. |
+| **Time saved** | Staff hours a solution removes each month, costed at $80/hr (Joe's figure). |
+| **Capacity unlocked** | The extra MRR the same team could manage with the hours freed, without hiring: hours freed ÷ ~130 productive hours a month × MRR managed per account manager. Headroom, not guaranteed revenue. Time saved and capacity unlocked are the same hours counted two ways – never add them. |
 | **$80/hr internal rate** | What an hour of staff time costs Aperitif (AUD). Used for all costing. Not the $150/hr charged to clients. |
 | **Pain point (e.g. SD-PP04)** | One specific frustration someone described. The letters say whose interview it came from (SD = Shrishti Dokwal; KO = kick-off with Joe and Julia; MP = mid-point check-in). |
 | **Problem (P-xx)** | A pattern of pain points with a shared cause, on the problem list. |
@@ -14,8 +15,9 @@ Plain-English meanings for the terms used in this pack.
 | **Root cause (RC-xx)** | The underlying reason behind several clusters. |
 | **Opportunity (O-xx)** | A possible fix, merged from what people suggested in interviews. |
 | **Earlier idea (EI-xx)** | One of Austin's ideas from before the interviews. |
-| **Solution (DS-xx)** | A fix Austin has decided to recommend, written up with evidence, KPIs and COI. |
+| **Solution (DS-xx)** | A fix Austin has decided to recommend, written up with evidence, KPIs and value. |
 | **Contradiction (X-xx)** | Where two interviews or documents disagree. |
+| **WS-ZC-01** | Zach Chamberlain's written "AI suggestions" Google Doc – a written source, cited alongside the interviews. |
 | **Raised by** | How many people raised something themselves, as "N staff + N leadership". Things Austin raised and someone agreed with don't count. |
 | **Interviewer-raised** | Austin brought it up and the person agreed. Labelled, counted as corroboration only. |
 | **Inferred / detected** | Worked out from what was said, not stated directly. Labelled. |
@@ -36,7 +38,7 @@ Plain-English meanings for the terms used in this pack.
 | **MRR** | Monthly recurring revenue – used in the career ladder as the revenue a person manages. |
 | **QBR** | Quarterly business review – the deck presented to Tier 1 clients every quarter. |
 | **6-month review** | The performance and strategy review deck for other clients. |
-| **DLER** | The utilisation measure leadership uses to check how loaded each department is. |
+| **DLER** | MRR managed per person – how much monthly recurring revenue each person looks after (today ~$15.6K per person across 27 staff; live client board, 10 Nov). |
 | **Retainer** | The fixed monthly fee a client pays. |
 | **Churn** | Clients leaving. Churn rate = the share of clients lost in a year. |
 

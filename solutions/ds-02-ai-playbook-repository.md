@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["DM-PP12", "LS-PP13", "MC-PP19", "MC-PP20", "SB-PP12", "SJ-PP07", "ZC-PP11"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$6K–$35K"
+value: "Fewer repeat questions; lets the other AI solutions run safely"
 build_cost: "Free"
 monthly: "Claude Team seats paid by Aperitif direct (USD, new seat count TBC)"
 notion_section: "AI playbook repository"
@@ -59,7 +59,7 @@ notion_section: "AI playbook repository"
 >
 > **Who does what:** Austin supplies the playbook entries that come from his builds (how each solution works, its prompts and SOPs). The team writes and shares their own Claude skills and prompts – Transpera doesn't build skills for individuals.
 
-**Your decision (9 Nov):** one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
+**Decision (9 Nov):** one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
 
 ## What goes in it (draft)
 
@@ -75,7 +75,7 @@ notion_section: "AI playbook repository"
 
 - **[O-02](../opportunities/README.md#o-02)** AI data rule, company Claude seats and shared skills library – rank 2, priority 125, quick win, effort S (6.5–36 h/month, assumed)
 - **[O-33](../opportunities/README.md#o-33)** SOPs linked from Monday templates; stale pages retired – the SOP half
-- Your earlier idea: *L&D platform – training, manuals and SOPs made clear*
+- Austin's earlier idea: *L&D platform – training, manuals and SOPs made clear*
 - Foundation for: [O-05](../opportunities/README.md#o-05) (AI-drafted reports), [O-13](../opportunities/README.md#o-13) (per-client AI summary), [O-27](../opportunities/README.md#o-27) (AI business brain)
 
 ## Problems it fixes and the evidence
@@ -83,7 +83,7 @@ notion_section: "AI playbook repository"
 - [AI use is personal and ungoverned: no policy, shared skills, client context or seats](../problems/p-40-ai-use-is-personal-and-ungoverned-no.md) – **9 staff + 1 leadership, the broadest staff raise in the audit.** *"I'm not sure how much it is okay to have the data privacy and everything when we do that."* – a performance manager ([DM-PP12](../pain-points/README.md#dm-pp12)). *"we've had a few cases where team members used AI for the whole thing and it was a mess."* – the SEO Director ([LS-PP13](../pain-points/README.md#ls-pp13)). One staff member pays for her own Claude account ([MC-PP19](../pain-points/README.md#mc-pp19)); the team plan hits usage limits ([SB-PP12](../pain-points/README.md#sb-pp12)).
 - [Documentation is stale and rarely read](../problems/p-12-documentation-is-stale-and-rarely-read.md) – the SOP section, once linked into the workflow.
 - [Regulated-industry content lacks shared compliance rules and credible sources](../problems/p-28-regulated-industry-content-lacks-shared-compliance-rules.md) – the compliance and research packs.
-- [Change fatigue and quiet AI anxiety slow adoption](../problems/p-44-change-fatigue-and-quiet-ai-anxiety-slow.md) – a clear, staged playbook instead of tools appearing ad hoc (your note: systems layered in, not vibe-coded).
+- [Change fatigue and quiet AI anxiety slow adoption](../problems/p-44-change-fatigue-and-quiet-ai-anxiety-slow.md) – a clear, staged playbook instead of tools appearing ad hoc (Austin's note: systems layered in, not vibe-coded).
 
 ## Future state (draft)
 
@@ -127,7 +127,6 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Hours saved assumed (no stated times for AI tasks).
 - The rule needs the founder's sign-off on client-data use and a check against client contracts.
 - Adoption risk: the library goes stale like the wiki ([C-35](../synthesis/clusters-and-root-causes.md#c-35)) unless it is linked from Monday and owned.
 

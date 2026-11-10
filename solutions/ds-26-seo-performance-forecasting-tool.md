@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["LS-PP16"]
 pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
-coi_per_year: "Not quantified"
+value: "Better planning, realistic expectations"
 build_cost: "A$3,000 for the bundle (DS-25 + DS-26)"
 monthly: "A$300/month + tokens ~US$3–30"
 notion_section: "SEO: performance forecasting tool"
@@ -46,7 +46,7 @@ notion_section: "SEO: performance forecasting tool"
 
 > **Pricing:** part of the **forecasting bundle** – see [DS-25](ds-25-ppc-performance-forecasting-tool.md) (A\$3,000 build, A\$300/month for [DS-25](ds-25-ppc-performance-forecasting-tool.md) + DS-26).
 
-**Team:** SEO. **Your decision (9 Nov):** the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
+**Team:** SEO. **Decision (9 Nov):** the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
 
 ## How it works (draft)
 
@@ -58,7 +58,7 @@ notion_section: "SEO: performance forecasting tool"
 ## Problems it fixes and the evidence
 
 - Related: *"it probably wouldn't comment on seasonality. That requires intervention."* – Laura, SEO Director, on reports ([LS-PP16](../pain-points/README.md#ls-pp16), *raised by the interviewer*).
-- No SEO forecasting pain point was raised directly – **your addition**.
+- No SEO forecasting pain point was raised directly – **Austin's addition**.
 
 ## KPIs (draft)
 
@@ -79,4 +79,4 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Your suggestion; weak direct evidence.
+- Austin's suggestion; weak direct evidence.

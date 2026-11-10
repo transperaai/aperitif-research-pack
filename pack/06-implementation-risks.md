@@ -1,6 +1,6 @@
 # Implementation risks
 
-What could stop these solutions working once they're built, and what to do about it. This is separate from the cost of inactivity (what it costs to do nothing).
+What could stop these solutions working once they're built, and what to do about it. This is separate from the value each solution brings (see VALUE-BY-BUNDLE.md).
 
 | # | Risk | Main solutions affected |
 | --- | --- | --- |

@@ -15,7 +15,7 @@ problems_also_helped: []
 problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP02", "KO-PP03", "KO-PP05", "MP-PP08", "MP-PP09", "WS-PP10"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$5K–$15K"
+value: "Part of DS-14 – not valued separately"
 build_cost: "Covered by DS-14"
 monthly: "Covered by DS-14"
 notion_section: "Merged into DS-14 – Escalation and delegation rules"
@@ -38,13 +38,13 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Park |
 | Pain points cited | [KO-PP02](../pain-points/README.md#ko-pp02), [KO-PP03](../pain-points/README.md#ko-pp03), [KO-PP05](../pain-points/README.md#ko-pp05), [MP-PP08](../pain-points/README.md#mp-pp08), [MP-PP09](../pain-points/README.md#mp-pp09), [WS-PP10](../pain-points/README.md#ws-pp10) |
 | Written source | – |
-| Value | See VALUE-BY-BUNDLE.md |
+| Value | Part of DS-14 – not valued separately |
 | Build cost | Covered by DS-14 |
 | Monthly | Covered by DS-14 |
 
-> **Merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) (your call, 9 Nov).** This is now **Part B of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) · Client health & growth intelligence**: [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift. Its cost of inactivity is not added to [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s.
+> **Merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) (Austin's call, 9 Nov).** This is now **Part B of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) · Client health & growth intelligence**: [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift.
 
-**Your decision (9 Nov):** the [O-21](../opportunities/README.md#o-21) rules are fine, but they must be **connected to the anti-churn and growth intelligence ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md))**: its alerts are what trigger an escalation, and the rules say who acts on each one.
+**Decision (9 Nov):** the [O-21](../opportunities/README.md#o-21) rules are fine, but they must be **connected to the anti-churn and growth intelligence ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md))**: its alerts are what trigger an escalation, and the rules say who acts on each one.
 
 ## The rules
 
@@ -59,7 +59,7 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 
 ## Opportunities it covers
 
-- **[O-21](../opportunities/README.md#o-21)** Delegation and triage rules for escalations and sign-offs – rank 21, quick win, effort S (5–16 h/month, assumed)
+- **[O-21](../opportunities/README.md#o-21)** Delegation and triage rules for escalations and sign-offs – rank 21, quick win, effort S
 
 ## Problems it fixes and the evidence
 
@@ -80,16 +80,6 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Escalations handled by department leads | Low – \~5 a week go to the Head of Client Services ([KO-PP05](../pain-points/README.md#ko-pp05)) | ≥ 50% |
 | Contracts signed without the founder | 0% (KO-O05) | All standard SME deals |
 | Tier 1 accounts with a second relationship owner | Unknown ([KO-PP02](../pain-points/README.md#ko-pp02)) | 100% |
-
-## Cost of inactivity (COI)
-
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable leadership and senior time | 5–16 h (\$0.4K–\$1.3K) | **\$5K–\$15K** |
-
-Also at risk, not quantified: Tier 1 relationships lost if the founder steps back ([KO-PP02](../pain-points/README.md#ko-pp02)); the Head of Client Services' time absorbed by escalations instead of growth; leads not developing because decisions skip them.
-
-*Basis: [O-21](../opportunities/README.md#o-21) recoverable hours (mostly founder, Head of Client Services and director time). Assumed. \$80/hr – leadership time is worth more than the internal rate, so this understates it.*
 
 ## Indicative build cost and OpEx
 

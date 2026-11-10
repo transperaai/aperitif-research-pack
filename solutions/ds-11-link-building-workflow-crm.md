@@ -14,7 +14,9 @@ problems_also_helped: []
 problems_related_only: ["P-07"]
 pain_points_cited: ["KO-PP16", "KZ-PP08", "LS-PP12", "MP-PP14", "MP-PP15", "TG-PP05", "TG-PP06", "TG-PP07", "TG-PP09"]
 pain_points_interviewer_raised_or_inferred: ["TG-PP09 (inferred)"]
-coi_per_year: "$6K–$25K"
+value: "16.5–26.5 h/mo · ~8–13 more links a month (delivery capacity)"
+value_time_h_month: [16.5, 26.5]
+value_extra_links_month: [8, 13]
 build_cost: "A$3,500"
 monthly: "A$750/month + hosting/tokens (shared)"
 notion_section: "Link-building workflow CRM"
@@ -59,7 +61,7 @@ notion_section: "Link-building workflow CRM"
 >
 > *Maintenance for the link-building solutions ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md), DS-11, [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md)) may be consolidated into one fee – to settle at the end.*
 
-**Your decision (9 Nov):** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Recommended: a custom AI-native build. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
+**Decision (9 Nov):** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Recommended: a custom AI-native build. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
 
 ## What it covers (draft)
 
@@ -74,13 +76,13 @@ notion_section: "Link-building workflow CRM"
 
 ## Opportunities it covers
 
-- **[O-18](../opportunities/README.md#o-18)** One link record: standard order template, auto-sync, invoice run – rank 18, strategic, effort M (6–26 h/month, assumed) – rebuilt as a CRM.
-- Your earlier idea: *link-building CRM*. Leadership asked for it directly ([KO-PP16](../pain-points/README.md#ko-pp16)).
+- **[O-18](../opportunities/README.md#o-18)** One link record: standard order template, auto-sync, invoice run – rank 18, strategic, effort M – rebuilt as a CRM.
+- Austin's earlier idea: *link-building CRM*. Leadership asked for it directly ([KO-PP16](../pain-points/README.md#ko-pp16)).
 
 ## Problems it fixes and the evidence
 
 - [Link building runs on 7+ disconnected spreadsheets](../problems/p-06-link-building-runs-on-7-disconnected-spreadsheets.md) – Solve now. Staff + leadership. *"I would love, like, a CRM for our link-building team specifically. That is still being run out of spreadsheets."* – Head of Client Services ([KO-PP16](../pain-points/README.md#ko-pp16)). *"every published links I've found here. I encode it to the master sheet."* – the outreach specialist, re-keying all 300–340 links a month by hand ([TG-PP06](../pain-points/README.md#tg-pp06)). Orders are copy-pasted into each publisher's own sheet and order numbers sometimes change ([TG-PP05](../pain-points/README.md#tg-pp05)); the home-built Monday sync is unreliable ([TG-PP07](../pain-points/README.md#tg-pp07)); leadership: links are *"still kind of manually being copied over into the CRM for reporting"* ([MP-PP14](../pain-points/README.md#mp-pp14)).
-- [Outreacher invoicing tracked as PayPal links in spreadsheet cells](../problems/p-08-outreacher-invoicing-tracked-as-paypal-links-in.md) – Solve later; included per your decision.
+- [Outreacher invoicing tracked as PayPal links in spreadsheet cells](../problems/p-08-outreacher-invoicing-tracked-as-paypal-links-in.md) – Solve later; included as decided.
 - **Link lead's time on admin:** *"it's like typically going to like that admin side rather than like helping do bigger things and growing the team"* ([KZ-PP08](../pain-points/README.md#kz-pp08)). Leadership: no manpower to improve it ([MP-PP15](../pain-points/README.md#mp-pp15)).
 - **Home-built tools nobody else understands:** four home-built tools run by one person; the outreach specialist isn't sure they work properly (*undocumented status inferred, not stated* – [TG-PP09](../pain-points/README.md#tg-pp09)).
 - Enables [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md): [Paid links disappear after payment – detected manually](../problems/p-07-paid-links-disappear-after-payment-detected-manually.md) needs one clean link list.
@@ -97,7 +99,7 @@ notion_section: "Link-building workflow CRM"
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Published links re-keyed by hand | All 300–340 a month (TG-O02) | 0 |
+| Published links re-keyed by hand | \~283 a month (client board) | 0 |
 | Order-number mismatches per month | "sometimes" (TG-O03) | 0 |
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time ([KZ-PP08](../pain-points/README.md#kz-pp08)) | Baseline, then −50% |
@@ -136,6 +138,6 @@ See this solution's green **Pricing & priority** box above.
 - Existing sheets can be migrated (link history, order IDs) without losing data.
 - Payment method (PayPal or other) stays the same; only the tracking moves.
 
-## Open questions for you
+## Build vs buy
 
-- **Build vs buy:** custom build, or an off-the-shelf link-building CRM (e.g. Pitchbox, BuzzStream, Respona)? Claude can compare them on publisher portals, invoicing and Monday sync when you're ready.
+- Off-the-shelf link-building CRMs (e.g. Pitchbox, BuzzStream, Respona) were considered; a **custom AI-native build** is recommended so it fits Aperitif's broker and publisher workflow and connects to the client brain.

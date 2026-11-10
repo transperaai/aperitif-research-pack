@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["TG-PP03", "ZC-PP16"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "Not quantified"
+value: "Links won without paying a publisher"
 build_cost: "A$1,000"
 monthly: "A$300/month + tokens ~US$2–10"
 notion_section: "Proactive brand-mention tracking for backlinks"
@@ -40,7 +40,7 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 | Build cost | A\$1,000 |
 | Monthly | A\$300/month + tokens \~US\$2–10 |
 
-**Team:** link building / SEO. **Your decision (9 Nov):** split out of [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md) as its own solution.
+**Team:** link building / SEO. **Decision (9 Nov):** split out of [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md) as its own solution.
 
 ## Vision
 

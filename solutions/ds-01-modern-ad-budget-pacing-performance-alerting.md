@@ -14,7 +14,10 @@ problems_also_helped: ["P-21", "P-17"]
 problems_related_only: []
 pain_points_cited: ["MP-PP01", "MP-PP02", "SD-PP04", "SH-PP02"]
 pain_points_interviewer_raised_or_inferred: []
-coi_per_year: "$15K–$38K"
+value: "56–64 h/mo · A$186K–213K capacity (≈ 5–6 PPC clients) · A$10K overspend risk removed"
+value_time_h_month: [56, 64]
+value_capacity_aud_per_year: [186000, 213000]
+value_extra_clients: [5, 6]
 build_cost: "Free"
 monthly: "US$779/month (US$1M tier, annual); Enterprise quote if 100+ ad accounts"
 notion_section: "Modern ad budget pacing + performance alerting"
@@ -61,7 +64,7 @@ notion_section: "Modern ad budget pacing + performance alerting"
 > | **Recommended – Adpulse** (has native Slack integration; no build) | A\$0 – software only | US\$779/month (US\$1M spend tier, annual) – Enterprise quote if 100+ ad accounts |
 > | **Smaller option – modernise the existing pacing bot** (won't get the full Adpulse unlock) | A\$1,250 | A\$300/month management |
 
-**Your decision (9 Nov):** a modern ad budget pacing tool that connects to **every live channel**, tracks pace and performance per client against **thresholds set per client** by the team, and sends **Slack alerts**.
+**Decision (9 Nov):** a modern ad budget pacing tool that connects to **every live channel**, tracks pace and performance per client against **thresholds set per client** by the team, and sends **Slack alerts**.
 
 - **Alerts only for now** – no automated actions (pause/scale); budget changes stay manual.
 - **Ownership:** Austin owns it technically; the business (account managers / performance lead) owns data validity – correct budgets, thresholds and channel lists.
@@ -81,10 +84,10 @@ notion_section: "Modern ad budget pacing + performance alerting"
 - **[O-11](../opportunities/README.md#o-11)** Pacing tracker reads budgets and spend, flags gaps – rank 11, 75 (10–21 h/month)
 - **[O-15](../opportunities/README.md#o-15)** Enter budgets once, log every change, written overspend policy – rank 15, 64 (1–4 h/month)
 - **[O-10](../opportunities/README.md#o-10)** Switch on native platform alert rules and scripts now – rank 10, 75 (1–8 h/month) – *interim step while the tool is chosen*
-- **[O-12](../opportunities/README.md#o-12)** Cross-account performance monitor with draft diagnosis – rank 12, 75 – **the paid part only**. The SEO part (weekly GA4 / Search Console / Ahrefs digest) is now its own SEO-team solutions: [DS-22](ds-22-seo-automated-monday-client-performance-check.md), [DS-23](ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md) (your call, 9 Nov).
-- Your earlier ideas: *Pacing tracker + adjustment engine* and *Proactive PPC monitor and anomaly detector*
+- **[O-12](../opportunities/README.md#o-12)** Cross-account performance monitor with draft diagnosis – rank 12, 75 – **the paid part only**. The SEO part (weekly GA4 / Search Console / Ahrefs digest) is now its own SEO-team solutions: [DS-22](ds-22-seo-automated-monday-client-performance-check.md), [DS-23](ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md) (Austin's call, 9 Nov).
+- Austin's earlier ideas: *Pacing tracker + adjustment engine* and *Proactive PPC monitor and anomaly detector*
 
-Value for this solution is worked out in **Value** below (\~62–71 h/month saved; \~A\$200K–220K a year of PPC capacity). The hour ranges listed against each opportunity above are earlier estimates and are superseded.
+Value for this solution is worked out in **Value** below (\~56–64 h/month saved; \~A\$186K–213K a year of PPC capacity). The hour ranges listed against each opportunity above are earlier estimates and are superseded.
 
 ## Problems it fixes and the evidence
 
@@ -131,7 +134,7 @@ Adpulse already covers every channel, pacing, spike/drop alerts and Slack. A thi
 
 - **Bïrch (formerly Revealbot)** runs rules across Meta, Google Ads, TikTok and Snapchat, checking roughly every 15 minutes. **It does not list LinkedIn**, which has no pacing line today ([MP-PP02](../pain-points/README.md#mp-pp02)). Automated rules need the Pro plan (US\$99/month at low spend); pricing scales with total connected ad spend. At Aperitif's \~A\$1.2M/month (Google \~A\$788K + Meta \~A\$422K) it would be an enterprise quote.
 - **Pacing-specific SaaS that does include LinkedIn** exists – e.g. [Shape.io](http://Shape.io) (Google, Meta, Microsoft, LinkedIn, X, Pinterest, TikTok), Pace, Adpulse, ReportGarden, BuyerBridge. Worth pricing at least one against the custom build before committing.
-- **Implication for your decision:** because it must cover *every* channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. **Recommended: Adpulse – see Pricing & priority.**
+- **Implication for the decision:** because it must cover *every* channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. **Recommended: Adpulse – see Pricing & priority.**
 
 ## Future state (draft)
 
@@ -201,11 +204,6 @@ See this solution's green **Pricing & priority** box above.
 - The channel list (LinkedIn, TikTok, Criteo, Pinterest, ChatGPT ads) comes from one interview (WS-O01) – confirm the live channel list per client.
 - Bïrch facts from its pricing page and reviews, Nov 2026; LinkedIn support not listed.
 - Supermetrics is connected but failing, not cancelled (contradiction [X-01](../synthesis/contradictions.md#x-01)).
-
-## Open questions for you
-
-- Build vs buy: shortlist one all-channel pacing SaaS to price against a custom build (Claude can compare [Shape.io](http://Shape.io) / Pace / Adpulse on channels, Slack alerts, per-client thresholds and price when you're ready).
-- Indicative build cost and OpEx (yours to set).
 
 ## Decided
 
