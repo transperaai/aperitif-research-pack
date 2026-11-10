@@ -14,8 +14,8 @@ problems_also_helped: []
 problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP06", "KO-PP20", "KO-PP21", "LS-PP08", "LS-PP09", "LS-PP15", "MP-PP16"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP06 (inferred)", "LS-PP09 (interviewer-raised)"]
-value: "A$90K–120K/yr retained (3–4 clients saved)"
-value_retained_aud_per_year: [90000, 120000]
+value: "Churn 3% → 2% a month: ~12 clients, ~A$360K/yr kept"
+value_retained_aud_per_year: [360000, 360000]
 build_cost: "A$6,500"
 monthly: "A$500/month (for now) + tokens ~US$40–150"
 notion_section: "Client health & growth intelligence (anti-churn + expansion)"
@@ -38,7 +38,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Not in proposal |
 | Pain points cited | [KO-PP06](../pain-points/README.md#ko-pp06) (inferred), [KO-PP20](../pain-points/README.md#ko-pp20), [KO-PP21](../pain-points/README.md#ko-pp21), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09) (interviewer-raised), [LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16) |
 | Written source | – |
-| Value | A\$90K–120K/yr retained (3–4 clients saved) |
+| Value | Churn 3% → 2% a month: \~12 clients, \~A\$360K/yr kept |
 | Build cost | A\$6,500 |
 | Monthly | A\$500/month (for now) + tokens \~US\$40–150 |
 
@@ -106,10 +106,12 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 
 | Step | Figure |
 | --- | --- |
-| Clients lost today | 10 archived clients had contracts end between 31 Aug and 17 Oct 2026 (client board) |
+| Churn today | \~3% of clients a month, about 3 clients a month (Austin's estimate; the client board shows 10 contracts ended 31 Aug–17 Oct 2026) |
 | Average retainer of clients who left | \~A\$2,500 a month (client board) |
-| Clients saved by early warning | 3–4 a year (Austin's estimate) |
-| **Revenue retained** | **\~A\$90K–120K a year** (3–4 × \~A\$2,500 × 12) |
+| Churn with early warning | \~2% a month – about 1 client a month, \~12 a year, kept (Austin's target) |
+| **Revenue kept** | **\~A\$360K a year** (12 × \~A\$2,500 × 12) |
+
+Aperitif is capped by team capacity, so kept clients don't add growth on top of the capacity figures – they mean \~12 fewer replacement wins (and onboardings) are needed each year, and the business reaches its new ceiling sooner. Not added to the capacity totals.
 
 Growth signals (new products, markets, budgets) also surface upsell opportunities – not counted.
 
@@ -134,6 +136,6 @@ See this solution's green **Pricing & priority** box above.
 ## Decided (9 Nov)
 
 - **Who gets alerts:** the account owner, the **department lead and Julia at every risk level**. Julia's alerts can be **toggled on and off**; she wants them on for now. ([DS-13](ds-13-merged-into-ds-14.md)'s aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
-- **Churn basis:** the client board (10 archived clients ended 31 Aug–17 Oct 2026, average \~A\$2,500); 3–4 saved a year is Austin's estimate – confirm the churn rate with Joe.
+- **Churn basis (revised 10 Nov):** \~3% a month today, brought down to \~2% – Austin's estimate and target. The client board (10 contracts ended 31 Aug–17 Oct 2026, average \~A\$2,500) is consistent with it. Confirm the churn rate with Joe.
 - **Personality profiles:** client contacts only – not prospects.
 - **Merged with [DS-13](ds-13-merged-into-ds-14.md) (Austin's call, 9 Nov):** the escalation and delegation rules ([O-21](../opportunities/README.md#o-21)) are Part B of this solution – see the [DS-13](ds-13-merged-into-ds-14.md) section above for the rules and evidence.

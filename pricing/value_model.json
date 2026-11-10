@@ -60,7 +60,8 @@
   "content_clients": 48,
   "churn_board": "10 ended 31 Aug-17 Oct 2026, avg A$2,500",
   "productive_h": 130,
-  "source": "client board 10 Nov, live (paused excluded)"
+  "source": "client board 10 Nov, live (paused excluded)",
+  "churn_month": 0.03
  },
  "DS-22": {
   "time_h_month": [
@@ -127,10 +128,16 @@
  },
  "DS-14": {
   "retained_arr": [
-   90000,
-   120000
+   360000,
+   360000
   ],
-  "saved": "3-4/yr x A$2,500"
+  "churn_month": {
+   "today": 0.03,
+   "with_tool": 0.02
+  },
+  "saved": "~12/yr x A$2,500 x 12",
+  "basis": "Austin's estimate and target (10 Nov); client board consistent",
+  "note": "Capacity-capped: kept clients reduce replacement wins needed; not added to capacity"
  },
  "DS-15": {
   "value": "leadership visibility/optics"
@@ -246,13 +253,14 @@
    ]
   },
   "retained_arr": [
-   90000,
-   120000
+   360000,
+   360000
   ],
   "recovered_upto": [
    10000,
    16000
-  ]
+  ],
+  "retained_note": "Not added to capacity totals (capacity-capped business)"
  },
  "_labels": "70-80% check removal = estimate/target; proposals 6-8 conservative; A$80/hr per Joe"
 }

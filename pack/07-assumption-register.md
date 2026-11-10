@@ -17,10 +17,10 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 
 > **Client board data plus Austin's estimate.** No churn figure was stated in the interviews.
 >
-> - Clients lost: **10 clients** had contracts end between **31 Aug and 17 Oct 2026** (client board)
-> - Average retainer of the clients who left: **~A$2,500 a month** (client board)
-> - Clients saved by early warning: **3–4 a year** – Austin's estimate
-> - Maths: 3–4 × ~A$2,500 × 12 ≈ **~A$90K–120K a year retained**
+> - Churn today: **~3% of clients a month** – Austin's estimate (the client board shows 10 contracts ended 31 Aug–17 Oct 2026, average ~A$2,500)
+> - Churn with early warning: **~2% a month** – Austin's target, about 12 clients a year kept
+> - Maths: 12 × ~A$2,500 × 12 ≈ **~A$360K a year kept**
+> - Aperitif is capped by team capacity, so kept clients are not added to the capacity totals – they mean fewer replacement wins are needed
 >
 > **How to confirm:** Joe – is the 31 Aug–17 Oct run of 10 ended contracts typical, and how many of those could an earlier warning have saved?
 >
@@ -137,7 +137,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-14 · Client health & growth intelligence
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| **3–4 clients saved a year × ~A$2,500 × 12 ≈ A$90K–120K retained** – board data plus Austin's estimate; see the box at the top | Evidence-thin (Austin's estimate) | Joe – is the recent churn typical? |
+| **Churn 3% a month → 2% (~12 clients × ~A$2,500 × 12 ≈ A$360K a year kept)** – Austin's estimate and target; see the box at the top | Evidence-thin (Austin's estimate) | Joe – is the recent churn typical? |
 | No time saved claimed | – | – |
 | Depends on DS-04 being live with transcripts, email and Slack | Dependency | DS-04 first |
 | Profiling client contacts needs the AI data rule and a clear line on what's stored about individuals; staff are not profiled | Dependency | DS-02; privacy check |

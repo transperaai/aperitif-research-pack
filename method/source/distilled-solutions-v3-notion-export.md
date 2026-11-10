@@ -1523,10 +1523,12 @@ Covered by DS-14 – see its <b>Pricing & priority</b> box.
 
 | Step | Figure |
 | --- | --- |
-| Clients lost today | 10 archived clients had contracts end between 31 Aug and 17 Oct 2026 (client board) |
+| Churn today | \~3% of clients a month, about 3 clients a month (Austin's estimate; the client board shows 10 contracts ended 31 Aug–17 Oct 2026) |
 | Average retainer of clients who left | \~A\$2,500 a month (client board) |
-| Clients saved by early warning | 3–4 a year (Austin's estimate) |
-| <b>Revenue retained</b> | <b>\~A\$90K–120K a year</b> (3–4 × \~A\$2,500 × 12) |
+| Churn with early warning | \~2% a month – about 1 client a month, \~12 a year, kept (Austin's target) |
+| <b>Revenue kept</b> | <b>\~A\$360K a year</b> (12 × \~A\$2,500 × 12) |
+
+Aperitif is capped by team capacity, so kept clients don't add growth on top of the capacity figures – they mean \~12 fewer replacement wins (and onboardings) are needed each year, and the business reaches its new ceiling sooner. Not added to the capacity totals.
 
 Growth signals (new products, markets, budgets) also surface upsell opportunities – not counted.
 
@@ -1551,7 +1553,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Decided (9 Nov)
 
 - <b>Who gets alerts:</b> the account owner, the <b>department lead and Julia at every risk level</b>. Julia's alerts can be <b>toggled on and off</b>; she wants them on for now. (DS-13's aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
-- <b>Churn basis:</b> the client board (10 archived clients ended 31 Aug–17 Oct 2026, average \~A\$2,500); 3–4 saved a year is Austin's estimate – confirm the churn rate with Joe.
+- <b>Churn basis (revised 10 Nov):</b> \~3% a month today, brought down to \~2% – Austin's estimate and target. The client board (10 contracts ended 31 Aug–17 Oct 2026, average \~A\$2,500) is consistent with it. Confirm the churn rate with Joe.
 - <b>Personality profiles:</b> client contacts only – not prospects.
 - <b>Merged with DS-13 (Austin's call, 9 Nov):</b> the escalation and delegation rules (O-21) are Part B of this solution – see the DS-13 section above for the rules and evidence.
 

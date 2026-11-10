@@ -1,7 +1,7 @@
 {
  "generator": "deliverable/build_repo.py",
  "sources": {
-  "~/ledger/source/distilled_solutions_v3.md": "223ec0ce384c23ca39dce95214418a8e8f1d566b4846109ac3a7ea2b9c1e9b34",
+  "~/ledger/source/distilled_solutions_v3.md": "164e388da1e17fc9bbeca2acdfde12d545adb2b7709f968c683e8a75dec11392",
   "~/ledger/source/problems_db.txt": "bc38569aaaadbe2acf2d6ebad933cad8d55f3e2d82e99f21c3d94e4267f79c09",
   "~/ledger/source/opportunities_db.json": "6cb6fd821a4acedff700f7b025aa08ccac50a6188b9443d099bdf7b421bbb27c",
   "~/painpoints/rows.json": "374c5ae90addeff3a48382e6dec1ce5d21ba4885ee8266cafba34751375c1fbc",

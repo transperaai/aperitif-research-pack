@@ -14,7 +14,7 @@
 ## Conventions
 
 - **Value** is in [../VALUE-BY-BUNDLE.md](../VALUE-BY-BUNDLE.md) (authoritative, 10 Nov): time saved at A\$80/hr and capacity unlocked (hours freed ÷ \~130 productive hours × MRR managed per account manager), based on the live client board (10 Nov: 101 clients, A\$421,121 MRR). Time and capacity are the same hours counted two ways – never add them. Every number carries a basis label.
-- **Retention (DS-14)** rests on the client board (10 clients ended 31 Aug–17 Oct 2026, average \~A\$2,500 a month); 3–4 clients saved a year is Austin's estimate.
+- **Retention (DS-14)**: churn \~3% of clients a month today, \~2% with early warning (Austin's estimate and target) – \~12 clients, \~A\$360K a year kept; not added to capacity. The client board (10 clients ended 31 Aug–17 Oct 2026, average \~A\$2,500) is consistent with it.
 - **Build cost and monthly fees** are set by Austin per solution (A\$; SaaS and AI tokens in US\$) and shown in each solution file. Tool prices are list prices from web research (Nov 2026), not quotes.
 - **Superseded:** the earlier cost-of-inactivity (COI) figures and churn basis still appear in the audit report, gaps-and-issues and the decisions log; those files carry a banner.
 
