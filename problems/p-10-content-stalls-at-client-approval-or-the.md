@@ -1,9 +1,9 @@
 ---
 id: P-10
 title: "Content stalls at client approval – or the tracker can't show what's finished"
-austin_call: "Park"
-austin_note: "Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov)."
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: the fix (O-24, client approval deadlines) was dropped by Austin on 9 Nov; approvals sit with the client."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: []
 related_only: []
@@ -20,9 +20,9 @@ notion_id: 40fe204ff76981b68122d87f55dc84be
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov). |
-| Status | parked – Parked by Austin: Not solving in this proposal – the fix ([O-24](../opportunities/README.md#o-24)) was dropped (Austin, 9 Nov). |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: the fix (O-24, client approval deadlines) was dropped by Austin on 9 Nov; approvals sit with the client. |
+| Status | not in proposal – why: Not solving in this proposal – the fix ([O-24](../opportunities/README.md#o-24)) was dropped (Austin, 9 Nov). |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |

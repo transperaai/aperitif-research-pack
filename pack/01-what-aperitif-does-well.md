@@ -99,7 +99,7 @@ Before the problems, here is what's working. These are the things to protect whi
   - *"the briefs have been incredible since then."* – Hayley Tantau (HT L098)
 
 ### 12. Commercial discipline at the top
-- **What we saw:** monthly financials within days, DLER used as a utilisation check, retention tracked automatically, and calculators that tie retainers to hours.
+- **What we saw:** monthly financials within days, DLER (MRR managed per person) tracked, retention tracked automatically, and calculators that tie retainers to hours.
 - **Raised by:** 6 staff + Joe and Julia (ST-19, S-08, S-10).
 - **In their words:**
   - *"We have a calculator that works out how many words, links and hours make up the monthly retainer."* – Laura Shillington (LS L022)

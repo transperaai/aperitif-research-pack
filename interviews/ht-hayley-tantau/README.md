@@ -17,4 +17,4 @@
 
 ## Pain points from this interview
 
-10 pain points (parked 5, addressed 3, partly addressed 2) – see [the pain point index](../../pain-points/README.md#interview-ht).
+10 pain points (not in proposal 5, addressed 3, partly addressed 2) – see [the pain point index](../../pain-points/README.md#interview-ht).

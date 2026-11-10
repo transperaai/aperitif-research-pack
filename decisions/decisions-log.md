@@ -6,7 +6,7 @@
 
 ## Austin decisions on ledger issues (9 Nov, 20:34) – apply to ledger after audit
 
-1. P-39, P-11, P-32 stay Park. DS-10 now lists P-39 as "also helps (parked)", not "fixes". DS-03/DS-06 already mark P-11/P-32 as parked.
+1. P-39, P-11, P-32 stay out of this proposal. DS-10 now lists P-39 as "also helps (not in proposal)", not "fixes". DS-03/DS-06 already mark P-11/P-32 as not in this proposal.
 2. P-25 (no single home for templates) and P-47 (silos) → fixed by DS-15 (AI Business Brain). Added to DS-15 "Problems it fixes".
 3. DS-05 calculator margin-maths assumption (R26 / P-26 rejected) → dropped from DS-05.
 4. Earlier ideas: Live chat bot (EI-10) and Auto financial profile (EI-05) → Drop. Replace HubSpot (EI-18) → Drop (not recommending). Client approval portal (EI-06) → Drop (with O-24). Blank calls filled: EI-01 Keep (DS-09), EI-02 Keep (DS-15), EI-08 Keep (DS-02), EI-15 Keep (DS-01). Notion updated.

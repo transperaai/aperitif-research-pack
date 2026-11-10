@@ -383,7 +383,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/410e204ff769810aafa6ce47457ecf5a">Content briefs are re-cut and reformatted by hand, eating the first half of each month</mention> – High. 3 staff. <i>"especially early months, the content briefing is pretty much all of my day or say a few days to a week."</i> – an SEO manager (ZC-PP02). <i>"content briefs; we could have automated those years ago."</i> – the SEO Director (LS-PP03). Briefs are copied from Claude into Word and reformatted by hand (ZC-PP03).
-- Briefs arrive unseen or late – 2 content team members (C-21, part of <mention url="https://app.notion.com/p/40fe204ff769812bb6b9dae3c44d0839">Content tracker and link sheets live outside Monday.com</mention>, parked for now). <i>"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"</i> – a content team member (SJ-PP02). Auto-created Monday tasks remove this.
+- Briefs arrive unseen or late – 2 content team members (C-21, part of <mention url="https://app.notion.com/p/40fe204ff769812bb6b9dae3c44d0839">Content tracker and link sheets live outside Monday.com</mention>, not in this proposal). <i>"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"</i> – a content team member (SJ-PP02). Auto-created Monday tasks remove this.
 - Also helps (Solve later): <mention url="https://app.notion.com/p/40fe204ff769811b9981d8c28a6528e8">Content delivery hinges on the Content Manager as writer, editor and contractor manager</mention> – less routing by hand.
 
 ### Future state (draft)
@@ -776,7 +776,7 @@ Approach and price: see Pricing & priority.
 
 - <mention url="https://app.notion.com/p/40fe204ff76981e9b92fcb8a575cb3f4">Reminders go unacted; a broken reminder bot went unnoticed</mention> (C-30) – Solve now. Staff + leadership. <i>"not everybody uses Monday to like, you know, set up a task."</i> – a technical SEO specialist, who also gets requests by Slack DM and email (SB-PP04, stated). Forwarded email chains take <b>\~30 minutes each</b> to untangle (SB-PP03). Requests in email and Slack slip and become last-minute (SB-PP01). Leadership: <i>"Half an hour ago, the reminder went out. We still don't have updates."</i> (MP-PP05).
 - <mention url="https://app.notion.com/p/410e204ff76981c88fe8f4907efc6ba1">Internal task briefs from managers to implementers are slow to write and often incomplete</mention> (C-27) – Solve now. Requests range from one sentence to a full brief (LS-PP14); implementers chase account managers for missing details (MC-PP04); Monday notifications don't always land, so Slack becomes the backup (MC-PP05). The sweeper's missing-field check addresses this.
-- Also helps: <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests (C-18, parked for now) become visible in Monday, even if they're still same-day.
+- Also helps: <mention url="https://app.notion.com/p/40fe204ff76981208c95f2a96063afd7">Managers at capacity – Tier 2/3 clients get dropped first</mention> – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests (C-18, not in this proposal) become visible in Monday, even if they're still same-day.
 - <i>Austin's observation:</i> a lot of the stray requests are in DMs – one interview confirms DMs as a request route (SB-PP04).
 
 ### Future state (draft)
@@ -1147,7 +1147,7 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 ### Problems it fixes and the evidence
 
 - <mention url="https://app.notion.com/p/40fe204ff769813ea8eec750d9aace68">Slack bots and agents have no visible owner or documentation</mention> – <i>"But if I'm not there, who's going to do it? It needs to have that system in place."</i> – the technical SEO specialist who built and maintains it (SB-PP11).
-- Also helps (parked for now): <mention url="https://app.notion.com/p/410e204ff76981998f05d3821fbd38e3">HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost</mention> – the register documents these automations so errors are found faster; it doesn't fix them. <i>"the person who closes the deal on HubSpot is never the person who's going to manage the client account."</i> (SB-PP10), fixed by hand each time.
+- Also helps (not in this proposal): <mention url="https://app.notion.com/p/410e204ff76981998f05d3821fbd38e3">HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost</mention> – the register documents these automations so errors are found faster; it doesn't fix them. <i>"the person who closes the deal on HubSpot is never the person who's going to manage the client account."</i> (SB-PP10), fixed by hand each time.
 - Unowned automations: the pacing bot has no visible owner or documentation (<i>inferred from the interview, not stated</i> – SD-PP19), and the Supermetrics feed failed without anyone owning the fix (DS-01).
 
 ### Future state

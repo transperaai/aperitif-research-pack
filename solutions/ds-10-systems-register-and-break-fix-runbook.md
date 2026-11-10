@@ -33,7 +33,7 @@ notion_section: "Systems register and break-fix runbook"
 | Opportunities | [O-16](../opportunities/README.md#o-16) (full) |
 | Earlier ideas | – |
 | Fixes | [P-15 Slack bots and agents have no visible owner or documentation](../problems/p-15-slack-bots-and-agents-have-no-visible.md) |
-| Also helps | [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – Park ("also helps (you parked this problem)") |
+| Also helps | [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – Not in proposal ("also helps (problem not in this proposal)") |
 | Pain points cited | [SB-PP10](../pain-points/README.md#sb-pp10), [SB-PP11](../pain-points/README.md#sb-pp11), [SD-PP19](../pain-points/README.md#sd-pp19) (inferred) |
 | Written source | – |
 | Value | No reliance on one person |
@@ -74,7 +74,7 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 ## Problems it fixes and the evidence
 
 - [Slack bots and agents have no visible owner or documentation](../problems/p-15-slack-bots-and-agents-have-no-visible.md) – *"But if I'm not there, who's going to do it? It needs to have that system in place."* – the technical SEO specialist who built and maintains it ([SB-PP11](../pain-points/README.md#sb-pp11)).
-- Also helps (parked for now): [HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – the register documents these automations so errors are found faster; it doesn't fix them. *"the person who closes the deal on HubSpot is never the person who's going to manage the client account."* ([SB-PP10](../pain-points/README.md#sb-pp10)), fixed by hand each time.
+- Also helps (not in this proposal): [HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – the register documents these automations so errors are found faster; it doesn't fix them. *"the person who closes the deal on HubSpot is never the person who's going to manage the client account."* ([SB-PP10](../pain-points/README.md#sb-pp10)), fixed by hand each time.
 - Unowned automations: the pacing bot has no visible owner or documentation (*inferred from the interview, not stated* – [SD-PP19](../pain-points/README.md#sd-pp19)), and the Supermetrics feed failed without anyone owning the fix ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)).
 
 ## Future state

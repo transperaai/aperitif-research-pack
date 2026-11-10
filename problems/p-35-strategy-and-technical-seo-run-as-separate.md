@@ -1,9 +1,9 @@
 ---
 id: P-35
 title: "Strategy and technical SEO run as separate queues, so big technical work slips"
-austin_call: "Park"
-austin_note: "Not solving in this proposal – the fix (O-35) was dropped (Austin, 9 Nov)."
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: the fix (O-35, joint monthly tech-priority check) is a process change, not a build, so it's offered as a habit in the culture recommendations (P-47)."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: []
 related_only: []
@@ -20,9 +20,9 @@ notion_id: 410e204ff7698188a460d2fc6e105ee9
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | Not solving in this proposal – the fix (O-35) was dropped (Austin, 9 Nov). |
-| Status | parked – Parked by Austin: Not solving in this proposal – the fix ([O-35](../opportunities/README.md#o-35)) was dropped (Austin, 9 Nov). |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: the fix (O-35, joint monthly tech-priority check) is a process change, not a build, so it's offered as a habit in the culture recommendations (P-47). |
+| Status | not in proposal – why: Not solving in this proposal – the fix ([O-35](../opportunities/README.md#o-35)) was dropped (Austin, 9 Nov). |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |

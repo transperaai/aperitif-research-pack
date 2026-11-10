@@ -50,13 +50,12 @@ About 11 hours of conversation in total (estimated); staff interviews averaged a
 - Notion Company Home wiki (217 pages; Austin's analysis: 43% not edited in over a year).
 - The org chart and the order book's client tiers.
 - Google Drive – file ownership and structure.
-- Email – *[Austin to confirm what email access was used]*.
+- Email – no email access or review.
 
 ---
 
 ## What was out of scope
 
-*[Austin to confirm this list against the engagement letter.]*
 - **Finance and billing** – Xero, AP runs, payroll and invoicing were noted (Joe still runs them by hand, KO-PP03) but not reviewed or costed.
 - **Conversion tracking deep-dive** – one contractor (Liam Lau) owns it and wasn't interviewed. P-17 is "Solve later".
 - **The sales process from the sales side** – no recorded sales interview.
@@ -87,7 +86,7 @@ Each step fed the next. Every finding traces back down the chain to a transcript
 4. **Root causes.** Clusters traced to a small set of shared root causes.
 5. **Problems.** Clusters merged with the 26 known problems into one problem list. A separate culture sweep added six culture problems.
 6. **Process costs and opportunities.** Monthly hours costed per process at $80/hr. Each interview's opportunities merged into one list and ranked.
-7. **Austin's decisions.** Austin made a call on every problem (solve now, later, park, reject) and every opportunity and earlier idea (keep, change, drop).
+7. **Austin's decisions.** Austin made a call on every problem (solve now, later, not in this proposal, reject) and every opportunity and earlier idea (keep, change, drop).
 8. **Solutions.** The kept items were written up as solutions DS-01 to DS-33, each with evidence, future state, KPIs, value (time saved and capacity unlocked – revised with Austin on 10 Nov against the live client board) and assumptions.
 9. **Independent audit.** A separate check on 9 Nov re-checked every quote against the transcripts and recomputed every cost figure. Its fixes were applied.
 
@@ -104,16 +103,22 @@ Each step fed the next. Every finding traces back down the chain to a transcript
 | Root causes | **8** | Stage 1 |
 | Contradictions logged | **31** | Stage 1 |
 | Strengths and culture items (second pass) | **488** strength items → 20 themes; **153** culture items → 15 themes | Stage 4 |
-| Problems | **48** (incl. 26 known before the audit and 6 culture problems) – Austin's calls: 29 solve now, 5 solve later, 9 park, 5 reject | Problems database |
+| Problems | **48** (incl. 26 known before the audit and 6 culture problems) – Austin's calls: 29 solve now, 5 solve later, 9 not in this proposal (each with a note why), 5 reject | Problems database |
 | Opportunities | **143** raised in interviews → **35** merged, plus **21** of Austin's earlier ideas | Stage 2; Opportunities database |
 | Solutions | **33** numbered (DS-01 to DS-33) – **32 active**; DS-13 merged into DS-14 | Distilled Solutions page |
 | Ideas to discuss | **1** (PPC productised service) | Opportunities database |
 | Independent audit | 66 of 66 quotes verbatim; 6 must-fix, 17 should-fix, 16 notes – all must-fix items applied | Audit report, 9 Nov |
 
-**Pain point coverage** (decision ledger, 9 Nov): 173 addressed by a solution, 20 partly addressed, 48 sit under parked problems, 2 under rejected problems. *The ledger was built on the page before DS-30 to DS-33 were split out; those are splits of existing solutions, so coverage is unchanged.*
+**Pain point coverage** (decision ledger, 9 Nov): 173 addressed by a solution, 20 partly addressed, 48 sit under problems not in this proposal, 2 under rejected problems. *The ledger was built on the page before DS-30 to DS-33 were split out; those are splits of existing solutions, so coverage is unchanged.*
 
 ---
 
 ## Time spent
 
-> **[PLACEHOLDER – Austin to add total hours spent on the audit, and a split if useful: interviews, document review, analysis, write-up.]**
+About **65 hours** in total:
+
+| Work | Hours |
+| --- | --- |
+| Primary research and information gathering (interviews, documents, systems) | ~30 |
+| Secondary research | ~10 |
+| Analysis and solution curation | ~25 |

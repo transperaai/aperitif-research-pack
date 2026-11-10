@@ -1,9 +1,9 @@
 ---
 id: P-29
 title: "Page builds and content uploads reach clients with errors or loop for weeks"
-austin_call: "Park"
-austin_note: "Not solving in this proposal – the fix (O-09) was dropped (Austin, 9 Nov)."
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: the fix (O-09, build QA) was dropped by Austin on 9 Nov; the cause is unclear requirements and build QA, which is process, not a build."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: []
 related_only: []
@@ -20,9 +20,9 @@ notion_id: 410e204ff769811096cfd291b9f670da
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | Not solving in this proposal – the fix (O-09) was dropped (Austin, 9 Nov). |
-| Status | parked – Parked by Austin: Not solving in this proposal – the fix ([O-09](../opportunities/README.md#o-09)) was dropped (Austin, 9 Nov). |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: the fix (O-09, build QA) was dropped by Austin on 9 Nov; the cause is unclear requirements and build QA, which is process, not a build. |
+| Status | not in proposal – why: Not solving in this proposal – the fix ([O-09](../opportunities/README.md#o-09)) was dropped (Austin, 9 Nov). |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |

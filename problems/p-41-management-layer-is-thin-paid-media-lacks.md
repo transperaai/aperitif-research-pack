@@ -1,9 +1,9 @@
 ---
 id: P-41
 title: "Management layer is thin: paid media lacks a senior lead; new leads lack training"
-austin_call: "Park"
-austin_note: "not really a problem i can solve but i do want to talk about this being a cultural issues (claude make the necessary changes please)"
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: a leadership and culture issue, not something a build solves; discussed on the Culture page instead."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: []
 related_only: ["DS-14"]
@@ -20,16 +20,16 @@ notion_id: 410e204ff76981e18b83f14ee089f51e
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | not really a problem i can solve but i do want to talk about this being a cultural issues (claude make the necessary changes please) |
-| Status | parked – Parked by Austin: not really a problem i can solve but i do want to talk about this being a cultural issues (claude make the necessary changes please) |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: a leadership and culture issue, not something a build solves; discussed on the Culture page instead. |
+| Status | not in proposal – why: a leadership and culture issue, not something a build solves; discussed on the Culture page instead. |
 | Theme · severity · confidence | Cultural · High · High – raised by 3+ people |
 | Process area | People / culture |
 | Source | Transcript merge (Stage 1, 6 Nov) |
 
 ## Solutions addressing it
 
-- Related only: [DS-14 Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) – related culture point (parked), from DS-13
+- Related only: [DS-14 Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) – related culture point (not in proposal), from DS-13
 
 ## Opportunities linked in Notion
 

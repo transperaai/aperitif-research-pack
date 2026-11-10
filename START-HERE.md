@@ -7,8 +7,8 @@ Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 
 | Layer | Count | Status |
 | --- | --- | --- |
 | [Interviews](interviews/README.md) | 14 | 2 leadership + 12 staff, 22 Oct – 4 Nov 2026 |
-| [Pain points](pain-points/README.md) (PP) | 243 | addressed 173, parked 48, partly addressed 20, rejected 2 |
-| [Problems](problems/README.md) (P) | 48 | Austin's calls: Solve now 29, Park 9, Solve later 5, Reject 5. Ledger: addressed 31, parked 9, rejected 5, partly addressed 3 |
+| [Pain points](pain-points/README.md) (PP) | 243 | addressed 173, not in proposal 48, partly addressed 20, rejected 2 |
+| [Problems](problems/README.md) (P) | 48 | Austin's calls: Solve now 29, Not in proposal 9, Solve later 5, Reject 5. Ledger: addressed 31, not in proposal 9, rejected 5, partly addressed 3 |
 | [Merged opportunities](opportunities/README.md) (O) | 35 | addressed 15, dropped 7, absorbed 7, partly addressed 6 |
 | [Earlier ideas](opportunities/README.md#earlier-ideas-table) (EI) | 21 | absorbed 9, addressed 5, dropped 4, partly addressed 2, idea to discuss 1 |
 | [Solutions](solutions/README.md) (DS) | 33 | 32 in the final set; DS-13 merged into DS-14 |
@@ -93,7 +93,7 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 | What is each solution worth (time, capacity, DLER)? | [VALUE-BY-BUNDLE.md](VALUE-BY-BUNDLE.md) |
 | What did people actually say? | [pain-points/](pain-points/README.md), then the [transcripts](interviews/README.md) |
 | What is broken, and what did Austin decide about it? | [problems/](problems/README.md) |
-| Which ideas were dropped, parked or not recommended? | [decisions/not-recommending.md](decisions/not-recommending.md), [opportunities/](opportunities/README.md) |
+| Which ideas were dropped, left out or not recommended? | [decisions/not-recommending.md](decisions/not-recommending.md), [opportunities/](opportunities/README.md) |
 | How were decisions recorded? | [decisions/](decisions/README.md) – ledger and log |
 | Clusters, root causes, contradictions, culture and strengths | [synthesis/](synthesis/README.md) |
 | How was it done, and how reliable is it? | [method/](method/README.md) – prompts, audit, gaps |

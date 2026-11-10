@@ -1,9 +1,9 @@
 ---
 id: P-37
 title: "Meta campaign builds are manual and every ad needs hand QA"
-austin_call: "Park"
-austin_note: ""
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: a small, contained quick win (3 staff) rather than a core build; can be picked up later if wanted."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: []
 related_only: []
@@ -20,9 +20,9 @@ notion_id: 410e204ff769810e9f37d9b2921c73bf
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | – |
-| Status | parked – Parked by Austin (no note given) |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: a small, contained quick win (3 staff) rather than a core build; can be picked up later if wanted. |
+| Status | not in proposal – why: a small, contained quick win (3 staff) rather than a core build; can be picked up later if wanted. |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |

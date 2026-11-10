@@ -12,10 +12,10 @@ Built 9 Nov 2026 from the v3 Distilled Solutions page (DS-01..DS-33, after the v
 
 ## D. Cited pain point sits under a problem the DS does not list (25)
 
-- DS-02 cites MC-PP20 (Michaela Cruz) – linked to P-37 (Meta campaign builds are manual and every ad needs, Park).
+- DS-02 cites MC-PP20 (Michaela Cruz) – linked to P-37 (Meta campaign builds are manual and every ad needs, Not in proposal).
 - DS-04 cites MP-PP16 (Joe Romeo) – linked to P-31 (Churn risk is spotted late and account teams repor, Solve now).
 - DS-04 cites SB-PP03 (Sid Bali) – linked to P-16 (Reminders go unacted; a broken reminder bot went u, Solve now).
-- DS-08 cites MC-PP13 (Michaela Cruz) – linked to P-39 (HubSpot–Make–Monday integrations create wrong or u, Park).
+- DS-08 cites MC-PP13 (Michaela Cruz) – linked to P-39 (HubSpot–Make–Monday integrations create wrong or u, Not in proposal).
 - DS-09 cites KZ-PP21 (Karl Zaharopoulos) – linked to P-19;P-42 (Proposals are rebuilt from scratch per prospect, Solve now; Growth depends on the founder and inbound leads wh, Reject).
 - DS-10 cites SD-PP19 (Shrishti Dokwal) – linked to P-01 (Meta pacing sheet is broken – Supermetrics connect, Solve now).
 - DS-11 cites LS-PP12 (Laura Shillington) – linked to P-34 (Link sourcing is slow, manual and supply-constrain, Solve now).
@@ -27,7 +27,7 @@ Built 9 Nov 2026 from the v3 Distilled Solutions page (DS-01..DS-33, after the v
 - DS-15 cites MP-PP20 (Joe Romeo) – linked to P-14 (Client knowledge lives in people's heads, not per , Solve now).
 - DS-18 cites SH-PP11 (Sophie Hesseborn) – linked to P-03 (No proactive performance alerting – problems found, Solve now).
 - DS-18 cites WS-PP07 (Wendlley Simoes) – linked to P-18 (Sales commits to work delivery can't profitably do, Solve now).
-- DS-21 cites SD-PP12 (Shrishti Dokwal) – linked to P-30 (Client approval cycles hold up paid optimisations , Park).
+- DS-21 cites SD-PP12 (Shrishti Dokwal) – linked to P-30 (Client approval cycles hold up paid optimisations , Not in proposal).
 - DS-23 cites LS-PP15 (Laura Shillington) – linked to P-31 (Churn risk is spotted late and account teams repor, Solve now).
 - DS-25 cites WS-PP13 (Wendlley Simoes) – linked to P-40 (AI use is personal and ungoverned: no policy, shar, Solve later).
 - DS-26 cites LS-PP16 (Laura Shillington) – linked to P-05 (Client documents are built by duplicating previous, Solve now).
@@ -35,7 +35,7 @@ Built 9 Nov 2026 from the v3 Distilled Solutions page (DS-01..DS-33, after the v
 - DS-28 cites LS-PP16 (Laura Shillington) – linked to P-05 (Client documents are built by duplicating previous, Solve now).
 - DS-28 cites SH-PP09 (Sophie Hesseborn) – linked to P-21 (Managers at capacity – Tier 2/3 clients get droppe, Solve now).
 - DS-29 cites MC-PP18 (Michaela Cruz) – linked to P-21 (Managers at capacity – Tier 2/3 clients get droppe, Solve now).
-- DS-29 cites SH-PP15 (Sophie Hesseborn) – linked to P-37 (Meta campaign builds are manual and every ad needs, Park).
+- DS-29 cites SH-PP15 (Sophie Hesseborn) – linked to P-37 (Meta campaign builds are manual and every ad needs, Not in proposal).
 - DS-33 cites WS-PP12 (Wendlley Simoes) – linked to P-04 (Client-call prep takes longer than the call, Solve now).
 
 ## E. Interviewer-raised or detected evidence (16)
@@ -85,30 +85,30 @@ Built 9 Nov 2026 from the v3 Distilled Solutions page (DS-01..DS-33, after the v
 
 ## L. Agree-flagged pain points not addressed (24)
 
-- DM-PP06 (Diya Manoj; problem P-30) – parked
-- HT-PP05 (Hayley Tantau; problem P-11) – parked
-- HT-PP09 (Hayley Tantau; problem P-11) – parked
-- KO-PP11 (Joe Romeo; problem P-39) – parked
-- KO-PP12 (Joe Romeo; problem P-39) – parked
-- KZ-PP13 (Karl Zaharopoulos; problem P-29) – parked
-- KZ-PP14 (Karl Zaharopoulos; problem P-10) – parked
-- LS-PP06 (Laura Shillington; problem P-10) – parked
-- LS-PP07 (Laura Shillington; problem P-10) – parked
-- LS-PP10 (Laura Shillington; problem P-29) – parked
+- DM-PP06 (Diya Manoj; problem P-30) – not in proposal
+- HT-PP05 (Hayley Tantau; problem P-11) – not in proposal
+- HT-PP09 (Hayley Tantau; problem P-11) – not in proposal
+- KO-PP11 (Joe Romeo; problem P-39) – not in proposal
+- KO-PP12 (Joe Romeo; problem P-39) – not in proposal
+- KZ-PP13 (Karl Zaharopoulos; problem P-29) – not in proposal
+- KZ-PP14 (Karl Zaharopoulos; problem P-10) – not in proposal
+- LS-PP06 (Laura Shillington; problem P-10) – not in proposal
+- LS-PP07 (Laura Shillington; problem P-10) – not in proposal
+- LS-PP10 (Laura Shillington; problem P-29) – not in proposal
 - MC-PP09 (Michaela Cruz; problem P-21) – partly_addressed
-- SB-PP07 (Sid Bali; problem P-29) – parked
+- SB-PP07 (Sid Bali; problem P-29) – not in proposal
 - SD-PP07 (Shrishti Dokwal; problem P-21) – partly_addressed
-- SD-PP17 (Shrishti Dokwal; problem P-30) – parked
+- SD-PP17 (Shrishti Dokwal; problem P-30) – not in proposal
 - SH-PP09 (Sophie Hesseborn; problem P-21) – partly_addressed
-- SJ-PP01 (Sarah Julian; problem P-11) – parked
-- SJ-PP02 (Sarah Julian; problem P-11) – parked
-- SJ-PP03 (Sarah Julian; problem P-11) – parked
-- SJ-PP04 (Sarah Julian; problem P-11) – parked
+- SJ-PP01 (Sarah Julian; problem P-11) – not in proposal
+- SJ-PP02 (Sarah Julian; problem P-11) – not in proposal
+- SJ-PP03 (Sarah Julian; problem P-11) – not in proposal
+- SJ-PP04 (Sarah Julian; problem P-11) – not in proposal
 - SJ-PP05 (Sarah Julian; problem P-09) – partly_addressed
-- SJ-PP06 (Sarah Julian; problem P-11) – parked
-- SJ-PP10 (Sarah Julian; problem P-11) – parked
+- SJ-PP06 (Sarah Julian; problem P-11) – not in proposal
+- SJ-PP10 (Sarah Julian; problem P-11) – not in proposal
 - SJ-PP12 (Sarah Julian; problem P-09) – partly_addressed
-- ZC-PP06 (Zach Chamberlain; problem P-10) – parked
+- ZC-PP06 (Zach Chamberlain; problem P-10) – not in proposal
 
 ## N. Solutions with no fixed problem or weak evidence (7)
 

@@ -1,9 +1,9 @@
 ---
 id: P-32
 title: "Unplanned same-day and high-touch client requests break the planned month"
-austin_call: "Park"
-austin_note: ""
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: ["DS-03", "DS-06"]
 related_only: []
@@ -20,9 +20,9 @@ notion_id: 410e204ff769819496a5d0c622b9e531
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | – |
-| Status | parked – Parked by Austin (no note given); [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): slots and cut-offs for the out-of-cycle client, text only) ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md): via cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) in text) |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it. |
+| Status | not in proposal – why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it.; [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): slots and cut-offs for the out-of-cycle client, text only) ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md): via cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) in text) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |

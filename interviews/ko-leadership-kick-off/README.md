@@ -16,4 +16,4 @@
 
 ## Pain points from this interview
 
-26 pain points (addressed 20, parked 3, partly addressed 2, rejected 1) – see [the pain point index](../../pain-points/README.md#interview-ko).
+26 pain points (addressed 20, not in proposal 3, partly addressed 2, rejected 1) – see [the pain point index](../../pain-points/README.md#interview-ko).

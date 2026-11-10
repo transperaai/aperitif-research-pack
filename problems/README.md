@@ -1,6 +1,6 @@
 # Problems (48)
 
-Problems P-01..P-48 from the Problems database (Notion), with Austin's call and the ledger status. A Park call stays parked even if a solution also helps.
+Problems P-01..P-48 from the Problems database (Notion), with Austin's call and the ledger status. A "Not in proposal" call stays out even if a solution also helps; each has a note why.
 
 | ID | Problem | Austin's call | Status | Fixed by | Also helped by | Pain points |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -13,8 +13,8 @@ Problems P-01..P-48 from the Problems database (Notion), with Austin's call and 
 | [P-07](p-07-paid-links-disappear-after-payment-detected-manually.md) | Paid links disappear after payment – detected manually | Solve now | addressed | [DS-07](../solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) | – | 4 |
 | [P-08](p-08-outreacher-invoicing-tracked-as-paypal-links-in.md) | Outreacher invoicing tracked as PayPal links in spreadsheet cells | Solve later | addressed | [DS-11](../solutions/ds-11-link-building-workflow-crm.md) | – | 7 |
 | [P-09](p-09-content-delivery-hinges-on-the-content-manager.md) | Content delivery hinges on the Content Manager as writer, editor and contractor manager | Solve later | partly addressed | – | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) | 5 |
-| [P-10](p-10-content-stalls-at-client-approval-or-the.md) | Content stalls at client approval – or the tracker can't show what's finished | Park | parked | – | – | 6 |
-| [P-11](p-11-content-tracker-and-link-sheets-live-outside.md) | Content tracker and link sheets live outside Monday.com | Park | parked | – | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) | 17 |
+| [P-10](p-10-content-stalls-at-client-approval-or-the.md) | Content stalls at client approval – or the tracker can't show what's finished | Not in proposal | not in proposal | – | – | 6 |
+| [P-11](p-11-content-tracker-and-link-sheets-live-outside.md) | Content tracker and link sheets live outside Monday.com | Not in proposal | not in proposal | – | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) | 17 |
 | [P-12](p-12-documentation-is-stale-and-rarely-read.md) | Documentation is stale and rarely read | Solve now | addressed | [DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) | – | 7 |
 | [P-13](p-13-documentation-and-internal-tooling-held-by-the.md) | Documentation and internal tooling held by the founder | Solve now | addressed | [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) | – | 7 |
 | [P-14](p-14-client-knowledge-lives-in-people-s-heads.md) | Client knowledge lives in people's heads, not per client | Solve now | addressed | [DS-04](../solutions/ds-04-ai-client-brain.md) | – | 9 |
@@ -32,19 +32,19 @@ Problems P-01..P-48 from the Problems database (Notion), with Austin's call and 
 | [P-26](p-26-pricing-is-inconsistent-across-templates-and-the.md) | Pricing is inconsistent across templates and the margin maths is wrong | Reject | rejected | – | – | 2 |
 | [P-27](p-27-client-handovers-have-no-structured-pack-or.md) | Client handovers (sales to delivery, offboarding) have no structured pack or trigger | Solve now | addressed | [DS-04](../solutions/ds-04-ai-client-brain.md), [DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md) | – | 5 |
 | [P-28](p-28-regulated-industry-content-lacks-shared-compliance-rules.md) | Regulated-industry content lacks shared compliance rules and credible sources | Solve now | addressed | [DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-04](../solutions/ds-04-ai-client-brain.md) | – | 2 |
-| [P-29](p-29-page-builds-and-content-uploads-reach-clients.md) | Page builds and content uploads reach clients with errors or loop for weeks | Park | parked | – | – | 4 |
-| [P-30](p-30-client-approval-cycles-hold-up-paid-optimisations.md) | Client approval cycles hold up paid optimisations and launches, while managers carry the blame | Park | parked | – | – | 6 |
+| [P-29](p-29-page-builds-and-content-uploads-reach-clients.md) | Page builds and content uploads reach clients with errors or loop for weeks | Not in proposal | not in proposal | – | – | 4 |
+| [P-30](p-30-client-approval-cycles-hold-up-paid-optimisations.md) | Client approval cycles hold up paid optimisations and launches, while managers carry the blame | Not in proposal | not in proposal | – | – | 6 |
 | [P-31](p-31-churn-risk-is-spotted-late-and-account.md) | Churn risk is spotted late and account teams report rather than advise | Solve now | addressed | [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md), [DS-28](../solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md) | – | 6 |
-| [P-32](p-32-unplanned-same-day-and-high-touch-client.md) | Unplanned same-day and high-touch client requests break the planned month | Park | parked | – | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) | 7 |
+| [P-32](p-32-unplanned-same-day-and-high-touch-client.md) | Unplanned same-day and high-touch client requests break the planned month | Not in proposal | not in proposal | – | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) | 7 |
 | [P-33](p-33-content-briefs-are-re-cut-and-reformatted.md) | Content briefs are re-cut and reformatted by hand, eating the first half of each month | Solve now | addressed | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) | – | 4 |
 | [P-34](p-34-link-sourcing-is-slow-manual-and-supply.md) | Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent | Solve now | addressed | [DS-12](../solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) | – | 12 |
-| [P-35](p-35-strategy-and-technical-seo-run-as-separate.md) | Strategy and technical SEO run as separate queues, so big technical work slips | Park | parked | – | – | 4 |
+| [P-35](p-35-strategy-and-technical-seo-run-as-separate.md) | Strategy and technical SEO run as separate queues, so big technical work slips | Not in proposal | not in proposal | – | – | 4 |
 | [P-36](p-36-internal-task-briefs-from-managers-to-implementers.md) | Internal task briefs from managers to implementers are slow to write and often incomplete | Solve now | addressed | [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) | – | 5 |
-| [P-37](p-37-meta-campaign-builds-are-manual-and-every.md) | Meta campaign builds are manual and every ad needs hand QA | Park | parked | – | – | 4 |
+| [P-37](p-37-meta-campaign-builds-are-manual-and-every.md) | Meta campaign builds are manual and every ad needs hand QA | Not in proposal | not in proposal | – | – | 4 |
 | [P-38](p-38-creative-and-landing-pages-are-outsourced-slow.md) | Creative and landing pages are outsourced, slow and hard to brief | Solve now | addressed | [DS-18](../solutions/ds-18-landing-page-generator.md), [DS-21](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md) | – | 4 |
-| [P-39](p-39-hubspot-make-monday-integrations-create-wrong-or.md) | HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost | Park | parked | – | [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) | 4 |
+| [P-39](p-39-hubspot-make-monday-integrations-create-wrong-or.md) | HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost | Not in proposal | not in proposal | – | [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) | 4 |
 | [P-40](p-40-ai-use-is-personal-and-ungoverned-no.md) | AI use is personal and ungoverned: no policy, shared skills, client context or seats | Solve later | addressed | [DS-02](../solutions/ds-02-ai-playbook-repository.md) | [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) | 11 |
-| [P-41](p-41-management-layer-is-thin-paid-media-lacks.md) | Management layer is thin: paid media lacks a senior lead; new leads lack training | Park | parked | – | – | 3 |
+| [P-41](p-41-management-layer-is-thin-paid-media-lacks.md) | Management layer is thin: paid media lacks a senior lead; new leads lack training | Not in proposal | not in proposal | – | – | 3 |
 | [P-42](p-42-growth-depends-on-the-founder-and-inbound.md) | Growth depends on the founder and inbound leads while AI erodes core services | Reject | rejected | – | – | 7 |
 | [P-43](p-43-a-calm-loyal-culture-makes-standards-and.md) | A calm, loyal culture makes standards and accountability hard to enforce | Reject | rejected | – | – | 0 |
 | [P-44](p-44-change-fatigue-and-quiet-ai-anxiety-slow.md) | Change fatigue and quiet AI anxiety slow adoption | Solve now | addressed | [DS-02](../solutions/ds-02-ai-playbook-repository.md) | – | 0 |

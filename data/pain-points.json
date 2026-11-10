@@ -125,7 +125,7 @@
   "problems": [
    "P-30"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-14",
   "root_cause": "RC-07",
@@ -147,7 +147,7 @@
   "problems": [
    "P-30"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-14",
   "root_cause": "RC-07",
@@ -169,7 +169,7 @@
   "problems": [
    "P-37"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-28",
   "root_cause": "RC-04",
@@ -327,7 +327,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -351,7 +351,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -419,7 +419,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -507,7 +507,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -529,7 +529,7 @@
   "problems": [
    "P-10"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-11",
   "root_cause": "RC-07",
@@ -623,7 +623,7 @@
   "problems": [
    "P-41"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-37",
   "root_cause": "RC-06",
@@ -784,7 +784,7 @@
   "problems": [
    "P-39"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-31",
   "root_cause": "RC-04",
@@ -806,7 +806,7 @@
   "problems": [
    "P-39"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-31",
   "root_cause": "RC-04",
@@ -1261,7 +1261,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -1403,7 +1403,7 @@
   "problems": [
    "P-35"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-26",
   "root_cause": "RC-05",
@@ -1425,7 +1425,7 @@
   "problems": [
    "P-35"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-26",
   "root_cause": "RC-05",
@@ -1447,7 +1447,7 @@
   "problems": [
    "P-29"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-13",
   "root_cause": "RC-07",
@@ -1469,7 +1469,7 @@
   "problems": [
    "P-10"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-11",
   "root_cause": "RC-07",
@@ -1677,7 +1677,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -1837,7 +1837,7 @@
   "problems": [
    "P-10"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-11",
   "root_cause": "RC-07",
@@ -1859,7 +1859,7 @@
   "problems": [
    "P-10"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-11",
   "root_cause": "RC-07",
@@ -1930,7 +1930,7 @@
   "problems": [
    "P-29"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-13",
   "root_cause": "RC-07",
@@ -2098,7 +2098,7 @@
   "problems": [
    "P-10"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-11",
   "root_cause": "RC-07",
@@ -2120,7 +2120,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -2398,7 +2398,7 @@
   "problems": [
    "P-39"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-31",
   "root_cause": "RC-04",
@@ -2564,7 +2564,7 @@
   "problems": [
    "P-37"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-28",
   "root_cause": "RC-04",
@@ -2780,7 +2780,7 @@
   "problems": [
    "P-41"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-37",
   "root_cause": "RC-06",
@@ -3261,7 +3261,7 @@
   "problems": [
    "P-29"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-13",
   "root_cause": "RC-07",
@@ -3283,7 +3283,7 @@
   "problems": [
    "P-29"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-13",
   "root_cause": "RC-07",
@@ -3329,7 +3329,7 @@
   "problems": [
    "P-39"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-31",
   "root_cause": "RC-04",
@@ -3423,7 +3423,7 @@
   "problems": [
    "P-35"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-26",
   "root_cause": "RC-05",
@@ -3445,7 +3445,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -3719,7 +3719,7 @@
   "problems": [
    "P-30"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-14",
   "root_cause": "RC-07",
@@ -3831,7 +3831,7 @@
   "problems": [
    "P-30"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-14",
   "root_cause": "RC-07",
@@ -3853,7 +3853,7 @@
   "problems": [
    "P-30"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-14",
   "root_cause": "RC-07",
@@ -4220,7 +4220,7 @@
   "problems": [
    "P-37"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-28",
   "root_cause": "RC-04",
@@ -4266,7 +4266,7 @@
   "problems": [
    "P-37"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-28",
   "root_cause": "RC-04",
@@ -4288,7 +4288,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4312,7 +4312,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4336,7 +4336,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4358,7 +4358,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4404,7 +4404,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4452,7 +4452,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4498,7 +4498,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4522,7 +4522,7 @@
   "problems": [
    "P-11"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-21",
   "root_cause": "RC-01",
@@ -4590,7 +4590,7 @@
   "problems": [
    "P-32"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-18",
   "root_cause": "RC-05",
@@ -5140,7 +5140,7 @@
   "problems": [
    "P-41"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-37",
   "root_cause": "RC-06",
@@ -5259,7 +5259,7 @@
   "problems": [
    "P-30"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-14",
   "root_cause": "RC-07",
@@ -5399,7 +5399,7 @@
   "problems": [
    "P-10"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-11",
   "root_cause": "RC-07",
@@ -5540,7 +5540,7 @@
   "problems": [
    "P-35"
   ],
-  "status": "parked",
+  "status": "not in proposal",
   "addressed_by": "",
   "cluster": "C-26",
   "root_cause": "RC-05",

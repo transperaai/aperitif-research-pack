@@ -1,9 +1,9 @@
 ---
 id: P-39
 title: "HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost"
-austin_call: "Park"
-austin_note: "Sid Bali made this duct tape solution, he should own it. I think a gap repository needs to be kept so he can actually make these changes as they are found. (claude can you add this to solutions please)"
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: owned in-house by Sid Bali, who built the integrations; recommend he keeps a gap log so fixes are made as issues are found."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: ["DS-10"]
 related_only: []
@@ -20,16 +20,16 @@ notion_id: 410e204ff76981998f05d3821fbd38e3
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | Sid Bali made this duct tape solution, he should own it. I think a gap repository needs to be kept so he can actually make these changes as they are found. (claude can you add this to solutions please) |
-| Status | parked – Parked by Austin: Sid Bali made this duct tape solution, he should own it. I think a gap repository needs to be kept so he can actually make these changes as they are found. (claude can you add this to solutions please); [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) only "also helps" ([DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md): "also helps (you parked this problem)") |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: owned in-house by Sid Bali, who built the integrations; recommend he keeps a gap log so fixes are made as issues are found. |
+| Status | not in proposal – why: owned in-house by Sid Bali, who built the integrations; recommend he keeps a gap log so fixes are made as issues are found.; [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) only "also helps" ([DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md): "also helps (problem not in this proposal)") |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Other |
 | Source | Transcript merge (Stage 1, 6 Nov) |
 
 ## Solutions addressing it
 
-- Also helps: [DS-10 Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)](../solutions/ds-10-systems-register-and-break-fix-runbook.md) – "also helps (you parked this problem)"
+- Also helps: [DS-10 Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)](../solutions/ds-10-systems-register-and-break-fix-runbook.md) – "also helps (problem not in this proposal)"
 
 ## Opportunities linked in Notion
 

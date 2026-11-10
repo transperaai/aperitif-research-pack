@@ -1,9 +1,9 @@
 ---
 id: P-11
 title: "Content tracker and link sheets live outside Monday.com"
-austin_call: "Park"
-austin_note: ""
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: split during the 6 Nov merge into narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: ["DS-03"]
 related_only: []
@@ -20,16 +20,16 @@ notion_id: 40fe204ff769812bb6b9dae3c44d0839
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | – |
-| Status | parked – Parked by Austin (no note given); [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): auto-created Monday tasks (problem parked)) |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: split during the 6 Nov merge into narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item. |
+| Status | not in proposal – why: split during the 6 Nov merge into narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item.; [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): auto-created Monday tasks (problem not in this proposal)) |
 | Theme · severity · confidence | Process / automation · Low · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
 
 ## Solutions addressing it
 
-- Also helps: [DS-03 Automated AI brief drafts → Monday.com tasks](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) – auto-created Monday tasks (problem parked)
+- Also helps: [DS-03 Automated AI brief drafts → Monday.com tasks](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) – auto-created Monday tasks (problem not in this proposal)
 
 ## Opportunities linked in Notion
 

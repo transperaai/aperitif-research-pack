@@ -35,7 +35,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Earlier ideas | – |
 | Fixes | [P-31 Churn risk is spotted late and account teams report rather than advise](../problems/p-31-churn-risk-is-spotted-late-and-account.md); [P-22 Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) (Part B rules (from DS-13)) |
 | Also helps | – |
-| Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Park |
+| Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Not in proposal |
 | Pain points cited | [KO-PP06](../pain-points/README.md#ko-pp06) (inferred), [KO-PP20](../pain-points/README.md#ko-pp20), [KO-PP21](../pain-points/README.md#ko-pp21), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09) (interviewer-raised), [LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16) |
 | Written source | – |
 | Value | A\$90K–120K/yr retained (3–4 clients saved) |

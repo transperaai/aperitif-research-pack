@@ -16,4 +16,4 @@
 
 ## Pain points from this interview
 
-19 pain points (addressed 14, parked 3, partly addressed 2) – see [the pain point index](../../pain-points/README.md#interview-sd).
+19 pain points (addressed 14, not in proposal 3, partly addressed 2) – see [the pain point index](../../pain-points/README.md#interview-sd).

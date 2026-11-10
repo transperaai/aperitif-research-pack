@@ -10,7 +10,7 @@
 
 **Where the evidence comes from.** The Stage 4 culture sweep (8 Nov) re-read all 14 transcripts and logged 153 culture items in 15 themes. Six of these became problems P-43 to P-48. P-41 (thin management layer) and P-21 (managers at capacity) come from the main clustering; Austin moved both here because they can't be solved by a build.
 
-**Austin's calls on these problems** (for transparency): P-44, P-47 and P-48 are "Solve now", with DS-02 or DS-15 named as the fix. P-43, P-45 and P-46 were not taken into the solutions. P-41 is parked as a culture issue. P-21 stays "Solve now" but is handled here, not by a build. All eight are included so Joe sees the full picture.
+**Austin's calls on these problems** (for transparency): P-44, P-47 and P-48 are "Solve now", with DS-02 or DS-15 named as the fix. P-43, P-45 and P-46 were not taken into the solutions. P-41 is not in this proposal as a build – it's a culture issue, covered here. P-21 stays "Solve now" but is handled here, not by a build. All eight are included so Joe sees the full picture.
 
 ---
 
@@ -170,7 +170,7 @@
 - Managers don't know how specialists' work gets done (DM L642). Content and SEO only aligned on brief quality after a joint training (HT L072).
 
 **Why it matters**
-- Clients buy one agency. Silos mean missed cross-channel ideas and technical work that slips months (P-35, parked).
+- Clients buy one agency. Silos mean missed cross-channel ideas and technical work that slips months (P-35, not in this proposal).
 
 **Recommendation**
 - **A 30-minute monthly priority check between each strategist and the technical team** – agree the month's tasks by impact. (This was O-35, dropped as a solution because it's a process change, not a build. It's offered here as a habit.)

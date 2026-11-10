@@ -21,7 +21,7 @@ Plain-English meanings for the terms used in this pack.
 | **Raised by** | How many people raised something themselves, as "N staff + N leadership". Things Austin raised and someone agreed with don't count. |
 | **Interviewer-raised** | Austin brought it up and the person agreed. Labelled, counted as corroboration only. |
 | **Inferred / detected** | Worked out from what was said, not stated directly. Labelled. |
-| **Solve now / later / Park / Reject** | Austin's call on each problem. Park = not solved in this proposal. |
+| **Solve now / later / Not in proposal / Reject** | Austin's call on each problem. Not in proposal = not solved here; each carries a note why. |
 | **Assumed / stated** | Stated = someone gave the figure. Assumed = an estimate. Most hours in this pack are assumed. |
 | **KPI** | Key performance indicator – the number that shows whether a solution is working. |
 | **OpEx** | Ongoing running cost (licences, subscriptions) rather than the one-off build cost. |

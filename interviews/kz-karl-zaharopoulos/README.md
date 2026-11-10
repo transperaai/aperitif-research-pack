@@ -16,4 +16,4 @@
 
 ## Pain points from this interview
 
-24 pain points (addressed 17, parked 6, rejected 1) – see [the pain point index](../../pain-points/README.md#interview-kz).
+24 pain points (addressed 17, not in proposal 6, rejected 1) – see [the pain point index](../../pain-points/README.md#interview-kz).

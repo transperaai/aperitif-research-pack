@@ -3,7 +3,7 @@
 Every pain point extracted from the interviews, grouped by interview. Machine-readable copy: [pain-points.csv](pain-points.csv).
 
 - **Source type:** 223 staff-raised (the interviewee raised it), 13 interviewer-raised (Austin raised it and the interviewee agreed – not a staff raise), 7 inferred (detected by analysis, not stated).
-- **Status** (flows up from the problem it sits under): addressed 173, parked 48, partly addressed 20, rejected 2.
+- **Status** (flows up from the problem it sits under): addressed 173, not in proposal 48, partly addressed 20, rejected 2.
 - **Ref** is the estimated timestamp (\~mm:ss, from word position) and transcript line (L###); the link opens the transcript at that line.
 - **Austin** = Austin's Agree/Disagree flag and note from the Pain Points database, where given.
 
@@ -42,7 +42,7 @@ Founder & Principal Consultant; Head of Client Services · Leadership · 2026-10
   - cited in [DS-13](../solutions/ds-13-merged-into-ds-14.md) · cluster [C-36](../synthesis/clusters-and-root-causes.md#c-36) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: partly stated · severity 3
 - <a id="ko-pp04"></a>**KO-PP04** – Performance department has no senior leader; the Head of Client Services is covering operational gaps
   - *Julia: "At the moment, we're a bit headless when it comes to performance. We really want a performance — more senior leader."* – Julia Van Der Linden, Leadership (kick-off) · staff-raised · [\~16:00 (L066)](../interviews/ko-leadership-kick-off/transcript.md?plain=1#L81)
-  - Problem: [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) · status: parked
+  - Problem: [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) · status: not in proposal
   - cluster [C-37](../synthesis/clusters-and-root-causes.md#c-37) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 4
 - <a id="ko-pp05"></a>**KO-PP05** – Churn-risk escalations (about five a week) all land with the Head of Client Services; judgement questions on client comms follow the same route
   - *Julia: "Probably five times a week, to be honest with you."* – Julia Van Der Linden, Leadership (kick-off) · staff-raised · [\~26:27 (L124)](../interviews/ko-leadership-kick-off/transcript.md?plain=1#L148)
@@ -70,11 +70,11 @@ Founder & Principal Consultant; Head of Client Services · Leadership · 2026-10
   - cited in [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) · cluster [C-30](../synthesis/clusters-and-root-causes.md#c-30) · root cause [RC-08](../synthesis/clusters-and-root-causes.md#rc-08) · certainty: partly stated · severity 4 · Austin: Agree
 - <a id="ko-pp11"></a>**KO-PP11** – HubSpot-to-Monday.com monthly work-order sync is unverified; Joe suspects tasks are being missed because the Monday version was rebuilt without all the nuances
   - *Joe: "I'm not fully confident that it's working correctly. Stuff's getting missed."* – Joe Romeo, Leadership (kick-off) · staff-raised · [\~62:00 (L303)](../interviews/ko-leadership-kick-off/transcript.md?plain=1#L345)
-  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: parked
+  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: not in proposal
   - cluster [C-31](../synthesis/clusters-and-root-causes.md#c-31) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: partly stated · severity 4 · Austin: Agree
 - <a id="ko-pp12"></a>**KO-PP12** – Monday.com costs about \$1,000 a month and the founder sees it as an unnecessary cost that is not purpose-built; HubSpot is still about \$22–25K a year
   - *Joe: "Monday.com for me is the one I'm least satisfied with, 'cause I just see it as a cost."* – Joe Romeo, Leadership (kick-off) · staff-raised · [\~79:16 (L367)](../interviews/ko-leadership-kick-off/transcript.md?plain=1#L418)
-  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: parked
+  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: not in proposal
   - cluster [C-31](../synthesis/clusters-and-root-causes.md#c-31) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="ko-pp13"></a>**KO-PP13** – Change fatigue: Monday.com, AgencyAnalytics and Employment Hero were all rolled out inside 50 days and the staff survey said it was too much, too fast
   - *Joe: "we rolled out Monday.com, Agency Analytics, and Employment Hero, like — we did that in a 50-day period."* – Joe Romeo, Leadership (kick-off) · staff-raised · [\~81:29 (L381)](../interviews/ko-leadership-kick-off/transcript.md?plain=1#L432)
@@ -159,11 +159,11 @@ SEO Director · Organic · 2026-10-28 · [interview folder](../interviews/ls-lau
   - cited in [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md) · cluster [C-04](../synthesis/clusters-and-root-causes.md#c-04) · root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02) · certainty: stated · severity 3 · Austin: Agree
 - <a id="ls-pp06"></a>**LS-PP06** – Clients with many internal approvals (or staff turnover) stall or pause content
   - *"one client has had a few people leave and has now paused content, so we're working on links"* – Laura Shillington, SEO Director · staff-raised · [\~19:05 (L074)](../interviews/ls-laura-shillington/transcript.md?plain=1#L92)
-  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: parked
+  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: not in proposal
   - cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="ls-pp07"></a>**LS-PP07** – No single client-facing place for content, approval trail, stats and report
   - *"a paper trail of approvals (when it was sent, when it was approved)"* – Laura Shillington, SEO Director · interviewer-raised · [\~23:08 (L094)](../interviews/ls-laura-shillington/transcript.md?plain=1#L115)
-  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: parked
+  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: not in proposal
   - cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="ls-pp08"></a>**LS-PP08** – Account teams can drift into "going through the motions" and miss new opportunities, a retention risk
   - *"A busy workload might be contributing to retention problems if clients feel like we're just going through the motions."* – Laura Shillington, SEO Director · staff-raised · [\~11:29 (L046)](../interviews/ls-laura-shillington/transcript.md?plain=1#L58)
@@ -175,7 +175,7 @@ SEO Director · Organic · 2026-10-28 · [interview folder](../interviews/ls-lau
   - cited in [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) · cluster [C-16](../synthesis/clusters-and-root-causes.md#c-16) · root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="ls-pp10"></a>**LS-PP10** – Content implementation errors reach clients
   - *"a few content implementation errors, where the client said it wasn't done right"* – Laura Shillington, SEO Director · staff-raised · [\~11:29 (L046)](../interviews/ls-laura-shillington/transcript.md?plain=1#L58)
-  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: parked
+  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: not in proposal
   - cluster [C-13](../synthesis/clusters-and-root-causes.md#c-13) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="ls-pp11"></a>**LS-PP11** – Knowledge sharing and training get squeezed out by workload
   - *"needing to share our stuff with the team, but we're too busy"* – Laura Shillington, SEO Director · staff-raised · [\~10:50 (L044)](../interviews/ls-laura-shillington/transcript.md?plain=1#L56)
@@ -203,7 +203,7 @@ SEO Director · Organic · 2026-10-28 · [interview folder](../interviews/ls-lau
   - cited in [DS-26](../solutions/ds-26-seo-performance-forecasting-tool.md), [DS-28](../solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md) · cluster [C-06](../synthesis/clusters-and-root-causes.md#c-06) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: partly stated · severity 2 · Austin: Agree
 - <a id="ls-pp17"></a>**LS-PP17** – Reviewing client/strategy feedback in Word docs with screenshots is clumsy
   - *"Word doc with screenshots it was hard to review; I'd open the link, look, go back and type."* – Laura Shillington, SEO Director · staff-raised · [\~16:46 (L066)](../interviews/ls-laura-shillington/transcript.md?plain=1#L81)
-  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: parked
+  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: not in proposal
   - cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 2
 
 ## <a id="interview-ws"></a>WS Wendlley Simoes
@@ -252,7 +252,7 @@ Performance Marketing Director · Performance · 2026-10-28 · [interview folder
   - cited in [DS-13](../solutions/ds-13-merged-into-ds-14.md) · cluster [C-36](../synthesis/clusters-and-root-causes.md#c-36) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 4
 - <a id="ws-pp11"></a>**WS-PP11** – Head of Performance left \~2 weeks ago; Director absorbed a Tier 1 account she hadn't been involved in
   - *"I have been polled [pulled] into a more tier one client and trying to get on top of it because I was not involved at all"* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~12:53 (L169)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L174)
-  - Problem: [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) · status: parked
+  - Problem: [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) · status: not in proposal
   - cluster [C-37](../synthesis/clusters-and-root-causes.md#c-37) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 3
 - <a id="ws-pp12"></a>**WS-PP12** – Forecasting used to take hours of manual data work; external shocks make history unreliable
   - *"I used to take like hours doing this and Gemini did it in like 15 minutes"* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~38:18 (L462)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L467)
@@ -272,7 +272,7 @@ Performance Marketing Director · Performance · 2026-10-28 · [interview folder
   - cluster [C-30](../synthesis/clusters-and-root-causes.md#c-30) · root cause [RC-08](../synthesis/clusters-and-root-causes.md#rc-08) · certainty: partly stated · severity 2
 - <a id="ws-pp16"></a>**WS-PP16** – Google RSA previews show only 2–3 headlines, so ad copy approvals need explaining
   - *"With Google, It's a bit more complicated because you have so many headlines."* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~57:16 (L749)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L754)
-  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: parked
+  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: not in proposal
   - cluster [C-14](../synthesis/clusters-and-root-causes.md#c-14) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 2
 
 ## <a id="interview-kz"></a>KZ Karl Zaharopoulos
@@ -297,7 +297,7 @@ Senior SEO Manager & Link-building Lead · Organic · 2026-10-29 · [interview f
   - cited in [DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md) · cluster [C-10](../synthesis/clusters-and-root-causes.md#c-10) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 4
 - <a id="kz-pp05"></a>**KZ-PP05** – Deadlines cluster: briefs due in the last days of the month, reports in week one, plus client priorities – 'pretty chaotic'
   - *"client priorities kind of dropping in at the same time, it can get like pretty chaotic to like get everything done together."* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~10:01 (L108)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L112)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="kz-pp06"></a>**KZ-PP06** – Domain vetting is slow and manual: \~60 domains through Ahrefs plus a manual spam check takes 1–2 h a batch
   - *"I'll get 60 domains I need to vet and I'll go through one at a time... that's at least an hour or two process"* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~13:14 (L131)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L135)
@@ -321,19 +321,19 @@ Senior SEO Manager & Link-building Lead · Organic · 2026-10-29 · [interview f
   - cited in [DS-07](../solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) · cluster [C-25](../synthesis/clusters-and-root-causes.md#c-25) · root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02) · certainty: partly stated · severity 5 · Austin: Agree
 - <a id="kz-pp11"></a>**KZ-PP11** – Strategists have little visibility of or say in technical priorities; simple tasks get done first and the big ones are pushed months out
   - *"sometimes it's pretty simple tasks in there and the beefier tasks are all the way six months from now kind of thing as well."* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~32:57 (L316)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L320)
-  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: parked
+  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: not in proposal
   - cluster [C-26](../synthesis/clusters-and-root-causes.md#c-26) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="kz-pp12"></a>**KZ-PP12** – Technical tasks are often unfinished when the monthly report is due, so the report has nothing for technical
   - *"task still in progress and now it's like, well, I'm putting nothing in the report."* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~34:37 (L337)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L341)
-  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: parked
+  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: not in proposal
   - cluster [C-26](../synthesis/clusters-and-root-causes.md#c-26) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="kz-pp13"></a>**KZ-PP13** – Page builds reach clients with errors (especially mobile layouts) – implementers aren't web developers and there's no structured cross-device QA
   - *"sometimes you just don't pick things up and then the client sees it first and they're not happy."* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~55:27 (L551)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L555)
-  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: parked
+  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: not in proposal
   - cluster [C-13](../synthesis/clusters-and-root-causes.md#c-13) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 4 · Austin: Agree
 - <a id="kz-pp14"></a>**KZ-PP14** – Finished content waits on client approval and sometimes needs several follow-ups
   - *"Sometimes that doesn't always, like you need to follow up a few times as well."* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~30:56 (L296)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L300)
-  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: parked
+  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: not in proposal
   - cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 2 · Austin: Agree
 - <a id="kz-pp15"></a>**KZ-PP15** – Master sheet and project plan aren't kept current under load
   - *"keeping the project plan updated, which I'm very bad at."* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~29:11 (L278)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L282)
@@ -369,7 +369,7 @@ Senior SEO Manager & Link-building Lead · Organic · 2026-10-29 · [interview f
   - cluster [C-19](../synthesis/clusters-and-root-causes.md#c-19) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="kz-pp23"></a>**KZ-PP23** – One high-touch client's daily requests force other clients' work to be scheduled around it
   - *"if like another one or two clients come up during the week and they need something, I've got to like map that around Disney a lot of the time"* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~16:52 (L160)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L164)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="kz-pp24"></a>**KZ-PP24** – Freelance writers' AI use can't be verified (KZ's experience at his last agency; unknown here)
   - *"they'll tell you that they didn't use AI and then someone will say like, 'Hey, my content looks like AI.'"* – Karl Zaharopoulos, Senior SEO Manager & Link-building Lead · staff-raised · [\~52:06 (L532)](../interviews/kz-karl-zaharopoulos/transcript.md?plain=1#L536)
@@ -382,19 +382,19 @@ Content Manager · Organic · 2026-10-29 · [interview folder](../interviews/sj-
 
 - <a id="sj-pp01"></a>**SJ-PP01** – Briefs, prior client comms and feedback copied by hand from master sheet into four freelancer sheets – her magic-wand pick
   - *"I copy all of the briefs and the, and the, like feedback or like any like prior, um, like comms I've had with the..."* – Sarah Julian, Content Manager · staff-raised · [\~04:23 (L052)](../interviews/sj-sarah-julian/transcript.md?plain=1#L55)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 4 · Austin: Agree
 - <a id="sj-pp02"></a>**SJ-PP02** – No single intake or alert for new briefs – a brief can sit unseen for two days against a two-week freelancer turnaround
   - *"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"* – Sarah Julian, Content Manager · staff-raised · [\~05:53 (L067)](../interviews/sj-sarah-julian/transcript.md?plain=1#L70)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: partly stated · severity 4 · Austin: Agree
 - <a id="sj-pp03"></a>**SJ-PP03** – Briefs arrive after the week-1 deadline or change mid-month
   - *"It might be the client hasn't approved something. Maybe they want to change the strategy, yada, yada."* – Sarah Julian, Content Manager · staff-raised · [\~05:53 (L067)](../interviews/sj-sarah-julian/transcript.md?plain=1#L70)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="sj-pp04"></a>**SJ-PP04** – Freelancer and edited versions copied by hand into client folders – risk of not finding the right version
   - *"we still need to differentiate between the freelancer version and the edited, like my edited version, which needs to live in obviously like our client folders"* – Sarah Julian, Content Manager · staff-raised · [\~08:38 (L092)](../interviews/sj-sarah-julian/transcript.md?plain=1#L95)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 3 · Austin: Agree
 - <a id="sj-pp05"></a>**SJ-PP05** – Content Manager is the middle person between freelancers and CMs/clients – context lost like 'telephone'
   - *"It's like telephone, it's like telephony sort of."* – Sarah Julian, Content Manager · staff-raised · [\~17:20 (L173)](../interviews/sj-sarah-julian/transcript.md?plain=1#L176)
@@ -402,7 +402,7 @@ Content Manager · Organic · 2026-10-29 · [interview folder](../interviews/sj-
   - cluster [C-22](../synthesis/clusters-and-root-causes.md#c-22) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 4 · Austin: Agree
 - <a id="sj-pp06"></a>**SJ-PP06** – Incomplete briefs drive freelancer rework and longer editing
   - *"the editing at the end of it will be much quicker because they've got like a much more complete brief"* – Sarah Julian, Content Manager · staff-raised · [\~15:23 (L163)](../interviews/sj-sarah-julian/transcript.md?plain=1#L166)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="sj-pp07"></a>**SJ-PP07** – Credible statistics and case studies for regulated industries (finance; dental compliance) hard to find; no shared research source
   - *"it's like has been annoying to find the information from legitimate websites and legitimate case studies that have been done."* – Sarah Julian, Content Manager · staff-raised · [\~11:59 (L127)](../interviews/sj-sarah-julian/transcript.md?plain=1#L130)
@@ -410,7 +410,7 @@ Content Manager · Organic · 2026-10-29 · [interview folder](../interviews/sj-
   - cited in [DS-02](../solutions/ds-02-ai-playbook-repository.md) · cluster [C-12](../synthesis/clusters-and-root-causes.md#c-12) · root cause [RC-03](../synthesis/clusters-and-root-causes.md#rc-03) · certainty: partly stated · severity 3
 - <a id="sj-pp08"></a>**SJ-PP08** – Master content sheet is a band-aid: status typed in two places; autofill and 20k KPI formatting broken
   - *"Yeah, they don't even auto-fill properly."* – Sarah Julian, Content Manager · staff-raised · [\~22:55 (L263)](../interviews/sj-sarah-julian/transcript.md?plain=1#L266)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 2
 - <a id="sj-pp09"></a>**SJ-PP09** – Client notes and feedback don't carry forward to next month or freelancer trackers – knowledge sits with Sarah
   - *"There's notes in here, right? But they don't get, like, they don't get copied over to the next one."* – Sarah Julian, Content Manager · staff-raised · [\~24:36 (L275)](../interviews/sj-sarah-julian/transcript.md?plain=1#L278)
@@ -418,11 +418,11 @@ Content Manager · Organic · 2026-10-29 · [interview folder](../interviews/sj-
   - cited in [DS-04](../solutions/ds-04-ai-client-brain.md) · cluster [C-07](../synthesis/clusters-and-root-causes.md#c-07) · root cause [RC-03](../synthesis/clusters-and-root-causes.md#rc-03) · certainty: stated · severity 4 · Austin: Agree
 - <a id="sj-pp10"></a>**SJ-PP10** – Work sorted by sheet age, not client importance (incl. within tier)
   - *"this is just sorted by age. You know, this is an arbitrary sorting. So really it should be like importance"* – Sarah Julian, Content Manager · staff-raised · [\~25:04 (L283–L284)](../interviews/sj-sarah-julian/transcript.md?plain=1#L286)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 2 · Austin: Agree
 - <a id="sj-pp11"></a>**SJ-PP11** – Volume grew \~40k → \~100k words/month; spreadsheet set-up won't scale
   - *"now we're like on 100,000 so I'm like very conscious like as we grow as we grow it's not going to be like sustainable"* – Sarah Julian, Content Manager · staff-raised · [\~06:53 (L069)](../interviews/sj-sarah-julian/transcript.md?plain=1#L72)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 3
 - <a id="sj-pp12"></a>**SJ-PP12** – Content questions routed through client managers lose detail; Sarah emails some clients directly
   - *"Like, so if you have a question, just ask the client."* – Sarah Julian, Content Manager · staff-raised · [\~18:42 (L195)](../interviews/sj-sarah-julian/transcript.md?plain=1#L198)
@@ -434,7 +434,7 @@ Content Manager · Organic · 2026-10-29 · [interview folder](../interviews/sj-
   - cluster [C-22](../synthesis/clusters-and-root-causes.md#c-22) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 2
 - <a id="sj-pp14"></a>**SJ-PP14** – One client sends a steady stream of ad hoc content work
   - *"we have this one client that's always like giving like work all the time."* – Sarah Julian, Content Manager · staff-raised · [\~15:15 (L162)](../interviews/sj-sarah-julian/transcript.md?plain=1#L165)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 2
 
 ## <a id="interview-sh"></a>SH Sophie Hesseborn
@@ -499,7 +499,7 @@ Senior Performance Marketing Manager · Performance · 2026-10-29 · [interview 
   - cluster [C-33](../synthesis/clusters-and-root-causes.md#c-33) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 2 · Austin: Agree
 - <a id="sh-pp15"></a>**SH-PP15** – Meta auto-enables new AI features; every build needs a manual toggle-off check
   - *"meta rolls out new things and it's like auto on and then you just have to be like super into the nitty gritty"* – Sophie Hesseborn, Senior Performance Marketing Manager · staff-raised · [\~18:26 (L177)](../interviews/sh-sophie-hesseborn/transcript.md?plain=1#L177)
-  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: parked
+  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: not in proposal
   - cited in [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md) · cluster [C-28](../synthesis/clusters-and-root-causes.md#c-28) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 2
 - <a id="sh-pp16"></a>**SH-PP16** – Monthly report still needs manual commentary and a check that it shows the right month
   - *"It's just a manual task to update the last page of what we worked on and just ensuring that the data is reflected last month"* – Sophie Hesseborn, Senior Performance Marketing Manager · staff-raised · [\~50:51 (L538)](../interviews/sh-sophie-hesseborn/transcript.md?plain=1#L538)
@@ -507,7 +507,7 @@ Senior Performance Marketing Manager · Performance · 2026-10-29 · [interview 
   - cluster [C-06](../synthesis/clusters-and-root-causes.md#c-06) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 2 · Austin: Agree
 - <a id="sh-pp17"></a>**SH-PP17** – Meta builds are manual (no bulk import like Google/Bing editors)
   - *"The Google implementation is quicker because there's like this editor tool that can be used to like import an account build."* – Sophie Hesseborn, Senior Performance Marketing Manager · staff-raised · [\~25:43 (L239)](../interviews/sh-sophie-hesseborn/transcript.md?plain=1#L239)
-  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: parked
+  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: not in proposal
   - cluster [C-28](../synthesis/clusters-and-root-causes.md#c-28) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 2
 
 ## <a id="interview-sd"></a>SD Shrishti Dokwal
@@ -560,7 +560,7 @@ Senior Performance Marketing Manager · Performance · 2026-10-30 · [interview 
   - cited in [DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md) · cluster [C-10](../synthesis/clusters-and-root-causes.md#c-10) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: partly stated · severity 3
 - <a id="sd-pp12"></a>**SD-PP12** – Ad hoc campaign launch takes ≥ 1 week; depends on client creatives and two approvals
   - *"generally we require at least a week's time provided the creatives are being sent to us on time."* – Shrishti Dokwal, Senior Performance Marketing Manager · staff-raised · [\~34:59 (L360)](../interviews/sd-shrishti-dokwal/transcript.md?plain=1#L367)
-  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: parked
+  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: not in proposal
   - cited in [DS-21](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md) · cluster [C-14](../synthesis/clusters-and-root-causes.md#c-14) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 3
 - <a id="sd-pp13"></a>**SD-PP13** – Tier 1 (Five Good Friends) analysis needs manual reconciliation across several sources of truth
   - *"there's a lot of data processing involved with this client specifically because they have a lot of different sources of truths."* – Shrishti Dokwal, Senior Performance Marketing Manager · staff-raised · [\~09:32 (L076)](../interviews/sd-shrishti-dokwal/transcript.md?plain=1#L83)
@@ -580,11 +580,11 @@ Senior Performance Marketing Manager · Performance · 2026-10-30 · [interview 
   - cluster [C-36](../synthesis/clusters-and-root-causes.md#c-36) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: detected · severity 2
 - <a id="sd-pp17"></a>**SD-PP17** – Clients historically briefed campaigns verbally with nothing documented (partly fixed by template)
   - *"So there was no such documented brief for us."* – Shrishti Dokwal, Senior Performance Marketing Manager · staff-raised · [\~07:04 (L060)](../interviews/sd-shrishti-dokwal/transcript.md?plain=1#L67)
-  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: parked
+  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: not in proposal
   - cluster [C-14](../synthesis/clusters-and-root-causes.md#c-14) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 2 · Austin: Agree
 - <a id="sd-pp18"></a>**SD-PP18** – Timelines depend on when WIP / client meetings fall
   - *"makes the timelines either faster or delayed depending on when they're organized."* – Shrishti Dokwal, Senior Performance Marketing Manager · staff-raised · [\~32:18 (L327)](../interviews/sd-shrishti-dokwal/transcript.md?plain=1#L334)
-  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: parked
+  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: not in proposal
   - cluster [C-14](../synthesis/clusters-and-root-causes.md#c-14) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 2
 - <a id="sd-pp19"></a>**SD-PP19** – Pacing cadence depends on the Tina Slack agent bot, which has no visible owner or documentation
   - *"Tina gives us updates and Monday, Wednesday, Friday."* – Shrishti Dokwal, Senior Performance Marketing Manager · inferred · [\~27:21 (L260)](../interviews/sd-shrishti-dokwal/transcript.md?plain=1#L267)
@@ -629,7 +629,7 @@ Founder & Principal Consultant; Head of Client Services · Leadership · 2026-10
   - cited in [DS-13](../solutions/ds-13-merged-into-ds-14.md) · cluster [C-36](../synthesis/clusters-and-root-causes.md#c-36) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 3
 - <a id="mp-pp09"></a>**MP-PP09** – Department leads promoted into management without people-leadership experience
   - *"they've only been in management since they've been with us. They've been all promoted into those roles."* – Joe Romeo, Leadership (mid-point) · staff-raised · [\~36:55 (L465)](../interviews/mp-leadership-mid-point/transcript.md?plain=1#L468)
-  - Problem: [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) · status: parked
+  - Problem: [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) · status: not in proposal
   - cited in [DS-13](../solutions/ds-13-merged-into-ds-14.md) · cluster [C-37](../synthesis/clusters-and-root-causes.md#c-37) · root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06) · certainty: stated · severity 3
 - <a id="mp-pp10"></a>**MP-PP10** – Sales commits scope and ad spend that isn't profitable or feasible
   - *"we can't be promising all of these things and including them in the scope when like it's not even going to be profitable"* – Joe Romeo, Leadership (mid-point) · interviewer-raised · [\~15:24 (L165)](../interviews/mp-leadership-mid-point/transcript.md?plain=1#L168)
@@ -710,15 +710,15 @@ Performance Marketing Manager · Performance · 2026-10-30 · [interview folder]
   - cluster [C-05](../synthesis/clusters-and-root-causes.md#c-05) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 3 · Austin: Agree
 - <a id="dm-pp06"></a>**DM-PP06** – Some clients must approve even minor optimisations; manager waits but is blamed for results
   - *"I feel like my hands are tied back because I can't do anything on the account. I am just waiting for their approval"* – Diya Manoj, Performance Marketing Manager · staff-raised · [\~31:53 (L445)](../interviews/dm-diya-manoj/transcript.md?plain=1#L448)
-  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: parked
+  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: not in proposal
   - cluster [C-14](../synthesis/clusters-and-root-causes.md#c-14) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 4 · Austin: Agree
 - <a id="dm-pp07"></a>**DM-PP07** – Creative/ad-copy changes always sent for approval, even when clients say it isn't needed, to avoid blame
   - *"we seek the ad copy approval because it's on safer side. Otherwise, if something goes off, then we would be getting the blame."* – Diya Manoj, Performance Marketing Manager · staff-raised · [\~30:57 (L433)](../interviews/dm-diya-manoj/transcript.md?plain=1#L436)
-  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: parked
+  - Problem: [P-30 Client approval cycles hold up paid optimisations and launches, while managers carry the blame](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md) · status: not in proposal
   - cluster [C-14](../synthesis/clusters-and-root-causes.md#c-14) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 2
 - <a id="dm-pp08"></a>**DM-PP08** – Manager QAs every Meta ad built by specialists (20–30 per launch) to catch format/placement errors
   - *"if another person is working on it, I won't be having that clarity. I just need to go and individually check each ad."* – Diya Manoj, Performance Marketing Manager · staff-raised · [\~20:32 (L237)](../interviews/dm-diya-manoj/transcript.md?plain=1#L240)
-  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: parked
+  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: not in proposal
   - cluster [C-28](../synthesis/clusters-and-root-causes.md#c-28) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 3
 - <a id="dm-pp09"></a>**DM-PP09** – Monday.com sends no reminders for overdue tasks; items sit in 'awaiting approval' when nobody updates them
   - *"it might be sitting under like an awaiting approval or something, even though that has been done."* – Diya Manoj, Performance Marketing Manager · staff-raised · [\~14:53 (L171)](../interviews/dm-diya-manoj/transcript.md?plain=1#L174)
@@ -751,7 +751,7 @@ Performance Marketing Specialist · Performance · 2026-11-02 · [interview fold
 
 - <a id="mc-pp01"></a>**MC-PP01** – Implementation tasks briefed mid-day (often after Performance team call) and needed same day – planned day breaks
   - *"they'll briefing it in like middle of the day. But sometimes they need it on that day as well."* – Michaela Cruz, Performance Marketing Specialist · staff-raised · [\~14:03 (L130–L131)](../interviews/mc-michaela-cruz/transcript.md?plain=1#L133)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: partly stated · severity 4
 - <a id="mc-pp02"></a>**MC-PP02** – Daily agenda message to manager duplicates Monday.com view and goes stale
   - *"I feel like that's kind of redundant on my end. If they have access to monday.com"* – Michaela Cruz, Performance Marketing Specialist · staff-raised · [\~05:10 (L053)](../interviews/mc-michaela-cruz/transcript.md?plain=1#L56)
@@ -799,7 +799,7 @@ Performance Marketing Specialist · Performance · 2026-11-02 · [interview fold
   - cluster [C-10](../synthesis/clusters-and-root-causes.md#c-10) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="mc-pp13"></a>**MC-PP13** – HubSpot drops every onboarding task at once – no staged, guided sequence
   - *"So the first time I onboarded a client, I don't know where to start."* – Michaela Cruz, Performance Marketing Specialist · staff-raised · [\~26:52 (L246)](../interviews/mc-michaela-cruz/transcript.md?plain=1#L249)
-  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: parked
+  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: not in proposal
   - cited in [DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md) · cluster [C-31](../synthesis/clusters-and-root-causes.md#c-31) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 3
 - <a id="mc-pp14"></a>**MC-PP14** – Offboarding has no trigger – handover doc missed; client chased 2–3 days after contract end
   - *"Another two or three days has passed… the client is following up on the handover docs… So that makes us look bad."* – Michaela Cruz, Performance Marketing Specialist · staff-raised · [\~27:55 (L249)](../interviews/mc-michaela-cruz/transcript.md?plain=1#L252)
@@ -827,7 +827,7 @@ Performance Marketing Specialist · Performance · 2026-11-02 · [interview fold
   - cited in [DS-02](../solutions/ds-02-ai-playbook-repository.md) · cluster [C-33](../synthesis/clusters-and-root-causes.md#c-33) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 3
 - <a id="mc-pp20"></a>**MC-PP20** – Meta preview links for \~50-ad builds tedious – solved only by personal Claude skill
   - *"And 50 ad preview links is very, very, like, a lot. So I use Claude to generate those links."* – Michaela Cruz, Performance Marketing Specialist · staff-raised · [\~40:16 (L354)](../interviews/mc-michaela-cruz/transcript.md?plain=1#L357)
-  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: parked
+  - Problem: [P-37 Meta campaign builds are manual and every ad needs hand QA](../problems/p-37-meta-campaign-builds-are-manual-and-every.md) · status: not in proposal
   - cited in [DS-02](../solutions/ds-02-ai-playbook-repository.md) · cluster [C-28](../synthesis/clusters-and-root-causes.md#c-28) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 2
 
 ## <a id="interview-sb"></a>SB Sid (Siddharth) Bali
@@ -860,11 +860,11 @@ Technical SEO Specialist · Organic · 2026-11-04 · [interview folder](../inter
   - cluster [C-30](../synthesis/clusters-and-root-causes.md#c-30) · root cause [RC-08](../synthesis/clusters-and-root-causes.md#rc-08) · certainty: stated · severity 2
 - <a id="sb-pp07"></a>**SB-PP07** – Web page uploads loop with clients for weeks over pixels and elements; requirements unclear and client team changes its mind
   - *"I have been going back and forth. for a month. for a singular page."* – Sid Bali, Technical SEO Specialist · staff-raised · [\~16:16 (L204–L206)](../interviews/sb-sid-bali/transcript.md?plain=1#L208)
-  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: parked
+  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: not in proposal
   - cluster [C-13](../synthesis/clusters-and-root-causes.md#c-13) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 4 · Austin: Agree
 - <a id="sb-pp08"></a>**SB-PP08** – Webflow is complex; clients can't find controls so Sid relays and does edits
   - *"Like Webflow is not easy."* – Sid Bali, Technical SEO Specialist · staff-raised · [\~18:36 (L231)](../interviews/sb-sid-bali/transcript.md?plain=1#L235)
-  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: parked
+  - Problem: [P-29 Page builds and content uploads reach clients with errors or loop for weeks](../problems/p-29-page-builds-and-content-uploads-reach-clients.md) · status: not in proposal
   - cluster [C-13](../synthesis/clusters-and-root-causes.md#c-13) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 2
 - <a id="sb-pp09"></a>**SB-PP09** – Client logins sit in HubSpot, not with the Monday task; LastPass migration unfinished
   - *"But then we still have to go into HubSpot and go into Kshalo and look into the login information"* – Sid Bali, Technical SEO Specialist · staff-raised · [\~07:08 (L081)](../interviews/sb-sid-bali/transcript.md?plain=1#L85)
@@ -872,7 +872,7 @@ Technical SEO Specialist · Organic · 2026-11-04 · [interview folder](../inter
   - cited in [DS-17](../solutions/ds-17-client-files-and-logins-in-company-owned.md) · cluster [C-34](../synthesis/clusters-and-root-causes.md#c-34) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: partly stated · severity 2
 - <a id="sb-pp10"></a>**SB-PP10** – Make sets the HubSpot deal closer as Monday client owner – always wrong; fixed by hand
   - *"the person who closes the deal on HubSpot is never the person who's going to manage the client account."* – Sid Bali, Technical SEO Specialist · staff-raised · [\~33:23 (L477)](../interviews/sb-sid-bali/transcript.md?plain=1#L481)
-  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: parked
+  - Problem: [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) · status: not in proposal
   - cited in [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) · cluster [C-31](../synthesis/clusters-and-root-causes.md#c-31) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 4
 - <a id="sb-pp11"></a>**SB-PP11** – Monday/Make system depends on Sid (built it, admin, sole fixer); no documented backup
   - *"But if I'm not there, who's going to do it? It needs to have that system in place."* – Sid Bali, Technical SEO Specialist · staff-raised · [\~35:09 (L501)](../interviews/sb-sid-bali/transcript.md?plain=1#L505)
@@ -888,11 +888,11 @@ Technical SEO Specialist · Organic · 2026-11-04 · [interview folder](../inter
   - cluster [C-17](../synthesis/clusters-and-root-causes.md#c-17) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: partly stated · severity 3
 - <a id="sb-pp14"></a>**SB-PP14** – Split strategy vs technical ownership adds coordination; no performance impact
   - *"it's not a hindrance to performance, but I think it just gets in the way of work at times"* – Sid Bali, Technical SEO Specialist · staff-raised · [\~12:23 (L151)](../interviews/sb-sid-bali/transcript.md?plain=1#L155)
-  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: parked
+  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: not in proposal
   - cluster [C-26](../synthesis/clusters-and-root-causes.md#c-26) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 2
 - <a id="sb-pp15"></a>**SB-PP15** – Constant ad hoc requests and sub-problems push planned tickets into an overdue catch-up week
   - *"there will be overdue tickets always."* – Sid Bali, Technical SEO Specialist · staff-raised · [\~24:50 (L354)](../interviews/sb-sid-bali/transcript.md?plain=1#L358)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cited in [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) · cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 
 ## <a id="interview-tg"></a>TG Tonie Guevarra
@@ -974,7 +974,7 @@ SEO Manager · Organic · 2026-11-04 · [interview folder](../interviews/zc-zach
   - cited in [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md) · cluster [C-04](../synthesis/clusters-and-root-causes.md#c-04) · root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02) · certainty: stated · severity 3 · Austin: Agree
 - <a id="zc-pp06"></a>**ZC-PP06** – Client content approval averages \~1 week and needs chasing; results stall until published
   - *"I think on average, it probably takes like a week on average. So it's quite a long time to get it done."* – Zach Chamberlain, SEO Manager · staff-raised · [\~41:13 (L435)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L441)
-  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: parked
+  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: not in proposal
   - cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: stated · severity 3 · Austin: Agree
 - <a id="zc-pp07"></a>**ZC-PP07** – Getting access from new clients (tradies, car dealers) takes a long time
   - *"trying to get the access of those kind of guys, it can take a long time."* – Zach Chamberlain, SEO Manager · staff-raised · [\~08:17 (L066)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L72)
@@ -998,7 +998,7 @@ SEO Manager · Organic · 2026-11-04 · [interview folder](../interviews/zc-zach
   - cited in [DS-02](../solutions/ds-02-ai-playbook-repository.md) · cluster [C-12](../synthesis/clusters-and-root-causes.md#c-12) · root cause [RC-03](../synthesis/clusters-and-root-causes.md#rc-03) · certainty: stated · severity 3
 - <a id="zc-pp12"></a>**ZC-PP12** – Unclear line between SEO hours and dev work – a CRO mock-up led to a request to swap SEO hours for dev hours
   - *"can we swap this seo hours to dev hours to get this get this implemented"* – Zach Chamberlain, SEO Manager · staff-raised · [\~10:38 (L087)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L93)
-  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: parked
+  - Problem: [P-35 Strategy and technical SEO run as separate queues, so big technical work slips](../problems/p-35-strategy-and-technical-seo-run-as-separate.md) · status: not in proposal
   - cluster [C-26](../synthesis/clusters-and-root-causes.md#c-26) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 2
 - <a id="zc-pp13"></a>**ZC-PP13** – Meeting transcripts not used; client run sheets kept by hand
   - *"get those meeting notes and transcriptions kind of just like to populate a month, like a run sheet, just like date, time, this is what we talked about."* – Zach Chamberlain, SEO Manager · staff-raised · [\~34:13 (L354)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L360)
@@ -1027,11 +1027,11 @@ Content Specialist · Organic · 2026-11-04 · [interview folder](../interviews/
 
 - <a id="ht-pp01"></a>**HT-PP01** – End of month is crunchy: own work must be done by the 24th so freelancer overflow can be edited in the last week
   - *"So the end of the month is often crunchy"* – Hayley Tantau, Content Specialist · staff-raised · [\~13:12 (L150)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L155)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: stated · severity 3
 - <a id="ht-pp02"></a>**HT-PP02** – One high-priority client sits outside the content cycle – not briefed by SEO, sends last-minute work; writers hold buffer
   - *"even the seo tech doesn't brief it, they just give us things to do at the last minute."* – Hayley Tantau, Content Specialist · staff-raised · [\~13:57 (L155)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L160)
-  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: parked
+  - Problem: [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) · status: not in proposal
   - cited in [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) · cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) · root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05) · certainty: partly stated · severity 3
 - <a id="ht-pp03"></a>**HT-PP03** – Content cover is thin: when the Content Manager was on leave, HT took on freelancer assignment plus her book – crunchy
   - *"when Sarah went on leave, it was like crunchy for me for sure."* – Hayley Tantau, Content Specialist · staff-raised · [\~18:24 (L208)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L213)
@@ -1043,7 +1043,7 @@ Content Specialist · Organic · 2026-11-04 · [interview folder](../interviews/
   - cluster [C-07](../synthesis/clusters-and-root-causes.md#c-07) · root cause [RC-03](../synthesis/clusters-and-root-causes.md#rc-03) · certainty: stated · severity 3 · Austin: Agree
 - <a id="ht-pp05"></a>**HT-PP05** – Freelancer work and word-count tracker in Google Sheets (some per freelancer) and email alongside Monday.com – double-ups
   - *"I think for the sake of simplicity and double ups, yeah, we should go to Monday."* – Hayley Tantau, Content Specialist · staff-raised · [\~15:53 (L177)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L182)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: partly stated · severity 3 · Austin: Agree
 - <a id="ht-pp06"></a>**HT-PP06** – Nobody clearly driving the Sheets–Monday.com tracker connection; it sat with Sid, who is moving to client work
   - *"Yeah, I think that's what's kid [Sid] but I don't know where it's at."* – Hayley Tantau, Content Specialist · staff-raised · [\~20:07 (L232)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L237)
@@ -1059,9 +1059,9 @@ Content Specialist · Organic · 2026-11-04 · [interview folder](../interviews/
   - cluster [C-33](../synthesis/clusters-and-root-causes.md#c-33) · root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04) · certainty: stated · severity 2 · Austin: Agree
 - <a id="ht-pp09"></a>**HT-PP09** – Briefs used to lack detail and context (fixed by joint training; could drift without quarterly refresh)
   - *"with the SEO specialists to kind of make the briefs better because we weren't getting what we wanted out of them."* – Hayley Tantau, Content Specialist · staff-raised · [\~05:26 (L072)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L77)
-  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: parked
+  - Problem: [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) · status: not in proposal
   - cluster [C-21](../synthesis/clusters-and-root-causes.md#c-21) · root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01) · certainty: stated · severity 2 · Austin: Agree
 - <a id="ht-pp10"></a>**HT-PP10** – Compliance-sensitive (dental) clients still comment on drafts even with fully detailed briefs – extra review rounds
   - *"She'll still comment anyway, which is totally fair because it's like APRA guidelines and her business on the line."* – Hayley Tantau, Content Specialist · staff-raised · [\~09:45 (L117)](../interviews/ht-hayley-tantau/transcript.md?plain=1#L122)
-  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: parked
+  - Problem: [P-10 Content stalls at client approval – or the tracker can't show what's finished](../problems/p-10-content-stalls-at-client-approval-or-the.md) · status: not in proposal
   - cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11) · root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07) · certainty: partly stated · severity 2

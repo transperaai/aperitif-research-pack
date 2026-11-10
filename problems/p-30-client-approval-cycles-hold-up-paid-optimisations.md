@@ -1,9 +1,9 @@
 ---
 id: P-30
 title: "Client approval cycles hold up paid optimisations and launches, while managers carry the blame"
-austin_call: "Park"
-austin_note: "Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov)."
-status: parked
+austin_call: "Not in proposal"
+austin_note: "Why: the fix (O-24, client approval deadlines) was dropped by Austin on 9 Nov; partly helped by the client campaign brief template (SD-str01)."
+status: not_in_proposal
 fixed_by: []
 also_helped_by: []
 related_only: []
@@ -20,9 +20,9 @@ notion_id: 410e204ff76981e1b678c897751d71d3
 
 | | |
 | --- | --- |
-| Austin's call | **Park** |
-| Austin's note | Not solving in this proposal – the fix (O-24) was dropped (Austin, 9 Nov). |
-| Status | parked – Parked by Austin: Not solving in this proposal – the fix ([O-24](../opportunities/README.md#o-24)) was dropped (Austin, 9 Nov). |
+| Austin's call | **Not in proposal** |
+| Austin's note | Why: the fix (O-24, client approval deadlines) was dropped by Austin on 9 Nov; partly helped by the client campaign brief template (SD-str01). |
+| Status | not in proposal – why: Not solving in this proposal – the fix ([O-24](../opportunities/README.md#o-24)) was dropped (Austin, 9 Nov). |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |

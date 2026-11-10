@@ -119,7 +119,7 @@ You are reading a structured evidence base. Use it like this.
 
 - Cite IDs for every claim (e.g. "DS-06 fixes P-16; evidence SB-PP04, stated").
 - Do not treat assumptions as facts. Value figures (time saved, capacity unlocked, retained, recovered) come only from VALUE-BY-BUNDLE.md, which is authoritative and has a basis label on every number – do not invent any, and never add time and capacity together. Any cost-of-inactivity (COI) figure elsewhere is superseded. Build prices are in each solution file.
-- Austin's calls are decisions, not evidence. A *Park* problem stays parked even if a solution "also helps".
+- Austin's calls are decisions, not evidence. A *Not in proposal* problem stays out even if a solution "also helps".
 - Where sources conflict, check `synthesis/contradictions.md` and `method/gaps-and-issues.md` before stating a fact.
 - Merge outputs (Stage 1–3, 6 Nov) predate Austin's decisions; the ledger and solution files are current.
 - In the synthesis and merge documents (`synthesis/`, `method/merge-prompt.md`), **COI means conflict of interest** (Transpera could build the fix, or Austin has a link to it) – not cost of inactivity.

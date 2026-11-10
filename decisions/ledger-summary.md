@@ -9,7 +9,7 @@ New in this build: DS-30 daily priorities (split from DS-06), DS-31 brand mentio
 - Addressed: 173, Parked: 48, Partly addressed: 20, Rejected: 2.
 - 137 flagged Agree by Austin: Addressed: 113, Parked: 19, Partly addressed: 5.
 
-## Problems (48) – 29 Solve now, 9 Park, 5 Solve later, 5 Reject
+## Problems (48) – 29 Solve now, 9 Not in proposal, 5 Solve later, 5 Reject
 - Addressed: 31, Parked: 9, Rejected: 5, Partly addressed: 3.
 - Partly addressed (no fixing DS): P-09 (Solve later, also helped by DS-03); P-17 (Solve later, also helped by DS-01); P-21 (Solve now, also helped by DS-01, DS-05, DS-06, DS-30).
 - Parked: P-10, P-11, P-29, P-30, P-32, P-35, P-37, P-39, P-41. Rejected: P-26, P-42, P-43, P-45, P-46.

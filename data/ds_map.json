@@ -230,8 +230,8 @@
     "id": "P-11",
     "notion_id": "40fe204ff769812bb6b9dae3c44d0839",
     "title": "Content tracker and link sheets live outside Monday.com",
-    "call": "Park",
-    "note": "auto-created Monday tasks (problem parked)"
+    "call": "Not in proposal",
+    "note": "auto-created Monday tasks (problem not in this proposal)"
    },
    {
     "id": "P-09",
@@ -244,7 +244,7 @@
     "id": "P-32",
     "notion_id": "410e204ff769819496a5d0c622b9e531",
     "title": "Unplanned same-day and high-touch client requests break the planned month",
-    "call": "Park",
+    "call": "Not in proposal",
     "note": "slots and cut-offs for the out-of-cycle client, text only"
    }
   ],
@@ -575,7 +575,7 @@
     "id": "P-32",
     "notion_id": "410e204ff769819496a5d0c622b9e531",
     "title": "Unplanned same-day and high-touch client requests break the planned month",
-    "call": "Park",
+    "call": "Not in proposal",
     "note": "via cluster C-18 in text"
    }
   ],
@@ -838,8 +838,8 @@
     "id": "P-39",
     "notion_id": "410e204ff76981998f05d3821fbd38e3",
     "title": "HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost",
-    "call": "Park",
-    "note": "\"also helps (you parked this problem)\""
+    "call": "Not in proposal",
+    "note": "\"also helps (problem not in this proposal)\""
    }
   ],
   "problems_related_only": [],
@@ -1030,8 +1030,8 @@
     "id": "P-41",
     "notion_id": "410e204ff76981e18b83f14ee089f51e",
     "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
-    "call": "Park",
-    "note": "related culture point (parked)"
+    "call": "Not in proposal",
+    "note": "related culture point (not in proposal)"
    }
   ],
   "problem_mentions_in_section": [
@@ -1105,8 +1105,8 @@
     "id": "P-41",
     "notion_id": "410e204ff76981e18b83f14ee089f51e",
     "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
-    "call": "Park",
-    "note": "related culture point (parked), from DS-13"
+    "call": "Not in proposal",
+    "note": "related culture point (not in proposal), from DS-13"
    }
   ],
   "problem_mentions_in_section": [
