@@ -3,7 +3,7 @@ id: DS-26
 title: "SEO: performance forecasting tool"
 team: "SEO"
 bundle: "SEO performance"
-status: "Added – cost TBC; weak SEO evidence"
+status: "Added – priced; weak SEO evidence"
 ledger_status: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["LS-PP16"]
 pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$3,000 for the bundle (DS-25 + DS-26)"
+monthly: "A$300/month + tokens ~US$3–30"
 notion_section: "SEO: performance forecasting tool"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "SEO: performance forecasting tool"
 | --- | --- |
 | Bundle | [SEO performance](README.md#bundle-seo-performance) |
 | Team | SEO |
-| Status | Added – cost TBC; weak SEO evidence |
+| Status | Added – priced; weak SEO evidence |
 | Source type | Austin addition – Austin – new; no SEO forecasting pain point raised (LS-PP16 is interviewer-raised) |
 | Opportunities | – |
 | Earlier ideas | – |
@@ -37,11 +37,14 @@ notion_section: "SEO: performance forecasting tool"
 | Pain points cited | [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised) |
 | Written source | – |
 | Cost of inactivity / year | Not quantified |
-| Build cost / OpEx | TBC |
+| Build cost | A\$3,000 for the bundle (DS-25 + DS-26) |
+| Monthly | A\$300/month + tokens \~US\$3–30 |
 
 ## Vision
 
 > **A forecasting simulator** – same goal as [DS-25](ds-25-ppc-performance-forecasting-tool.md), with SEO nuances: toggle inputs and simulate events and trends (seasonality, algorithm updates, demand shifts, content output) to see the impact on organic delivery. **Starting point:** talk to the SEO leads about how they forecast today and turbo-charge it.
+
+> **Pricing:** part of the **forecasting bundle** – see [DS-25](ds-25-ppc-performance-forecasting-tool.md) (A\$3,000 build, A\$300/month for [DS-25](ds-25-ppc-performance-forecasting-tool.md) + DS-26).
 
 **Team:** SEO. **Your decision (9 Nov):** the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
 
@@ -70,7 +73,7 @@ Not quantified – no times or figures were given for SEO forecasting.
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Shares [DS-22](ds-22-seo-automated-monday-client-performance-check.md)'s data connections.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

@@ -3,7 +3,7 @@ id: DS-28
 title: "Client comms assistant: monthly updates and expectation setting"
 team: "account managers (PPC and SEO)"
 bundle: "Delivery & reporting"
-status: "Added – cost TBC"
+status: "Added – priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: []
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KO-PP20", "LS-PP16", "SH-PP09"]
 pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
 coi_per_year: "Not quantified separately"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,000"
+monthly: "A$200/month + tokens ~US$10–40"
 notion_section: "Client comms assistant: monthly updates and expectation setting"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 | --- | --- |
 | Bundle | [Delivery & reporting](README.md#bundle-delivery-and-reporting) |
 | Team | account managers (PPC and SEO) |
-| Status | Added – cost TBC |
+| Status | Added – priced |
 | Source type | mixed – Austin – new; SH-PP09, KO-PP20 (O-23 related) |
 | Opportunities | – |
 | Earlier ideas | – |
@@ -37,11 +37,20 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 | Pain points cited | [KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised), [SH-PP09](../pain-points/README.md#sh-pp09) |
 | Written source | – |
 | Cost of inactivity / year | Not quantified separately – time sits in client email & ad hoc (DS-06) |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,000 |
+| Monthly | A\$200/month + tokens \~US\$10–40 |
 
 ## Vision
 
 > **As written** – drafts proactive client updates through the month and pre-empts dips with expectation-setting notes, all approved by the manager before sending. **Every update sent is saved to the client brain ([DS-04](ds-04-ai-client-brain.md))**, so the end-of-month report, the quarterly review and the 6-month review ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) are easier to put together – the story of the period is already written.
+
+## Pricing & priority
+
+> **Priority: Fill-in (after [DS-04](ds-04-ai-client-brain.md)) · Impact 2 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Delivery & reporting · runs on the AI client brain ([DS-04](ds-04-ai-client-brain.md))
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Client comms assistant** – monthly updates and expectation-setting notes, approved by the manager, saved to the client brain | **A\$1,000** | **A\$200/month** maintenance + AI tokens \~US\$10–40/month |
 
 **Team:** account managers (PPC and SEO). **Your decision (9 Nov):** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
 
@@ -76,7 +85,7 @@ Not quantified separately – the time sits in "client email & ad hoc requests" 
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Reuses [DS-04](ds-04-ai-client-brain.md), [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md), [DS-22](ds-22-seo-automated-monday-client-performance-check.md)–27 data.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

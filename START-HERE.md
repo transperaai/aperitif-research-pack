@@ -16,7 +16,7 @@ Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 
 
 ## The solutions, by bundle
 
-Bundles group solutions for presenting; each solution keeps its own scope, KPIs and cost. Build cost and OpEx are **TBC** throughout.
+Bundles group solutions for presenting; each solution keeps its own scope, KPIs and cost. Build prices and monthly fees are in each solution file (A\$, SaaS/tokens in US\$).
 
 **AI Business Brain**
 

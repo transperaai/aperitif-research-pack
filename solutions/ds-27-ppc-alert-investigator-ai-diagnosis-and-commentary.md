@@ -3,7 +3,7 @@ id: DS-27
 title: "PPC: alert investigator – AI diagnosis and commentary on flagged activity"
 team: "PPC"
 bundle: "PPC performance"
-status: "Added – cost TBC"
+status: "Added – priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-12 (draft-diagnosis part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["DM-PP01", "WS-PP04"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$3K–$18K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$5,000"
+monthly: "A$750/month + tokens ~US$15–60"
 notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 | --- | --- |
 | Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | PPC |
-| Status | Added – cost TBC |
+| Status | Added – priced |
 | Source type | mixed – Austin – new on top of O-12's draft-diagnosis step; WS-PP04, DM-PP01 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (draft-diagnosis part) |
 | Earlier ideas | – |
@@ -37,11 +37,33 @@ notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 | Pain points cited | [DM-PP01](../pain-points/README.md#dm-pp01), [WS-PP04](../pain-points/README.md#ws-pp04) |
 | Written source | – |
 | Cost of inactivity / year | \$3K–\$18K – overlaps DS-01 – do not add |
-| Build cost / OpEx | TBC |
+| Build cost | A\$5,000 |
+| Monthly | A\$750/month + tokens \~US\$15–60 |
 
 ## Vision
 
 > **Collate the information for the account manager and add intel and a first diagnosis**, so nobody spends 20–30 minutes getting up to speed on a problem – they jump straight into fixing it.
+
+## Build approach (agreed 10 Nov)
+
+**Adpulse metrics + client brain context → a potential diagnosis.** Adpulse flags the change but doesn't explain it (its alerts are threshold-based and its insights are rule-based best-practice checks). So:
+
+1. An Adpulse alert (via its API or the Slack alert) triggers the investigator.
+2. It pulls the alert's metrics and recent trend from Adpulse.
+3. It adds context from the client brain ([DS-04](ds-04-ai-client-brain.md)): the client's strategy and goals, recent work and changes logged in Monday, recent client comms, and industry, seasonal and news context ([DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md), [DS-33](ds-33-macro-trend-tracker-per-client.md)).
+4. Claude writes a **potential diagnosis** – likely causes ranked, with the evidence for each – and what to check first, in the alert's Slack thread.
+
+No direct Google Ads / Meta API connectors are needed at first, which keeps the build light and avoids the API approvals. *Limit: without account-level change history, search terms and auction insights the diagnosis is a well-informed starting point, not a forensic answer; direct ad-platform data can be added later if needed.* Also ask in the Adpulse demo whether it can export change history or search-term data.
+
+## Pricing & priority
+
+> **Priority: Impact 3 / 5 · Effort 3 / 5 (draft – re-scored for the lighter Adpulse + brain approach; confirm)** · Bundle: PPC performance
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **PPC alert investigator** – Adpulse alert metrics + client brain context → potential diagnosis in Slack | **A\$5,000** | **A\$750/month** maintenance + AI tokens \~US\$15–60/month |
+>
+> *Needs [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (Adpulse) and [DS-04](ds-04-ai-client-brain.md) (client brain) in place.*
 
 **Team:** PPC. **Your decision (9 Nov):** when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
 
@@ -85,7 +107,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Bïrch and pacing SaaS don't include AI diagnosis – likely a build on top of the [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) tool's alerts.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

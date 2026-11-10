@@ -3,7 +3,7 @@ id: DS-03
 title: "Automated AI brief drafts → Monday.com tasks"
 team: "SEO and content"  # inferred: the page gives no "Team:" line
 bundle: "Delivery & reporting"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-03 (full)", "O-25 (full)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["HT-PP01", "HT-PP02", "LS-PP03", "SJ-PP01", "SJ-PP02", "SJ-PP04", "SJ-PP06", "SJ-PP10", "SJ-PP11", "SJ-PP14", "ZC-PP02", "ZC-PP03"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$10K–$29K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$350"
+monthly: "A$100/month management (may bundle with other Claude-skill solutions)"
 notion_section: "Automated AI brief drafts → Monday.com tasks"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 | --- | --- |
 | Bundle | [Delivery & reporting](README.md#bundle-delivery-and-reporting) |
 | Team | SEO and content *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed |
 | Opportunities | [O-03](../opportunities/README.md#o-03) (full), [O-25](../opportunities/README.md#o-25) (full) |
 | Earlier ideas | – |
@@ -37,11 +37,21 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 | Pain points cited | [HT-PP01](../pain-points/README.md#ht-pp01), [HT-PP02](../pain-points/README.md#ht-pp02), [LS-PP03](../pain-points/README.md#ls-pp03), [SJ-PP01](../pain-points/README.md#sj-pp01), [SJ-PP02](../pain-points/README.md#sj-pp02), [SJ-PP04](../pain-points/README.md#sj-pp04), [SJ-PP06](../pain-points/README.md#sj-pp06), [SJ-PP10](../pain-points/README.md#sj-pp10), [SJ-PP11](../pain-points/README.md#sj-pp11), [SJ-PP14](../pain-points/README.md#sj-pp14), [ZC-PP02](../pain-points/README.md#zc-pp02), [ZC-PP03](../pain-points/README.md#zc-pp03) |
 | Written source | – |
 | Cost of inactivity / year | \$10K–\$29K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$350 |
+| Monthly | A\$100/month management (may bundle with other Claude-skill solutions) |
 
 ## Vision
 
 > **The month's work comes straight out of the master sheet and turns into to-dos.** AI reads the content plan in the Master SEO Document, drafts the briefs, and each one becomes a task in Monday for the right person – nobody re-cuts the plan or retypes it into tasks. Happy with the rest as written (content intake, freelancer boards, Claude skill first, full automation as the upgrade).
+
+## Pricing & priority
+
+> **Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)**
+>
+> | Option | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Recommended – Claude skill** (briefs from the master sheet, Monday task on approval) | A\$350 | A\$100/month management (may be bundled with other Claude-skill solutions) + Make (existing plan likely covers it) |
+> | **Upgrade – full automation**, connected to the AI brain ([DS-04](ds-04-ai-client-brain.md)/DS-15), incl. content intake | A\$1,750 feature addition | AI tokens \~US\$5–25/month + Make |
 
 **Your decision (9 Nov):** AI generates the monthly brief drafts, and each brief is turned into a task in Monday.com. Recommended version: a **Claude skill** (cheap); the **fully automated** end-to-end version is offered as the upgrade (see Decided).
 
@@ -90,7 +100,7 @@ Also at risk, not quantified: briefs sitting unseen for up to two days against a
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Claude seats (shared with [DS-02](ds-02-ai-playbook-repository.md)) plus [Monday.com/Make](http://Monday.com/Make) automation runs.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

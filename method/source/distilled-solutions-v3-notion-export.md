@@ -1,4 +1,4 @@
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89 as of 2026-11-09T12:23:34.119Z:
+Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89 as of 2026-11-10T00:47:04.042Z:
 <page url="https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89" icon="💧">
 <ancestor-path></ancestor-path>
 <properties>
@@ -7,7 +7,9 @@ Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413
 <iconMetadata>{"type":"emoji","emoji":"💧"}</iconMetadata>
 <content>
 <callout icon="💧" color="blue_bg">
-Austin's final solutions, worked through one opportunity at a time. Each entry records your decision, the opportunities and problems it covers, the evidence, and the one-pager checklist (future state · KPIs · COI = cost of inactivity · build cost/OpEx · assumptions). Cost of inactivity is what Aperitif keeps losing each month and year if nothing changes: recoverable staff hours × \$80/hr, plus any money or clients at risk. Items marked <b>TBC</b> are still open for you.
+Austin's final solutions, worked through one opportunity at a time. Each entry records your decision, the opportunities and problems it covers, the evidence, and the one-pager checklist (future state · KPIs · COI = cost of inactivity · build cost/OpEx · assumptions). Cost of inactivity is what Aperitif keeps losing each month and year if nothing changes: recoverable staff hours × \$80/hr, plus any money or clients at risk. Each solution's price and draft priority are in its green <b>Pricing & priority</b> box.
+
+<b>Currency:</b> all figures are <b>AUD</b> (cost of inactivity, build costs, ad spend) except <b>SaaS and API prices, which are in USD</b> (marked US\$).
 
 <b>Sources also used:</b> Zach's written "AI suggestions" doc ([Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit)) – cited in DS-04, DS-07, DS-12, DS-16 and DS-22 to DS-24.
 </callout>
@@ -16,38 +18,38 @@ Austin's final solutions, worked through one opportunity at a time. Each entry r
 
 | # | Solution | Opportunities covered | Status |
 | --- | --- | --- | --- |
-| DS-01 | Modern ad budget pacing + performance alerting | O-01, O-11, O-15, O-10, O-12 | Decided – tool choice (build vs buy) and cost TBC |
-| DS-02 | AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills) | O-02, O-33 (part) | Decided – includes the AI data rule and company Claude seats; cost TBC. <b>DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it</b> |
-| DS-03 | Automated AI brief drafts → [Monday.com](http://Monday.com) tasks | O-03, O-25 (full – intake standard, assignment, slots, filing) | Decided – cost TBC |
-| DS-04 | AI client brain (per client) – under the AI Business Brain banner | O-04, O-13, O-27 (per-client part), O-26 (style guide only) | Decided – cost TBC |
-| DS-05 | Automated deck generator: quarterly + 6-month reviews and proposals | O-05 (deck part), O-22 (calculator part), O-14 (prospect-deck part) | Decided – cost TBC |
-| DS-06 | Request sweeper ("Roomba"): stray Slack, DM and email requests → [Monday.com](http://Monday.com) | O-06 (capture part), O-29 (incl. SB-O02 – triage + daily priority DM) | Decided – cost TBC |
-| DS-07 | Link watchdog agent: monitors every paid link | O-07 | Decided – tool choice and cost TBC |
-| DS-08 | AI sales handover: extracted from sales calls, confirmed by delivery | O-08 (handover part; access checklist + staged onboarding as add-on) | Decided – cost TBC |
-| DS-09 | AI-prefilled onboarding audit and Master SEO Document | O-14 | Decided (as written) – cost TBC |
-| DS-10 | Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks) | O-16 | Decided – cost TBC |
-| DS-11 | Link-building workflow CRM (orders, publishers, links, invoicing and payments) | O-18 | Decided – build vs buy and cost TBC |
-| DS-12 | Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM) | O-20 | Decided (as written) – cost TBC |
+| DS-01 | Modern ad budget pacing + performance alerting | O-01, O-11, O-15, O-10, O-12 | Decided – Adpulse recommended; priced |
+| DS-02 | AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills) | O-02, O-33 (part) | Decided – includes the AI data rule and company Claude seats; priced. <b>DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it</b> |
+| DS-03 | Automated AI brief drafts → [Monday.com](http://Monday.com) tasks | O-03, O-25 (full – intake standard, assignment, slots, filing) | Decided – priced |
+| DS-04 | AI client brain (per client) – under the AI Business Brain banner | O-04, O-13, O-27 (per-client part), O-26 (style guide only) | Decided – priced |
+| DS-05 | Automated deck generator: quarterly + 6-month reviews and proposals | O-05 (deck part), O-22 (calculator part), O-14 (prospect-deck part) | Decided – priced |
+| DS-06 | Request sweeper ("Roomba"): stray Slack, DM and email requests → [Monday.com](http://Monday.com) | O-06 (capture part), O-29 (incl. SB-O02 – triage + daily priority DM) | Decided – priced |
+| DS-07 | Link watchdog agent: monitors every paid link | O-07 | Decided – priced |
+| DS-08 | AI sales handover: extracted from sales calls, confirmed by delivery | O-08 (handover part; access checklist + staged onboarding as add-on) | Decided – priced |
+| DS-09 | AI-prefilled onboarding audit and Master SEO Document | O-14 | Decided (as written) – priced |
+| DS-10 | Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks) | O-16 | Decided – priced |
+| DS-11 | Link-building workflow CRM (orders, publishers, links, invoicing and payments) | O-18 | Decided – custom build; priced |
+| DS-12 | Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM) | O-20 | Decided (as written) – priced |
 | DS-13 | <i>Merged into DS-14</i> – escalation and delegation rules (DS-14 Part B) | O-21 | Merged – see DS-14 |
-| DS-14 | Client health & growth intelligence: anti-churn and expansion tracking and alerting, <b>with escalation and delegation rules (Part B, from DS-13)</b> | O-31, O-23 (opportunities part) | b |
-| DS-15 | <b>AI Business Brain – the umbrella</b> (client brains, smart SOPs, one place to ask) | O-27 (company layer) + groups DS-02, DS-04, DS-10, DS-14 and the solutions that read from them | Decided – framing; cost TBC |
-| DS-16 | Seasonal & trending content radar per client (split 9 Nov) | O-28 | Decided – cost TBC |
-| DS-32 | Competitor spy per client (split from DS-16) | O-28 (competitor part); Zach's AI suggestions doc | Decided – cost TBC |
-| DS-33 | Macro trend tracker per client (split from DS-16) | Austin's earlier idea; Zach's AI suggestions doc | Decided – cost TBC |
-| DS-17 | Client files and logins in company-owned shared locations, linked to each client brain | O-30 | Decided (as written) – cost TBC |
-| DS-18 | Landing page generator (ad landing pages, Aperitif-hosted) | Austin's earlier idea (no merged opportunity) | Decided – cost TBC |
+| DS-14 | Client health & growth intelligence: anti-churn and expansion tracking and alerting, <b>with escalation and delegation rules (Part B, from DS-13)</b> | O-31, O-23 (opportunities part) | Decided – churn basis is Austin's assumption; priced |
+| DS-15 | <b>AI Business Brain – the umbrella</b> (client brains, smart SOPs, one place to ask) | O-27 (company layer) + groups DS-02, DS-04, DS-10, DS-14 and the solutions that read from them | Decided – framing; priced |
+| DS-16 | Seasonal & trending content radar per client (split 9 Nov) | O-28 | Decided – priced |
+| DS-32 | Competitor spy per client (split from DS-16) | O-28 (competitor part); Zach's AI suggestions doc | Decided – priced |
+| DS-33 | Macro trend tracker per client (split from DS-16) | Austin's earlier idea; Zach's AI suggestions doc | Decided – priced |
+| DS-17 | Client files and logins in company-owned shared locations, linked to each client brain | O-30 | Decided (as written) – priced |
+| DS-18 | Landing page generator (ad landing pages, Aperitif-hosted) | Austin's earlier idea (no merged opportunity) | Decided – priced |
 | DS-19 | AI receptionist (phone; Aircall add-on or own build) | Austin's earlier idea (no merged opportunity) | Decided – call director; Aircall add-on (\~A\$370/mo) recommended, own build as the cheaper alternative; weak interview evidence |
-| DS-20 | New-client dossier agent (at signing → client brain) | Austin's earlier idea (evidence: KO-PP22) | Decided – cost TBC |
-| DS-22 | SEO: automated Monday client performance check (GA4, Search Console, Ahrefs) | O-12 (SEO part: ZC-O03, LS-O03); Zach's AI suggestions doc | Decided – cost TBC |
-| DS-29 | PPC: automated Monday client performance check (Google Ads, Meta and other channels) | O-12 (paid part); DS-22's PPC twin | Added – cost TBC |
-| DS-23 | SEO: drop and anomaly alerts | O-12 (SEO part); Zach's AI suggestions doc | Decided – cost TBC |
-| DS-24 | SEO: mid-month wins sent to clients | ZC-O03 (win note); Zach's AI suggestions doc | Decided – cost TBC |
-| DS-25 | PPC: performance forecasting tool | Austin – new; WS-O09 (forecasting prompt) | Added – cost TBC |
-| DS-26 | SEO: performance forecasting tool | Austin – new | Added – cost TBC; weak SEO evidence |
-| DS-27 | PPC: alert investigator – AI diagnosis and commentary on flagged activity | O-12 (draft-diagnosis part); Austin – new | Added – cost TBC |
-| DS-28 | Client comms assistant: monthly updates and expectation setting | Austin – new; O-23 related | Added – cost TBC |
-| DS-30 | Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals | O-29 (daily brief part); Austin – new | Added – cost TBC |
-| DS-31 | Proactive brand-mention tracking for backlinks (split from DS-12) | O-20 (brand-mention part); Zach's AI suggestions doc | Added – cost TBC |
+| DS-20 | New-client dossier agent (at signing → client brain) | Austin's earlier idea (evidence: KO-PP22) | Decided – priced |
+| DS-22 | SEO: automated Monday client performance check (GA4, Search Console, Ahrefs) | O-12 (SEO part: ZC-O03, LS-O03); Zach's AI suggestions doc | Decided – priced |
+| DS-29 | PPC: automated Monday client performance check (Google Ads, Meta and other channels) | O-12 (paid part); DS-22's PPC twin | Added – priced |
+| DS-23 | SEO: drop and anomaly alerts | O-12 (SEO part); Zach's AI suggestions doc | Decided – priced |
+| DS-24 | SEO: mid-month wins sent to clients | ZC-O03 (win note); Zach's AI suggestions doc | Decided – priced |
+| DS-25 | PPC: performance forecasting tool | Austin – new; WS-O09 (forecasting prompt) | Added – priced |
+| DS-26 | SEO: performance forecasting tool | Austin – new | Added – priced; weak SEO evidence |
+| DS-27 | PPC: alert investigator – AI diagnosis and commentary on flagged activity | O-12 (draft-diagnosis part); Austin – new | Added – priced |
+| DS-28 | Client comms assistant: monthly updates and expectation setting | Austin – new; O-23 related | Added – priced |
+| DS-30 | Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals | O-29 (daily brief part); Austin – new | Added – priced |
+| DS-31 | Proactive brand-mention tracking for backlinks (split from DS-12) | O-20 (brand-mention part); Zach's AI suggestions doc | Added – priced |
 | DS-21 | AI creative tools to augment the team (existing tools, no build) | Austin's earlier idea (O-34 dropped; its AI-creative trial idea lives here) | Decided – tool shortlist to trial; cost = licences |
 
 <b>Not recommending (to write up in the pack):</b>
@@ -71,7 +73,18 @@ Austin's final solutions, worked through one opportunity at a time. Each entry r
 - <b>Alerts go to a Slack channel and @mention the account owner</b> (owner taken from the client's Monday item).
 - <b>Phase 2 option:</b> overspend protection / auto-pacing (the tool adjusts daily budgets itself). Phase 1 is alerts only.
 
-Tool being looked at: <b>Adpulse</b> – covers every channel incl. LinkedIn, pacing, custom metric monitors and Slack alerts; <b>event/anomaly alerts checked 9 Nov (vendor docs):</b> yes to user-set spike/drop alerts (% or fixed threshold, own comparison window, per account or tag, on CTR, clicks, cost, CPC, CPA, conversions, conv. rate, value); partly for account events (broken URLs, paused accounts, disapproved ads, campaigns that stop serving are listed; billing failures, feed problems, tracking stopping and budget edits are not documented – a zero-conversions spike/drop rule likely covers tracking breaks); Slack delivery yes, but channel choice, @mentions per owner and real-time vs daily digest are not documented – <b>confirm in a demo</b>; which alerts work on which channels is not documented. Pricing is by trailing 30-day ad spend: the US\$1M tier is US\$779/month (annual) and covers up to 100 ad accounts, so at \~US\$1.2M/month and 100+ accounts Aperitif is on Enterprise (custom quote). 14-day free trial. Link: ([adpulse.app](http://adpulse.app)).
+Tool being looked at: <b>Adpulse</b> – covers every channel incl. LinkedIn, pacing, custom metric monitors and Slack alerts; <b>event/anomaly alerts checked 9 Nov (vendor docs):</b> yes to user-set spike/drop alerts (% or fixed threshold, own comparison window, per account or tag, on CTR, clicks, cost, CPC, CPA, conversions, conv. rate, value); partly for account events (broken URLs, paused accounts, disapproved ads, campaigns that stop serving are listed; billing failures, feed problems, tracking stopping and budget edits are not documented – a zero-conversions spike/drop rule likely covers tracking breaks); Slack delivery yes, but channel choice, @mentions per owner and real-time vs daily digest are not documented – <b>confirm in a demo</b>; which alerts work on which channels is not documented. Pricing is by trailing 30-day ad spend: the US\$1M tier is US\$779/month (annual) and covers up to 100 ad accounts, Aperitif's spend is \~A\$1.2M/month (\~US\$0.78M at A\$1 = US\$0.65), which fits the US\$1M tier (US\$779/month annual) on spend – but with 100+ ad accounts it likely needs Enterprise (custom quote). Confirm the account count in the demo. 14-day free trial. Link: ([adpulse.app](http://adpulse.app)).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Quick win · Impact 5 / 5 · Effort 3 / 5</b>
+
+| Option | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Recommended – Adpulse</b> (has native Slack integration; no build) | A\$0 – software only | US\$779/month (US\$1M spend tier, annual) – Enterprise quote if 100+ ad accounts |
+| <b>Smaller option – modernise the existing pacing bot</b> (won't get the full Adpulse unlock) | A\$1,250 | A\$300/month management |
 </callout>
 
 <b>Your decision (9 Nov):</b> a modern ad budget pacing tool that connects to <b>every live channel</b>, tracks pace and performance per client against <b>thresholds set per client</b> by the team, and sends <b>Slack alerts</b>.
@@ -140,13 +153,13 @@ Adpulse already covers every channel, pacing, spike/drop alerts and Slack. A thi
 2. Are alerts real-time, or only a daily digest?
 3. Which alert types (spikes/drops, disapprovals, stopped serving) work on LinkedIn, Meta and the other channels, not just Google?
 4. Can it alert on billing failures, feed problems, budget edits and tracking stopping (zero conversions)?
-5. Enterprise price for \~US\$1.2M/month spend and 100+ ad accounts; HubSpot budget sync.
+5. Price for \~A\$1.2M/month (\~US\$0.78M) spend and 100+ ad accounts – does it fit the US\$1M tier or need Enterprise? HubSpot budget sync.
 
 ### What the build-vs-buy research shows (9 Nov)
 
-- <b>Bïrch (formerly Revealbot)</b> runs rules across Meta, Google Ads, TikTok and Snapchat, checking roughly every 15 minutes. <b>It does not list LinkedIn</b>, which has no pacing line today (MP-PP02). Automated rules need the Pro plan (US\$99/month at low spend); pricing scales with total connected ad spend. At Aperitif's \~\$1.2M/month (Google \~\$788K + Meta \~\$422K) it would be an enterprise quote.
+- <b>Bïrch (formerly Revealbot)</b> runs rules across Meta, Google Ads, TikTok and Snapchat, checking roughly every 15 minutes. <b>It does not list LinkedIn</b>, which has no pacing line today (MP-PP02). Automated rules need the Pro plan (US\$99/month at low spend); pricing scales with total connected ad spend. At Aperitif's \~A\$1.2M/month (Google \~A\$788K + Meta \~A\$422K) it would be an enterprise quote.
 - <b>Pacing-specific SaaS that does include LinkedIn</b> exists – e.g. [Shape.io](http://Shape.io) (Google, Meta, Microsoft, LinkedIn, X, Pinterest, TikTok), Pace, Adpulse, ReportGarden, BuyerBridge. Worth pricing at least one against the custom build before committing.
-- <b>Implication for your decision:</b> because it must cover <i>every</i> channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. <b>Tool choice TBC.</b>
+- <b>Implication for your decision:</b> because it must cover <i>every</i> channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. <b>Recommended: Adpulse – see Pricing & priority.</b>
 
 ### Future state (draft)
 
@@ -179,7 +192,7 @@ Also at risk, not quantified: performance drops and tracking breaks found at mon
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Known inputs: Bïrch Pro from \$99/month at low spend, enterprise quote at Aperitif's spend; pacing SaaS pricing to be quoted.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -209,6 +222,19 @@ Also at risk, not quantified: performance drops and tracking breaks found at mon
 - People ask in Slack by tagging the brain (an <b>@oracle</b>-style bot) and can prompt it from there: "how do we do X?", "what's the prompt for Y?", "can I put this client data into AI?".
 - The answer comes back with the SOP, prompt or skill and a link to the source.
 - The AI rule and company Claude seats are part of it, and it goes first.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| AI playbook repository (a repo of information, not a build) | <b>A\$0 – no charge</b> | – |
+| Company Claude Team seats | – | Paid by Aperitif direct (US\$ per seat; number of new seats TBC) |
+
+<b>Who does what:</b> Austin supplies the playbook entries that come from his builds (how each solution works, its prompts and SOPs). The team writes and shares their own Claude skills and prompts – Transpera doesn't build skills for individuals.
 </callout>
 
 <b>Your decision (9 Nov):</b> one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
@@ -266,7 +292,7 @@ Also at risk, not quantified: client data going into personal, ungoverned AI acc
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx is mainly Claude seats (seat count TBC).
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -289,6 +315,17 @@ Also at risk, not quantified: client data going into personal, ungoverned AI acc
 
 <callout icon="🎯" color="blue_bg">
 <b>The month's work comes straight out of the master sheet and turns into to-dos.</b> AI reads the content plan in the Master SEO Document, drafts the briefs, and each one becomes a task in Monday for the right person – nobody re-cuts the plan or retypes it into tasks. Happy with the rest as written (content intake, freelancer boards, Claude skill first, full automation as the upgrade).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)</b>
+
+| Option | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Recommended – Claude skill</b> (briefs from the master sheet, Monday task on approval) | A\$350 | A\$100/month management (may be bundled with other Claude-skill solutions) + Make (existing plan likely covers it) |
+| <b>Upgrade – full automation</b>, connected to the AI brain (DS-04/DS-15), incl. content intake | A\$1,750 feature addition | AI tokens \~US\$5–25/month + Make |
 </callout>
 
 <b>Your decision (9 Nov):</b> AI generates the monthly brief drafts, and each brief is turned into a task in [Monday.com](http://Monday.com). Recommended version: a <b>Claude skill</b> (cheap); the <b>fully automated</b> end-to-end version is offered as the upgrade (see Decided).
@@ -338,7 +375,7 @@ Also at risk, not quantified: briefs sitting unseen for up to two days against a
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Claude seats (shared with DS-02) plus [Monday.com/Make](http://Monday.com/Make) automation runs.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -395,6 +432,17 @@ Also at risk, not quantified: briefs sitting unseen for up to two days against a
 6. <b>Permissions</b> – sensitive threads and commercial terms (pricing, disputes, contract talks) can be limited to leadership.
 7. <b>Ask and act</b> – e.g. "@oracle, create a task for Sid to fix the tracking" from Slack goes into Monday (phase 2, with a confirm step).
 8. <b>Consent and retention</b> – clients agree to call recording; a set period for keeping transcripts, decided before launch.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 5 / 5 · Effort 5 / 5 (draft – confirm)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>AI client brain</b> (all clients, all sources, visible client pages, call-outs, health card, digest) – <b>includes the shared platform</b> (client registry, connectors, @oracle Slack bot, role-based access, memory with citations) | <b>A\$12,500</b> | <b>A\$850/month</b> maintenance |
+| Hosting and AI tokens | – | <b>TBC</b> – to research; the brain will be model-agnostic. Worksheet draft: tokens \~US\$60–300/month, hosting shared, one-off backfill \~US\$100–500 |
 </callout>
 
 <b>Your decision (9 Nov):</b> an AI brain <b>for each client</b> that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to <b>review and query</b>. It sits under the <b>AI Business Brain</b> banner but is treated as a separate solution for now.
@@ -472,7 +520,7 @@ Also at risk, not quantified: client retention – a six-year client left with b
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Claude seats (shared with DS-02), call recording tool, any data connectors.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -511,6 +559,16 @@ Implications to cover in the one-pager: an all-clients, all-sources custom app i
 2. <b>Charts built natively</b> in Aperitif's style, always the right date range – <b>or the consultant can upload</b> their own screenshots/visuals where needed.
 3. <b>Review step</b> – the consultant sees the draft, edits, approves; the final version is saved to the client brain.
 4. <b>One set-up, several decks</b> – quarterly review, 6-month review, the bespoke multi-market monthly deck and proposals, each with its own template and form (proposals pull prospect research and the price calculator).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Deck generator</b> – quarterly + 6-month reviews, the multi-market monthly deck and proposals | <b>A\$1,850–\$2,250</b> | <b>A\$350/month</b> maintenance + AI tokens \~US\$5–40/month |
 </callout>
 
 <b>Your decision (9 Nov):</b> <b>monthly reports stay in AgencyAnalytics</b> – no change. <b>Quarterly and 6-month (bi-annual) review decks</b> are generated automatically through a deck generator, and <b>proposals are automated</b> the same way. It could be a custom build.
@@ -572,7 +630,7 @@ Also at risk, not quantified: founder time locked into proposals instead of grow
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Claude seats (shared with DS-02), AgencyAnalytics (already paid), Ahrefs API, plus hosting if it's a custom build.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -588,7 +646,7 @@ Also at risk, not quantified: founder time locked into proposals instead of grow
 - <b>"Work completed / planned" content stays human-supplied</b>, because forward planning isn't reliable enough to pull from; the generator only handles the <b>formatting and placement</b> on the deck.
 - <b>Reads from the client brain (DS-04)</b> for the narrative, so reviews and proposals reflect what was agreed on calls.
 
-Still open: choose Claude skill vs custom workflow once costs are set (TBC by Austin).
+Approach and price: see Pricing & priority.
 
 ---
 
@@ -602,6 +660,16 @@ Still open: choose Claude skill vs custom workflow once costs are set (TBC by Au
 - It catches stray requests from Slack, DMs and email and puts them into Monday, so the brain (DS-04) always knows what's been asked.
 - <b>Task status sweep (added 9 Nov):</b> the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved (DM-PP09), and nudges the owner.
 - The <b>daily priorities</b> assistant is now its own solution, <b>DS-30</b> (your call: "another thing").
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Request sweeper + task-status sweep</b> – connected to the AI brain (runs on the DS-04 platform) | <b>A\$500</b> | <b>A\$150/month</b>  • AI tokens \~US\$30–120/month |
 </callout>
 
 <b>Your decision (9 Nov):</b> Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in <b>direct messages</b> and <b>email</b> – and puts them into [Monday.com](http://Monday.com) as tasks.
@@ -660,7 +728,7 @@ Also at risk, not quantified: requests lost in DMs and caught last-minute (SB-PP
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Claude/API usage per message scanned, Slack app, [Monday.com](http://Monday.com) automation runs.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -685,6 +753,16 @@ Also at risk, not quantified: requests lost in DMs and caught last-minute (SB-PP
 
 <callout icon="🎯" color="blue_bg">
 <b>Make sure every paid link stays up, and track the reliability (rep) rate of each provider</b> – how often their links drop – so the team keeps buying from publishers that hold up. Everything else as written (weekly checks, drop alerts, templated publisher emails that learn from edits).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 4 / 5 · Effort 3 / 5 (draft – confirm)</b> · Bundle: Link-building CRM
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Link watchdog agent</b> – weekly checks of every paid link, drop alerts, templated publisher emails, publisher reliability score | <b>A\$2,250</b> | <b>A\$350/month</b> maintenance + AI tokens \~US\$1–10/month (+ optional proxy for blocked sites \~US\$0–50) |
 </callout>
 
 <b>Your decision (9 Nov):</b> an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider <b>link-building workflow CRM</b>. Tool options: <b>Jev AI</b> (no output tokens needed, so cheap to run) or another automation method.
@@ -742,7 +820,7 @@ Also at risk, not quantified: client SEO results weakened by links that quietly 
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Jev AI or other monitoring/automation runs, plus Ahrefs API for domain health.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -756,7 +834,7 @@ Also at risk, not quantified: client SEO results weakened by links that quietly 
 - <b>When a link drops:</b> the team is alerted and asked whether to email the publisher. The system drafts the email from templates, the employee tailors it, and the system sends it. It learns from sent emails to cut rework over time.
 - <b>Check frequency:</b> weekly to start; the cadence is adjustable.
 - <b>The link-building CRM is its own solution</b> (with O-18), covered when we reach it. The watchdog reads its link list from the CRM.
-- Still open: tool choice (Jev AI or another automation method) and cost – TBC by Austin.
+- Tool (Jev AI or another automation method) is confirmed at build; price is in Pricing & priority.
 
 ---
 
@@ -768,6 +846,16 @@ Also at risk, not quantified: client SEO results weakened by links that quietly 
 <b>As written – plus: a won deal spawns the new client's entry in the AI brain.</b> The moment a deal is won, a new client brain (DS-04) is created automatically and the handover becomes its first entry, followed by the dossier (DS-20) and onboarding audit (DS-09). Delivery confirms or denies from there.
 
 <b>It also sets the client up everywhere else:</b> creates the standard client folder structure in Google Drive (DS-17), the Monday client item and onboarding board, the Slack channel, the shared vault entry for logins, and links them all from the client brain – so nobody builds a new client's set-up by hand.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Impact 3 / 5 · Effort 3 / 5 (draft – confirm; borderline)</b> · Extension of the AI brain (DS-04)
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>AI sales handover + new-client auto set-up</b> (handover from sales calls, delivery confirm/deny, new client brain entry, Drive/Monday/Slack set-up) | <b>A\$1,250</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$1–10/month |
 </callout>
 
 <b>Your decision (9 Nov):</b> <b>no hard blocks</b> on deals. Instead, the handover is <b>extracted by AI from the sales call transcripts</b>, the sales rep is shown <b>questions to fill any gaps</b>, the result <b>loads into the AI client brain (DS-04)</b>, and the delivery departments get a <b>notification to review and confirm or deny – with reasons</b>.
@@ -822,7 +910,7 @@ The hours are small; the real cost is unquantified: <b>work done for clients who
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Builds on DS-04 (client brain); OpEx: call recording/transcription and AI usage.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -848,6 +936,16 @@ The hours are small; the real cost is unquantified: <b>work done for clients who
 <b>AI does most of the onboarding work wherever it can.</b> The team points it at where the audit needs to be done (the site, the ad accounts) and it runs the audit and fills in the sheet – the Master SEO Document and the paid audit checklist. The strategist reviews and signs off.
 
 <b>Connected to the client brain (DS-04):</b> the finished audit, Master SEO Document and findings are saved into the client's brain, so they feed briefs (DS-03), reviews (DS-05), monitoring (DS-22, DS-29) and health tracking (DS-14) from day one.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Onboarding audit – Claude skills</b> (organic: pre-fills the Master SEO Document; paid: drafts the 30-item audit) – the only version recommended | <b>A\$1,500</b> | <b>A\$400/month</b> maintenance (runs on Claude seats) |
 </callout>
 
 <b>Your decision (9 Nov):</b> adopt O-14 as written – it speeds up onboarding audits.
@@ -899,7 +997,7 @@ Also at risk, not quantified: <b>growth capped by onboarding capacity</b> (KZ-PP
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Claude seats (DS-02), Ahrefs API.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -919,6 +1017,16 @@ Also at risk, not quantified: <b>growth capped by onboarding capacity</b> (KZ-PP
 
 <callout icon="🎯" color="blue_bg">
 <b>A help-doc repository for everything that's built, connected to the AI brain so people can ask it and get help.</b> "How do I use X?", "X stopped working, what do I check?" – the brain answers from the help docs and runbooks (through Slack, like the @oracle in DS-02). It <b>reduces Austin's time spent debugging and showing people how to use things</b>, and means fixes don't depend on one person.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in – do early (foundation) · Impact 3 / 5 · Effort 1 / 5 (draft – confirm)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Help docs and systems register</b> – documentation, not a build; connected to the AI brain so @oracle answers from it | <b>A\$0 – no charge</b> (documentation supplied with each build) | – (Notion already paid) |
 </callout>
 
 <b>Your decision (9 Nov):</b> adopt O-16. In your words, it's <b>one place with the information for everything that's built and what to do if something breaks</b>. It sits alongside the AI playbook (DS-02) and covers every solution in this pack as it goes live.
@@ -973,7 +1081,7 @@ The real cost is risk, not hours: if the one person who knows the Monday/Make se
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Mostly set-up time; no new software (Notion).
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -998,7 +1106,19 @@ The real cost is risk, not hours: if the one person who knows the Monday/Make se
 - It <b>feeds the AI Business Brain (DS-15) and each client brain (DS-04)</b> – which links were built for a client, where, and whether they're still live.
 </callout>
 
-<b>Your decision (9 Nov):</b> go <b>straight to a link-building workflow CRM</b> (not the sheets-first route in O-18), covering the whole workflow <b>including outreacher invoicing and payments</b>. Custom build or off-the-shelf is TBC. The link watchdog (DS-07) reads its link list from here.
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)</b> · Bundle: Link-building CRM
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Link-building workflow CRM – custom AI-native app</b> (publisher portal, orders, live links, invoicing and payment runs; feeds DS-07/12/31 and the brains) | <b>A\$3,500</b> | <b>A\$750/month</b> maintenance + hosting/tokens (mostly shared with the brain platform) |
+
+<i>Maintenance for the link-building solutions (DS-07, DS-11, DS-12, DS-31) may be consolidated into one fee – to settle at the end.</i>
+</callout>
+
+<b>Your decision (9 Nov):</b> go <b>straight to a link-building workflow CRM</b> (not the sheets-first route in O-18), covering the whole workflow <b>including outreacher invoicing and payments</b>. Recommended: a custom AI-native build. The link watchdog (DS-07) reads its link list from here.
 
 ### What it covers (draft)
 
@@ -1054,7 +1174,7 @@ Also at risk, not quantified: link volume keeps rising (LS-PP12) on a process th
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: CRM licence (if bought) or hosting (if built); payment processing.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1077,6 +1197,16 @@ Also at risk, not quantified: link volume keeps rising (LS-PP12) on a process th
 <b>As written</b> – one shared vetting skill that agrees with the link lead, automatic client matching with no duplicates, and quota reviews where supply is scarce.
 
 <b>Bundle:</b> presented as part of the <b>Link-building CRM bundle</b> with DS-11, but kept as its own solution (own scope, cost and KPIs).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: Link-building CRM
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Link supply engine – Claude skill</b> (vetting + client matching), results passed into the link-building CRM (DS-11) through a <b>custom MCP</b> | <b>A\$500</b> | Absorbed into the link-building CRM maintenance (DS-11); runs on Claude seats |
 </callout>
 
 <b>Your decision (9 Nov):</b> adopt O-20 as written. It works as the <b>sourcing stage of the link-building CRM (DS-11)</b>: domains are vetted and matched before they become orders.
@@ -1128,7 +1258,7 @@ Also at risk, not quantified: client link targets missed for niche clients where
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Claude seats (DS-02), Ahrefs API and Alerts.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1197,7 +1327,7 @@ Also at risk, not quantified: Tier 1 relationships lost if the founder steps bac
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> No new software (Notion playbook, Xero bill approvals); mainly leadership time and lead coaching.
+Covered by DS-14 – see its <b>Pricing & priority</b> box.
 
 ### Assumptions
 
@@ -1216,6 +1346,18 @@ Also at risk, not quantified: Tier 1 relationships lost if the founder steps bac
 
 <callout icon="🎯" color="blue_bg">
 <b>It reads everything that's in communication with the client</b> – calls, emails, Slack, meetings, reports – and <b>builds a profile of each person</b> at the client (how they communicate, what they care about, how their sentiment is trending). It watches for churn and growth signals and <b>alerts the account manager, the department lead and Julia</b> together, with the evidence and a suggested next step. Part B's escalation rules say who acts.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)</b> · <b>Add-on to the AI client brain (DS-04)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Client health & growth intelligence</b> (churn and growth signals, contact profiles, health scores, alerts, outcome learning) + Part B escalation rules | <b>A\$6,500</b> | <b>A\$500/month</b> maintenance (for now) + AI tokens \~US\$40–150/month |
+
+<i>Needs DS-04 live for 2–3 months first; privacy check on profiling client contacts before launch.</i>
 </callout>
 
 <b>Your decision (9 Nov):</b> a <b>proactive system</b> that tracks every client's words and sentiment, builds a picture of each contact's <b>personality type</b>, watches for <b>signals of churn</b> and <b>signals of room to cross-sell or expand</b>, and alerts the right people. It learns from outcomes, so it <b>gets smarter over time</b> – the aim is to minimise churn and maximise account growth.
@@ -1274,7 +1416,7 @@ The real cost of inactivity here is <b>churned revenue</b>, not hours – plus m
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Builds on DS-04 (client brain). OpEx: AI usage per message and transcript analysed.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1310,6 +1452,16 @@ The real cost of inactivity here is <b>churned revenue</b>, not hours – plus m
 4. <b>Memory with citations</b> – the brain keeps a memory of what it learns, and every fact links to where it came from so nothing is made up; anything <b>inferred is labelled as inferred</b>.
 5. <b>Role-based access control (RBAC)</b> on both its memory and the information it can show – people only see what their role allows (e.g. commercial and HR detail limited to leadership).
 6. <b>A connector to the systems of record, not a copy of them</b> – Monday, HubSpot, Drive, the ad platforms and the link CRM stay the source of truth; the brain reads from them. No staff tracking or timesheets.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Strategic build · Impact 4 / 5 · Effort 3 / 5 (draft – confirm)</b> · <b>Add-on to the AI client brain (DS-04)</b>
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>AI Business Brain – company layer</b>: @oracle front door, home view, weekly leadership pulse; <b>Joe's OpenClaw agents move into it</b> | <b>A\$2,500</b> (placeholder – scope not fully defined yet) | <b>TBC</b>  • AI tokens \~US\$2–15/month |
 </callout>
 
 <b>Your decision (9 Nov):</b> the AI Business Brain is the <b>umbrella</b>. It has solutions under it – the client brain, <b>smart SOPs people can query</b>, and similar – rather than being one separate tool.
@@ -1364,7 +1516,7 @@ The umbrella's cost of inactivity is the <b>sum of the solutions under it</b> (D
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Priced per member solution; the company layer adds the query interface (Slack assistant) and connectors.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1384,6 +1536,16 @@ The umbrella's cost of inactivity is the <b>sum of the solutions under it</b> (D
 
 <callout icon="🎯" color="blue_bg">
 <b>Split into three solutions (your call, 9 Nov):</b> DS-16 is now the <b>seasonal & trending content radar</b>; the <b>competitor spy</b> is DS-32 and the <b>macro trend tracker</b> is DS-33. Each one <b>lives in every client's brain</b> (DS-04) and <b>alerts the strategist in Slack</b>. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Impact 2 / 5 · Effort 3 / 5 (draft – confirm)</b> · Bundle: Market intelligence
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Seasonal & trending content radar</b> – a <b>Claude routine</b> connected to an MCP that uploads results into each AI client brain (DS-04) and alerts the strategist in Slack | <b>A\$750</b> | <b>A\$300/month</b> maintenance (+ trends/search data source if needed, \~US\$20–100/month – to verify) |
 </callout>
 
 <b>Your decision (9 Nov):</b> one radar <b>for each client</b> with three parts: a <b>seasonal and trending content radar</b>, a <b>competitor spy</b>, and a <b>macro trend tracker</b> for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain (DS-15) and writes into each client brain (DS-04).
@@ -1441,7 +1603,7 @@ The bigger cost isn't hours: missed seasonal peaks and events mean content that 
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Google Trends / news data, change-monitoring (e.g. Visualping), Ahrefs, AI usage per client.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1461,6 +1623,18 @@ The bigger cost isn't hours: missed seasonal peaks and events mean content that 
 
 <callout icon="🎯" color="blue_bg">
 <b>Not really a build – a foundation: a good file structure and clean data.</b> It's kept in the pack because the AI Business Brain (DS-15) and the client brains (DS-04) are only as good as the files and records they read. Same folder structure for every client, files in company-owned locations, logins in the shared vault, nothing on personal drives.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in – do early (foundation) · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: Client lifecycle
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Client files and logins in company-owned locations</b> – folder template, ownership transfer, LastPass per client, links from Monday and the brain | <b>A\$0 – free</b> | – (existing tools) |
+
+<i>Staff time to move their files is separate.</i>
 </callout>
 
 <b>Your decision (9 Nov):</b> adopt O-30, <b>connected to the AI client brains (DS-04)</b> – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
@@ -1509,7 +1683,7 @@ Also at risk, not quantified: client files and logins lost when a staff member l
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Mainly migration time; existing tools (Google Shared Drives, LastPass, Monday).
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1530,6 +1704,17 @@ Also at risk, not quantified: client files and logins lost when a staff member l
 <b>An AI tool like "Landing Page Labs":</b> clone a client's website brand identity (colours, fonts, style) and make landing pages for ads. It uses Aperitif's own <b>CRO-optimised page structures</b>; the team just customises the content, assets and creatives in a CMS.
 
 <b>Buy-first check (9 Nov):</b> off-the-shelf AI builders already do brand cloning and AI page generation – e.g. LanderLab (clone any page from a URL), Leadpages (generate a page from a website with brand Style Kits), Flint (extracts a brand system from the client's site), Swipe Pages and Unbounce (AI builder, A/B testing, dynamic text replacement for ad keywords). Worth trialling one with Aperitif's CRO templates before building.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Impact 2 / 5 · Effort 2 / 5 (draft – re-score for custom build)</b> · Standalone
+
+| Option | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Recommended – custom landing page generator</b> (brand cloning, Aperitif CRO templates, CMS for content and assets, Aperitif-hosted) | <b>A\$12,000</b> | <b>A\$1,500/month</b> maintenance + hosting/tokens |
+| <i>For comparison – off-the-shelf builder</i> (e.g. LanderLab) with Aperitif templates | – | US\$119–239/month |
 </callout>
 
 <b>Your decision (9 Nov):</b> add the landing page generator (your earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
@@ -1568,7 +1753,7 @@ Not quantified from the interviews: outsourcing at \~\$1,500 a page, campaigns d
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b>
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1593,7 +1778,18 @@ Not quantified from the interviews: outsourcing at \~\$1,500 a page, campaigns d
 <b>Options for Joe (your call, 9 Nov):</b>
 
 - <b>Recommended: Aircall's AI receptionist add-on</b> – about <b>A\$370/month</b> for 1,000 minutes; nothing to build or maintain.
-- <b>Alternative: Transpera builds a simple call director</b> – cheaper to run, but a build to maintain (cost TBC).
+- <b>Alternative: Transpera builds a simple call director</b> – cheaper to run, but a build to maintain (needs a feasibility study before pricing).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in · Impact 1 / 5 · Effort 1 / 5 (draft – confirm)</b> · Standalone
+
+| Option | Set-up / build | Monthly cost |
+| --- | --- | --- |
+| <b>Recommended – Aircall AI receptionist add-on</b> (call director: new lead → Joe, existing client → account manager) | <b>A\$100</b> set-up | <b>A\$250/month</b> management + Aircall: A\$150/month minimum pay-as-you-go (A\$0.44/min) or A\$370/month for 1,000 minutes |
+| <b>Custom call director</b> | <b>Needs a deeper feasibility study</b> before pricing | – |
 </callout>
 
 <b>Your decision (9 Nov):</b> add the AI receptionist (your earlier idea). There's no merged opportunity and <b>little direct interview evidence</b> – it goes in as your recommendation.
@@ -1628,7 +1824,7 @@ Not quantified – no call volumes or missed-call figures were discussed. Needs 
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b>
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1653,6 +1849,16 @@ Not quantified – no call volumes or missed-call figures were discussed. Needs 
 
 <callout icon="🎯" color="blue_bg">
 <b>A dossier on every new client so the team is well informed before work starts.</b> Created at signing and saved into the client brain (DS-04).
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in · Impact 2 / 5 · Effort 1 / 5 (draft – confirm)</b> · Bundle: Client lifecycle
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>New-client dossier</b> – Claude, connected through an MCP to the AI client brain (DS-04) | <b>A\$200</b> | Absorbed into the client brain maintenance (DS-04); runs on Claude seats |
 </callout>
 
 <b>Your decision (9 Nov):</b> option B – when a client <b>signs</b>, an agent researches them and loads a dossier into the <b>client brain (DS-04)</b>. (Prospect research before the sales call is not included.)
@@ -1686,7 +1892,7 @@ Not quantified – no times were given for the research. It is leadership time (
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: AI usage and web/LinkedIn data per new client.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1705,6 +1911,16 @@ Not quantified – no times were given for the research. It is leadership time (
 
 <callout icon="🎯" color="blue_bg">
 <b>As written:</b> no build – recommend existing AI creative tools (Canva AI, [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield), trialled for a month on real lead-gen clients, keeping only what saves time.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in · Impact 2 / 5 · Effort 1 / 5 (draft – confirm)</b> · Standalone
+
+| Item | Cost from Transpera | Software (paid by Aperitif direct) |
+| --- | --- | --- |
+| <b>AI creative tools – recommendations only</b> (Canva AI first; trial [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield for a month) | <b>A\$0 – free</b> | \~US\$70–380/month for two tools, depending on tier (Canva already paid) |
 </callout>
 
 <b>Your decision (9 Nov):</b> no build – recommend <b>existing AI tools</b> the team can use to augment creative production.
@@ -1767,6 +1983,16 @@ Not quantified – O-34's 0.3–2.2 h/month covered only the brief; the bigger c
 <b>Proactive performance intel that comes to the team</b>, so nobody has to go into accounts to find out how a client is doing. A steady flow of intel the team can use to report to the client. (Shared vision for the SEO monitoring set: DS-22 Monday check, DS-23 drop alerts, DS-24 mid-month wins.)
 </callout>
 
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priced as one bundle: SEO performance (DS-22 + DS-23 + DS-24)</b> · Draft scores: DS-22 impact 3 / effort 2 · DS-23 3 / 2 · DS-24 2 / 1 (confirm)
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>SEO performance bundle</b> – Monday performance check, drop and anomaly alerts, mid-month wins (shared GA4 / Search Console / Ahrefs pipeline) | <b>A\$8,500</b> | <b>A\$1,250/month</b> maintenance + AI tokens \~US\$8–35/month |
+</callout>
+
 <b>Team:</b> SEO. <b>Your decision (9 Nov):</b> a separate solution for the SEO team (DS-01 is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
 
 ### How it works
@@ -1804,7 +2030,7 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: GA4/GSC (free), Ahrefs API, AI usage.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1819,6 +2045,10 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 
 <callout icon="🎯" color="blue_bg">
 Shared with DS-22: <b>proactive performance intel comes to the team</b> – drops and anomalies arrive as alerts, so nobody has to dig through accounts to find them.
+</callout>
+
+<callout icon="💵" color="green_bg">
+<b>Pricing:</b> part of the <b>SEO performance bundle</b> – see DS-22 (A\$8,500 build, A\$1,250/month for DS-22 + DS-23 + DS-24).
 </callout>
 
 <b>Team:</b> SEO. <b>Your decision (9 Nov):</b> separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
@@ -1853,7 +2083,7 @@ Time is counted in DS-22. The cost here is <b>retention</b>: drops found at mont
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Shares DS-22's data connections.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1867,6 +2097,10 @@ Time is counted in DS-22. The cost here is <b>retention</b>: drops found at mont
 
 <callout icon="🎯" color="blue_bg">
 Shared with DS-22: <b>a steady flow of intel</b> the team uses to report to the client – wins surface automatically and go to the client mid-month.
+</callout>
+
+<callout icon="💵" color="green_bg">
+<b>Pricing:</b> part of the <b>SEO performance bundle</b> – see DS-22 (A\$8,500 build, A\$1,250/month for DS-22 + DS-23 + DS-24).
 </callout>
 
 <b>Team:</b> SEO. <b>Your decision (9 Nov):</b> separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
@@ -1899,7 +2133,7 @@ Not quantified – the value is retention (see DS-14's churn assumption). Time t
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Shares DS-22's data connections.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1913,6 +2147,16 @@ Not quantified – the value is retention (see DS-14's churn assumption). Time t
 
 <callout icon="🎯" color="blue_bg">
 <b>A forecasting simulator.</b> The team can toggle inputs and simulate real-world events and trends (budget changes, seasonality, economic shifts, platform changes) to see how they would affect delivery and results. Shared goal with DS-26, with PPC-specific nuances. <b>Starting point:</b> talk to the leads about how they forecast today (e.g. Wendlley's Gemini method) and then turbo-charge it.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priced as one forecasting bundle: DS-25 (PPC) + DS-26 (SEO)</b> – separate from the PPC and SEO performance bundles · Draft scores: DS-25 impact 2 / effort 4 · DS-26 1 / 3 (re-score for the skills approach)
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Forecasting simulator</b> – built as Claude skills with a <b>guided simulator</b> (toggle budgets, seasonality, events) and <b>agentic use</b> (it can pull the data and run scenarios itself), PPC and SEO versions | <b>A\$3,000</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$3–30/month |
 </callout>
 
 <b>Team:</b> PPC. <b>Your decision (9 Nov):</b> a forecasting tool that predicts each client's paid performance from history, seasonality, economic trends and predictions, and other outside factors.
@@ -1948,7 +2192,7 @@ Not separately quantified – WS-O09's 2–18 h/month sits in DS-02. The value i
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b>
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -1963,6 +2207,10 @@ Not separately quantified – WS-O09's 2–18 h/month sits in DS-02. The value i
 
 <callout icon="🎯" color="blue_bg">
 <b>A forecasting simulator</b> – same goal as DS-25, with SEO nuances: toggle inputs and simulate events and trends (seasonality, algorithm updates, demand shifts, content output) to see the impact on organic delivery. <b>Starting point:</b> talk to the SEO leads about how they forecast today and turbo-charge it.
+</callout>
+
+<callout icon="💵" color="green_bg">
+<b>Pricing:</b> part of the <b>forecasting bundle</b> – see DS-25 (A\$3,000 build, A\$300/month for DS-25 + DS-26).
 </callout>
 
 <b>Team:</b> SEO. <b>Your decision (9 Nov):</b> the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
@@ -1992,7 +2240,7 @@ Not quantified – no times or figures were given for SEO forecasting.
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Shares DS-22's data connections.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2006,6 +2254,29 @@ Not quantified – no times or figures were given for SEO forecasting.
 
 <callout icon="🎯" color="blue_bg">
 <b>Collate the information for the account manager and add intel and a first diagnosis</b>, so nobody spends 20–30 minutes getting up to speed on a problem – they jump straight into fixing it.
+</callout>
+
+### Build approach (agreed 10 Nov)
+
+<b>Adpulse metrics + client brain context → a potential diagnosis.</b> Adpulse flags the change but doesn't explain it (its alerts are threshold-based and its insights are rule-based best-practice checks). So:
+
+1. An Adpulse alert (via its API or the Slack alert) triggers the investigator.
+2. It pulls the alert's metrics and recent trend from Adpulse.
+3. It adds context from the client brain (DS-04): the client's strategy and goals, recent work and changes logged in Monday, recent client comms, and industry, seasonal and news context (DS-16, DS-33).
+4. Claude writes a <b>potential diagnosis</b> – likely causes ranked, with the evidence for each – and what to check first, in the alert's Slack thread.
+
+No direct Google Ads / Meta API connectors are needed at first, which keeps the build light and avoids the API approvals. <i>Limit: without account-level change history, search terms and auction insights the diagnosis is a well-informed starting point, not a forensic answer; direct ad-platform data can be added later if needed.</i> Also ask in the Adpulse demo whether it can export change history or search-term data.
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Impact 3 / 5 · Effort 3 / 5 (draft – re-scored for the lighter Adpulse + brain approach; confirm)</b> · Bundle: PPC performance
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>PPC alert investigator</b> – Adpulse alert metrics + client brain context → potential diagnosis in Slack | <b>A\$5,000</b> | <b>A\$750/month</b> maintenance + AI tokens \~US\$15–60/month |
+
+<i>Needs DS-01 (Adpulse) and DS-04 (client brain) in place.</i>
 </callout>
 
 <b>Team:</b> PPC. <b>Your decision (9 Nov):</b> when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
@@ -2050,7 +2321,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Bïrch and pacing SaaS don't include AI diagnosis – likely a build on top of the DS-01 tool's alerts.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2064,6 +2335,16 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 <callout icon="🎯" color="blue_bg">
 <b>As written</b> – drafts proactive client updates through the month and pre-empts dips with expectation-setting notes, all approved by the manager before sending. <b>Every update sent is saved to the client brain (DS-04)</b>, so the end-of-month report, the quarterly review and the 6-month review (DS-05) are easier to put together – the story of the period is already written.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in (after DS-04) · Impact 2 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: Delivery & reporting · runs on the AI client brain (DS-04)
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Client comms assistant</b> – monthly updates and expectation-setting notes, approved by the manager, saved to the client brain | <b>A\$1,000</b> | <b>A\$200/month</b> maintenance + AI tokens \~US\$10–40/month |
 </callout>
 
 <b>Team:</b> account managers (PPC and SEO). <b>Your decision (9 Nov):</b> a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
@@ -2099,7 +2380,7 @@ Not quantified separately – the time sits in "client email & ad hoc requests" 
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Reuses DS-04, DS-16, DS-22–27 data.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2116,6 +2397,16 @@ Not quantified separately – the time sits in "client email & ad hoc requests" 
 <b>Same as the SEO set: proactive performance intel comes to the PPC team</b>, so nobody has to go into every account – a steady flow of intel to act on and report to the client from.
 
 <b>How it's delivered:</b> from <b>Adpulse</b> if chosen for DS-01 (its portfolio dashboard and custom monitors), or a <b>light version</b> built on the modernised pacing bot (DS-01 smaller option) if Adpulse isn't bought.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: PPC performance
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>PPC Monday performance check – with Adpulse</b> (Adpulse dashboards and monitors + a Claude summary per client to Slack/Monday and the brain) | <b>A\$1,500</b> | <b>A\$500/month</b> maintenance + AI tokens \~US\$5–25/month (Adpulse licence counted in DS-01) |
 </callout>
 
 <b>Team:</b> PPC. <b>Your decision (9 Nov):</b> the PPC version of DS-22 – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
@@ -2164,7 +2455,7 @@ Every paid client gets a performance check every Monday automatically, including
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Shares DS-01's channel connections.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2181,6 +2472,16 @@ Every paid client gets a performance check every Monday automatically, including
 
 <callout icon="🎯" color="blue_bg">
 <b>The thing that keeps people efficient so they can just focus on work.</b> Every morning each person gets one triaged list of what to do today, pulled from everywhere work comes from: Monday, Slack, email, calendar, ad and SEO performance, seasonal events – anything and everything.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in (after DS-06) · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: Team productivity
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Daily priorities assistant</b> – one ranked Slack DM per person each morning from Monday, Slack, email, calendar, performance and seasonal signals | <b>A\$2,000</b> | <b>A\$500/month</b> maintenance + AI tokens \~US\$20–70/month |
 </callout>
 
 ### How it works (draft)
@@ -2226,7 +2527,7 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> Reuses DS-06's connections (Slack, Gmail, Monday) plus calendar.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2243,6 +2544,16 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 
 <callout icon="🎯" color="blue_bg">
 <b>Proactively track brand mentions so the team can turn them into backlinks</b> – catch every new mention of a client that doesn't link to them, and reach out while it's fresh.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in · Impact 2 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: Link-building CRM
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Brand-mention tracker (Ahrefs Alerts + Claude drafting, feeds DS-11/DS-07)</b> | <b>A\$1,000</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$2–10/month (Ahrefs Alerts assumed in current plan) |
 </callout>
 
 ### How it works (draft)
@@ -2277,7 +2588,7 @@ Not quantified – the value is links won without paying a publisher (paid links
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: Ahrefs Alerts or a mention-monitoring tool, AI drafting.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2293,6 +2604,16 @@ Not quantified – the value is links won without paying a publisher (paid links
 
 <callout icon="🎯" color="blue_bg">
 <b>Every client's competitors are watched automatically</b>, the findings live in the client's brain (DS-04), and the strategist gets a Slack alert when something worth acting on changes.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Reconsider · Impact 2 / 5 · Effort 3 / 5 (draft – confirm)</b> · Bundle: Market intelligence
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Competitor spy (sitemap diff + Ahrefs + Claude digest → client brain + Slack)</b> | <b>A\$1,000</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$10–40/month (optional Visualping US\$100–140/month) |
 </callout>
 
 ### How it works (draft)
@@ -2318,7 +2639,7 @@ Not quantified separately – O-28's hours sit in DS-16. The cost is reacting la
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: change-monitoring tool (e.g. Visualping), Ahrefs, AI usage per client.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
@@ -2334,6 +2655,16 @@ Not quantified separately – O-28's hours sit in DS-16. The cost is reacting la
 
 <callout icon="🎯" color="blue_bg">
 <b>Track what's going on in the world that affects each client and their industry</b> – news, regulation, the economy, industry shifts – store it in the client's brain (DS-04), and alert the strategist in Slack with why it matters and an idea to act on.
+</callout>
+
+### Pricing & priority
+
+<callout icon="💵" color="green_bg">
+<b>Priority: Fill-in (low) · Impact 1 / 5 · Effort 2 / 5 (draft – confirm)</b> · Bundle: Market intelligence
+
+| Item | Build cost | Monthly cost |
+| --- | --- | --- |
+| <b>Macro trend tracker (news API + Claude relevance filter → client brain + Slack)</b> | <b>A\$1,000</b> | <b>A\$300/month</b> maintenance + AI tokens \~US\$10–40/month + news API \~US\$5–50/month |
 </callout>
 
 ### How it works (draft)
@@ -2359,7 +2690,7 @@ Not quantified – the cost is missed timely content and surprises in client res
 
 ### Indicative build cost and OpEx
 
-<b>TBC by Austin.</b> OpEx: news/data sources, AI usage per client.
+See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 

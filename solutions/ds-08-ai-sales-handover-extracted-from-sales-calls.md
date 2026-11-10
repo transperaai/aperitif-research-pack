@@ -3,7 +3,7 @@ id: DS-08
 title: "AI sales handover: extracted from sales calls, confirmed by delivery"
 team: "sales and delivery"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-08 (handover part; access checklist + staged onboarding as add-on)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KO-PP01", "MC-PP10", "MC-PP11", "MC-PP13", "MP-PP10", "SH-PP07", "WS-PP06", "WS-PP07", "ZC-PP07"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP01 (interviewer-raised)", "MP-PP10 (interviewer-raised)"]
 coi_per_year: "$2K–$10K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,250"
+monthly: "A$300/month + tokens ~US$1–10"
 notion_section: "AI sales handover: extracted from sales calls, confirmed by delivery"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | sales and delivery *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed – No-hard-block design is Austin decision |
 | Opportunities | [O-08](../opportunities/README.md#o-08) (handover part; access checklist + staged onboarding as add-on) |
 | Earlier ideas | – |
@@ -37,13 +37,22 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 | Pain points cited | [KO-PP01](../pain-points/README.md#ko-pp01) (interviewer-raised), [MC-PP10](../pain-points/README.md#mc-pp10), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP13](../pain-points/README.md#mc-pp13), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [SH-PP07](../pain-points/README.md#sh-pp07), [WS-PP06](../pain-points/README.md#ws-pp06), [WS-PP07](../pain-points/README.md#ws-pp07), [ZC-PP07](../pain-points/README.md#zc-pp07) |
 | Written source | – |
 | Cost of inactivity / year | \$2K–\$10K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,250 |
+| Monthly | A\$300/month + tokens \~US\$1–10 |
 
 ## Vision
 
 > **As written – plus: a won deal spawns the new client's entry in the AI brain.** The moment a deal is won, a new client brain ([DS-04](ds-04-ai-client-brain.md)) is created automatically and the handover becomes its first entry, followed by the dossier ([DS-20](ds-20-new-client-dossier-agent.md)) and onboarding audit ([DS-09](ds-09-ai-prefilled-onboarding-audit-and-master-seo.md)). Delivery confirms or denies from there.
 >
 > **It also sets the client up everywhere else:** creates the standard client folder structure in Google Drive ([DS-17](ds-17-client-files-and-logins-in-company-owned.md)), the Monday client item and onboarding board, the Slack channel, the shared vault entry for logins, and links them all from the client brain – so nobody builds a new client's set-up by hand.
+
+## Pricing & priority
+
+> **Priority: Impact 3 / 5 · Effort 3 / 5 (draft – confirm; borderline)** · Extension of the AI brain ([DS-04](ds-04-ai-client-brain.md))
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **AI sales handover + new-client auto set-up** (handover from sales calls, delivery confirm/deny, new client brain entry, Drive/Monday/Slack set-up) | **A\$1,250** | **A\$300/month** maintenance + AI tokens \~US\$1–10/month |
 
 **Your decision (9 Nov):** **no hard blocks** on deals. Instead, the handover is **extracted by AI from the sales call transcripts**, the sales rep is shown **questions to fill any gaps**, the result **loads into the AI client brain ([DS-04](ds-04-ai-client-brain.md))**, and the delivery departments get a **notification to review and confirm or deny – with reasons**.
 
@@ -97,7 +106,7 @@ The hours are small; the real cost is unquantified: **work done for clients who 
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Builds on [DS-04](ds-04-ai-client-brain.md) (client brain); OpEx: call recording/transcription and AI usage.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

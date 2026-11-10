@@ -3,7 +3,7 @@ id: DS-02
 title: "AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills)"
 team: "everyone (leadership owns)"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – includes the AI data rule and company Claude seats; cost TBC. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it"
+status: "Decided – includes the AI data rule and company Claude seats; priced. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-02 (full)", "O-33 (SOP part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["DM-PP12", "LS-PP13", "MC-PP19", "MC-PP20", "SB-PP12", "SJ-PP07", "ZC-PP11"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$6K–$35K"
-build_cost: TBC
-opex: TBC
+build_cost: "Free"
+monthly: "Claude Team seats paid by Aperitif direct (USD, new seat count TBC)"
 notion_section: "AI playbook repository"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "AI playbook repository"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | everyone (leadership owns) *(inferred)* |
-| Status | Decided – includes the AI data rule and company Claude seats; cost TBC. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it |
+| Status | Decided – includes the AI data rule and company Claude seats; priced. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it |
 | Source type | evidence-backed – Decision to include the AI data rule and company seats is Austin's |
 | Opportunities | [O-02](../opportunities/README.md#o-02) (full), [O-33](../opportunities/README.md#o-33) (SOP part) |
 | Earlier ideas | [EI-08](../opportunities/README.md#ei-08) L&D platform – training, manuals and SOPs made clear |
@@ -37,7 +37,8 @@ notion_section: "AI playbook repository"
 | Pain points cited | [DM-PP12](../pain-points/README.md#dm-pp12), [LS-PP13](../pain-points/README.md#ls-pp13), [MC-PP19](../pain-points/README.md#mc-pp19), [MC-PP20](../pain-points/README.md#mc-pp20), [SB-PP12](../pain-points/README.md#sb-pp12), [SJ-PP07](../pain-points/README.md#sj-pp07), [ZC-PP11](../pain-points/README.md#zc-pp11) |
 | Written source | – |
 | Cost of inactivity / year | \$6K–\$35K |
-| Build cost / OpEx | TBC |
+| Build cost | Free |
+| Monthly | Claude Team seats paid by Aperitif direct (USD, new seat count TBC) |
 
 ## Vision
 
@@ -46,6 +47,17 @@ notion_section: "AI playbook repository"
 > - People ask in Slack by tagging the brain (an **@oracle**-style bot) and can prompt it from there: "how do we do X?", "what's the prompt for Y?", "can I put this client data into AI?".
 > - The answer comes back with the SOP, prompt or skill and a link to the source.
 > - The AI rule and company Claude seats are part of it, and it goes first.
+
+## Pricing & priority
+
+> **Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | AI playbook repository (a repo of information, not a build) | **A\$0 – no charge** | – |
+> | Company Claude Team seats | – | Paid by Aperitif direct (US\$ per seat; number of new seats TBC) |
+>
+> **Who does what:** Austin supplies the playbook entries that come from his builds (how each solution works, its prompts and SOPs). The team writes and shares their own Claude skills and prompts – Transpera doesn't build skills for individuals.
 
 **Your decision (9 Nov):** one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
 
@@ -102,7 +114,7 @@ Also at risk, not quantified: client data going into personal, ungoverned AI acc
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx is mainly Claude seats (seat count TBC).
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

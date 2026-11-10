@@ -3,7 +3,7 @@ id: DS-14
 title: "Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)"
 team: "account managers and leadership"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – churn basis to confirm; cost TBC"
+status: "Decided – churn basis to confirm; priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-31 (full)", "O-23 (opportunities/upsell part)", "O-21 (Part B (merged from DS-13))"]
@@ -15,8 +15,8 @@ problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP06", "KO-PP20", "KO-PP21", "LS-PP08", "LS-PP09", "LS-PP15", "MP-PP16"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP06 (inferred)", "LS-PP09 (interviewer-raised)"]
 coi_per_year: "~$22K–$44K prevented churn (ASSUMED) + $1K–$8K staff time"
-build_cost: TBC
-opex: TBC
+build_cost: "A$6,500"
+monthly: "A$500/month (for now) + tokens ~US$40–150"
 notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | account managers and leadership *(inferred)* |
-| Status | Decided – churn basis to confirm; cost TBC |
+| Status | Decided – churn basis to confirm; priced |
 | Source type | mixed – Austin addition: contact personality profiling and self-learning; churn COI on Austin's assumed \$5K retainer, 3%/yr, >=61 clients |
 | Opportunities | [O-31](../opportunities/README.md#o-31) (full), [O-23](../opportunities/README.md#o-23) (opportunities/upsell part), [O-21](../opportunities/README.md#o-21) (Part B (merged from DS-13)) |
 | Earlier ideas | – |
@@ -38,11 +38,22 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Pain points cited | [KO-PP06](../pain-points/README.md#ko-pp06) (inferred), [KO-PP20](../pain-points/README.md#ko-pp20), [KO-PP21](../pain-points/README.md#ko-pp21), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09) (interviewer-raised), [LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16) |
 | Written source | – |
 | Cost of inactivity / year | \~\$22K–\$44K prevented churn (ASSUMED) + \$1K–\$8K staff time – Austin's assumption: \$5K retainer, 3%/yr, >=61 clients; at 2% \~ \$73K at risk |
-| Build cost / OpEx | TBC |
+| Build cost | A\$6,500 |
+| Monthly | A\$500/month (for now) + tokens \~US\$40–150 |
 
 ## Vision
 
 > **It reads everything that's in communication with the client** – calls, emails, Slack, meetings, reports – and **builds a profile of each person** at the client (how they communicate, what they care about, how their sentiment is trending). It watches for churn and growth signals and **alerts the account manager, the department lead and Julia** together, with the evidence and a suggested next step. Part B's escalation rules say who acts.
+
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)** · **Add-on to the AI client brain ([DS-04](ds-04-ai-client-brain.md))**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Client health & growth intelligence** (churn and growth signals, contact profiles, health scores, alerts, outcome learning) + Part B escalation rules | **A\$6,500** | **A\$500/month** maintenance (for now) + AI tokens \~US\$40–150/month |
+>
+> *Needs [DS-04](ds-04-ai-client-brain.md) live for 2–3 months first; privacy check on profiling client contacts before launch.*
 
 **Your decision (9 Nov):** a **proactive system** that tracks every client's words and sentiment, builds a picture of each contact's **personality type**, watches for **signals of churn** and **signals of room to cross-sell or expand**, and alerts the right people. It learns from outcomes, so it **gets smarter over time** – the aim is to minimise churn and maximise account growth.
 
@@ -100,7 +111,7 @@ The real cost of inactivity here is **churned revenue**, not hours – plus miss
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Builds on [DS-04](ds-04-ai-client-brain.md) (client brain). OpEx: AI usage per message and transcript analysed.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

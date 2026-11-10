@@ -3,7 +3,7 @@ id: DS-29
 title: "PPC: automated Monday client performance check (Google Ads, Meta and other channels)"
 team: "PPC"
 bundle: "PPC performance"
-status: "Added – cost TBC"
+status: "Added – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-12 (paid part (weekly check))"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["DM-PP02", "MC-PP08", "MC-PP18", "SH-PP11", "SH-PP12", "SH-PP15"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$8K–$20K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,500"
+monthly: "A$500/month + tokens ~US$5–25"
 notion_section: "PPC: automated Monday client performance check"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "PPC: automated Monday client performance check"
 | --- | --- |
 | Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | PPC |
-| Status | Added – cost TBC |
+| Status | Added – priced |
 | Source type | evidence-backed – DS-22's PPC twin; DM-PP02, MC-PP08, MC-PP18, SH-PP11/12/15 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (paid part (weekly check)) |
 | Earlier ideas | [EI-15](../opportunities/README.md#ei-15) Proactive PPC monitor and anomaly detector |
@@ -37,13 +37,22 @@ notion_section: "PPC: automated Monday client performance check"
 | Pain points cited | [DM-PP02](../pain-points/README.md#dm-pp02), [MC-PP08](../pain-points/README.md#mc-pp08), [MC-PP18](../pain-points/README.md#mc-pp18), [SH-PP11](../pain-points/README.md#sh-pp11), [SH-PP12](../pain-points/README.md#sh-pp12), [SH-PP15](../pain-points/README.md#sh-pp15) |
 | Written source | – |
 | Cost of inactivity / year | \$8K–\$20K – overlaps DS-01 – do not add |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,500 |
+| Monthly | A\$500/month + tokens \~US\$5–25 |
 
 ## Vision
 
 > **Same as the SEO set: proactive performance intel comes to the PPC team**, so nobody has to go into every account – a steady flow of intel to act on and report to the client from.
 >
 > **How it's delivered:** from **Adpulse** if chosen for [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (its portfolio dashboard and custom monitors), or a **light version** built on the modernised pacing bot ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) smaller option) if Adpulse isn't bought.
+
+## Pricing & priority
+
+> **Priority: Fill-in · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: PPC performance
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **PPC Monday performance check – with Adpulse** (Adpulse dashboards and monitors + a Claude summary per client to Slack/Monday and the brain) | **A\$1,500** | **A\$500/month** maintenance + AI tokens \~US\$5–25/month (Adpulse licence counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)) |
 
 **Team:** PPC. **Your decision (9 Nov):** the PPC version of [DS-22](ds-22-seo-automated-monday-client-performance-check.md) – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
 
@@ -91,7 +100,7 @@ Every paid client gets a performance check every Monday automatically, including
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Shares [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s channel connections.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

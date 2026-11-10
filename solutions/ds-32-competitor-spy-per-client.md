@@ -3,7 +3,7 @@ id: DS-32
 title: "Competitor spy per client (split from DS-16)"
 team: "SEO and content strategists (paid can use it too)"
 bundle: "Market intelligence"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-28 (competitor part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["ZC-PP15"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified separately"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,000"
+monthly: "A$300/month + tokens ~US$10–40 (+ optional Visualping US$100–140)"
 notion_section: "Competitor spy per client"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Competitor spy per client"
 | --- | --- |
 | Bundle | [Market intelligence](README.md#bundle-market-intelligence) |
 | Team | SEO and content strategists (paid can use it too) |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed – Split from DS-16 (9 Nov); one stated pain point (ZC-PP15) plus Zach's written doc |
 | Opportunities | [O-28](../opportunities/README.md#o-28) (competitor part) |
 | Earlier ideas | – |
@@ -37,13 +37,22 @@ notion_section: "Competitor spy per client"
 | Pain points cited | [ZC-PP15](../pain-points/README.md#zc-pp15) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | Not quantified separately – O-28 hours sit in DS-16 |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,000 |
+| Monthly | A\$300/month + tokens \~US\$10–40 (+ optional Visualping US\$100–140) |
 
 **Team:** SEO and content strategists (paid can use it too). **Your decision (9 Nov):** split out of [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
 
 ## Vision
 
 > **Every client's competitors are watched automatically**, the findings live in the client's brain ([DS-04](ds-04-ai-client-brain.md)), and the strategist gets a Slack alert when something worth acting on changes.
+
+## Pricing & priority
+
+> **Priority: Reconsider · Impact 2 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Market intelligence
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Competitor spy (sitemap diff + Ahrefs + Claude digest → client brain + Slack)** | **A\$1,000** | **A\$300/month** maintenance + AI tokens \~US\$10–40/month (optional Visualping US\$100–140/month) |
 
 ## How it works (draft)
 
@@ -68,7 +77,7 @@ Not quantified separately – [O-28](../opportunities/README.md#o-28)'s hours si
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: change-monitoring tool (e.g. Visualping), Ahrefs, AI usage per client.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

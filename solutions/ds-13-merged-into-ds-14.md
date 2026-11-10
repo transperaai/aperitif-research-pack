@@ -16,8 +16,8 @@ problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP02", "KO-PP03", "KO-PP05", "MP-PP08", "MP-PP09", "WS-PP10"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$5K–$15K"
-build_cost: TBC
-opex: TBC
+build_cost: "Covered by DS-14"
+monthly: "Covered by DS-14"
 notion_section: "Merged into DS-14 – Escalation and delegation rules"
 ---
 
@@ -39,7 +39,8 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Pain points cited | [KO-PP02](../pain-points/README.md#ko-pp02), [KO-PP03](../pain-points/README.md#ko-pp03), [KO-PP05](../pain-points/README.md#ko-pp05), [MP-PP08](../pain-points/README.md#mp-pp08), [MP-PP09](../pain-points/README.md#mp-pp09), [WS-PP10](../pain-points/README.md#ws-pp10) |
 | Written source | – |
 | Cost of inactivity / year | \$5K–\$15K – merged into DS-14; not added to DS-14's figure |
-| Build cost / OpEx | TBC |
+| Build cost | Covered by DS-14 |
+| Monthly | Covered by DS-14 |
 
 > **Merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) (your call, 9 Nov).** This is now **Part B of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) · Client health & growth intelligence**: [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift. Its cost of inactivity is not added to [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s.
 
@@ -92,7 +93,7 @@ Also at risk, not quantified: Tier 1 relationships lost if the founder steps bac
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** No new software (Notion playbook, Xero bill approvals); mainly leadership time and lead coaching.
+Covered by [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) – see its **Pricing & priority** box.
 
 ## Assumptions
 

@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["MC-PP15", "MP-PP22", "SD-PP12", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "Free"
+monthly: "software paid direct ~US$70–380/month"
 notion_section: "AI creative tools to augment the team"
 ---
 
@@ -37,11 +37,20 @@ notion_section: "AI creative tools to augment the team"
 | Pain points cited | [MC-PP15](../pain-points/README.md#mc-pp15), [MP-PP22](../pain-points/README.md#mp-pp22), [SD-PP12](../pain-points/README.md#sd-pp12), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
 | Cost of inactivity / year | Not quantified |
-| Build cost / OpEx | TBC |
+| Build cost | Free |
+| Monthly | software paid direct \~US\$70–380/month |
 
 ## Vision
 
 > **As written:** no build – recommend existing AI creative tools (Canva AI, [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield), trialled for a month on real lead-gen clients, keeping only what saves time.
+
+## Pricing & priority
+
+> **Priority: Fill-in · Impact 2 / 5 · Effort 1 / 5 (draft – confirm)** · Standalone
+>
+> | Item | Cost from Transpera | Software (paid by Aperitif direct) |
+> | --- | --- | --- |
+> | **AI creative tools – recommendations only** (Canva AI first; trial [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield for a month) | **A\$0 – free** | \~US\$70–380/month for two tools, depending on tier (Canva already paid) |
 
 **Your decision (9 Nov):** no build – recommend **existing AI tools** the team can use to augment creative production.
 

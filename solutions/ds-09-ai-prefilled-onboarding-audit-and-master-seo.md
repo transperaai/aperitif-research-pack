@@ -3,7 +3,7 @@ id: DS-09
 title: "AI-prefilled onboarding audit and Master SEO Document"
 team: "SEO strategists (onboarding)"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided (as written) – cost TBC"
+status: "Decided (as written) – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-14 (full)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KZ-PP01", "KZ-PP02", "KZ-PP03", "KZ-PP04", "KZ-PP21", "SD-PP11"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$5K–$28K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,500"
+monthly: "A$400/month (runs on seats)"
 notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | SEO strategists (onboarding) *(inferred)* |
-| Status | Decided (as written) – cost TBC |
+| Status | Decided (as written) – priced |
 | Source type | evidence-backed |
 | Opportunities | [O-14](../opportunities/README.md#o-14) (full) |
 | Earlier ideas | [EI-01](../opportunities/README.md#ei-01) 1-click audit access system + AI audit workflow (also a lead magnet) |
@@ -37,13 +37,22 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 | Pain points cited | [KZ-PP01](../pain-points/README.md#kz-pp01), [KZ-PP02](../pain-points/README.md#kz-pp02), [KZ-PP03](../pain-points/README.md#kz-pp03), [KZ-PP04](../pain-points/README.md#kz-pp04), [KZ-PP21](../pain-points/README.md#kz-pp21), [SD-PP11](../pain-points/README.md#sd-pp11) |
 | Written source | – |
 | Cost of inactivity / year | \$5K–\$28K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,500 |
+| Monthly | A\$400/month (runs on seats) |
 
 ## Vision
 
 > **AI does most of the onboarding work wherever it can.** The team points it at where the audit needs to be done (the site, the ad accounts) and it runs the audit and fills in the sheet – the Master SEO Document and the paid audit checklist. The strategist reviews and signs off.
 >
 > **Connected to the client brain ([DS-04](ds-04-ai-client-brain.md)):** the finished audit, Master SEO Document and findings are saved into the client's brain, so they feed briefs ([DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md)), reviews ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)), monitoring ([DS-22](ds-22-seo-automated-monday-client-performance-check.md), [DS-29](ds-29-ppc-automated-monday-client-performance-check.md)) and health tracking ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)) from day one.
+
+## Pricing & priority
+
+> **Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Onboarding audit – Claude skills** (organic: pre-fills the Master SEO Document; paid: drafts the 30-item audit) – the only version recommended | **A\$1,500** | **A\$400/month** maintenance (runs on Claude seats) |
 
 **Your decision (9 Nov):** adopt [O-14](../opportunities/README.md#o-14) as written – it speeds up onboarding audits.
 
@@ -94,7 +103,7 @@ Also at risk, not quantified: **growth capped by onboarding capacity** ([KZ-PP02
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Claude seats ([DS-02](ds-02-ai-playbook-repository.md)), Ahrefs API.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

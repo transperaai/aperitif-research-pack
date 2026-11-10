@@ -3,7 +3,7 @@ id: DS-01
 title: "Modern ad budget pacing + performance alerting"
 team: "PPC"  # inferred: the page gives no "Team:" line
 bundle: "PPC performance"
-status: "Decided – tool choice (build vs buy) and cost TBC"
+status: "Decided – Adpulse recommended; priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-01 (full)", "O-11 (full)", "O-15 (full)", "O-10 (interim step)", "O-12 (paid part (alerting))"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["MP-PP01", "MP-PP02", "SD-PP04", "SH-PP02"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$15K–$38K"
-build_cost: TBC
-opex: TBC
+build_cost: "Free"
+monthly: "US$779/month (US$1M tier, annual); Enterprise quote if 100+ ad accounts"
 notion_section: "Modern ad budget pacing + performance alerting"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Modern ad budget pacing + performance alerting"
 | --- | --- |
 | Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | PPC *(inferred)* |
-| Status | Decided – tool choice (build vs buy) and cost TBC |
+| Status | Decided – Adpulse recommended; priced |
 | Source type | evidence-backed |
 | Opportunities | [O-01](../opportunities/README.md#o-01) (full), [O-11](../opportunities/README.md#o-11) (full), [O-15](../opportunities/README.md#o-15) (full), [O-10](../opportunities/README.md#o-10) (interim step), [O-12](../opportunities/README.md#o-12) (paid part (alerting)) |
 | Earlier ideas | [EI-13](../opportunities/README.md#ei-13) Pacing tracker + adjustment engine, [EI-15](../opportunities/README.md#ei-15) Proactive PPC monitor and anomaly detector |
@@ -37,7 +37,8 @@ notion_section: "Modern ad budget pacing + performance alerting"
 | Pain points cited | [MP-PP01](../pain-points/README.md#mp-pp01), [MP-PP02](../pain-points/README.md#mp-pp02), [SD-PP04](../pain-points/README.md#sd-pp04), [SH-PP02](../pain-points/README.md#sh-pp02) |
 | Written source | – |
 | Cost of inactivity / year | \$15K–\$38K – plus +\$10K per repeat overspend incident; SEO share moved to DS-22 |
-| Build cost / OpEx | TBC |
+| Build cost | Free |
+| Monthly | US\$779/month (US\$1M tier, annual); Enterprise quote if 100+ ad accounts |
 
 ## Vision
 
@@ -49,7 +50,16 @@ notion_section: "Modern ad budget pacing + performance alerting"
 > - **Alerts go to a Slack channel and @mention the account owner** (owner taken from the client's Monday item).
 > - **Phase 2 option:** overspend protection / auto-pacing (the tool adjusts daily budgets itself). Phase 1 is alerts only.
 >
-> Tool being looked at: **Adpulse** – covers every channel incl. LinkedIn, pacing, custom metric monitors and Slack alerts; **event/anomaly alerts checked 9 Nov (vendor docs):** yes to user-set spike/drop alerts (% or fixed threshold, own comparison window, per account or tag, on CTR, clicks, cost, CPC, CPA, conversions, conv. rate, value); partly for account events (broken URLs, paused accounts, disapproved ads, campaigns that stop serving are listed; billing failures, feed problems, tracking stopping and budget edits are not documented – a zero-conversions spike/drop rule likely covers tracking breaks); Slack delivery yes, but channel choice, @mentions per owner and real-time vs daily digest are not documented – **confirm in a demo**; which alerts work on which channels is not documented. Pricing is by trailing 30-day ad spend: the US\$1M tier is US\$779/month (annual) and covers up to 100 ad accounts, so at \~US\$1.2M/month and 100+ accounts Aperitif is on Enterprise (custom quote). 14-day free trial. Link: ([adpulse.app](http://adpulse.app)).
+> Tool being looked at: **Adpulse** – covers every channel incl. LinkedIn, pacing, custom metric monitors and Slack alerts; **event/anomaly alerts checked 9 Nov (vendor docs):** yes to user-set spike/drop alerts (% or fixed threshold, own comparison window, per account or tag, on CTR, clicks, cost, CPC, CPA, conversions, conv. rate, value); partly for account events (broken URLs, paused accounts, disapproved ads, campaigns that stop serving are listed; billing failures, feed problems, tracking stopping and budget edits are not documented – a zero-conversions spike/drop rule likely covers tracking breaks); Slack delivery yes, but channel choice, @mentions per owner and real-time vs daily digest are not documented – **confirm in a demo**; which alerts work on which channels is not documented. Pricing is by trailing 30-day ad spend: the US\$1M tier is US\$779/month (annual) and covers up to 100 ad accounts, Aperitif's spend is \~A\$1.2M/month (\~US\$0.78M at A\$1 = US\$0.65), which fits the US\$1M tier (US\$779/month annual) on spend – but with 100+ ad accounts it likely needs Enterprise (custom quote). Confirm the account count in the demo. 14-day free trial. Link: ([adpulse.app](http://adpulse.app)).
+
+## Pricing & priority
+
+> **Priority: Quick win · Impact 5 / 5 · Effort 3 / 5**
+>
+> | Option | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Recommended – Adpulse** (has native Slack integration; no build) | A\$0 – software only | US\$779/month (US\$1M spend tier, annual) – Enterprise quote if 100+ ad accounts |
+> | **Smaller option – modernise the existing pacing bot** (won't get the full Adpulse unlock) | A\$1,250 | A\$300/month management |
 
 **Your decision (9 Nov):** a modern ad budget pacing tool that connects to **every live channel**, tracks pace and performance per client against **thresholds set per client** by the team, and sends **Slack alerts**.
 
@@ -115,13 +125,13 @@ Adpulse already covers every channel, pacing, spike/drop alerts and Slack. A thi
 2. Are alerts real-time, or only a daily digest?
 3. Which alert types (spikes/drops, disapprovals, stopped serving) work on LinkedIn, Meta and the other channels, not just Google?
 4. Can it alert on billing failures, feed problems, budget edits and tracking stopping (zero conversions)?
-5. Enterprise price for \~US\$1.2M/month spend and 100+ ad accounts; HubSpot budget sync.
+5. Price for \~A\$1.2M/month (\~US\$0.78M) spend and 100+ ad accounts – does it fit the US\$1M tier or need Enterprise? HubSpot budget sync.
 
 ## What the build-vs-buy research shows (9 Nov)
 
-- **Bïrch (formerly Revealbot)** runs rules across Meta, Google Ads, TikTok and Snapchat, checking roughly every 15 minutes. **It does not list LinkedIn**, which has no pacing line today ([MP-PP02](../pain-points/README.md#mp-pp02)). Automated rules need the Pro plan (US\$99/month at low spend); pricing scales with total connected ad spend. At Aperitif's \~\$1.2M/month (Google \~\$788K + Meta \~\$422K) it would be an enterprise quote.
+- **Bïrch (formerly Revealbot)** runs rules across Meta, Google Ads, TikTok and Snapchat, checking roughly every 15 minutes. **It does not list LinkedIn**, which has no pacing line today ([MP-PP02](../pain-points/README.md#mp-pp02)). Automated rules need the Pro plan (US\$99/month at low spend); pricing scales with total connected ad spend. At Aperitif's \~A\$1.2M/month (Google \~A\$788K + Meta \~A\$422K) it would be an enterprise quote.
 - **Pacing-specific SaaS that does include LinkedIn** exists – e.g. [Shape.io](http://Shape.io) (Google, Meta, Microsoft, LinkedIn, X, Pinterest, TikTok), Pace, Adpulse, ReportGarden, BuyerBridge. Worth pricing at least one against the custom build before committing.
-- **Implication for your decision:** because it must cover *every* channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. **Tool choice TBC.**
+- **Implication for your decision:** because it must cover *every* channel, Bïrch alone doesn't fit (no LinkedIn). The choice is between an all-channel pacing SaaS ([Shape.io](http://Shape.io), Pace, Adpulse – check each for Slack alerts and per-client thresholds) and a custom build. **Recommended: Adpulse – see Pricing & priority.**
 
 ## Future state (draft)
 
@@ -154,7 +164,7 @@ Also at risk, not quantified: performance drops and tracking breaks found at mon
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Known inputs: Bïrch Pro from \$99/month at low spend, enterprise quote at Aperitif's spend; pacing SaaS pricing to be quoted.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

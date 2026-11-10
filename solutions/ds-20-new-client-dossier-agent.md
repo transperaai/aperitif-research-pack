@@ -3,7 +3,7 @@ id: DS-20
 title: "New-client dossier agent (at signing → client brain)"
 team: "sales and account managers"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KO-PP22"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$200"
+monthly: "absorbed into DS-04 maintenance"
 notion_section: "New-client dossier agent"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "New-client dossier agent"
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | sales and account managers *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | Austin addition – Earlier idea; one leadership quote (KO-PP22) |
 | Opportunities | – |
 | Earlier ideas | [EI-17](../opportunities/README.md#ei-17) Prospect research and dossier agent |
@@ -37,11 +37,20 @@ notion_section: "New-client dossier agent"
 | Pain points cited | [KO-PP22](../pain-points/README.md#ko-pp22) |
 | Written source | – |
 | Cost of inactivity / year | Not quantified |
-| Build cost / OpEx | TBC |
+| Build cost | A\$200 |
+| Monthly | absorbed into DS-04 maintenance |
 
 ## Vision
 
 > **A dossier on every new client so the team is well informed before work starts.** Created at signing and saved into the client brain ([DS-04](ds-04-ai-client-brain.md)).
+
+## Pricing & priority
+
+> **Priority: Fill-in · Impact 2 / 5 · Effort 1 / 5 (draft – confirm)** · Bundle: Client lifecycle
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **New-client dossier** – Claude, connected through an MCP to the AI client brain ([DS-04](ds-04-ai-client-brain.md)) | **A\$200** | Absorbed into the client brain maintenance ([DS-04](ds-04-ai-client-brain.md)); runs on Claude seats |
 
 **Your decision (9 Nov):** option B – when a client **signs**, an agent researches them and loads a dossier into the **client brain ([DS-04](ds-04-ai-client-brain.md))**. (Prospect research before the sales call is not included.)
 
@@ -74,7 +83,7 @@ Not quantified – no times were given for the research. It is leadership time (
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: AI usage and web/LinkedIn data per new client.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

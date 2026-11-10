@@ -3,7 +3,7 @@ id: DS-07
 title: "Link watchdog agent: monitors every paid link"
 team: "link building"  # inferred: the page gives no "Team:" line
 bundle: "Link-building CRM"
-status: "Decided – tool choice and cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-07 (full)"]
@@ -15,8 +15,8 @@ problems_related_only: ["P-06"]
 pain_points_cited: ["KO-PP16", "KZ-PP10", "MP-PP13", "TG-PP11", "ZC-PP10"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$10K–$25K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$2,250"
+monthly: "A$350/month + tokens ~US$1–10 (+ optional proxy ~US$0–50)"
 notion_section: "Link watchdog agent: monitors every paid link"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Link watchdog agent: monitors every paid link"
 | --- | --- |
 | Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
 | Team | link building *(inferred)* |
-| Status | Decided – tool choice and cost TBC |
+| Status | Decided – priced |
 | Source type | mixed – Austin addition: Jev AI as tool option; publisher emails that learn from sent edits |
 | Opportunities | [O-07](../opportunities/README.md#o-07) (full) |
 | Earlier ideas | – |
@@ -38,11 +38,20 @@ notion_section: "Link watchdog agent: monitors every paid link"
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP10](../pain-points/README.md#kz-pp10), [MP-PP13](../pain-points/README.md#mp-pp13), [TG-PP11](../pain-points/README.md#tg-pp11), [ZC-PP10](../pain-points/README.md#zc-pp10) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | \$10K–\$25K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$2,250 |
+| Monthly | A\$350/month + tokens \~US\$1–10 (+ optional proxy \~US\$0–50) |
 
 ## Vision
 
 > **Make sure every paid link stays up, and track the reliability (rep) rate of each provider** – how often their links drop – so the team keeps buying from publishers that hold up. Everything else as written (weekly checks, drop alerts, templated publisher emails that learn from edits).
+
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 4 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Link-building CRM
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Link watchdog agent** – weekly checks of every paid link, drop alerts, templated publisher emails, publisher reliability score | **A\$2,250** | **A\$350/month** maintenance + AI tokens \~US\$1–10/month (+ optional proxy for blocked sites \~US\$0–50) |
 
 **Your decision (9 Nov):** an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider **link-building workflow CRM**. Tool options: **Jev AI** (no output tokens needed, so cheap to run) or another automation method.
 
@@ -99,7 +108,7 @@ Also at risk, not quantified: client SEO results weakened by links that quietly 
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Jev AI or other monitoring/automation runs, plus Ahrefs API for domain health.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
@@ -113,4 +122,4 @@ Also at risk, not quantified: client SEO results weakened by links that quietly 
 - **When a link drops:** the team is alerted and asked whether to email the publisher. The system drafts the email from templates, the employee tailors it, and the system sends it. It learns from sent emails to cut rework over time.
 - **Check frequency:** weekly to start; the cadence is adjustable.
 - **The link-building CRM is its own solution** (with [O-18](../opportunities/README.md#o-18)), covered when we reach it. The watchdog reads its link list from the CRM.
-- Still open: tool choice (Jev AI or another automation method) and cost – TBC by Austin.
+- Tool (Jev AI or another automation method) is confirmed at build; price is in Pricing & priority.

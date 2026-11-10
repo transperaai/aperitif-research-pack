@@ -3,7 +3,7 @@ id: DS-12
 title: "Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)"
 team: "link building"  # inferred: the page gives no "Team:" line
 bundle: "Link-building CRM"
-status: "Decided (as written) – cost TBC"
+status: "Decided (as written) – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-20 (vetting and matching part (brand mentions moved to DS-31))"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KZ-PP06", "KZ-PP07", "LS-PP12", "TG-PP01", "TG-PP02", "TG-PP03", "TG-PP04", "TG-PP08", "TG-PP10", "ZC-PP16"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$5K–$19K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$500"
+monthly: "absorbed into link-building CRM maintenance (DS-11)"
 notion_section: "Link supply engine: shared vetting, client matching, brand mentions"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | --- | --- |
 | Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
 | Team | link building *(inferred)* |
-| Status | Decided (as written) – cost TBC |
+| Status | Decided (as written) – priced |
 | Source type | evidence-backed |
 | Opportunities | [O-20](../opportunities/README.md#o-20) (vetting and matching part (brand mentions moved to DS-31)) |
 | Earlier ideas | – |
@@ -37,13 +37,22 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | Pain points cited | [KZ-PP06](../pain-points/README.md#kz-pp06), [KZ-PP07](../pain-points/README.md#kz-pp07), [LS-PP12](../pain-points/README.md#ls-pp12), [TG-PP01](../pain-points/README.md#tg-pp01), [TG-PP02](../pain-points/README.md#tg-pp02), [TG-PP03](../pain-points/README.md#tg-pp03), [TG-PP04](../pain-points/README.md#tg-pp04), [TG-PP08](../pain-points/README.md#tg-pp08), [TG-PP10](../pain-points/README.md#tg-pp10), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | \$5K–\$19K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$500 |
+| Monthly | absorbed into link-building CRM maintenance (DS-11) |
 
 ## Vision
 
 > **As written** – one shared vetting skill that agrees with the link lead, automatic client matching with no duplicates, and quota reviews where supply is scarce.
 >
 > **Bundle:** presented as part of the **Link-building CRM bundle** with [DS-11](ds-11-link-building-workflow-crm.md), but kept as its own solution (own scope, cost and KPIs).
+
+## Pricing & priority
+
+> **Priority: Fill-in · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Link-building CRM
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Link supply engine – Claude skill** (vetting + client matching), results passed into the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md)) through a **custom MCP** | **A\$500** | Absorbed into the link-building CRM maintenance ([DS-11](ds-11-link-building-workflow-crm.md)); runs on Claude seats |
 
 **Your decision (9 Nov):** adopt [O-20](../opportunities/README.md#o-20) as written. It works as the **sourcing stage of the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md))**: domains are vetted and matched before they become orders.
 
@@ -94,7 +103,7 @@ Also at risk, not quantified: client link targets missed for niche clients where
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Claude seats ([DS-02](ds-02-ai-playbook-repository.md)), Ahrefs API and Alerts.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

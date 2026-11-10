@@ -3,7 +3,7 @@ id: DS-05
 title: "Automated deck generator: quarterly + 6-month reviews and proposals"
 team: "account managers and sales"  # inferred: the page gives no "Team:" line
 bundle: "Delivery & reporting"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-05 (deck part)", "O-22 (calculator part)", "O-14 (prospect-deck part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KZ-PP18", "KZ-PP21", "LS-PP02", "MP-PP10", "MP-PP11", "MP-PP12", "WS-PP05", "WS-PP07", "WS-PP13"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP10 (interviewer-raised)", "WS-PP13 (inferred)"]
 coi_per_year: "$9K–$22K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1850–A$2250"
+monthly: "A$350/month maintenance + tokens ~US$5–40"
 notion_section: "Automated deck generator: quarterly + 6-month reviews and proposals"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 | --- | --- |
 | Bundle | [Delivery & reporting](README.md#bundle-delivery-and-reporting) |
 | Team | account managers and sales *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed |
 | Opportunities | [O-05](../opportunities/README.md#o-05) (deck part), [O-22](../opportunities/README.md#o-22) (calculator part), [O-14](../opportunities/README.md#o-14) (prospect-deck part) |
 | Earlier ideas | [EI-16](../opportunities/README.md#ei-16) Proposal generator |
@@ -37,7 +37,8 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 | Pain points cited | [KZ-PP18](../pain-points/README.md#kz-pp18), [KZ-PP21](../pain-points/README.md#kz-pp21), [LS-PP02](../pain-points/README.md#ls-pp02), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [MP-PP11](../pain-points/README.md#mp-pp11), [MP-PP12](../pain-points/README.md#mp-pp12), [WS-PP05](../pain-points/README.md#ws-pp05), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP13](../pain-points/README.md#ws-pp13) (inferred) |
 | Written source | – |
 | Cost of inactivity / year | \$9K–\$22K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1850–A\$2250 |
+| Monthly | A\$350/month maintenance + tokens \~US\$5–40 |
 
 ## Vision
 
@@ -54,6 +55,14 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 > 2. **Charts built natively** in Aperitif's style, always the right date range – **or the consultant can upload** their own screenshots/visuals where needed.
 > 3. **Review step** – the consultant sees the draft, edits, approves; the final version is saved to the client brain.
 > 4. **One set-up, several decks** – quarterly review, 6-month review, the bespoke multi-market monthly deck and proposals, each with its own template and form (proposals pull prospect research and the price calculator).
+
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Deck generator** – quarterly + 6-month reviews, the multi-market monthly deck and proposals | **A\$1,850–\$2,250** | **A\$350/month** maintenance + AI tokens \~US\$5–40/month |
 
 **Your decision (9 Nov):** **monthly reports stay in AgencyAnalytics** – no change. **Quarterly and 6-month (bi-annual) review decks** are generated automatically through a deck generator, and **proposals are automated** the same way. It could be a custom build.
 
@@ -114,7 +123,7 @@ Also at risk, not quantified: founder time locked into proposals instead of grow
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Claude seats (shared with [DS-02](ds-02-ai-playbook-repository.md)), AgencyAnalytics (already paid), Ahrefs API, plus hosting if it's a custom build.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
@@ -130,4 +139,4 @@ Also at risk, not quantified: founder time locked into proposals instead of grow
 - **"Work completed / planned" content stays human-supplied**, because forward planning isn't reliable enough to pull from; the generator only handles the **formatting and placement** on the deck.
 - **Reads from the client brain ([DS-04](ds-04-ai-client-brain.md))** for the narrative, so reviews and proposals reflect what was agreed on calls.
 
-Still open: choose Claude skill vs custom workflow once costs are set (TBC by Austin).
+Approach and price: see Pricing & priority.

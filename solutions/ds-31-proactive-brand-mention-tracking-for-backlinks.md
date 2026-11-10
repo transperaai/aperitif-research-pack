@@ -3,7 +3,7 @@ id: DS-31
 title: "Proactive brand-mention tracking for backlinks (split from DS-12)"
 team: "link building / SEO"
 bundle: "Link-building CRM"
-status: "Added – cost TBC"
+status: "Added – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-20 (brand-mention part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["TG-PP03", "ZC-PP16"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,000"
+monthly: "A$300/month + tokens ~US$2–10"
 notion_section: "Proactive brand-mention tracking for backlinks"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 | --- | --- |
 | Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
 | Team | link building / SEO |
-| Status | Added – cost TBC |
+| Status | Added – priced |
 | Source type | evidence-backed – Split from DS-12 (9 Nov); ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01) |
 | Opportunities | [O-20](../opportunities/README.md#o-20) (brand-mention part) |
 | Earlier ideas | [EI-21](../opportunities/README.md#ei-21) Unlinked brand-mention monitoring and outreach (Tier 1) |
@@ -37,13 +37,22 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 | Pain points cited | [TG-PP03](../pain-points/README.md#tg-pp03), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | Not quantified – value is links won without a publisher fee (paid links \~\$80–\$130 each) |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,000 |
+| Monthly | A\$300/month + tokens \~US\$2–10 |
 
 **Team:** link building / SEO. **Your decision (9 Nov):** split out of [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md) as its own solution.
 
 ## Vision
 
 > **Proactively track brand mentions so the team can turn them into backlinks** – catch every new mention of a client that doesn't link to them, and reach out while it's fresh.
+
+## Pricing & priority
+
+> **Priority: Fill-in · Impact 2 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Link-building CRM
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Brand-mention tracker (Ahrefs Alerts + Claude drafting, feeds [DS-11](ds-11-link-building-workflow-crm.md)/DS-07)** | **A\$1,000** | **A\$300/month** maintenance + AI tokens \~US\$2–10/month (Ahrefs Alerts assumed in current plan) |
 
 ## How it works (draft)
 
@@ -77,7 +86,7 @@ Not quantified – the value is links won without paying a publisher (paid links
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Ahrefs Alerts or a mention-monitoring tool, AI drafting.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

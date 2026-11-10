@@ -3,7 +3,7 @@ id: DS-10
 title: "Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)"
 team: "leadership / whoever builds tools"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-16 (full)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["SB-PP10", "SB-PP11", "SD-PP19"]
 pain_points_interviewer_raised_or_inferred: ["SD-PP19 (inferred)"]
 coi_per_year: "$1K–$4K"
-build_cost: TBC
-opex: TBC
+build_cost: "Free"
+monthly: "none (Notion already paid)"
 notion_section: "Systems register and break-fix runbook"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Systems register and break-fix runbook"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | leadership / whoever builds tools *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed |
 | Opportunities | [O-16](../opportunities/README.md#o-16) (full) |
 | Earlier ideas | – |
@@ -37,11 +37,20 @@ notion_section: "Systems register and break-fix runbook"
 | Pain points cited | [SB-PP10](../pain-points/README.md#sb-pp10), [SB-PP11](../pain-points/README.md#sb-pp11), [SD-PP19](../pain-points/README.md#sd-pp19) (inferred) |
 | Written source | – |
 | Cost of inactivity / year | \$1K–\$4K |
-| Build cost / OpEx | TBC |
+| Build cost | Free |
+| Monthly | none (Notion already paid) |
 
 ## Vision
 
 > **A help-doc repository for everything that's built, connected to the AI brain so people can ask it and get help.** "How do I use X?", "X stopped working, what do I check?" – the brain answers from the help docs and runbooks (through Slack, like the @oracle in [DS-02](ds-02-ai-playbook-repository.md)). It **reduces Austin's time spent debugging and showing people how to use things**, and means fixes don't depend on one person.
+
+## Pricing & priority
+
+> **Priority: Fill-in – do early (foundation) · Impact 3 / 5 · Effort 1 / 5 (draft – confirm)**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Help docs and systems register** – documentation, not a build; connected to the AI brain so @oracle answers from it | **A\$0 – no charge** (documentation supplied with each build) | – (Notion already paid) |
 
 **Your decision (9 Nov):** adopt [O-16](../opportunities/README.md#o-16). In your words, it's **one place with the information for everything that's built and what to do if something breaks**. It sits alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)) and covers every solution in this pack as it goes live.
 
@@ -95,7 +104,7 @@ The real cost is risk, not hours: if the one person who knows the Monday/Make se
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Mostly set-up time; no new software (Notion).
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

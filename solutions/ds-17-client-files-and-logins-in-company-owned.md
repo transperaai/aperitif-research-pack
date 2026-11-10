@@ -3,7 +3,7 @@ id: DS-17
 title: "Client files and logins in company-owned shared locations, linked to each client brain"
 team: "everyone (operations)"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided (as written) – cost TBC"
+status: "Decided (as written) – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-30 (full)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["SB-PP09", "SH-PP08"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$1K–$4K"
-build_cost: TBC
-opex: TBC
+build_cost: "Free"
+monthly: "none"
 notion_section: "Client files and logins in company-owned shared locations"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Client files and logins in company-owned shared locations"
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | everyone (operations) *(inferred)* |
-| Status | Decided (as written) – cost TBC |
+| Status | Decided (as written) – priced |
 | Source type | evidence-backed |
 | Opportunities | [O-30](../opportunities/README.md#o-30) (full) |
 | Earlier ideas | – |
@@ -37,11 +37,22 @@ notion_section: "Client files and logins in company-owned shared locations"
 | Pain points cited | [SB-PP09](../pain-points/README.md#sb-pp09), [SH-PP08](../pain-points/README.md#sh-pp08) |
 | Written source | – |
 | Cost of inactivity / year | \$1K–\$4K |
-| Build cost / OpEx | TBC |
+| Build cost | Free |
+| Monthly | none |
 
 ## Vision
 
 > **Not really a build – a foundation: a good file structure and clean data.** It's kept in the pack because the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and the client brains ([DS-04](ds-04-ai-client-brain.md)) are only as good as the files and records they read. Same folder structure for every client, files in company-owned locations, logins in the shared vault, nothing on personal drives.
+
+## Pricing & priority
+
+> **Priority: Fill-in – do early (foundation) · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Client lifecycle
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Client files and logins in company-owned locations** – folder template, ownership transfer, LastPass per client, links from Monday and the brain | **A\$0 – free** | – (existing tools) |
+>
+> *Staff time to move their files is separate.*
 
 **Your decision (9 Nov):** adopt [O-30](../opportunities/README.md#o-30), **connected to the AI client brains ([DS-04](ds-04-ai-client-brain.md))** – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
 
@@ -89,7 +100,7 @@ Also at risk, not quantified: client files and logins lost when a staff member l
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Mainly migration time; existing tools (Google Shared Drives, LastPass, Monday).
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

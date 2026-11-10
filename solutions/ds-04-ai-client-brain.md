@@ -3,7 +3,7 @@ id: DS-04
 title: "AI client brain (per client) – under the AI Business Brain banner"
 team: "account managers and delivery (everyone)"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-04 (full)", "O-13 (full)", "O-27 (per-client part)", "O-26 (style guide only)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KO-PP05", "MC-PP11", "MC-PP14", "MP-PP16", "MP-PP20", "SB-PP03", "SD-PP05", "SJ-PP09", "ZC-PP04"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP20 (interviewer-raised)"]
 coi_per_year: "$14K–$43K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$12,500"
+monthly: "A$850/month maintenance; hosting + tokens TBC (model-agnostic; research needed)"
 notion_section: "AI client brain (per client)"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "AI client brain (per client)"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | account managers and delivery (everyone) *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed – Design choices (all clients, all sources, custom app, visible client page) are Austin decisions |
 | Opportunities | [O-04](../opportunities/README.md#o-04) (full), [O-13](../opportunities/README.md#o-13) (full), [O-27](../opportunities/README.md#o-27) (per-client part), [O-26](../opportunities/README.md#o-26) (style guide only) |
 | Earlier ideas | [EI-07](../opportunities/README.md#ei-07) Individual AI client Brains, [EI-12](../opportunities/README.md#ei-12) Meeting transcripts → per-client action runsheet |
@@ -37,7 +37,8 @@ notion_section: "AI client brain (per client)"
 | Pain points cited | [KO-PP05](../pain-points/README.md#ko-pp05), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP14](../pain-points/README.md#mc-pp14), [MP-PP16](../pain-points/README.md#mp-pp16), [MP-PP20](../pain-points/README.md#mp-pp20) (interviewer-raised), [SB-PP03](../pain-points/README.md#sb-pp03), [SD-PP05](../pain-points/README.md#sd-pp05), [SJ-PP09](../pain-points/README.md#sj-pp09), [ZC-PP04](../pain-points/README.md#zc-pp04) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | \$14K–\$43K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$12,500 |
+| Monthly | A\$850/month maintenance; hosting + tokens TBC (model-agnostic; research needed) |
 
 ## Vision
 
@@ -58,6 +59,15 @@ notion_section: "AI client brain (per client)"
 > 6. **Permissions** – sensitive threads and commercial terms (pricing, disputes, contract talks) can be limited to leadership.
 > 7. **Ask and act** – e.g. "@oracle, create a task for Sid to fix the tracking" from Slack goes into Monday (phase 2, with a confirm step).
 > 8. **Consent and retention** – clients agree to call recording; a set period for keeping transcripts, decided before launch.
+
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 5 / 5 · Effort 5 / 5 (draft – confirm)**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **AI client brain** (all clients, all sources, visible client pages, call-outs, health card, digest) – **includes the shared platform** (client registry, connectors, @oracle Slack bot, role-based access, memory with citations) | **A\$12,500** | **A\$850/month** maintenance |
+> | Hosting and AI tokens | – | **TBC** – to research; the brain will be model-agnostic. Worksheet draft: tokens \~US\$60–300/month, hosting shared, one-off backfill \~US\$100–500 |
 
 **Your decision (9 Nov):** an AI brain **for each client** that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to **review and query**. It sits under the **AI Business Brain** banner but is treated as a separate solution for now.
 
@@ -134,7 +144,7 @@ Also at risk, not quantified: client retention – a six-year client left with b
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Claude seats (shared with [DS-02](ds-02-ai-playbook-repository.md)), call recording tool, any data connectors.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

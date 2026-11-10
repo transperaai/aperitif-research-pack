@@ -3,7 +3,7 @@ id: DS-11
 title: "Link-building workflow CRM (orders, publishers, links, invoicing and payments)"
 team: "link building"  # inferred: the page gives no "Team:" line
 bundle: "Link-building CRM"
-status: "Decided – build vs buy and cost TBC"
+status: "Decided – custom build; priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-18 (full)"]
@@ -15,8 +15,8 @@ problems_related_only: ["P-07"]
 pain_points_cited: ["KO-PP16", "KZ-PP08", "LS-PP12", "MP-PP14", "MP-PP15", "TG-PP05", "TG-PP06", "TG-PP07", "TG-PP09"]
 pain_points_interviewer_raised_or_inferred: ["TG-PP09 (inferred)"]
 coi_per_year: "$6K–$25K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$3,500"
+monthly: "A$750/month + hosting/tokens (shared)"
 notion_section: "Link-building workflow CRM"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Link-building workflow CRM"
 | --- | --- |
 | Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
 | Team | link building *(inferred)* |
-| Status | Decided – build vs buy and cost TBC |
+| Status | Decided – custom build; priced |
 | Source type | evidence-backed – CRM-first is Austin decision |
 | Opportunities | [O-18](../opportunities/README.md#o-18) (full) |
 | Earlier ideas | – |
@@ -38,7 +38,8 @@ notion_section: "Link-building workflow CRM"
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP08](../pain-points/README.md#kz-pp08), [LS-PP12](../pain-points/README.md#ls-pp12), [MP-PP14](../pain-points/README.md#mp-pp14), [MP-PP15](../pain-points/README.md#mp-pp15), [TG-PP05](../pain-points/README.md#tg-pp05), [TG-PP06](../pain-points/README.md#tg-pp06), [TG-PP07](../pain-points/README.md#tg-pp07), [TG-PP09](../pain-points/README.md#tg-pp09) (inferred) |
 | Written source | – |
 | Cost of inactivity / year | \$6K–\$25K |
-| Build cost / OpEx | TBC |
+| Build cost | A\$3,500 |
+| Monthly | A\$750/month + hosting/tokens (shared) |
 
 ## Vision
 
@@ -48,7 +49,17 @@ notion_section: "Link-building workflow CRM"
 > - Other solutions **connect to it but stay separate**: the link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)), the link supply engine ([DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md)) and brand-mention tracking ([DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md)).
 > - It **feeds the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and each client brain ([DS-04](ds-04-ai-client-brain.md))** – which links were built for a client, where, and whether they're still live.
 
-**Your decision (9 Nov):** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Custom build or off-the-shelf is TBC. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)** · Bundle: Link-building CRM
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Link-building workflow CRM – custom AI-native app** (publisher portal, orders, live links, invoicing and payment runs; feeds [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)/12/31 and the brains) | **A\$3,500** | **A\$750/month** maintenance + hosting/tokens (mostly shared with the brain platform) |
+>
+> *Maintenance for the link-building solutions ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md), DS-11, [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md)) may be consolidated into one fee – to settle at the end.*
+
+**Your decision (9 Nov):** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Recommended: a custom AI-native build. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
 
 ## What it covers (draft)
 
@@ -104,7 +115,7 @@ Also at risk, not quantified: link volume keeps rising ([LS-PP12](../pain-points
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: CRM licence (if bought) or hosting (if built); payment processing.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

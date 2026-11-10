@@ -3,7 +3,7 @@ id: DS-15
 title: "AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)"
 team: "everyone"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – framing; cost TBC"
+status: "Decided – framing; priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-27 (company layer)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KO-PP10", "KO-PP14", "KO-PP15", "MP-PP04", "MP-PP06", "MP-PP17", "MP-PP20"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP06 (interviewer-raised)", "MP-PP17 (interviewer-raised)", "MP-PP20 (interviewer-raised)"]
 coi_per_year: "~$44K–$134K combined (DS-02+DS-04+DS-10+DS-14, before overlap); company layer alone $1K–$4K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$2,500"
+monthly: "TBC + tokens ~US$2–15"
 notion_section: "AI Business Brain – the umbrella"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "AI Business Brain – the umbrella"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | everyone *(inferred)* |
-| Status | Decided – framing; cost TBC |
+| Status | Decided – framing; priced |
 | Source type | mixed – Austin addition: umbrella framing grouping DS-02, DS-04, DS-10, DS-14 |
 | Opportunities | [O-27](../opportunities/README.md#o-27) (company layer) |
 | Earlier ideas | [EI-02](../opportunities/README.md#ei-02) AI Business Brain, [EI-20](../opportunities/README.md#ei-20) Team wiki – fast answers, self-updating, fits into workflows |
@@ -37,7 +37,8 @@ notion_section: "AI Business Brain – the umbrella"
 | Pain points cited | [KO-PP10](../pain-points/README.md#ko-pp10), [KO-PP14](../pain-points/README.md#ko-pp14), [KO-PP15](../pain-points/README.md#ko-pp15), [MP-PP04](../pain-points/README.md#mp-pp04), [MP-PP06](../pain-points/README.md#mp-pp06) (interviewer-raised), [MP-PP17](../pain-points/README.md#mp-pp17) (interviewer-raised), [MP-PP20](../pain-points/README.md#mp-pp20) (interviewer-raised) |
 | Written source | – |
 | Cost of inactivity / year | \~\$44K–\$134K combined (DS-02+DS-04+DS-10+DS-14, before overlap); company layer alone \$1K–\$4K – indicative, overlapping |
-| Build cost / OpEx | TBC |
+| Build cost | A\$2,500 |
+| Monthly | TBC + tokens \~US\$2–15 |
 
 ## Vision
 
@@ -51,6 +52,14 @@ notion_section: "AI Business Brain – the umbrella"
 > 4. **Memory with citations** – the brain keeps a memory of what it learns, and every fact links to where it came from so nothing is made up; anything **inferred is labelled as inferred**.
 > 5. **Role-based access control (RBAC)** on both its memory and the information it can show – people only see what their role allows (e.g. commercial and HR detail limited to leadership).
 > 6. **A connector to the systems of record, not a copy of them** – Monday, HubSpot, Drive, the ad platforms and the link CRM stay the source of truth; the brain reads from them. No staff tracking or timesheets.
+
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 4 / 5 · Effort 3 / 5 (draft – confirm)** · **Add-on to the AI client brain ([DS-04](ds-04-ai-client-brain.md))**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **AI Business Brain – company layer**: @oracle front door, home view, weekly leadership pulse; **Joe's OpenClaw agents move into it** | **A\$2,500** (placeholder – scope not fully defined yet) | **TBC**  • AI tokens \~US\$2–15/month |
 
 **Your decision (9 Nov):** the AI Business Brain is the **umbrella**. It has solutions under it – the client brain, **smart SOPs people can query**, and similar – rather than being one separate tool.
 
@@ -104,7 +113,7 @@ The umbrella's cost of inactivity is the **sum of the solutions under it** ([DS-
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Priced per member solution; the company layer adds the query interface (Slack assistant) and connectors.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

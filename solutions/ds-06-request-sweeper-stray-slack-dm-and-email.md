@@ -3,7 +3,7 @@ id: DS-06
 title: "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com"
 team: "everyone"  # inferred: the page gives no "Team:" line
 bundle: "Team productivity"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-06 (capture part)", "O-29 (inbox triage part (daily brief moved to DS-30))"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["DM-PP09", "LS-PP14", "MC-PP04", "MC-PP05", "MP-PP05", "MP-PP06", "SB-PP01", "SB-PP02", "SB-PP03", "SB-PP04", "SB-PP15"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP06 (interviewer-raised)"]
 coi_per_year: "$9K–$27K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$500"
+monthly: "A$150/month + tokens ~US$30–120"
 notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 | --- | --- |
 | Bundle | [Team productivity](README.md#bundle-team-productivity) |
 | Team | everyone *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | mixed – Austin addition: DM and email sweeping ("Roomba"); one interview (SB-PP04) confirms DMs as a request route |
 | Opportunities | [O-06](../opportunities/README.md#o-06) (capture part), [O-29](../opportunities/README.md#o-29) (inbox triage part (daily brief moved to DS-30)) |
 | Earlier ideas | – |
@@ -37,7 +37,8 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 | Pain points cited | [DM-PP09](../pain-points/README.md#dm-pp09), [LS-PP14](../pain-points/README.md#ls-pp14), [MC-PP04](../pain-points/README.md#mc-pp04), [MC-PP05](../pain-points/README.md#mc-pp05), [MP-PP05](../pain-points/README.md#mp-pp05), [MP-PP06](../pain-points/README.md#mp-pp06) (interviewer-raised), [SB-PP01](../pain-points/README.md#sb-pp01), [SB-PP02](../pain-points/README.md#sb-pp02), [SB-PP03](../pain-points/README.md#sb-pp03), [SB-PP04](../pain-points/README.md#sb-pp04), [SB-PP15](../pain-points/README.md#sb-pp15) |
 | Written source | – |
 | Cost of inactivity / year | \$9K–\$27K – O-06 figure used as a proxy; DS-30 triage time moved out – do not add |
-| Build cost / OpEx | TBC |
+| Build cost | A\$500 |
+| Monthly | A\$150/month + tokens \~US\$30–120 |
 
 ## Vision
 
@@ -46,6 +47,14 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 > - It catches stray requests from Slack, DMs and email and puts them into Monday, so the brain ([DS-04](ds-04-ai-client-brain.md)) always knows what's been asked.
 > - **Task status sweep (added 9 Nov):** the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved ([DM-PP09](../pain-points/README.md#dm-pp09)), and nudges the owner.
 > - The **daily priorities** assistant is now its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)** (your call: "another thing").
+
+## Pricing & priority
+
+> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)**
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Request sweeper + task-status sweep** – connected to the AI brain (runs on the [DS-04](ds-04-ai-client-brain.md) platform) | **A\$500** | **A\$150/month**  • AI tokens \~US\$30–120/month |
 
 **Your decision (9 Nov):** Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in **direct messages** and **email** – and puts them into Monday.com as tasks.
 
@@ -103,7 +112,7 @@ Also at risk, not quantified: requests lost in DMs and caught last-minute ([SB-P
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Claude/API usage per message scanned, Slack app, Monday.com automation runs.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

@@ -3,7 +3,7 @@ id: DS-23
 title: "SEO: drop and anomaly alerts"
 team: "SEO"
 bundle: "SEO performance"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-12 (SEO part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["LS-PP15"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
+monthly: "A$1,250/month + tokens ~US$8–35"
 notion_section: "SEO: drop and anomaly alerts"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "SEO: drop and anomaly alerts"
 | --- | --- |
 | Bundle | [SEO performance](README.md#bundle-seo-performance) |
 | Team | SEO |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | mixed – Mainly Zach's written AI suggestions doc (WS-ZC-01) plus LS-PP15 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (SEO part) |
 | Earlier ideas | – |
@@ -37,11 +37,14 @@ notion_section: "SEO: drop and anomaly alerts"
 | Pain points cited | [LS-PP15](../pain-points/README.md#ls-pp15) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | Not quantified – retention value |
-| Build cost / OpEx | TBC |
+| Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
+| Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
 ## Vision
 
 > Shared with [DS-22](ds-22-seo-automated-monday-client-performance-check.md): **proactive performance intel comes to the team** – drops and anomalies arrive as alerts, so nobody has to dig through accounts to find them.
+
+> **Pricing:** part of the **SEO performance bundle** – see [DS-22](ds-22-seo-automated-monday-client-performance-check.md) (A\$8,500 build, A\$1,250/month for [DS-22](ds-22-seo-automated-monday-client-performance-check.md) + DS-23 + [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md)).
 
 **Team:** SEO. **Your decision (9 Nov):** separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
 
@@ -75,7 +78,7 @@ Time is counted in [DS-22](ds-22-seo-automated-monday-client-performance-check.m
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Shares [DS-22](ds-22-seo-automated-monday-client-performance-check.md)'s data connections.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

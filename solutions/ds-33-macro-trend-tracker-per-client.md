@@ -3,7 +3,7 @@ id: DS-33
 title: "Macro trend tracker per client (split from DS-16)"
 team: "SEO, content and paid strategists"
 bundle: "Market intelligence"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["WS-PP12", "ZC-PP17"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$1,000"
+monthly: "A$300/month + tokens ~US$10–40 + news API ~US$5–50"
 notion_section: "Macro trend tracker per client"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Macro trend tracker per client"
 | --- | --- |
 | Bundle | [Market intelligence](README.md#bundle-market-intelligence) |
 | Team | SEO, content and paid strategists |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | Austin addition – Split from DS-16 (9 Nov); Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12 |
 | Opportunities | – |
 | Earlier ideas | [EI-11](../opportunities/README.md#ei-11) Macro trend tracker agent for client industries |
@@ -37,13 +37,22 @@ notion_section: "Macro trend tracker per client"
 | Pain points cited | [WS-PP12](../pain-points/README.md#ws-pp12), [ZC-PP17](../pain-points/README.md#zc-pp17) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | Not quantified – missed timely content and surprises in client results |
-| Build cost / OpEx | TBC |
+| Build cost | A\$1,000 |
+| Monthly | A\$300/month + tokens \~US\$10–40 + news API \~US\$5–50 |
 
 **Team:** SEO, content and paid strategists. **Your decision (9 Nov):** split out of [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
 
 ## Vision
 
 > **Track what's going on in the world that affects each client and their industry** – news, regulation, the economy, industry shifts – store it in the client's brain ([DS-04](ds-04-ai-client-brain.md)), and alert the strategist in Slack with why it matters and an idea to act on.
+
+## Pricing & priority
+
+> **Priority: Fill-in (low) · Impact 1 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Market intelligence
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Macro trend tracker (news API + Claude relevance filter → client brain + Slack)** | **A\$1,000** | **A\$300/month** maintenance + AI tokens \~US\$10–40/month + news API \~US\$5–50/month |
 
 ## How it works (draft)
 
@@ -68,7 +77,7 @@ Not quantified – the cost is missed timely content and surprises in client res
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: news/data sources, AI usage per client.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

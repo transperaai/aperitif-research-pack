@@ -3,7 +3,7 @@ id: DS-30
 title: "Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals"
 team: "everyone"
 bundle: "Team productivity"
-status: "Added – cost TBC"
+status: "Added – priced"
 ledger_status: addressed
 source_type: "mixed"
 opportunities: ["O-29 (daily brief part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["MC-PP03", "SB-PP01", "SB-PP02"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$6K–$11K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$2,000"
+monthly: "A$500/month + tokens ~US$20–70"
 notion_section: "Daily priorities assistant"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Daily priorities assistant"
 | --- | --- |
 | Bundle | [Team productivity](README.md#bundle-team-productivity) |
 | Team | everyone |
-| Status | Added – cost TBC |
+| Status | Added – priced |
 | Source type | mixed – Split from DS-06 (Austin, 9 Nov); Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief |
 | Opportunities | [O-29](../opportunities/README.md#o-29) (daily brief part) |
 | Earlier ideas | – |
@@ -37,13 +37,22 @@ notion_section: "Daily priorities assistant"
 | Pain points cited | [MC-PP03](../pain-points/README.md#mc-pp03), [SB-PP01](../pain-points/README.md#sb-pp01), [SB-PP02](../pain-points/README.md#sb-pp02) |
 | Written source | – |
 | Cost of inactivity / year | \$6K–\$11K – O-29 / SB-O02 for one person; more if rolled out; moved out of DS-06 – do not add |
-| Build cost / OpEx | TBC |
+| Build cost | A\$2,000 |
+| Monthly | A\$500/month + tokens \~US\$20–70 |
 
 **Team:** everyone. **Your decision (9 Nov):** split out of [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md) as its own solution.
 
 ## Vision
 
 > **The thing that keeps people efficient so they can just focus on work.** Every morning each person gets one triaged list of what to do today, pulled from everywhere work comes from: Monday, Slack, email, calendar, ad and SEO performance, seasonal events – anything and everything.
+
+## Pricing & priority
+
+> **Priority: Fill-in (after [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)) · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Team productivity
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Daily priorities assistant** – one ranked Slack DM per person each morning from Monday, Slack, email, calendar, performance and seasonal signals | **A\$2,000** | **A\$500/month** maintenance + AI tokens \~US\$20–70/month |
 
 ## How it works (draft)
 
@@ -88,7 +97,7 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** Reuses [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)'s connections (Slack, Gmail, Monday) plus calendar.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

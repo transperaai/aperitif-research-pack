@@ -3,7 +3,7 @@ id: DS-25
 title: "PPC: performance forecasting tool"
 team: "PPC"
 bundle: "PPC performance"
-status: "Added – cost TBC"
+status: "Added – priced"
 ledger_status: addressed
 source_type: "Austin addition"
 opportunities: ["O-02 (WS-O09 forecasting prompt only)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["WS-PP12", "WS-PP13"]
 pain_points_interviewer_raised_or_inferred: ["WS-PP13 (inferred)"]
 coi_per_year: "Not separately quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$3,000 for the bundle (DS-25 + DS-26)"
+monthly: "A$300/month + tokens ~US$3–30"
 notion_section: "PPC: performance forecasting tool"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "PPC: performance forecasting tool"
 | --- | --- |
 | Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | PPC |
-| Status | Added – cost TBC |
+| Status | Added – priced |
 | Source type | Austin addition – Austin – new; evidence is one person (WS-PP12, WS-PP13 detected) |
 | Opportunities | [O-02](../opportunities/README.md#o-02) (WS-O09 forecasting prompt only) |
 | Earlier ideas | – |
@@ -37,11 +37,20 @@ notion_section: "PPC: performance forecasting tool"
 | Pain points cited | [WS-PP12](../pain-points/README.md#ws-pp12), [WS-PP13](../pain-points/README.md#ws-pp13) (inferred) |
 | Written source | – |
 | Cost of inactivity / year | Not separately quantified – WS-O09 hours sit in DS-02 |
-| Build cost / OpEx | TBC |
+| Build cost | A\$3,000 for the bundle (DS-25 + DS-26) |
+| Monthly | A\$300/month + tokens \~US\$3–30 |
 
 ## Vision
 
 > **A forecasting simulator.** The team can toggle inputs and simulate real-world events and trends (budget changes, seasonality, economic shifts, platform changes) to see how they would affect delivery and results. Shared goal with [DS-26](ds-26-seo-performance-forecasting-tool.md), with PPC-specific nuances. **Starting point:** talk to the leads about how they forecast today (e.g. Wendlley's Gemini method) and then turbo-charge it.
+
+## Pricing & priority
+
+> **Priced as one forecasting bundle: DS-25 (PPC) + [DS-26](ds-26-seo-performance-forecasting-tool.md) (SEO)** – separate from the PPC and SEO performance bundles · Draft scores: DS-25 impact 2 / effort 4 · [DS-26](ds-26-seo-performance-forecasting-tool.md) 1 / 3 (re-score for the skills approach)
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Forecasting simulator** – built as Claude skills with a **guided simulator** (toggle budgets, seasonality, events) and **agentic use** (it can pull the data and run scenarios itself), PPC and SEO versions | **A\$3,000** | **A\$300/month** maintenance + AI tokens \~US\$3–30/month |
 
 **Team:** PPC. **Your decision (9 Nov):** a forecasting tool that predicts each client's paid performance from history, seasonality, economic trends and predictions, and other outside factors.
 
@@ -76,7 +85,7 @@ Not separately quantified – WS-O09's 2–18 h/month sits in [DS-02](ds-02-ai-p
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.**
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

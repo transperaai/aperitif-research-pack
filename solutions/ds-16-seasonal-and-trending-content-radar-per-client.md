@@ -3,7 +3,7 @@ id: DS-16
 title: "Seasonal & trending content radar per client (split 9 Nov)"
 team: "SEO and content strategists"  # inferred: the page gives no "Team:" line
 bundle: "Market intelligence"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "evidence-backed"
 opportunities: ["O-28 (seasonal & trending part)"]
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KZ-PP19", "KZ-PP20", "ZC-PP09", "ZC-PP15", "ZC-PP17"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "$2K–$7K"
-build_cost: TBC
-opex: TBC
+build_cost: "A$750"
+monthly: "A$300/month (+ trends data ~US$20–100 if needed)"
 notion_section: "Per-client market radar → now: Seasonal & trending content radar"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Per-client market radar → now: Seasonal & trending content ra
 | --- | --- |
 | Bundle | [Market intelligence](README.md#bundle-market-intelligence) |
 | Team | SEO and content strategists *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | evidence-backed – Seasonal & trending part only since the 9 Nov split (competitor spy is DS-32, macro tracker DS-33) |
 | Opportunities | [O-28](../opportunities/README.md#o-28) (seasonal & trending part) |
 | Earlier ideas | [EI-19](../opportunities/README.md#ei-19) Seasonal & trending content radar per client |
@@ -37,11 +37,20 @@ notion_section: "Per-client market radar → now: Seasonal & trending content ra
 | Pain points cited | [KZ-PP19](../pain-points/README.md#kz-pp19), [KZ-PP20](../pain-points/README.md#kz-pp20), [ZC-PP09](../pain-points/README.md#zc-pp09), [ZC-PP15](../pain-points/README.md#zc-pp15), [ZC-PP17](../pain-points/README.md#zc-pp17) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Cost of inactivity / year | \$2K–\$7K – O-28 hours; DS-32/DS-33 not quantified separately |
-| Build cost / OpEx | TBC |
+| Build cost | A\$750 |
+| Monthly | A\$300/month (+ trends data \~US\$20–100 if needed) |
 
 ## Vision
 
 > **Split into three solutions (your call, 9 Nov):** DS-16 is now the **seasonal & trending content radar**; the **competitor spy** is [DS-32](ds-32-competitor-spy-per-client.md) and the **macro trend tracker** is [DS-33](ds-33-macro-trend-tracker-per-client.md). Each one **lives in every client's brain** ([DS-04](ds-04-ai-client-brain.md)) and **alerts the strategist in Slack**. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
+
+## Pricing & priority
+
+> **Priority: Impact 2 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Market intelligence
+>
+> | Item | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Seasonal & trending content radar** – a **Claude routine** connected to an MCP that uploads results into each AI client brain ([DS-04](ds-04-ai-client-brain.md)) and alerts the strategist in Slack | **A\$750** | **A\$300/month** maintenance (+ trends/search data source if needed, \~US\$20–100/month – to verify) |
 
 **Your decision (9 Nov):** one radar **for each client** with three parts: a **seasonal and trending content radar**, a **competitor spy**, and a **macro trend tracker** for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and writes into each client brain ([DS-04](ds-04-ai-client-brain.md)).
 
@@ -98,7 +107,7 @@ The bigger cost isn't hours: missed seasonal peaks and events mean content that 
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.** OpEx: Google Trends / news data, change-monitoring (e.g. Visualping), Ahrefs, AI usage per client.
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

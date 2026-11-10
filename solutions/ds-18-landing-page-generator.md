@@ -3,7 +3,7 @@ id: DS-18
 title: "Landing page generator (ad landing pages, Aperitif-hosted)"
 team: "PPC"  # inferred: the page gives no "Team:" line
 bundle: "Standalone"
-status: "Decided – cost TBC"
+status: "Decided – priced"
 ledger_status: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -15,8 +15,8 @@ problems_related_only: []
 pain_points_cited: ["KO-PP25", "SH-PP11", "WS-PP07", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$12,000"
+monthly: "A$1,500/month + hosting/tokens"
 notion_section: "Landing page generator"
 ---
 
@@ -28,7 +28,7 @@ notion_section: "Landing page generator"
 | --- | --- |
 | Bundle | [Standalone](README.md#bundle-standalone) |
 | Team | PPC *(inferred)* |
-| Status | Decided – cost TBC |
+| Status | Decided – priced |
 | Source type | Austin addition – Earlier idea, no merged opportunity; problem evidence KO-PP25, WS-PP14 |
 | Opportunities | – |
 | Earlier ideas | [EI-09](../opportunities/README.md#ei-09) Landing page generator |
@@ -37,13 +37,23 @@ notion_section: "Landing page generator"
 | Pain points cited | [KO-PP25](../pain-points/README.md#ko-pp25), [SH-PP11](../pain-points/README.md#sh-pp11), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
 | Cost of inactivity / year | Not quantified – needs count of pages outsourced per year |
-| Build cost / OpEx | TBC |
+| Build cost | A\$12,000 |
+| Monthly | A\$1,500/month + hosting/tokens |
 
 ## Vision
 
 > **An AI tool like "Landing Page Labs":** clone a client's website brand identity (colours, fonts, style) and make landing pages for ads. It uses Aperitif's own **CRO-optimised page structures**; the team just customises the content, assets and creatives in a CMS.
 >
 > **Buy-first check (9 Nov):** off-the-shelf AI builders already do brand cloning and AI page generation – e.g. LanderLab (clone any page from a URL), Leadpages (generate a page from a website with brand Style Kits), Flint (extracts a brand system from the client's site), Swipe Pages and Unbounce (AI builder, A/B testing, dynamic text replacement for ad keywords). Worth trialling one with Aperitif's CRO templates before building.
+
+## Pricing & priority
+
+> **Priority: Impact 2 / 5 · Effort 2 / 5 (draft – re-score for custom build)** · Standalone
+>
+> | Option | Build cost | Monthly cost |
+> | --- | --- | --- |
+> | **Recommended – custom landing page generator** (brand cloning, Aperitif CRO templates, CMS for content and assets, Aperitif-hosted) | **A\$12,000** | **A\$1,500/month** maintenance + hosting/tokens |
+> | *For comparison – off-the-shelf builder* (e.g. LanderLab) with Aperitif templates | – | US\$119–239/month |
 
 **Your decision (9 Nov):** add the landing page generator (your earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
 
@@ -81,7 +91,7 @@ Not quantified from the interviews: outsourcing at \~\$1,500 a page, campaigns d
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.**
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 

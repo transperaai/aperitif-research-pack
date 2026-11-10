@@ -15,8 +15,8 @@ problems_related_only: ["P-42"]
 pain_points_cited: ["KO-PP17", "KO-PP18"]
 pain_points_interviewer_raised_or_inferred: []
 coi_per_year: "Not quantified"
-build_cost: TBC
-opex: TBC
+build_cost: "A$100"
+monthly: "A$250/month management + Aircall A$150 PAYG min (A$0.44/min) or A$370/1,000 min"
 notion_section: "AI receptionist"
 ---
 
@@ -38,7 +38,8 @@ notion_section: "AI receptionist"
 | Pain points cited | [KO-PP17](../pain-points/README.md#ko-pp17), [KO-PP18](../pain-points/README.md#ko-pp18) |
 | Written source | – |
 | Cost of inactivity / year | Not quantified – needs call and lead volumes |
-| Build cost / OpEx | TBC |
+| Build cost | A\$100 |
+| Monthly | A\$250/month management + Aircall A\$150 PAYG min (A\$0.44/min) or A\$370/1,000 min |
 
 ## Vision
 
@@ -47,7 +48,16 @@ notion_section: "AI receptionist"
 > **Options for Joe (your call, 9 Nov):**
 >
 > - **Recommended: Aircall's AI receptionist add-on** – about **A\$370/month** for 1,000 minutes; nothing to build or maintain.
-> - **Alternative: Transpera builds a simple call director** – cheaper to run, but a build to maintain (cost TBC).
+> - **Alternative: Transpera builds a simple call director** – cheaper to run, but a build to maintain (needs a feasibility study before pricing).
+
+## Pricing & priority
+
+> **Priority: Fill-in · Impact 1 / 5 · Effort 1 / 5 (draft – confirm)** · Standalone
+>
+> | Option | Set-up / build | Monthly cost |
+> | --- | --- | --- |
+> | **Recommended – Aircall AI receptionist add-on** (call director: new lead → Joe, existing client → account manager) | **A\$100** set-up | **A\$250/month** management + Aircall: A\$150/month minimum pay-as-you-go (A\$0.44/min) or A\$370/month for 1,000 minutes |
+> | **Custom call director** | **Needs a deeper feasibility study** before pricing | – |
 
 **Your decision (9 Nov):** add the AI receptionist (your earlier idea). There's no merged opportunity and **little direct interview evidence** – it goes in as your recommendation.
 
@@ -81,7 +91,7 @@ Not quantified – no call volumes or missed-call figures were discussed. Needs 
 
 ## Indicative build cost and OpEx
 
-**TBC by Austin.**
+See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
