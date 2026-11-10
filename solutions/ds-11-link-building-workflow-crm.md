@@ -37,7 +37,7 @@ notion_section: "Link-building workflow CRM"
 | Related only | [P-07 Paid links disappear after payment – detected manually](../problems/p-07-paid-links-disappear-after-payment-detected-manually.md) – Solve now |
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP08](../pain-points/README.md#kz-pp08), [LS-PP12](../pain-points/README.md#ls-pp12), [MP-PP14](../pain-points/README.md#mp-pp14), [MP-PP15](../pain-points/README.md#mp-pp15), [TG-PP05](../pain-points/README.md#tg-pp05), [TG-PP06](../pain-points/README.md#tg-pp06), [TG-PP07](../pain-points/README.md#tg-pp07), [TG-PP09](../pain-points/README.md#tg-pp09) (inferred) |
 | Written source | – |
-| Cost of inactivity / year | \$6K–\$25K |
+| Value | 16.5–26.5 h/mo · \~8–13 more links a month (delivery capacity) |
 | Build cost | A\$3,500 |
 | Monthly | A\$750/month + hosting/tokens (shared) |
 
@@ -102,16 +102,28 @@ notion_section: "Link-building workflow CRM"
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time ([KZ-PP08](../pain-points/README.md#kz-pp08)) | Baseline, then −50% |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **One system for every link.** Orders, publishers, live links and invoices live in one CRM, so nobody copies orders into publisher sheets or re-keys every published link into the master sheet.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on link sourcing, ordering and invoicing today | 45–140 h (\$3.6K–\$11.2K) | \$43K–\$134K |
-| Of which recoverable with this solution | 6–26 h (\$0.5K–\$2.1K) | **\$6K–\$25K** |
+| Re-keying orders and live links, matching links to clients | \~283 links a month (live clients, client board) × 5–8 min ≈ 24–38 h today; the CRM removes \~70% (links are still entered once) | **\~16.5–26.5 h** |
 
-Also at risk, not quantified: link volume keeps rising ([LS-PP12](../pain-points/README.md#ls-pp12)) on a process that can't scale; key-person risk on undocumented home-built tools ([TG-PP09](../pain-points/README.md#tg-pp09)); payment errors from PayPal links in cells; and [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)'s savings depend on this list existing.
+**2. Capacity and revenue unlocked**
 
-*Basis: process costs from the Stage 2 roll-up (sourcing & ordering 43.3–135.9 h; outreacher invoicing 1.3–3.8 h); recoverable from [O-18](../opportunities/README.md#o-18) (TG-O02 5.6–24.0 + KZ-O13 0.4–2.0). Sourcing time itself (vetting, negotiation) is mostly outside this solution – see [O-20](../opportunities/README.md#o-20). Assumed. \$80/hr.*
+At \~2 h of team time per link today, \~16.5–26.5 h freed ≈ room for **\~8–13 more links a month** without hiring. Links are sold inside SEO retainers, so this is delivery capacity, not extra revenue on top of the SEO figures.
+
+**3. Problems it eliminates**
+
+- **P-06** Link building runs on 7+ disconnected spreadsheets
+- **P-08** Outreacher invoicing tracked as PayPal links in spreadsheet cells
+
+**Goals:** more MRR managed per person · good performance · trust
+
+*Inputs from Austin (10 Nov): \~283 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.*
 
 ## Indicative build cost and OpEx
 

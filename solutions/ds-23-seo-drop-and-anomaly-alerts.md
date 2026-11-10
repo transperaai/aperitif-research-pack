@@ -36,7 +36,7 @@ notion_section: "SEO: drop and anomaly alerts"
 | Also helps | – |
 | Pain points cited | [LS-PP15](../pain-points/README.md#ls-pp15) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | Not quantified – retention value |
+| Value | 7–11 h/mo · A\$35K–58K capacity (≈ 1–1.5 SEO clients) |
 | Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
 | Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
@@ -72,9 +72,26 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 | Days from a ranking/traffic drop to the manager knowing | Unknown – found at month-end (LS-O03) | ≤ 1 day |
 | Drops raised by the client before the team | Happens | 0 |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Time is counted in [DS-22](ds-22-seo-automated-monday-client-performance-check.md). The cost here is **retention**: drops found at month-end weaken client trust (part of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s churn exposure). Not quantified separately.
+> **Drops are caught and explained the day they happen.** The alert arrives with the data collated and a first view of the cause and market context, so the manager goes straight to the fix and can tell the client before they notice.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
+| --- | --- | --- |
+| Working out why a client dropped (collating data, reading market signals) | 68 clients × \~0.4 drops a month × 15–25 min saved (20–30 min → \~5 min) | **\~7–11 h** (\~3.5–6 h per manager) |
+
+**2. Capacity and revenue unlocked:** \~7–11 h ÷ \~130 productive hours × \~A\$55.6K MRR per manager → **\~A\$2.9K–4.9K MRR across the SEO team ≈ A\$35K–58K a year of capacity** (≈ 1–1.5 more SEO clients). Drops found early also protect retention.
+
+**3. Problems it eliminates**
+
+- **P-03** No proactive performance alerting – problems found at month-end
+- Helps: **P-21** Managers at capacity
+
+**Goals:** good performance · retention · trust · more MRR managed per person
+
+*Inputs from Austin (10 Nov): \~0.4 drops worth investigating per client per month; 20–30 min to work out why today.*
 
 ## Indicative build cost and OpEx
 

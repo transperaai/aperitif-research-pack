@@ -36,7 +36,7 @@ notion_section: "New-client dossier agent"
 | Also helps | [P-20 Onboarding stalls on client access and disrupts BAU](../problems/p-20-onboarding-stalls-on-client-access-and-disrupts.md) – Solve later ("linked problem" only) |
 | Pain points cited | [KO-PP22](../pain-points/README.md#ko-pp22) |
 | Written source | – |
-| Cost of inactivity / year | Not quantified |
+| Value | New standard: every new client researched before kick-off |
 | Build cost | A\$200 |
 | Monthly | absorbed into DS-04 maintenance |
 
@@ -77,9 +77,13 @@ Every new client has a sourced dossier in their brain within a day of signing, s
 | New clients with a dossier before kick-off | 0 ([KO-PP22](../pain-points/README.md#ko-pp22)) | 100% |
 | Head of Client Services time on new-client research | Manual, per client ([KO-PP22](../pain-points/README.md#ko-pp22)) | ≈ 0 – review only |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified – no times were given for the research. It is leadership time (Head of Client Services) on every new client, plus delivery teams going into first calls without context.
+**Value:** a new standard – every new client gets a research pack (business, market, competitors, people) before kick-off. Today only Julia does this, for about 20 minutes, so for most clients nobody does it. The value is a sharper first impression and a team that walks in already understanding the client.
+
+**Problems it eliminates:** helps **P-20** Onboarding stalls and disrupts BAU
+
+**Goals:** good customer service · trust
 
 ## Indicative build cost and OpEx
 

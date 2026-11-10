@@ -36,7 +36,7 @@ notion_section: "Competitor spy per client"
 | Also helps | – |
 | Pain points cited | [ZC-PP15](../pain-points/README.md#zc-pp15) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | Not quantified separately – O-28 hours sit in DS-16 |
+| Value | React to competitors first |
 | Build cost | A\$1,000 |
 | Monthly | A\$300/month + tokens \~US\$10–40 (+ optional Visualping US\$100–140) |
 
@@ -71,9 +71,13 @@ notion_section: "Competitor spy per client"
 | Clients with an active competitor watch | 0 ([ZC-PP15](../pain-points/README.md#zc-pp15)) | 100% |
 | Competitor moves spotted by the team before the client mentions them | Not tracked | Track |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified separately – [O-28](../opportunities/README.md#o-28)'s hours sit in [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md). The cost is reacting late to competitors.
+**Value: ideas and a stronger service offering.** Every client's competitors are watched automatically, so the team reacts first instead of late – new pages, keyword moves and campaigns become ideas to take to the client, and "we watch your competitors every week" becomes part of what Aperitif offers. No hours claimed.
+
+**Problems it eliminates:** helps **P-24** Seasonal and trending content is planned too late
+
+**Goals:** good performance · good customer service · retention
 
 ## Indicative build cost and OpEx
 

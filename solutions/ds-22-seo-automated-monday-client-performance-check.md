@@ -36,7 +36,7 @@ notion_section: "SEO: automated Monday client performance check"
 | Also helps | – |
 | Pain points cited | [LS-PP05](../pain-points/README.md#ls-pp05), [ZC-PP05](../pain-points/README.md#zc-pp05) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | \$3.5K–\$9.8K – moved out of DS-01 |
+| Value | 17–39 h/mo · A\$88K–202K capacity (≈ 2–5 SEO clients) |
 | Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
 | Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
@@ -79,13 +79,35 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 | Weeks the Monday check is completed for every client | Sometimes skipped ([ZC-PP05](../pain-points/README.md#zc-pp05)) | 100% (automated) |
 | Manager time on the Monday check | Manual per client ([LS-PP05](../pain-points/README.md#ls-pp05)) | Review summary only |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **Performance intel comes to the SEO team.** Every Monday each manager gets a digest of how every client is going across GA4, Search Console and Ahrefs, so nobody opens three tools for every client to find out.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Recoverable SEO staff time | 3.6–10.2 h (\$290–\$820) | **\$3.5K–\$9.8K** |
+| Weekly check of each client in GA4, Search Console and Ahrefs | 68 live SEO clients × 5–10 min per week ≈ 25–49 h/month today; the digest removes 70–80% (estimate – the target, not a measured figure) | **\~17–39 h** (\~4–10 h per manager) |
 
-*Basis: the SEO sources of [O-12](../opportunities/README.md#o-12) – ZC-O03 1.6–5.5 h + LS-O03 2.0–4.7 h. Assumed. \$80/hr. Moved out of [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s figure so it isn't counted twice.*
+**2. Capacity and revenue unlocked**
+
+| Step | Figure |
+| --- | --- |
+| SEO managers | 4 (per org chart; \~17 clients each) |
+| MRR managed per manager today | \~A\$55.6K (A\$222,374 live SEO MRR across 68 clients ÷ 4) |
+| Time freed per manager | \~5–11 h/month ≈ 4–8% of \~130 productive hours (assumption) |
+| **Capacity unlocked across the SEO team** | **\~A\$7.3K–16.8K MRR ≈ A\$88K–202K a year** (≈ 2–5 more SEO clients at the \~A\$3,270 average) |
+
+Capacity to grow into without hiring, not guaranteed revenue.
+
+**3. Problems it eliminates**
+
+- **P-03** No proactive performance alerting – problems found at month-end (the SEO side)
+- Helps: **P-21** Managers at capacity – Tier 2/3 clients get dropped first
+
+**Goals:** more MRR managed per person · good performance · good customer service
+
+*Inputs from Austin (10 Nov): 68 live SEO clients and A\$222,374 live SEO MRR (client board, paused excluded), 5–10 min weekly check per client, 4 SEO managers (org chart). Assumptions: 70–80% of checks removed; \~130 productive hours per manager per month.*
 
 ## Indicative build cost and OpEx
 

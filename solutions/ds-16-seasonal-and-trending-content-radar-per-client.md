@@ -36,7 +36,7 @@ notion_section: "Per-client market radar → now: Seasonal & trending content ra
 | Also helps | – |
 | Pain points cited | [KZ-PP19](../pain-points/README.md#kz-pp19), [KZ-PP20](../pain-points/README.md#kz-pp20), [ZC-PP09](../pain-points/README.md#zc-pp09), [ZC-PP15](../pain-points/README.md#zc-pp15), [ZC-PP17](../pain-points/README.md#zc-pp17) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | \$2K–\$7K – O-28 hours; DS-32/DS-33 not quantified separately |
+| Value | Content lands before the peak, not after |
 | Build cost | A\$750 |
 | Monthly | A\$300/month (+ trends data \~US\$20–100 if needed) |
 
@@ -95,15 +95,13 @@ All three post to the client's strategist (Slack/Monday) and are stored in the c
 | Clients with an active competitor watch | 0 ([ZC-PP15](../pain-points/README.md#zc-pp15)) | 100% |
 | Trend checks done by hand | Every 2–3 days for one client ([KZ-PP19](../pain-points/README.md#kz-pp19)) | 0 |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (manual trend and competitor checks) | 2–7 h (\$180–\$560) | **\$2K–\$7K** |
+**Value: ideas and a stronger service offering, not time saved.** People already watch trends and seasons by hand (Karl refreshes Google Trends for Disney every 2–3 days because he can't do it daily), but only for some clients and only when they have time. The radar does far more of this, for every client, every day – so content lands before the peak instead of after it (the World Series was missed), and managers bring clients timely ideas they didn't ask for. That makes the service more proactive and gives clients more reasons to stay and to buy more. No hours claimed.
 
-The bigger cost isn't hours: missed seasonal peaks and events mean content that lands after demand has passed, weaker client results, and fewer proactive ideas to show clients – a retention and growth lever ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)). Not quantified.
+**Problems it eliminates:** **P-24** Seasonal and trending content is planned too late to catch the peak
 
-*Basis: [O-28](../opportunities/README.md#o-28) recoverable hours (KZ-O08 1.9–5.5 + ZC-O07 0.3–1.5). The macro trend tracker and the spy at full scale go beyond [O-28](../opportunities/README.md#o-28), so time saved may be higher. Assumed. \$80/hr.*
+**Goals:** good performance · good customer service · retention · trust
 
 ## Indicative build cost and OpEx
 

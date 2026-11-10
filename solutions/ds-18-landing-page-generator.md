@@ -36,7 +36,7 @@ notion_section: "Landing page generator"
 | Also helps | – |
 | Pain points cited | [KO-PP25](../pain-points/README.md#ko-pp25), [SH-PP11](../pain-points/README.md#sh-pp11), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
-| Cost of inactivity / year | Not quantified – needs count of pages outsourced per year |
+| Value | A new service offering (outsourced today at \~A\$1,500 a page) |
 | Build cost | A\$12,000 |
 | Monthly | A\$1,500/month + hosting/tokens |
 
@@ -85,9 +85,11 @@ notion_section: "Landing page generator"
 | Cost per landing page | \~\$1,500 outsourced ([WS-PP14](../pain-points/README.md#ws-pp14)) | Baseline in-house cost, then set |
 | Landing pages sold per month | Low – price barrier | Baseline, then set |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified from the interviews: outsourcing at \~\$1,500 a page, campaigns delayed while pages are built, and landing-page revenue lost because clients won't pay the outsourced price. Needs the number of pages outsourced per year to put a dollar figure on it.
+**Value: a new service offering and a capability gain.** Landing pages are outsourced today at \~A\$1,500 each, campaigns wait while they're built, and some clients won't pay that price. With an in-house generator Aperitif can build branded, CRO-structured pages itself, launch campaigns sooner, and sell landing pages as a service. No figures claimed.
+
+**Goals:** good performance · good customer service · more MRR managed per person
 
 ## Indicative build cost and OpEx
 

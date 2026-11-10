@@ -36,7 +36,7 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 | Also helps | [P-21 Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – Solve now ("also helps (partly)"; capacity not solved – O-17/O-19/O-32 dropped); [P-40 AI use is personal and ungoverned: no policy, shared skills, client context or seats](../problems/p-40-ai-use-is-personal-and-ungoverned-no.md) – Solve later; [P-25 No single home for current templates – versions held by individuals](../problems/p-25-no-single-home-for-current-templates-versions.md) – Solve now (deck templates only) |
 | Pain points cited | [KZ-PP18](../pain-points/README.md#kz-pp18), [KZ-PP21](../pain-points/README.md#kz-pp21), [LS-PP02](../pain-points/README.md#ls-pp02), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [MP-PP11](../pain-points/README.md#mp-pp11), [MP-PP12](../pain-points/README.md#mp-pp12), [WS-PP05](../pain-points/README.md#ws-pp05), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP13](../pain-points/README.md#ws-pp13) (inferred) |
 | Written source | – |
-| Cost of inactivity / year | \$9K–\$22K |
+| Value | 22–32 h/mo · A\$69K–104K capacity (≈ 1.5–2 clients) |
 | Build cost | A\$1850–A\$2250 |
 | Monthly | A\$350/month maintenance + tokens \~US\$5–40 |
 
@@ -109,17 +109,31 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 | Time to produce a proposal / prospect deck | Unknown; slow, on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21)) | Draft same day; baseline to be measured |
 | Proposals needing founder input on numbers | Most ([MP-PP11](../pain-points/README.md#mp-pp11)) | Only above the scope threshold |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **Review decks and proposals built for you.** The generator fills Aperitif's slide templates with the client's results and context from the brain, so managers review and add the story instead of building every deck by hand – and sales gets proposals out the same day.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on quarterly / 6-month reviews today | 11–23 h (\$0.9K–\$1.9K) | \$11K–\$22K |
-| Staff time on sales lead → proposal today | 3–12 h (\$0.2K–\$0.9K) | \$3K–\$11K |
-| Of which recoverable with this solution | \~10–23 h (\$0.8K–\$1.8K) | **\$9K–\$22K** |
+| Quarterly and six-month review decks | \~101 live clients: 60% get a six-month review (121 a year), 20% quarterly (81 a year) ≈ 17 decks a month × 1.5–2 h today → \~30 min to review | **\~16–24 h** (meeting prep already counted in [DS-04](ds-04-ai-client-brain.md) removed) |
+| Sales proposals | \~6–8 proposals a month (conservative estimate – could be more) × 1.5 h today → \~30 min | **\~6–8 h** (sales and leadership time) |
+| **Total** |  | **\~22–32 h ≈ A\$21K–31K a year** |
 
-Also at risk, not quantified: founder time locked into proposals instead of growth; slower proposals in an already 6–8 week sales cycle (KO-P01); margin leaking from under-priced scopes ([C-38](../synthesis/clusters-and-root-causes.md#c-38)); smaller clients getting weaker reviews because managers are at capacity ([C-17](../synthesis/clusters-and-root-causes.md#c-17)).
+**2. Capacity and revenue unlocked**
 
-*Basis: process costs from the Stage 2 roll-up (Quarterly / 6-month review 11.1–23.2 h; Sales – lead to proposal 3.0–11.8 h). Recoverable: deck part of [O-05](../opportunities/README.md#o-05) (WS-O06 6.0–22.1 + ZC-O11 1.2–6.0 + LS-O11, capped at 75% of the review process, since people still write the story) ≈ 8–17 h; proposals assumed \~50% of lead-to-proposal time ≈ 1.5–6 h. Monthly report savings in [O-05](../opportunities/README.md#o-05) excluded. Assumed – no stated times. \$80/hr.*
+Deck time freed (\~16–24 h) ÷ \~130 productive hours × \~A\$46.8K MRR per manager → **\~A\$5.7K–8.6K MRR ≈ A\$69K–104K a year of capacity** (≈ 1.5–2 more clients). Faster proposals also shorten an already 6–8 week sales cycle.
+
+**3. Problems it eliminates**
+
+- **P-05** Client documents are built by duplicating previous ones – errors reach clients
+- **P-19** Proposals are rebuilt from scratch per prospect
+- Helps: **P-18** Sales commits to work delivery can't profitably do · **P-21** Managers at capacity · **P-25** No single home for current templates
+
+**Goals:** more MRR managed per person · good customer service · trust
+
+*Inputs from Austin (10 Nov): 60% of clients get a six-month review, 20% quarterly; a deck takes 1.5–2 h (Disney is an outlier); proposals take \~1.5 h and should take \~30 min. Assumptions: \~30 min to review a generated deck; \~6–8 proposals a month.*
 
 ## Indicative build cost and OpEx
 

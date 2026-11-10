@@ -36,7 +36,7 @@ notion_section: "AI Business Brain – the umbrella"
 | Also helps | – |
 | Pain points cited | [KO-PP10](../pain-points/README.md#ko-pp10), [KO-PP14](../pain-points/README.md#ko-pp14), [KO-PP15](../pain-points/README.md#ko-pp15), [MP-PP04](../pain-points/README.md#mp-pp04), [MP-PP06](../pain-points/README.md#mp-pp06) (interviewer-raised), [MP-PP17](../pain-points/README.md#mp-pp17) (interviewer-raised), [MP-PP20](../pain-points/README.md#mp-pp20) (interviewer-raised) |
 | Written source | – |
-| Cost of inactivity / year | \~\$44K–\$134K combined (DS-02+DS-04+DS-10+DS-14, before overlap); company layer alone \$1K–\$4K – indicative, overlapping |
+| Value | Better visibility for leadership |
 | Build cost | A\$2,500 |
 | Monthly | TBC + tokens \~US\$2–15 |
 
@@ -105,11 +105,13 @@ notion_section: "AI Business Brain – the umbrella"
 | Questions to the founder / Head of Client Services on "how do we do X" | Repeated ([MP-PP04](../pain-points/README.md#mp-pp04)) | −50% |
 | SOPs answerable by the brain | 0 | 100% of the top-10 repeat tasks ([DS-02](ds-02-ai-playbook-repository.md)) |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-The umbrella's cost of inactivity is the **sum of the solutions under it** ([DS-02](ds-02-ai-playbook-repository.md), [DS-04](ds-04-ai-client-brain.md), [DS-10](ds-10-systems-register-and-break-fix-runbook.md), [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) – roughly \$44K–\$134K a year recoverable combined, before overlap is removed; [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s share (\$23K–\$52K) is mostly assumed prevented churn, already included – not added again). The company layer on its own adds 1–4 h/month (\$1K–\$4K a year) and leadership time on repeat explanations (not quantified).
+**Better visibility for leadership, not hours.** One place to ask anything about the business in Slack, a weekly leadership pulse, and a home for Joe's OpenClaw agents. Its value is optics: leadership sees what's happening without asking around. No hours claimed.
 
-*Basis: sum of the member solutions' recoverable figures ([DS-02](ds-02-ai-playbook-repository.md) \$6K–\$35K, [DS-04](ds-04-ai-client-brain.md) \$14K–\$43K, [DS-10](ds-10-systems-register-and-break-fix-runbook.md) \$1K–\$4K, [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) \$23K–\$52K incl. staff time and prevented churn) – overlapping, so indicative only. [O-27](../opportunities/README.md#o-27) hours assumed. \$80/hr.*
+**Problems it eliminates:** **P-12** Documentation is stale and rarely read · **P-13** Documentation and internal tooling held by the founder · **P-25** No single home for current templates · helps **P-47** and **P-48**
+
+**Goals:** trust · good performance
 
 ## Indicative build cost and OpEx
 

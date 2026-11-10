@@ -36,7 +36,7 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 | Also helps | [P-11 Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md) – Park (auto-created Monday tasks (problem parked)); [P-09 Content delivery hinges on the Content Manager as writer, editor and contractor manager](../problems/p-09-content-delivery-hinges-on-the-content-manager.md) – Solve later; [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) – Park (slots and cut-offs for the out-of-cycle client, text only) |
 | Pain points cited | [HT-PP01](../pain-points/README.md#ht-pp01), [HT-PP02](../pain-points/README.md#ht-pp02), [LS-PP03](../pain-points/README.md#ls-pp03), [SJ-PP01](../pain-points/README.md#sj-pp01), [SJ-PP02](../pain-points/README.md#sj-pp02), [SJ-PP04](../pain-points/README.md#sj-pp04), [SJ-PP06](../pain-points/README.md#sj-pp06), [SJ-PP10](../pain-points/README.md#sj-pp10), [SJ-PP11](../pain-points/README.md#sj-pp11), [SJ-PP14](../pain-points/README.md#sj-pp14), [ZC-PP02](../pain-points/README.md#zc-pp02), [ZC-PP03](../pain-points/README.md#zc-pp03) |
 | Written source | – |
-| Cost of inactivity / year | \$10K–\$29K |
+| Value | 8–12 h/mo of content-team time → more words written (not counted as MRR) |
 | Build cost | A\$350 |
 | Monthly | A\$100/month management (may bundle with other Claude-skill solutions) |
 
@@ -87,16 +87,31 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 | Briefs needing manual reformatting | All – copied into Word (ZC-O02) | 0 |
 | Time from brief approved to writer task created | Up to 2 days unseen ([SJ-PP02](../pain-points/README.md#sj-pp02)) | Same day, automatic |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **Every brief is clear, consistent and in one place.** Managers fill in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time spent on content briefing today | 48–114 h (\$3.8K–\$9.1K) | \$46K–\$109K |
-| Of which recoverable with this solution | \~10–30 h (\$0.8K–\$2.4K) | **\$10K–\$29K** |
+| Writing content briefs | \~48 briefs a month (48 clients on Monday receive content) × \~20 min today → \~5–10 min with the form | **\~8–12 h** (content team) |
 
-Also at risk, not quantified: briefs sitting unseen for up to two days against a two-week freelancer turnaround, so content lands late in the month ([SJ-PP02](../pain-points/README.md#sj-pp02)); SEO managers' first week of every month absorbed by briefing ([ZC-PP02](../pain-points/README.md#zc-pp02)).
+**2. Capacity and revenue unlocked**
 
-*Basis: content briefing process cost (Stage 2 roll-up); recoverable hours from [O-03](../opportunities/README.md#o-03) (9–22 h) plus the non-overlapping part of [O-25](../opportunities/README.md#o-25). Assumed. \$80/hr.*
+Briefs are written by the content team (Sarah Julian and Hayley Tantau), who are measured on words delivered each month – so the freed time goes into **more words written**, not more clients managed. It isn't counted as MRR capacity.
+
+The bigger win is clarity: briefs often lack it today, so writers go back and forth. A standard form fixes what goes into every brief, and drafts can be out on day one of the month instead of waiting on managers.
+
+**3. Problems it eliminates**
+
+- **P-33** Content briefs are re-cut and reformatted by hand, eating the first half of each month
+- **P-11** Content tracker and link sheets live outside Monday.com
+- Helps: **P-09** Content delivery hinges on the Content Manager · **P-32** Unplanned requests break the planned month
+
+**Goals:** good performance · good customer service · more MRR managed per person
+
+*Inputs from Austin (10 Nov): \~20 min per brief today, often lacking clarity; standardise with a form, produce automatically, save in the brain. Assumption: \~5–10 min per brief with the form.*
 
 ## Indicative build cost and OpEx
 

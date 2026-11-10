@@ -36,7 +36,7 @@ notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 | Also helps | – |
 | Pain points cited | [DM-PP01](../pain-points/README.md#dm-pp01), [WS-PP04](../pain-points/README.md#ws-pp04) |
 | Written source | – |
-| Cost of inactivity / year | \$3K–\$18K – overlaps DS-01 – do not add |
+| Value | Counted in DS-01 – removes the "what's going on" time when an alert fires |
 | Build cost | A\$5,000 |
 | Monthly | A\$750/month + tokens \~US\$15–60 |
 
@@ -97,13 +97,20 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 | Time to get up to speed on a flagged problem | \~20–30 min (Austin's estimate) | A few minutes |
 | Time from alert to cause found | Manual, varies | −50% |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Investigation time across platforms (one manager, est.) | 3.5–19 h (\$280–\$1.5K) | **\$3K–\$18K** |
+> **Gets the account manager straight to the fix.** When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 15–20 minutes working out what's going on.
 
-*Basis: [DM-PP01](../pain-points/README.md#dm-pp01) estimate for one manager (estimated, not stated). Overlaps [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s [O-12](../opportunities/README.md#o-12) share – do not add the two. \$80/hr.*
+**1. Time saved and 2. Capacity unlocked:** counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md). The time spent working out what's going on in an account is part of the weekly session already valued there, so it isn't counted again. DS-27 is what makes that time disappear when an alert fires – the diagnosis arrives with it.
+
+**3. Problems it eliminates**
+
+- **P-03** No proactive performance alerting – problems found at month-end (the diagnosis half)
+- Helps: **P-21** Managers at capacity – Tier 2/3 clients get dropped first
+
+**Goals:** more MRR managed per person · good performance · good customer service
+
+*Inputs from Austin (10 Nov): \~20 min to work out what's going on and fix it today.*
 
 ## Indicative build cost and OpEx
 

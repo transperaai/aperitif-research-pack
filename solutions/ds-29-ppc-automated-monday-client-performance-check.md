@@ -36,7 +36,7 @@ notion_section: "PPC: automated Monday client performance check"
 | Also helps | – |
 | Pain points cited | [DM-PP02](../pain-points/README.md#dm-pp02), [MC-PP08](../pain-points/README.md#mc-pp08), [MC-PP18](../pain-points/README.md#mc-pp18), [SH-PP11](../pain-points/README.md#sh-pp11), [SH-PP12](../pain-points/README.md#sh-pp12), [SH-PP15](../pain-points/README.md#sh-pp15) |
 | Written source | – |
-| Cost of inactivity / year | \$8K–\$20K – overlaps DS-01 – do not add |
+| Value | New standard: clients hear from Aperitif before they ask (trust, retention) |
 | Build cost | A\$1,500 |
 | Monthly | A\$500/month + tokens \~US\$5–25 |
 
@@ -90,13 +90,11 @@ Every paid client gets a performance check every Monday automatically, including
 | Days a tracking break goes unnoticed | Up to \~7 ([SH-PP11](../pain-points/README.md#sh-pp11)) | ≤ 1 week max, usually same week |
 | Merchant Center / feed checks done on time | Missed for \~3 weeks ([MC-PP18](../pain-points/README.md#mc-pp18)) | Weekly |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Manual account-by-account checks (one manager, est.) | 8.8–20.9 h (\$700–\$1.7K) | \$8K–\$20K |
+**Value: a new standard of client communication.** A weekly performance summary per client that the team can act on and report to the client from. Proactive client updates don't happen today, so this isn't time back – it's clients hearing from Aperitif before they ask, which builds trust and supports retention.
 
-*Basis: [DM-PP02](../pain-points/README.md#dm-pp02) estimate for one manager (estimated, not stated). This overlaps the performance-monitoring hours already counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s recoverable figure ([O-12](../opportunities/README.md#o-12) paid part), so* ***don't add [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) and DS-29 together*** *– split the figure when you split the solutions. \$80/hr.*
+**Goals:** trust · good customer service · retention
 
 ## Indicative build cost and OpEx
 

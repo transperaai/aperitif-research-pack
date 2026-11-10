@@ -1,0 +1,258 @@
+{
+ "_method": "Value set with Austin solution by solution (10 Nov). capacity = freed hours per manager / ~130 productive h x MRR per manager. Bundle totals later.",
+ "DS-01": {
+  "time_h_month": [
+   56,
+   64
+  ],
+  "capacity_arr": [
+   186000,
+   213000
+  ],
+  "clients": [
+   5,
+   6
+  ]
+ },
+ "DS-02": {
+  "time_h_month": null,
+  "capacity_arr": null,
+  "value": "foundation; reduces repeat questions; enables DS-03/04/05/06/08/09/14/15",
+  "problems": [
+   "P-40",
+   "P-44",
+   "helps P-28",
+   "helps P-12"
+  ]
+ },
+ "DS-27": {
+  "time_h_month": null,
+  "capacity_arr": null,
+  "value": "counted in DS-01; makes the understanding time disappear when an alert fires"
+ },
+ "DS-29": {
+  "value": "new capability: client communication & trust"
+ },
+ "DS-25": {},
+ "_teams": {
+  "PPC": {
+   "clients": 67,
+   "mrr": 198747,
+   "managers": 5,
+   "mrr_per_mgr": 39749,
+   "avg": 2966
+  },
+  "SEO": {
+   "clients": 68,
+   "mrr": 222374,
+   "managers": 4,
+   "mrr_per_mgr": 55594,
+   "avg": 3270
+  },
+  "TOTAL": {
+   "clients": 101,
+   "mrr": 421121,
+   "staff": 27,
+   "avg_per_client": 4170
+  },
+  "links_month": 283,
+  "meetings_month": 36,
+  "content_clients": 48,
+  "churn_board": "10 ended 31 Aug-17 Oct 2026, avg A$2,500",
+  "productive_h": 130,
+  "source": "client board 10 Nov, live (paused excluded)"
+ },
+ "DS-22": {
+  "time_h_month": [
+   17,
+   39
+  ],
+  "capacity_arr": [
+   88000,
+   202000
+  ]
+ },
+ "DS-23": {
+  "time_h_month": [
+   7,
+   11
+  ],
+  "capacity_arr": [
+   35000,
+   58000
+  ],
+  "drops": 0.4
+ },
+ "DS-24": {
+  "value": "trust & retention"
+ },
+ "DS-26": {},
+ "DS-11": {
+  "time_h_month": [
+   16.5,
+   26.5
+  ],
+  "links_month": [
+   8,
+   13
+  ],
+  "removal": 0.7
+ },
+ "DS-12": {
+  "time_h_month": [
+   6.5,
+   15
+  ],
+  "links_month": [
+   3,
+   8
+  ]
+ },
+ "DS-07": {
+  "recovered_arr_upto": [
+   10000,
+   16000
+  ]
+ },
+ "DS-31": {},
+ "DS-04": {
+  "time_h_month": [
+   6,
+   9
+  ],
+  "capacity_arr": [
+   26000,
+   39000
+  ]
+ },
+ "DS-14": {
+  "retained_arr": [
+   90000,
+   120000
+  ],
+  "saved": "3-4/yr x A$2,500"
+ },
+ "DS-15": {
+  "value": "leadership visibility/optics"
+ },
+ "DS-10": {
+  "value": "visibility & key-person risk"
+ },
+ "_rule": "Nothing parked: non-hour solutions get a qualitative Value line (new standard / visibility / risk).",
+ "DS-09": {
+  "time_h_month": [
+   10,
+   22
+  ],
+  "capacity_arr": [
+   51000,
+   113000
+  ]
+ },
+ "DS-08": {
+  "value": "new standard: teams meet to clarify not learn"
+ },
+ "DS-20": {
+  "value": "new standard: research pack per new client"
+ },
+ "DS-17": {
+  "value": "visibility & risk"
+ },
+ "DS-05": {
+  "time_h_month": [
+   22,
+   32
+  ],
+  "capacity_arr": [
+   69000,
+   104000
+  ]
+ },
+ "DS-28": {
+  "value": "consistent faster client comms, saved to brain"
+ },
+ "DS-03": {
+  "time_h_month": [
+   8,
+   12
+  ],
+  "capacity": "content output, not MRR"
+ },
+ "DS-06": {
+  "value": "capture what's missed"
+ },
+ "DS-30": {
+  "value": "focus; personal"
+ },
+ "DS-16": {
+  "value": "ideas & service offering"
+ },
+ "DS-32": {
+  "value": "ideas & service offering"
+ },
+ "DS-33": {
+  "value": "ideas & service offering"
+ },
+ "DS-21": {
+  "value": "faster creative, capability"
+ },
+ "DS-19": {
+  "value": "no missed leads"
+ },
+ "DS-18": {
+  "value": "new service offering"
+ },
+ "TOTAL": {
+  "time_h_month": [
+   149,
+   231
+  ],
+  "time_aud_year": [
+   143000,
+   221000
+  ],
+  "capacity_arr": [
+   455000,
+   729000
+  ],
+  "capacity_mrr": [
+   37900,
+   60750
+  ],
+  "capacity_pct": [
+   9,
+   14.4
+  ],
+  "clients": [
+   11,
+   18
+  ],
+  "conservative_capacity": [
+   404000,
+   616000
+  ],
+  "dler_per_person": {
+   "today": 15597,
+   "filled": [
+    17000,
+    17850
+   ]
+  },
+  "dler_per_am": {
+   "today": 46791,
+   "filled": [
+    51000,
+    53500
+   ]
+  },
+  "retained_arr": [
+   90000,
+   120000
+  ],
+  "recovered_upto": [
+   10000,
+   16000
+  ]
+ },
+ "_labels": "70-80% check removal = estimate/target; proposals 6-8 conservative; A$80/hr per Joe"
+}

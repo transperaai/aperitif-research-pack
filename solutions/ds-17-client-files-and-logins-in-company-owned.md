@@ -36,7 +36,7 @@ notion_section: "Client files and logins in company-owned shared locations"
 | Also helps | – |
 | Pain points cited | [SB-PP09](../pain-points/README.md#sb-pp09), [SH-PP08](../pain-points/README.md#sh-pp08) |
 | Written source | – |
-| Cost of inactivity / year | \$1K–\$4K |
+| Value | Nothing lost when someone leaves |
 | Build cost | Free |
 | Monthly | none |
 
@@ -88,15 +88,13 @@ notion_section: "Client files and logins in company-owned shared locations"
 | Client logins in the shared vault (not HubSpot or personal) | Migration unfinished ([SB-PP09](../pain-points/README.md#sb-pp09)) | 100% |
 | Time to find a client's documents on handover | "trying to find documents" ([SH-PP08](../pain-points/README.md#sh-pp08)) | \< 2 min |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (searching for files and logins) | 1–4 h (\$100–\$340) | **\$1K–\$4K** |
+**Value: visibility and risk.** Every client's files and logins live in company-owned locations linked to the client, so nothing is lost when someone leaves and anyone can find what they need. No hours claimed.
 
-Also at risk, not quantified: client files and logins lost when a staff member leaves; security risk of logins spread across HubSpot and personal places.
+**Problems it eliminates:** **P-23** Client work files are owned by individual staff accounts
 
-*Basis: [O-30](../opportunities/README.md#o-30) recoverable hours. Assumed. \$80/hr.*
+**Goals:** trust · good customer service
 
 ## Indicative build cost and OpEx
 

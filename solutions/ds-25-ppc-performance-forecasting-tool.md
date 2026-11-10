@@ -36,7 +36,7 @@ notion_section: "PPC: performance forecasting tool"
 | Also helps | – |
 | Pain points cited | [WS-PP12](../pain-points/README.md#ws-pp12), [WS-PP13](../pain-points/README.md#ws-pp13) (inferred) |
 | Written source | – |
-| Cost of inactivity / year | Not separately quantified – WS-O09 hours sit in DS-02 |
+| Value | Better budget decisions, fewer surprises |
 | Build cost | A\$3,000 for the bundle (DS-25 + DS-26) |
 | Monthly | A\$300/month + tokens \~US\$3–30 |
 
@@ -79,9 +79,11 @@ Every PPC manager can produce a client forecast in minutes, using the same metho
 | Managers producing forecasts with the shared tool | 1 (WS) | All PPC managers |
 | Forecast accuracy (actual vs forecast) | Not tracked | Baseline, then improve |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not separately quantified – WS-O09's 2–18 h/month sits in [DS-02](ds-02-ai-playbook-repository.md). The value is better budget decisions and fewer surprises for clients.
+**Value: better decisions, fewer surprises.** The team can simulate budget changes, seasonality and market shifts before committing, so budget conversations with clients are backed by a forecast and results land closer to what was promised.
+
+**Goals:** good performance · trust · good customer service
 
 ## Indicative build cost and OpEx
 

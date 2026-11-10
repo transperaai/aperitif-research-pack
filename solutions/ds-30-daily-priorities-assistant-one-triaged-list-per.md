@@ -36,7 +36,7 @@ notion_section: "Daily priorities assistant"
 | Also helps | [P-21 Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – Solve now ("also helps (partly)" – the right work surfaces first) |
 | Pain points cited | [MC-PP03](../pain-points/README.md#mc-pp03), [SB-PP01](../pain-points/README.md#sb-pp01), [SB-PP02](../pain-points/README.md#sb-pp02) |
 | Written source | – |
-| Cost of inactivity / year | \$6K–\$11K – O-29 / SB-O02 for one person; more if rolled out; moved out of DS-06 – do not add |
+| Value | Focus each morning |
 | Build cost | A\$2,000 |
 | Monthly | A\$500/month + tokens \~US\$20–70 |
 
@@ -87,13 +87,13 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 | Tasks overdue > 3 days | Unknown (DM-O03) | −70% |
 | Staff using the daily DM | 0 | ≥ 80% |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable triage time (one person, [O-29](../opportunities/README.md#o-29)) | 6–11 h (\$480–\$880) | **\$6K–\$11K** (more if rolled out to everyone) |
+**Value: everyone starts the day knowing what matters.** A morning DM pulls together what's due, what's been asked and what's flagged across Slack, Monday and email. How people plan their day is personal, so no hours are claimed – the value is focus and fewer things slipping.
 
-*Basis: [O-29](../opportunities/README.md#o-29) / SB-O02 for one person. Moved out of [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)'s figure – don't add the two. Assumed. \$80/hr.*
+**Problems it eliminates:** helps **P-16** Reminders go unacted · **P-21** Managers at capacity
+
+**Goals:** good performance · good customer service
 
 ## Indicative build cost and OpEx
 

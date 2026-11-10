@@ -36,7 +36,7 @@ notion_section: "AI playbook repository"
 | Also helps | – |
 | Pain points cited | [DM-PP12](../pain-points/README.md#dm-pp12), [LS-PP13](../pain-points/README.md#ls-pp13), [MC-PP19](../pain-points/README.md#mc-pp19), [MC-PP20](../pain-points/README.md#mc-pp20), [SB-PP12](../pain-points/README.md#sb-pp12), [SJ-PP07](../pain-points/README.md#sj-pp07), [ZC-PP11](../pain-points/README.md#zc-pp11) |
 | Written source | – |
-| Cost of inactivity / year | \$6K–\$35K |
+| Value | Fewer repeat questions; lets the other AI solutions run safely |
 | Build cost | Free |
 | Monthly | Claude Team seats paid by Aperitif direct (USD, new seat count TBC) |
 
@@ -102,15 +102,24 @@ notion_section: "AI playbook repository"
 | Repeat tasks with a playbook entry | Unknown | Agree a top-10 list; 100% covered |
 | Entries reviewed in the last 90 days | n/a | 100% |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (shared prompts, skills, research packs) | 6.5–36 h (\$520–\$2.9K) | **\$6K–\$35K** |
+> **The foundation, not a time-saver.** One place that answers the questions people keep asking – how do we use AI for this, what client data is allowed, which prompt or skill do I use – so they stop going to leads and each other, and every other AI solution runs safely.
 
-Also at risk, not quantified: client data going into personal, ungoverned AI accounts (at least one staff member pays for her own); content rejected by regulated clients for guideline breaches ([ZC-PP11](../pain-points/README.md#zc-pp11)); and [DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md) and [DS-04](ds-04-ai-client-brain.md) can't run safely without the rule and shared seats – so their cost of inactivity also continues.
+**1. Time saved:** none claimed. It reduces repeat questions to leads and colleagues, but this isn't counted as hours.
 
-*Basis: [O-02](../opportunities/README.md#o-02) recoverable hours (sum of each person's largest saving). Assumed. \$80/hr.*
+**2. Capacity and revenue unlocked:** none directly. It is what lets [DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-04](ds-04-ai-client-brain.md), [DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md), [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-08](ds-08-ai-sales-handover-extracted-from-sales-calls.md), [DS-09](ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) and [DS-15](ds-15-ai-business-brain-the-umbrella.md) run safely – without the AI data rule and shared seats, their value can't be delivered.
+
+**3. Problems it eliminates**
+
+- **P-40** AI use is personal and ungoverned: no policy, shared skills, client context or seats (at least one person pays for her own Claude account)
+- **P-44** Change fatigue and quiet AI anxiety slow adoption
+- Helps: **P-28** Regulated-industry content lacks shared compliance rules (content rejected for guideline breaches, [ZC-PP11](../pain-points/README.md#zc-pp11))
+- Helps: **P-12** Documentation is stale and rarely read
+
+**Risk removed:** client data going into personal, ungoverned AI accounts; content breaching clients' compliance guidelines.
+
+**Goals:** trust · good customer service · good performance
 
 ## Indicative build cost and OpEx
 

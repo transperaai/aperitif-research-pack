@@ -1,4 +1,4 @@
-Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89 as of 2026-11-10T00:47:04.042Z:
+Here is the result of "fetch" for the Page with URL https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89 as of 2026-11-10T07:20:03.494Z:
 <page url="https://app.notion.com/p/413e204ff76981c08c24cea3fc053f89" icon="💧">
 <ancestor-path></ancestor-path>
 <properties>
@@ -60,7 +60,7 @@ Austin's final solutions, worked through one opportunity at a time. Each entry r
 
 ---
 
-## DS-01 · Modern ad budget pacing + performance alerting
+## <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3e82dd57-363b-4bd7-aba8-14bcb2ae478c/414e204f-f769-80be-8e02-001c9cb20b05">DS-01 · Modern ad budget pacing + performance alerting</span>
 
 ### Vision
 
@@ -101,7 +101,7 @@ Tool being looked at: <b>Adpulse</b> – covers every channel incl. LinkedIn, pa
 | Alerts | Slack alerts on over/under-pace and threshold breaches – managers open an account when flagged |
 | Actions | None automated for now (phase 2 option) |
 
-### Opportunities it covers
+### <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/bfc5a39e-6b32-4fae-85d9-553d6f01942a/414e204f-f769-8099-ad75-001c45650f43">Opportunities it covers</span>
 
 - <b>O-01</b> Restore the pacing data feed and cover every live channel – rank 1, priority 125, quick win (7–19 h/month)
 - <b>O-11</b> Pacing tracker reads budgets and spend, flags gaps – rank 11, 75 (10–21 h/month)
@@ -110,7 +110,7 @@ Tool being looked at: <b>Adpulse</b> – covers every channel incl. LinkedIn, pa
 - <b>O-12</b> Cross-account performance monitor with draft diagnosis – rank 12, 75 – <b>the paid part only</b>. The SEO part (weekly GA4 / Search Console / Ahrefs digest) is now its own SEO-team solutions: DS-22, DS-23, DS-24 (your call, 9 Nov).
 - Your earlier ideas: <i>Pacing tracker + adjustment engine</i> and <i>Proactive PPC monitor and anomaly detector</i>
 
-Hours overlap between these, so they can't simply be added: indicative combined saving <b>\~16–40 h/month (\$1.3K–\$3.2K)</b>, assumed (SEO team's share moved to DS-22), plus protection against repeats of the <b>\$10K overspend credit</b>.
+Value for this solution is worked out in <b>Value</b> below (\~62–71 h/month saved; \~A\$200K–220K a year of PPC capacity). The hour ranges listed against each opportunity above are earlier estimates and are superseded.
 
 ### Problems it fixes and the evidence
 
@@ -178,17 +178,48 @@ Adpulse already covers every channel, pacing, spike/drop alerts and Slack. A thi
 | Overspend credits paid to clients | \$10K on one incident (MP-PP01) | \$0 |
 | Performance drops caught before month-end | Unknown – found in manual checks (SD-PP04) | Alert within 24–48 h |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Works like a junior performance checker on every account.</b> It watches ad performance and pacing for every client and tells the account manager when something needs attention, so managers stop checking every account by hand and spend their time on client relationships and strategy. That lets each manager confidently take on more clients without being spread thin.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time spent on pacing and monitoring today | 63–140 h (\$5.1K–\$11.2K) | \$61K–\$134K |
-| Of which recoverable with this solution | \~16–40 h (\$1.3K–\$3.2K) | <b>\$15K–\$38K</b> |
-| Overspend exposure | One \$10K credit already paid on an untracked/mis-paced channel | <b>+\$10K per repeat incident</b> |
+| Fixing the pacing feed and pacing gaps (Wendlley Simoes) | Feed breaks 3–4 times a week (\~20 min each); gaps appeared most days during the audit | <b>5–6 h</b> |
+| Weekly manual account checks | 67 live PPC clients × \~15 min per client per week ≈ 72.5 h/month today; alerts remove 70–80% of checks (estimate – the target, not a measured figure) | <b>\~51–58 h</b> (\~10–11.5 h per manager) |
+| <b>Total</b> |  | <b>\~56–64 h/month ≈ A\$54K–61K a year</b> at A\$80/hr |
 
-Also at risk, not quantified: performance drops and tracking breaks found at month-end rather than within days (7 staff raised this) – a retention risk.
+<b>2. Capacity and revenue unlocked</b>
 
-<i>Basis: process costs from the Stage 2 roll-up (pacing & budget management 50–101 h; performance monitoring 13–39 h); recoverable hours from O-01, O-11, O-15, O-10 and the paid part of O-12 with overlap removed (the SEO team's O-12 sources LS-O03 and ZC-O03, 3.6–10.2 h, moved to DS-22). Assumed – only \~4% of these hours rest on stated times. \$80/hr internal rate.</i>
+Managers divide their time by each client's share of their MRR, so capacity is measured as <b>MRR managed per person</b>. Checking an account costs the same whatever the client pays – it's a fixed overhead on every client – so removing it frees time that can go to managing more MRR.
+
+| Step | Figure |
+| --- | --- |
+| PPC account managers | 5 (per org chart; \~13–14 clients each) |
+| MRR managed per manager today | \~A\$39.7K (A\$198,747 live PPC MRR across 67 clients ÷ 5) |
+| Time freed per manager | \~10–11.5 h/month ≈ 8–9% of \~130 productive hours (assumption) |
+| Extra MRR each manager can carry | \~A\$3.1K–3.5K MRR (≈ 1 more client each) |
+| <b>Capacity unlocked across the PPC team</b> | <b>\~A\$15.5K–17.7K MRR ≈ A\$186K–213K a year</b> (≈ 5–6 more PPC clients at the \~A\$2,970 average) |
+
+This is capacity to grow into without hiring, not guaranteed revenue. The time spent working out what's going on is part of the weekly check counted here; DS-27 is what removes it when an alert fires.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-01</b> Meta pacing sheet is broken – Supermetrics connector failing
+- <b>P-02</b> Budgets maintained by hand in three places; a missed budget change cost a A\$10K credit
+- <b>P-03</b> No proactive performance alerting – problems found at month-end
+- Helps: <b>P-21</b> Managers at capacity – Tier 2/3 clients get dropped first
+
+<b>Risk removed:</b> repeats of the A\$10K overspend credit; performance drops and tracking breaks found within a day instead of at month-end.
+
+<b>Goals:</b> more MRR managed per person · good performance · good customer service · retention · trust
+
+<i>Scope note: if the AI client brain (DS-04) isn't built, diagnosis with client context can be brought into DS-01, at additional cost to cover the extra complexity.</i>
+
+<i>Inputs from Austin (10 Nov): 67 live PPC clients and A\$198,747 live PPC MRR (client board, 10 Nov, paused clients excluded), 5 PPC managers (org chart), \~15 min per weekly account check, pacing fixes by Wendlley. Assumptions: 70–80% of checks removed by alerts; \~130 productive hours per manager per month.</i>
 
 ### Indicative build cost and OpEx
 
@@ -251,7 +282,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Opportunities it covers
 
-- <b>O-02</b> AI data rule, company Claude seats and shared skills library – rank 2, priority 125, quick win, effort S (6.5–36 h/month, assumed)
+- <b>O-02</b> AI data rule, company Claude seats and shared skills library – rank 2, priority 125, quick win, effort S <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/de4235cb-0fb2-4bbf-8065-e0bf2d4add4c/414e204f-f769-8039-ac16-001c53a83fcd">(6.5–36 h/month, assum</span>ed)
 - <b>O-33</b> SOPs linked from Monday templates; stale pages retired – the SOP half
 - Your earlier idea: <i>L&D platform – training, manuals and SOPs made clear</i>
 - Foundation for: O-05 (AI-drafted reports), O-13 (per-client AI summary), O-27 (AI business brain)
@@ -280,15 +311,26 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Repeat tasks with a playbook entry | Unknown | Agree a top-10 list; 100% covered |
 | Entries reviewed in the last 90 days | n/a | 100% |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (shared prompts, skills, research packs) | 6.5–36 h (\$520–\$2.9K) | <b>\$6K–\$35K</b> |
+<callout icon="📈" color="green_bg">
+<b>The foundation, not a time-saver.</b> One place that answers the questions people keep asking – how do we use AI for this, what client data is allowed, which prompt or skill do I use – so they stop going to leads and each other, and every other AI solution runs safely.
+</callout>
 
-Also at risk, not quantified: client data going into personal, ungoverned AI accounts (at least one staff member pays for her own); content rejected by regulated clients for guideline breaches (ZC-PP11); and DS-03 and DS-04 can't run safely without the rule and shared seats – so their cost of inactivity also continues.
+<b>1. Time saved:</b> none claimed. It reduces repeat questions to leads and colleagues, but this isn't counted as hours.
 
-<i>Basis: O-02 recoverable hours (sum of each person's largest saving). Assumed. \$80/hr.</i>
+<b>2. Capacity and revenue unlocked:</b> none directly. It is what lets DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14 and DS-15 run safely – without the AI data rule and shared seats, their value can't be delivered.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-40</b> AI use is personal and ungoverned: no policy, shared skills, client context or seats (at least one person pays for her own Claude account)
+- <b>P-44</b> Change fatigue and quiet AI anxiety slow adoption
+- Helps: <b>P-28</b> Regulated-industry content lacks shared compliance rules (content rejected for guideline breaches, ZC-PP11)
+- Helps: <b>P-12</b> Documentation is stale and rarely read
+
+<b>Risk removed:</b> client data going into personal, ungoverned AI accounts; content breaching clients' compliance guidelines.
+
+<b>Goals:</b> trust · good customer service · good performance
 
 ### Indicative build cost and OpEx
 
@@ -362,16 +404,33 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 | Briefs needing manual reformatting | All – copied into Word (ZC-O02) | 0 |
 | Time from brief approved to writer task created | Up to 2 days unseen (SJ-PP02) | Same day, automatic |
 
-### Cost of inactivity (COI)
+### <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/d67b6b84-833b-477a-adfe-e4fa45d22cb5/414e204f-f769-80a6-b1b0-001c016aa8bb">Value (revised with Austin, 10 Nov)</span>
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Every brief is clear, consistent and in one place.</b> Managers fill in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time spent on content briefing today | 48–114 h (\$3.8K–\$9.1K) | \$46K–\$109K |
-| Of which recoverable with this solution | \~10–30 h (\$0.8K–\$2.4K) | <b>\$10K–\$29K</b> |
+| Writing content briefs | \~48 briefs a month (48 clients on Monday receive content) × \~20 min today → \~5–10 min with the form | <b>\~8–12 h</b> (content team) |
 
-Also at risk, not quantified: briefs sitting unseen for up to two days against a two-week freelancer turnaround, so content lands late in the month (SJ-PP02); SEO managers' first week of every month absorbed by briefing (ZC-PP02).
+<b>2. Capacity and revenue unlocked</b>
 
-<i>Basis: content briefing process cost (Stage 2 roll-up); recoverable hours from O-03 (9–22 h) plus the non-overlapping part of O-25. Assumed. \$80/hr.</i>
+Briefs are written by the content team (Sarah Julian and Hayley Tantau), who are measured on words delivered each month – so the freed time goes into <b>more words written</b>, not more clients managed. It isn't counted as MRR capacity.
+
+The bigger win is clarity: briefs often lack it today, so writers go back and forth. A standard form fixes what goes into every brief, and drafts can be out on day one of the month instead of waiting on managers.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-33</b> Content briefs are re-cut and reformatted by hand, eating the first half of each month
+- <b>P-11</b> Content tracker and link sheets live outside [Monday.com](http://Monday.com)
+- Helps: <b>P-09</b> Content delivery hinges on the Content Manager · <b>P-32</b> Unplanned requests break the planned month
+
+<b>Goals:</b> good performance · good customer service · more MRR managed per person
+
+<i>Inputs from Austin (10 Nov): \~20 min per brief today, often lacking clarity; standardise with a form, produce automatically, save in the brain. Assumption: \~5–10 min per brief with the form.</i>
 
 ### Indicative build cost and OpEx
 
@@ -447,7 +506,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 <b>Your decision (9 Nov):</b> an AI brain <b>for each client</b> that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to <b>review and query</b>. It sits under the <b>AI Business Brain</b> banner but is treated as a separate solution for now.
 
-### What it pulls together (draft)
+### What it pulls <span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/0e70869d-0a8a-4e91-8e21-112d28e4c6df/414e204f-f769-805c-850f-001c9685287f">together</span> (draft)
 
 | Source | What it adds |
 | --- | --- |
@@ -502,21 +561,39 @@ The query box is there for questions; the call-outs, logs and actions are always
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Prep + follow-up minutes per client call | 60–75 min per 30-min call (SD-O06, stated) | ≤ 30–40 min |
+| Prep minutes per client meeting | 15–20 min (Austin, 10 Nov) | \~5 min |
 | % of active clients with a current brain | 0 central (HT-O01) | 100% |
 | Client calls summarised into the brain within 24 h | \~0 – transcripts unused (ZC-O10, MP-PP20) | ≥ 95% |
 | Time to produce a handover pack | Unknown; missed until client chased (MC-PP14) | \< 10 min |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Every client's history, ready before every call.</b> The brain pulls together calls, emails, Slack, HubSpot, Monday and the work itself, so a manager opens a ready-made prep pack instead of digging through five places – and anyone can get up to speed on a client in minutes.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time spent on client meetings and prep today | 105–188 h (\$8.4K–\$15K) | \$100K–\$180K |
-| Of which recoverable with this solution | \~15–45 h (\$1.2K–\$3.6K) | <b>\$14K–\$43K</b> |
+| Preparing for client meetings | \~36 meetings a month (31 live clients with a monthly meeting + Tier 2 clients quarterly) × 15–20 min today → \~5 min with the brain | <b>\~6–9 h</b> |
 
-Also at risk, not quantified: client retention – a six-year client left with bad feedback (MP-PP16), and churn is spotted by gut feel; handovers missed until the client chases (MC-PP14); knowledge walking out when staff leave.
+Handovers and cover: target of <b>15 minutes or less</b> to get up to speed on any client (measured as a KPI, not counted as hours).
 
-<i>Basis: client meetings & prep is the best-evidenced process (39% of hours stated, incl. 60–75 min prep per 30-min call). Recoverable hours from O-04 and O-13 with overlap removed. Assumed. \$80/hr.</i>
+<b>2. Capacity and revenue unlocked</b>
+
+\~6–9 h ÷ \~130 productive hours × \~A\$46.8K MRR per manager (A\$421,121 live MRR ÷ 9 managers) → <b>\~A\$2.2K–3.3K MRR ≈ A\$26K–39K a year of capacity</b>. Its bigger value is as the foundation – it underpins DS-14, DS-27, DS-28, DS-05 and DS-03.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-14</b> Client knowledge lives in people's heads, not per client
+- <b>P-04</b> Client-call prep takes longer than the call
+- <b>P-27</b> Client handovers (sales to delivery, offboarding) have no structured pack
+- Helps: <b>P-22</b> Escalations route around department leads · <b>P-47</b> Teams work in silos · <b>P-28</b> Regulated-industry compliance rules
+
+<b>Goals:</b> more MRR managed per person · good customer service · retention · trust
+
+<i>Inputs from Austin (10 Nov): client board: 101 live clients, 31 with a monthly meeting, Tier 2 clients meet quarterly; 15–20 min prep today, \~5 min with the brain, handovers ≤15 min.</i>
 
 ### Indicative build cost and OpEx
 
@@ -524,7 +601,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 ### Assumptions
 
-- Hours saved assumed; the only stated figure is the 60–75 min prep per call.
+- Prep time per meeting is Austin's figure (15–20 min); one interviewee reported 60–75 min, treated as an outlier.
 - Needs call-recording consent from clients, the AI-data rule (DS-02) and read access to Slack, email and ad platforms.
 - One client-record template agreed across organic and paid.
 - Pulling Slack and email per client needs a reliable way to tag which messages belong to which client.
@@ -616,17 +693,33 @@ Implications to cover in the one-pager: an all-clients, all-sources custom app i
 | Time to produce a proposal / prospect deck | Unknown; slow, on top of BAU (KZ-PP21) | Draft same day; baseline to be measured |
 | Proposals needing founder input on numbers | Most (MP-PP11) | Only above the scope threshold |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Review decks and proposals built for you.</b> The generator fills Aperitif's slide templates with the client's results and context from the brain, so managers review and add the story instead of building every deck by hand – and sales gets proposals out the same day.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on quarterly / 6-month reviews today | 11–23 h (\$0.9K–\$1.9K) | \$11K–\$22K |
-| Staff time on sales lead → proposal today | 3–12 h (\$0.2K–\$0.9K) | \$3K–\$11K |
-| Of which recoverable with this solution | \~10–23 h (\$0.8K–\$1.8K) | <b>\$9K–\$22K</b> |
+| Quarterly and six-month review decks | \~101 live clients: 60% get a six-month review (121 a year), 20% quarterly (81 a year) ≈ 17 decks a month × 1.5–2 h today → \~30 min to review | <b>\~16–24 h</b> (meeting prep already counted in DS-04 removed) |
+| Sales proposals | \~6–8 proposals a month (conservative estimate – could be more) × 1.5 h today → \~30 min | <b>\~6–8 h</b> (sales and leadership time) |
+| <b>Total</b> |  | <b>\~22–32 h ≈ A\$21K–31K a year</b> |
 
-Also at risk, not quantified: founder time locked into proposals instead of growth; slower proposals in an already 6–8 week sales cycle (KO-P01); margin leaking from under-priced scopes (C-38); smaller clients getting weaker reviews because managers are at capacity (C-17).
+<b>2. Capacity and revenue unlocked</b>
 
-<i>Basis: process costs from the Stage 2 roll-up (Quarterly / 6-month review 11.1–23.2 h; Sales – lead to proposal 3.0–11.8 h). Recoverable: deck part of O-05 (WS-O06 6.0–22.1 + ZC-O11 1.2–6.0 + LS-O11, capped at 75% of the review process, since people still write the story) ≈ 8–17 h; proposals assumed \~50% of lead-to-proposal time ≈ 1.5–6 h. Monthly report savings in O-05 excluded. Assumed – no stated times. \$80/hr.</i>
+Deck time freed (\~16–24 h) ÷ \~130 productive hours × \~A\$46.8K MRR per manager → <b>\~A\$5.7K–8.6K MRR ≈ A\$69K–104K a year of capacity</b> (≈ 1.5–2 more clients). Faster proposals also shorten an already 6–8 week sales cycle.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-05</b> Client documents are built by duplicating previous ones – errors reach clients
+- <b>P-19</b> Proposals are rebuilt from scratch per prospect
+- Helps: <b>P-18</b> Sales commits to work delivery can't profitably do · <b>P-21</b> Managers at capacity · <b>P-25</b> No single home for current templates
+
+<b>Goals:</b> more MRR managed per person · good customer service · trust
+
+<i>Inputs from Austin (10 Nov): 60% of clients get a six-month review, 20% quarterly; a deck takes 1.5–2 h (Disney is an outlier); proposals take \~1.5 h and should take \~30 min. Assumptions: \~30 min to review a generated deck; \~6–8 proposals a month.</i>
 
 ### Indicative build cost and OpEx
 
@@ -686,10 +779,10 @@ Approach and price: see Pricing & priority.
 
 ### Opportunities it covers
 
-- <b>O-06</b> All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win (9.7–28.5 h/month, assumed) – <b>the capture part</b>. Your solution catches requests where people actually send them rather than relying on everyone using the form.
-- <b>SB-O02</b> AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks (6–11 h/month for one person, assumed).
-- <b>O-29</b> AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M (6–11 h/month for one person, assumed; more if rolled out to everyone) – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.
-- <b>Not included (your call):</b> O-06's Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">O-06</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf"> All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win (9.7–28.5 h/month, assumed) – </span><b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">the capture part</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/3a2c7e6d-2051-4dbb-a056-3bb28370cd70/414e204f-f769-80f2-b5aa-001c36cbfadf">. Your solution catches requests where people actually send them rather than relying on everyone using the form.</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8eb0fd54-208e-46fd-b3b5-d48ee1d36881/414e204f-f769-80f2-b5aa-001c36cbfadf">SB-O02</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8eb0fd54-208e-46fd-b3b5-d48ee1d36881/414e204f-f769-80f2-b5aa-001c36cbfadf"> AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks (6–11 h/month for one person, assumed).</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8c69e1b9-4a32-4db5-9f0e-fcb11cf12794/414e204f-f769-80f2-b5aa-001c36cbfadf">O-29</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/8c69e1b9-4a32-4db5-9f0e-fcb11cf12794/414e204f-f769-80f2-b5aa-001c36cbfadf"> AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M (6–11 h/month for one person, assumed; more if rolled out to everyone) – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.</span>
+- <b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/66772ed0-eb05-45cb-be33-0817c1b1c2f8/414e204f-f769-80f2-b5aa-001c36cbfadf">Not included (your call):</span></b><span discussion-urls="discussion://413e204f-f769-81c0-8c24-cea3fc053f89/66772ed0-eb05-45cb-be33-0817c1b1c2f8/414e204f-f769-80f2-b5aa-001c36cbfadf"> O-06's Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.</span>
 
 ### Problems it fixes and the evidence
 
@@ -714,17 +807,13 @@ Approach and price: see Pricing & priority.
 | Requests needing a chase for missing details | Unknown – "sometimes" (MC-PP04) | −50%; baseline to be measured |
 | Tasks overdue > 3 days | Unknown (DM-O03) | −70% (O-06) |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Staff time on internal task management today | 65–110 h (\$5.2K–\$8.8K) | \$62K–\$105K |
-| Staff time on client email & ad hoc requests today | 34–71 h (\$2.7K–\$5.6K) | \$33K–\$68K |
-| Of which recoverable with O-06 overall | \~10–29 h (\$0.8K–\$2.3K) | <b>\$9K–\$27K</b> |
+<b>Value: nothing gets missed.</b> Requests that arrive in Slack DMs and email are caught, confirmed and turned into Monday tasks, so work isn't lost or caught last-minute (Sid Bali: "not everybody uses Monday"). This is about capturing what's missed today, not time back – no hours claimed. It protects delivery quality and the client experience, and gives leadership a true picture of the work.
 
-Also at risk, not quantified: requests lost in DMs and caught last-minute (SB-PP01); leadership unable to see whether work is happening on remote days (MP-PP06, <i>raised by you</i>); planned work pushed into an overdue catch-up week by unlogged ad hoc asks (SB-PP15).
+<b>Problems it eliminates:</b> <b>P-16</b> Reminders go unacted; a broken reminder bot went unnoticed · <b>P-36</b> Internal task briefs are slow to write and unclear · helps <b>P-32</b> Unplanned requests break the planned month and <b>P-21</b> Managers at capacity
 
-<i>Basis: process costs from the Stage 2 roll-up (internal task management 64.5–109.7 h, 11% stated; client email & ad hoc 34.3–70.5 h). Recoverable hours use O-06's figure as a proxy: the sweeper drops O-06's forms and reminder changes but adds email capture (SB-O02, 6–11 h/month for one person), so the two roughly offset. Email triage alone is \~20–22 h/month for one person (SB-PP02, 1 h/day stated). Assumed. \$80/hr.</i>
+<b>Goals:</b> good customer service · good performance · trust
 
 ### Indicative build cost and OpEx
 
@@ -805,18 +894,25 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Time from link drop to the team knowing | Months – found in a one-off report | ≤ 7 days |
 | Dropped links replaced or refunded | Unknown | Set after baseline |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Staff time the link-QA process would need (Stage 2 roll-up) – most of these checks are <b>not being done today</b> (0% verified) | 11–36 h (\$0.9K–\$2.9K) | \$10K–\$34K |
-| Recoverable staff time | 5–10 h (\$400–\$800) | \$5K–\$10K |
-| Money lost on dead paid links | \~10 links × \$80–\$130 = \$0.8K–\$1.3K | \$10K–\$16K |
-| <b>Total recoverable (time + 50–100% of lost links)</b> | <b>\$0.8K–\$2.1K</b> | <b>\$10K–\$25K</b> |
+<callout icon="📈" color="green_bg">
+<b>Every paid link is watched.</b> Live links are checked automatically; when one disappears the team is alerted and a refund or re-placement request is drafted from templates.
+</callout>
 
-Also at risk, not quantified: client SEO results weakened by links that quietly vanish; paying the same unreliable publishers again because nobody tracks their record.
+<b>1. Time saved:</b> none claimed – live-link checks aren't done today, so this is new protection rather than time back.
 
-<i>Basis: process cost from the Stage 2 roll-up (Link building – QA & live checks 10.8–35.7 h). Dead-link rate and price from KZ-P10/KZ-PP10 (estimated: \~100 dead links over \~10 months). Recovery assumed at 50–100%. \$80/hr.</i>
+<b>2. Revenue protected</b>
+
+About <b>100 links stopped working over \~10 months</b> (Karl) – roughly <b>10 a month</b>. Refunds come from the publisher, so Aperitif recovers what it paid – \~A\$80–130 a link, <b>up to \~A\$10K–16K a year</b> (some losses are already found by hand, and a re-placed link isn't a refund) – and, more importantly, each lost link is caught and re-placed before the client's results suffer or the client notices.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-07</b> Paid links disappear after payment – detected manually
+
+<b>Goals:</b> trust · good performance · retention
+
+<i>Inputs from Austin (10 Nov): lost links are refunded or put back up by the publisher once noticed.</i>
 
 ### Indicative build cost and OpEx
 
@@ -897,16 +993,17 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Clients re-asked questions already answered in sales | Happens (SH-PP07) | 0 |
 | Deals denied by delivery, with reasons logged | Not tracked | Tracked; reasons reviewed monthly with sales |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Staff time on sales-to-delivery handover today | 2–14 h (\$0.2K–\$1.1K) | \$2K–\$13K |
-| Of which recoverable | 2–10 h (\$180–\$830) | <b>\$2K–\$10K</b> |
+<callout icon="📈" color="green_bg">
+<b>Teams meet to clarify, not to learn.</b> What was sold is pulled from the sales call and confirmed by delivery before kick-off, so the delivery manager starts with at least an hour's worth of prepared information instead of going in blind.
+</callout>
 
-The hours are small; the real cost is unquantified: <b>work done for clients who weren't ready</b> (two months with no website, WS-PP07), unprofitable scope sold without delivery's input (C-38), and a poor first impression when new clients are asked the same questions twice.
+<b>Value:</b> a new standard rather than time back – today barely any time goes into handover, so delivery starts blind (Michaela Cruz: "sometimes I'm going in blind"). With DS-08 every new client starts with a confirmed scope and context, which means better first months, fewer surprises about what was sold, and more trust from the client and the team.
 
-<i>Basis: process cost from the Stage 2 roll-up (Sales to delivery handover 2.4–14.0 h); recoverable from O-08. Assumed. \$80/hr.</i>
+<b>Problems it eliminates:</b> <b>P-27</b> Client handovers have no structured pack · <b>P-18</b> Sales commits to work delivery can't profitably do · helps <b>P-20</b>
+
+<b>Goals:</b> good customer service · trust · retention
 
 ### Indicative build cost and OpEx
 
@@ -984,16 +1081,29 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Audit hours per paid onboarding | Unknown – longest onboarding step (SD-O07) | −40% |
 | Concurrent onboardings per manager without overtime | Limited (KZ-PP02) | Set after baseline |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Onboarding stops capping growth.</b> AI pre-fills the onboarding audit and Master SEO Document so managers check and add strategy instead of building it from scratch – and can take on new clients without working out of hours.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on onboarding audit & strategy today | 32–121 h (\$2.5K–\$9.7K) | \$30K–\$117K |
-| Of which recoverable | 5–29 h (\$0.4K–\$2.3K) | <b>\$5K–\$28K</b> |
+| Building the SEO onboarding audit, Master SEO Document and strategy | \~2–3 new SEO clients a month (of 3–4 new clients overall) × 10–12 h each today; AI pre-filling cuts 50–60% | <b>\~10–22 h</b> |
 
-Also at risk, not quantified: <b>growth capped by onboarding capacity</b> (KZ-PP02) – fewer new clients taken on; junior staff turnover from repetitive onboarding work (KZ-PP03).
+<b>2. Capacity and revenue unlocked</b>
 
-<i>Basis: process cost from the Stage 2 roll-up (Client onboarding – audit & strategy 31.7–121.4 h); recoverable from O-14 (KZ-O01 4.2–19.5 + SD-O07 0.9–9.4). Assumed. \$80/hr.</i>
+\~10–22 h ÷ \~130 productive hours × \~A\$55.6K MRR per SEO manager → <b>\~A\$4.3K–9.4K MRR ≈ A\$51K–113K a year of capacity</b> (≈ 1–3 more SEO clients). Karl: onboarding effort caps how many new clients managers can take, and a five-onboarding month forced out-of-hours work – faster onboarding removes that cap.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-20</b> Onboarding stalls and disrupts BAU (month one is "pretty hectic", KZ-PP01/02)
+
+<b>Goals:</b> more MRR managed per person · good customer service · good performance
+
+<i>Inputs from Austin (10 Nov): 3–4 new clients a month; 10–12 h per SEO onboarding today. Assumptions: \~2–3 of the new clients are SEO; AI pre-filling cuts 50–60% (Karl: it would pull out "90% of the things").</i>
 
 ### Indicative build cost and OpEx
 
@@ -1069,15 +1179,13 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 | Systems with a trained backup owner | 0 for Monday/Make (SB-PP11) | 100% of critical systems |
 | Time to fix a broken automation | Depends on one person being available | Same day, by owner or backup |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time | 1–4 h (\$80–\$320) | <b>\$1K–\$4K</b> |
+<b>Visibility and risk, not hours.</b> A register of every automation, bot and tool – what it does, who owns it and how to fix it – so nothing depends on one person (today only Sid Bali knows the Monday and Make set-up). No hours claimed.
 
-The real cost is risk, not hours: if the one person who knows the Monday/Make set-up is away or leaves, task routing, onboarding boards and syncs stop with nobody able to fix them; unowned automations (like the pacing feed) fail silently – the pacing gap already contributed to a \$10K overspend credit (DS-01). Possible licence saving from the HubSpot/Monday decision – not quoted until invoices are checked (X-31).
+<b>Problems it eliminates:</b> <b>P-15</b> Slack bots and agents have no visible owner or documentation · <b>P-39</b> HubSpot–Make–Monday integrations create wrong or unverified tasks
 
-<i>Basis: O-16 recoverable hours. Assumed. \$80/hr.</i>
+<b>Goals:</b> trust · good performance
 
 ### Indicative build cost and OpEx
 
@@ -1161,16 +1269,30 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time (KZ-PP08) | Baseline, then −50% |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>One system for every link.</b> Orders, publishers, live links and invoices live in one CRM, so nobody copies orders into publisher sheets or re-keys every published link into the master sheet.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on link sourcing, ordering and invoicing today | 45–140 h (\$3.6K–\$11.2K) | \$43K–\$134K |
-| Of which recoverable with this solution | 6–26 h (\$0.5K–\$2.1K) | <b>\$6K–\$25K</b> |
+| Re-keying orders and live links, matching links to clients | \~283 links a month (live clients, client board) × 5–8 min ≈ 24–38 h today; the CRM removes \~70% (links are still entered once) | <b>\~16.5–26.5 h</b> |
 
-Also at risk, not quantified: link volume keeps rising (LS-PP12) on a process that can't scale; key-person risk on undocumented home-built tools (TG-PP09); payment errors from PayPal links in cells; and DS-07's savings depend on this list existing.
+<b>2. Capacity and revenue unlocked</b>
 
-<i>Basis: process costs from the Stage 2 roll-up (sourcing & ordering 43.3–135.9 h; outreacher invoicing 1.3–3.8 h); recoverable from O-18 (TG-O02 5.6–24.0 + KZ-O13 0.4–2.0). Sourcing time itself (vetting, negotiation) is mostly outside this solution – see O-20. Assumed. \$80/hr.</i>
+At \~2 h of team time per link today, \~16.5–26.5 h freed ≈ room for <b>\~8–13 more links a month</b> without hiring. Links are sold inside SEO retainers, so this is delivery capacity, not extra revenue on top of the SEO figures.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-06</b> Link building runs on 7+ disconnected spreadsheets
+- <b>P-08</b> Outreacher invoicing tracked as PayPal links in spreadsheet cells
+
+<b>Goals:</b> more MRR managed per person · good performance · trust
+
+<i>Inputs from Austin (10 Nov): \~283 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.</i>
 
 ### Indicative build cost and OpEx
 
@@ -1245,16 +1367,29 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Agreement between skill and link lead | \~50% (54 passed vs 27 approved, TG-PP02) | ≥ 90% |
 | Duplicate domains per client | Has happened (TG-PP10) | 0 |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Domains arrive pre-vetted and matched to clients.</b> AI checks quality and spam signals and suggests which client each domain suits, so Karl reviews a shortlist instead of 60 domains one at a time.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on link sourcing & ordering today | 43–136 h (\$3.5K–\$10.9K) | \$42K–\$130K |
-| Of which recoverable with this solution | 5–20 h (\$0.4K–\$1.6K) | <b>\$5K–\$19K</b> |
+| Vetting domains by hand | \~half of vetted domains approved → \~570 domains for 283 links ≈ 9–10 batches × 1–2 h = 9–19 h today; AI pre-vetting removes 70–80% | <b>\~6.5–15 h</b> (mostly Karl) |
 
-Also at risk, not quantified: client link targets missed for niche clients where supply is scarce; money spent on links from domains a consistent check would have rejected.
+<b>2. Capacity and revenue unlocked</b>
 
-<i>Basis: process cost from the Stage 2 roll-up (Link building – sourcing & ordering 43.3–135.9 h; overlaps DS-11's figure, so don't add the two process rows together). Recoverable from O-20. Assumed. \$80/hr.</i>
+\~6.5–15 h freed at \~2 h per link ≈ <b>\~3–8 more links a month</b> of delivery capacity (not counted as extra revenue). Karl's time moves from admin to growing the link team.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-34</b> Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent
+
+<b>Goals:</b> more MRR managed per person · good performance
+
+<i>Inputs from Austin (10 Nov): \~half of vetted domains approved; 60 domains a batch take 1–2 h (Karl). Assumption: AI pre-vetting removes 70–80% of vetting time.</i>
 
 ### Indicative build cost and OpEx
 
@@ -1400,19 +1535,31 @@ Covered by DS-14 – see its <b>Pricing & priority</b> box.
 | Upsell / cross-sell proposals raised per month | "a few" (LS-O07) | Baseline, then set a target |
 | Expansion revenue per month | Not baselined | Baseline, then set a target |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (watching for signs by hand) | 1–8 h (\$90–\$650) | \$1K–\$8K |
-| <b>Revenue lost to churn – ASSUMED</b> (Austin's assumption, not from interviews) | \~1.8 clients × \$5K = \~\$9K MRR lost per year's churn cohort | <b>\~\$110K a year (assumed)</b> |
-| <b>Of which recoverable – ASSUMED</b> (20–40% of churn prevented) | – | <b>\~\$22K–\$44K a year (assumed)</b> |
+<callout icon="📈" color="green_bg">
+<b>Early warning on clients at risk – and on growth.</b> The brain watches every client's signals and alerts the account manager, department lead and Julia with the evidence and a suggested next step, so at-risk clients are caught while there's still time.
+</callout>
 
-<b>Question for Joe:</b> what is the real average retainer and last year's churn rate? No churn figure was stated in the interviews. Note the context pack gives a 98% portfolio retention target (\~2% churn a year); at 2% the figure would be \~\$73K a year.
+<b>1. Time saved:</b> none claimed.
 
-The real cost of inactivity here is <b>churned revenue</b>, not hours – plus missed expansion, which isn't counted.
+<b>2. Revenue retained</b>
 
-<i>Basis (assumed, Austin 9 Nov): average retainer \$5K/month; churn 3% a year; at least 61 clients (the paid media book, Nov 2026 – the full count incl. SEO-only clients is higher). 61 × 3% ≈ 1.8 clients a year × \$60K a year each ≈ \$110K. Recoverable assumes the system prevents 20–40% of that churn. Staff time from O-31 at \$80/hr.</i>
+| Step | Figure |
+| --- | --- |
+| Clients lost today | 10 archived clients had contracts end between 31 Aug and 17 Oct 2026 (client board) |
+| Average retainer of clients who left | \~A\$2,500 a month (client board) |
+| Clients saved by early warning | 3–4 a year (Austin's estimate) |
+| <b>Revenue retained</b> | <b>\~A\$90K–120K a year</b> (3–4 × \~A\$2,500 × 12) |
+
+Growth signals (new products, markets, budgets) also surface upsell opportunities – not counted.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-31</b> Churn risk is spotted late and account teams report rather than advise
+- <b>P-22</b> Escalations route around department leads to the Head of Client Services (Part B escalation rules)
+
+<b>Goals:</b> retention · trust · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -1428,7 +1575,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 ### Decided (9 Nov)
 
 - <b>Who gets alerts:</b> the account owner, the <b>department lead and Julia at every risk level</b>. Julia's alerts can be <b>toggled on and off</b>; she wants them on for now. (DS-13's aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
-- <b>Churn basis runs as Austin's labelled assumption</b> (\$5K retainer, 3% a year, ≥61 clients) – not confirmed with Joe; put to him as a question.
+- <b>Churn basis:</b> the client board (10 archived clients ended 31 Aug–17 Oct 2026, average \~A\$2,500); 3–4 saved a year is Austin's estimate – confirm the churn rate with Joe.
 
 ### Open questions for you
 
@@ -1508,11 +1655,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Questions to the founder / Head of Client Services on "how do we do X" | Repeated (MP-PP04) | −50% |
 | SOPs answerable by the brain | 0 | 100% of the top-10 repeat tasks (DS-02) |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-The umbrella's cost of inactivity is the <b>sum of the solutions under it</b> (DS-02, DS-04, DS-10, DS-14 – roughly \$44K–\$134K a year recoverable combined, before overlap is removed; DS-14's share (\$23K–\$52K) is mostly assumed prevented churn, already included – not added again). The company layer on its own adds 1–4 h/month (\$1K–\$4K a year) and leadership time on repeat explanations (not quantified).
+<b>Better visibility for leadership, not hours.</b> One place to ask anything about the business in Slack, a weekly leadership pulse, and a home for Joe's OpenClaw agents. Its value is optics: leadership sees what's happening without asking around. No hours claimed.
 
-<i>Basis: sum of the member solutions' recoverable figures (DS-02 \$6K–\$35K, DS-04 \$14K–\$43K, DS-10 \$1K–\$4K, DS-14 \$23K–\$52K incl. staff time and prevented churn) – overlapping, so indicative only. O-27 hours assumed. \$80/hr.</i>
+<b>Problems it eliminates:</b> <b>P-12</b> Documentation is stale and rarely read · <b>P-13</b> Documentation and internal tooling held by the founder · <b>P-25</b> No single home for current templates · helps <b>P-47</b> and <b>P-48</b>
+
+<b>Goals:</b> trust · good performance
 
 ### Indicative build cost and OpEx
 
@@ -1591,15 +1740,13 @@ All three post to the client's strategist (Slack/Monday) and are stored in the c
 | Clients with an active competitor watch | 0 (ZC-PP15) | 100% |
 | Trend checks done by hand | Every 2–3 days for one client (KZ-PP19) | 0 |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (manual trend and competitor checks) | 2–7 h (\$180–\$560) | <b>\$2K–\$7K</b> |
+<b>Value: ideas and a stronger service offering, not time saved.</b> People already watch trends and seasons by hand (Karl refreshes Google Trends for Disney every 2–3 days because he can't do it daily), but only for some clients and only when they have time. The radar does far more of this, for every client, every day – so content lands before the peak instead of after it (the World Series was missed), and managers bring clients timely ideas they didn't ask for. That makes the service more proactive and gives clients more reasons to stay and to buy more. No hours claimed.
 
-The bigger cost isn't hours: missed seasonal peaks and events mean content that lands after demand has passed, weaker client results, and fewer proactive ideas to show clients – a retention and growth lever (DS-14). Not quantified.
+<b>Problems it eliminates:</b> <b>P-24</b> Seasonal and trending content is planned too late to catch the peak
 
-<i>Basis: O-28 recoverable hours (KZ-O08 1.9–5.5 + ZC-O07 0.3–1.5). The macro trend tracker and the spy at full scale go beyond O-28, so time saved may be higher. Assumed. \$80/hr.</i>
+<b>Goals:</b> good performance · good customer service · retention · trust
 
 ### Indicative build cost and OpEx
 
@@ -1671,15 +1818,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Client logins in the shared vault (not HubSpot or personal) | Migration unfinished (SB-PP09) | 100% |
 | Time to find a client's documents on handover | "trying to find documents" (SH-PP08) | \< 2 min |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (searching for files and logins) | 1–4 h (\$100–\$340) | <b>\$1K–\$4K</b> |
+<b>Value: visibility and risk.</b> Every client's files and logins live in company-owned locations linked to the client, so nothing is lost when someone leaves and anyone can find what they need. No hours claimed.
 
-Also at risk, not quantified: client files and logins lost when a staff member leaves; security risk of logins spread across HubSpot and personal places.
+<b>Problems it eliminates:</b> <b>P-23</b> Client work files are owned by individual staff accounts
 
-<i>Basis: O-30 recoverable hours. Assumed. \$80/hr.</i>
+<b>Goals:</b> trust · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -1747,9 +1892,11 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Cost per landing page | \~\$1,500 outsourced (WS-PP14) | Baseline in-house cost, then set |
 | Landing pages sold per month | Low – price barrier | Baseline, then set |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified from the interviews: outsourcing at \~\$1,500 a page, campaigns delayed while pages are built, and landing-page revenue lost because clients won't pay the outsourced price. Needs the number of pages outsourced per year to put a dollar figure on it.
+<b>Value: a new service offering and a capability gain.</b> Landing pages are outsourced today at \~A\$1,500 each, campaigns wait while they're built, and some clients won't pay that price. With an in-house generator Aperitif can build branded, CRO-structured pages itself, launch campaigns sooner, and sell landing pages as a service. No figures claimed.
+
+<b>Goals:</b> good performance · good customer service · more MRR managed per person
 
 ### Indicative build cost and OpEx
 
@@ -1818,9 +1965,11 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Inbound calls answered | Unknown | 100% |
 | Qualified leads booked into a sales call | Unknown | Baseline, then set |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – no call volumes or missed-call figures were discussed. Needs inbound call and lead volumes.
+<b>Value: no missed leads, and callers reach the right person first time.</b> New leads go straight to Joe and existing clients go to their account manager, so no enquiry is lost and clients aren't passed around. No figures claimed.
+
+<b>Goals:</b> good customer service · trust
 
 ### Indicative build cost and OpEx
 
@@ -1886,9 +2035,13 @@ Every new client has a sourced dossier in their brain within a day of signing, s
 | New clients with a dossier before kick-off | 0 (KO-PP22) | 100% |
 | Head of Client Services time on new-client research | Manual, per client (KO-PP22) | ≈ 0 – review only |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – no times were given for the research. It is leadership time (Head of Client Services) on every new client, plus delivery teams going into first calls without context.
+<b>Value:</b> a new standard – every new client gets a research pack (business, market, competitors, people) before kick-off. Today only Julia does this, for about 20 minutes, so for most clients nobody does it. The value is a sharper first impression and a team that walks in already understanding the client.
+
+<b>Problems it eliminates:</b> helps <b>P-20</b> Onboarding stalls and disrupts BAU
+
+<b>Goals:</b> good customer service · trust
 
 ### Indicative build cost and OpEx
 
@@ -1956,9 +2109,11 @@ Simple ad variants and resizes are made in-house with AI tools in minutes; the d
 | Ad variants made in-house per month | Canva only | Baseline, then set |
 | Time to launch an ad-hoc campaign | ≥ 1 week (SD-PP12) | Fewer days where client creative is the blocker |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – O-34's 0.3–2.2 h/month covered only the brief; the bigger costs are outsourced creative spend and slower launches, which weren't costed in the interviews.
+<b>Value: faster creative and a capability gain.</b> The performance team can produce and test ad creative in-house with proven AI tools instead of waiting on outsourced back-and-forth (Michaela Cruz: "they'll be doing the exact opposite of what you briefed in"). Campaigns launch sooner and more variants get tested. No figures claimed.
+
+<b>Goals:</b> good performance · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -2020,13 +2175,37 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 | Weeks the Monday check is completed for every client | Sometimes skipped (ZC-PP05) | 100% (automated) |
 | Manager time on the Monday check | Manual per client (LS-PP05) | Review summary only |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+<callout icon="📈" color="green_bg">
+<b>Performance intel comes to the SEO team.</b> Every Monday each manager gets a digest of how every client is going across GA4, Search Console and Ahrefs, so nobody opens three tools for every client to find out.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Recoverable SEO staff time | 3.6–10.2 h (\$290–\$820) | <b>\$3.5K–\$9.8K</b> |
+| Weekly check of each client in GA4, Search Console and Ahrefs | 68 live SEO clients × 5–10 min per week ≈ 25–49 h/month today; the digest removes 70–80% (estimate – the target, not a measured figure) | <b>\~17–39 h</b> (\~4–10 h per manager) |
 
-<i>Basis: the SEO sources of O-12 – ZC-O03 1.6–5.5 h + LS-O03 2.0–4.7 h. Assumed. \$80/hr. Moved out of DS-01's figure so it isn't counted twice.</i>
+<b>2. Capacity and revenue unlocked</b>
+
+| Step | Figure |
+| --- | --- |
+| SEO managers | 4 (per org chart; \~17 clients each) |
+| MRR managed per manager today | \~A\$55.6K (A\$222,374 live SEO MRR across 68 clients ÷ 4) |
+| Time freed per manager | \~5–11 h/month ≈ 4–8% of \~130 productive hours (assumption) |
+| <b>Capacity unlocked across the SEO team</b> | <b>\~A\$7.3K–16.8K MRR ≈ A\$88K–202K a year</b> (≈ 2–5 more SEO clients at the \~A\$3,270 average) |
+
+Capacity to grow into without hiring, not guaranteed revenue.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-03</b> No proactive performance alerting – problems found at month-end (the SEO side)
+- Helps: <b>P-21</b> Managers at capacity – Tier 2/3 clients get dropped first
+
+<b>Goals:</b> more MRR managed per person · good performance · good customer service
+
+<i>Inputs from Austin (10 Nov): 68 live SEO clients and A\$222,374 live SEO MRR (client board, paused excluded), 5–10 min weekly check per client, 4 SEO managers (org chart). Assumptions: 70–80% of checks removed; \~130 productive hours per manager per month.</i>
 
 ### Indicative build cost and OpEx
 
@@ -2077,9 +2256,28 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 | Days from a ranking/traffic drop to the manager knowing | Unknown – found at month-end (LS-O03) | ≤ 1 day |
 | Drops raised by the client before the team | Happens | 0 |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Time is counted in DS-22. The cost here is <b>retention</b>: drops found at month-end weaken client trust (part of DS-14's churn exposure). Not quantified separately.
+<callout icon="📈" color="green_bg">
+<b>Drops are caught and explained the day they happen.</b> The alert arrives with the data collated and a first view of the cause and market context, so the manager goes straight to the fix and can tell the client before they notice.
+</callout>
+
+<b>1. Time saved</b>
+
+| Task removed | How it's worked out | Per month |
+| --- | --- | --- |
+| Working out why a client dropped (collating data, reading market signals) | 68 clients × \~0.4 drops a month × 15–25 min saved (20–30 min → \~5 min) | <b>\~7–11 h</b> (\~3.5–6 h per manager) |
+
+<b>2. Capacity and revenue unlocked:</b> \~7–11 h ÷ \~130 productive hours × \~A\$55.6K MRR per manager → <b>\~A\$2.9K–4.9K MRR across the SEO team ≈ A\$35K–58K a year of capacity</b> (≈ 1–1.5 more SEO clients). Drops found early also protect retention.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-03</b> No proactive performance alerting – problems found at month-end
+- Helps: <b>P-21</b> Managers at capacity
+
+<b>Goals:</b> good performance · retention · trust · more MRR managed per person
+
+<i>Inputs from Austin (10 Nov): \~0.4 drops worth investigating per client per month; 20–30 min to work out why today.</i>
 
 ### Indicative build cost and OpEx
 
@@ -2127,9 +2325,11 @@ Every focus SEO client hears about a win between monthly reports.
 | Mid-month win notes sent per focus client | 0 | ≥ 1 a month |
 | Retention of clients receiving win notes | Not tracked | Track vs others |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – the value is retention (see DS-14's churn assumption). Time to draft is small once DS-22 exists.
+<b>Value: a new standard of client communication.</b> Mid-month wins are spotted and shared with clients proactively – something that doesn't happen today. Clients see progress between reports, which builds trust and supports retention.
+
+<b>Goals:</b> trust · retention · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -2186,9 +2386,11 @@ Every PPC manager can produce a client forecast in minutes, using the same metho
 | Managers producing forecasts with the shared tool | 1 (WS) | All PPC managers |
 | Forecast accuracy (actual vs forecast) | Not tracked | Baseline, then improve |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not separately quantified – WS-O09's 2–18 h/month sits in DS-02. The value is better budget decisions and fewer surprises for clients.
+<b>Value: better decisions, fewer surprises.</b> The team can simulate budget changes, seasonality and market shifts before committing, so budget conversations with clients are backed by a forecast and results land closer to what was promised.
+
+<b>Goals:</b> good performance · trust · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -2234,9 +2436,11 @@ See this solution's green <b>Pricing & priority</b> box above.
 | SEO clients with a current forecast | 0 | 100% of focus clients |
 | Forecast accuracy | Not tracked | Baseline, then improve |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – no times or figures were given for SEO forecasting.
+<b>Value: better planning, fewer surprises.</b> Organic forecasts per client let the team set realistic expectations and plan content and links against them, as DS-25 does for paid.
+
+<b>Goals:</b> good performance · trust · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -2311,13 +2515,22 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 | Time to get up to speed on a flagged problem | \~20–30 min (Austin's estimate) | A few minutes |
 | Time from alert to cause found | Manual, varies | −50% |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Investigation time across platforms (one manager, est.) | 3.5–19 h (\$280–\$1.5K) | <b>\$3K–\$18K</b> |
+<callout icon="📈" color="green_bg">
+<b>Gets the account manager straight to the fix.</b> When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 15–20 minutes working out what's going on.
+</callout>
 
-<i>Basis: DM-PP01 estimate for one manager (estimated, not stated). Overlaps DS-01's O-12 share – do not add the two. \$80/hr.</i>
+<b>1. Time saved and 2. Capacity unlocked:</b> counted in DS-01. The time spent working out what's going on in an account is part of the weekly session already valued there, so it isn't counted again. DS-27 is what makes that time disappear when an alert fires – the diagnosis arrives with it.
+
+<b>3. Problems it eliminates</b>
+
+- <b>P-03</b> No proactive performance alerting – problems found at month-end (the diagnosis half)
+- Helps: <b>P-21</b> Managers at capacity – Tier 2/3 clients get dropped first
+
+<b>Goals:</b> more MRR managed per person · good performance · good customer service
+
+<i>Inputs from Austin (10 Nov): \~20 min to work out what's going on and fix it today.</i>
 
 ### Indicative build cost and OpEx
 
@@ -2374,9 +2587,13 @@ Clients hear from the team through the month without managers writing every upda
 | Dips explained to the client before the monthly report | Rare | 100% of forecast dips |
 | Manager time on routine client comms | Crowds out strategy (SH-PP09) | Baseline, then −30% |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified separately – the time sits in "client email & ad hoc requests" (34–71 h/month across the team, partly in DS-06); the bigger cost is retention (DS-14).
+<b>Value: consistent, faster client communication.</b> Client updates and replies are drafted in each client's tone with the latest results and context, and every message is saved to the client brain – so clients get clear, timely updates and nothing said to a client is lost. Hours aren't claimed (no figures were given).
+
+<b>Problems it eliminates:</b> helps <b>P-31</b> Churn risk is spotted late and account teams report rather than advise
+
+<b>Goals:</b> good customer service · trust · retention
 
 ### Indicative build cost and OpEx
 
@@ -2445,13 +2662,11 @@ Every paid client gets a performance check every Monday automatically, including
 | Days a tracking break goes unnoticed | Up to \~7 (SH-PP11) | ≤ 1 week max, usually same week |
 | Merchant Center / feed checks done on time | Missed for \~3 weeks (MC-PP18) | Weekly |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Manual account-by-account checks (one manager, est.) | 8.8–20.9 h (\$700–\$1.7K) | \$8K–\$20K |
+<b>Value: a new standard of client communication.</b> A weekly performance summary per client that the team can act on and report to the client from. Proactive client updates don't happen today, so this isn't time back – it's clients hearing from Aperitif before they ask, which builds trust and supports retention.
 
-<i>Basis: DM-PP02 estimate for one manager (estimated, not stated). This overlaps the performance-monitoring hours already counted in DS-01's recoverable figure (O-12 paid part), so </i><i><b>don't add DS-01 and DS-29 together</b></i><i> – split the figure when you split the solutions. \$80/hr.</i>
+<b>Goals:</b> trust · good customer service · retention
 
 ### Indicative build cost and OpEx
 
@@ -2517,13 +2732,13 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 | Tasks overdue > 3 days | Unknown (DM-O03) | −70% |
 | Staff using the daily DM | 0 | ≥ 80% |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable triage time (one person, O-29) | 6–11 h (\$480–\$880) | <b>\$6K–\$11K</b> (more if rolled out to everyone) |
+<b>Value: everyone starts the day knowing what matters.</b> A morning DM pulls together what's due, what's been asked and what's flagged across Slack, Monday and email. How people plan their day is personal, so no hours are claimed – the value is focus and fewer things slipping.
 
-<i>Basis: O-29 / SB-O02 for one person. Moved out of DS-06's figure – don't add the two. Assumed. \$80/hr.</i>
+<b>Problems it eliminates:</b> helps <b>P-16</b> Reminders go unacted · <b>P-21</b> Managers at capacity
+
+<b>Goals:</b> good performance · good customer service
 
 ### Indicative build cost and OpEx
 
@@ -2582,9 +2797,11 @@ Every new unlinked mention of a top client is found within a week and followed u
 | Links won from brand mentions per month | 0 (ZC-PP16) | Set after a 1-month pilot |
 | Time from mention published to outreach sent | Not done | ≤ 7 days |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – the value is links won without paying a publisher (paid links cost \~\$80–\$130 each) and better rankings for Tier 1 clients. Time is small.
+<b>Value: links without paying a publisher.</b> Unlinked brand mentions are found and turned into links – every one won saves the \~A\$80–130 Aperitif pays for a placed link and strengthens the client's results.
+
+<b>Goals:</b> good performance
 
 ### Indicative build cost and OpEx
 
@@ -2633,9 +2850,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 | Clients with an active competitor watch | 0 (ZC-PP15) | 100% |
 | Competitor moves spotted by the team before the client mentions them | Not tracked | Track |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified separately – O-28's hours sit in DS-16. The cost is reacting late to competitors.
+<b>Value: ideas and a stronger service offering.</b> Every client's competitors are watched automatically, so the team reacts first instead of late – new pages, keyword moves and campaigns become ideas to take to the client, and "we watch your competitors every week" becomes part of what Aperitif offers. No hours claimed.
+
+<b>Problems it eliminates:</b> helps <b>P-24</b> Seasonal and trending content is planned too late
+
+<b>Goals:</b> good performance · good customer service · retention
 
 ### Indicative build cost and OpEx
 
@@ -2684,9 +2905,13 @@ See this solution's green <b>Pricing & priority</b> box above.
 | --- | --- | --- |
 | Relevant industry/news items acted on within a week | Depends on one person spotting them (ZC-PP17) | Track, then set |
 
-### Cost of inactivity (COI)
+### Value (revised with Austin, 10 Nov)
 
-Not quantified – the cost is missed timely content and surprises in client results.
+<b>Value: ideas and a stronger service offering.</b> News, regulation and industry shifts that affect each client are tracked and explained, so managers bring timely ideas and are rarely surprised by changes in a client's results. No hours claimed.
+
+<b>Problems it eliminates:</b> helps <b>P-24</b> Seasonal and trending content is planned too late
+
+<b>Goals:</b> good performance · good customer service · trust
 
 ### Indicative build cost and OpEx
 

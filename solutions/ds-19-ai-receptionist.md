@@ -37,7 +37,7 @@ notion_section: "AI receptionist"
 | Related only | [P-42 Growth depends on the founder and inbound leads while AI erodes core services](../problems/p-42-growth-depends-on-the-founder-and-inbound.md) – Reject |
 | Pain points cited | [KO-PP17](../pain-points/README.md#ko-pp17), [KO-PP18](../pain-points/README.md#ko-pp18) |
 | Written source | – |
-| Cost of inactivity / year | Not quantified – needs call and lead volumes |
+| Value | No missed leads; callers reach the right person |
 | Build cost | A\$100 |
 | Monthly | A\$250/month management + Aircall A\$150 PAYG min (A\$0.44/min) or A\$370/1,000 min |
 
@@ -85,9 +85,11 @@ notion_section: "AI receptionist"
 | Inbound calls answered | Unknown | 100% |
 | Qualified leads booked into a sales call | Unknown | Baseline, then set |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified – no call volumes or missed-call figures were discussed. Needs inbound call and lead volumes.
+**Value: no missed leads, and callers reach the right person first time.** New leads go straight to Joe and existing clients go to their account manager, so no enquiry is lost and clients aren't passed around. No figures claimed.
+
+**Goals:** good customer service · trust
 
 ## Indicative build cost and OpEx
 

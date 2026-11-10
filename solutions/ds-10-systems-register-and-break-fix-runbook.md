@@ -36,7 +36,7 @@ notion_section: "Systems register and break-fix runbook"
 | Also helps | [P-39 HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost](../problems/p-39-hubspot-make-monday-integrations-create-wrong-or.md) – Park ("also helps (you parked this problem)") |
 | Pain points cited | [SB-PP10](../pain-points/README.md#sb-pp10), [SB-PP11](../pain-points/README.md#sb-pp11), [SD-PP19](../pain-points/README.md#sd-pp19) (inferred) |
 | Written source | – |
-| Cost of inactivity / year | \$1K–\$4K |
+| Value | No reliance on one person |
 | Build cost | Free |
 | Monthly | none (Notion already paid) |
 
@@ -92,15 +92,13 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 | Systems with a trained backup owner | 0 for Monday/Make ([SB-PP11](../pain-points/README.md#sb-pp11)) | 100% of critical systems |
 | Time to fix a broken automation | Depends on one person being available | Same day, by owner or backup |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time | 1–4 h (\$80–\$320) | **\$1K–\$4K** |
+**Visibility and risk, not hours.** A register of every automation, bot and tool – what it does, who owns it and how to fix it – so nothing depends on one person (today only Sid Bali knows the Monday and Make set-up). No hours claimed.
 
-The real cost is risk, not hours: if the one person who knows the Monday/Make set-up is away or leaves, task routing, onboarding boards and syncs stop with nobody able to fix them; unowned automations (like the pacing feed) fail silently – the pacing gap already contributed to a \$10K overspend credit ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)). Possible licence saving from the HubSpot/Monday decision – not quoted until invoices are checked ([X-31](../synthesis/contradictions.md#x-31)).
+**Problems it eliminates:** **P-15** Slack bots and agents have no visible owner or documentation · **P-39** HubSpot–Make–Monday integrations create wrong or unverified tasks
 
-*Basis: [O-16](../opportunities/README.md#o-16) recoverable hours. Assumed. \$80/hr.*
+**Goals:** trust · good performance
 
 ## Indicative build cost and OpEx
 

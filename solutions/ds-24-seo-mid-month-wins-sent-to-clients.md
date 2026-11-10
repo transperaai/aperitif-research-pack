@@ -36,7 +36,7 @@ notion_section: "SEO: mid-month wins sent to clients"
 | Also helps | – |
 | Pain points cited | [LS-PP08](../pain-points/README.md#ls-pp08) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | Not quantified – retention value |
+| Value | New standard: wins shared between reports (trust, retention) |
 | Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
 | Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
@@ -70,9 +70,11 @@ Every focus SEO client hears about a win between monthly reports.
 | Mid-month win notes sent per focus client | 0 | ≥ 1 a month |
 | Retention of clients receiving win notes | Not tracked | Track vs others |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified – the value is retention (see [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s churn assumption). Time to draft is small once [DS-22](ds-22-seo-automated-monday-client-performance-check.md) exists.
+**Value: a new standard of client communication.** Mid-month wins are spotted and shared with clients proactively – something that doesn't happen today. Clients see progress between reports, which builds trust and supports retention.
+
+**Goals:** trust · retention · good customer service
 
 ## Indicative build cost and OpEx
 

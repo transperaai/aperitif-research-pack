@@ -36,7 +36,7 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 | Also helps | [P-20 Onboarding stalls on client access and disrupts BAU](../problems/p-20-onboarding-stalls-on-client-access-and-disrupts.md) – Solve later (via cluster C-09 in text) |
 | Pain points cited | [KO-PP01](../pain-points/README.md#ko-pp01) (interviewer-raised), [MC-PP10](../pain-points/README.md#mc-pp10), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP13](../pain-points/README.md#mc-pp13), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [SH-PP07](../pain-points/README.md#sh-pp07), [WS-PP06](../pain-points/README.md#ws-pp06), [WS-PP07](../pain-points/README.md#ws-pp07), [ZC-PP07](../pain-points/README.md#zc-pp07) |
 | Written source | – |
-| Cost of inactivity / year | \$2K–\$10K |
+| Value | New standard: at least an hour of prepared information before kick-off |
 | Build cost | A\$1,250 |
 | Monthly | A\$300/month + tokens \~US\$1–10 |
 
@@ -93,16 +93,15 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 | Clients re-asked questions already answered in sales | Happens ([SH-PP07](../pain-points/README.md#sh-pp07)) | 0 |
 | Deals denied by delivery, with reasons logged | Not tracked | Tracked; reasons reviewed monthly with sales |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Staff time on sales-to-delivery handover today | 2–14 h (\$0.2K–\$1.1K) | \$2K–\$13K |
-| Of which recoverable | 2–10 h (\$180–\$830) | **\$2K–\$10K** |
+> **Teams meet to clarify, not to learn.** What was sold is pulled from the sales call and confirmed by delivery before kick-off, so the delivery manager starts with at least an hour's worth of prepared information instead of going in blind.
 
-The hours are small; the real cost is unquantified: **work done for clients who weren't ready** (two months with no website, [WS-PP07](../pain-points/README.md#ws-pp07)), unprofitable scope sold without delivery's input ([C-38](../synthesis/clusters-and-root-causes.md#c-38)), and a poor first impression when new clients are asked the same questions twice.
+**Value:** a new standard rather than time back – today barely any time goes into handover, so delivery starts blind (Michaela Cruz: "sometimes I'm going in blind"). With DS-08 every new client starts with a confirmed scope and context, which means better first months, fewer surprises about what was sold, and more trust from the client and the team.
 
-*Basis: process cost from the Stage 2 roll-up (Sales to delivery handover 2.4–14.0 h); recoverable from [O-08](../opportunities/README.md#o-08). Assumed. \$80/hr.*
+**Problems it eliminates:** **P-27** Client handovers have no structured pack · **P-18** Sales commits to work delivery can't profitably do · helps **P-20**
+
+**Goals:** good customer service · trust · retention
 
 ## Indicative build cost and OpEx
 

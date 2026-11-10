@@ -36,7 +36,7 @@ notion_section: "AI client brain (per client)"
 | Also helps | [P-22 Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) – Solve now (partly); [P-47 Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) – Solve now |
 | Pain points cited | [KO-PP05](../pain-points/README.md#ko-pp05), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP14](../pain-points/README.md#mc-pp14), [MP-PP16](../pain-points/README.md#mp-pp16), [MP-PP20](../pain-points/README.md#mp-pp20) (interviewer-raised), [SB-PP03](../pain-points/README.md#sb-pp03), [SD-PP05](../pain-points/README.md#sd-pp05), [SJ-PP09](../pain-points/README.md#sj-pp09), [ZC-PP04](../pain-points/README.md#zc-pp04) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | \$14K–\$43K |
+| Value | 6–9 h/mo · A\$26K–39K capacity; the foundation for DS-03, 05, 14, 27, 28 |
 | Build cost | A\$12,500 |
 | Monthly | A\$850/month maintenance; hosting + tokens TBC (model-agnostic; research needed) |
 
@@ -126,21 +126,37 @@ The query box is there for questions; the call-outs, logs and actions are always
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Prep + follow-up minutes per client call | 60–75 min per 30-min call (SD-O06, stated) | ≤ 30–40 min |
+| Prep minutes per client meeting | 15–20 min (Austin, 10 Nov) | \~5 min |
 | % of active clients with a current brain | 0 central (HT-O01) | 100% |
 | Client calls summarised into the brain within 24 h | \~0 – transcripts unused (ZC-O10, [MP-PP20](../pain-points/README.md#mp-pp20)) | ≥ 95% |
 | Time to produce a handover pack | Unknown; missed until client chased ([MC-PP14](../pain-points/README.md#mc-pp14)) | \< 10 min |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **Every client's history, ready before every call.** The brain pulls together calls, emails, Slack, HubSpot, Monday and the work itself, so a manager opens a ready-made prep pack instead of digging through five places – and anyone can get up to speed on a client in minutes.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time spent on client meetings and prep today | 105–188 h (\$8.4K–\$15K) | \$100K–\$180K |
-| Of which recoverable with this solution | \~15–45 h (\$1.2K–\$3.6K) | **\$14K–\$43K** |
+| Preparing for client meetings | \~36 meetings a month (31 live clients with a monthly meeting + Tier 2 clients quarterly) × 15–20 min today → \~5 min with the brain | **\~6–9 h** |
 
-Also at risk, not quantified: client retention – a six-year client left with bad feedback ([MP-PP16](../pain-points/README.md#mp-pp16)), and churn is spotted by gut feel; handovers missed until the client chases ([MC-PP14](../pain-points/README.md#mc-pp14)); knowledge walking out when staff leave.
+Handovers and cover: target of **15 minutes or less** to get up to speed on any client (measured as a KPI, not counted as hours).
 
-*Basis: client meetings & prep is the best-evidenced process (39% of hours stated, incl. 60–75 min prep per 30-min call). Recoverable hours from [O-04](../opportunities/README.md#o-04) and [O-13](../opportunities/README.md#o-13) with overlap removed. Assumed. \$80/hr.*
+**2. Capacity and revenue unlocked**
+
+\~6–9 h ÷ \~130 productive hours × \~A\$46.8K MRR per manager (A\$421,121 live MRR ÷ 9 managers) → **\~A\$2.2K–3.3K MRR ≈ A\$26K–39K a year of capacity**. Its bigger value is as the foundation – it underpins [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md), [DS-27](ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md), [DS-28](ds-28-client-comms-assistant-monthly-updates-and-expectation.md), [DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md) and [DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md).
+
+**3. Problems it eliminates**
+
+- **P-14** Client knowledge lives in people's heads, not per client
+- **P-04** Client-call prep takes longer than the call
+- **P-27** Client handovers (sales to delivery, offboarding) have no structured pack
+- Helps: **P-22** Escalations route around department leads · **P-47** Teams work in silos · **P-28** Regulated-industry compliance rules
+
+**Goals:** more MRR managed per person · good customer service · retention · trust
+
+*Inputs from Austin (10 Nov): client board: 101 live clients, 31 with a monthly meeting, Tier 2 clients meet quarterly; 15–20 min prep today, \~5 min with the brain, handovers ≤15 min.*
 
 ## Indicative build cost and OpEx
 
@@ -148,7 +164,7 @@ See this solution's green **Pricing & priority** box above.
 
 ## Assumptions
 
-- Hours saved assumed; the only stated figure is the 60–75 min prep per call.
+- Prep time per meeting is Austin's figure (15–20 min); one interviewee reported 60–75 min, treated as an outlier.
 - Needs call-recording consent from clients, the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)) and read access to Slack, email and ad platforms.
 - One client-record template agreed across organic and paid.
 - Pulling Slack and email per client needs a reliable way to tag which messages belong to which client.

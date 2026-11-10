@@ -37,7 +37,7 @@ notion_section: "Link watchdog agent: monitors every paid link"
 | Related only | [P-06 Link building runs on 7+ disconnected spreadsheets](../problems/p-06-link-building-runs-on-7-disconnected-spreadsheets.md) – Solve now |
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP10](../pain-points/README.md#kz-pp10), [MP-PP13](../pain-points/README.md#mp-pp13), [TG-PP11](../pain-points/README.md#tg-pp11), [ZC-PP10](../pain-points/README.md#zc-pp10) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | \$10K–\$25K |
+| Value | Up to A\$10K–16K/yr recovered; client results protected |
 | Build cost | A\$2,250 |
 | Monthly | A\$350/month + tokens \~US\$1–10 (+ optional proxy \~US\$0–50) |
 
@@ -93,18 +93,23 @@ notion_section: "Link watchdog agent: monitors every paid link"
 | Time from link drop to the team knowing | Months – found in a one-off report | ≤ 7 days |
 | Dropped links replaced or refunded | Unknown | Set after baseline |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Staff time the link-QA process would need (Stage 2 roll-up) – most of these checks are **not being done today** (0% verified) | 11–36 h (\$0.9K–\$2.9K) | \$10K–\$34K |
-| Recoverable staff time | 5–10 h (\$400–\$800) | \$5K–\$10K |
-| Money lost on dead paid links | \~10 links × \$80–\$130 = \$0.8K–\$1.3K | \$10K–\$16K |
-| **Total recoverable (time + 50–100% of lost links)** | **\$0.8K–\$2.1K** | **\$10K–\$25K** |
+> **Every paid link is watched.** Live links are checked automatically; when one disappears the team is alerted and a refund or re-placement request is drafted from templates.
 
-Also at risk, not quantified: client SEO results weakened by links that quietly vanish; paying the same unreliable publishers again because nobody tracks their record.
+**1. Time saved:** none claimed – live-link checks aren't done today, so this is new protection rather than time back.
 
-*Basis: process cost from the Stage 2 roll-up (Link building – QA & live checks 10.8–35.7 h). Dead-link rate and price from KZ-P10/KZ-PP10 (estimated: \~100 dead links over \~10 months). Recovery assumed at 50–100%. \$80/hr.*
+**2. Revenue protected**
+
+About **100 links stopped working over \~10 months** (Karl) – roughly **10 a month**. Refunds come from the publisher, so Aperitif recovers what it paid – \~A\$80–130 a link, **up to \~A\$10K–16K a year** (some losses are already found by hand, and a re-placed link isn't a refund) – and, more importantly, each lost link is caught and re-placed before the client's results suffer or the client notices.
+
+**3. Problems it eliminates**
+
+- **P-07** Paid links disappear after payment – detected manually
+
+**Goals:** trust · good performance · retention
+
+*Inputs from Austin (10 Nov): lost links are refunded or put back up by the publisher once noticed.*
 
 ## Indicative build cost and OpEx
 

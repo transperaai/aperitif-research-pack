@@ -36,7 +36,7 @@ notion_section: "AI creative tools to augment the team"
 | Also helps | – |
 | Pain points cited | [MC-PP15](../pain-points/README.md#mc-pp15), [MP-PP22](../pain-points/README.md#mp-pp22), [SD-PP12](../pain-points/README.md#sd-pp12), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
-| Cost of inactivity / year | Not quantified |
+| Value | Faster creative in-house |
 | Build cost | Free |
 | Monthly | software paid direct \~US\$70–380/month |
 
@@ -85,9 +85,11 @@ Simple ad variants and resizes are made in-house with AI tools in minutes; the d
 | Ad variants made in-house per month | Canva only | Baseline, then set |
 | Time to launch an ad-hoc campaign | ≥ 1 week ([SD-PP12](../pain-points/README.md#sd-pp12)) | Fewer days where client creative is the blocker |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified – [O-34](../opportunities/README.md#o-34)'s 0.3–2.2 h/month covered only the brief; the bigger costs are outsourced creative spend and slower launches, which weren't costed in the interviews.
+**Value: faster creative and a capability gain.** The performance team can produce and test ad creative in-house with proven AI tools instead of waiting on outsourced back-and-forth (Michaela Cruz: "they'll be doing the exact opposite of what you briefed in"). Campaigns launch sooner and more variants get tested. No figures claimed.
+
+**Goals:** good performance · good customer service
 
 ## Indicative build cost and OpEx
 

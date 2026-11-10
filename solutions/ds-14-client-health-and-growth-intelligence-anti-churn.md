@@ -37,7 +37,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Park |
 | Pain points cited | [KO-PP06](../pain-points/README.md#ko-pp06) (inferred), [KO-PP20](../pain-points/README.md#ko-pp20), [KO-PP21](../pain-points/README.md#ko-pp21), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09) (interviewer-raised), [LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16) |
 | Written source | – |
-| Cost of inactivity / year | \~\$22K–\$44K prevented churn (ASSUMED) + \$1K–\$8K staff time – Austin's assumption: \$5K retainer, 3%/yr, >=61 clients; at 2% \~ \$73K at risk |
+| Value | A\$90K–120K/yr retained (3–4 clients saved) |
 | Build cost | A\$6,500 |
 | Monthly | A\$500/month (for now) + tokens \~US\$40–150 |
 
@@ -95,19 +95,29 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Upsell / cross-sell proposals raised per month | "a few" (LS-O07) | Baseline, then set a target |
 | Expansion revenue per month | Not baselined | Baseline, then set a target |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Recoverable staff time (watching for signs by hand) | 1–8 h (\$90–\$650) | \$1K–\$8K |
-| **Revenue lost to churn – ASSUMED** (Austin's assumption, not from interviews) | \~1.8 clients × \$5K = \~\$9K MRR lost per year's churn cohort | **\~\$110K a year (assumed)** |
-| **Of which recoverable – ASSUMED** (20–40% of churn prevented) | – | **\~\$22K–\$44K a year (assumed)** |
+> **Early warning on clients at risk – and on growth.** The brain watches every client's signals and alerts the account manager, department lead and Julia with the evidence and a suggested next step, so at-risk clients are caught while there's still time.
 
-**Question for Joe:** what is the real average retainer and last year's churn rate? No churn figure was stated in the interviews. Note the context pack gives a 98% portfolio retention target (\~2% churn a year); at 2% the figure would be \~\$73K a year.
+**1. Time saved:** none claimed.
 
-The real cost of inactivity here is **churned revenue**, not hours – plus missed expansion, which isn't counted.
+**2. Revenue retained**
 
-*Basis (assumed, Austin 9 Nov): average retainer \$5K/month; churn 3% a year; at least 61 clients (the paid media book, Nov 2026 – the full count incl. SEO-only clients is higher). 61 × 3% ≈ 1.8 clients a year × \$60K a year each ≈ \$110K. Recoverable assumes the system prevents 20–40% of that churn. Staff time from [O-31](../opportunities/README.md#o-31) at \$80/hr.*
+| Step | Figure |
+| --- | --- |
+| Clients lost today | 10 archived clients had contracts end between 31 Aug and 17 Oct 2026 (client board) |
+| Average retainer of clients who left | \~A\$2,500 a month (client board) |
+| Clients saved by early warning | 3–4 a year (Austin's estimate) |
+| **Revenue retained** | **\~A\$90K–120K a year** (3–4 × \~A\$2,500 × 12) |
+
+Growth signals (new products, markets, budgets) also surface upsell opportunities – not counted.
+
+**3. Problems it eliminates**
+
+- **P-31** Churn risk is spotted late and account teams report rather than advise
+- **P-22** Escalations route around department leads to the Head of Client Services (Part B escalation rules)
+
+**Goals:** retention · trust · good customer service
 
 ## Indicative build cost and OpEx
 
@@ -123,7 +133,7 @@ See this solution's green **Pricing & priority** box above.
 ## Decided (9 Nov)
 
 - **Who gets alerts:** the account owner, the **department lead and Julia at every risk level**. Julia's alerts can be **toggled on and off**; she wants them on for now. ([DS-13](ds-13-merged-into-ds-14.md)'s aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
-- **Churn basis runs as Austin's labelled assumption** (\$5K retainer, 3% a year, ≥61 clients) – not confirmed with Joe; put to him as a question.
+- **Churn basis:** the client board (10 archived clients ended 31 Aug–17 Oct 2026, average \~A\$2,500); 3–4 saved a year is Austin's estimate – confirm the churn rate with Joe.
 
 ## Open questions for you
 

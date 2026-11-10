@@ -36,7 +36,7 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 | Also helps | – |
 | Pain points cited | [KZ-PP01](../pain-points/README.md#kz-pp01), [KZ-PP02](../pain-points/README.md#kz-pp02), [KZ-PP03](../pain-points/README.md#kz-pp03), [KZ-PP04](../pain-points/README.md#kz-pp04), [KZ-PP21](../pain-points/README.md#kz-pp21), [SD-PP11](../pain-points/README.md#sd-pp11) |
 | Written source | – |
-| Cost of inactivity / year | \$5K–\$28K |
+| Value | 10–22 h/mo · A\$51K–113K capacity (≈ 1–3 SEO clients) |
 | Build cost | A\$1,500 |
 | Monthly | A\$400/month (runs on seats) |
 
@@ -90,16 +90,27 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 | Audit hours per paid onboarding | Unknown – longest onboarding step (SD-O07) | −40% |
 | Concurrent onboardings per manager without overtime | Limited ([KZ-PP02](../pain-points/README.md#kz-pp02)) | Set after baseline |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **Onboarding stops capping growth.** AI pre-fills the onboarding audit and Master SEO Document so managers check and add strategy instead of building it from scratch – and can take on new clients without working out of hours.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on onboarding audit & strategy today | 32–121 h (\$2.5K–\$9.7K) | \$30K–\$117K |
-| Of which recoverable | 5–29 h (\$0.4K–\$2.3K) | **\$5K–\$28K** |
+| Building the SEO onboarding audit, Master SEO Document and strategy | \~2–3 new SEO clients a month (of 3–4 new clients overall) × 10–12 h each today; AI pre-filling cuts 50–60% | **\~10–22 h** |
 
-Also at risk, not quantified: **growth capped by onboarding capacity** ([KZ-PP02](../pain-points/README.md#kz-pp02)) – fewer new clients taken on; junior staff turnover from repetitive onboarding work ([KZ-PP03](../pain-points/README.md#kz-pp03)).
+**2. Capacity and revenue unlocked**
 
-*Basis: process cost from the Stage 2 roll-up (Client onboarding – audit & strategy 31.7–121.4 h); recoverable from [O-14](../opportunities/README.md#o-14) (KZ-O01 4.2–19.5 + SD-O07 0.9–9.4). Assumed. \$80/hr.*
+\~10–22 h ÷ \~130 productive hours × \~A\$55.6K MRR per SEO manager → **\~A\$4.3K–9.4K MRR ≈ A\$51K–113K a year of capacity** (≈ 1–3 more SEO clients). Karl: onboarding effort caps how many new clients managers can take, and a five-onboarding month forced out-of-hours work – faster onboarding removes that cap.
+
+**3. Problems it eliminates**
+
+- **P-20** Onboarding stalls and disrupts BAU (month one is "pretty hectic", [KZ-PP01](../pain-points/README.md#kz-pp01)/02)
+
+**Goals:** more MRR managed per person · good customer service · good performance
+
+*Inputs from Austin (10 Nov): 3–4 new clients a month; 10–12 h per SEO onboarding today. Assumptions: \~2–3 of the new clients are SEO; AI pre-filling cuts 50–60% (Karl: it would pull out "90% of the things").*
 
 ## Indicative build cost and OpEx
 

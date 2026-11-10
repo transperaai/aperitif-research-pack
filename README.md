@@ -6,6 +6,7 @@ It traces every recommendation back to what people said in interviews: transcrip
 
 ## Contents
 
+- [Value by bundle](VALUE-BY-BUNDLE.md) – time saved, capacity, DLER, evidence and basis for every solution
 - [How everything connects](#how-everything-connects)
 - [How the solutions connect](#how-the-solutions-connect)
 - [How it is organised](#how-it-is-organised)
@@ -117,7 +118,7 @@ You are reading a structured evidence base. Use it like this.
 **Rules:**
 
 - Cite IDs for every claim (e.g. "DS-06 fixes P-16; evidence SB-PP04, stated").
-- Do not treat assumptions as facts. Hours saved, COI figures and churn numbers are marked *assumed* or *estimated*; the churn basis is Austin's assumption. Costs are TBC – do not invent any.
+- Do not treat assumptions as facts. Hours saved, COI figures and churn numbers are marked *assumed* or *estimated*; the churn basis is Austin's assumption. Build prices are in each solution file; value figures are in VALUE-BY-BUNDLE.md with a basis label on every number – do not invent any.
 - Austin's calls are decisions, not evidence. A *Park* problem stays parked even if a solution "also helps".
 - Where sources conflict, check `synthesis/contradictions.md` and `method/gaps-and-issues.md` before stating a fact.
 - Merge outputs (Stage 1–3, 6 Nov) predate Austin's decisions; the ledger and solution files are current.

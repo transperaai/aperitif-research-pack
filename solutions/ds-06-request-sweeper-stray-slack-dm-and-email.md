@@ -36,7 +36,7 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 | Also helps | [P-21 Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – Solve now; [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) – Park (via cluster C-18 in text) |
 | Pain points cited | [DM-PP09](../pain-points/README.md#dm-pp09), [LS-PP14](../pain-points/README.md#ls-pp14), [MC-PP04](../pain-points/README.md#mc-pp04), [MC-PP05](../pain-points/README.md#mc-pp05), [MP-PP05](../pain-points/README.md#mp-pp05), [MP-PP06](../pain-points/README.md#mp-pp06) (interviewer-raised), [SB-PP01](../pain-points/README.md#sb-pp01), [SB-PP02](../pain-points/README.md#sb-pp02), [SB-PP03](../pain-points/README.md#sb-pp03), [SB-PP04](../pain-points/README.md#sb-pp04), [SB-PP15](../pain-points/README.md#sb-pp15) |
 | Written source | – |
-| Cost of inactivity / year | \$9K–\$27K – O-06 figure used as a proxy; DS-30 triage time moved out – do not add |
+| Value | Nothing gets missed |
 | Build cost | A\$500 |
 | Monthly | A\$150/month + tokens \~US\$30–120 |
 
@@ -98,17 +98,13 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 | Requests needing a chase for missing details | Unknown – "sometimes" ([MC-PP04](../pain-points/README.md#mc-pp04)) | −50%; baseline to be measured |
 | Tasks overdue > 3 days | Unknown (DM-O03) | −70% ([O-06](../opportunities/README.md#o-06)) |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
-| --- | --- | --- |
-| Staff time on internal task management today | 65–110 h (\$5.2K–\$8.8K) | \$62K–\$105K |
-| Staff time on client email & ad hoc requests today | 34–71 h (\$2.7K–\$5.6K) | \$33K–\$68K |
-| Of which recoverable with [O-06](../opportunities/README.md#o-06) overall | \~10–29 h (\$0.8K–\$2.3K) | **\$9K–\$27K** |
+**Value: nothing gets missed.** Requests that arrive in Slack DMs and email are caught, confirmed and turned into Monday tasks, so work isn't lost or caught last-minute (Sid Bali: "not everybody uses Monday"). This is about capturing what's missed today, not time back – no hours claimed. It protects delivery quality and the client experience, and gives leadership a true picture of the work.
 
-Also at risk, not quantified: requests lost in DMs and caught last-minute ([SB-PP01](../pain-points/README.md#sb-pp01)); leadership unable to see whether work is happening on remote days ([MP-PP06](../pain-points/README.md#mp-pp06), *raised by you*); planned work pushed into an overdue catch-up week by unlogged ad hoc asks ([SB-PP15](../pain-points/README.md#sb-pp15)).
+**Problems it eliminates:** **P-16** Reminders go unacted; a broken reminder bot went unnoticed · **P-36** Internal task briefs are slow to write and unclear · helps **P-32** Unplanned requests break the planned month and **P-21** Managers at capacity
 
-*Basis: process costs from the Stage 2 roll-up (internal task management 64.5–109.7 h, 11% stated; client email & ad hoc 34.3–70.5 h). Recoverable hours use [O-06](../opportunities/README.md#o-06)'s figure as a proxy: the sweeper drops [O-06](../opportunities/README.md#o-06)'s forms and reminder changes but adds email capture (SB-O02, 6–11 h/month for one person), so the two roughly offset. Email triage alone is \~20–22 h/month for one person ([SB-PP02](../pain-points/README.md#sb-pp02), 1 h/day stated). Assumed. \$80/hr.*
+**Goals:** good customer service · good performance · trust
 
 ## Indicative build cost and OpEx
 

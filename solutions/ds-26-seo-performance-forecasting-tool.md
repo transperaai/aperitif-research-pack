@@ -36,7 +36,7 @@ notion_section: "SEO: performance forecasting tool"
 | Also helps | – |
 | Pain points cited | [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised) |
 | Written source | – |
-| Cost of inactivity / year | Not quantified |
+| Value | Better planning, realistic expectations |
 | Build cost | A\$3,000 for the bundle (DS-25 + DS-26) |
 | Monthly | A\$300/month + tokens \~US\$3–30 |
 
@@ -67,9 +67,11 @@ notion_section: "SEO: performance forecasting tool"
 | SEO clients with a current forecast | 0 | 100% of focus clients |
 | Forecast accuracy | Not tracked | Baseline, then improve |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified – no times or figures were given for SEO forecasting.
+**Value: better planning, fewer surprises.** Organic forecasts per client let the team set realistic expectations and plan content and links against them, as [DS-25](ds-25-ppc-performance-forecasting-tool.md) does for paid.
+
+**Goals:** good performance · trust · good customer service
 
 ## Indicative build cost and OpEx
 

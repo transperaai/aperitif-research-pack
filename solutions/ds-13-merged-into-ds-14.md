@@ -38,7 +38,7 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Park |
 | Pain points cited | [KO-PP02](../pain-points/README.md#ko-pp02), [KO-PP03](../pain-points/README.md#ko-pp03), [KO-PP05](../pain-points/README.md#ko-pp05), [MP-PP08](../pain-points/README.md#mp-pp08), [MP-PP09](../pain-points/README.md#mp-pp09), [WS-PP10](../pain-points/README.md#ws-pp10) |
 | Written source | – |
-| Cost of inactivity / year | \$5K–\$15K – merged into DS-14; not added to DS-14's figure |
+| Value | See VALUE-BY-BUNDLE.md |
 | Build cost | Covered by DS-14 |
 | Monthly | Covered by DS-14 |
 

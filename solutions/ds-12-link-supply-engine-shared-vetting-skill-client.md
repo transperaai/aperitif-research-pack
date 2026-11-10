@@ -36,7 +36,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | Also helps | – |
 | Pain points cited | [KZ-PP06](../pain-points/README.md#kz-pp06), [KZ-PP07](../pain-points/README.md#kz-pp07), [LS-PP12](../pain-points/README.md#ls-pp12), [TG-PP01](../pain-points/README.md#tg-pp01), [TG-PP02](../pain-points/README.md#tg-pp02), [TG-PP03](../pain-points/README.md#tg-pp03), [TG-PP04](../pain-points/README.md#tg-pp04), [TG-PP08](../pain-points/README.md#tg-pp08), [TG-PP10](../pain-points/README.md#tg-pp10), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | \$5K–\$19K |
+| Value | 6.5–15 h/mo · \~3–8 more links a month |
 | Build cost | A\$500 |
 | Monthly | absorbed into link-building CRM maintenance (DS-11) |
 
@@ -90,16 +90,27 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | Agreement between skill and link lead | \~50% (54 passed vs 27 approved, [TG-PP02](../pain-points/README.md#tg-pp02)) | ≥ 90% |
 | Duplicate domains per client | Has happened ([TG-PP10](../pain-points/README.md#tg-pp10)) | 0 |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-|  | Per month | Per year |
+> **Domains arrive pre-vetted and matched to clients.** AI checks quality and spam signals and suggests which client each domain suits, so Karl reviews a shortlist instead of 60 domains one at a time.
+
+**1. Time saved**
+
+| Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Staff time on link sourcing & ordering today | 43–136 h (\$3.5K–\$10.9K) | \$42K–\$130K |
-| Of which recoverable with this solution | 5–20 h (\$0.4K–\$1.6K) | **\$5K–\$19K** |
+| Vetting domains by hand | \~half of vetted domains approved → \~570 domains for 283 links ≈ 9–10 batches × 1–2 h = 9–19 h today; AI pre-vetting removes 70–80% | **\~6.5–15 h** (mostly Karl) |
 
-Also at risk, not quantified: client link targets missed for niche clients where supply is scarce; money spent on links from domains a consistent check would have rejected.
+**2. Capacity and revenue unlocked**
 
-*Basis: process cost from the Stage 2 roll-up (Link building – sourcing & ordering 43.3–135.9 h; overlaps [DS-11](ds-11-link-building-workflow-crm.md)'s figure, so don't add the two process rows together). Recoverable from [O-20](../opportunities/README.md#o-20). Assumed. \$80/hr.*
+\~6.5–15 h freed at \~2 h per link ≈ **\~3–8 more links a month** of delivery capacity (not counted as extra revenue). Karl's time moves from admin to growing the link team.
+
+**3. Problems it eliminates**
+
+- **P-34** Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent
+
+**Goals:** more MRR managed per person · good performance
+
+*Inputs from Austin (10 Nov): \~half of vetted domains approved; 60 domains a batch take 1–2 h (Karl). Assumption: AI pre-vetting removes 70–80% of vetting time.*
 
 ## Indicative build cost and OpEx
 

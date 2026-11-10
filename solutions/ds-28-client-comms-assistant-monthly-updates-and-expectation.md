@@ -36,7 +36,7 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 | Also helps | – |
 | Pain points cited | [KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised), [SH-PP09](../pain-points/README.md#sh-pp09) |
 | Written source | – |
-| Cost of inactivity / year | Not quantified separately – time sits in client email & ad hoc (DS-06) |
+| Value | Consistent, faster client updates, saved to the brain |
 | Build cost | A\$1,000 |
 | Monthly | A\$200/month + tokens \~US\$10–40 |
 
@@ -79,9 +79,13 @@ Clients hear from the team through the month without managers writing every upda
 | Dips explained to the client before the monthly report | Rare | 100% of forecast dips |
 | Manager time on routine client comms | Crowds out strategy ([SH-PP09](../pain-points/README.md#sh-pp09)) | Baseline, then −30% |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified separately – the time sits in "client email & ad hoc requests" (34–71 h/month across the team, partly in [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)); the bigger cost is retention ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)).
+**Value: consistent, faster client communication.** Client updates and replies are drafted in each client's tone with the latest results and context, and every message is saved to the client brain – so clients get clear, timely updates and nothing said to a client is lost. Hours aren't claimed (no figures were given).
+
+**Problems it eliminates:** helps **P-31** Churn risk is spotted late and account teams report rather than advise
+
+**Goals:** good customer service · trust · retention
 
 ## Indicative build cost and OpEx
 

@@ -36,7 +36,7 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 | Also helps | – |
 | Pain points cited | [TG-PP03](../pain-points/README.md#tg-pp03), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Cost of inactivity / year | Not quantified – value is links won without a publisher fee (paid links \~\$80–\$130 each) |
+| Value | Links won without paying a publisher |
 | Build cost | A\$1,000 |
 | Monthly | A\$300/month + tokens \~US\$2–10 |
 
@@ -80,9 +80,11 @@ Every new unlinked mention of a top client is found within a week and followed u
 | Links won from brand mentions per month | 0 ([ZC-PP16](../pain-points/README.md#zc-pp16)) | Set after a 1-month pilot |
 | Time from mention published to outreach sent | Not done | ≤ 7 days |
 
-## Cost of inactivity (COI)
+## Value (revised with Austin, 10 Nov)
 
-Not quantified – the value is links won without paying a publisher (paid links cost \~\$80–\$130 each) and better rankings for Tier 1 clients. Time is small.
+**Value: links without paying a publisher.** Unlinked brand mentions are found and turned into links – every one won saves the \~A\$80–130 Aperitif pays for a placed link and strengthens the client's results.
+
+**Goals:** good performance
 
 ## Indicative build cost and OpEx
 
