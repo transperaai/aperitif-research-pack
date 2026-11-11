@@ -16,9 +16,9 @@ Mirror of the Notion page "Value by bundle" (10 Nov 2026, summary updated 11 Nov
 | Bundle | Time saved / month | Capacity unlocked / year | ≈ Extra clients | Other value |
 | --- | --- | --- | --- | --- |
 | PPC performance | \~51–58 h | **\~A\$187K–213K** | 5–6 PPC | A\$10K overspend risk removed |
-| SEO performance | \~24–50 h | **\~A\$123K–260K** | 3–7 SEO | Drops caught the day they happen |
-| Delivery & reporting | \~34–56 h | **\~A\$69K–104K** | 2–3 | Clear briefs; more words written (\~A\$12K–23K/yr of content time; \~A\$6K–8K of proposal time) |
-| Client lifecycle | \~21–41 h | **\~A\$88K–177K** | 2–5 | SEO and paid onboarding; teams meet to clarify, not to learn |
+| SEO performance | \~56–114 h | **\~A\$211K–437K** | 5–12 | Drops caught the day they happen; onboarding audit and brief drafts (moved here 11 Nov; \~A\$12K–23K/yr of content time) |
+| Delivery & reporting | \~22–32 h | **\~A\$69K–104K** | 1.5–2 | Decks, proposals and client comms (\~A\$6K–8K of proposal time) |
+| Client lifecycle | \~1 h | – | – | Sales handover and new-client dossier; teams meet to clarify, not to learn |
 | AI Business Brain | \~6–9 h | **\~A\$26K–39K** | <1 | **Churn reduced \~1.5% a month (indicative): \~18 clients (\~A\$540K/yr) kept**; foundation for the rest |
 | Link-building system | \~23–42 h | 11–21 more links a month | – | \~A\$22K–40K/yr of team time + up to \~A\$10K–16K/yr recovered |
 | Team productivity | \~16 h | – | – | \~A\$15K/yr of one specialist's time; nothing missed; clearer focus |
