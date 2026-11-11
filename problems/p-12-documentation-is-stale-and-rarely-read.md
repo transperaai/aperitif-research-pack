@@ -1,8 +1,7 @@
 ---
 id: P-12
 title: "Documentation is stale and rarely read"
-austin_call: "Solve now"
-austin_note: "AI business brain that peopel cna ask any question and it utilises the documentation we alreayd have. this will reduce question and also be a great tool when onboarding new staff. its also good for cross cutting teams who need to learn different parts of the business and clients"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-02", "DS-15"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP13", "KO-PP15", "LS-PP11", "MP-PP03", "MP-PP04", "MP-PP07", 
 theme: "Cultural"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981e1ac5af94b85e59678
 ---
 
 # P-12 · Documentation is stale and rarely read
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | AI business brain that peopel cna ask any question and it utilises the documentation we alreayd have. this will reduce question and also be a great tool when onboarding new staff. its also good for cross cutting teams who need to learn different parts of the business and clients |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) |
 | Theme · severity · confidence | Cultural · High · High – raised by 3+ people |
 | Process area | People / culture |
@@ -32,7 +29,7 @@ notion_id: 40fe204ff76981e1ac5af94b85e59678
 - Fixes: [DS-02 AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills)](../solutions/ds-02-ai-playbook-repository.md)
 - Fixes: [DS-15 AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)](../solutions/ds-15-ai-business-brain-the-umbrella.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-33](../opportunities/README.md#o-33) SOPs linked from Monday templates; stale pages retired – partly addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
@@ -49,8 +46,7 @@ notion_id: 40fe204ff76981e1ac5af94b85e59678
 
 - Cluster [C-35](../synthesis/clusters-and-root-causes.md#c-35): SOPs and new systems aren't adopted, so leaders re-explain and mistakes repeat – raised by 2 staff + 2 leadership; confidence High.
 - Root cause [RC-08](../synthesis/clusters-and-root-causes.md#rc-08): Adoption isn't designed or enforced: systems and SOPs are built, then assumed to be used.
-- Problems DB root cause: Writing SOPs isn't part of anyone's job; reading them isn't part of anyone's workflow.
-- Merge notes: Stage 1 merge (6 Nov): Confirm → [C-35](../synthesis/clusters-and-root-causes.md#c-35). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Writing SOPs isn't part of anyone's job; reading them isn't part of anyone's workflow.
 
 ## Pain points (7)
 
@@ -69,6 +65,6 @@ notion_id: 40fe204ff76981e1ac5af94b85e59678
 - [WS-PP09](../pain-points/README.md#ws-pp09) – Team members still ask questions the Notion SOPs answer; people forget the SOPs
   - *"It's just that sometimes people Forget like I tried to remind everyone"* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~19:08 (L237)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L242) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 217 wiki pages, 94 (43%) not edited in over a year; client/partner pages 86% stale. Master SOP index: 7 views from 3 people in 28 days. Joe: "SOPs and Notion documentation exist but are rarely consulted – most pages checked roughly once a month".

@@ -5,7 +5,6 @@
 | Role | Founder & Principal Consultant; Head of Client Services |
 | Team | Leadership |
 | Date | 2026-10-30 |
-| Length | \~45 min |
 | Clients managed | – |
 
 ## Files

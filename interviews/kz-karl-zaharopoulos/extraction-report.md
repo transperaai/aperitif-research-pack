@@ -1,11 +1,11 @@
 # Part A – Transcript extraction: Karl Zaharopoulos (Senior SEO Manager & Link-building Lead)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Karl Zaharopoulos – Workflow & Process Interview", 29 Oct 2026, 10:00 am (Melbourne). Full transcript retrieved (594 utterances, 11,515 words, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/KZ/transcript.md`; ~mm:ss is estimated from cumulative word position across 60 minutes (booked 10:00; Austin: "We finished at 11", L584).
+- Transcript: meeting notes "Karl Zaharopoulos – Workflow & Process Interview", 29 Oct 2026, 10:00 am (Melbourne). Full transcript retrieved (594 utterances, 11,515 words, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across 60 minutes (booked 10:00; Austin: "We finished at 11", L584).
 - **Speakers:** the diariser labelled Austin mostly as A and split Karl across B, C, D, E, F, G, H, I, J and "unknown". All non-Austin lines are treated as Karl, except where the content is clearly Austin's (L213 E, L487 G, L500 G) or clearly Karl's under A (L155 "Not really.", L591 "You too, take care.").
-- **Name and term corrections (transcription):** "Carl" → Karl · "Tony / Toni" → Tonie (Guevarra, Outreach Specialist) · "Jasper" → Jasfer (Guevarra) · "Everhart" → Everhardt (Strauss) · "Spence" → Spencer (Potts) · "Kslot / Caseland" → Khaselyn (Ibanez) · "DDG / TDD" → DDEG (Tier 1) · "Outlink's team" → our link team · "Duck reporting" → Disney reporting (self-corrected) · "Emmanuel" → manual · "EAT" → E-E-A-T · "Red Mop and Young" → roadmap (likely) · "agency analytics" → AgencyAnalytics · "Transpara" → Transpera · "Hey, Tom" (L001) → greeting to Karl. Unresolved: "Fnano" (L278), "Raymer" (L164, a CMS migrated to WordPress), "Joe Allen" / "Bradman" (calculator tabs, L512), "Bella" (Disney contact) – see 11.
-- Hours are costed at **$80/hr internal labour cost**. Process totals are KZ's own time; outreach-team and tech-team time is not costed (not discussed – see 11).
+- **Name and term corrections (transcription):** "Carl" → Karl · "Tony / Toni" → Tonie (Guevarra, Outreach Specialist) · "Jasper" → Jasfer (Guevarra) · "Everhart" → Everhardt (Strauss) · "Spence" → Spencer (Potts) · "Kslot / Caseland" → Khaselyn (Ibanez) · "DDG / TDD" → DDEG (Tier 1) · "Outlink's team" → our link team · "Duck reporting" → Disney reporting (self-corrected) · "Emmanuel" → manual · "EAT" → E-E-A-T · "Red Mop and Young" → roadmap (likely) · "agency analytics" → AgencyAnalytics · "Transpara" → Transpera · "Hey, Tom" (L001) → greeting to Karl. Unresolved: "Fnano" (L278), "Raymer" (L164, a CMS migrated to WordPress), "Joe Allen" / "Bradman" (calculator tabs, L512), "Bella" (Disney contact).
+- Hours are costed at **$80/hr internal labour cost**. Process totals are KZ's own time; outreach-team and tech-team time is not costed (not discussed).
 
 ---
 
@@ -23,7 +23,7 @@
 | Reports to | Laura Shillington, SEO Director (context pack – not discussed) |
 | Hands work to | Content team (Sarah Julian, Hayley Tantau, freelancers) via Monday.com briefs; link team (Tonie, Jasfer) via Monday link board; implementation support (JC Aranzado, Khaselyn Ibanez); technical SEO team (Sid, Spencer, Everhardt); clients (strategy, content for approval, reports) |
 | Receives work from | Clients (approvals, ad hoc requests; Disney daily via Teams); outreach team (domains to vet, invoices); content team (finished content); tech team (task status); sales (prospect deck requests) |
-| Manages | Zach Chamberlain (weekly 1:1, daily check-in) and Tonie Guevarra (weekly 1:1) – who leads Jasfer. Context pack shows both under Sid – see 11 |
+| Manages | Zach Chamberlain (weekly 1:1, daily check-in) and Tonie Guevarra (weekly 1:1) – who leads Jasfer. Context pack shows both under Sid |
 
 ## 1. Five-line summary
 
@@ -394,7 +394,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | KZ-P14 | NEW: Team management (1:1s, training, check-ins) | 9.0–16.1 | 9.0–16.1 | $720–$1,288 |
 | **Total** | | **84.1–217.2 h** | **84.1–217.2 h** | **$6,728–$17,376** |
 
-All process hours are KZ's own (outreach, tech and content-team time not discussed, so not costed). The high ends can't all happen in the same month: 217 h is more than one full-time month (~152–160 h). The mid-point (~151 h) is close to a full month, which fits Karl saying he is "kind of at my cap" (L560) and working out of hours in onboarding-heavy months (L201). Confirm with timesheets (see 11).
+All process hours are KZ's own (outreach, tech and content-team time not discussed, so not costed). The high ends can't all happen in the same month: 217 h is more than one full-time month (~152–160 h). The mid-point (~151 h) is close to a full month, which fits Karl saying he is "kind of at my cap" (L560) and working out of hours in onboarding-heavy months (L201). Confirm with timesheets.
 
 ## 3. Pain points and problems
 
@@ -604,41 +604,6 @@ Ties are broken by Ease, then Impact. KZ-O08 (Impact 3, Ease 3) isn't covered by
 | Content QA | Content Manager (Sarah) | Content goes to clients unedited |
 | Client strategy reasoning and project status (partly only in KZ's head – project plan not kept current) | Senior SEO Manager (KZ) | Cover manager can't see what's planned or done |
 
-## 11. Follow-ups
-
-**Questions**
-- Karl: how many hours does one standard onboarding take you end to end (per step)? Needed to firm up KZ-P01 and KZ-O01.
-- Karl: how many briefs per client per month and minutes per brief? (KZ-P02)
-- Karl: how often do vetting batches come through, and how long do invoice runs take? (KZ-P08, KZ-P09)
-- Tonie: outreach steps and time per link, drop-off rate, how domains are logged and paid (Karl's suggestion, L128).
-- Sid / Spencer / Everhardt: how the technical plan is prioritised and when tickets close relative to reporting (Karl's suggestion, L073–L079).
-- Sarah: do freelance writers use AI, and how is it checked?
-- Laura / Julia: is there a cap on onboardings per manager?
-
-**Contradictions**
-- Reporting lines: context pack has Zach reporting to Sid and Tonie to Sid; Karl says both report to him (L089, L094).
-- Dead-link rate: ~100 dead links in ~10 months (~3% of ~3,000 links) vs the context pack's 32% fault rate Jan–Apr – different measures (fault vs removed later?); check definitions.
-- Disney and AquaSafe are not in the context-pack client lists, but Disney is described as one of Karl's largest, highest-paying clients.
-- Karl first says he's not overstretched ('No, I feel okay', L156) but describes overtime in onboarding months (L201) and being 'at my cap' (L560).
-- Context pack credits Karl's Claude prompt guide with a ~75–90 min strategy; Karl still describes month one as long and manual – the guide covers only part of the package.
-- Combined high-end hours (~217 h/month) exceed one FTE – the assumptions can't all be at their high end together.
-
-**Data / artefacts to request**
-- Cleaned copy of the SEO pricing calculator (Karl – agreed in the interview, L498–L502).
-- Example completed Master SEO Document and onboarding strategy deck (Karl).
-- The ~100 dead-links report and the link-order sheets (Karl / Tonie).
-- Karl's Claude domain-vetting artifact and prompts (Karl).
-- Disney report deck, Trends tracker and events calendar (Karl).
-- Monday.com tech-ticket dates vs report dates for one month (Sid).
-
-**Claims to verify before the pack**
-- 300–350 links/month vs the order book (~300/month in the context pack).
-- Disney volume: 5–10 localisation docs a week and 15–20 min each – check against the Teams channel / content calendar.
-- The 100 dead links over ~10 months – period, method, and whether replacements were obtained.
-- Who Disney is contracted through (direct or via a network) and its tier.
-
-**Method caveats:** timestamps estimated from word position (60 min); speaker labels mixed (see notes at top); unresolved names "Fnano", "Raymer", "Joe Allen" / "Bradman", "Bella".
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -649,14 +614,3 @@ Ties are broken by Ease, then Impact. KZ-O08 (Impact 3, Ease 3) isn't covered by
 | Your Local Tradesman | Tier 2 | KZ implements content / builds pages himself every month – 'a bit time consuming'. |
 | 'Fnano' | Unresolved | Named as a poor example for implementation work (L278) – likely mis-transcribed. |
 | Unnamed new clients (one with four websites) | – | Two clients started 1–2 months ago = five onboardings in one month, alongside a website migration ('Raymer' → WordPress, platform unresolved). |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: engaged and constructive, moderately stretched.** Positive about the audit and offered contacts (Tonie, Sid, Spencer). "I feel good for the most part, but I'm like, It's like always something that comes up essentially." ~16:52 (L160). He worked out of hours during a five-onboarding month (L201) and says he is 'at my cap' (L560).
-- On the outreach lead (Tonie): before the shared prompts, "she was just giving me like really shitty domains to like review" ~15:00 (L145) – said 'in a nice way'; he fixed it by sharing his prompts. Keep out of the pack.
-- On the technical team (Sid, Spencer, Everhardt): "I don't want to throw the tech team under the bus" ~32:57 (L316); he thinks simple tasks are done first and isn't sure work is the most impactful. Also blames himself ("I guess that's on me too", L323). Handle carefully when interviewing the tech team.
-- On Zach: if given another onboarding, "He's going to freak out" ~23:55 (L204) – a workload comment; Karl is protective of him.
-- On implementation staff (JC, Khaselyn): "they're great but they're obviously not web developers" ~55:12 (L548) – a role-capability point, not performance.
-- Self-critical: 'very bad at' keeping the project plan updated (L278) and forgets to turn on/read Gemini notes (L068).
-- On Disney: "they pay so much, we kind of just have to do this" ~42:22 (L427) – commercial dependence on one client.
-- Relationship note: Austin previously worked client-side at DDEG ('DDG'), one of Karl's clients; the opening was friendly catch-up (Dublin awards trip, Transpera's first client). Karl several times referenced what Austin would have seen as the client.

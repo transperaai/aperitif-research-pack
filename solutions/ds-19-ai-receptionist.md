@@ -4,7 +4,7 @@ title: "AI receptionist (phone; Aircall add-on or own build)"
 team: "sales / leadership (phones)"  # inferred: the page gives no "Team:" line
 bundle: "Standalone"
 status: "Decided – call director; Aircall add-on (~A$370/mo) recommended, own build as the cheaper alternative; weak interview evidence"
-ledger_status: addressed
+coverage: addressed
 source_type: "Austin addition"
 opportunities: []
 earlier_ideas: ["EI-03 AI receptionist"]
@@ -15,9 +15,6 @@ problems_related_only: ["P-42"]
 pain_points_cited: ["KO-PP17", "KO-PP18"]
 pain_points_interviewer_raised_or_inferred: []
 value: "No missed leads; callers reach the right person"
-build_cost: "A$100"
-monthly: "A$250/month management + Aircall A$150 PAYG min (A$0.44/min) or A$370/1,000 min"
-notion_section: "AI receptionist"
 ---
 
 # DS-19 · AI receptionist
@@ -38,30 +35,21 @@ notion_section: "AI receptionist"
 | Pain points cited | [KO-PP17](../pain-points/README.md#ko-pp17), [KO-PP18](../pain-points/README.md#ko-pp18) |
 | Written source | – |
 | Value | No missed leads; callers reach the right person |
-| Build cost | A\$100 |
-| Monthly | A\$250/month management + Aircall A\$150 PAYG min (A\$0.44/min) or A\$370/1,000 min |
 
 ## Vision
 
 > **Just a call director.** An inbound new lead goes to Joe; an existing client goes to their account manager. Nothing more complex than that.
 >
-> **Options for Joe (Austin's call, 9 Nov):**
+> **Options for Joe:**
 >
 > - **Recommended: Aircall's AI receptionist add-on** – about **A\$370/month** for 1,000 minutes; nothing to build or maintain.
 > - **Alternative: Transpera builds a simple call director** – cheaper to run, but a build to maintain (needs a feasibility study before pricing).
 
-## Pricing & priority
-
-> **Priority: Fill-in · Impact 1 / 5 · Effort 1 / 5 (draft – confirm)** · Standalone
->
-> | Option | Set-up / build | Monthly cost |
-> | --- | --- | --- |
-> | **Recommended – Aircall AI receptionist add-on** (call director: new lead → Joe, existing client → account manager) | **A\$100** set-up | **A\$250/month** management + Aircall: A\$150/month minimum pay-as-you-go (A\$0.44/min) or A\$370/month for 1,000 minutes |
-> | **Custom call director** | **Needs a deeper feasibility study** before pricing | – |
+## Decision
 
 **Decision (9 Nov):** add the AI receptionist (Austin's earlier idea). There's no merged opportunity and **little direct interview evidence** – it goes in as Austin's recommendation.
 
-## How it works (draft)
+## How it works
 
 1. Answers inbound calls (and possibly web chat) when the team is busy or after hours.
 2. Qualifies new leads – budget, service, timing – and books a call with sales, logging the lead in HubSpot.
@@ -69,7 +57,7 @@ notion_section: "AI receptionist"
 
 ## Problems it fixes and the evidence
 
-- **Lead handling (indirect):** only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget ([KO-PP18](../pain-points/README.md#ko-pp18), leadership). Sales still depends on the founder ([KO-PP17](../pain-points/README.md#ko-pp17)). An AI receptionist would qualify and book leads quickly. *Note: Austin rejected the related problem "Growth depends on the founder and inbound leads".*
+- **Lead handling (indirect):** only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget ([KO-PP18](../pain-points/README.md#ko-pp18), leadership). Sales still depends on the founder ([KO-PP17](../pain-points/README.md#ko-pp17)). An AI receptionist would qualify and book leads quickly. *Note: the related problem "Growth depends on the founder and inbound leads" ([P-42](../problems/p-42-growth-depends-on-the-founder-and-inbound.md)) is not taken forward in this proposal.*
 - **Existing tool:** the context pack says the Aircall phone system reportedly already has an AI receptionist *(unverified)*.
 
 ## Future state
@@ -78,22 +66,22 @@ notion_section: "AI receptionist"
 2. New leads are qualified and booked into a sales call, logged in HubSpot.
 3. Existing clients' messages reach their account manager and are logged in the client brain.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
 | Inbound calls answered | Unknown | 100% |
 | Qualified leads booked into a sales call | Unknown | Baseline, then set |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: no missed leads, and callers reach the right person first time.** New leads go straight to Joe and existing clients go to their account manager, so no enquiry is lost and clients aren't passed around. No figures claimed.
 
 **Goals:** good customer service · trust
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

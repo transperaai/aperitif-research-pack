@@ -4,7 +4,7 @@ title: "Automated deck generator: quarterly + 6-month reviews and proposals"
 team: "account managers and sales"  # inferred: the page gives no "Team:" line
 bundle: "Delivery & reporting"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-05 (deck part)", "O-22 (calculator part)", "O-14 (prospect-deck part)"]
 earlier_ideas: ["EI-16 Proposal generator"]
@@ -17,9 +17,6 @@ pain_points_interviewer_raised_or_inferred: ["MP-PP10 (interviewer-raised)", "WS
 value: "22–32 h/mo · A$69K–104K capacity (≈ 1.5–2 clients)"
 value_time_h_month: [22, 32]
 value_capacity_aud_per_year: [69000, 104000]
-build_cost: "A$1850–A$2250"
-monthly: "A$350/month maintenance + tokens ~US$5–40"
-notion_section: "Automated deck generator: quarterly + 6-month reviews and proposals"
 ---
 
 # DS-05 · Automated deck generator: quarterly + 6-month reviews and proposals
@@ -39,8 +36,6 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 | Pain points cited | [KZ-PP18](../pain-points/README.md#kz-pp18), [KZ-PP21](../pain-points/README.md#kz-pp21), [LS-PP02](../pain-points/README.md#ls-pp02), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [MP-PP11](../pain-points/README.md#mp-pp11), [MP-PP12](../pain-points/README.md#mp-pp12), [WS-PP05](../pain-points/README.md#ws-pp05), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP13](../pain-points/README.md#ws-pp13) (inferred) |
 | Written source | – |
 | Value | 22–32 h/mo · A\$69K–104K capacity (≈ 1.5–2 clients) |
-| Build cost | A\$1850–A\$2250 |
-| Monthly | A\$350/month maintenance + tokens \~US\$5–40 |
 
 ## Vision
 
@@ -58,17 +53,11 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 > 3. **Review step** – the consultant sees the draft, edits, approves; the final version is saved to the client brain.
 > 4. **One set-up, several decks** – quarterly review, 6-month review, the bespoke multi-market monthly deck and proposals, each with its own template and form (proposals pull prospect research and the price calculator).
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Deck generator** – quarterly + 6-month reviews, the multi-market monthly deck and proposals | **A\$1,850–\$2,250** | **A\$350/month** maintenance + AI tokens \~US\$5–40/month |
+## Decision
 
 **Decision (9 Nov):** **monthly reports stay in AgencyAnalytics** – no change. **Quarterly and 6-month (bi-annual) review decks** are generated automatically through a deck generator, and **proposals are automated** the same way. It could be a custom build.
 
-## How it works (draft)
+## How it works
 
 1. The manager picks the client and deck type (quarterly review, 6-month review, or proposal).
 2. The generator pulls the data: platform performance via AgencyAnalytics / GSC / Ahrefs / ad platforms for reviews; prospect research, Ahrefs data and the price calculator for proposals.
@@ -87,13 +76,13 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 ## Problems it fixes and the evidence
 
 - [Client documents are built by duplicating previous ones – errors reach clients](../problems/p-05-client-documents-are-built-by-duplicating-previous.md) ([C-06](../synthesis/clusters-and-root-causes.md#c-06)) – 5 staff. *"these presentations and stuff that we need to do every quarter, etc. Which is like a lot of time consuming"* – the performance director ([WS-PP05](../pain-points/README.md#ws-pp05), stated). One senior SEO manager builds a bespoke multi-market deck by hand: *"So this probably takes me like half a day, if not more, of like work hours."* ([KZ-PP18](../pain-points/README.md#kz-pp18), stated).
-- Also helps (partly): [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) ([C-17](../synthesis/clusters-and-root-causes.md#c-17)) – 6-month reviews for smaller clients are where the SEO director loses time ([LS-PP02](../pain-points/README.md#ls-pp02)). **Capacity itself is not solved by a build**: the fixes aimed at its cause ([O-17](../opportunities/README.md#o-17) onboarding cap, [O-19](../opportunities/README.md#o-19) effort model, [O-32](../opportunities/README.md#o-32) senior performance hire) were dropped, and it is covered in the **culture / people recommendations** instead (Austin's call, 9 Nov).
+- Also helps (partly): [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) ([C-17](../synthesis/clusters-and-root-causes.md#c-17)) – 6-month reviews for smaller clients are where the SEO director loses time ([LS-PP02](../pain-points/README.md#ls-pp02)). **Capacity itself is not solved by a build**: the fixes aimed at its cause ([O-17](../opportunities/README.md#o-17) onboarding cap, [O-19](../opportunities/README.md#o-19) effort model, [O-32](../opportunities/README.md#o-32) senior performance hire) were dropped, and it is covered in the **culture / people recommendations** instead.
 - [Proposals are rebuilt from scratch per prospect](../problems/p-19-proposals-are-rebuilt-from-scratch-per-prospect.md) ([C-39](../synthesis/clusters-and-root-causes.md#c-39)) – leadership + 1 staff. Prospect decks are slow to build (research, Ahrefs, story) and land on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21), stated). The founder is still pulled into building deal strategies and ad-spend numbers: *"So I'm still getting involved in a lot of that, but I don't want to"* – leadership ([MP-PP11](../pain-points/README.md#mp-pp11)).
 - [Sales commits to work delivery can't profitably do](../problems/p-18-sales-commits-to-work-delivery-can-t.md) ([C-38](../synthesis/clusters-and-root-causes.md#c-38)) – leadership + 1 staff (the performance director, [WS-PP07](../pain-points/README.md#ws-pp07)); the price calculator exists but isn't used consistently ([MP-PP12](../pain-points/README.md#mp-pp12)). *Bias note: Austin raised this one first ([MP-PP10](../pain-points/README.md#mp-pp10)) and leadership agreed.*
 - Also helps (Solve later): [AI use is personal and ungoverned: no policy, shared skills, client context or seats](../problems/p-40-ai-use-is-personal-and-ungoverned-no.md) – the director's personal AI review workflow becomes the shared standard ([WS-PP13](../pain-points/README.md#ws-pp13), *inferred*).
 - [No single home for current templates – versions held by individuals](../problems/p-25-no-single-home-for-current-templates-versions.md) – Solve now; the generator runs from one master template per deck type, stored centrally (and registered in [DS-10](ds-10-systems-register-and-break-fix-runbook.md)).
 
-## Future state (draft)
+## Future state
 
 1. Every quarterly and 6-month review deck starts from one master template, filled automatically with the client's data.
 2. AI drafts the narrative; the manager spends their time on the story and recommendations, not on screenshots and copy-paste.
@@ -101,7 +90,7 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 4. Every proposal includes calculator pricing and passes a margin check before it goes out.
 5. Monthly reporting carries on in AgencyAnalytics unchanged.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -111,7 +100,7 @@ notion_section: "Automated deck generator: quarterly + 6-month reviews and propo
 | Time to produce a proposal / prospect deck | Unknown; slow, on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21)) | Draft same day; baseline to be measured |
 | Proposals needing founder input on numbers | Most ([MP-PP11](../pain-points/README.md#mp-pp11)) | Only above the scope threshold |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Review decks and proposals built for you.** The generator fills Aperitif's slide templates with the client's results and context from the brain, so managers review and add the story instead of building every deck by hand – and sales gets proposals out the same day.
 
@@ -137,9 +126,9 @@ Deck time freed (\~16–24 h) ÷ \~130 productive hours × \~A\$46.8K MRR per ma
 
 *Inputs from Austin (10 Nov): 60% of clients get a six-month review, 20% quarterly; a deck takes 1.5–2 h (Disney is an outlier); proposals take \~1.5 h and should take \~30 min. Assumptions: \~30 min to review a generated deck; \~6–8 proposals a month.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
@@ -155,4 +144,4 @@ See this solution's green **Pricing & priority** box above.
 - **"Work completed / planned" content stays human-supplied**, because forward planning isn't reliable enough to pull from; the generator only handles the **formatting and placement** on the deck.
 - **Reads from the client brain ([DS-04](ds-04-ai-client-brain.md))** for the narrative, so reviews and proposals reflect what was agreed on calls.
 
-Approach and price: see Pricing & priority.
+Price: see [Builds and pricing](../builds/README.md).

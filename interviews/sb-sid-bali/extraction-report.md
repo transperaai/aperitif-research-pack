@@ -1,8 +1,8 @@
 # Part A – Transcript extraction: Sid (Siddharth) Bali (Technical SEO Specialist)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Sid - Workflow & Process Interview", 4 Nov 2026, 11:30 am (Melbourne). Full transcript retrieved (588 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/SB/transcript.md`; ~mm:ss is estimated from cumulative word position across ~40 minutes (60-minute booking; Austin closed "We can give you 20 minutes back in your day", L575; the page was last edited 41 min after the start).
+- Transcript: meeting notes "Sid - Workflow & Process Interview", 4 Nov 2026, 11:30 am (Melbourne). Full transcript retrieved (588 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~40 minutes (60-minute booking; Austin closed "We can give you 20 minutes back in your day", L575; the page was last edited 41 min after the start).
 - **Speakers:** the diariser labelled Austin as A and split Sid across labels B and C (plus short fragments D, E, F, G, H – backchannel or background noise). All non-Austin lines are treated as Sid. A few A-labelled lines are probably Sid (e.g. L009, L198).
 - **Name and term corrections (transcription):** "cloud" → Claude · "Cloud and Chrome" → Claude in Chrome · "make" → Make.com · "Monday" → Monday.com · "EQ salary" → EQ Saddlery · "Nadia" → Nadiya (Hisham) · "Aparity" → Aperitif · "HubSort" → HubSpot · "Macs" → Max (Claude plan) · "Notion's really good" / "thickness" → Figma (Austin self-corrects, L312) · "Adriatic Furniture" → Adriatic (Tier 3). Unresolved: "Kshalo" (L081 – something in HubSpot that holds logins), "ASFROJS" (L070 – typed prompt), "trendsite.com.au" (L269 – JS-heavy site Sid shared; client status unknown).
 - Hours are costed at **$80/hr internal labour cost**. Process totals are Sid's time only; no other actors' time was described with figures.
@@ -266,7 +266,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | SB-P09 | Internal task management – Monday.com/Make administration | 2–6 | 2–6 | $160–$480 |
 | **Total** | | **88.6–151.0 h** | **88.6–151.0 h** | **$7,088–$12,080** |
 
-The high ends can't all happen in the same month: SB's high-end total (151 h) is about one full-time month (~152–160 h) with nothing left for ad hoc work. Treat the low-to-mid range as more realistic and confirm with Monday.com time and allocated-hours data (see 11). Team-wide volumes were not given.
+The high ends can't all happen in the same month: SB's high-end total (151 h) is about one full-time month (~152–160 h) with nothing left for ad hoc work. Treat the low-to-mid range as more realistic and confirm with Monday.com time and allocated-hours data. Team-wide volumes were not given.
 
 ## 3. Pain points and problems
 
@@ -438,38 +438,6 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for owner as
 | Technical audit tool/process (automated) | Technical team (earlier work by Spencer Potts per Sid, L562; role/status unclear in context pack) | Not discussed |
 | Client technical context for his ~20 clients | Sid | Client owners rely on his sheet explanations for monthly reports |
 
-## 11. Follow-ups
-
-**Questions**
-- Sid: how many new SEO clients per month go through the HubSpot → Make → Monday flow, and how long does owner confirmation take?
-- Sid: hours per month on Monday/Make maintenance; is anything documented?
-- Sid: rough count of page uploads per month and how many loop more than twice; which client is the month-long page (and is it the Webflow one)?
-- Sid: allocated technical hours per client (sheet that generates Monday tasks) – to replace the SB-P02 estimate.
-- Karl / Julia: who should decide the delivery owner at deal close?
-- Joe: current Claude plan and seat count; usage-limit incidents.
-- Austin: confirm whether "trendsite.com.au" is a client; what "Kshalo" refers to (L081).
-
-**Contradictions**
-- Context pack: Tonie and Zach report to Sid. Sid described no management duties – check the org chart.
-- Context pack: technical audit is an 81-item checklist run by technical SEO; Sid says audits are automated via Claude MCP. Both may be true (automated checklist) – confirm.
-- Sid used Nadiya ("Nadia") as an example client owner (L101); the context pack says she has resigned – may be stale ownership in Monday or just an example.
-- Client count: four then five end-to-end (L249–L252).
-- Adriatic content: "2000 words" then "200 monthly words" (L510–L511).
-- Unclear whether the stated email "hour" a day includes replying or only triage.
-
-**Data / artefacts to request**
-- Make scenario list and diagram (Austin now has admin access) – Sid.
-- Monday SEO delivery board and the sheet that generates monthly tasks – Sid.
-- HubSpot deal properties and form fields – Sid / sales.
-- Claude admin usage report – Joe.
-- Example of a forwarded chain and the looping page thread – Sid.
-
-**Claims to verify before the pack**
-- 1 h/day email (single self-estimate).
-- Technical hours (SB-P02) – currently assumed.
-- "We've automated technical audits" – scope of automation.
-- Claude plan is "Pro for Teams" – Sid's belief ("I think").
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -480,10 +448,3 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for owner as
 | Aperitif (own site, "Aparity") | Tier 2 (own site) | Austin imported it into Figma as a demo (L257) |
 | Unnamed client | – | One page iterated with the client for a month (L203–L207); Webflow client(s) struggling to edit (L231–L235) |
 | "Kshalo" | Unresolved | Mentioned when looking up logins in HubSpot (L081) – possibly a client or a HubSpot section |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: engaged and constructive, a bit stretched.** "it's been borderline, but not stretched" ~10:18 (L131); frustrated by email volume (swearing at L391, L396); energised by the Figma idea ("That's crazy", L259; "That's sick", L308). He wants more client-side work (L134).
-- **Spencer and audit automation:** "Spencer absolutely hates that." ~38:31 (L557) about automated technical audits, then "I think that was definitely what Spencer was trying to work towards." ~38:37 (L562). Mixed signal – possible resistance around automating audit work; the context pack lists Spencer's role/status as unclear. Handle carefully.
-- **Sid's self-assessment:** "The problem with that is me as much as it is the emails." / "I get distracted very easily." ~31:04 (L432–L435), and on client comms "which is something I'm still learning" ~23:32 (L341). Candid about his own attention and client-comms experience – keep out of the pack.
-- **Austin on Sid:** "you're obviously the most knowledgeable when it comes to tech and the business" (L570) – Sid is a likely internal champion for automation, and also the single point of failure for it.

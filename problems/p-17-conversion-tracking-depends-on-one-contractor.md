@@ -1,8 +1,7 @@
 ---
 id: P-17
 title: "Conversion tracking depends on one contractor"
-austin_call: "Solve later"
-austin_note: "can create a change tracker for client websites and landing pages so we can get ahead of conversion breaking. could also be other methods once i get more intel as too what breaks conversion tracking"
+decision: "Solve later"
 status: partly_addressed
 fixed_by: []
 also_helped_by: ["DS-01"]
@@ -13,15 +12,13 @@ pain_points: ["MC-PP10", "MC-PP16", "MC-PP17", "SD-PP09", "SD-PP10", "ZC-PP07"]
 theme: "Process / automation"
 severity: "Medium"
 confidence: "Low – raised by 1"
-notion_id: 40fe204ff769812d9b86e757a536c275
 ---
 
 # P-17 · Conversion tracking depends on one contractor
 
 | | |
 | --- | --- |
-| Austin's call | **Solve later** |
-| Austin's note | can create a change tracker for client websites and landing pages so we can get ahead of conversion breaking. could also be other methods once i get more intel as too what breaks conversion tracking |
+| Decision | **Solve later** |
 | Status | partly addressed – Solve later; no DS fixes it – only "also helps" by [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) |
 | Theme · severity · confidence | Process / automation · Medium · Low – raised by 1 |
 | Process area | Onboarding |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff769812d9b86e757a536c275
 
 - Also helps: [DS-01 Modern ad budget pacing + performance alerting](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-08](../opportunities/README.md#o-08) Sales-to-delivery gate: handover fields, owner, access checklist – addressed ([DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md))
 - [O-14](../opportunities/README.md#o-14) AI-prefilled onboarding audit and Master SEO Document – addressed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
@@ -41,8 +38,7 @@ notion_id: 40fe204ff769812d9b86e757a536c275
 
 - Cluster [C-09](../synthesis/clusters-and-root-causes.md#c-09): Client onboarding stalls waiting on access, client inputs and the tracking contractor – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07): External dependencies – client access, approvals, inputs, contractors and vendors – aren't contracted, time-boxed or tracked, so delivery waits.
-- Problems DB root cause: A single contractor (Liam) handles tracking for all accounts; setup is a 3–4 day onboarding step.
-- Merge notes: Stage 1 merge (6 Nov): Merge → [C-09](../synthesis/clusters-and-root-causes.md#c-09). One interview raises the wait ([MC-PP16](../pain-points/README.md#mc-pp16)); the contractor dependency is noted in three dependency sections (SH, SD, MC). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): A single contractor (Liam) handles tracking for all accounts; setup is a 3–4 day onboarding step.
 
 ## Pain points (6)
 
@@ -59,6 +55,6 @@ notion_id: 40fe204ff769812d9b86e757a536c275
 - [ZC-PP07](../pain-points/README.md#zc-pp07) – Getting access from new clients (tradies, car dealers) takes a long time
   - *"trying to get the access of those kind of guys, it can take a long time."* – Zach Chamberlain, SEO Manager · staff-raised · [\~08:17 (L066)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L72)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Slack: #conversion-tracking is a group chat for a contractor who manages conversion tracking for all staff. Shrishti: setup takes 3–4 days per client. The only documentation is a 10-field memo template recording what was set up – no setup procedure, QA step, owner or date field, no enhanced-conversions field, and it isn't linked from the Google or Meta audit templates.

@@ -2056,34 +2056,5 @@
       "who_role": "Founder (Joe)",
       "if_absent": "Managers don't use AI or improvise"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Diya: new campaign launches and new clients per month? WIP call length? Is the 30-min pre-call review the same work as the 30-min commentary?",
-      "Diya: which clients need approval for minor optimisations, and typical approval time?",
-      "Diya: Meta format/placement errors caught by QA in the last 3 months?",
-      "Michaela & Tati: build workflow, own QA, briefing quality",
-      "Wendlley: who owns Tina; can it add conversions/CPA/ROAS/CPL by client category? Was Rubii evaluated?",
-      "Joe: AI-data policy for Claude connectors/extension; client contract data clauses"
-    ],
-    "contradictions": [
-      "Pacing cadence: Diya fortnightly (weekly for new) vs context pack Mon/Wed/Fri; Austin thought Tina posts daily (L304) – Tina is M/W/F budget pacing, Diya's is performance pacing",
-      "Diya: mostly Tier 2/3 clients vs context pack listing DM on Leaselab ($141K Google; Tier 1 SEO), White & Co, easyAML, AMIGA – tiers in pack are SEO tiers",
-      "easyAML listed under DM in context pack, but Shrishti calls it her client",
-      "Prep ~30 min per call (Diya) vs ~1h15 (Shrishti, context pack) – likely tier difference",
-      "Combined high-end hours (162.5 h) ≈ one FTE month – assumptions can't all be at the high end"
-    ],
-    "data_requests": [
-      "Strategy document template for new client onboarding (Diya – action item)",
-      "Account-audit document (Diya)",
-      "Diya's client list with platforms and budgets (Wendlley / pacing sheet)",
-      "Monday.com export of Diya's tasks for one month (Diya / Monday admin)",
-      "Tina message samples and configuration (Joe / OpenClaw owner)"
-    ],
-    "verify": [
-      "All assumed frequencies (launches, investigations, onboardings, QA error rate, approval-required share)",
-      "Austin's claim that turning off training-data sharing in Claude is sufficient (L184) – check terms and client contracts",
-      "Rubii integration with Monday.com (L158) – unverified"
-    ]
-  }
+  ]
 }

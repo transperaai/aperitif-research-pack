@@ -1,8 +1,7 @@
 ---
 id: P-14
 title: "Client knowledge lives in people's heads, not per client"
-austin_call: "Solve now"
-austin_note: "A company wide Ai brain or a per client ai brain that captures all facts and nuance. this is also great to see who are profitable and which ICPs and BPS you should double down with and how to manage specific personalities."
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-04"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["HT-PP04", "KZ-PP15", "KZ-PP16", "MP-PP20", "SJ-PP09", "WS-PP08", 
 theme: "Cultural"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff7698168a440ee525bce4877
 ---
 
 # P-14 · Client knowledge lives in people's heads, not per client
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | A company wide Ai brain or a per client ai brain that captures all facts and nuance. this is also great to see who are profitable and which ICPs and BPS you should double down with and how to manage specific personalities. |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-04](../solutions/ds-04-ai-client-brain.md) |
 | Theme · severity · confidence | Cultural · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff7698168a440ee525bce4877
 
 - Fixes: [DS-04 AI client brain (per client) – under the AI Business Brain banner](../solutions/ds-04-ai-client-brain.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
 - [EI-12](../opportunities/README.md#ei-12) Meeting transcripts → per-client action runsheet – absorbed ([DS-04](../solutions/ds-04-ai-client-brain.md))
@@ -45,8 +42,7 @@ notion_id: 40fe204ff7698168a440ee525bce4877
 
 - Cluster [C-07](../synthesis/clusters-and-root-causes.md#c-07): Client knowledge sits in people's heads and personal docs, so briefs and cover suffer – raised by 4 staff + 0 leadership; confidence High.
 - Root cause [RC-03](../synthesis/clusters-and-root-causes.md#rc-03): Client context isn't captured per client, so every hand-off – sales to delivery, manager to writer or specialist, cover – loses detail.
-- Problems DB root cause: Knowledge is transferred verbally in WIP meetings; call transcripts are generated but not used; nothing is stored per client.
-- Merge notes: Stage 1 merge (6 Nov): Confirm → [C-07](../synthesis/clusters-and-root-causes.md#c-07). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Knowledge is transferred verbally in WIP meetings; call transcripts are generated but not used; nothing is stored per client.
 
 ## Pain points (9)
 
@@ -69,6 +65,6 @@ notion_id: 40fe204ff7698168a440ee525bce4877
 - [ZC-PP13](../pain-points/README.md#zc-pp13) – Meeting transcripts not used; client run sheets kept by hand
   - *"get those meeting notes and transcriptions kind of just like to populate a month, like a run sheet, just like date, time, this is what we talked about."* – Zach Chamberlain, SEO Manager · staff-raised · [\~34:13 (L354)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L360) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Wendlley: "Key man risk with knowledge capture… Information is not stored on a per client basis"; "Verbal knowledge transfer throughout WIP". Karl: "Doesn't check AI notes". Joe: transcripts barely used – only Joe engages with them.

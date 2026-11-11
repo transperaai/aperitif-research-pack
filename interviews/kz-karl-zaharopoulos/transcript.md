@@ -1,6 +1,6 @@
 # Transcript – Karl Zaharopoulos interview, 2026-10-29 (10:00–~11:00 AEDT)
 
-Source: https://app.notion.com/p/407e204ff769800db6ebece57d16ada8 (Notion meeting-note transcript, verbatim). No timestamps in source: [~mm:ss] estimated from cumulative word position (11,515 words) across 60 min. Speaker labels are raw diarisation (A = mostly Austin; B, C, D, E, F, G, H, I, J, unknown = mostly Karl, with some mixing).
+Source: meeting notes (transcript, verbatim). No timestamps in source: [~mm:ss] estimated from cumulative word position (11,515 words) across 60 min. Speaker labels are raw diarisation (A = mostly Austin; B, C, D, E, F, G, H, I, J, unknown = mostly Karl, with some mixing).
 
 L001 [~00:00] A: Hey, Tom.
 L002 [~00:00] B: Hey, Austin.

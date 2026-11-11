@@ -5,7 +5,6 @@
 | Role | Performance Marketing Director |
 | Team | Performance |
 | Date | 2026-10-28 |
-| Length | \~63 min |
 | Clients managed | 4 |
 
 ## Files

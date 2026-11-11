@@ -1521,34 +1521,5 @@
       "who_role": "Content Specialist (individual)",
       "if_absent": "Junior and freelancers start from scratch"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Which client is the out-of-cycle in-person client, and hours/month of its last-minute requests?",
-      "Revision rounds per month and time per round; client approval turnaround?",
-      "Words written and edited per month from the tracker; share of last week on freelancer editing?",
-      "Is leave cover documented? Who signs off the junior hire and start date?",
-      "Status and owner of the Sheets–Monday.com connection (Sid / Austin)?",
-      "What are 'AI fly' (L349) and 'imperative style' (L218)?"
-    ],
-    "contradictions": [
-      "Context pack: 17 content clients; transcript: about 7 this month (L147)",
-      "Content Specialist ~15% of team words (~14k/month) – check against 7 clients × ~2 days",
-      "High-end hours (~169 h/month) exceed one FTE",
-      "Client nuance 'not a pain point' (L106) vs 'could probably protect ourselves more' (L135)"
-    ],
-    "data_requests": [
-      "Range of briefs incl. freelancer brief and detailed Tier 1 brief, annotated (Hayley)",
-      "Drafts as submitted for approval, matched to briefs (Hayley)",
-      "Internal content tracker 2026 overview / word-count tracker (Sarah / Hayley)",
-      "Freelancer sheets and rates (Sarah)",
-      "Monday.com content board export (Sarah / Sid)"
-    ],
-    "verify": [
-      "~7 clients and ~2 days per client vs tracker",
-      "Freelancer cost claim – garbled (L214–L215); use context-pack contractor spend",
-      "Dental client 'APRA' – likely AHPRA; which client",
-      "Recording L389–L919 is a separate Wendlley Meta pacing session – extract against Wendlley's evidence row, not Hayley's"
-    ]
-  }
+  ]
 }

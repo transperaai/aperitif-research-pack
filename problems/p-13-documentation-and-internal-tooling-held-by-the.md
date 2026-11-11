@@ -1,8 +1,7 @@
 ---
 id: P-13
 title: "Documentation and internal tooling held by the founder"
-austin_call: "Solve now"
-austin_note: "inherently will be solved when i build solution for them and create good documentation and user docs"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-15"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP13", "KO-PP15", "LS-PP11", "MP-PP03", "MP-PP04", "MP-PP07", 
 theme: "Cultural"
 severity: "High"
 confidence: "Low – raised by 1"
-notion_id: 40fe204ff7698159a507c9835dc6a1f0
 ---
 
 # P-13 · Documentation and internal tooling held by the founder
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | inherently will be solved when i build solution for them and create good documentation and user docs |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) |
 | Theme · severity · confidence | Cultural · High · Low – raised by 1 |
 | Process area | People / culture |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff7698159a507c9835dc6a1f0
 
 - Fixes: [DS-15 AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)](../solutions/ds-15-ai-business-brain-the-umbrella.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-33](../opportunities/README.md#o-33) SOPs linked from Monday templates; stale pages retired – partly addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
@@ -47,8 +44,7 @@ notion_id: 40fe204ff7698159a507c9835dc6a1f0
 
 - Cluster [C-35](../synthesis/clusters-and-root-causes.md#c-35): SOPs and new systems aren't adopted, so leaders re-explain and mistakes repeat – raised by 2 staff + 2 leadership; confidence High.
 - Root cause [RC-08](../synthesis/clusters-and-root-causes.md#rc-08): Adoption isn't designed or enforced: systems and SOPs are built, then assumed to be used.
-- Problems DB root cause: Joe built the operating system himself and hasn't handed ownership to the team.
-- Merge notes: Stage 1 merge (6 Nov): Merge → [C-35](../synthesis/clusters-and-root-causes.md#c-35). Leadership-only ([MP-PP04](../pain-points/README.md#mp-pp04)); tooling side sits in the dependency table. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Joe built the operating system himself and hasn't handed ownership to the team.
 
 ## Pain points (7)
 
@@ -67,6 +63,6 @@ notion_id: 40fe204ff7698159a507c9835dc6a1f0
 - [WS-PP09](../pain-points/README.md#ws-pp09) – Team members still ask questions the Notion SOPs answer; people forget the SOPs
   - *"It's just that sometimes people Forget like I tried to remind everyone"* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~19:08 (L237)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L242) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Joe is last editor on 84 of 217 wiki pages (39%); next highest 20. Slack agents appear to run on Joe's personal OpenClaw; nobody else knows the triggers.

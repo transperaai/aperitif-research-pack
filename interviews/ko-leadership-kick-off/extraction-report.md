@@ -1,14 +1,14 @@
 # Part A – Transcript extraction: Joe Romeo (Founder & Principal Consultant) and Julia Van Der Linden (Head of Client Services) – Pre-audit kick-off
 
-- **Timestamps:** the transcript is a cleaned version with no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in /home/claude/KO/transcript.md (426 utterances, 19 section headings) and ~mm:ss is estimated from word position (15,655 words spread over about 90 minutes, about 174 words a minute). The page header states ~92 min; the word count at 180 wpm gives about 87 min, and the cleaned text is shorter than the recording, so treat length as 87–92 min and every timestamp as accurate to about ±3 minutes (more drift late in the session). Austin says he is 'ten minutes out' at ~75:16 (L349), which fits a 85–90 minute session.
+- **Timestamps:** the transcript is a cleaned version with no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md` (426 utterances, 19 section headings) and ~mm:ss is estimated from word position (15,655 words spread over about 90 minutes, about 174 words a minute). The page header states ~92 min; the word count at 180 wpm gives about 87 min, and the cleaned text is shorter than the recording, so treat length as 87–92 min and every timestamp as accurate to about ±3 minutes (more drift late in the session). Austin says he is 'ten minutes out' at ~75:16 (L349), which fits a 85–90 minute session.
 
 - **Speakers:** the page labels three speakers (Austin 214 utterances, Joe 148, Julia 64) and says the labels are best-effort because the source had none. All three are used as labelled. Some lines look mis-attributed: L146 (a question and its answer both under Joe) and L274–L278 (Joe names Jethro and Julia adds she also closes deals). Every quote below carries its speaker so Joe's and Julia's views stay separate. This is leadership evidence: their view of the business, not observed process times.
 
 - **Name and term corrections (transcription):** "Wensley" → Wendlley (Wendlley Simoes, Performance Director); "Carl" → Karl (Karl Zaharopoulos); "Agency Analytics" → AgencyAnalytics; "Transfer AI" → Transpera AI; "DDG" → probably DDEG (Tier 1 client; not confirmed); "Sophie" at L044 is unresolved (could be Sophie Hesseborn or a mis-hearing); "Michael" at L072 is unresolved (a client contact, or Michael Laps); "Founder Squid" (L249) is flagged [unclear] in the source. The page's own [?] and [unclear] markers are kept as they are (1 [?], 1 [unclear]); L005 notes the presentation length may be '16 minute' in the audio.
 
-- **Corrections applied 6 Nov per Austin:** Tina = Slack bot (not mentioned in this transcript); escalation issues go to Julia (confirmed by Julia, L019–L022). Wendlley = 'Wensley'.
+- **Name corrections:** Tina = Slack bot (not mentioned in this transcript); escalation issues go to Julia (confirmed by Julia, L019–L022). Wendlley = 'Wensley'.
 
-- **IDs:** prefix KO- (kick-off), as instructed. The mid-point check-in with the same two people is a separate page (MP- IDs) and was not touched.
+- **IDs:** prefix KO- (kick-off). The mid-point check-in with the same two people is a separate page (MP- IDs) and was not touched.
 
 ## 0. Interview card
 
@@ -714,86 +714,6 @@ Automation beats augmentation where staff have not adopted tools before (KO-O06,
 | OpenClaw agents and memory | Founder | Retention tracking and team assistant have no second owner (L137, L375) |
 | Sales pipeline | Founder plus one new salesperson | Growth stalls (L403) |
 
-## 11. Follow-ups
-
-- **Questions:**
-
-  - Who is 'Sophie' at L044 ('Sophie is managing it') and what is she managing: the handover, or the 'central brain' for each client?
-
-  - Who is 'Michael' at L072 (Joe can call him for rapport): a client contact, or Michael Laps?
-
-  - What exactly did Joe mean by '30% negative' at L272, and which stage of the funnel is 'one in ten' measured from?
-
-  - Is there one senior performance leader seat open, given Julia says the team is 'headless' (L066) while Joe names the Performance Director as a department lead (L106)? Confirm the org chart.
-
-  - How many new clients start each month, and how long does each onboarding take in staff hours? (Needed to cost KO-P03 and KO-P04.)
-
-  - How many hours a week does Joe spend on AP, payroll and invoicing? (KO-P07.)
-
-  - How long does a typical escalation case take Julia and the team? (The 30–90 min in KO-P06 is assumed.)
-
-  - Where is the escalation pipeline kept (HubSpot, Monday.com, a sheet)?
-
-  - What data sources feed Joe's 'mission control' dashboard and who else can maintain it?
-
-  - Which year is the HubSpot renewal in ('until September', L309)?
-
-  - Ask Sid how he rebuilt the HubSpot automation in Monday.com and which nuances may have been missed.
-
-- **Contradictions:**
-
-  - Julia says the handover is 'just the transcript' (Joe, L042) and Joe says it is the same HubSpot record with all the notes (L301): consistent, but the Performance Director interview (WS-PP06 in Transcript Findings) says the internal handover is sometimes rushed or skipped, which Joe's '15 minutes' description does not show.
-
-  - Julia: 'We need a wiki badly' (L082) vs Joe: 'I think everything's in Notion' (L423) and 'there's a lot of documentation' (L088); the context pack shows 217 pages with 43% stale.
-
-  - Julia: about 200 links a month (L368) vs the context pack (about 300 a month, ~2,800 orders Jan–Oct).
-
-  - Joe says Otter recordings 'should go into the CRM automatically' (L320); the context pack says Otter is rarely used and transcripts barely read.
-
-  - Joe says a Google Ads script alerts on seven days without conversions (L356); the context pack problem 'No proactive performance alerting' says issues are found at month end. Both may be true (the script covers one failure type).
-
-  - Team size: Joe 'about 22' plus four offshore (L094) vs context pack about 27; consistent if 22 + 4 = 26.
-
-  - Austin's quote of $24K a year saving on HubSpot (L310) vs Joe's combined HubSpot and Monday.com 'better part of 30 grand' after a reduction (L313): the saving from dropping HubSpot alone is not established.
-
-  - Julia's 70% operations and 30–40% client work sums to 100–110% (L013).
-
-- **Data or artefacts to request:**
-
-  - Org chart and current staff list (Joe, Notion).
-
-  - Monthly HubSpot ticket automation spec and Monday.com sync mapping (Joe, Sid).
-
-  - DLER by department for the last 12 months and the CFO-team pack (Joe).
-
-  - P&L, revenue per client, churn numbers and retention % history (Joe, CFO team).
-
-  - Escalation pipeline records for the last 3 months (Julia).
-
-  - New-client count per month, win/loss reasons and funnel stages (Joe, BD).
-
-  - HubSpot and Monday.com contracts, seat counts and renewal dates (Joe).
-
-  - Pulse-check survey results, including the 'too many changes' and AI comments (Joe).
-
-  - Performance matrices and review templates (Julia).
-
-  - OpenClaw task list and who has access (Joe).
-
-- **Claims to verify before they go in the pack:**
-
-  - Gross margin 'roughly 30%' for both service lines (L202) – get actuals.
-
-  - Close rate 'one in ten' (L268) and '30% negative' (L272).
-
-  - HubSpot about $22–25K a year, Monday.com about $1,000 a month, combined about $30K (L311, L313).
-
-  - Ramp of 90 days (L229) against actual DLER history.
-
-  - Average account value about $4.9K MRR (L264).
-
-  - Julia's 'five a week' escalation rate (L124) from the pipeline record.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -806,19 +726,3 @@ Automation beats augmentation where staff have not adopted tools before (KO-O06,
 | Childcare clients (sector) | Context pack: paid media vertical | Susceptible to elections (L193). |
 | Tier-1 clients (general) | Tier 1 | Specify seniority in their contracts (L156); Joe holds personal relationships (L072). |
 | Lead-generation clients (general) | Mixed | Lead quality falling; 'all of our clients are suffering' (L393). |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Senior performance seat.** Joe says the former Head of Performance did not pass probation 'last Friday' (about 16 Oct) and was 'in the seat, wasn't really doing the job' while Joe was on leave (L070). Julia says in hindsight that person 'was actually creating labour for the team' (L223). This is leadership's account only; do not name the person or repeat it in the pack.
-
-- **Sales hire.** Julia says she is 'fighting with Jethro' over a hard-sell style: 'He's calling someone three times in a day' (L283). Joe describes an earlier sales person who did not call a lead back (L248: 'that's not acceptable') and says the current hire has strong selling skills but not the domain depth (L244). Julia: the hire 'started on the first of the month' (L281), so it is early.
-
-- **Performance Director.** Joe: 'a strong personality. And I think a little change-resistant at times' (L408); advises 'treading lightly' and presenting AI as taking things off her plate. Julia clarifies the survey comment about over-reliance on AI was about 'losing the human touch' (L410); Joe thinks 'there's probably a bit of instilled fear in there as well' (L412). Joe also names her and the SEO Director as the two people the business cannot lose (L106–L108).
-
-- **Team confidence and fear.** Julia: team is 'broadly under-confident' (L316), 'a bit afraid of hard conversations' (L322), and has a 'paternal reverence' for Joe (L334). She passes on, in confidence ('I haven't told you this'), that someone said they 'automatically stuff up' when Joe or she is on a call (L336), and that people know colleagues have not passed probation, so 'perhaps there is that undercurrent of fear' (L341). Joe: 'what you say and what comes back is completely different' (L339).
-
-- **Interviewer background.** Austin was the client-side vendor lead at DDG when Aperitif was engaged (L005, L043). He also recounts a past call where a former Aperitif staff member kept talking over him (L317). Possible bias on soft-skills and handover findings; treat his framing of those as `interviewer` evidence.
-
-- **Pay and promotion.** Joe says people open the review document 'until the three months are coming up' and then ask for more money (L347); generic, no individual named.
-
-- **Overall sentiment.** Joe: stretched and self-deprecating about firefighting ('more the garbage man', L009), guarded about timesheets and change ('Big Brother', L206), candid on tools ('I just see it as a cost', L367), frustrated at sales consistency (L250). Julia: measured, candid and stretched, covering a vacant seat ('I'm plugging in a few gaps there', L066) and protective of her early-warning role (L086). Joe wants AI introduced as taking work 'off the plate', not replacing people (L408).

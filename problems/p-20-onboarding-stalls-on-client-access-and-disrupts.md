@@ -1,8 +1,7 @@
 ---
 id: P-20
 title: "Onboarding stalls on client access and disrupts BAU"
-austin_call: "Solve later"
-austin_note: "This requires a shadow session to actually soak i the exact workflows and bottle necks. but this should definitely be optimised if we want to scale"
+decision: "Solve later"
 status: addressed
 fixed_by: ["DS-09"]
 also_helped_by: ["DS-08", "DS-20"]
@@ -13,15 +12,13 @@ pain_points: ["KO-PP08", "KO-PP22", "KZ-PP01", "KZ-PP02", "KZ-PP03", "KZ-PP04", 
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff769816bb3a6ed13ce47da58
 ---
 
 # P-20 · Onboarding stalls on client access and disrupts BAU
 
 | | |
 | --- | --- |
-| Austin's call | **Solve later** |
-| Austin's note | This requires a shadow session to actually soak i the exact workflows and bottle necks. but this should definitely be optimised if we want to scale |
+| Decision | **Solve later** |
 | Status | addressed – Fixed by [DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md); also helped by [DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md), [DS-20](../solutions/ds-20-new-client-dossier-agent.md) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Onboarding |
@@ -33,7 +30,7 @@ notion_id: 40fe204ff769816bb3a6ed13ce47da58
 - Also helps: [DS-08 AI sales handover: extracted from sales calls, confirmed by delivery](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md) – via cluster C-09 in text
 - Also helps: [DS-20 New-client dossier agent (at signing → client brain)](../solutions/ds-20-new-client-dossier-agent.md) – "linked problem" only
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-08](../opportunities/README.md#o-08) Sales-to-delivery gate: handover fields, owner, access checklist – addressed ([DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md))
 - [O-14](../opportunities/README.md#o-14) AI-prefilled onboarding audit and Master SEO Document – addressed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
@@ -46,8 +43,7 @@ notion_id: 40fe204ff769816bb3a6ed13ce47da58
 - Root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07): External dependencies – client access, approvals, inputs, contractors and vendors – aren't contracted, time-boxed or tracked, so delivery waits.
 - Cluster [C-10](../synthesis/clusters-and-root-causes.md#c-10): Onboarding work is manual and heavy; clustered starts swamp BAU and wear staff down – raised by 4 staff + 2 leadership; confidence High.
 - Root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): There is no effort model: time per client isn't measured, scope and onboardings aren't checked against capacity, and intake isn't triaged – so work is sold, priced and scheduled by feel.
-- Problems DB root cause: Access is requested manually per platform; no cap on simultaneous onboardings; the account audit is manual against a 30-item checklist.
-- Merge notes: Stage 1 merge (6 Nov): Split → [C-09](../synthesis/clusters-and-root-causes.md#c-09), [C-10](../synthesis/clusters-and-root-causes.md#c-10). Access/inputs half → [C-09](../synthesis/clusters-and-root-causes.md#c-09); BAU-disruption half → [C-10](../synthesis/clusters-and-root-causes.md#c-10). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Access is requested manually per platform; no cap on simultaneous onboardings; the account audit is manual against a 30-item checklist.
 
 ## Pain points (15)
 
@@ -82,6 +78,6 @@ notion_id: 40fe204ff769816bb3a6ed13ce47da58
 - [ZC-PP08](../pain-points/README.md#zc-pp08) – Onboarding peaks (five in one month) overload the manager because month 1 is over-serviced
   - *"One month specifically, I had onboarding five clients in the same month."* – Zach Chamberlain, SEO Manager · staff-raised · [\~20:36 (L218)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L224)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Shrishti: "gaining client access is a key friction point"; account audit is the most time-consuming step; onboarding disrupts BAU for all existing clients. Karl: "Onboarding clients is hard work".

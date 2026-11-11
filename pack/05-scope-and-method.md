@@ -96,20 +96,19 @@ Each step fed the next. Every finding traces back down the chain to a transcript
 
 | Stage | Count | Source |
 | --- | --- | --- |
-| Interview transcripts | **14** (12 staff + 2 leadership sessions) | Transcripts |
+| Interview transcripts | **14** (12 staff + 2 leadership sessions, each an hour or more) | Transcripts |
 | Pain points | **243** (223 raised by staff, 13 raised by Austin, 7 inferred) | Pain points database |
 | Processes costed | **34** process cost rows | Stage 2 |
 | Clusters | **39** | Stage 1 |
 | Root causes | **8** | Stage 1 |
 | Contradictions logged | **31** | Stage 1 |
 | Strengths and culture items (second pass) | **488** strength items → 20 themes; **153** culture items → 15 themes | Stage 4 |
-| Problems | **48** (incl. 26 known before the audit and 6 culture problems) – Austin's calls: 29 solve now, 5 solve later, 9 not in this proposal (each with a note why), 5 reject | Problems database |
+| Problems | **48** (incl. 26 known before the audit and 6 culture problems) – decisions: 29 solve now, 5 solve later, 9 not in this proposal (each with a short reason), 5 reject | Problems database |
 | Opportunities | **143** raised in interviews → **35** merged, plus **21** of Austin's earlier ideas | Stage 2; Opportunities database |
-| Solutions | **33** numbered (DS-01 to DS-33) – **32 active**; DS-13 merged into DS-14 | Distilled Solutions page |
-| Ideas to discuss | **1** (PPC productised service) | Opportunities database |
-| Independent audit | 66 of 66 quotes verbatim; 6 must-fix, 17 should-fix, 16 notes – all must-fix items applied | Audit report, 9 Nov |
+| Solutions | **33** numbered (DS-01 to DS-33) – **32 active**; DS-13 is covered by DS-14 – delivered as **18 builds** in 9 bundles | Distilled Solutions; Builds and pricing |
+| Independent quote check | 66 of 66 quotes verbatim | Independent check, 9 Nov |
 
-**Pain point coverage** (decision ledger, 9 Nov): 173 addressed by a solution, 20 partly addressed, 48 sit under problems not in this proposal, 2 under rejected problems. *The ledger was built on the page before DS-30 to DS-33 were split out; those are splits of existing solutions, so coverage is unchanged.*
+**Pain point coverage:** 173 addressed by a solution, 20 partly addressed, 48 sit under problems not in this proposal, 2 under rejected problems.
 
 ---
 

@@ -1,8 +1,7 @@
 ---
 id: P-21
 title: "Managers at capacity – Tier 2/3 clients get dropped first"
-austin_call: "Solve now"
-austin_note: "We need to reduce the amount of effort required to manage t2 and t 3 clients, and also have better optics and observability"
+decision: "Solve now"
 status: partly_addressed
 fixed_by: []
 also_helped_by: ["DS-01", "DS-05", "DS-06", "DS-30"]
@@ -13,15 +12,13 @@ pain_points: ["DM-PP10", "KO-PP09", "KO-PP26", "LS-PP01", "LS-PP02", "MC-PP09", 
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981208c95f2a96063afd7
 ---
 
 # P-21 · Managers at capacity – Tier 2/3 clients get dropped first
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | We need to reduce the amount of effort required to manage t2 and t 3 clients, and also have better optics and observability |
+| Decision | **Solve now** |
 | Status | partly addressed – Solve now; no DS fixes it – only "also helps" by [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md): "also helps (partly)"; capacity not solved – [O-17](../opportunities/README.md#o-17)/O-19/O-32 dropped) ([DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md): "also helps (partly)" – the right work surfaces first) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -34,7 +31,7 @@ notion_id: 40fe204ff76981208c95f2a96063afd7
 - Also helps: [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md)
 - Also helps: [DS-30 Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) – "also helps (partly)" – the right work surfaces first
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-05](../opportunities/README.md#o-05) Reports and review decks: auto-filled data, AI-drafted narrative – partly addressed ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
@@ -51,8 +48,7 @@ notion_id: 40fe204ff76981208c95f2a96063afd7
 
 - Cluster [C-17](../synthesis/clusters-and-root-causes.md#c-17): Managers are at capacity, so lower-tier clients and account hygiene slip first – raised by 7 staff + 2 leadership; confidence High.
 - Root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): There is no effort model: time per client isn't measured, scope and onboardings aren't checked against capacity, and intake isn't triaged – so work is sold, priced and scheduled by feel.
-- Problems DB root cause: Client loads of 12–14 per manager plus ad hoc work, with no capacity model.
-- Merge notes: Stage 1 merge (6 Nov): Confirm → [C-17](../synthesis/clusters-and-root-causes.md#c-17) (7 staff + 2 leadership – widest raise). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Client loads of 12–14 per manager plus ad hoc work, with no capacity model.
 
 ## Pain points (15)
 
@@ -87,6 +83,6 @@ notion_id: 40fe204ff76981208c95f2a96063afd7
 - [WS-PP01](../pain-points/README.md#ws-pp01) – Director's own channel load nearly doubled (≈10 → 18) on 4 clients since July with no extra resource; own portfolio squeezed
   - *"But then I went from managing probably like 10 channels to like 18."* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~06:35 (L102)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L107)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Shrishti: 14 clients across 24 channels, at full capacity; "Tier 2 and 3 accounts are the first to be deprioritized". Laura: 12 clients, "stretched because of extra responsibilities".

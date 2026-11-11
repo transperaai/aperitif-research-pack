@@ -2077,36 +2077,5 @@
       "who_role": "Technical SEO Specialist",
       "if_absent": "Client owners lose the plain-English explanations used in monthly reports"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Sid: how many new SEO clients per month go through HubSpot → Make → Monday, and how long does owner confirmation take?",
-      "Sid: hours per month on Monday/Make maintenance; is anything documented?",
-      "Sid: page uploads per month and how many loop more than twice; which client is the month-long page?",
-      "Sid: allocated technical hours per client (sheet that generates Monday tasks)",
-      "Karl / Julia: who should decide the delivery owner at deal close?",
-      "Joe: current Claude plan and seat count; usage-limit incidents",
-      "Confirm whether trendsite.com.au is a client and what 'Kshalo' (L081) refers to"
-    ],
-    "contradictions": [
-      "Context pack: Tonie and Zach report to Sid; Sid described no management duties",
-      "Context pack: 81-item technical audit run by technical SEO; Sid says audits are automated via Claude MCP",
-      "Nadiya ('Nadia') used as example client owner (L101) but has resigned per context pack",
-      "Four then five end-to-end clients (L249–L252)",
-      "Adriatic content: '2000 words' then '200 monthly words' (L510–L511)"
-    ],
-    "data_requests": [
-      "Make scenario list and diagram (Austin now has admin access) – Sid",
-      "Monday SEO delivery board and the task-generating sheet – Sid",
-      "HubSpot deal properties and form fields – Sid / sales",
-      "Claude admin usage report – Joe",
-      "Example forwarded chain and the looping page thread – Sid"
-    ],
-    "verify": [
-      "1 h/day email (single self-estimate)",
-      "Technical hours in SB-P02 (assumed)",
-      "Scope of 'we've automated technical audits'",
-      "Claude plan is Pro for Teams ('I think')"
-    ]
-  }
+  ]
 }

@@ -4,7 +4,7 @@ title: "Client comms assistant: monthly updates and expectation setting"
 team: "account managers (PPC and SEO)"
 bundle: "Delivery & reporting"
 status: "Added – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: []
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["KO-PP20", "LS-PP16", "SH-PP09"]
 pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
 value: "Consistent, faster client updates, saved to the brain"
-build_cost: "A$1,000"
-monthly: "A$200/month + tokens ~US$10–40"
-notion_section: "Client comms assistant: monthly updates and expectation setting"
 ---
 
 # DS-28 · Client comms assistant: monthly updates and expectation setting
@@ -37,24 +34,16 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 | Pain points cited | [KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised), [SH-PP09](../pain-points/README.md#sh-pp09) |
 | Written source | – |
 | Value | Consistent, faster client updates, saved to the brain |
-| Build cost | A\$1,000 |
-| Monthly | A\$200/month + tokens \~US\$10–40 |
 
 ## Vision
 
 > **As written** – drafts proactive client updates through the month and pre-empts dips with expectation-setting notes, all approved by the manager before sending. **Every update sent is saved to the client brain ([DS-04](ds-04-ai-client-brain.md))**, so the end-of-month report, the quarterly review and the 6-month review ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) are easier to put together – the story of the period is already written.
 
-## Pricing & priority
-
-> **Priority: Fill-in (after [DS-04](ds-04-ai-client-brain.md)) · Impact 2 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Delivery & reporting · runs on the AI client brain ([DS-04](ds-04-ai-client-brain.md))
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Client comms assistant** – monthly updates and expectation-setting notes, approved by the manager, saved to the client brain | **A\$1,000** | **A\$200/month** maintenance + AI tokens \~US\$10–40/month |
+## Decision
 
 **Team:** account managers (PPC and SEO). **Decision (9 Nov):** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
 
-## How it works (draft)
+## How it works
 
 1. Collects the month's updates per client: work done (Monday tasks), wins ([DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md)), alerts and diagnoses ([DS-23](ds-23-seo-drop-and-anomaly-alerts.md), [DS-27](ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md)).
 2. Drafts short client updates through the month for the manager to approve and send.
@@ -71,7 +60,7 @@ notion_section: "Client comms assistant: monthly updates and expectation setting
 
 Clients hear from the team through the month without managers writing every update; seasonal and industry dips are flagged to clients before they land.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -79,7 +68,7 @@ Clients hear from the team through the month without managers writing every upda
 | Dips explained to the client before the monthly report | Rare | 100% of forecast dips |
 | Manager time on routine client comms | Crowds out strategy ([SH-PP09](../pain-points/README.md#sh-pp09)) | Baseline, then −30% |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: consistent, faster client communication.** Client updates and replies are drafted in each client's tone with the latest results and context, and every message is saved to the client brain – so clients get clear, timely updates and nothing said to a client is lost. Hours aren't claimed (no figures were given).
 
@@ -87,9 +76,9 @@ Clients hear from the team through the month without managers writing every upda
 
 **Goals:** good customer service · trust · retention
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

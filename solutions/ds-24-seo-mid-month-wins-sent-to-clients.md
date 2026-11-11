@@ -4,7 +4,7 @@ title: "SEO: mid-month wins sent to clients"
 team: "SEO"
 bundle: "SEO performance"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-12 (ZC-O03 win note)"]
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["LS-PP08"]
 pain_points_interviewer_raised_or_inferred: []
 value: "New standard: wins shared between reports (trust, retention)"
-build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
-monthly: "A$1,250/month + tokens ~US$8–35"
-notion_section: "SEO: mid-month wins sent to clients"
 ---
 
 # DS-24 · SEO: mid-month wins sent to clients
@@ -37,8 +34,6 @@ notion_section: "SEO: mid-month wins sent to clients"
 | Pain points cited | [LS-PP08](../pain-points/README.md#ls-pp08) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | New standard: wins shared between reports (trust, retention) |
-| Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
-| Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
 ## Vision
 
@@ -70,15 +65,15 @@ Every focus SEO client hears about a win between monthly reports.
 | Mid-month win notes sent per focus client | 0 | ≥ 1 a month |
 | Retention of clients receiving win notes | Not tracked | Track vs others |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: a new standard of client communication.** Mid-month wins are spotted and shared with clients proactively – something that doesn't happen today. Clients see progress between reports, which builds trust and supports retention.
 
 **Goals:** trust · retention · good customer service
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

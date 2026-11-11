@@ -4,7 +4,7 @@ title: "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Mon
 team: "everyone"  # inferred: the page gives no "Team:" line
 bundle: "Team productivity"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-06 (capture part)", "O-29 (inbox triage part (daily brief moved to DS-30))"]
 earlier_ideas: []
@@ -15,14 +15,11 @@ problems_related_only: []
 pain_points_cited: ["DM-PP09", "LS-PP14", "MC-PP04", "MC-PP05", "MP-PP05", "MP-PP06", "SB-PP01", "SB-PP02", "SB-PP03", "SB-PP04", "SB-PP15"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP06 (interviewer-raised)"]
 value: "Nothing gets missed"
-build_cost: "A$500"
-monthly: "A$150/month + tokens ~US$30–120"
-notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com"
 ---
 
 # DS-06 · Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com
 
-*Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep (daily priorities moved to DS-30).*
+*Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep.*
 
 | | |
 | --- | --- |
@@ -37,8 +34,6 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 | Pain points cited | [DM-PP09](../pain-points/README.md#dm-pp09), [LS-PP14](../pain-points/README.md#ls-pp14), [MC-PP04](../pain-points/README.md#mc-pp04), [MC-PP05](../pain-points/README.md#mc-pp05), [MP-PP05](../pain-points/README.md#mp-pp05), [MP-PP06](../pain-points/README.md#mp-pp06) (interviewer-raised), [SB-PP01](../pain-points/README.md#sb-pp01), [SB-PP02](../pain-points/README.md#sb-pp02), [SB-PP03](../pain-points/README.md#sb-pp03), [SB-PP04](../pain-points/README.md#sb-pp04), [SB-PP15](../pain-points/README.md#sb-pp15) |
 | Written source | – |
 | Value | Nothing gets missed |
-| Build cost | A\$500 |
-| Monthly | A\$150/month + tokens \~US\$30–120 |
 
 ## Vision
 
@@ -46,19 +41,13 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 >
 > - It catches stray requests from Slack, DMs and email and puts them into Monday, so the brain ([DS-04](ds-04-ai-client-brain.md)) always knows what's been asked.
 > - **Task status sweep (added 9 Nov):** the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved ([DM-PP09](../pain-points/README.md#dm-pp09)), and nudges the owner.
-> - The **daily priorities** assistant is now its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)** (Austin's call: "another thing").
+> - The **daily priorities** assistant is now its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)**.
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Request sweeper + task-status sweep** – connected to the AI brain (runs on the [DS-04](ds-04-ai-client-brain.md) platform) | **A\$500** | **A\$150/month**  • AI tokens \~US\$30–120/month |
+## Decision
 
 **Decision (9 Nov):** Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in **direct messages** and **email** – and puts them into Monday.com as tasks.
 
-## How it works (draft)
+## How it works
 
 1. The sweeper watches Slack channels, DMs and email inboxes. Channels are preferred, but DMs and email are swept too, because that's where many requests land.
 2. AI spots messages that are actually requests ("can you…", "need this by…", a change to an account) and ignores chat.
@@ -73,7 +62,7 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 - **[O-06](../opportunities/README.md#o-06)** All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win – **the capture part**. This solution catches requests where people actually send them rather than relying on everyone using the form.
 - **SB-O02** AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks.
 - **[O-29](../opportunities/README.md#o-29)** AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.
-- **Not included (Austin's call):** [O-06](../opportunities/README.md#o-06)'s Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.
+- **Not included:** [O-06](../opportunities/README.md#o-06)'s Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.
 
 ## Problems it fixes and the evidence
 
@@ -82,14 +71,14 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 - Also helps: [Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – fewer requests lost in DMs and chased later. Partly: same-day ad hoc requests ([C-18](../synthesis/clusters-and-root-causes.md#c-18), not in this proposal) become visible in Monday, even if they're still same-day.
 - *Austin's observation:* a lot of the stray requests are in DMs – one interview confirms DMs as a request route ([SB-PP04](../pain-points/README.md#sb-pp04)).
 
-## Future state (draft)
+## Future state
 
 1. Every request that matters ends up as a Monday task, whether it was sent through Monday, a Slack channel or a DM.
 2. Nobody has to remember to copy a request into Monday – the sweeper creates the task automatically from Slack; email requests are confirmed by the employee first.
 3. Requests with missing details are flagged straight away, not discovered when the work starts.
 4. Leadership sees status in Monday, not by chasing in Slack.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -98,7 +87,7 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 | Requests needing a chase for missing details | Unknown – "sometimes" ([MC-PP04](../pain-points/README.md#mc-pp04)) | −50%; baseline to be measured |
 | Tasks overdue > 3 days | Unknown (DM-O03) | −70% ([O-06](../opportunities/README.md#o-06)) |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: nothing gets missed.** Requests that arrive in Slack DMs and email are caught, confirmed and turned into Monday tasks, so work isn't lost or caught last-minute (Sid Bali: "not everybody uses Monday"). This is about capturing what's missed today, not time back – no hours claimed. It protects delivery quality and the client experience, and gives leadership a true picture of the work.
 
@@ -106,9 +95,9 @@ notion_section: "Request sweeper (\"Roomba\"): stray Slack, DM and email request
 
 **Goals:** good customer service · good performance · trust
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

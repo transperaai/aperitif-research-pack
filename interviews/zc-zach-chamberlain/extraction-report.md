@@ -1,10 +1,10 @@
 # Part A – Transcript extraction: Zach Chamberlain (SEO Manager)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Zach - Workflow & Process Interview", 4 Nov 2026, 10:30 am (Melbourne). Full transcript retrieved (507 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/ZC/transcript.md`; ~mm:ss is estimated from cumulative word position across ~47 minutes (60-minute booking; 8,445 words at ~180 words/min, the rate measured in the Shrishti interview; Austin closed early to "give you back some time", L496). Length is estimated, not stated.
+- Transcript: meeting notes "Zach - Workflow & Process Interview", 4 Nov 2026, 10:30 am (Melbourne). Full transcript retrieved (507 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~47 minutes (60-minute booking; 8,445 words at ~180 words/min, the rate measured in the Shrishti interview; Austin closed early to "give you back some time", L496). Length is estimated, not stated.
 - **Speakers:** the diariser labelled Austin as B and split Zach across labels A, C, D, E and F. All non-Austin lines are treated as Zach (one "A" line, L500, says "Cheers, Austin", which confirms A is Zach).
-- **Name and term corrections (transcription):** "cloud / claw / Clawed / cord thread / core project" → Claude · "Carl" → Karl (Zaharopoulos) · "Kyle" (L060) → Karl · "Sarah" → Sarah Julian (Content Manager) · "Sid" → Sid Bali (Technical SEO Specialist) · "NSCO" (L042) → SEO · "Apartheid" (L303) → Aperitif · "MTP" (L283) → MCP (Model Context Protocol connector) · "keyboard research" → keyword research · "href / hrefs" → Ahrefs · "compressor analysis" (L321) → competitor analysis · "corporate car provider" (L149) → corporate card provider (he says "corporate card" elsewhere, L253) · "stress you work" (L124) → strategy work · "spread things out" (L176) → sped things up · "biopersonal" (L266) → buyer persona · "Blinking" (L366) → linking · "I've been adding a link" (L365) → about adding a link · "Monday" in L044 → Monday.com; "Monday performance check" (L283) = the weekday. Unresolved: "staff style backlink building" (L479 – possibly "PR-style"), "three, four extra" (L046), "big bombs" (L210), "Shaq Electric" (L303 – client name not in the context pack) – see 11.
+- **Name and term corrections (transcription):** "cloud / claw / Clawed / cord thread / core project" → Claude · "Carl" → Karl (Zaharopoulos) · "Kyle" (L060) → Karl · "Sarah" → Sarah Julian (Content Manager) · "Sid" → Sid Bali (Technical SEO Specialist) · "NSCO" (L042) → SEO · "Apartheid" (L303) → Aperitif · "MTP" (L283) → MCP (Model Context Protocol connector) · "keyboard research" → keyword research · "href / hrefs" → Ahrefs · "compressor analysis" (L321) → competitor analysis · "corporate car provider" (L149) → corporate card provider (he says "corporate card" elsewhere, L253) · "stress you work" (L124) → strategy work · "spread things out" (L176) → sped things up · "biopersonal" (L266) → buyer persona · "Blinking" (L366) → linking · "I've been adding a link" (L365) → about adding a link · "Monday" in L044 → Monday.com; "Monday performance check" (L283) = the weekday. Unresolved: "staff style backlink building" (L479 – possibly "PR-style"), "three, four extra" (L046), "big bombs" (L210), "Shaq Electric" (L303 – client name not in the context pack).
 - Hours are costed at **$80/hr internal labour cost**. Most process times were not stated in this interview (the focus was what he does, not how long it takes), so most touch times are `assumed` and the ranges are wide. Process totals are Zach's time unless stated.
 
 ---
@@ -320,7 +320,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | ZC-P12 | Knowledge & SOPs (run sheets, notes) | 1.0–3.0 | $80–$240 |
 | **Total** | | **53.7–158.5 h** | **$4,296–$12,680** |
 
-The high end (~159 h) is slightly more than one full-time month (~152–160 h) and can't all happen together. Zach says month to month is "pretty comfortable" (L218) and mid-month is "quite free" (L045), so the low-to-mid range is more realistic. Almost every time is assumed – confirm with timesheets (see 11).
+The high end (~159 h) is slightly more than one full-time month (~152–160 h) and can't all happen together. Zach says month to month is "pretty comfortable" (L218) and mid-month is "quite free" (L045), so the low-to-mid range is more realistic. Almost every time is assumed – confirm with timesheets.
 
 ## 3. Pain points and problems
 
@@ -445,7 +445,7 @@ The high end (~159 h) is slightly more than one full-time month (~152–160 h) a
 | 11 | ZC-O11 | 3 | 2 | 3 | 18 | Strategic (closest – Impact 3 / Ease 3 isn't covered) | Review time not discussed; depends on O01 |
 | 12 | ZC-O12 | 2 | 2 | 4 | 16 | Fill-in | Nice-to-have intel; low evidence |
 
-Ties are broken by Ease, then Impact. Automation beats augmentation for the Monday check (ZC-O03) and link monitoring (ZC-O08) because the manual versions are already being skipped (L285) or have stopped (L381). The premium link-building service (ZC-S13) is a growth idea, not a fix, so it isn't scored here – see 11.
+Ties are broken by Ease, then Impact. Automation beats augmentation for the Monday check (ZC-O03) and link monitoring (ZC-O08) because the manual versions are already being skipped (L285) or have stopped (L381). The premium link-building service (ZC-S13) is a growth idea, not a fix, so it isn't scored here.
 
 ## 7. What's working well
 
@@ -506,39 +506,6 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for the Mond
 | Client approvals and chasing for ~19 clients | ZC | Content not published; results stall |
 | Link building and any new link service | Karl Zaharopoulos (link lead) | New ideas (brand mentions, premium service) don't start |
 
-## 11. Follow-ups
-
-**Questions**
-- Zach: how many briefs and content pieces did you handle in October, and how long does one brief take end to end? (firms up ZC-P02 and ZC-P04)
-- Zach: how many client calls a month, and how long is prep? (ZC-P05 is assumed)
-- Zach: how long does a 6-month review take, and how many are due each month? (ZC-P11 is assumed)
-- Zach: how long does the Monday check take when it's done, and how often is it skipped?
-- Sid: who maintains the Claude brief project, and how many managers use it to generate rather than QA briefs?
-- Karl: status of the premium / "PR-style" link-building service talks; appetite for brand-mention outreach; who owns post-publish live-link checks now?
-- Who approves a client's request to swap SEO hours to dev hours?
-
-**Contradictions**
-- Context pack says Karl's Claude guide does the strategy in ~75–90 min; the session title was "How to do it in 60 minutes" (L174) and Zach takes "a little bit longer than 60 minutes" (L181) – broadly consistent; use 60–90+ min.
-- Austin's playback (L058) assumed ad hoc work comes from Tier 1 / Tier 2 clients; Zach has none (L197–L203).
-- Context pack: Zach "up to 20 accounts" – consistent with ~19 (L195).
-- Austin said "I spoke to Kyle" (L060) about link building – almost certainly Karl.
-- Combined high-end hours (~159 h/month) exceed one FTE, while Zach says month to month is "pretty comfortable" – the high-end assumptions are too high together.
-
-**Data / artefacts to request**
-- Karl's Claude keyword research / strategy training document (Zach agreed to send, L165).
-- Sid's Claude brief project instructions and a sample brief (Sid / Zach).
-- Zach's client-preferences Google Doc and one internal run sheet (Zach).
-- The regulated-client guidelines run sheet (dental / financial services) (Zach).
-- Flower-delivery seasonal content calendar (Zach).
-- Content tracker export for October: sent-to-client and approved dates (Sarah Julian / Zach).
-- Zach's October 2026 calendar (call count and duration).
-
-**Claims to verify before the pack**
-- Content approval averages about a week (L435) – check against tracker dates.
-- Onboarding strategy fell from ~3 days to a little over an hour with Claude (L172, L181).
-- "Shaq Electric" (L303) – client name not in the context pack; probably mis-heard. Confirm the name and tier.
-- "staff style backlink building" (L479) – confirm what Karl and Zach discussed (possibly "PR-style").
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -551,13 +518,3 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for the Mond
 | Bargain Car Rentals | Tier 1 | Example of a client likely mentioned often online – brand-mention opportunity (not Zach's client) |
 | Leaselab | Tier 1 | Same – brand-mention example (not Zach's client) |
 | Tradies and car dealers (historic book) | Tier 3–4 (assumed) | Slow to give access at onboarding; niche long-tail keyword strategy |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: comfortable, energised and constructive.** He doesn't feel overwhelmed – "I wouldn't say so" (L213) – "month by month, it's pretty comfortable" (L218), and arrived with a prepared list of AI ideas (L037). He is keen to push the premium link-building idea but finds it "hard to kickstart that and know where to go" (L494).
-- Self-assessments (keep out of the pack): "my personal weaker point is the tech side of things" (L102) and, on meeting transcripts, "I think I'm just not great at them and I'm underutilizing them" (L350).
-- Recently promoted (October 2026) and holds no Tier 1 / 2 clients yet; Karl and Laura hold the larger clients (L113).
-- **Interviewer remarks to keep out of the pack:** Austin said the electrician client ("Shaq Electric") was his own referral to Aperitif (L303), then described the client contact as "a bit of a clueless chicken" who "doesn't really know what's going on from an SEO standpoint" (L311–L313). Zach replied neutrally ("really nice guys", L316). Note the referral relationship for independence.
-- Austin's joking "Zach came up with this. Make him a director." (L490) – banter; don't quote.
-- He feels his ideas with Karl on a new link service stalled; possibly a sign that ideas from newer managers lack a route to leadership. No tension expressed about any named person.
-- Small talk (Halloween party, Flemington races) – not relevant.

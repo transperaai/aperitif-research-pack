@@ -131,7 +131,7 @@
     {
       "client": "DDEG ('DDG')",
       "tier": "Tier 1",
-      "context": "Austin's former employer (vendor lead) – interviewer context only; confirm name"
+      "context": "Austin's former employer (vendor lead) – interviewer context only"
     },
     {
       "client": "Unnamed new client",
@@ -2761,40 +2761,5 @@
       "who_role": "Senior Performance Marketing Manager",
       "if_absent": "MC's onboarding strategy waits"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Michaela: implementation tasks per week and build time per task type; how often briefs incomplete?",
-      "Michaela: accounts with Day 1 budget reverts and time per account?",
-      "Michaela: which 10–11 clients – includes NICU ($28K Google per context pack)?",
-      "Michaela: meaning of 'float years' (L148) – 'low tiers'?",
-      "Shrishti: how often same-day asks; is the brief template in use?",
-      "Wendlley/Julia: who decided not to renew Supermetrics, end date, and replacement for pacing feed and Tina?",
-      "Liam: conversion tracking process and how 'done' is signalled (Austin action item)",
-      "Who owns contract end dates and where do they live?"
-    ],
-    "contradictions": [
-      "Client count 11 (L148) vs 10 (L156)",
-      "Austin says Tina checks pacing daily (L407) vs M/W/F per known facts",
-      "Context pack: Supermetrics lapsed; Michaela (2 Nov) says still connected but failing, not renewing",
-      "Context pack build 3–5 days vs Michaela 'a day' once approved (L271)",
-      "Self-described low-touch book vs NICU (top-5 Google budget) assigned to MC in context pack",
-      "Speaker labels: some B/D lines read like Austin; L429 'No, okay.' labelled Austin",
-      "High-end MC hours (~200 h/month) exceed one FTE"
-    ],
-    "data_requests": [
-      "Monday.com export of Michaela's tasks for one month (created vs due, priority fill rate) – Shrishti/Sid",
-      "Implementation brief template – Michaela",
-      "HubSpot onboarding task template – Julia/Joe",
-      "Team pacing sheet and Supermetrics failure log – Michaela/Wendlley",
-      "Onboarding questionnaire and offboarding handover template – Shrishti",
-      "Many Pixels brief examples and revision history – Michaela"
-    ],
-    "verify": [
-      "'Supermetrics is breaking down a lot' – dates/frequency",
-      "Day 1 = whole day on budget reverts",
-      "Optimisation 60 → 30 min with Claude",
-      "Merchant Center unchecked ~3 weeks – check disapprovals"
-    ]
-  }
+  ]
 }

@@ -1,8 +1,7 @@
 ---
 id: P-16
 title: "Reminders go unacted; a broken reminder bot went unnoticed"
-austin_call: "Solve now"
-austin_note: "we need to modernise and make robust systems for slack bots that the team relies on"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-06", "DS-30"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["DM-PP09", "KO-PP10", "MC-PP02", "MC-PP03", "MP-PP05", "MP-PP06", 
 theme: "Cultural"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981e9b92fcb8a575cb3f4
 ---
 
 # P-16 · Reminders go unacted; a broken reminder bot went unnoticed
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | we need to modernise and make robust systems for slack bots that the team relies on |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) |
 | Theme · severity · confidence | Cultural · Medium · High – raised by 3+ people |
 | Process area | People / culture |
@@ -32,7 +29,7 @@ notion_id: 40fe204ff76981e9b92fcb8a575cb3f4
 - Fixes: [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md)
 - Fixes: [DS-30 Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-29](../opportunities/README.md#o-29) AI inbox triage and daily brief across Gmail, Slack, Monday – absorbed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md))
 - [O-33](../opportunities/README.md#o-33) SOPs linked from Monday templates; stale pages retired – partly addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
@@ -45,8 +42,7 @@ notion_id: 40fe204ff76981e9b92fcb8a575cb3f4
 
 - Cluster [C-30](../synthesis/clusters-and-root-causes.md#c-30): Monday.com isn't the single home for work: requests bypass it and statuses go stale – raised by 4 staff + 1 leadership; confidence High.
 - Root cause [RC-08](../synthesis/clusters-and-root-causes.md#rc-08): Adoption isn't designed or enforced: systems and SOPs are built, then assumed to be used.
-- Problems DB root cause: Accountability for daily agendas depends on a bot prompt rather than on managers checking.
-- Merge notes: Stage 1 merge (6 Nov): Reword → [C-30](../synthesis/clusters-and-root-causes.md#c-30). Reframe around Monday.com hygiene. Proposed rewording in body. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Accountability for daily agendas depends on a bot prompt rather than on managers checking.
 
 ## Pain points (13)
 
@@ -77,6 +73,6 @@ notion_id: 40fe204ff76981e9b92fcb8a575cb3f4
 - [WS-PP15](../pain-points/README.md#ws-pp15) – Underperformance tickets described as a HubSpot flow though tasks moved to Monday.com; Director doesn't log her own tasks
   - *"If I'm doing it myself, I don't usually add it to that as well."* – Wendlley Simoes, Performance Marketing Director · inferred · [\~31:47 (L383)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L388)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Slack review: "Tina broke and didn't remind people to do their agenda items". Joe: agendas show minimal tasks and reminders go unacted upon.

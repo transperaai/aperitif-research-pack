@@ -1,6 +1,6 @@
 # Start here – Aperitif AI & business audit
 
-Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 interviews, traced from what people said to the solutions Austin recommends.
+Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 interviews, each an hour or more, traced from what people said to the recommended solutions and builds.
 
 ## The funnel
 
@@ -8,19 +8,19 @@ Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 
 | --- | --- | --- |
 | [Interviews](interviews/README.md) | 14 | 2 leadership + 12 staff, 22 Oct – 4 Nov 2026 |
 | [Pain points](pain-points/README.md) (PP) | 243 | addressed 173, not in proposal 48, partly addressed 20, rejected 2 |
-| [Problems](problems/README.md) (P) | 48 | Austin's calls: Solve now 29, Not in proposal 9, Solve later 5, Reject 5. Ledger: addressed 31, not in proposal 9, rejected 5, partly addressed 3 |
+| [Problems](problems/README.md) (P) | 48 | Decisions: Solve now 29, Not in proposal 9, Solve later 5, Reject 5. Status: addressed 31, not in proposal 9, rejected 5, partly addressed 3 |
 | [Merged opportunities](opportunities/README.md) (O) | 35 | addressed 15, dropped 7, absorbed 7, partly addressed 6 |
-| [Earlier ideas](opportunities/README.md#earlier-ideas-table) (EI) | 21 | absorbed 9, addressed 5, dropped 4, partly addressed 2, idea to discuss 1 |
-| [Solutions](solutions/README.md) (DS) | 33 | 32 in the final set; DS-13 merged into DS-14 |
-| [Not recommending](decisions/not-recommending.md) (NR) | 1 | Email inbox PA assistant |
+| [Earlier ideas](opportunities/README.md#earlier-ideas-table) (EI) | 21 | absorbed 9, addressed 5, dropped 4, partly addressed 2, held for later discussion 1 |
+| [Solutions](solutions/README.md) (DS) | 33 | 32 in the final set; DS-13 is covered by DS-14 |
+| [Builds](builds/README.md) | 18 | in 9 bundles, four phases |
 
-## Current builds (11 Nov)
+## Builds and pricing
 
-The 32 solutions below are consolidated into **18 builds** with current prices, maintenance, running costs, dollar value and start order in [builds/README.md](builds/README.md). Prices in the individual solution files are superseded.
+The 32 solutions below are consolidated into **18 builds** with prices, maintenance, running costs, dollar value and start order in [builds/README.md](builds/README.md). All pricing is there; the solution files describe scope and evidence.
 
 ## The solutions, by bundle
 
-Bundles group solutions for presenting; each solution keeps its own scope, KPIs and evidence. Current prices are in [builds/README.md](builds/README.md).
+Bundles group solutions for presenting; each solution keeps its own scope, KPIs and evidence. Prices are in [builds/README.md](builds/README.md).
 
 **AI Business Brain**
 
@@ -49,14 +49,14 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 
 - [DS-07 Link watchdog agent: monitors every paid link](solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) – Agent that checks every paid link weekly and drafts publisher emails when a link drops.
 - [DS-11 Link-building workflow CRM (orders, publishers, links, invoicing and payments)](solutions/ds-11-link-building-workflow-crm.md) – Link-building CRM covering publishers, orders, live links, invoicing and payments.
-- [DS-12 Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)](solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md) – Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM (brand mentions moved to DS-31).
-- [DS-31 Proactive brand-mention tracking for backlinks (split from DS-12)](solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) – Link building: weekly scan for unlinked brand mentions of Tier 1/2 clients, ranked, with drafted outreach; wins logged in DS-11.
+- [DS-12 Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)](solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md) – Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM.
+- [DS-31 Proactive brand-mention tracking for backlinks](solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) – Link building: weekly scan for unlinked brand mentions of Tier 1/2 clients, ranked, with drafted outreach; wins logged in DS-11.
 
 **Market intelligence**
 
-- [DS-16 Seasonal & trending content radar per client (split 9 Nov)](solutions/ds-16-seasonal-and-trending-content-radar-per-client.md) – Per-client seasonal and trending content radar (competitor spy is DS-32, macro trends DS-33).
-- [DS-32 Competitor spy per client (split from DS-16)](solutions/ds-32-competitor-spy-per-client.md) – SEO/content: weekly watch of each client's competitors with a digest in the client brain and Slack alerts.
-- [DS-33 Macro trend tracker per client (split from DS-16)](solutions/ds-33-macro-trend-tracker-per-client.md) – Strategists: per-client tracker of news, regulation, economy and industry shifts with "why it matters" and an idea to act on.
+- [DS-16 Seasonal & trending content radar per client](solutions/ds-16-seasonal-and-trending-content-radar-per-client.md) – Per-client seasonal and trending content radar (competitor spy is DS-32, macro trends DS-33).
+- [DS-32 Competitor spy per client](solutions/ds-32-competitor-spy-per-client.md) – SEO/content: weekly watch of each client's competitors with a digest in the client brain and Slack alerts.
+- [DS-33 Macro trend tracker per client](solutions/ds-33-macro-trend-tracker-per-client.md) – Strategists: per-client tracker of news, regulation, economy and industry shifts with "why it matters" and an idea to act on.
 
 **Client lifecycle**
 
@@ -73,7 +73,7 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 
 **Team productivity**
 
-- [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) – Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep (daily priorities moved to DS-30).
+- [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) – Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep.
 - [DS-30 Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals](solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) – Everyone: one triaged daily priority list per person from Monday, Slack, email, calendar, performance and seasonal signals, sent as a Slack DM.
 
 **Standalone**
@@ -84,10 +84,9 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 
 ## Biggest open points
 
-- **P-21 Managers at capacity** (Solve now; widest-raised problem, 7 staff + 2 leadership) has no fixing solution – only "also helps"; Austin treats it as a culture/people recommendation. See [P-21](problems/p-21-managers-at-capacity-tier-2-3-clients.md).
+- **P-21 Managers at capacity** (Solve now; widest-raised problem, 7 staff + 2 leadership) has no fixing solution – only "also helps"; it is handled as a culture and people recommendation. See [P-21](problems/p-21-managers-at-capacity-tier-2-3-clients.md).
 - Solutions that fix no listed problem: [DS-19](solutions/ds-19-ai-receptionist.md), [DS-20](solutions/ds-20-new-client-dossier-agent.md), [DS-26](solutions/ds-26-seo-performance-forecasting-tool.md).
 - Austin additions with weak or no interview evidence: [DS-18](solutions/ds-18-landing-page-generator.md), [DS-19](solutions/ds-19-ai-receptionist.md), [DS-20](solutions/ds-20-new-client-dossier-agent.md), [DS-21](solutions/ds-21-ai-creative-tools-to-augment-the-team.md), [DS-25](solutions/ds-25-ppc-performance-forecasting-tool.md), [DS-26](solutions/ds-26-seo-performance-forecasting-tool.md), [DS-33](solutions/ds-33-macro-trend-tracker-per-client.md).
-- Full list of known gaps: [method/gaps-and-issues.md](method/gaps-and-issues.md).
 
 ## Where to look for what
 
@@ -97,9 +96,8 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 | What are the builds, prices and start order? | [builds/README.md](builds/README.md) |
 | What is each solution worth (time, capacity, DLER)? | [VALUE-BY-BUNDLE.md](VALUE-BY-BUNDLE.md) |
 | What did people actually say? | [pain-points/](pain-points/README.md), then the [transcripts](interviews/README.md) |
-| What is broken, and what did Austin decide about it? | [problems/](problems/README.md) |
-| Which ideas were dropped, left out or not recommended? | [decisions/not-recommending.md](decisions/not-recommending.md), [opportunities/](opportunities/README.md) |
-| How were decisions recorded? | [decisions/](decisions/README.md) – ledger and log |
+| What is broken, and what was decided about it? | [problems/](problems/README.md) |
+| Which ideas were dropped or left out? | [opportunities/](opportunities/README.md), [problems/](problems/README.md) |
 | Clusters, root causes, contradictions, culture and strengths | [synthesis/](synthesis/README.md) |
-| How was it done, and how reliable is it? | [method/](method/README.md) – prompts, audit, gaps |
+| How was it done, and how reliable is it? | [method/](method/README.md) |
 | Machine-readable data | [data/](data/README.md) |

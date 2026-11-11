@@ -1,8 +1,7 @@
 ---
 id: P-38
 title: "Creative and landing pages are outsourced, slow and hard to brief"
-austin_call: "Solve now"
-austin_note: "create standardise way to document briefs with maximum detail.\n\nLong term build creative and landing pages while augmented by AI"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-18", "DS-21"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP25", "MC-PP15", "MP-PP22", "WS-PP14"]
 theme: "Process / automation"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff76981918b83ff403f9c9ba2
 ---
 
 # P-38 · Creative and landing pages are outsourced, slow and hard to brief
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | create standardise way to document briefs with maximum detail.  Long term build creative and landing pages while augmented by AI |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-18](../solutions/ds-18-landing-page-generator.md), [DS-21](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md) |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -32,7 +29,7 @@ notion_id: 410e204ff76981918b83ff403f9c9ba2
 - Fixes: [DS-18 Landing page generator (ad landing pages, Aperitif-hosted)](../solutions/ds-18-landing-page-generator.md)
 - Fixes: [DS-21 AI creative tools to augment the team (existing tools, no build)](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-34](../opportunities/README.md#o-34) Standard creative brief with one consolidated feedback round – dropped
 - [O-22](../opportunities/README.md#o-22) Sales discipline: calculator, margin check, speed-to-lead – partly addressed ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
@@ -43,8 +40,7 @@ notion_id: 410e204ff76981918b83ff403f9c9ba2
 
 - Cluster [C-29](../synthesis/clusters-and-root-causes.md#c-29): Creative and landing pages are outsourced, slow and hard to brief – raised by 2 staff + 1 leadership; confidence High.
 - Root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07): External dependencies – client access, approvals, inputs, contractors and vendors – aren't contracted, time-boxed or tracked, so delivery waits.
-- Problems DB root cause: [RC-07](../synthesis/clusters-and-root-causes.md#rc-07): External dependencies (vendors) aren't contracted or tracked. Chain: launches slow and conversion suffers for lack of landing pages and creative ([KO-PP25](../pain-points/README.md#ko-pp25), [WS-PP14](../pain-points/README.md#ws-pp14)) → no in-house capacity; outsourced vendors ignore detailed briefs ([MC-PP15](../pain-points/README.md#mc-pp15)) → clients resist paying for landing pages; AI creative tools suit e-commerce, not Aperitif's clients ([KO-PP25](../pain-points/README.md#ko-pp25), [MP-PP22](../pain-points/README.md#mp-pp22)) → creative supply is ad hoc, not a priced service with a vendor brief standard.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-29](../synthesis/clusters-and-root-causes.md#c-29). 2 staff + 1 leadership. Landing pages \~\$1,500 each ([WS-PP14](../pain-points/README.md#ws-pp14)). Clients are now charged for creative (WS-str09). Members: [KO-PP25](../pain-points/README.md#ko-pp25), [WS-PP14](../pain-points/README.md#ws-pp14), [MP-PP22](../pain-points/README.md#mp-pp22), [MC-PP15](../pain-points/README.md#mc-pp15)
+- Root cause (problem record): [RC-07](../synthesis/clusters-and-root-causes.md#rc-07): External dependencies (vendors) aren't contracted or tracked. Chain: launches slow and conversion suffers for lack of landing pages and creative ([KO-PP25](../pain-points/README.md#ko-pp25), [WS-PP14](../pain-points/README.md#ws-pp14)) → no in-house capacity; outsourced vendors ignore detailed briefs ([MC-PP15](../pain-points/README.md#mc-pp15)) → clients resist paying for landing pages; AI creative tools suit e-commerce, not Aperitif's clients ([KO-PP25](../pain-points/README.md#ko-pp25), [MP-PP22](../pain-points/README.md#mp-pp22)) → creative supply is ad hoc, not a priced service with a vendor brief standard.
 
 ## Pain points (4)
 
@@ -57,6 +53,6 @@ notion_id: 410e204ff76981918b83ff403f9c9ba2
 - [WS-PP14](../pain-points/README.md#ws-pp14) – No in-house capacity for landing pages or video; landing pages \~\$1,500 each are a barrier; in-house creative loops were slow
   - *"We don't have the capacity. And like we usually sell them to the clients as well."* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~53:31 (L686)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L691) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "they'll be doing the exact opposite of what you briefed in. So you have to back and forth." – a performance team member ([MC-PP15](../pain-points/README.md#mc-pp15), \~32:18, L275) | "We don't have the capacity. And like we usually sell them to the clients as well." – a performance manager ([WS-PP14](../pain-points/README.md#ws-pp14), \~53:31, L686) | "outsourcing landing page builds is a bit clunky" – leadership ([KO-PP25](../pain-points/README.md#ko-pp25), \~83:23, L391)

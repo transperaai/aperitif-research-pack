@@ -5,7 +5,6 @@
 | Role | Performance Marketing Specialist |
 | Team | Performance |
 | Date | 2026-11-02 |
-| Length | \~47 min |
 | Clients managed | 11 |
 
 ## Files

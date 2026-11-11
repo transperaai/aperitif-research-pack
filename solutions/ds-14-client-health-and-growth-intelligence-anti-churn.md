@@ -4,7 +4,7 @@ title: "Client health & growth intelligence: anti-churn and expansion tracking a
 team: "account managers and leadership"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
 status: "Decided – churn basis to confirm; priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-31 (full)", "O-23 (opportunities/upsell part)", "O-21 (Part B (merged from DS-13))"]
 earlier_ideas: []
@@ -16,9 +16,6 @@ pain_points_cited: ["KO-PP06", "KO-PP20", "KO-PP21", "LS-PP08", "LS-PP09", "LS-P
 pain_points_interviewer_raised_or_inferred: ["KO-PP06 (inferred)", "LS-PP09 (interviewer-raised)"]
 value: "Churn reduced ~1.5% a month (indicative): ~18 clients, ~A$540K/yr kept"
 value_retained_aud_per_year: [540000, 540000]
-build_cost: "A$6,500"
-monthly: "A$500/month (for now) + tokens ~US$40–150"
-notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 ---
 
 # DS-14 · Client health & growth intelligence (anti-churn + expansion)
@@ -39,26 +36,16 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Pain points cited | [KO-PP06](../pain-points/README.md#ko-pp06) (inferred), [KO-PP20](../pain-points/README.md#ko-pp20), [KO-PP21](../pain-points/README.md#ko-pp21), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09) (interviewer-raised), [LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16) |
 | Written source | – |
 | Value | Churn reduced \~1.5% a month (indicative): \~18 clients, \~A\$540K/yr kept |
-| Build cost | A\$6,500 |
-| Monthly | A\$500/month (for now) + tokens \~US\$40–150 |
 
 ## Vision
 
 > **It reads everything that's in communication with the client** – calls, emails, Slack, meetings, reports – and **builds a profile of each person** at the client (how they communicate, what they care about, how their sentiment is trending). It watches for churn and growth signals and **alerts the account manager, the department lead and Julia** together, with the evidence and a suggested next step. Part B's escalation rules say who acts.
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)** · **Add-on to the AI client brain ([DS-04](ds-04-ai-client-brain.md))**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Client health & growth intelligence** (churn and growth signals, contact profiles, health scores, alerts, outcome learning) + Part B escalation rules | **A\$6,500** | **A\$500/month** maintenance (for now) + AI tokens \~US\$40–150/month |
->
-> *Needs [DS-04](ds-04-ai-client-brain.md) live for 2–3 months first; privacy check on profiling client contacts before launch.*
+## Decision
 
 **Decision (9 Nov):** a **proactive system** that tracks every client's words and sentiment, builds a picture of each contact's **personality type**, watches for **signals of churn** and **signals of room to cross-sell or expand**, and alerts the right people. It learns from outcomes, so it **gets smarter over time** – the aim is to minimise churn and maximise account growth.
 
-## How it works (draft)
+## How it works
 
 1. **Reads** everything in the client brain ([DS-04](ds-04-ai-client-brain.md)): call transcripts, emails, Slack, Monday tasks, performance data, contract dates.
 2. **Profiles each client contact** – communication style and personality type, what they care about, how sentiment is trending – so the team knows how to approach them.
@@ -72,7 +59,6 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 
 - **[O-31](../opportunities/README.md#o-31)** Weekly churn-risk signal list per client – rank 31, strategic, effort M (1–8 h/month; protects retention revenue) – extended from a weekly list to continuous alerts with AI.
 - **[O-23](../opportunities/README.md#o-23)** "Problem plus recommendation" rule – the **opportunities / upsell** part (rank 23).
-- Austin's notes: anti-churn and growth AI tracking and alerting.
 
 ## Problems it fixes and the evidence
 
@@ -80,14 +66,14 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 - **Missed growth:** upsell is occasional – *"a few upsells, but not much. That's an opportunity."* ([LS-PP09](../pain-points/README.md#ls-pp09), raised by Austin); teams describe metrics rather than bringing a recommendation ([KO-PP20](../pain-points/README.md#ko-pp20)); busy teams risk *"just going through the motions"* ([LS-PP08](../pain-points/README.md#ls-pp08)).
 - [Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) – she keeps them partly as her early-warning signal ([KO-PP21](../pain-points/README.md#ko-pp21)); DS-14 gives everyone that signal.
 
-## Future state (draft)
+## Future state
 
 1. Every client has a live health score and growth score, updated as new calls and emails come in.
 2. Account owners get an alert with evidence and a suggested next step well before a client leaves.
 3. Growth opportunities surface automatically and go into call prep and reviews.
 4. Leadership sees portfolio health in one view and steps in only on high-risk alerts.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -96,7 +82,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Upsell / cross-sell proposals raised per month | "a few" (LS-O07) | Baseline, then set a target |
 | Expansion revenue per month | Not baselined | Baseline, then set a target |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Early warning on clients at risk – and on growth.** The brain watches every client's signals and alerts the account manager, department lead and Julia with the evidence and a suggested next step, so at-risk clients are caught while there's still time.
 
@@ -106,12 +92,12 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 
 | Step | Figure |
 | --- | --- |
-| Churn today | \~3% of clients a month, about 3 clients a month (Austin's estimate; the client board shows 10 contracts ended 31 Aug–17 Oct 2026) |
+| Churn today | \~4% of clients a month (Austin's estimate; the client board shows 10 contracts ended 31 Aug–17 Oct 2026) |
 | Average retainer of clients who left | \~A\$2,500 a month (client board) |
-| Churn with early warning | \~2% a month – about 1 client a month, \~12 a year, kept (Austin's target) |
-| **Revenue kept** | **\~A\$360K a year** (12 × \~A\$2,500 × 12) |
+| Churn with early warning | \~2.5% a month – \~1.5% of 101 clients a month, about 18 a year, kept (Austin's target) |
+| **Revenue kept** | **\~A\$540K a year** (18 × \~A\$2,500 × 12; indicative) |
 
-Aperitif is capped by team capacity, so kept clients don't add growth on top of the capacity figures – they mean \~12 fewer replacement wins (and onboardings) are needed each year, and the business reaches its new ceiling sooner. Not added to the capacity totals.
+Aperitif is capped by team capacity, so kept clients don't add growth on top of the capacity figures – they mean \~18 fewer replacement wins (and onboardings) are needed each year, and the business reaches its new ceiling sooner. Not added to the capacity totals.
 
 Growth signals (new products, markets, budgets) also surface upsell opportunities – not counted.
 
@@ -122,9 +108,9 @@ Growth signals (new products, markets, budgets) also surface upsell opportunitie
 
 **Goals:** retention · trust · good customer service
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
@@ -136,6 +122,6 @@ See this solution's green **Pricing & priority** box above.
 ## Decided (9 Nov)
 
 - **Who gets alerts:** the account owner, the **department lead and Julia at every risk level**. Julia's alerts can be **toggled on and off**; she wants them on for now. ([DS-13](ds-13-merged-into-ds-14.md)'s aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
-- **Churn basis (revised 10 Nov):** \~3% a month today, brought down to \~2% – Austin's estimate and target. The client board (10 contracts ended 31 Aug–17 Oct 2026, average \~A\$2,500) is consistent with it. Confirm the churn rate with Joe.
+- **Churn basis:** \~4% a month today, brought down to \~2.5% – Austin's estimate and target. The client board (10 contracts ended 31 Aug–17 Oct 2026, average \~A\$2,500) is consistent with it.
 - **Personality profiles:** client contacts only – not prospects.
-- **Merged with [DS-13](ds-13-merged-into-ds-14.md) (Austin's call, 9 Nov):** the escalation and delegation rules ([O-21](../opportunities/README.md#o-21)) are Part B of this solution – see the [DS-13](ds-13-merged-into-ds-14.md) section above for the rules and evidence.
+- **Includes [DS-13](ds-13-merged-into-ds-14.md):** the escalation and delegation rules ([O-21](../opportunities/README.md#o-21)) are Part B of this solution – see the [DS-13](ds-13-merged-into-ds-14.md) section above for the rules and evidence.

@@ -17,9 +17,9 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 
 > **Client board data plus Austin's estimate.** No churn figure was stated in the interviews.
 >
-> - Churn today: **~3% of clients a month** – Austin's estimate (the client board shows 10 contracts ended 31 Aug–17 Oct 2026, average ~A$2,500)
-> - Churn with early warning: **~2% a month** – Austin's target, about 12 clients a year kept
-> - Maths: 12 × ~A$2,500 × 12 ≈ **~A$360K a year kept**
+> - Churn today: **~4% of clients a month** – Austin's estimate (the client board shows 10 contracts ended 31 Aug–17 Oct 2026, average ~A$2,500)
+> - Churn with early warning: **~2.5% a month** – Austin's target: ~1.5% of 101 clients a month, about 18 clients a year kept
+> - Maths: 18 × ~A$2,500 × 12 ≈ **~A$540K a year kept** (indicative; see [Builds and pricing](../builds/README.md))
 > - Aperitif is capped by team capacity, so kept clients are not added to the capacity totals – they mean fewer replacement wins are needed
 >
 > **How to confirm:** Joe – is the 31 Aug–17 Oct run of 10 ended contracts typical, and how many of those could an earlier warning have saved?
@@ -127,7 +127,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 | Karl's vetting criteria can be written down and tested on past decisions | Evidence-thin | Back-test on 100 past decisions |
 | Clients accept quota changes where supply is scarce | Evidence-thin | Ask account managers |
 
-### DS-13 · Merged into DS-14 (escalation and delegation rules)
+### DS-13 · Covered by DS-14 (escalation and delegation rules)
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Not valued separately – part of DS-14 | – | Julia to estimate escalation hours |
@@ -137,7 +137,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-14 · Client health & growth intelligence
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| **Churn 3% a month → 2% (~12 clients × ~A$2,500 × 12 ≈ A$360K a year kept)** – Austin's estimate and target; see the box at the top | Evidence-thin (Austin's estimate) | Joe – is the recent churn typical? |
+| **Churn ~4% a month → ~2.5% (~18 clients × ~A$2,500 × 12 ≈ A$540K a year kept)** – Austin's estimate and target; see the box at the top | Evidence-thin (Austin's estimate) | Joe – is the recent churn typical? |
 | No time saved claimed | – | – |
 | Depends on DS-04 being live with transcripts, email and Slack | Dependency | DS-04 first |
 | Profiling client contacts needs the AI data rule and a clear line on what's stored about individuals; staff are not profiled | Dependency | DS-02; privacy check |

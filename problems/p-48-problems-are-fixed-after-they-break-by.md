@@ -1,8 +1,7 @@
 ---
 id: P-48
 title: "Problems are fixed after they break, by individual vigilance"
-austin_call: "Solve now"
-austin_note: "designated champions who are capable and also built good system that limit breaking. this should be solved also by the systems i build and manage"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-15"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: []
 theme: "Cultural"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 412e204ff769811fb874c5d98c0c5b0e
 ---
 
 # P-48 · Problems are fixed after they break, by individual vigilance
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | designated champions who are capable and also built good system that limit breaking. this should be solved also by the systems i build and manage |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) |
 | Theme · severity · confidence | Cultural · Medium · High – raised by 3+ people |
 | Process area | People / culture |
@@ -31,7 +28,7 @@ notion_id: 412e204ff769811fb874c5d98c0c5b0e
 
 - Fixes: [DS-15 AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)](../solutions/ds-15-ai-business-brain-the-umbrella.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [EI-13](../opportunities/README.md#ei-13) Pacing tracker + adjustment engine – partly addressed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md))
 - [EI-15](../opportunities/README.md#ei-15) Proactive PPC monitor and anomaly detector – absorbed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md))
@@ -43,13 +40,12 @@ notion_id: 412e204ff769811fb874c5d98c0c5b0e
 
 ## Root cause and cluster
 
-- Problems DB root cause: Errors and broken feeds are found late or by luck (B-K16, C-K34). → Fixes wait until something breaks; band-aid workarounds persist (B-K16, A-K31). → Quality relies on individual vigilance or trust in others' checks rather than a defined check (D-K21, B-K23, E-K10). → System: tools and QA steps have no owner or checklist, and no time is set aside for root-cause fixes.
-- Merge notes: Stage 4 culture sweep (8 Nov): CP-15. 5 staff + 1 leadership. Members: B-K16, A-K31, D-K21, B-K23, C-K34, E-K10
+- Root cause (problem record): Errors and broken feeds are found late or by luck (B-K16, C-K34). → Fixes wait until something breaks; band-aid workarounds persist (B-K16, A-K31). → Quality relies on individual vigilance or trust in others' checks rather than a defined check (D-K21, B-K23, E-K10). → System: tools and QA steps have no owner or checklist, and no time is set aside for root-cause fixes.
 
 ## Pain points (0)
 
 - No pain-point links (culture problem from the Stage 4 sweep; evidence items: B-K16;A-K31;D-K21;B-K23;C-K34;E-K10). See [Stage 4 culture and strengths](../synthesis/stage4-culture-and-strengths.md).
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "I've just been making do because we haven't been able to figure out a fix for this." – a content team member | "Technically, you should probably look over it with a fine tooth comb." – a senior SEO manager and link-building lead

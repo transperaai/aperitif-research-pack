@@ -1803,42 +1803,5 @@
    "who_role": "Founder (Joe) – Tina / OpenClaw agent",
    "if_absent": "Know-how sits with the founder"
   }
- ],
- "follow_ups": {
-  "questions": [
-   "Sarah: briefs per month and share to freelancers?",
-   "Sarah: minutes for allocation, freelancer briefing per piece and editing per freelancer piece; share of briefs late or changed?",
-   "Sarah: own writing volume and share of week writing vs admin?",
-   "Sarah: who is the second editor (Hayley Tantau?) and which two freelancers are contracted (Jess Kidd, Chloe Moss?)",
-   "Sarah: who decides brief-template changes and attends the 6-monthly workshop?",
-   "Sid: Monday.com plan for content and date to retire the master sheet?",
-   "Karl / Laura: who decides adding freelancers; is there a client priority ranking?",
-   "Joe: what does the Tina bot do for industry statistics – same Tina Slack agent as pacing/agenda updates?"
-  ],
-  "contradictions": [
-   "Start volume 40,000 words (L069) vs sheet growth 'from 60 to 100' (L257)",
-   "Sheet start 'last year in October' (L249) vs 'November … 2024' (L254)",
-   "100k words now vs context pack ~93k average – consistent if 100k is current",
-   "'Four freelancers' vs five contractor names in context pack",
-   "Tina described as industry-statistics bot vs context pack's pacing/agenda bot",
-   "Admin 'doesn't even dominate' (L104) vs 'most annoying part of this job' (L336) – pain is frustration and risk more than hours",
-   "Writing time excluded; SJ high-end share plus writing would exceed one FTE"
-  ],
-  "data_requests": [
-   "Master content spreadsheet incl. overview tab (Sarah – agreed L246, L327)",
-   "Four freelancer tracking sheets (Sarah)",
-   "Current content brief template and last workshop changes (Sarah)",
-   "Monday.com content/freelancer board design (Sid)",
-   "Contracted freelancers' word commitments (Sarah / Karl)",
-   "One month of brief-drop vs allocation dates (Sarah)"
-  ],
-  "verify": [
-   "40k → 100k words/month growth – check sheet totals",
-   "Up-to-2-day delay on missed briefs – check dates",
-   "20,000-word KPI per person – check with Karl / Laura",
-   "Austin's '36 is more than 20,000' (L261) – a writer at ~36k words?",
-   "'Not doing service pages anymore' (L140) – confirm content mix",
-   "Unresolved transcription: 'Superlative' (L041), 'blind clients' (L144), 'an advisor … liquidation' (L147–L148)"
-  ]
- }
+ ]
 }

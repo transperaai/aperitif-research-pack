@@ -2824,50 +2824,5 @@
    "who_role": "Founder plus one new salesperson",
    "if_absent": "Growth stalls (L403)"
   }
- ],
- "follow_ups": {
-  "questions": [
-   "Who is 'Sophie' at L044 ('Sophie is managing it') and what is she managing: the handover, or the 'central brain' for each client?",
-   "Who is 'Michael' at L072 (Joe can call him for rapport): a client contact, or Michael Laps?",
-   "What exactly did Joe mean by '30% negative' at L272, and which stage of the funnel is 'one in ten' measured from?",
-   "Is there one senior performance leader seat open, given Julia says the team is 'headless' (L066) while Joe names the Performance Director as a department lead (L106)? Confirm the org chart.",
-   "How many new clients start each month, and how long does each onboarding take in staff hours? (Needed to cost KO-P03 and KO-P04.)",
-   "How many hours a week does Joe spend on AP, payroll and invoicing? (KO-P07.)",
-   "How long does a typical escalation case take Julia and the team? (The 30–90 min in KO-P06 is assumed.)",
-   "Where is the escalation pipeline kept (HubSpot, Monday.com, a sheet)?",
-   "What data sources feed Joe's 'mission control' dashboard and who else can maintain it?",
-   "Which year is the HubSpot renewal in ('until September', L309)?",
-   "Ask Sid how he rebuilt the HubSpot automation in Monday.com and which nuances may have been missed."
-  ],
-  "contradictions": [
-   "Julia says the handover is 'just the transcript' (Joe, L042) and Joe says it is the same HubSpot record with all the notes (L301): consistent, but the Performance Director interview (WS-PP06 in Transcript Findings) says the internal handover is sometimes rushed or skipped, which Joe's '15 minutes' description does not show.",
-   "Julia: 'We need a wiki badly' (L082) vs Joe: 'I think everything's in Notion' (L423) and 'there's a lot of documentation' (L088); the context pack shows 217 pages with 43% stale.",
-   "Julia: about 200 links a month (L368) vs the context pack (about 300 a month, ~2,800 orders Jan–Oct).",
-   "Joe says Otter recordings 'should go into the CRM automatically' (L320); the context pack says Otter is rarely used and transcripts barely read.",
-   "Joe says a Google Ads script alerts on seven days without conversions (L356); the context pack problem 'No proactive performance alerting' says issues are found at month end. Both may be true (the script covers one failure type).",
-   "Team size: Joe 'about 22' plus four offshore (L094) vs context pack about 27; consistent if 22 + 4 = 26.",
-   "Austin's quote of $24K a year saving on HubSpot (L310) vs Joe's combined HubSpot and Monday.com 'better part of 30 grand' after a reduction (L313): the saving from dropping HubSpot alone is not established.",
-   "Julia's 70% operations and 30–40% client work sums to 100–110% (L013)."
-  ],
-  "data_requests": [
-   "Org chart and current staff list (Joe, Notion).",
-   "Monthly HubSpot ticket automation spec and Monday.com sync mapping (Joe, Sid).",
-   "DLER by department for the last 12 months and the CFO-team pack (Joe).",
-   "P&L, revenue per client, churn numbers and retention % history (Joe, CFO team).",
-   "Escalation pipeline records for the last 3 months (Julia).",
-   "New-client count per month, win/loss reasons and funnel stages (Joe, BD).",
-   "HubSpot and Monday.com contracts, seat counts and renewal dates (Joe).",
-   "Pulse-check survey results, including the 'too many changes' and AI comments (Joe).",
-   "Performance matrices and review templates (Julia).",
-   "OpenClaw task list and who has access (Joe)."
-  ],
-  "verify": [
-   "Gross margin 'roughly 30%' for both service lines (L202) – get actuals.",
-   "Close rate 'one in ten' (L268) and '30% negative' (L272).",
-   "HubSpot about $22–25K a year, Monday.com about $1,000 a month, combined about $30K (L311, L313).",
-   "Ramp of 90 days (L229) against actual DLER history.",
-   "Average account value about $4.9K MRR (L264).",
-   "Julia's 'five a week' escalation rate (L124) from the pipeline record."
-  ]
- }
+ ]
 }

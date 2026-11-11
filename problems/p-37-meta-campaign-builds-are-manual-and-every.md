@@ -1,8 +1,7 @@
 ---
 id: P-37
 title: "Meta campaign builds are manual and every ad needs hand QA"
-austin_call: "Not in proposal"
-austin_note: "Why: a small, contained quick win (3 staff) rather than a core build; can be picked up later if wanted."
+decision: "Not in proposal"
 status: not_in_proposal
 fixed_by: []
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["DM-PP08", "MC-PP20", "SH-PP15", "SH-PP17"]
 theme: "Process / automation"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff769810e9f37d9b2921c73bf
 ---
 
 # P-37 · Meta campaign builds are manual and every ad needs hand QA
 
 | | |
 | --- | --- |
-| Austin's call | **Not in proposal** |
-| Austin's note | Why: a small, contained quick win (3 staff) rather than a core build; can be picked up later if wanted. |
+| Decision | **Not in proposal** |
 | Status | not in proposal – why: a small, contained quick win (3 staff) rather than a core build; can be picked up later if wanted. |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -31,7 +28,7 @@ notion_id: 410e204ff769810e9f37d9b2921c73bf
 
 - None.
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-02](../opportunities/README.md#o-02) AI data rule, company Claude seats and shared skills library – addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-25](../solutions/ds-25-ppc-performance-forecasting-tool.md))
 - [O-09](../opportunities/README.md#o-09) Implementer self-QA checklists for page and ad builds – dropped
@@ -40,8 +37,7 @@ notion_id: 410e204ff769810e9f37d9b2921c73bf
 
 - Cluster [C-28](../synthesis/clusters-and-root-causes.md#c-28): Meta campaign builds are manual and every ad needs hand QA – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools, automations and AI workflows are built by individuals with no owner, documentation, policy or renewal plan, so they break or stay personal.
-- Problems DB root cause: [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools and AI workflows are built by individuals with no owner. Chain: every Meta ad is checked by hand for format, placement and auto-enabled AI features ([DM-PP08](../pain-points/README.md#dm-pp08), [SH-PP15](../pain-points/README.md#sh-pp15)) → Meta has no bulk import like Google/Bing editors ([SH-PP17](../pain-points/README.md#sh-pp17)) → the one fix (a Claude preview-link skill) is on a personal account ([MC-PP20](../pain-points/README.md#mc-pp20), [MC-PP19](../pain-points/README.md#mc-pp19)) → no shared Meta build template or QA checklist.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-28](../synthesis/clusters-and-root-causes.md#c-28). 3 staff. Quick-win territory. Members: [SH-PP15](../pain-points/README.md#sh-pp15), [SH-PP17](../pain-points/README.md#sh-pp17), [MC-PP20](../pain-points/README.md#mc-pp20), [DM-PP08](../pain-points/README.md#dm-pp08)
+- Root cause (problem record): [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools and AI workflows are built by individuals with no owner. Chain: every Meta ad is checked by hand for format, placement and auto-enabled AI features ([DM-PP08](../pain-points/README.md#dm-pp08), [SH-PP15](../pain-points/README.md#sh-pp15)) → Meta has no bulk import like Google/Bing editors ([SH-PP17](../pain-points/README.md#sh-pp17)) → the one fix (a Claude preview-link skill) is on a personal account ([MC-PP20](../pain-points/README.md#mc-pp20), [MC-PP19](../pain-points/README.md#mc-pp19)) → no shared Meta build template or QA checklist.
 
 ## Pain points (4)
 
@@ -54,6 +50,6 @@ notion_id: 410e204ff769810e9f37d9b2921c73bf
 - [SH-PP17](../pain-points/README.md#sh-pp17) – Meta builds are manual (no bulk import like Google/Bing editors)
   - *"The Google implementation is quicker because there's like this editor tool that can be used to like import an account build."* – Sophie Hesseborn, Senior Performance Marketing Manager · staff-raised · [\~25:43 (L239)](../interviews/sh-sophie-hesseborn/transcript.md?plain=1#L239)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "if another person is working on it, I won't be having that clarity. I just need to go and individually check each ad." – a performance manager ([DM-PP08](../pain-points/README.md#dm-pp08), \~20:32, L237) | "The Google implementation is quicker because there's like this editor tool that can be used to like import an account build." – a performance manager ([SH-PP17](../pain-points/README.md#sh-pp17), \~25:43, L239) | "meta rolls out new things and it's like auto on and then you just have to be like super into the nitty gritty" – a performance manager ([SH-PP15](../pain-points/README.md#sh-pp15), \~18:26, L177)

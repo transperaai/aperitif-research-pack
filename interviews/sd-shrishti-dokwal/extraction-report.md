@@ -1,11 +1,11 @@
 # Part A – Transcript extraction: Shrishti Dokwal (Senior Performance Marketing Manager)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Shrishti Dokwal – Workflow & Process Interview", 30 Oct 2026, 2:30 pm (Melbourne). Full transcript retrieved (544 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/shrishti/transcript.md`; ~mm:ss is estimated from cumulative word position across ~54 minutes (60-minute booking, Austin closed "six minutes early", L533).
+- Transcript: meeting notes "Shrishti Dokwal – Workflow & Process Interview", 30 Oct 2026, 2:30 pm (Melbourne). Full transcript retrieved (544 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~54 minutes (60-minute booking, Austin closed "six minutes early", L533).
 - **Speakers:** the diariser labelled Austin as B and split Shrishti across labels A, C, D, E and F. All non-Austin lines are treated as Shrishti.
-- **Name and term corrections (transcription):** "Tati / Taddy / daddy / Terti" → Tati (Tatiana Stinson, Performance Marketing Coordinator) · "Tina" → the Tina Slack agent bot (OpenClaw workspace), not Tatiana – confirmed by Austin 6 Nov · "Lord / cloud" → Claude · "EasyML" → easyAML · "Supermetric" → Supermetrics · "auto" (note taker) → Otter · "Monday" → Monday.com · "Mera / Meraz" → Meta · "pasting / facing / spacing" → pacing · "client comps" → client comms · "D1s / D2s" and "201" → Tier 1s / Tier 2s · "weekly whips" → weekly WIPs · "we've leased capacity" → we've breached capacity · "grant work" → grunt work · "Connect, yeah" → Correct, yeah · "Wildjar" → WildJar (call tracking) · "lendier" → lengthier. "Leah's" (L193) → Wendlley (Simoes, Performance Marketing Director) – confirmed by Austin 6 Nov. Unresolved: "Holstroms" (L503) – see 11.
-- **Corrections applied 6 Nov per Austin:** Leah's = Wendlley; Tina = Slack bot; escalation director = Julia.
+- **Name and term corrections (transcription):** "Tati / Taddy / daddy / Terti" → Tati (Tatiana Stinson, Performance Marketing Coordinator) · "Tina" → the Tina Slack agent bot (OpenClaw workspace), not Tatiana · "Lord / cloud" → Claude · "EasyML" → easyAML · "Supermetric" → Supermetrics · "auto" (note taker) → Otter · "Monday" → Monday.com · "Mera / Meraz" → Meta · "pasting / facing / spacing" → pacing · "client comps" → client comms · "D1s / D2s" and "201" → Tier 1s / Tier 2s · "weekly whips" → weekly WIPs · "we've leased capacity" → we've breached capacity · "grant work" → grunt work · "Connect, yeah" → Correct, yeah · "Wildjar" → WildJar (call tracking) · "lendier" → lengthier. "Leah's" (L193) → Wendlley (Simoes, Performance Marketing Director). Unresolved: "Holstroms" (L503).
+- **Name corrections:** Leah's = Wendlley; Tina = Slack bot; escalation director = Julia.
 - Hours are costed at **$80/hr internal labour cost**. Process totals include team time (Michaela, Tati, tracking contractor) where those people do steps in the process; the interviewee-only share is shown separately.
 
 ---
@@ -41,7 +41,7 @@
 | Strategy and analysis in the ad platforms | "majority of my work now is like analysis work" | Billable (assumed) | "majority of my work now is like analysis work, right?" ~03:06 (L039) | stated (no number) |
 | Time "on the tools" (calls, prep, pacing) | 60–70% of the day ≈ 4.8–5.6 h of an 8 h day | Mostly billable | "about like, 60-70% of my day is on the tools whether it's during a client call before a client call or pacing" ~16:31 (L139) | stated % · hours estimated (60–70% × 8 h) |
 | Delegation (Monday.com briefing) and email | "first couple of hours in the day" ≈ 1.5–2 h/day ≈ 19–25% | Partly non-billable (internal) | "I try to smash that off in the first couple of hours in the day" ~02:14 (L035) | stated · % estimated (1.5–2 h ÷ 8 h) |
-| Five Good Friends (single Tier 1 client) | "majority of my week's hours" (>50%) | Billable | "five good friends for example so tier one client it takes up majority of my week's hours" ~08:59 (L073) | stated – conflicts with 14-client load, see 11 |
+| Five Good Friends (single Tier 1 client) | "majority of my week's hours" (>50%) | Billable | "five good friends for example so tier one client it takes up majority of my week's hours" ~08:59 (L073) | stated – conflicts with 14-client load |
 | Pitch work for new clients | Ad hoc; competes with BAU | Non-billable | "I have to now prioritize between putting together a pitch client versus working on my existing clients" ~11:13 (L096) | stated (no number) |
 
 - **Busy vs quiet:** weeks 1–2 are busy (client meetings, Day 1 budget changes, monthly reports due within the first two weeks); the second half of the month is "relatively slower in terms of meetings and client comms" ~02:08 (L033).
@@ -291,7 +291,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | SD-P09 | Paid media – optimisation (Tier 1 analysis) | 2.2–13.0 | 2.2–13.0 | $176–$1,040 |
 | **Total** | | **92.3–265.2 h** | **73.8–196.8 h** | **$7,384–$21,216** |
 
-The high ends can't all happen in the same month: SD's high-end share (~197 h) is more than one full-time month (~152–160 h). Treat the low-to-mid range as more realistic and confirm with calendar and timesheet data (see 11).
+The high ends can't all happen in the same month: SD's high-end share (~197 h) is more than one full-time month (~152–160 h). Treat the low-to-mid range as more realistic and confirm with calendar and timesheet data.
 
 ## 3. Pain points and problems
 
@@ -499,38 +499,6 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for pacing a
 | Conversion tracking | Tracking specialist (likely Liam Lau, contractor – inferred) | Onboarding launches wait |
 | Onboarding capacity decisions | Julia Van Der Linden (Head of Client Services) | Overload rests with each manager |
 
-## 11. Follow-ups
-
-**Questions**
-- Shrishti: which of the 14 clients are Tier 1, 2 and 3, and how many calls a month do you actually have? (needed to firm up SD-P04)
-- Shrishti: how long does the month-end allocation analysis take per client, and what share of clients need approval rather than FYI?
-- Shrishti: what does "every 12" (L076) mean – every one to two weeks? How long does an FGF reconciliation take?
-- Wendlley: who owns and maintains the Tina Slack agent, and is it documented? How long does your daily manual Meta pacing in Claude take?
-- Wendlley: when did Supermetrics lapse, and who owns tool subscriptions?
-- Michaela / Tati: time per hygiene optimisation, per SQR and per campaign build.
-
-**Contradictions**
-- Context pack lists **easyAML** under manager initials DM (Diya); Shrishti calls it "one of my clients" (L162). Possibly reassigned, or shared.
-- Five Good Friends "takes up majority of my week's hours" (L073) vs a 14-client book with 60–70% of the day on the tools across clients – check whether "majority" is literal.
-- Pacing "twice a week" (L114) vs "Monday, Wednesday, Friday" (L114, L260) – three days.
-- She first said budgets live in "two areas" (L233), then corrected to three (L242–L243) – consistent with the context pack once corrected.
-- Combined high-end hours (SD share ~197 h/month) exceed one FTE – the assumptions can't all be at their high end together.
-
-**Data / artefacts to request**
-- Campaign strategy brief templates – Google Ads and Meta versions plus the shorter non-onboarding version (Shrishti – agreed in the interview, L369–L376, L404–L405).
-- Client-facing campaign brief template (Shrishti).
-- A month's budget recommendations sheet and Pacing Sheet / pacing input documents (Shrishti).
-- Sample Tina-bot M/W/F pacing update (Wendlley) and mid-month performance flag (Tatiana).
-- Onboarding audit checklist and launch checklist (Shrishti / Wendlley).
-- Monday.com board export of briefs → done → reviewed dates for one month (Wendlley).
-- SD's calendar for October 2026 (meeting count and duration).
-
-**Claims to verify before the pack**
-- 1 h–1 h 15 prep and follow-up per 30-minute call (also in the context pack) – check against the calendar.
-- 15–20 min per pacing adjustment – check on a sample of flags.
-- Claims that onboarding takes at least a week once access is granted, and launches at least a week – check against Monday.com dates.
-- Whether "Holstroms" (L503) is a client – not in the context pack; possibly mis-transcribed.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -540,12 +508,3 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for pacing a
 | Leaselab | Tier 1 | Named only as Austin's example (L069) – nothing said |
 | "Holstroms" | Unknown – not in the context pack | "This is relevant to Holstroms" in the context of high-CPL SQR triggers (L503) – possibly mis-transcribed |
 | Unnamed pitch client | – | "we're now switching [pitching?] to another client next week" – pitch work competes with BAU (L096) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: stretched but constructive and engaged.** She is at capacity – "I definitely am working at full capacity right now." ~11:13 (L096) – and finds ad hoc work and onboarding spikes overwhelming ("Yes and no", L093). She is positive about the audit: "I'm excited to see what you put together." ~53:52 (L540).
-- She is proud of her own fixes (campaign brief template, Claude adoption) and is protective of strategy and QA. She may resist handing QA to the team (relevant to SD-O12).
-- She describes Tati's work as mostly manual data collation (L489). That is a comment on workload design, not on Tati's performance, but keep it out of the pack verbatim.
-- She relies on Michaela and Tati less for copy now that Claude does it (L051) – possible role-scope sensitivity for the specialist and coordinator roles.
-- Overload escalations go to Julia (Head of Client Services; the transcript says "our director … she"), who reassigns new clients. There's no tension expressed, but it depends on Julia stepping in each time.
-- Nothing negative was said about any named individual. Personal: she was away for the long weekend (not relevant).

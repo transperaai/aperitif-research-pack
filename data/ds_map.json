@@ -8,39 +8,32 @@
   "opportunities": [
    {
     "id": "O-01",
-    "notion_id": "412e204ff76981368064ea67b095a255",
     "part": "full"
    },
    {
     "id": "O-11",
-    "notion_id": "412e204ff76981febb07f27ae0363dec",
     "part": "full"
    },
    {
     "id": "O-15",
-    "notion_id": "412e204ff769815fb317e39eb3b839a8",
     "part": "full"
    },
    {
     "id": "O-10",
-    "notion_id": "412e204ff76981d5a949f51792b4ed99",
     "part": "interim step"
    },
    {
     "id": "O-12",
-    "notion_id": "412e204ff76981f28fcbf88220552133",
     "part": "paid part (alerting)"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-13",
-    "notion_id": "412e204ff769811e8236fb5ecd2803a5",
     "title": "Pacing tracker + adjustment engine"
    },
    {
     "id": "EI-15",
-    "notion_id": "412e204ff76981dbbd39ff9daa305c0f",
     "title": "Proactive PPC monitor and anomaly detector"
    }
   ],
@@ -49,21 +42,18 @@
   "problems_fixed": [
    {
     "id": "P-02",
-    "notion_id": "40fe204ff769811db952ca85e18ce3af",
     "title": "Budgets maintained by hand in three places; some channels (incl. LinkedIn) not tracked; a missed budget change cost a $10K credit",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-01",
-    "notion_id": "40fe204ff76981588f56dcb58d6b0625",
     "title": "Meta pacing sheet is broken – Supermetrics connector failing",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-03",
-    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
     "title": "No proactive performance alerting – problems found at month-end",
     "call": "Solve now",
     "note": ""
@@ -72,14 +62,12 @@
   "problems_helped": [
    {
     "id": "P-21",
-    "notion_id": "40fe204ff76981208c95f2a96063afd7",
     "title": "Managers at capacity – Tier 2/3 clients get dropped first",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-17",
-    "notion_id": "40fe204ff769812d9b86e757a536c275",
     "title": "Conversion tracking depends on one contractor",
     "call": "Solve later",
     "note": ""
@@ -87,11 +75,11 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769811db952ca85e18ce3af",
-   "40fe204ff76981208c95f2a96063afd7",
-   "40fe204ff769812d9b86e757a536c275",
-   "40fe204ff76981588f56dcb58d6b0625",
-   "40fe204ff76981d8a087ed06b4ec140a"
+   "P-02",
+   "P-21",
+   "P-17",
+   "P-01",
+   "P-03"
   ],
   "pp_ids_cited": [
    "MP-PP01",
@@ -103,7 +91,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided – Adpulse recommended; priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-01, O-11, O-15, O-10, O-12",
   "team_inferred": true,
@@ -119,19 +107,16 @@
   "opportunities": [
    {
     "id": "O-02",
-    "notion_id": "412e204ff76981a3a4a3fdf45f3b1956",
     "part": "full"
    },
    {
     "id": "O-33",
-    "notion_id": "412e204ff76981da9f13c88e63703b5a",
     "part": "SOP part"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-08",
-    "notion_id": "412e204ff76981e497c9d6005ef0a43d",
     "title": "L&D platform – training, manuals and SOPs made clear"
    }
   ],
@@ -140,28 +125,24 @@
   "problems_fixed": [
    {
     "id": "P-40",
-    "notion_id": "410e204ff769810cb2c8de6b51137637",
     "title": "AI use is personal and ungoverned: no policy, shared skills, client context or seats",
     "call": "Solve later",
     "note": ""
    },
    {
     "id": "P-12",
-    "notion_id": "40fe204ff76981e1ac5af94b85e59678",
     "title": "Documentation is stale and rarely read",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-28",
-    "notion_id": "410e204ff769816c906cebe25af6cc33",
     "title": "Regulated-industry content lacks shared compliance rules and credible sources",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-44",
-    "notion_id": "412e204ff769817b85d2f6e269eb277d",
     "title": "Change fatigue and quiet AI anxiety slow adoption",
     "call": "Solve now",
     "note": ""
@@ -170,10 +151,10 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981e1ac5af94b85e59678",
-   "410e204ff769810cb2c8de6b51137637",
-   "410e204ff769816c906cebe25af6cc33",
-   "412e204ff769817b85d2f6e269eb277d"
+   "P-12",
+   "P-40",
+   "P-28",
+   "P-44"
   ],
   "pp_ids_cited": [
    "DM-PP12",
@@ -188,7 +169,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "Decision to include the AI data rule and company seats is Austin's",
   "status": "Decided – includes the AI data rule and company Claude seats; priced. <b>DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it</b>",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-02, O-33 (part)",
   "team_inferred": true,
@@ -204,12 +185,10 @@
   "opportunities": [
    {
     "id": "O-03",
-    "notion_id": "412e204ff7698150a4eee2fd242ec5c8",
     "part": "full"
    },
    {
     "id": "O-25",
-    "notion_id": "412e204ff76981c8b8e9e40d64d529fb",
     "part": "full"
    }
   ],
@@ -219,7 +198,6 @@
   "problems_fixed": [
    {
     "id": "P-33",
-    "notion_id": "410e204ff769810aafa6ce47457ecf5a",
     "title": "Content briefs are re-cut and reformatted by hand, eating the first half of each month",
     "call": "Solve now",
     "note": ""
@@ -228,21 +206,18 @@
   "problems_helped": [
    {
     "id": "P-11",
-    "notion_id": "40fe204ff769812bb6b9dae3c44d0839",
     "title": "Content tracker and link sheets live outside Monday.com",
     "call": "Not in proposal",
     "note": "auto-created Monday tasks (problem not in this proposal)"
    },
    {
     "id": "P-09",
-    "notion_id": "40fe204ff769811b9981d8c28a6528e8",
     "title": "Content delivery hinges on the Content Manager as writer, editor and contractor manager",
     "call": "Solve later",
     "note": ""
    },
    {
     "id": "P-32",
-    "notion_id": "410e204ff769819496a5d0c622b9e531",
     "title": "Unplanned same-day and high-touch client requests break the planned month",
     "call": "Not in proposal",
     "note": "slots and cut-offs for the out-of-cycle client, text only"
@@ -250,9 +225,9 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769811b9981d8c28a6528e8",
-   "40fe204ff769812bb6b9dae3c44d0839",
-   "410e204ff769810aafa6ce47457ecf5a"
+   "P-09",
+   "P-11",
+   "P-33"
   ],
   "pp_ids_cited": [
    "HT-PP01",
@@ -272,7 +247,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-03, O-25 (full – intake standard, assignment, slots, filing)",
   "team_inferred": true,
@@ -288,34 +263,28 @@
   "opportunities": [
    {
     "id": "O-04",
-    "notion_id": "412e204ff7698163b621fb823c851394",
     "part": "full"
    },
    {
     "id": "O-13",
-    "notion_id": "412e204ff769818a96a2f41c4c56bc82",
     "part": "full"
    },
    {
     "id": "O-27",
-    "notion_id": "412e204ff769816dbde2ca5deed18ec2",
     "part": "per-client part"
    },
    {
     "id": "O-26",
-    "notion_id": "412e204ff76981999e4ade347353638e",
     "part": "style guide only"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-07",
-    "notion_id": "412e204ff7698191b55cd42dcbd77935",
     "title": "Individual AI client Brains"
    },
    {
     "id": "EI-12",
-    "notion_id": "412e204ff769817ea660dffef310865b",
     "title": "Meeting transcripts → per-client action runsheet"
    }
   ],
@@ -326,28 +295,24 @@
   "problems_fixed": [
    {
     "id": "P-14",
-    "notion_id": "40fe204ff7698168a440ee525bce4877",
     "title": "Client knowledge lives in people's heads, not per client",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-04",
-    "notion_id": "40fe204ff76981efb9f8d9efda5367f0",
     "title": "Client-call prep takes longer than the call",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-27",
-    "notion_id": "410e204ff769818e891ce057635a604d",
     "title": "Client handovers (sales to delivery, offboarding) have no structured pack or trigger",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-28",
-    "notion_id": "410e204ff769816c906cebe25af6cc33",
     "title": "Regulated-industry content lacks shared compliance rules and credible sources",
     "call": "Solve now",
     "note": ""
@@ -356,14 +321,12 @@
   "problems_helped": [
    {
     "id": "P-22",
-    "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
     "title": "Escalations route around department leads to the Head of Client Services",
     "call": "Solve now",
     "note": "partly"
    },
    {
     "id": "P-47",
-    "notion_id": "412e204ff76981af9182ca6683db10ee",
     "title": "Teams work in silos and don't see each other's work or priorities",
     "call": "Solve now",
     "note": ""
@@ -371,12 +334,12 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff7698168a440ee525bce4877",
-   "40fe204ff76981e2924cfbae1ffa8478",
-   "40fe204ff76981efb9f8d9efda5367f0",
-   "410e204ff769816c906cebe25af6cc33",
-   "410e204ff769818e891ce057635a604d",
-   "412e204ff76981af9182ca6683db10ee"
+   "P-14",
+   "P-22",
+   "P-04",
+   "P-28",
+   "P-27",
+   "P-47"
   ],
   "pp_ids_cited": [
    "KO-PP05",
@@ -399,7 +362,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "Design choices (all clients, all sources, custom app, visible client page) are Austin decisions",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-04, O-13, O-27 (per-client part), O-26 (style guide only)",
   "team_inferred": true,
@@ -415,24 +378,20 @@
   "opportunities": [
    {
     "id": "O-05",
-    "notion_id": "412e204ff769817f901de406dab6fb69",
     "part": "deck part"
    },
    {
     "id": "O-22",
-    "notion_id": "412e204ff76981af8348f66f1a24a692",
     "part": "calculator part"
    },
    {
     "id": "O-14",
-    "notion_id": "412e204ff769815aa564df6b12d77947",
     "part": "prospect-deck part"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-16",
-    "notion_id": "412e204ff769818a9d99fb12c9d9e55b",
     "title": "Proposal generator"
    }
   ],
@@ -441,21 +400,18 @@
   "problems_fixed": [
    {
     "id": "P-05",
-    "notion_id": "40fe204ff76981b6a4eaf34024fb2334",
     "title": "Client documents are built by duplicating previous ones – errors reach clients",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-19",
-    "notion_id": "40fe204ff769816c8f78fdc8c0b16830",
     "title": "Proposals are rebuilt from scratch per prospect",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-18",
-    "notion_id": "40fe204ff76981f585acc9b86b6be9b9",
     "title": "Sales commits to work delivery can't profitably do",
     "call": "Solve now",
     "note": ""
@@ -464,21 +420,18 @@
   "problems_helped": [
    {
     "id": "P-21",
-    "notion_id": "40fe204ff76981208c95f2a96063afd7",
     "title": "Managers at capacity – Tier 2/3 clients get dropped first",
     "call": "Solve now",
     "note": "\"also helps (partly)\"; capacity not solved – O-17/O-19/O-32 dropped"
    },
    {
     "id": "P-40",
-    "notion_id": "410e204ff769810cb2c8de6b51137637",
     "title": "AI use is personal and ungoverned: no policy, shared skills, client context or seats",
     "call": "Solve later",
     "note": ""
    },
    {
     "id": "P-25",
-    "notion_id": "40fe204ff769811f9330cde79b4e0b11",
     "title": "No single home for current templates – versions held by individuals",
     "call": "Solve now",
     "note": "deck templates only"
@@ -486,12 +439,12 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769811f9330cde79b4e0b11",
-   "40fe204ff76981208c95f2a96063afd7",
-   "40fe204ff769816c8f78fdc8c0b16830",
-   "40fe204ff76981b6a4eaf34024fb2334",
-   "40fe204ff76981f585acc9b86b6be9b9",
-   "410e204ff769810cb2c8de6b51137637"
+   "P-25",
+   "P-21",
+   "P-19",
+   "P-05",
+   "P-18",
+   "P-40"
   ],
   "pp_ids_cited": [
    "KZ-PP18",
@@ -519,7 +472,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-05 (deck part), O-22 (calculator part), O-14 (prospect-deck part)",
   "team_inferred": true,
@@ -530,17 +483,15 @@
   "id": "DS-06",
   "title": "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com",
   "section_heading": "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com",
-  "description": "Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep (daily priorities moved to DS-30).",
+  "description": "Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep.",
   "team": "everyone",
   "opportunities": [
    {
     "id": "O-06",
-    "notion_id": "412e204ff7698192b00ede837a3448d0",
     "part": "capture part"
    },
    {
     "id": "O-29",
-    "notion_id": "412e204ff76981e582aed6c8547d215e",
     "part": "inbox triage part (daily brief moved to DS-30)"
    }
   ],
@@ -550,14 +501,12 @@
   "problems_fixed": [
    {
     "id": "P-16",
-    "notion_id": "40fe204ff76981e9b92fcb8a575cb3f4",
     "title": "Reminders go unacted; a broken reminder bot went unnoticed",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-36",
-    "notion_id": "410e204ff76981c88fe8f4907efc6ba1",
     "title": "Internal task briefs from managers to implementers are slow to write and often incomplete",
     "call": "Solve now",
     "note": ""
@@ -566,14 +515,12 @@
   "problems_helped": [
    {
     "id": "P-21",
-    "notion_id": "40fe204ff76981208c95f2a96063afd7",
     "title": "Managers at capacity – Tier 2/3 clients get dropped first",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-32",
-    "notion_id": "410e204ff769819496a5d0c622b9e531",
     "title": "Unplanned same-day and high-touch client requests break the planned month",
     "call": "Not in proposal",
     "note": "via cluster C-18 in text"
@@ -581,9 +528,9 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981208c95f2a96063afd7",
-   "40fe204ff76981e9b92fcb8a575cb3f4",
-   "410e204ff76981c88fe8f4907efc6ba1"
+   "P-21",
+   "P-16",
+   "P-36"
   ],
   "pp_ids_cited": [
    "DM-PP09",
@@ -608,7 +555,7 @@
   "source_type": "mixed",
   "austin_additions": "Austin addition: DM and email sweeping (\"Roomba\"); one interview (SB-PP04) confirms DMs as a request route",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-06 (capture part), O-29 (incl. SB-O02 – triage + daily priority DM)",
   "team_inferred": true,
@@ -624,7 +571,6 @@
   "opportunities": [
    {
     "id": "O-07",
-    "notion_id": "412e204ff76981f09dd2f35b49fe8858",
     "part": "full"
    }
   ],
@@ -636,7 +582,6 @@
   "problems_fixed": [
    {
     "id": "P-07",
-    "notion_id": "40fe204ff76981f989dcde7f6575b490",
     "title": "Paid links disappear after payment – detected manually",
     "call": "Solve now",
     "note": ""
@@ -646,15 +591,14 @@
   "problems_related_only": [
    {
     "id": "P-06",
-    "notion_id": "40fe204ff769810ca893d816b25addef",
     "title": "Link building runs on 7+ disconnected spreadsheets",
     "call": "Solve now",
     "note": "dependency on the DS-11 CRM"
    }
   ],
   "problem_mentions_in_section": [
-   "40fe204ff769810ca893d816b25addef",
-   "40fe204ff76981f989dcde7f6575b490"
+   "P-06",
+   "P-07"
   ],
   "pp_ids_cited": [
    "KO-PP16",
@@ -667,7 +611,7 @@
   "source_type": "mixed",
   "austin_additions": "Austin addition: Jev AI as tool option; publisher emails that learn from sent edits",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-07",
   "team_inferred": true,
@@ -683,7 +627,6 @@
   "opportunities": [
    {
     "id": "O-08",
-    "notion_id": "412e204ff7698136b942f7af50718f2a",
     "part": "handover part; access checklist + staged onboarding as add-on"
    }
   ],
@@ -693,14 +636,12 @@
   "problems_fixed": [
    {
     "id": "P-27",
-    "notion_id": "410e204ff769818e891ce057635a604d",
     "title": "Client handovers (sales to delivery, offboarding) have no structured pack or trigger",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-18",
-    "notion_id": "40fe204ff76981f585acc9b86b6be9b9",
     "title": "Sales commits to work delivery can't profitably do",
     "call": "Solve now",
     "note": ""
@@ -709,7 +650,6 @@
   "problems_helped": [
    {
     "id": "P-20",
-    "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
     "title": "Onboarding stalls on client access and disrupts BAU",
     "call": "Solve later",
     "note": "via cluster C-09 in text"
@@ -717,8 +657,8 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981f585acc9b86b6be9b9",
-   "410e204ff769818e891ce057635a604d"
+   "P-18",
+   "P-27"
   ],
   "pp_ids_cited": [
    "KO-PP01",
@@ -746,7 +686,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "No-hard-block design is Austin decision",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-08 (handover part; access checklist + staged onboarding as add-on)",
   "team_inferred": true,
@@ -762,14 +702,12 @@
   "opportunities": [
    {
     "id": "O-14",
-    "notion_id": "412e204ff769815aa564df6b12d77947",
     "part": "full"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-01",
-    "notion_id": "412e204ff76981c3a323ddeee45ff588",
     "title": "1-click audit access system + AI audit workflow (also a lead magnet)"
    }
   ],
@@ -778,7 +716,6 @@
   "problems_fixed": [
    {
     "id": "P-20",
-    "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
     "title": "Onboarding stalls on client access and disrupts BAU",
     "call": "Solve later",
     "note": ""
@@ -787,7 +724,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769816bb3a6ed13ce47da58"
+   "P-20"
   ],
   "pp_ids_cited": [
    "KZ-PP01",
@@ -801,7 +738,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided (as written) – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-14",
   "team_inferred": true,
@@ -817,7 +754,6 @@
   "opportunities": [
    {
     "id": "O-16",
-    "notion_id": "412e204ff769815e9fe3c146904cff45",
     "part": "full"
    }
   ],
@@ -827,7 +763,6 @@
   "problems_fixed": [
    {
     "id": "P-15",
-    "notion_id": "40fe204ff769813ea8eec750d9aace68",
     "title": "Slack bots and agents have no visible owner or documentation",
     "call": "Solve now",
     "note": ""
@@ -836,7 +771,6 @@
   "problems_helped": [
    {
     "id": "P-39",
-    "notion_id": "410e204ff76981998f05d3821fbd38e3",
     "title": "HubSpot–Make–Monday integrations create wrong or unverified tasks, at notable cost",
     "call": "Not in proposal",
     "note": "\"also helps (problem not in this proposal)\""
@@ -844,8 +778,8 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769813ea8eec750d9aace68",
-   "410e204ff76981998f05d3821fbd38e3"
+   "P-15",
+   "P-39"
   ],
   "pp_ids_cited": [
    "SB-PP10",
@@ -862,7 +796,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-16",
   "team_inferred": true,
@@ -878,7 +812,6 @@
   "opportunities": [
    {
     "id": "O-18",
-    "notion_id": "412e204ff7698183938dc182bd876da9",
     "part": "full"
    }
   ],
@@ -888,14 +821,12 @@
   "problems_fixed": [
    {
     "id": "P-06",
-    "notion_id": "40fe204ff769810ca893d816b25addef",
     "title": "Link building runs on 7+ disconnected spreadsheets",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-08",
-    "notion_id": "40fe204ff7698131876fec27eeb87b51",
     "title": "Outreacher invoicing tracked as PayPal links in spreadsheet cells",
     "call": "Solve later",
     "note": ""
@@ -905,16 +836,15 @@
   "problems_related_only": [
    {
     "id": "P-07",
-    "notion_id": "40fe204ff76981f989dcde7f6575b490",
     "title": "Paid links disappear after payment – detected manually",
     "call": "Solve now",
     "note": "enables DS-07"
    }
   ],
   "problem_mentions_in_section": [
-   "40fe204ff769810ca893d816b25addef",
-   "40fe204ff7698131876fec27eeb87b51",
-   "40fe204ff76981f989dcde7f6575b490"
+   "P-06",
+   "P-08",
+   "P-07"
   ],
   "pp_ids_cited": [
    "KO-PP16",
@@ -937,7 +867,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "CRM-first is Austin decision",
   "status": "Decided – custom build; priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-18",
   "team_inferred": true,
@@ -948,13 +878,12 @@
   "id": "DS-12",
   "title": "Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)",
   "section_heading": "Link supply engine: shared vetting, client matching, brand mentions",
-  "description": "Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM (brand mentions moved to DS-31).",
+  "description": "Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM.",
   "team": "link building",
   "opportunities": [
    {
     "id": "O-20",
-    "notion_id": "412e204ff76981edb972ea1d913e977d",
-    "part": "vetting and matching part (brand mentions moved to DS-31)"
+    "part": "vetting and matching part"
    }
   ],
   "earlier_ideas": [],
@@ -965,7 +894,6 @@
   "problems_fixed": [
    {
     "id": "P-34",
-    "notion_id": "410e204ff769813aaa23cf4c2049bdf4",
     "title": "Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent",
     "call": "Solve now",
     "note": ""
@@ -974,7 +902,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "410e204ff769813aaa23cf4c2049bdf4"
+   "P-34"
   ],
   "pp_ids_cited": [
    "KZ-PP06",
@@ -992,7 +920,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided (as written) – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-20",
   "team_inferred": true,
@@ -1008,7 +936,6 @@
   "opportunities": [
    {
     "id": "O-21",
-    "notion_id": "412e204ff7698111b701f75c8d361f25",
     "part": "full – now DS-14 Part B"
    }
   ],
@@ -1018,7 +945,6 @@
   "problems_fixed": [
    {
     "id": "P-22",
-    "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
     "title": "Escalations route around department leads to the Head of Client Services",
     "call": "Solve now",
     "note": ""
@@ -1028,15 +954,14 @@
   "problems_related_only": [
    {
     "id": "P-41",
-    "notion_id": "410e204ff76981e18b83f14ee089f51e",
     "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
     "call": "Not in proposal",
     "note": "related culture point (not in proposal)"
    }
   ],
   "problem_mentions_in_section": [
-   "40fe204ff76981e2924cfbae1ffa8478",
-   "410e204ff76981e18b83f14ee089f51e"
+   "P-22",
+   "P-41"
   ],
   "pp_ids_cited": [
    "KO-PP02",
@@ -1048,9 +973,9 @@
   ],
   "pp_cited_interviewer_or_detected": [],
   "source_type": "evidence-backed",
-  "austin_additions": "Merged into DS-14 (Austin, 9 Nov)",
+  "austin_additions": "Covered by DS-14 Part B",
   "status": "Merged – see DS-14",
-  "ledger_status": "absorbed",
+  "coverage": "absorbed",
   "merged_into": "DS-14",
   "progress_table_opportunities": "O-21",
   "team_inferred": true,
@@ -1066,17 +991,14 @@
   "opportunities": [
    {
     "id": "O-31",
-    "notion_id": "412e204ff769813e967ed221aed1d775",
     "part": "full"
    },
    {
     "id": "O-23",
-    "notion_id": "412e204ff769813a815ec1dc2d50c8b8",
     "part": "opportunities/upsell part"
    },
    {
     "id": "O-21",
-    "notion_id": "412e204ff7698111b701f75c8d361f25",
     "part": "Part B (merged from DS-13)"
    }
   ],
@@ -1086,14 +1008,12 @@
   "problems_fixed": [
    {
     "id": "P-31",
-    "notion_id": "410e204ff769813f888bfe3b3ee38213",
     "title": "Churn risk is spotted late and account teams report rather than advise",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-22",
-    "notion_id": "40fe204ff76981e2924cfbae1ffa8478",
     "title": "Escalations route around department leads to the Head of Client Services",
     "call": "Solve now",
     "note": "Part B rules (from DS-13)"
@@ -1103,15 +1023,14 @@
   "problems_related_only": [
    {
     "id": "P-41",
-    "notion_id": "410e204ff76981e18b83f14ee089f51e",
     "title": "Management layer is thin: paid media lacks a senior lead; new leads lack training",
     "call": "Not in proposal",
     "note": "related culture point (not in proposal), from DS-13"
    }
   ],
   "problem_mentions_in_section": [
-   "40fe204ff76981e2924cfbae1ffa8478",
-   "410e204ff769813f888bfe3b3ee38213"
+   "P-22",
+   "P-31"
   ],
   "pp_ids_cited": [
    "KO-PP06",
@@ -1137,7 +1056,7 @@
   "source_type": "mixed",
   "austin_additions": "Austin addition: contact personality profiling and self-learning",
   "status": "Decided – churn basis to confirm; priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-31, O-23 (opportunities part)",
   "team_inferred": true,
@@ -1153,19 +1072,16 @@
   "opportunities": [
    {
     "id": "O-27",
-    "notion_id": "412e204ff769816dbde2ca5deed18ec2",
     "part": "company layer"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-02",
-    "notion_id": "412e204ff76981c18f60fa3036f40176",
     "title": "AI Business Brain"
    },
    {
     "id": "EI-20",
-    "notion_id": "412e204ff76981598c34fee2fc9b5e69",
     "title": "Team wiki – fast answers, self-updating, fits into workflows"
    }
   ],
@@ -1174,35 +1090,30 @@
   "problems_fixed": [
    {
     "id": "P-12",
-    "notion_id": "40fe204ff76981e1ac5af94b85e59678",
     "title": "Documentation is stale and rarely read",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-13",
-    "notion_id": "40fe204ff7698159a507c9835dc6a1f0",
     "title": "Documentation and internal tooling held by the founder",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-25",
-    "notion_id": "40fe204ff769811f9330cde79b4e0b11",
     "title": "No single home for current templates – versions held by individuals",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-47",
-    "notion_id": "412e204ff76981af9182ca6683db10ee",
     "title": "Teams work in silos and don't see each other's work or priorities",
     "call": "Solve now",
     "note": ""
    },
    {
     "id": "P-48",
-    "notion_id": "412e204ff769811fb874c5d98c0c5b0e",
     "title": "Problems are fixed after they break, by individual vigilance",
     "call": "Solve now",
     "note": ""
@@ -1211,11 +1122,11 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769811f9330cde79b4e0b11",
-   "40fe204ff7698159a507c9835dc6a1f0",
-   "40fe204ff76981e1ac5af94b85e59678",
-   "412e204ff769811fb874c5d98c0c5b0e",
-   "412e204ff76981af9182ca6683db10ee"
+   "P-25",
+   "P-13",
+   "P-12",
+   "P-48",
+   "P-47"
   ],
   "pp_ids_cited": [
    "KO-PP10",
@@ -1246,7 +1157,7 @@
   "source_type": "mixed",
   "austin_additions": "Austin addition: umbrella framing grouping DS-02, DS-04, DS-10, DS-14",
   "status": "Decided – framing; priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-27 (company layer) + groups DS-02, DS-04, DS-10, DS-14 and the solutions that read from them",
   "team_inferred": true,
@@ -1255,21 +1166,19 @@
  },
  "DS-16": {
   "id": "DS-16",
-  "title": "Seasonal & trending content radar per client (split 9 Nov)",
+  "title": "Seasonal & trending content radar per client",
   "section_heading": "Per-client market radar → now: Seasonal & trending content radar",
   "description": "Per-client seasonal and trending content radar (competitor spy is DS-32, macro trends DS-33).",
   "team": "SEO and content strategists",
   "opportunities": [
    {
     "id": "O-28",
-    "notion_id": "412e204ff769819486b9f5aac26a69d4",
     "part": "seasonal & trending part"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-19",
-    "notion_id": "412e204ff769812c8db3d40032e06e6d",
     "title": "Seasonal & trending content radar per client"
    }
   ],
@@ -1280,7 +1189,6 @@
   "problems_fixed": [
    {
     "id": "P-24",
-    "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
     "title": "Seasonal and trending content is planned too late to catch the peak",
     "call": "Solve now",
     "note": "seasonal & trending part (competitor and news parts split to DS-32, DS-33)"
@@ -1289,7 +1197,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981e6ae3af6fc3a18a751"
+   "P-24"
   ],
   "pp_ids_cited": [
    "KZ-PP19",
@@ -1302,7 +1210,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "Seasonal & trending part only since the 9 Nov split (competitor spy is DS-32, macro tracker DS-33)",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-28",
   "team_inferred": true,
@@ -1318,7 +1226,6 @@
   "opportunities": [
    {
     "id": "O-30",
-    "notion_id": "412e204ff76981738b84d7cabc39809a",
     "part": "full"
    }
   ],
@@ -1328,7 +1235,6 @@
   "problems_fixed": [
    {
     "id": "P-23",
-    "notion_id": "40fe204ff769814e99e7da6322099cae",
     "title": "Client work files are owned by individual staff accounts, including staff who have left",
     "call": "Solve now",
     "note": ""
@@ -1337,7 +1243,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769814e99e7da6322099cae"
+   "P-23"
   ],
   "pp_ids_cited": [
    "SB-PP09",
@@ -1347,7 +1253,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "",
   "status": "Decided (as written) – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-30",
   "team_inferred": true,
@@ -1364,7 +1270,6 @@
   "earlier_ideas": [
    {
     "id": "EI-09",
-    "notion_id": "412e204ff7698102aaffd041069ca3dc",
     "title": "Landing page generator"
    }
   ],
@@ -1373,7 +1278,6 @@
   "problems_fixed": [
    {
     "id": "P-38",
-    "notion_id": "410e204ff76981918b83ff403f9c9ba2",
     "title": "Creative and landing pages are outsourced, slow and hard to brief",
     "call": "Solve now",
     "note": ""
@@ -1382,7 +1286,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "410e204ff76981918b83ff403f9c9ba2"
+   "P-38"
   ],
   "pp_ids_cited": [
    "KO-PP25",
@@ -1394,7 +1298,7 @@
   "source_type": "Austin addition",
   "austin_additions": "Earlier idea, no merged opportunity; problem evidence KO-PP25, WS-PP14",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin's earlier idea (no merged opportunity)",
   "team_inferred": true,
@@ -1411,7 +1315,6 @@
   "earlier_ideas": [
    {
     "id": "EI-03",
-    "notion_id": "412e204ff769815dbe4bdda78a7a5522",
     "title": "AI receptionist"
    }
   ],
@@ -1422,7 +1325,6 @@
   "problems_related_only": [
    {
     "id": "P-42",
-    "notion_id": "410e204ff7698149a72ccd9d798ea640",
     "title": "Growth depends on the founder and inbound leads while AI erodes core services",
     "call": "Reject",
     "note": "text note only: problem rejected"
@@ -1437,7 +1339,7 @@
   "source_type": "Austin addition",
   "austin_additions": "Earlier idea; weak evidence (KO-PP17, KO-PP18 indirect); no problem fixed; decided 9 Nov (call director; Aircall add-on recommended)",
   "status": "Decided – call director; Aircall add-on (\\~A\\$370/mo) recommended, own build as the cheaper alternative; weak interview evidence",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin's earlier idea (no merged opportunity)",
   "team_inferred": true,
@@ -1454,7 +1356,6 @@
   "earlier_ideas": [
    {
     "id": "EI-17",
-    "notion_id": "412e204ff76981b7b8f7f9d3d882f012",
     "title": "Prospect research and dossier agent"
    }
   ],
@@ -1464,7 +1365,6 @@
   "problems_helped": [
    {
     "id": "P-20",
-    "notion_id": "40fe204ff769816bb3a6ed13ce47da58",
     "title": "Onboarding stalls on client access and disrupts BAU",
     "call": "Solve later",
     "note": "\"linked problem\" only"
@@ -1472,7 +1372,7 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff769816bb3a6ed13ce47da58"
+   "P-20"
   ],
   "pp_ids_cited": [
    "KO-PP22"
@@ -1481,7 +1381,7 @@
   "source_type": "Austin addition",
   "austin_additions": "Earlier idea; one leadership quote (KO-PP22)",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin's earlier idea (evidence: KO-PP22)",
   "team_inferred": true,
@@ -1498,7 +1398,6 @@
   "earlier_ideas": [
    {
     "id": "EI-04",
-    "notion_id": "412e204ff76981028c64ee1c79939607",
     "title": "AI-assisted creative production"
    }
   ],
@@ -1507,7 +1406,6 @@
   "problems_fixed": [
    {
     "id": "P-38",
-    "notion_id": "410e204ff76981918b83ff403f9c9ba2",
     "title": "Creative and landing pages are outsourced, slow and hard to brief",
     "call": "Solve now",
     "note": ""
@@ -1516,7 +1414,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "410e204ff76981918b83ff403f9c9ba2"
+   "P-38"
   ],
   "pp_ids_cited": [
    "MC-PP15",
@@ -1528,7 +1426,7 @@
   "source_type": "Austin addition",
   "austin_additions": "Earlier idea; tool list from web research Nov 2026, not interviews",
   "status": "Decided – tool shortlist to trial; cost = licences",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin's earlier idea (O-34 dropped; its AI-creative trial idea lives here)",
   "team_inferred": true,
@@ -1544,7 +1442,6 @@
   "opportunities": [
    {
     "id": "O-12",
-    "notion_id": "412e204ff76981f28fcbf88220552133",
     "part": "SEO part (ZC-O03, LS-O03)"
    }
   ],
@@ -1556,7 +1453,6 @@
   "problems_fixed": [
    {
     "id": "P-03",
-    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
     "title": "No proactive performance alerting – problems found at month-end",
     "call": "Solve now",
     "note": ""
@@ -1565,7 +1461,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981d8a087ed06b4ec140a"
+   "P-03"
   ],
   "pp_ids_cited": [
    "LS-PP05",
@@ -1575,7 +1471,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "Also rests on Zach's written AI suggestions doc (WS-ZC-01)",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-12 (SEO part: ZC-O03, LS-O03); Zach's AI suggestions doc",
   "team_inferred": false,
@@ -1591,7 +1487,6 @@
   "opportunities": [
    {
     "id": "O-12",
-    "notion_id": "412e204ff76981f28fcbf88220552133",
     "part": "SEO part"
    }
   ],
@@ -1603,7 +1498,6 @@
   "problems_fixed": [
    {
     "id": "P-03",
-    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
     "title": "No proactive performance alerting – problems found at month-end",
     "call": "Solve now",
     "note": ""
@@ -1612,7 +1506,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981d8a087ed06b4ec140a"
+   "P-03"
   ],
   "pp_ids_cited": [
    "LS-PP15"
@@ -1621,7 +1515,7 @@
   "source_type": "mixed",
   "austin_additions": "Mainly Zach's written AI suggestions doc (WS-ZC-01) plus LS-PP15",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-12 (SEO part); Zach's AI suggestions doc",
   "team_inferred": false,
@@ -1637,7 +1531,6 @@
   "opportunities": [
    {
     "id": "O-12",
-    "notion_id": "412e204ff76981f28fcbf88220552133",
     "part": "ZC-O03 win note"
    }
   ],
@@ -1649,7 +1542,6 @@
   "problems_fixed": [
    {
     "id": "P-31",
-    "notion_id": "410e204ff769813f888bfe3b3ee38213",
     "title": "Churn risk is spotted late and account teams report rather than advise",
     "call": "Solve now",
     "note": ""
@@ -1658,7 +1550,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "410e204ff769813f888bfe3b3ee38213"
+   "P-31"
   ],
   "pp_ids_cited": [
    "LS-PP08"
@@ -1667,7 +1559,7 @@
   "source_type": "mixed",
   "austin_additions": "Mainly Zach's written AI suggestions doc (WS-ZC-01) plus ZC-O03 and LS-PP08",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "ZC-O03 (win note); Zach's AI suggestions doc",
   "team_inferred": false,
@@ -1683,7 +1575,6 @@
   "opportunities": [
    {
     "id": "O-02",
-    "notion_id": "412e204ff76981a3a4a3fdf45f3b1956",
     "part": "WS-O09 forecasting prompt only"
    }
   ],
@@ -1693,7 +1584,6 @@
   "problems_fixed": [
    {
     "id": "P-04",
-    "notion_id": "40fe204ff76981efb9f8d9efda5367f0",
     "title": "Client-call prep takes longer than the call",
     "call": "Solve now",
     "note": ""
@@ -1702,7 +1592,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981efb9f8d9efda5367f0"
+   "P-04"
   ],
   "pp_ids_cited": [
    "WS-PP12",
@@ -1718,7 +1608,7 @@
   "source_type": "Austin addition",
   "austin_additions": "Austin – new; evidence is one person (WS-PP12, WS-PP13 detected)",
   "status": "Added – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin – new; WS-O09 (forecasting prompt)",
   "team_inferred": false,
@@ -1752,7 +1642,7 @@
   "source_type": "Austin addition",
   "austin_additions": "Austin – new; no SEO forecasting pain point raised (LS-PP16 is interviewer-raised)",
   "status": "Added – priced; weak SEO evidence",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin – new",
   "team_inferred": false,
@@ -1768,7 +1658,6 @@
   "opportunities": [
    {
     "id": "O-12",
-    "notion_id": "412e204ff76981f28fcbf88220552133",
     "part": "draft-diagnosis part"
    }
   ],
@@ -1778,7 +1667,6 @@
   "problems_fixed": [
    {
     "id": "P-03",
-    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
     "title": "No proactive performance alerting – problems found at month-end",
     "call": "Solve now",
     "note": ""
@@ -1787,7 +1675,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981d8a087ed06b4ec140a"
+   "P-03"
   ],
   "pp_ids_cited": [
    "DM-PP01",
@@ -1797,7 +1685,7 @@
   "source_type": "mixed",
   "austin_additions": "Austin – new on top of O-12's draft-diagnosis step; WS-PP04, DM-PP01",
   "status": "Added – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-12 (draft-diagnosis part); Austin – new",
   "team_inferred": false,
@@ -1817,7 +1705,6 @@
   "problems_fixed": [
    {
     "id": "P-31",
-    "notion_id": "410e204ff769813f888bfe3b3ee38213",
     "title": "Churn risk is spotted late and account teams report rather than advise",
     "call": "Solve now",
     "note": ""
@@ -1826,7 +1713,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "410e204ff769813f888bfe3b3ee38213"
+   "P-31"
   ],
   "pp_ids_cited": [
    "KO-PP20",
@@ -1843,7 +1730,7 @@
   "source_type": "mixed",
   "austin_additions": "Austin – new; SH-PP09, KO-PP20 (O-23 related)",
   "status": "Added – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin – new; O-23 related",
   "team_inferred": false,
@@ -1859,14 +1746,12 @@
   "opportunities": [
    {
     "id": "O-12",
-    "notion_id": "412e204ff76981f28fcbf88220552133",
     "part": "paid part (weekly check)"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-15",
-    "notion_id": "412e204ff76981dbbd39ff9daa305c0f",
     "title": "Proactive PPC monitor and anomaly detector"
    }
   ],
@@ -1875,7 +1760,6 @@
   "problems_fixed": [
    {
     "id": "P-03",
-    "notion_id": "40fe204ff76981d8a087ed06b4ec140a",
     "title": "No proactive performance alerting – problems found at month-end",
     "call": "Solve now",
     "note": ""
@@ -1884,7 +1768,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981d8a087ed06b4ec140a"
+   "P-03"
   ],
   "pp_ids_cited": [
    "DM-PP02",
@@ -1898,7 +1782,7 @@
   "source_type": "evidence-backed",
   "austin_additions": "DS-22's PPC twin; DM-PP02, MC-PP08, MC-PP18, SH-PP11/12/15",
   "status": "Added – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-12 (paid part); DS-22's PPC twin",
   "team_inferred": false,
@@ -1914,7 +1798,6 @@
   "opportunities": [
    {
     "id": "O-29",
-    "notion_id": "412e204ff76981e582aed6c8547d215e",
     "part": "daily brief part"
    }
   ],
@@ -1924,7 +1807,6 @@
   "problems_fixed": [
    {
     "id": "P-16",
-    "notion_id": "40fe204ff76981e9b92fcb8a575cb3f4",
     "title": "Reminders go unacted; a broken reminder bot went unnoticed",
     "call": "Solve now",
     "note": ""
@@ -1933,7 +1815,6 @@
   "problems_helped": [
    {
     "id": "P-21",
-    "notion_id": "40fe204ff76981208c95f2a96063afd7",
     "title": "Managers at capacity – Tier 2/3 clients get dropped first",
     "call": "Solve now",
     "note": "\"also helps (partly)\" – the right work surfaces first"
@@ -1941,8 +1822,8 @@
   ],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981208c95f2a96063afd7",
-   "40fe204ff76981e9b92fcb8a575cb3f4"
+   "P-21",
+   "P-16"
   ],
   "pp_ids_cited": [
    "MC-PP03",
@@ -1951,9 +1832,9 @@
   ],
   "pp_cited_interviewer_or_detected": [],
   "source_type": "mixed",
-  "austin_additions": "Split from DS-06 (Austin, 9 Nov); Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief",
+  "austin_additions": "Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief",
   "status": "Added – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-29 (daily brief part); Austin – new",
   "team_inferred": false,
@@ -1962,21 +1843,19 @@
  },
  "DS-31": {
   "id": "DS-31",
-  "title": "Proactive brand-mention tracking for backlinks (split from DS-12)",
+  "title": "Proactive brand-mention tracking for backlinks",
   "section_heading": "Proactive brand-mention tracking for backlinks",
   "description": "Link building: weekly scan for unlinked brand mentions of Tier 1/2 clients, ranked, with drafted outreach; wins logged in DS-11.",
   "team": "link building / SEO",
   "opportunities": [
    {
     "id": "O-20",
-    "notion_id": "412e204ff76981edb972ea1d913e977d",
     "part": "brand-mention part"
    }
   ],
   "earlier_ideas": [
    {
     "id": "EI-21",
-    "notion_id": "412e204ff7698133a693da5c684713e2",
     "title": "Unlinked brand-mention monitoring and outreach (Tier 1)"
    }
   ],
@@ -1987,7 +1866,6 @@
   "problems_fixed": [
    {
     "id": "P-34",
-    "notion_id": "410e204ff769813aaa23cf4c2049bdf4",
     "title": "Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent",
     "call": "Solve now",
     "note": "the supply part"
@@ -1996,7 +1874,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "410e204ff769813aaa23cf4c2049bdf4"
+   "P-34"
   ],
   "pp_ids_cited": [
    "TG-PP03",
@@ -2004,9 +1882,9 @@
   ],
   "pp_cited_interviewer_or_detected": [],
   "source_type": "evidence-backed",
-  "austin_additions": "Split from DS-12 (9 Nov); ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01)",
+  "austin_additions": "ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01)",
   "status": "Added – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-20 (brand-mention part); Zach's AI suggestions doc",
   "team_inferred": false,
@@ -2015,14 +1893,13 @@
  },
  "DS-32": {
   "id": "DS-32",
-  "title": "Competitor spy per client (split from DS-16)",
+  "title": "Competitor spy per client",
   "section_heading": "Competitor spy per client",
   "description": "SEO/content: weekly watch of each client's competitors with a digest in the client brain and Slack alerts.",
   "team": "SEO and content strategists (paid can use it too)",
   "opportunities": [
    {
     "id": "O-28",
-    "notion_id": "412e204ff769819486b9f5aac26a69d4",
     "part": "competitor part"
    }
   ],
@@ -2034,7 +1911,6 @@
   "problems_fixed": [
    {
     "id": "P-24",
-    "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
     "title": "Seasonal and trending content is planned too late to catch the peak",
     "call": "Solve now",
     "note": "competitor part"
@@ -2043,16 +1919,16 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981e6ae3af6fc3a18a751"
+   "P-24"
   ],
   "pp_ids_cited": [
    "ZC-PP15"
   ],
   "pp_cited_interviewer_or_detected": [],
   "source_type": "evidence-backed",
-  "austin_additions": "Split from DS-16 (9 Nov); one stated pain point (ZC-PP15) plus Zach's written doc",
+  "austin_additions": "one stated pain point (ZC-PP15) plus Zach's written doc",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "O-28 (competitor part); Zach's AI suggestions doc",
   "team_inferred": false,
@@ -2061,7 +1937,7 @@
  },
  "DS-33": {
   "id": "DS-33",
-  "title": "Macro trend tracker per client (split from DS-16)",
+  "title": "Macro trend tracker per client",
   "section_heading": "Macro trend tracker per client",
   "description": "Strategists: per-client tracker of news, regulation, economy and industry shifts with \"why it matters\" and an idea to act on.",
   "team": "SEO, content and paid strategists",
@@ -2069,7 +1945,6 @@
   "earlier_ideas": [
    {
     "id": "EI-11",
-    "notion_id": "412e204ff76981b2b4b7dc009506fc3b",
     "title": "Macro trend tracker agent for client industries"
    }
   ],
@@ -2080,7 +1955,6 @@
   "problems_fixed": [
    {
     "id": "P-24",
-    "notion_id": "40fe204ff76981e6ae3af6fc3a18a751",
     "title": "Seasonal and trending content is planned too late to catch the peak",
     "call": "Solve now",
     "note": "news part"
@@ -2089,7 +1963,7 @@
   "problems_helped": [],
   "problems_related_only": [],
   "problem_mentions_in_section": [
-   "40fe204ff76981e6ae3af6fc3a18a751"
+   "P-24"
   ],
   "pp_ids_cited": [
    "WS-PP12",
@@ -2097,9 +1971,9 @@
   ],
   "pp_cited_interviewer_or_detected": [],
   "source_type": "Austin addition",
-  "austin_additions": "Split from DS-16 (9 Nov); Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12",
+  "austin_additions": "Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12",
   "status": "Decided – priced",
-  "ledger_status": "addressed",
+  "coverage": "addressed",
   "merged_into": "",
   "progress_table_opportunities": "Austin's earlier idea; Zach's AI suggestions doc",
   "team_inferred": false,

@@ -1,6 +1,6 @@
-## Stage 3 – Draft findings narrative
+## Stage 3 – Findings narrative
 
-> **Draft findings for the 12 November presentation.** Built from Stage 1 (39 clusters, 8 root causes, 31 contradictions) and Stage 2 (34 process cost rows, 35 merged opportunities). Every paragraph cites its IDs: RC = root cause, C = cluster, O = merged opportunity, X = contradiction, S = strength; extraction IDs (e.g. SD-PP04) can be found with Ctrl-F on the Transcript Findings pages. Raise counts are "N staff + N leadership" and count only interviewee or detected sources; interviewer-prompted agreement is corroboration only. Hours are monthly, at $80/hr, and carry their certainty. Sections 1–8 use role families only; names, COI context and dependency names are in the Austin-only appendix (section 9), which must be excluded from anything shared.
+> **Stage 3 findings (6 Nov).** Built from Stage 1 (39 clusters, 8 root causes, 31 contradictions) and Stage 2 (34 process cost rows, 35 merged opportunities). Every paragraph cites its IDs: RC = root cause, C = cluster, O = merged opportunity, X = contradiction, S = strength; extraction IDs (e.g. SD-PP04) can be found with Ctrl-F in the interview files. Raise counts are "N staff + N leadership" and count only interviewee or detected sources; interviewer-prompted agreement is corroboration only. Hours are monthly, at $80/hr, and carry their certainty. Sections 1–8 use role families; the names behind them and the dependency names are in section 9.
 
 **Bottom line.** Aperitif's time and margin leak through eight shared causes, not 39 separate problems. The biggest is that there is no system of record: budgets, client context, briefs, links and files live in hand-kept copies, so skilled people re-key and collate (RC-01, 12 staff + 2 leadership). The clearest cash loss traces to human monitoring: the one stated loss, a $10K overspend credit (MP-PP01, stated), came from pacing that ran against the wrong figure and a channel that wasn't paced at all (RC-02, C-01, C-03). The work the interviewees described adds up to 944–1,901 hours a month ($75K–$152K), but only 12.8% of the mid-point hours rest on a time someone actually stated, so the figures show which processes are large, not a precise saving. Eighteen of the 35 fixes are quick wins that need no build, led by restoring the pacing feed and covering every live channel (O-01), a written AI-data rule with company seats and a shared skills library (O-02), and AI-drafted briefs from the plan that already exists (O-03).
 
@@ -179,7 +179,7 @@ Not costed because no time was discussed: sales proposal to signed (KO-P02), hir
 
 35 merged opportunities from 143, ranked by Impact × Confidence × Ease (Stage 2.2). Hours are assumed and not additive. **COI** = at least one source opportunity is something Transpera could build, or the auditor proposed or offered it. 25 of 35 carry the flag. For most quick wins the flag is formal only, because they can be done in-stack with no Transpera involvement (O-01, O-02, O-03, O-04, O-06, O-08, O-09, O-10, O-16, O-24). It matters most where a build is named and where the auditor made the offer himself (O-07, O-14, O-18, O-27).
 
-**Top five for the pack.**
+**Top five.**
 1. **O-01 Restore the pacing data feed and cover every live channel.** Renew or replace the failing connector, name one owner, and adopt the rule "no spend goes live without a pacing line". 7–19 h a month ($576–$1,489) plus protection against a repeat of the $10K credit. Effort S. COI: formal only.
 2. **O-02 AI-data rule, company Claude seats, shared skills library.** A one-page rule, seats sized to use, and proven personal workflows moved into shared Projects. 6.5–36 h a month ($520–$2,878). Unblocks O-03, O-04, O-05 and O-13. COI: formal only.
 3. **O-03 AI brief drafts from the Master SEO Document.** 9–22 h a month ($720–$1,780). Builds on an existing Claude brief project (ZC-str01). COI: formal only.
@@ -273,11 +273,11 @@ Further dependencies:
 
 ## 7. Contradictions and open questions
 
-Of 31 contradictions (Stage 1.3), 14 are resolved from the evidence; 17 are open: 3 need Austin, 9 need Aperitif, 5 need data. Until each is resolved, use the pack wording in the last column.
+Of 31 contradictions (Stage 1.3), 14 are resolved from the evidence; 17 are open: 3 need the audit team, 9 need Aperitif, 5 need data. The last column gives the safe wording until each is resolved.
 
-### Austin to resolve before 12 Nov
+### For the audit team to resolve
 
-| ID | Question | Why it matters | Pack wording until resolved |
+| ID | Question | Why it matters | Wording until resolved |
 |---|---|---|---|
 | X-10 | Was the $10K credit (MP-PP01: tracker paced against a stale budget) the same incident as the untracked-channel overspend (MP-PP02, context pack)? Confirm with leadership. | Decides whether C-01 and C-03 share one stated $ figure. The context pack's "$10K LinkedIn overspend" fact is unconfirmed. | "A $10K credit on one Tier 1 overspend", without naming the channel. |
 | X-11 | Was the second leader present at the mid-point meeting? | Raise counting. All mid-point raises are currently counted as one leader's; nothing changes either way unless a line is attributed. | No change. |
@@ -339,28 +339,28 @@ Of 31 contradictions (Stage 1.3), 14 are resolved from the evidence; 17 are open
 - **Interviewer influence.** C-38 was first raised by the interviewer (MP-PP10). The wrap-ups suggested organic had little room to save (X-28). Several cluster members were interviewer-framed and are counted as corroboration only (Stage 1 flags). The Notion staleness figures are the auditor's own analysis.
 
 
-## 9. Austin-only appendix – names, COI, dependencies
+## 9. Appendix – names and dependencies
 
-**Austin-only. Do not share or paste into the pack.** This page holds the names behind the role families in sections 1–8, the COI and bias flags with their context, and the dependency names. Source: Stage 1 key and 1.5, Stage 2 COI notes.
+The names behind the role families used in sections 1–8, and the people behind each key-person dependency.
 
 ## 9.1 Names behind the role families
 
-| Prefix | Person | Role family used in sections 1–8 | Transcript Findings |
+| Prefix | Person | Role family used in sections 1–8 | Transcript |
 |---|---|---|---|
-| KO | Joe Romeo & Julia Van Der Linden (kick-off, 22 Oct) | leadership | https://app.notion.com/p/410e204ff7698163956ee62557f56871 |
-| MP | Joe Romeo (Julia unconfirmed – X-11) (mid-point, 30 Oct) | leadership | https://app.notion.com/p/410e204ff769813c8e88e3dd8c6e01ef |
-| LS | Laura Shillington – SEO Director | an SEO manager | https://app.notion.com/p/410e204ff76981d18b93d8e0890f21f0 |
-| KZ | Karl Zaharopoulos – Senior SEO Manager & Link-building Lead | an SEO manager / the link-building team | https://app.notion.com/p/410e204ff769815da6affd382d30de25 |
-| SB | Sid Bali – Technical SEO Specialist | a technical SEO team member | https://app.notion.com/p/410e204ff7698111a847ef3653b8faa2 |
-| TG | Tonie Guevarra – Outreach Specialist | the link-building team | https://app.notion.com/p/410e204ff76981b08eb2cb7e814f2fe3 |
-| ZC | Zach Chamberlain – SEO Manager | an SEO manager | https://app.notion.com/p/410e204ff76981dca446d1a48b8be2f5 |
-| SJ | Sarah Julian – Content Manager | a content team member | https://app.notion.com/p/410e204ff7698184842aebd6b0690e36 |
-| HT | Hayley Tantau – Content Specialist | a content team member | https://app.notion.com/p/410e204ff769811c9986c5e155f2132d |
-| WS | Wendlley Simoes – Performance Marketing Director | a performance manager / a senior performance person | https://app.notion.com/p/410e204ff769816896d8dfc72aade479 |
-| SH | Sophie Hesseborn – Senior Performance Marketing Manager | a performance manager | https://app.notion.com/p/410e204ff76981eba9a1db6f7726f9b1 |
-| SD | Shrishti Dokwal – Senior Performance Marketing Manager | a performance manager | https://app.notion.com/p/410e204ff769817a8b6cdcf62142493d |
-| DM | Diya Manoj – Performance Marketing Manager | a performance manager | https://app.notion.com/p/410e204ff7698159b3b7c2109e365737 |
-| MC | Michaela Cruz – Performance Marketing Specialist | a performance team member / specialist | https://app.notion.com/p/410e204ff76981b99152db86bb6735f7 |
+| KO | Joe Romeo & Julia Van Der Linden (kick-off, 22 Oct) | leadership | [transcript](../interviews/ko-leadership-kick-off/transcript.md) |
+| MP | Joe Romeo (Julia unconfirmed – X-11) (mid-point, 30 Oct) | leadership | [transcript](../interviews/mp-leadership-mid-point/transcript.md) |
+| LS | Laura Shillington – SEO Director | an SEO manager | [transcript](../interviews/ls-laura-shillington/transcript.md) |
+| KZ | Karl Zaharopoulos – Senior SEO Manager & Link-building Lead | an SEO manager / the link-building team | [transcript](../interviews/kz-karl-zaharopoulos/transcript.md) |
+| SB | Sid Bali – Technical SEO Specialist | a technical SEO team member | [transcript](../interviews/sb-sid-bali/transcript.md) |
+| TG | Tonie Guevarra – Outreach Specialist | the link-building team | [transcript](../interviews/tg-tonie-guevarra/transcript.md) |
+| ZC | Zach Chamberlain – SEO Manager | an SEO manager | [transcript](../interviews/zc-zach-chamberlain/transcript.md) |
+| SJ | Sarah Julian – Content Manager | a content team member | [transcript](../interviews/sj-sarah-julian/transcript.md) |
+| HT | Hayley Tantau – Content Specialist | a content team member | [transcript](../interviews/ht-hayley-tantau/transcript.md) |
+| WS | Wendlley Simoes – Performance Marketing Director | a performance manager / a senior performance person | [transcript](../interviews/ws-wendlley-simoes/transcript.md) |
+| SH | Sophie Hesseborn – Senior Performance Marketing Manager | a performance manager | [transcript](../interviews/sh-sophie-hesseborn/transcript.md) |
+| SD | Shrishti Dokwal – Senior Performance Marketing Manager | a performance manager | [transcript](../interviews/sd-shrishti-dokwal/transcript.md) |
+| DM | Diya Manoj – Performance Marketing Manager | a performance manager | [transcript](../interviews/dm-diya-manoj/transcript.md) |
+| MC | Michaela Cruz – Performance Marketing Specialist | a performance team member / specialist | [transcript](../interviews/mc-michaela-cruz/transcript.md) |
 
 **Quotes used in sections 1–8, by person.**
 - Leadership: MP-PP01, MP-PP02, MP-PP03, MP-PP12 (Joe – all mid-point raises are counted as Joe's, X-11); KO-PP04 (Julia); KO-PP05, KO-PP11, KO-PP16, KO-PP20, KO-PP23 (kick-off – attribute per the KO page before quoting a named leader).
@@ -368,43 +368,9 @@ Of 31 contradictions (Stage 1.3), 14 are resolved from the evidence; 17 are open
 - Organic: LS-PP03, LS-PP04, LS-PP14 (Laura); KZ-PP01, KZ-PP06, KZ-PP11, KZ-PP13, KZ-PP22 (Karl); ZC-PP06, ZC-PP09, ZC-PP10, ZC-PP11 (Zach); SB-PP04, SB-PP11 (Sid).
 - Content: SJ-PP05, SJ-PP09, SJ-PP11 (Sarah); HT-PP02 (Hayley).
 
-Even under role families, several quotes are recognisable inside a 27-person agency. "A content team member" on "telephone" (SJ-PP05) and on volume (SJ-PP11) points to the Content Manager. "The link-building team" on vetting 60 domains (KZ-PP06) points to Karl. "A technical SEO team member" (SB-PP04, SB-PP11) points to Sid. Check with each person, or drop the quote, before it goes on a slide.
 
-**Substitutions made in sections 1–8.** These are the only places sections 1–8 differ from Stage 1 and 2 wording:
-- "Founder" became "leadership" throughout. This covers O-02 (founder issues the AI rule), O-21 (contracts signed without the founder), C-39 (renamed "Growth depends on leadership-led sales…") and the costing table's "founder availability".
-- C-22 was renamed from "one manager" to "a single person". The person is Sarah Julian.
-- "Tina" became "the named Slack agent" or "the M/W/F pacing bot" (X-23). It may also be confused with Tatiana Stinson.
-- OpenClaw became "leadership's personal AI agents".
-- X-10 client: Leaselab (Tier 1).
-- X-08 client: easyAML.
-- X-29 client: Disney (Karl's).
-- X-04: Tonie and Zach.
-- X-07: Hayley.
-- X-13: Diya.
-- X-14: Sarah's freelancers.
-- X-27: Spencer Potts.
-- X-11: Julia.
 
-## 9.2 COI and bias flags – with context
-
-**Auditor's own offers and ideas.** Disclose these on the slide that recommends each item.
-- **Link-building CRM and link monitor.** At the kick-off Austin offered to build this with leadership ("maybe we can do something together", KO suggestions). It travels with C-23, C-25 and C-24 and with O-07, O-18 and O-20. Mitigation in the pack: O-07 names an off-the-shelf route (Ahrefs or Screaming Frog scheduled crawl plus Sheets or Make), and O-18 is sheet-first, with a CRM only if that fails.
-- **"AI business brain".** This is Austin's own product idea, raised in the KO suggestions and interviewer-sourced. It travels with C-07 and with O-04, O-13, O-25 and O-27. Stage 2 verdict: not supported as a first step, with one leadership proposer (MP-O10, KO-O09). It sits under Consider (O-27) and depends on O-04 and O-33.
-- **Client-research agent for new-client dossiers.** Austin offered his own agent at leadership's request (KO suggestions). It travels with C-10 and with O-08, O-14 and O-17.
-- **Transpera could build it (formal flag).** 25 of 35 opportunities carry this flag: O-01–O-14, O-16, O-18, O-20, O-22, O-24, O-25, O-27–O-29, O-31, O-33. No flag: O-15, O-17, O-19, O-21, O-23, O-26, O-30, O-32, O-34, O-35. For O-01, O-02, O-03, O-04, O-06, O-08, O-09, O-10, O-16 and O-24 the flag is formal only, because they can be done in-stack.
-
-**Interviewer bias.**
-- **Organic framed as low-opportunity.** Austin's wrap-ups suggested organic had little room to save time (LS-X02, MP-X04). The evidence contradicts this (X-28). Flag carried on C-17 and on O-05, O-06, O-10, O-12, O-13, O-17, O-19, O-21.
-- **Sales over-commitment raised by the interviewer first** (MP-PP10). Leadership agreed strongly. Carried on C-38, O-08, O-22. There is no sales interview to balance it (Jethro Jason – not recorded).
-- **"Tina posts daily"** was Austin's assumption and wasn't corrected (SH L193, MC L407, DM L304). The cadence is M/W/F (X-03).
-- **HubSpot saving.** Austin quoted $24K a year (KO-X07). Joe gave about $30K for HubSpot and Monday after a reduction (KO-PP12). Don't quote a saving (X-31).
-- **Notion statistics** (217 pages, 43% stale, Joe last editor on 39%) are Austin's own analysis, agreed by Joe (MP-PP03).
-- **Interviewer-framed members, counted as corroboration only or noted as framed:** MC-PP06 (Tina reliability), DM-PP03 (real-time thresholds), MC-PP08, SH-PP13, SD-PP14, WS-PP03 (consolidated view), ZC-PP01 ("fresh brain"), ZC-PP04, ZC-PP06, ZC-PP11, HT-PP04, MP-PP20, WS-PP08, KO-PP01, SD-PP10 (BAU disruption), MC-PP17, LS-PP07 (approval paper trail), LS-PP09, LS-PP16, KO-PP06 (churn signals), SB-PP13 and SH-PP09 (hypotheticals), MP-PP21, KZ-PP02, TG-PP03 (pricing angle), TG-PP08 (finite supply), SJ-PP06, HT-PP06, HT-PP07 (cost wording possibly Austin's), MP-PP05, MP-PP06, MP-PP07, MP-PP10, MP-PP12, KO-PP05, MP-PP17.
-- **Detected by the extractor (not said outright):** SD-PP19, KO-PP06, WS-PP08, WS-PP13, WS-PP15, TG-PP09, SD-PP16.
-
-**Introduction.** Michael Laps introduced Austin to Aperitif (context pack §2). No extraction raised a conflict from this, and no client or hire connection, and no Austin-built stopgap, was flagged in Stages 1–2.
-
-## 9.3 Dependency names
+## 9.2 Dependency names
 
 | What | Role | Name | IDs | If absent | Documented? | Feeds |
 |---|---|---|---|---|---|---|

@@ -1,8 +1,7 @@
 ---
 id: P-42
 title: "Growth depends on the founder and inbound leads while AI erodes core services"
-austin_call: "Reject"
-austin_note: ""
+decision: "Reject"
 status: rejected
 fixed_by: []
 also_helped_by: []
@@ -13,16 +12,14 @@ pain_points: ["KO-PP17", "KO-PP18", "KO-PP19", "KO-PP23", "KO-PP24", "KZ-PP21", 
 theme: "Cultural"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff7698149a72ccd9d798ea640
 ---
 
 # P-42 · Growth depends on the founder and inbound leads while AI erodes core services
 
 | | |
 | --- | --- |
-| Austin's call | **Reject** |
-| Austin's note | – |
-| Status | rejected – Rejected by Austin (no note given) |
+| Decision | **Reject** |
+| Status | rejected – Not taken forward in this proposal – growth strategy and the service mix sit outside the audit's scope. |
 | Theme · severity · confidence | Cultural · High · High – raised by 3+ people |
 | Process area | Sales |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -31,20 +28,19 @@ notion_id: 410e204ff7698149a72ccd9d798ea640
 
 - Related only: [DS-19 AI receptionist (phone; Aircall add-on or own build)](../solutions/ds-19-ai-receptionist.md) – text note only: problem rejected
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-14](../opportunities/README.md#o-14) AI-prefilled onboarding audit and Master SEO Document – addressed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [O-22](../opportunities/README.md#o-22) Sales discipline: calculator, margin check, speed-to-lead – partly addressed ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
-- [EI-14](../opportunities/README.md#ei-14) PPC done-with/for-you productised service – idea to discuss
+- [EI-14](../opportunities/README.md#ei-14) PPC done-with/for-you productised service – held for discussion
 - [EI-01](../opportunities/README.md#ei-01) 1-click audit access system + AI audit workflow (also a lead magnet) – absorbed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md))
 
 ## Root cause and cluster
 
 - Cluster [C-39](../synthesis/clusters-and-root-causes.md#c-39): Growth depends on the founder and inbound leads while AI erodes core services – raised by 1 staff + 2 leadership; confidence High.
 - Root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06): Decisions and quality gates sit with a few senior people because authority isn't delegated and the management layer is thin.
-- Problems DB root cause: [RC-06](../synthesis/clusters-and-root-causes.md#rc-06): Decisions sit with a few senior people. Chain: growth and US expansion wait on sales running without the founder ([KO-PP17](../pain-points/README.md#ko-pp17), [MP-PP11](../pain-points/README.md#mp-pp11)) → pipeline relies on inbound and referral; outbound no longer works and lead quality is falling ([KO-PP24](../pain-points/README.md#ko-pp24), [KO-PP19](../pain-points/README.md#ko-pp19), [KO-PP18](../pain-points/README.md#ko-pp18)) → prospect decks built by hand by delivery staff on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21)) → sales know-how, deal shaping and diversification plans are unwritten ([KO-PP23](../pain-points/README.md#ko-pp23)).
-- Merge notes: Stage 1 merge (6 Nov): New – [C-39](../synthesis/clusters-and-root-causes.md#c-39). 1 staff + 2 leadership (largely leadership-only). R19 'Proposals are rebuilt from scratch per prospect' merges here (single staff raise, [KZ-PP21](../pain-points/README.md#kz-pp21)). Sales lead's interview not recorded. Members: [KO-PP17](../pain-points/README.md#ko-pp17), [MP-PP11](../pain-points/README.md#mp-pp11), [KO-PP18](../pain-points/README.md#ko-pp18), [KO-PP24](../pain-points/README.md#ko-pp24), [KO-PP23](../pain-points/README.md#ko-pp23), [KO-PP19](../pain-points/README.md#ko-pp19), [KZ-PP21](../pain-points/README.md#kz-pp21)
+- Root cause (problem record): [RC-06](../synthesis/clusters-and-root-causes.md#rc-06): Decisions sit with a few senior people. Chain: growth and US expansion wait on sales running without the founder ([KO-PP17](../pain-points/README.md#ko-pp17), [MP-PP11](../pain-points/README.md#mp-pp11)) → pipeline relies on inbound and referral; outbound no longer works and lead quality is falling ([KO-PP24](../pain-points/README.md#ko-pp24), [KO-PP19](../pain-points/README.md#ko-pp19), [KO-PP18](../pain-points/README.md#ko-pp18)) → prospect decks built by hand by delivery staff on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21)) → sales know-how, deal shaping and diversification plans are unwritten ([KO-PP23](../pain-points/README.md#ko-pp23)).
 
 ## Pain points (7)
 
@@ -63,6 +59,6 @@ notion_id: 410e204ff7698149a72ccd9d798ea640
 - [MP-PP11](../pain-points/README.md#mp-pp11) – Founder still pulled into building deal strategies and ad-spend numbers
   - *"So I'm still getting involved in a lot of that, but I don't want to"* – Joe Romeo, Leadership (mid-point) · staff-raised · [\~17:18 (L192)](../interviews/mp-leadership-mid-point/transcript.md?plain=1#L195)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "sales to be consistent and coming in month to month without so much of my involvement" – leadership ([KO-PP17](../pain-points/README.md#ko-pp17), \~86:25, L403) | "diversifying product offering a little bit more, particularly in light of the impact AI is having on our kind of bread-and-butter offerings" – leadership ([KO-PP23](../pain-points/README.md#ko-pp23), \~29:27, L139) | "now, I think because the lead volume is higher, as we're running ads better, it might be one in ten." – leadership ([KO-PP18](../pain-points/README.md#ko-pp18), \~54:08, L268)

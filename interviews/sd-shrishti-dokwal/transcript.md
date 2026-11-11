@@ -1,6 +1,6 @@
 # Shrishti Dokwal interview transcript (30 Oct 2026)
 
-Source: Notion meeting notes https://app.notion.com/p/409e204ff76981aa8232ed533041b8ec (full transcript, not truncated; ends at sign-off).
+Source: meeting notes (full transcript, not truncated; ends at sign-off).
 No timestamps in source. ~mm:ss = estimated from cumulative word position over ~54 min (scheduled 60 min, ended 'six minutes early'). L### = utterance number.
 Speakers: diariser label B = Austin Smith; A/C/D/E/F = Shrishti Dokwal (diariser split her voice into several labels).
 Corrections applied 6 Nov per Austin: "Leah's" (L193) = Wendlley Simoes; "Tina" = the Tina Slack agent bot (OpenClaw), not Tatiana; the "director … she" (L434) who reallocates onboardings = Julia Van Der Linden, Head of Client Services.

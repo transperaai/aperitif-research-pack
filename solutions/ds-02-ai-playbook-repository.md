@@ -4,7 +4,7 @@ title: "AI playbook repository (how we use AI: rules, SOPs, prompts, agents, ski
 team: "everyone (leadership owns)"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
 status: "Decided – includes the AI data rule and company Claude seats; priced. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-02 (full)", "O-33 (SOP part)"]
 earlier_ideas: ["EI-08 L&D platform – training, manuals and SOPs made clear"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["DM-PP12", "LS-PP13", "MC-PP19", "MC-PP20", "SB-PP12", "SJ-PP07", "ZC-PP11"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Fewer repeat questions; lets the other AI solutions run safely"
-build_cost: "Free"
-monthly: "Claude Team seats paid by Aperitif direct (USD, new seat count TBC)"
-notion_section: "AI playbook repository"
 ---
 
 # DS-02 · AI playbook repository
@@ -37,8 +34,6 @@ notion_section: "AI playbook repository"
 | Pain points cited | [DM-PP12](../pain-points/README.md#dm-pp12), [LS-PP13](../pain-points/README.md#ls-pp13), [MC-PP19](../pain-points/README.md#mc-pp19), [MC-PP20](../pain-points/README.md#mc-pp20), [SB-PP12](../pain-points/README.md#sb-pp12), [SJ-PP07](../pain-points/README.md#sj-pp07), [ZC-PP11](../pain-points/README.md#zc-pp11) |
 | Written source | – |
 | Value | Fewer repeat questions; lets the other AI solutions run safely |
-| Build cost | Free |
-| Monthly | Claude Team seats paid by Aperitif direct (USD, new seat count TBC) |
 
 ## Vision
 
@@ -48,20 +43,11 @@ notion_section: "AI playbook repository"
 > - The answer comes back with the SOP, prompt or skill and a link to the source.
 > - The AI rule and company Claude seats are part of it, and it goes first.
 
-## Pricing & priority
-
-> **Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | AI playbook repository (a repo of information, not a build) | **A\$0 – no charge** | – |
-> | Company Claude Team seats | – | Paid by Aperitif direct (US\$ per seat; number of new seats TBC) |
->
-> **Who does what:** Austin supplies the playbook entries that come from his builds (how each solution works, its prompts and SOPs). The team writes and shares their own Claude skills and prompts – Transpera doesn't build skills for individuals.
+## Decision
 
 **Decision (9 Nov):** one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
 
-## What goes in it (draft)
+## What goes in it
 
 | Section | Contents | Seeded from (evidence) |
 | --- | --- | --- |
@@ -83,9 +69,9 @@ notion_section: "AI playbook repository"
 - [AI use is personal and ungoverned: no policy, shared skills, client context or seats](../problems/p-40-ai-use-is-personal-and-ungoverned-no.md) – **9 staff + 1 leadership, the broadest staff raise in the audit.** *"I'm not sure how much it is okay to have the data privacy and everything when we do that."* – a performance manager ([DM-PP12](../pain-points/README.md#dm-pp12)). *"we've had a few cases where team members used AI for the whole thing and it was a mess."* – the SEO Director ([LS-PP13](../pain-points/README.md#ls-pp13)). One staff member pays for her own Claude account ([MC-PP19](../pain-points/README.md#mc-pp19)); the team plan hits usage limits ([SB-PP12](../pain-points/README.md#sb-pp12)).
 - [Documentation is stale and rarely read](../problems/p-12-documentation-is-stale-and-rarely-read.md) – the SOP section, once linked into the workflow.
 - [Regulated-industry content lacks shared compliance rules and credible sources](../problems/p-28-regulated-industry-content-lacks-shared-compliance-rules.md) – the compliance and research packs.
-- [Change fatigue and quiet AI anxiety slow adoption](../problems/p-44-change-fatigue-and-quiet-ai-anxiety-slow.md) – a clear, staged playbook instead of tools appearing ad hoc (Austin's note: systems layered in, not vibe-coded).
+- [Change fatigue and quiet AI anxiety slow adoption](../problems/p-44-change-fatigue-and-quiet-ai-anxiety-slow.md) – a clear, staged playbook instead of tools appearing ad hoc.
 
-## Future state (draft)
+## Future state
 
 1. A one-page AI rule is published and every staff member has acknowledged it.
 2. Everyone works on company Claude seats sized to use; nobody pays personally.
@@ -93,7 +79,7 @@ notion_section: "AI playbook repository"
 4. Monday.com task templates link to the relevant playbook entry, so it's used in the flow of work, not looked up separately.
 5. Each entry has a named owner and a review date, so it doesn't go stale like the wiki.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -102,7 +88,7 @@ notion_section: "AI playbook repository"
 | Repeat tasks with a playbook entry | Unknown | Agree a top-10 list; 100% covered |
 | Entries reviewed in the last 90 days | n/a | 100% |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **The foundation, not a time-saver.** One place that answers the questions people keep asking – how do we use AI for this, what client data is allowed, which prompt or skill do I use – so they stop going to leads and each other, and every other AI solution runs safely.
 
@@ -121,9 +107,9 @@ notion_section: "AI playbook repository"
 
 **Goals:** trust · good customer service · good performance
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

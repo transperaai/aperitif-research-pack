@@ -2296,37 +2296,5 @@
       "who_role": "Founder",
       "if_absent": "Leadership loses visibility of largest accounts"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Was Julia on the call; which speaker label is her?",
-      "Julia: escalations per month, time each, tool for escalation pipeline, current churn triggers",
-      "Joe: overspend incidents and $ credited in last 6–12 months; is Leaselab $10K the LinkedIn overspend?",
-      "Joe: deals per month needing his input and time each",
-      "Joe: how often he joins Tier 1 WIPs",
-      "Austin: meaning of '3:1 to 4:5' and what 'Jev' is",
-      "Joe: calculator URL and which CRM receives link data"
-    ],
-    "contradictions": [
-      "Evidence Log lists Joe and Julia; no line firmly attributable to Julia",
-      "Leaselab Google Ads manager is DM per context pack, but Joe says the overspend sat with 'our most senior person in the team'",
-      "Evidence row links the Supermetrics/Meta pacing problem, but Joe says Google and Meta pacing is 'sorted' (L573)",
-      "Austin says SEO opportunity limited; context pack lists SEO-side solution ideas"
-    ],
-    "data_requests": [
-      "Overspend log and credit notes (Joe / Xero)",
-      "Pacing tracker change history for Leaselab LinkedIn (Wendlley)",
-      "Ad-spend calculator access and usage (Joe)",
-      "Escalation pipeline export (Julia)",
-      "Slack reminder channel history (Joe)",
-      "Otter usage and cost (Joe)",
-      "Link tracker and reporting-CRM export (Tonie / Karl)"
-    ],
-    "verify": [
-      "$10K Leaselab overspend absorbed via credits",
-      "Only Joe uses transcripts",
-      "Notion pages checked once a month (Austin's analysis)",
-      "Lost six-year client – name and cause"
-    ]
-  }
+  ]
 }

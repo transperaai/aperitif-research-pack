@@ -1,5 +1,5 @@
-# Transcript – Wendlley Simoes interview, 2026-10-28 (Notion meeting note, verbatim)
-Source: https://app.notion.com/p/406e204ff7698065a650df10a42c4d12 (meeting-notes transcript, 833 utterances, no timestamps).
+# Transcript – Wendlley Simoes interview, 2026-10-28 (meeting note, verbatim)
+Source: meeting notes (transcript, 833 utterances, no timestamps).
 Speaker labels in source: A, C, E = Wendlley (interviewee); D = Austin; B, F, G, H = short interjections, mostly Austin (marked 'Austin?'). Labels are messy; content used to judge.
 Timestamps are ESTIMATED from cumulative word position across a 63-min meeting (10:59 start; Austin says 'it's 12 o'clock' at L800; page last edited 12:03). Total words 9791.
 

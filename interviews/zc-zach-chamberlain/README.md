@@ -5,7 +5,6 @@
 | Role | SEO Manager |
 | Team | Organic |
 | Date | 2026-11-04 |
-| Length | \~47 min |
 | Clients managed | 19 |
 
 ## Files

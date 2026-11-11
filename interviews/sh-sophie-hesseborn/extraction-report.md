@@ -1,14 +1,13 @@
 # Part A – Transcript extraction: Sophie Hesseborn (Senior Performance Marketing Manager)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Sophie Hesseborn - Workflow & Process Interview", 29 Oct 2026, 11:30 am (Melbourne) – https://app.notion.com/p/408e204ff7698106bb5efe3184b6cf9e. Full transcript retrieved (666 utterances, ends at sign-off "Bye.") – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps and the page gives no duration. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/SH/transcript.md`; ~mm:ss is estimated from cumulative word position across ~60 minutes (8,168 words ≈ 60 min at ~135 words/min; Austin says "in the remaining 15 minutes or so" at L423 and "We're just finished right on time" at L661). Treat as ±2 min.
+- Transcript: meeting notes "Sophie Hesseborn - Workflow & Process Interview", 29 Oct 2026, 11:30 am (Melbourne). Full transcript retrieved (666 utterances, ends at sign-off "Bye.") – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps and the page gives no duration. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~60 minutes (8,168 words ≈ 60 min at ~135 words/min; Austin says "in the remaining 15 minutes or so" at L423 and "We're just finished right on time" at L661). Treat as ±2 min.
 - **Speakers:** the diariser labelled Austin as A, F, H, I and J and split Sophie across B, C, D, E, G and "unknown". Labels were assigned by content; a few G lines (e.g. L232, L246) are ambiguous. All non-Austin lines are treated as Sophie.
 - **Live Figma process mapping:** ran from ~43:00 to ~53:46 (L423–L579). The Figma board itself was not available to this extraction; the processes mapped are reconstructed from what was said while mapping (section 2, "Processes mapped live in Figma"). Austin will send Sophie the completed flow in ~2 weeks (L661).
-- **Interviewer notes on the page** (below the transcript, unattributed – likely Austin's): "better way to communicate with clients so we can add more clients to"; "extracting ICP and BP to create these for strategy"; "I need access to gdrive so I can see information flow of clients and how strategy is curated".
 - **Name and term corrections (transcription):** "Carl" → Karl (L018) · "Wendley" → Wendlley (L350, L585) · "Patty" → Tati (Tatiana Stinson, L481) · "the girls" → Michaela and Tati (L343) · "Metis" → Meta (L241) · "crow" → CRO (L589) · "whips" → WIPs (L552) · "e-compliance" → e-commerce (L110) · "declined comms" → client comms (L326) · "Agents Analytics / Art in Aging" → AgencyAnalytics (L562, L564) · "breathe" → brief (L460) · "to my sessions" → optimisations (L458) · "add cards" → add-to-carts (L302) · "DDG / DGG" → DDEG (assumed, L268–L270). Unresolved: "Alex Mahim" (L388, Austin – probably garbled filler).
-- "Tina" (Slack pacing alerts) = the Tina Slack agent bot (OpenClaw), per the known-facts brief; Sophie does not name it.
-- Hours are costed at **$80/hr internal labour cost**. Process totals are Sophie's own time; Michaela/Tati implementation time is not costed because no figures were given (see 11).
+- "Tina" (Slack pacing alerts) = the Tina Slack agent bot (OpenClaw), per the pre-audit briefing; Sophie does not name it.
+- Hours are costed at **$80/hr internal labour cost**. Process totals are Sophie's own time; Michaela/Tati implementation time is not costed because no figures were given.
 
 ---
 
@@ -290,7 +289,7 @@ Earlier in the interview (not mapped on the board but described): onboarding aud
 | SH-P09 | Performance monitoring & alerting | 0.5–4.5 | 0.5–4.5 | $40–$360 |
 | **Total** | | **57.8–129.4 h** | **57.8–129.4 h** | **$4,624–$10,352** |
 
-"All actors" equals SH-only here: Michaela/Tati implementation (SH-P02 step 4, SH-P03 builds) and Liam's tracking time were not described in minutes, so they are not costed (see 11). Most times are assumed – Sophie gave only three time figures (Meta build 45–60 min, budget change "three clicks", WIPs 30–45 min). The high end (~129 h) is below one full-time month (~152–160 h) but leaves little room for internal work; treat the low-to-mid range as more realistic and confirm with calendar and timesheet data.
+"All actors" equals SH-only here: Michaela/Tati implementation (SH-P02 step 4, SH-P03 builds) and Liam's tracking time were not described in minutes, so they are not costed. Most times are assumed – Sophie gave only three time figures (Meta build 45–60 min, budget change "three clicks", WIPs 30–45 min). The high end (~129 h) is below one full-time month (~152–160 h) but leaves little room for internal work; treat the low-to-mid range as more realistic and confirm with calendar and timesheet data.
 
 ## 3. Pain points and problems
 
@@ -466,38 +465,6 @@ Ties are broken by Ease, then Impact (same rule as the Shrishti extraction). Aut
 | Pacing sheet formulas and setup | Whoever built/maintains the sheets (not named) | Monthly rollover and fixes stall |
 | Client personas / ICP | Client-supplied, built on in kickoff call (L645–L651) | Not documented by Aperitif as standard |
 
-## 11. Follow-ups
-
-**Questions**
-- Sophie: how many emails/day and hours on comms? How long does briefing take per client? Prep time per WIP? How long is the Monday e-com update and who does it (Sophie, Michaela or Tati)?
-- Sophie: how many budget changes and false pacing alerts per month? How often does tracking break?
-- Sophie: which client is the Monday 4-spreadsheet e-com client? Which e-com client has AU/NZ sites ($150/$170 thresholds)? Which bank client (home loan/refinancing funnels) – NICU?
-- Wendlley: who owns the pacing sheets and monthly rollover? Is Monday or HubSpot the intended budget master?
-- Sales (Jethro): what is captured in HubSpot at handover today?
-- Who receives Sophie's briefs when Michaela/Tati are also briefed by Shrishti – how is their capacity split?
-
-**Contradictions**
-- Budget "three places": Sophie names HubSpot, Monday and pacing sheet (L205–L213); context pack lists budget sheet, pacing sheet and platforms. Likely four-plus places in total.
-- Austin says "You guys get that pacing like summary every day" (L193); context pack says Tina bot sends M/W/F. Not corrected by Sophie.
-- Context pack: mid-month checks done by Tati; Sophie describes the mid-month pacing check as "we" (L491) – shared or done by Sophie for her portfolio.
-- Context pack: Michaela and Tati report to Shrishti; Sophie also briefs both (L038) – shared implementers.
-- Sophie: performance managers won't use HubSpot "to the same extent anymore" (L075), yet budget/fee data still sits there (L205).
-- Austin referred to Wendlley as "she" (L586) – trivial; no impact.
-
-**Data / artefacts to request**
-- Audit document + roadmap checklist and onboarding questionnaire – Sophie (agreed to Slack, L063).
-- Pacing sheet template and a sample month tab – Sophie / Wendlley.
-- The four e-com client weekly spreadsheets – Sophie.
-- Sample Monday implementation briefs – Sophie / Michaela.
-- Austin's Figma process map from this session – Austin (to send to Sophie in ~2 weeks, L661).
-- AgencyAnalytics report template – Sophie.
-
-**Claims to verify before the pack**
-- All assumed time figures (comms 30–60 min/day, prep 15–45 min/WIP, pacing 15–20 min/client, audit 6–12 h) – Sophie gave none of these.
-- Interview length (estimated ~60 min) and timestamps (estimated).
-- "DDG/DGG" = DDEG (Tier 1 SEO client) – confirm it is also a paid client.
-- Whether the Monday e-com update is Sophie's time or shared.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -510,13 +477,3 @@ Ties are broken by Ease, then Impact (same rule as the Shrishti extraction). Aut
 | Unnamed e-com client (Monday sheets) | – | Four spreadsheets updated manually before 11 am each Monday for finance/leadership meeting (L301–L306) |
 | Unnamed client with Google, Bing and ChatGPT ads | – | Multi-channel example (L512) |
 | Unnamed Tier 1 client (recent) | Tier 1 | Recently gained; weekly catch-ups with one client (L320, L554) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Sentiment: engaged, confident, a little self-critical; not stretched at current load.** "I've had more, so like this is... this is more okay." (L318–L319). Values her time: "I find my time precious, so I want to spend it in the best possible way for the business and for the clients." (L411).
-- **Self-attribution:** on missing sales info: "Maybe I haven't looked into HubSpot in too much depth. Maybe they have it stored. somewhere, so maybe that's on me." (L141–L143). On capacity: "It could be me. learning how to like manage my time in a different way as well" (L339–L340). Treat as modesty, not evidence of a skill gap.
-- **On predecessors:** implied criticism of how clients were handed to her – people saved documents on their own drives and she had to hunt for files (L067–L071). The "optimal transition" comment (L137) is a mild criticism of sales handover.
-- **Austin's praise of Sophie** (would not belong in the pack): "because you're a superwoman" (L324); "being a client of yours, you're wonderful to work with" (L368); "strategy is only what Sophie can do" (L418). Austin appears to be (or have been) a client of Sophie's – a possible relationship to note for objectivity.
-- **Austin's remarks on the team:** "everyone… all have different processes of where different things are stored… if someone's always sick, it's very hard to figure out where the hell is something" (L080–L082).
-- **Retention:** Sophie attributes client losses mainly to macroeconomic factors and changing business priorities, "rarely" lead volume/quality (L356–L364) – self-reported.
-- Austin noted he won't build anything without a cross-interview trend (L623) – useful for the conflict-of-interest narrative.

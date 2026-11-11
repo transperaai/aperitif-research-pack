@@ -1,8 +1,7 @@
 ---
 id: P-33
 title: "Content briefs are re-cut and reformatted by hand, eating the first half of each month"
-austin_call: "Solve now"
-austin_note: "We could make a claude workflow or bot that auto turns briefs into task items"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-03"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KZ-PP17", "LS-PP03", "ZC-PP02", "ZC-PP03"]
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff769810aafa6ce47457ecf5a
 ---
 
 # P-33 · Content briefs are re-cut and reformatted by hand, eating the first half of each month
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | We could make a claude workflow or bot that auto turns briefs into task items |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -31,7 +28,7 @@ notion_id: 410e204ff769810aafa6ce47457ecf5a
 
 - Fixes: [DS-03 Automated AI brief drafts → Monday.com tasks](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-03](../opportunities/README.md#o-03) AI brief drafts from the Master SEO Document – addressed ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md))
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
@@ -41,8 +38,7 @@ notion_id: 410e204ff769810aafa6ce47457ecf5a
 
 - Cluster [C-20](../synthesis/clusters-and-root-causes.md#c-20): Content briefs are re-cut and reformatted by hand, eating the first half of each month – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record: budgets, client data, briefs, links and files are held in many hand-maintained copies, so people re-key, reconcile and collate by hand.
-- Problems DB root cause: [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record; data re-keyed by hand. Chain: briefing takes most of the early month and is first to break with more clients ([ZC-PP02](../pain-points/README.md#zc-pp02)) → briefs re-cut by hand from a plan that already exists, then reformatted from Claude into Word ([LS-PP03](../pain-points/README.md#ls-pp03), [ZC-PP03](../pain-points/README.md#zc-pp03)) → the content plan isn't held in a structure that can generate briefs → brief production never redesigned as data-to-document.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-20](../synthesis/clusters-and-root-causes.md#c-20). 3 staff. A Claude brief project built in technical SEO already speeds briefing (ZC-str01). Members: [LS-PP03](../pain-points/README.md#ls-pp03), [ZC-PP02](../pain-points/README.md#zc-pp02), [ZC-PP03](../pain-points/README.md#zc-pp03), [KZ-PP17](../pain-points/README.md#kz-pp17)
+- Root cause (problem record): [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record; data re-keyed by hand. Chain: briefing takes most of the early month and is first to break with more clients ([ZC-PP02](../pain-points/README.md#zc-pp02)) → briefs re-cut by hand from a plan that already exists, then reformatted from Claude into Word ([LS-PP03](../pain-points/README.md#ls-pp03), [ZC-PP03](../pain-points/README.md#zc-pp03)) → the content plan isn't held in a structure that can generate briefs → brief production never redesigned as data-to-document.
 
 ## Pain points (4)
 
@@ -55,6 +51,6 @@ notion_id: 410e204ff769810aafa6ce47457ecf5a
 - [ZC-PP03](../pain-points/README.md#zc-pp03) – Briefs copied from Claude into Word and re-formatted by hand
   - *"copying it from Claude into Word, making sure that all the headings and stuff are in tabs and properly structured."* – Zach Chamberlain, SEO Manager · staff-raised · [\~40:37 (L430)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L436) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "especially early months, the content briefing is pretty much all of my day or say a few days to a week." – an SEO manager ([ZC-PP02](../pain-points/README.md#zc-pp02), \~13:00, L117) | "content briefs; we could have automated those years ago." – an SEO manager ([LS-PP03](../pain-points/README.md#ls-pp03), \~20:17, L080)

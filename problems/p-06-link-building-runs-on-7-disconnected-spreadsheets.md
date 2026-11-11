@@ -1,8 +1,7 @@
 ---
 id: P-06
 title: "Link building runs on 7+ disconnected spreadsheets"
-austin_call: "Solve now"
-austin_note: "Connects to the previous mentioned link building crm"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-11"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP16", "KZ-PP08", "MP-PP14", "MP-PP15", "TG-PP05", "TG-PP06", 
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff769810ca893d816b25addef
 ---
 
 # P-06 · Link building runs on 7+ disconnected spreadsheets
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | Connects to the previous mentioned link building crm |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-11](../solutions/ds-11-link-building-workflow-crm.md) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -32,7 +29,7 @@ notion_id: 40fe204ff769810ca893d816b25addef
 - Fixes: [DS-11 Link-building workflow CRM (orders, publishers, links, invoicing and payments)](../solutions/ds-11-link-building-workflow-crm.md)
 - Related only: [DS-07 Link watchdog agent: monitors every paid link](../solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) – dependency on the DS-11 CRM
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-18](../opportunities/README.md#o-18) One link record: standard order template, auto-sync, invoice run – addressed ([DS-11](../solutions/ds-11-link-building-workflow-crm.md))
 - [O-20](../opportunities/README.md#o-20) Widen link supply: shared vetting skill, client matching, mentions – addressed ([DS-12](../solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md))
@@ -41,8 +38,7 @@ notion_id: 40fe204ff769810ca893d816b25addef
 
 - Cluster [C-23](../synthesis/clusters-and-root-causes.md#c-23): Link building runs on disconnected sheets; every order, link and invoice is re-keyed – raised by 2 staff + 2 leadership; confidence High.
 - Root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record: budgets, client data, briefs, links and files are held in many hand-maintained copies, so people re-key, reconcile and collate by hand.
-- Problems DB root cause: Link building grew into a "micro-agency within the agency" without its own system. Each external outreacher keeps their own sheet in their own format; Aperitif re-keys into master and order sheets.
-- Merge notes: Stage 1 merge (6 Nov): Confirm → [C-23](../synthesis/clusters-and-root-causes.md#c-23). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Link building grew into a "micro-agency within the agency" without its own system. Each external outreacher keeps their own sheet in their own format; Aperitif re-keys into master and order sheets.
 
 ## Pain points (7)
 
@@ -61,6 +57,6 @@ notion_id: 40fe204ff769810ca893d816b25addef
 - [TG-PP07](../pain-points/README.md#tg-pp07) – Home-built master sheet → Monday.com sync unreliable; managers raised concerns
   - *"for the October, it added already, but I received a few concerns from the managers, from the handlers."* – Tonie Guevarra, Outreach Specialist · staff-raised · [\~41:14 (L439)](../interviews/tg-tonie-guevarra/transcript.md?plain=1#L446)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Publishers Orders 2026: \~2,830 orders Jan–Oct 2026 (Sep 336, Oct 312); \~USD 24.6k in September alone; 8+ outreachers. Publishers Blogs list: 7,750 rows but only \~3,500 unique domains; 968 domains on 2+ tabs; 22 tabs incl. 7 variants for one outreacher. Master and order book disagree (July: 323 vs 279 rows). Each external outreacher keeps a different format (Dominic AUD with drifting prices; Juliet USD with PayPal; Damian price list; Nauman USD). Joe: manual copying of links from tracker into CRM for reporting.

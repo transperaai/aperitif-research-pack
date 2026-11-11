@@ -1,8 +1,7 @@
 ---
 id: P-22
 title: "Escalations route around department leads to the Head of Client Services"
-austin_call: "Solve now"
-austin_note: "as mentioned system solution from before"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-14"]
 also_helped_by: ["DS-04"]
@@ -13,15 +12,13 @@ pain_points: ["KO-PP02", "KO-PP03", "KO-PP05", "KO-PP21", "MP-PP08", "SD-PP16", 
 theme: "Cultural"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981e2924cfbae1ffa8478
 ---
 
 # P-22 · Escalations route around department leads to the Head of Client Services
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | as mentioned system solution from before |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md); also helped by [DS-04](../solutions/ds-04-ai-client-brain.md) |
 | Theme · severity · confidence | Cultural · Medium · High – raised by 3+ people |
 | Process area | People / culture |
@@ -32,7 +29,7 @@ notion_id: 40fe204ff76981e2924cfbae1ffa8478
 - Fixes: [DS-14 Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) – Part B rules (from DS-13)
 - Also helps: [DS-04 AI client brain (per client) – under the AI Business Brain banner](../solutions/ds-04-ai-client-brain.md) – partly
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-31](../opportunities/README.md#o-31) Weekly churn-risk signal list per client – addressed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
@@ -45,8 +42,7 @@ notion_id: 40fe204ff76981e2924cfbae1ffa8478
 
 - Cluster [C-36](../synthesis/clusters-and-root-causes.md#c-36): Escalations, sign-offs, QA and Tier 1 relationships funnel to a few senior people – raised by 2 staff + 2 leadership; confidence High.
 - Root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06): Decisions and quality gates sit with a few senior people because authority isn't delegated and the management layer is thin.
-- Problems DB root cause: Department leads aren't yet equipped for client-facing conflict, so escalations bypass them.
-- Merge notes: Stage 1 merge (6 Nov): Reword → [C-36](../synthesis/clusters-and-root-causes.md#c-36). Widen to sign-offs, QA and Tier 1 relationships. Proposed rewording in body. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Department leads aren't yet equipped for client-facing conflict, so escalations bypass them.
 
 ## Pain points (7)
 
@@ -65,6 +61,6 @@ notion_id: 40fe204ff76981e2924cfbae1ffa8478
 - [WS-PP10](../pain-points/README.md#ws-pp10) – All new-client strategy sign-off and oversight of every paid account funnels to the Director, who answers to the founder for any issue
   - *"Basically, as a performance director, kind of I need to oversee everything."* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~18:11 (L222)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L227)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
-Joe/Julia: escalations currently go to Julia rather than department leads. NOTE: leadership view only; anonymise.
+Joe/Julia: escalations currently go to Julia rather than department leads. (Leadership view only.)

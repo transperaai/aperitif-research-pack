@@ -7,7 +7,6 @@
   "role": "Founder & Principal Consultant; Head of Client Services",
   "team": "Leadership",
   "date": "2026-10-22",
-  "minutes": 90,
   "clients_managed": null
  },
  {
@@ -18,7 +17,6 @@
   "role": "SEO Director",
   "team": "Organic",
   "date": "2026-10-28",
-  "minutes": 25,
   "clients_managed": 12
  },
  {
@@ -29,7 +27,6 @@
   "role": "Performance Marketing Director",
   "team": "Performance",
   "date": "2026-10-28",
-  "minutes": 63,
   "clients_managed": 4
  },
  {
@@ -40,7 +37,6 @@
   "role": "Senior SEO Manager & Link-building Lead",
   "team": "Organic",
   "date": "2026-10-29",
-  "minutes": 60,
   "clients_managed": 13
  },
  {
@@ -51,7 +47,6 @@
   "role": "Content Manager",
   "team": "Organic",
   "date": "2026-10-29",
-  "minutes": 30,
   "clients_managed": null
  },
  {
@@ -62,7 +57,6 @@
   "role": "Senior Performance Marketing Manager",
   "team": "Performance",
   "date": "2026-10-29",
-  "minutes": 60,
   "clients_managed": 12
  },
  {
@@ -73,7 +67,6 @@
   "role": "Senior Performance Marketing Manager",
   "team": "Performance",
   "date": "2026-10-30",
-  "minutes": 54,
   "clients_managed": 14
  },
  {
@@ -84,7 +77,6 @@
   "role": "Founder & Principal Consultant; Head of Client Services",
   "team": "Leadership",
   "date": "2026-10-30",
-  "minutes": 45,
   "clients_managed": null
  },
  {
@@ -95,7 +87,6 @@
   "role": "Performance Marketing Manager",
   "team": "Performance",
   "date": "2026-10-30",
-  "minutes": 45,
   "clients_managed": 20
  },
  {
@@ -106,7 +97,6 @@
   "role": "Performance Marketing Specialist",
   "team": "Performance",
   "date": "2026-11-02",
-  "minutes": 47,
   "clients_managed": 11
  },
  {
@@ -117,7 +107,6 @@
   "role": "Technical SEO Specialist",
   "team": "Organic",
   "date": "2026-11-04",
-  "minutes": 40,
   "clients_managed": 20
  },
  {
@@ -128,7 +117,6 @@
   "role": "Outreach Specialist (link building)",
   "team": "Organic",
   "date": "2026-11-04",
-  "minutes": 45,
   "clients_managed": null
  },
  {
@@ -139,7 +127,6 @@
   "role": "SEO Manager",
   "team": "Organic",
   "date": "2026-11-04",
-  "minutes": 47,
   "clients_managed": 19
  },
  {
@@ -150,7 +137,6 @@
   "role": "Content Specialist",
   "team": "Organic",
   "date": "2026-11-04",
-  "minutes": 33,
   "clients_managed": 7
  }
 ]

@@ -18,7 +18,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-27"
   ]
@@ -42,7 +41,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-29"
   ]
@@ -66,7 +64,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -88,7 +85,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -110,7 +106,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -132,7 +127,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -154,7 +148,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -176,7 +169,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -198,7 +190,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-06"
   ]
@@ -222,7 +213,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -244,7 +234,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -266,7 +255,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -290,7 +278,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -312,7 +299,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -334,7 +320,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -358,7 +343,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -382,7 +366,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -404,7 +387,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -426,7 +408,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -448,7 +429,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -470,7 +450,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -492,7 +471,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -514,7 +492,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -536,7 +513,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -558,7 +534,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-08"
   ]
@@ -582,7 +557,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-13"
   ]
@@ -606,7 +580,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-13"
   ]
@@ -630,7 +603,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -652,7 +624,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-04",
    "DS-13"
@@ -677,7 +648,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-14"
   ]
@@ -701,7 +671,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -723,7 +692,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -745,7 +713,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -767,7 +734,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-15"
   ]
@@ -791,7 +757,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -813,7 +778,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -836,7 +800,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -858,7 +821,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-15"
   ]
@@ -883,7 +845,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "a wiki needs to be built through an AI brain",
   "cited_in": [
    "DS-15"
   ]
@@ -909,7 +870,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-07",
    "DS-11"
@@ -935,7 +895,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-19"
   ]
@@ -960,7 +919,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-19"
   ]
@@ -985,7 +943,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1007,7 +964,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-14",
    "DS-28"
@@ -1032,7 +988,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-14"
   ]
@@ -1056,7 +1011,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-20"
   ]
@@ -1081,7 +1035,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1104,7 +1057,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1126,7 +1078,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-18"
   ]
@@ -1150,7 +1101,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1172,7 +1122,6 @@
   "certainty": "stated",
   "severity": 5,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-09"
   ]
@@ -1196,7 +1145,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-09"
   ]
@@ -1220,7 +1168,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-09"
   ]
@@ -1244,7 +1191,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-09"
   ]
@@ -1268,7 +1214,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1290,7 +1235,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -1314,7 +1258,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -1340,7 +1283,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -1364,7 +1306,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1386,7 +1327,6 @@
   "certainty": "partly stated",
   "severity": 5,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-07"
   ]
@@ -1410,7 +1350,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1432,7 +1371,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1454,7 +1392,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1476,7 +1413,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1498,7 +1434,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1520,7 +1455,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1542,7 +1476,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1564,7 +1497,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-05"
   ]
@@ -1588,7 +1520,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-16"
   ]
@@ -1612,7 +1543,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-16"
   ]
@@ -1637,7 +1567,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-05",
    "DS-09"
@@ -1662,7 +1591,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1684,7 +1612,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1706,7 +1633,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1728,7 +1654,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1750,7 +1675,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-05"
   ]
@@ -1774,7 +1698,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -1798,7 +1721,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1820,7 +1742,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-22"
   ]
@@ -1844,7 +1765,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1866,7 +1786,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1888,7 +1807,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-14",
    "DS-24"
@@ -1913,7 +1831,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-14"
   ]
@@ -1937,7 +1854,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1960,7 +1876,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -1982,7 +1897,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11",
    "DS-12"
@@ -2007,7 +1921,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -2031,7 +1944,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "need to standardies requests",
   "cited_in": [
    "DS-06"
   ]
@@ -2055,7 +1967,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-14",
    "DS-23"
@@ -2080,7 +1991,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-26",
    "DS-28"
@@ -2105,7 +2015,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2127,7 +2036,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2149,7 +2057,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2171,7 +2078,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-30"
   ]
@@ -2195,7 +2101,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "need to standardies requests",
   "cited_in": [
    "DS-06"
   ]
@@ -2219,7 +2124,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-06"
   ]
@@ -2243,7 +2147,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2265,7 +2168,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2287,7 +2189,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-29"
   ]
@@ -2311,7 +2212,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2334,7 +2234,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-08"
   ]
@@ -2358,7 +2257,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-04",
    "DS-08"
@@ -2383,7 +2281,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2405,7 +2302,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-08"
   ]
@@ -2429,7 +2325,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "ai client brain should create. sub 3 click hand over report",
   "cited_in": [
    "DS-04"
   ]
@@ -2453,7 +2348,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-21"
   ]
@@ -2478,7 +2372,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "ai to track website changes",
   "cited_in": []
  },
  {
@@ -2501,7 +2394,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2523,7 +2415,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-29"
   ]
@@ -2547,7 +2438,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -2571,7 +2461,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -2595,7 +2484,6 @@
   "certainty": "stated",
   "severity": 5,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-01"
   ]
@@ -2619,7 +2507,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-01"
   ]
@@ -2644,7 +2531,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2667,7 +2553,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-15"
   ]
@@ -2691,7 +2576,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-06"
   ]
@@ -2715,7 +2599,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "AI business brain to track activity",
   "cited_in": [
    "DS-06",
    "DS-15"
@@ -2741,7 +2624,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -2763,7 +2645,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-13"
   ]
@@ -2787,7 +2668,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-13"
   ]
@@ -2811,7 +2691,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-05",
    "DS-08"
@@ -2837,7 +2716,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-05"
   ]
@@ -2861,7 +2739,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-05"
   ]
@@ -2885,7 +2762,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-07"
   ]
@@ -2911,7 +2787,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -2937,7 +2812,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -2961,7 +2835,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-04",
    "DS-14"
@@ -2986,7 +2859,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-15"
   ]
@@ -3010,7 +2882,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3032,7 +2903,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3054,7 +2924,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-04",
    "DS-15"
@@ -3079,7 +2948,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3101,7 +2969,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-21"
   ]
@@ -3125,7 +2992,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-06",
    "DS-30"
@@ -3150,7 +3016,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-06",
    "DS-30"
@@ -3175,7 +3040,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "AI request extractor and email chains summaries tha tis also conencted to ai company/client brain to make it easier because its already loaded with all the context.",
   "cited_in": [
    "DS-04",
    "DS-06"
@@ -3200,7 +3064,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-06"
   ]
@@ -3224,7 +3087,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3246,7 +3108,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3268,7 +3129,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3290,7 +3150,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3312,7 +3171,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-17"
   ]
@@ -3336,7 +3194,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-10"
   ]
@@ -3360,7 +3217,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-10"
   ]
@@ -3384,7 +3240,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -3408,7 +3263,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3430,7 +3284,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3452,7 +3305,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-06"
   ]
@@ -3476,7 +3328,6 @@
   "certainty": "stated",
   "severity": 5,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3498,7 +3349,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3520,7 +3370,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3542,7 +3391,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-01"
   ]
@@ -3566,7 +3414,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-04"
   ]
@@ -3590,7 +3437,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3612,7 +3458,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3634,7 +3479,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3657,7 +3501,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3680,7 +3523,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3702,7 +3544,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-09"
   ]
@@ -3726,7 +3567,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-21"
   ]
@@ -3750,7 +3590,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3772,7 +3611,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3794,7 +3632,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3816,7 +3653,6 @@
   "certainty": "detected",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3838,7 +3674,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3860,7 +3695,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3882,7 +3716,6 @@
   "certainty": "detected",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-10"
   ]
@@ -3906,7 +3739,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3928,7 +3760,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-01"
   ]
@@ -3952,7 +3783,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3974,7 +3804,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -3996,7 +3825,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4018,7 +3846,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4040,7 +3867,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-08"
   ]
@@ -4064,7 +3890,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-17"
   ]
@@ -4088,7 +3913,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-28"
   ]
@@ -4112,7 +3936,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "need to standardies requests",
   "cited_in": []
  },
  {
@@ -4134,7 +3957,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-18",
    "DS-29"
@@ -4159,7 +3981,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-29"
   ]
@@ -4183,7 +4004,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4205,7 +4025,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4227,7 +4046,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-29"
   ]
@@ -4251,7 +4069,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4273,7 +4090,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4295,7 +4111,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4319,7 +4134,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4343,7 +4157,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4365,7 +4178,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4389,7 +4201,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4411,7 +4222,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4435,7 +4245,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -4459,7 +4268,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4481,7 +4289,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-04"
   ]
@@ -4505,7 +4312,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4529,7 +4335,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4553,7 +4358,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4575,7 +4379,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4597,7 +4400,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -4621,7 +4423,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -4645,7 +4446,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -4669,7 +4469,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-12",
    "DS-31"
@@ -4694,7 +4493,6 @@
   "certainty": "partly stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -4720,7 +4518,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -4746,7 +4543,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -4772,7 +4568,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -4796,7 +4591,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -4820,7 +4614,6 @@
   "certainty": "detected",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-11"
   ]
@@ -4844,7 +4637,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-12"
   ]
@@ -4868,7 +4660,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-07"
   ]
@@ -4892,7 +4683,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4914,7 +4704,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4936,7 +4725,6 @@
   "certainty": "stated",
   "severity": 5,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4958,7 +4746,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -4980,7 +4767,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-27"
   ]
@@ -5004,7 +4790,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-05"
   ]
@@ -5028,7 +4813,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "ai brain should to provide this automatically with the call be required for clarifications rather than knowledge transfer",
   "cited_in": [
    "DS-08"
   ]
@@ -5052,7 +4836,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-05",
    "DS-08",
@@ -5078,7 +4861,6 @@
   "certainty": "partly stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5101,7 +4883,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5123,7 +4904,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-13"
   ]
@@ -5147,7 +4927,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5169,7 +4948,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-25",
    "DS-33"
@@ -5194,7 +4972,6 @@
   "certainty": "detected",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-05",
    "DS-25"
@@ -5219,7 +4996,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-18",
    "DS-21"
@@ -5244,7 +5020,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5266,7 +5041,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5288,7 +5062,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5310,7 +5083,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -5334,7 +5106,6 @@
   "certainty": "partly stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-03"
   ]
@@ -5358,7 +5129,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-04"
   ]
@@ -5382,7 +5152,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-22"
   ]
@@ -5406,7 +5175,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5429,7 +5197,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-08"
   ]
@@ -5453,7 +5220,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5475,7 +5241,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-16"
   ]
@@ -5499,7 +5264,6 @@
   "certainty": "stated",
   "severity": 4,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-07"
   ]
@@ -5523,7 +5287,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": [
    "DS-02"
   ]
@@ -5547,7 +5310,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5569,7 +5331,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5591,7 +5352,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": []
  },
  {
@@ -5613,7 +5373,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-16",
    "DS-32"
@@ -5638,7 +5397,6 @@
   "certainty": "stated",
   "severity": 3,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-12",
    "DS-31"
@@ -5663,7 +5421,6 @@
   "certainty": "stated",
   "severity": 2,
   "austin_flag": "Agree",
-  "austin_note": "",
   "cited_in": [
    "DS-16",
    "DS-33"

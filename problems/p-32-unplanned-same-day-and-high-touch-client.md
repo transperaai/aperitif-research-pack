@@ -1,8 +1,7 @@
 ---
 id: P-32
 title: "Unplanned same-day and high-touch client requests break the planned month"
-austin_call: "Not in proposal"
-austin_note: "Why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it."
+decision: "Not in proposal"
 status: not_in_proposal
 fixed_by: []
 also_helped_by: ["DS-03", "DS-06"]
@@ -13,16 +12,14 @@ pain_points: ["HT-PP01", "HT-PP02", "KZ-PP05", "KZ-PP23", "MC-PP01", "SB-PP15", 
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff769819496a5d0c622b9e531
 ---
 
 # P-32 · Unplanned same-day and high-touch client requests break the planned month
 
 | | |
 | --- | --- |
-| Austin's call | **Not in proposal** |
-| Austin's note | Why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it. |
-| Status | not in proposal – why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it.; [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): slots and cut-offs for the out-of-cycle client, text only) ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md): via cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) in text) |
+| Decision | **Not in proposal** |
+| Status | not in proposal – why: mainly a scoping and client-expectation issue, which a build doesn't fix; the capacity freed by the proposed builds gives some headroom for it; [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): slots and cut-offs for the out-of-cycle client, text only) ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md): via cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18) in text) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -32,7 +29,7 @@ notion_id: 410e204ff769819496a5d0c622b9e531
 - Also helps: [DS-03 Automated AI brief drafts → Monday.com tasks](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) – slots and cut-offs for the out-of-cycle client, text only
 - Also helps: [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) – via cluster C-18 in text
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-03](../opportunities/README.md#o-03) AI brief drafts from the Master SEO Document – addressed ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
@@ -45,8 +42,7 @@ notion_id: 410e204ff769819496a5d0c622b9e531
 
 - Cluster [C-18](../synthesis/clusters-and-root-causes.md#c-18): Unplanned same-day and high-touch client requests break the planned month – raised by 5 staff + 0 leadership; confidence High.
 - Root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): There is no effort model: time per client isn't measured, scope and onboardings aren't checked against capacity, and intake isn't triaged – so work is sold, priced and scheduled by feel.
-- Problems DB root cause: [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): No effort model; intake isn't triaged. Chain: planned days and month-end deadlines break under same-day requests ([MC-PP01](../pain-points/README.md#mc-pp01), [HT-PP01](../pain-points/README.md#ht-pp01), [SB-PP15](../pain-points/README.md#sb-pp15)) → a few high-touch clients sit outside the normal cycle ([HT-PP02](../pain-points/README.md#ht-pp02), [SJ-PP14](../pain-points/README.md#sj-pp14), [KZ-PP23](../pain-points/README.md#kz-pp23)) → brief, report and client deadlines cluster ([KZ-PP05](../pain-points/README.md#kz-pp05)) → no intake triage, service level or buffer rule for unplanned work.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-18](../synthesis/clusters-and-root-causes.md#c-18). 5 staff. Related to R21 (capacity). Members: [HT-PP01](../pain-points/README.md#ht-pp01), [HT-PP02](../pain-points/README.md#ht-pp02), [SJ-PP14](../pain-points/README.md#sj-pp14), [KZ-PP23](../pain-points/README.md#kz-pp23), [KZ-PP05](../pain-points/README.md#kz-pp05), [SB-PP15](../pain-points/README.md#sb-pp15), [MC-PP01](../pain-points/README.md#mc-pp01)
+- Root cause (problem record): [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): No effort model; intake isn't triaged. Chain: planned days and month-end deadlines break under same-day requests ([MC-PP01](../pain-points/README.md#mc-pp01), [HT-PP01](../pain-points/README.md#ht-pp01), [SB-PP15](../pain-points/README.md#sb-pp15)) → a few high-touch clients sit outside the normal cycle ([HT-PP02](../pain-points/README.md#ht-pp02), [SJ-PP14](../pain-points/README.md#sj-pp14), [KZ-PP23](../pain-points/README.md#kz-pp23)) → brief, report and client deadlines cluster ([KZ-PP05](../pain-points/README.md#kz-pp05)) → no intake triage, service level or buffer rule for unplanned work.
 
 ## Pain points (7)
 
@@ -65,6 +61,6 @@ notion_id: 410e204ff769819496a5d0c622b9e531
 - [SJ-PP14](../pain-points/README.md#sj-pp14) – One client sends a steady stream of ad hoc content work
   - *"we have this one client that's always like giving like work all the time."* – Sarah Julian, Content Manager · staff-raised · [\~15:15 (L162)](../interviews/sj-sarah-julian/transcript.md?plain=1#L165)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "even the seo tech doesn't brief it, they just give us things to do at the last minute." – a content team member ([HT-PP02](../pain-points/README.md#ht-pp02), \~13:57, L155) | "they'll [brief] it in like middle of the day. But sometimes they need it on that day as well." – a performance team member ([MC-PP01](../pain-points/README.md#mc-pp01), \~14:03, L130–L131) | "if like another one or two clients come up during the week and they need something, I've got to like map that around [one high-touch client] a lot of the time" – an SEO manager ([KZ-PP23](../pain-points/README.md#kz-pp23), \~16:52, L160)

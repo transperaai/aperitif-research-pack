@@ -1,13 +1,13 @@
 # Part A – Transcript extraction: Joe Romeo (Founder) & Julia Van Der Linden (Head of Client Services) – Mid-point check-in
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Mid Point Check In", 30 Oct 2026, 12:00 pm (Melbourne), calendar slot 12:00–12:45. Full transcript retrieved (583 utterances, ~7,900 words, ends at sign-off "Have a good weekend. Bye.") – not truncated. The AI summary was not used as a source. Evidence Log row EV-16.
+- Transcript: meeting notes "Mid Point Check In", 30 Oct 2026, 12:00 pm (Melbourne), calendar slot 12:00–12:45. Full transcript retrieved (583 utterances, ~7,900 words, ends at sign-off "Have a good weekend. Bye.") – not truncated. The AI summary was not used as a source. Evidence Log row EV-16.
 - **Leadership evidence, not staff evidence.** This was Austin's mid-point check-in: Austin presented interim findings and tool ideas, and leadership reacted and added context. Many ideas in section 5 are Austin's, not leadership's – each is labelled.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/MP/transcript.md`; ~mm:ss is estimated from cumulative word position across 45 minutes (the calendar slot).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across 45 minutes (the calendar slot).
 - **Speakers:** the diariser used labels A–G. **A = Austin** (certain). **B = Joe** (high confidence: "another reason why I got Julia in", his WME days, "when I keep hiring people"). **D = most likely Joe as well** (books the 12 Nov slot saying "she's got the same time as me", refers to Julia in the third person, and says "I think I'm the only one that does anything with the transcripts", which the AI summary attributes to Joe). **E, F, G** = short backchannel only ("Stoic.", "Surveillance system.", "All right, Joe.") – speaker unknown, possibly Julia. All non-Austin lines are treated as leadership; attribution is shown as "Joe (B)", "Joe (D, likely)" or "unattributed".
-- **Julia:** no utterance can be firmly attributed to her. She is referred to in the third person throughout, and Austin signs off only to Joe ("All right, Joe, you take care", L581). She may have been present but silent, or may not have attended. Recorded as an interviewee per the Evidence Log; confirm with Austin.
-- **IDs** use the prefix `MP-` (mid-point) as instructed for this run, so they don't clash with the pre-audit Joe & Julia meeting.
-- **Name and term corrections (transcription):** "Carl / Kyle" → Karl (Zaharopoulos) · "Wendley / Wenly / Wen lee / Wedley" → Wendlley (Simoes) · "Dia" → Diya (Manoj) · "Shruti" → Shrishti · "Mikayla" → Michaela · "Toni / Tony" → Tonie (Guevarra) · "Sofa" → Sophie · "Nadia" → Nadiya · "Tati" → Tatiana Stinson · "Tina book" → Tina Slack bot · "least lab" → Leaselab · "whip(s)" → WIP(s) · "order" (L521) → Otter · "Hicksfield" → Higgsfield · "Cuddleball" → Cuttable · "MetaRads" → Meta Ads · "econ" → e-comm · "biopersonas" → buyer personas · "teepee" (L438) → people · "Kibbutz" (L132) → "keep it between". "On the LinkedIn side of things" (L048) is read as the **link-building** side – the context is link trackers (inferred). Unresolved: "Jev" (L062, AI link-scan tool), "calculator.operative.agency" (L213 – possibly an Aperitif domain), "3:1 to 4:5" (L115) – see 11.
+- **Julia:** no utterance can be firmly attributed to her. She is referred to in the third person throughout, and Austin signs off only to Joe ("All right, Joe, you take care", L581). She may have been present but silent, or may not have attended. Recorded as an interviewee per the Evidence Log.
+- **IDs** use the prefix `MP-` (mid-point), so they don't clash with the pre-audit Joe & Julia meeting.
+- **Name and term corrections (transcription):** "Carl / Kyle" → Karl (Zaharopoulos) · "Wendley / Wenly / Wen lee / Wedley" → Wendlley (Simoes) · "Dia" → Diya (Manoj) · "Shruti" → Shrishti · "Mikayla" → Michaela · "Toni / Tony" → Tonie (Guevarra) · "Sofa" → Sophie · "Nadia" → Nadiya · "Tati" → Tatiana Stinson · "Tina book" → Tina Slack bot · "least lab" → Leaselab · "whip(s)" → WIP(s) · "order" (L521) → Otter · "Hicksfield" → Higgsfield · "Cuddleball" → Cuttable · "MetaRads" → Meta Ads · "econ" → e-comm · "biopersonas" → buyer personas · "teepee" (L438) → people · "Kibbutz" (L132) → "keep it between". "On the LinkedIn side of things" (L048) is read as the **link-building** side – the context is link trackers (inferred). Unresolved: "Jev" (L062, AI link-scan tool), "calculator.operative.agency" (L213 – possibly an Aperitif domain), "3:1 to 4:5" (L115).
 - Hours are costed at **$80/hr internal labour cost**. Process hours count **leadership time** only, except MP-P04 (link copy step, outreach team time), so staff time costed in other transcripts isn't double-counted. The leadership-only share is shown separately in the totals.
 
 ---
@@ -235,7 +235,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | MP-P07 | Knowledge & SOPs | 1.0–5.0 | 1.0–5.0 | $80–$400 |
 | **Total** | | **16.5–52.0 h** | **11.5–42.0 h** | **$1,320–$4,160** |
 
-Almost every figure here is assumed (frequencies weren't discussed in a check-in meeting). The totals show the order of magnitude of leadership time absorbed by gaps elsewhere; confirm with Joe and Julia (see 11). The $10K overspend credit is excluded from labour cost.
+Almost every figure here is assumed (frequencies weren't discussed in a check-in meeting). The totals show the order of magnitude of leadership time absorbed by gaps elsewhere; confirm with Joe and Julia. The $10K overspend credit is excluded from labour cost.
 
 ## 3. Pain points and problems
 
@@ -450,38 +450,6 @@ Ties are broken by Ease, then Impact. Automation (MP-O03, MP-O05, MP-O06, MP-O11
 | Link-building admin and publisher relationships | Link-building Lead and outreach team | Invoicing and link tracking slip (no manpower to improve) |
 | Tier 1 account oversight | Joe Romeo (Founder – WIP attendance) | Leadership loses visibility of the largest accounts |
 
-## 11. Follow-ups
-
-**Questions**
-- Austin / Julia: was Julia on this call? If so, which of labels D, E, F, G is her?
-- Julia: escalations per month and time per escalation; what tool holds the "escalation pipeline"; what churn triggers she uses today (Austin says he asked her, L509).
-- Joe: how many overspend incidents in the last 6–12 months, and the total $ credited? Is the $10K Leaselab overspend the same incident as the LinkedIn overspend?
-- Joe: how many deals a month need his input, and how long each takes?
-- Joe: how often he joins Tier 1 WIPs, and for how long?
-- Austin: what "3:1 to 4:5" (L115) means (clients per head? revenue as a multiple of salary?), and what "Jev" (L062) is.
-- Joe: confirm the calculator URL (heard "calculator.operative.agency") and which CRM receives link data for reporting.
-
-**Contradictions**
-- The Evidence Log lists Joe **and** Julia as interviewees; the transcript has no line firmly attributable to Julia, and Austin signs off to Joe only (L581).
-- Context pack: Leaselab Google Ads manager is "DM"; Joe says the Leaselab overspend sat "with our most senior person in the team" (L385). Who owns the Leaselab LinkedIn account needs confirming (detail in 12).
-- The Evidence Log row links "Meta pacing sheet is broken – Supermetrics connector failing", but this meeting doesn't mention Supermetrics – Joe says Google and Meta pacing is "sorted" (L573). Not matched here; it conflicts with other transcripts (daily manual Meta pacing).
-- Austin says SEO opportunity is limited (L034); the context pack lists several SEO-side solution ideas (brief generator, QBR generator). Treat Austin's statement as an interim view.
-
-**Data / artefacts to request**
-- Overspend log and credit notes (Joe / finance, Xero).
-- Pacing tracker change history for the Leaselab LinkedIn account (Wendlley).
-- Ad-spend calculator access and usage (Joe).
-- Escalation pipeline export (Julia).
-- Slack reminder channel history – % of on-time updates over a month (Joe).
-- Otter usage and cost (Joe).
-- Link tracker and reporting-CRM export (Tonie / Karl).
-
-**Claims to verify before the pack**
-- $10K Leaselab overspend absorbed via invoice credits over "a couple of months" (L382–L389).
-- "Only Joe uses transcripts" – Joe's own view (L523).
-- Notion pages "checked once a month" – Austin's analysis; link to the source data (L233).
-- Lost six-year client – confirm name and cause (L361).
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -490,19 +458,3 @@ Ties are broken by Ease, then Impact. Automation (MP-O03, MP-O05, MP-O06, MP-O11
 | Unnamed six-year client | Unknown | Recently lost after bad feedback (L361) |
 | Tier 1 clients (generic) | Tier 1 | Joe sometimes joins their WIPs (L530) |
 | Mortgage broker (hypothetical prospect) | – | Ad-spend calculator example: 4 settlements × $4K = $16K a month (L208–L209) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment (Joe): stretched and frustrated, but resilient and open.** "I'm at my wits end" (L368); "Like me now working for free" (L391); "just getting this sales function running has been the hardest part of the business by far" (L171); "It's like whack-a-mole" (L571); "You just learn to live in this high state of... cortisol" (L565–L566). Energised by the AI brain and churn-trigger ideas ("That's a great idea", L529). Took Austin's culture critique well ("I'm not gonna take anything to heart", L300).
-- **Julia:** no audible contribution identified – sentiment not assessable.
-- **Austin's personal link to the sales hire (Jethro):** Austin said he went to school with Jethro's cousin and knew him from Good Life (gym sales). He described Jethro as having "an ego the size of Antarctica" (L134) and "a bit of a cancer" (L144), and "pretty disrespectful" – a meeting booked for an hour lasted ~15 minutes and he was ~7 minutes late (L157). **Flag: possible interviewer bias** on sales findings – ground sales findings in Joe's statements and data.
-- **Joe on Jethro:** "a bit of an interesting character… only started with us at the beginning of this month" (L131); had told Austin "we already have heaps of AI… HubSpot" (L131); Joe was "grilling him about the exact same thing" just before the call (L164); Joe (D): "I'm finding that he doesn't know the channels that well" (L150); not using the calculator consistently (L225). Austin expects a clash with Wendlley (L163).
-- **Diya:** Austin rated her highly ("She's a weapon", finished a one-hour meeting in 40 minutes, L340–L341). Joe: "probably the worst performer at the moment. She's on a performance plan" (L345); "lack of capacity… much greener than we had originally anticipated" (L349); "dropping the ball on… client overspends and retention rate's been terrible" (L353); linked to the lost six-year client (L361). Joe (D): "We're not sure whether she's going to be with us for much longer" (L363–L364). Austin linked her request for account-optics tools to this.
-- **Leaselab overspend owner:** Joe said it was "with our most senior person in the team" (L385) – conflicts with Leaselab Google Ads being Diya's per the context pack. Clarify privately.
-- **Karl and Sophie:** Joe: "probably are two best performers on either team" (L411); "If I have a team of them and a team of Julia's, I'll take over the world" (L415).
-- **Laura:** technically strong. Joe: "very shy and can be intimidated very quickly" (L451), "struggles with difficult conversations" (L456), "prone to like being a yes person, taking on too much work" and flags late (L457–L459); "only being here a little bit in the month" (L419 – working pattern unclear, confirm). Austin found her interview "very surface level" (L427). On a development plan.
-- **Wendlley:** Joe: "not afraid of a hard conversation, but can almost be too abrasive" (L460). On a development plan. Austin: "doesn't suffer fools" (L163).
-- **Tatiana:** Austin observed her agenda updates are "always late" even after the Tina bot reminder (L245).
-- **Nadiya** has resigned (L322); Joe was understanding.
-- **Joe's relationships with staff:** he brought Julia in partly as a "counterbalance" because long relationships make accountability conversations harder (L329–L330).
-- **Austin's culture critique to Joe:** staff "revere you as like the father figure" (L289); Joe's "very good nature… you buy your fruits" (L294); people need to "lock in" or be "a passenger" (L294–L295).

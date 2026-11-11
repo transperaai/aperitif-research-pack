@@ -1,8 +1,8 @@
 # Part A – Transcript extraction: Diya Manoj (Performance Marketing Manager)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Diya Manoj – Workflow & Process Interview", 30 Oct 2026, 11:00 am (Melbourne) booking (00:00–01:00 UTC). Full transcript retrieved (668 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/DM/transcript.md`; ~mm:ss is estimated from cumulative word position across ~45 minutes (60-minute booking, Austin closed "15 minutes early", L655).
+- Transcript: meeting notes "Diya Manoj – Workflow & Process Interview", 30 Oct 2026, 11:00 am (Melbourne) booking (00:00–01:00 UTC). Full transcript retrieved (668 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~45 minutes (60-minute booking, Austin closed "15 minutes early", L655).
 - **Speakers:** the diariser split Austin across A, G and H (G: "Can you see my screen?", L323; H: "So let's just say they've approved", L451) and Diya across B, C, D, E, F and I (mostly C and D; E/F/I are back-channel). All non-Austin lines are treated as Diya. A few one-word D lines could be either speaker; none are relied on.
 - **Name and term corrections (transcription):** "cloud" → Claude · "Esten" → Austin · "Wenly" → Wendlley (Simoes) · "Katty and Mickey / Patty / tattooing / Mikhail / Nikaila / Mikaela / Ochaty" → Tati (Tatiana Stinson, Performance Marketing Coordinator) and Michaela (Cruz, Performance Marketing Specialist) · "Tina" → the Tina Slack agent bot (OpenClaw workspace), not Tatiana · "Ruby" → Rubii (Diya spelled it R-U-B-I-I, L143) · "monthly bits / vips" → monthly WIPs · "Facing / basing / pasting" → pacing · "ROS / ROAs" → ROAS · "Convertions" → conversions · "Monday" → Monday.com · "Agency Analytics" → AgencyAnalytics · "Dio / Dia" → Diya.
 - Hours are costed at **$80/hr internal labour cost**. Process totals are Diya's time only: the specialists' build time (Michaela / Tati) was not discussed and is not costed.
@@ -270,7 +270,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | DM-P09 | Internal task management | 1.0–3.0 | 1.0–3.0 | $80–$240 |
 | **Total** | | **65.1–162.5 h** | **65.1–162.5 h** | **$5,208–$13,000** |
 
-"All actors" equals DM-only here because the specialists' build time (Michaela / Tati) was not discussed – add it after their interviews. The high ends can't all happen in the same month: 162.5 h is about one full-time month (~152–165 h). Treat the low-to-mid range (~65–115 h) as more realistic and confirm with calendar, Monday.com and timesheet data (see 11).
+"All actors" equals DM-only here because the specialists' build time (Michaela / Tati) was not discussed – add it after their interviews. The high ends can't all happen in the same month: 162.5 h is about one full-time month (~152–165 h). Treat the low-to-mid range (~65–115 h) as more realistic and confirm with calendar, Monday.com and timesheet data.
 
 ## 3. Pain points and problems
 
@@ -441,48 +441,9 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for pacing a
 | Campaign builds, LP briefs, creative briefs | Michaela Cruz, Tatiana Stinson (2 specialists for the team) | Managers do builds themselves or launches wait |
 | AI-data permission | Joe (founder) | Managers stay unsure; either don't use AI or improvise |
 
-## 11. Follow-ups
-
-**Questions**
-- Diya: how many new campaign launches and new clients a month (drives DM-P03 and DM-P08 ranges)? How long are WIP calls? Is the 30-min pre-call review the same work as the 30-min commentary, or additional? (She said "as I told you, it will be 30 minutes" when asked about commentary – possible overlap.)
-- Diya: which clients need approval for minor optimisations, and how long do approvals usually take?
-- Diya: how many Meta format/placement errors has QA caught in the last 3 months?
-- Michaela & Tati: build workflow, their own QA, briefing quality from managers (action item already).
-- Wendlley: who owns Tina; can it add conversions/CPA/ROAS/CPL by client category? Was Rubii ever evaluated?
-- Joe: AI-data policy for Claude connectors/extension; client contract clauses on third-party data.
-- Austin to confirm Monday.com native overdue reminders (action item).
-
-**Contradictions**
-- Pacing cadence: Diya checks fortnightly (weekly for new clients) vs the context pack's "pacing checked Mon/Wed/Fri" and Austin's belief Tina is "daily" (L304). Tina posts M/W/F per brief – likely Tina = M/W/F budget pacing, Diya = fortnightly performance pacing.
-- Diya says "most of them are tier two and tier three", but the context pack lists her (DM) on Leaselab ($141K Google; Tier 1 SEO client), White & Co, easyAML and AMIGA Montessori – some of the largest paid budgets. Tiers in the pack are SEO tiers; confirm paid-media tiering.
-- Diya says Michaela has her own clients (consistent with context pack initials MC on NICU); Tati does not.
-- **easyAML:** the context pack lists it under DM, but Shrishti called it "one of my clients" in her interview. Diya didn't mention it – confirm the current owner with Wendlley.
-- Context pack: Shrishti reports ~1h15 prep per call; Diya reports ~30 min – different client tiers likely explain this.
-
-**Data / artefacts to request**
-- Strategy document template used for new client onboarding (Diya – action item).
-- Account-audit document (Diya).
-- Diya's client list with platforms and monthly budgets (Wendlley / pacing sheet).
-- Monday.com export of Diya's tasks for a month (overdue counts, status ages) (Diya / Monday admin).
-- Tina message samples and configuration (Joe / whoever owns OpenClaw).
-
-**Claims to verify before the pack**
-- All frequencies marked "assumed" (launches/month, investigations/month, onboarding rate, QA error rate, approval-required share).
-- Austin's statement that turning off training-data sharing in Claude settings is sufficient (L184) – needs checking against Anthropic's terms and client contracts; Austin also deferred to Joe.
-- Rubii integration with Monday.com – Diya "Googled… looks like it is a possibility" (L158); unverified.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
 |---|---|---|
 | None named | – | Diya named no clients. She described her book as ~20 clients, "most of them are tier two and tier three" (L344), with a mix of lead-generation and e-commerce accounts (L116) |
 | Leaselab, White & Co Living, easyAML, AMIGA Montessori | Leaselab Tier 1 (SEO list); others not on the SEO tier list – largest paid budgets under DM in the context pack | Not mentioned in the interview. Listed only to flag the tier contradiction in 11 |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: engaged and constructive, stretched at peaks.** She arrived with a prepared list of five ideas ("I actually had some thoughts… wild ideas", L127–L129) and closed positively ("That is the whole point of having this conversation", L662). Somewhat stretched at month-end and when several clients push at once.
-- **Workload history:** said she found the client volume hard when she first joined ("I was not a person who used to manage like a lot of clients… that is the main point where I was struggling", L097–L099); better since more staff joined.
-- **Frustration with approval-heavy clients:** "I feel so pity I was yesterday like telling my manager like not like a complaint but I was just you know feeling bad" (L440); "my hands are tied back" (L445). She has raised this with her manager (Wendlley, presumably).
-- **Interviewer remarks to note:** Austin said of approval-heavy clients "What's the point of paying you then?" (L437) and "I used to think it was so much more complicated, but it's pretty simple" (L597); Diya pushed back gently ("when it comes to getting onto the platform and doing a lot of different clients, it's not simple", L598). Austin later apologised (L602). Worth being aware of tone in future interviews.
-- Austin addressed her as "Dio"/"Dia"; check the name is spelled correctly in any outputs.
-- Diya hinted that the specialists' QA can't be fully relied on ("if another person is working on it, I won't be having that clarity", L237) – framed as process, not blame; keep out of the pack as a comment on individuals.

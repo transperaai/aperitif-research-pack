@@ -5,7 +5,6 @@
 | Role | Senior SEO Manager & Link-building Lead |
 | Team | Organic |
 | Date | 2026-10-29 |
-| Length | \~60 min |
 | Clients managed | 13 |
 
 ## Files

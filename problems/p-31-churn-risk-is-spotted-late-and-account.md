@@ -1,8 +1,7 @@
 ---
 id: P-31
 title: "Churn risk is spotted late and account teams report rather than advise"
-austin_call: "Solve now"
-austin_note: "AI Proactive Churn protection and proactive growth & feedback tracking system that connects too meetings, emails, and other available sources to see whats going on and maximise action opportunities."
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-14", "DS-24", "DS-28"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP06", "KO-PP20", "LS-PP08", "LS-PP09", "LS-PP15", "MP-PP16"]
 theme: "Cultural"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff769813f888bfe3b3ee38213
 ---
 
 # P-31 · Churn risk is spotted late and account teams report rather than advise
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | AI Proactive Churn protection and proactive growth & feedback tracking system that connects too meetings, emails, and other available sources to see whats going on and maximise action opportunities. |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md), [DS-28](../solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md) |
 | Theme · severity · confidence | Cultural · High · High – raised by 3+ people |
 | Process area | People / culture |
@@ -33,7 +30,7 @@ notion_id: 410e204ff769813f888bfe3b3ee38213
 - Fixes: [DS-24 SEO: mid-month wins sent to clients](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md)
 - Fixes: [DS-28 Client comms assistant: monthly updates and expectation setting](../solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-31](../opportunities/README.md#o-31) Weekly churn-risk signal list per client – addressed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [O-12](../opportunities/README.md#o-12) Cross-account performance monitor with draft diagnosis (paid and SEO) – addressed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-27](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md), [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md), [DS-23](../solutions/ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md))
@@ -46,8 +43,7 @@ notion_id: 410e204ff769813f888bfe3b3ee38213
 
 - Cluster [C-16](../synthesis/clusters-and-root-causes.md#c-16): Churn risk is spotted late and account teams report rather than advise – raised by 1 staff + 2 leadership; confidence High.
 - Root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02): Monitoring is human: nothing pushes signals on spend, performance, tracking, link status, trends or churn, so problems surface late.
-- Problems DB root cause: [RC-02](../synthesis/clusters-and-root-causes.md#rc-02): Monitoring is human; nothing pushes signals. Chain: clients leave 'out of the blue' or after poor feedback ([LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16)) → churn risk read by human pattern-recognition only, mostly by leadership ([KO-PP06](../pain-points/README.md#ko-pp06)) → account teams under load describe metrics rather than bring a position ([KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09)) → no early-warning signals or account-health review in the monthly cycle.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-16](../synthesis/clusters-and-root-causes.md#c-16). 1 staff + 2 leadership (mostly leadership evidence); [LS-PP09](../pain-points/README.md#ls-pp09) is interviewer-sourced corroboration. Upsell restraint is deliberate (KO-str10). Members: [KO-PP06](../pain-points/README.md#ko-pp06), [MP-PP16](../pain-points/README.md#mp-pp16), [LS-PP15](../pain-points/README.md#ls-pp15), [KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09)
+- Root cause (problem record): [RC-02](../synthesis/clusters-and-root-causes.md#rc-02): Monitoring is human; nothing pushes signals. Chain: clients leave 'out of the blue' or after poor feedback ([LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16)) → churn risk read by human pattern-recognition only, mostly by leadership ([KO-PP06](../pain-points/README.md#ko-pp06)) → account teams under load describe metrics rather than bring a position ([KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09)) → no early-warning signals or account-health review in the monthly cycle.
 
 ## Pain points (6)
 
@@ -64,6 +60,6 @@ notion_id: 410e204ff769813f888bfe3b3ee38213
 - [MP-PP16](../pain-points/README.md#mp-pp16) – No early warning of churn risk; six-year client lost after poor feedback
   - *"I've also just had like some bad feedback from clients who are now not with us anymore. And as a client has been with us for like six years."* – Joe Romeo, Leadership (mid-point) · staff-raised · [\~30:48 (L361)](../interviews/mp-leadership-mid-point/transcript.md?plain=1#L364) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "the team does default to kind of describing what is happening, as opposed to coming in with a position or a strategy" – leadership ([KO-PP20](../pain-points/README.md#ko-pp20), \~68:58, L326) | "Some go out of the blue." – an SEO manager ([LS-PP15](../pain-points/README.md#ls-pp15), \~21:12, L084) | "I've also just had like some bad feedback from clients who are now not with us anymore. And as a client has been with us for like six years." – leadership ([MP-PP16](../pain-points/README.md#mp-pp16), \~30:48, L361)

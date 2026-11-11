@@ -2,7 +2,7 @@
 
 Before the problems, here is what's working. These are the things to protect while anything changes.
 
-**How this list was built.** A second pass over all 14 interview transcripts looked only for what's good (488 positive items, grouped into 20 themes – Stage 4 culture and strengths sweep, 8 Nov). Two points are Austin's own observations, added at his request (S-14, S-15). "Raised by" counts people who said it themselves; things Austin said and someone agreed with aren't counted. Theme IDs (ST-xx, S-xx) trace back to the research in Notion.
+**How this list was built.** A second pass over all 14 interview transcripts looked only for what's good (488 positive items, grouped into 20 themes – Stage 4 culture and strengths sweep, 8 Nov). Two points are Austin's own observations (S-14, S-15). "Raised by" counts people who said it themselves; things Austin said and someone agreed with aren't counted. Theme IDs (ST-xx, S-xx) trace back to the research in [synthesis/stage4-culture-and-strengths.md](../synthesis/stage4-culture-and-strengths.md).
 
 ---
 

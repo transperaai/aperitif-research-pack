@@ -7,7 +7,7 @@
   ],
   "US$ to A$ rate (A$1 = US$…)": [
    0.72,
-   "Updated 11 Nov (market ~0.70; Austin's working rate)"
+   "Planning rate (market ~0.70 on 11 Nov)"
   ],
   "Build (one-off, A$)": [
    59100,
@@ -36,14 +36,6 @@
   "Year-1 total (build + 12 months all-in, A$)": [
    140383.333333333,
    163833.333333333
-  ],
-  "Target retainer (A$ a month)": [
-   5000,
-   "Austin's working cap (10 Nov)"
-  ],
-  "Maintenance above target (A$ a month)": [
-   300,
-   null
   ],
   "Dollar value (A$ a year, builds with Include = Y)": [
    null,
@@ -1608,13 +1600,13 @@
    "phase": "4 – New products and requests",
    "type": "Reconsider",
    "ie": "1 / 1",
-   "vision": "Every inbound call reaches the right person. Aircall's AI receptionist answers each call, works out whether it's a new lead or an existing client, sends new leads to Joe and existing clients to their account manager, and logs the call to HubSpot or the client brain. Nothing more complex than that. Included at Joe's request: Transpera doesn't recommend it as a priority – there's no evidence of missed calls or call volumes, and the money and attention are better spent on the builds above it.",
+   "vision": "Every inbound call reaches the right person. Aircall's AI receptionist answers each call, works out whether it's a new lead or an existing client, sends new leads to Joe and existing clients to their account manager, and logs the call to HubSpot or the client brain. Nothing more complex than that. It sits last in the start order: there's no data yet on call volumes or missed calls, so the builds above it come first.",
    "vision_bullets": [
     "Every call answered, day or night.",
     "New lead → Joe; existing client → their account manager.",
     "Logged automatically: new leads into HubSpot, client calls into the client brain.",
     "Bought, not built: Aircall's add-on, set up and tuned by Transpera.",
-    "Transpera's view: not recommended as a priority – included because Joe asked; revisit once call volumes show missed calls."
+    "Low priority for now; revisit once call volumes show missed calls."
    ],
    "problems": [
     "Inbound sales still depend on the founder, and calls may go unanswered or reach the wrong person – no call volumes or missed-call data were provided."
@@ -1646,12 +1638,12 @@
     [
      "",
      "No missed calls; callers reach the right person",
-     "Not measured – no call volumes or missed-call data · Transpera does not recommend this as a priority (included at Joe's request)"
+     "Not measured – no call volumes or missed-call data"
     ]
    ],
    "assumptions": [
-    "Austin's suggestion at Joe's request; weak interview evidence and no call volumes.",
-    "Transpera's recommendation: not a priority; revisit once call data shows missed or misrouted calls.",
+    "Austin addition; weak interview evidence and no call volumes.",
+    "Low priority for now; revisit once call data shows missed or misrouted calls.",
     "Needs Aircall in use for inbound calls, and the HubSpot connection for logging."
    ],
    "build": "$300",

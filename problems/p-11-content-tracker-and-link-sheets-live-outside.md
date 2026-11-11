@@ -1,8 +1,7 @@
 ---
 id: P-11
 title: "Content tracker and link sheets live outside Monday.com"
-austin_call: "Not in proposal"
-austin_note: "Why: split during the 6 Nov merge into narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item."
+decision: "Not in proposal"
 status: not_in_proposal
 fixed_by: []
 also_helped_by: ["DS-03"]
@@ -13,16 +12,14 @@ pain_points: ["HT-PP05", "HT-PP09", "KO-PP16", "KZ-PP08", "MP-PP14", "MP-PP15", 
 theme: "Process / automation"
 severity: "Low"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff769812bb6b9dae3c44d0839
 ---
 
 # P-11 · Content tracker and link sheets live outside Monday.com
 
 | | |
 | --- | --- |
-| Austin's call | **Not in proposal** |
-| Austin's note | Why: split during the 6 Nov merge into narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item. |
-| Status | not in proposal – why: split during the 6 Nov merge into narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item.; [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): auto-created Monday tasks (problem not in this proposal)) |
+| Decision | **Not in proposal** |
+| Status | not in proposal – why: covered by narrower problems (C-21 content tracker, C-23 link sheets), so it isn't carried as its own item; [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) only "also helps" ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md): auto-created Monday tasks (problem not in this proposal)) |
 | Theme · severity · confidence | Process / automation · Low · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff769812bb6b9dae3c44d0839
 
 - Also helps: [DS-03 Automated AI brief drafts → Monday.com tasks](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) – auto-created Monday tasks (problem not in this proposal)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-02](../opportunities/README.md#o-02) AI data rule, company Claude seats and shared skills library – addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-25](../solutions/ds-25-ppc-performance-forecasting-tool.md))
 - [O-18](../opportunities/README.md#o-18) One link record: standard order template, auto-sync, invoice run – addressed ([DS-11](../solutions/ds-11-link-building-workflow-crm.md))
@@ -44,8 +41,7 @@ notion_id: 40fe204ff769812bb6b9dae3c44d0839
 - Root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record: budgets, client data, briefs, links and files are held in many hand-maintained copies, so people re-key, reconcile and collate by hand.
 - Cluster [C-23](../synthesis/clusters-and-root-causes.md#c-23): Link building runs on disconnected sheets; every order, link and invoice is re-keyed – raised by 2 staff + 2 leadership; confidence High.
 - Root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record: budgets, client data, briefs, links and files are held in many hand-maintained copies, so people re-key, reconcile and collate by hand.
-- Problems DB root cause: Teams built their own trackers where Monday didn't fit their workflow; no integration back.
-- Merge notes: Stage 1 merge (6 Nov): Split → [C-21](../synthesis/clusters-and-root-causes.md#c-21), [C-23](../synthesis/clusters-and-root-causes.md#c-23). Content tracker → [C-21](../synthesis/clusters-and-root-causes.md#c-21); link sheets → [C-23](../synthesis/clusters-and-root-causes.md#c-23). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Teams built their own trackers where Monday didn't fit their workflow; no integration back.
 
 ## Pain points (17)
 
@@ -84,6 +80,6 @@ notion_id: 40fe204ff769812bb6b9dae3c44d0839
 - [TG-PP07](../pain-points/README.md#tg-pp07) – Home-built master sheet → Monday.com sync unreliable; managers raised concerns
   - *"for the October, it added already, but I received a few concerns from the managers, from the handlers."* – Tonie Guevarra, Outreach Specialist · staff-raised · [\~41:14 (L439)](../interviews/tg-tonie-guevarra/transcript.md?plain=1#L446)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Content tracker and link-building sheets have no Monday task IDs or links.

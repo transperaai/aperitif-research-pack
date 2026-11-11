@@ -8,22 +8,22 @@
 - **Times and hours:** quote times are approximate (~mm:ss) with the transcript line (L###). Hour figures carry their certainty (stated / estimated / assumed); 'indicative' sums across members take the weakest label and are ceilings – Stage 2 rebuilds hours per process without double-counting.
 - **IDs:** every pain-point ID (e.g. SD-PP04) can be found with Ctrl-F on the linked Transcript Findings page. R# = Problems registry ID; 'pack #' = numbering in the context pack (they differ).
 
-| Prefix | Person (Austin-only) | Transcript Findings |
+| Prefix | Person | Transcript |
 |---|---|---|
-| KO | Joe Romeo & Julia Van Der Linden (kick-off, 22 Oct) | https://app.notion.com/p/410e204ff7698163956ee62557f56871 |
-| MP | Joe Romeo (& Julia – see X-11) (mid-point, 30 Oct) | https://app.notion.com/p/410e204ff769813c8e88e3dd8c6e01ef |
-| LS | Laura Shillington – SEO Director | https://app.notion.com/p/410e204ff76981d18b93d8e0890f21f0 |
-| KZ | Karl Zaharopoulos – Senior SEO Manager & Link-building Lead | https://app.notion.com/p/410e204ff769815da6affd382d30de25 |
-| SB | Sid Bali – Technical SEO Specialist | https://app.notion.com/p/410e204ff7698111a847ef3653b8faa2 |
-| TG | Tonie Guevarra – Outreach Specialist | https://app.notion.com/p/410e204ff76981b08eb2cb7e814f2fe3 |
-| ZC | Zach Chamberlain – SEO Manager | https://app.notion.com/p/410e204ff76981dca446d1a48b8be2f5 |
-| SJ | Sarah Julian – Content Manager | https://app.notion.com/p/410e204ff7698184842aebd6b0690e36 |
-| HT | Hayley Tantau – Content Specialist | https://app.notion.com/p/410e204ff769811c9986c5e155f2132d |
-| WS | Wendlley Simoes – Performance Marketing Director | https://app.notion.com/p/410e204ff769816896d8dfc72aade479 |
-| SH | Sophie Hesseborn – Senior Performance Marketing Manager | https://app.notion.com/410e204ff76981eba9a1db6f7726f9b1 |
-| SD | Shrishti Dokwal – Senior Performance Marketing Manager | https://app.notion.com/p/410e204ff769817a8b6cdcf62142493d |
-| DM | Diya Manoj – Performance Marketing Manager | https://app.notion.com/p/410e204ff7698159b3b7c2109e365737 |
-| MC | Michaela Cruz – Performance Marketing Specialist | https://app.notion.com/p/410e204ff76981b99152db86bb6735f7 |
+| KO | Joe Romeo & Julia Van Der Linden (kick-off, 22 Oct) | [transcript](../interviews/ko-leadership-kick-off/transcript.md) |
+| MP | Joe Romeo (& Julia – see X-11) (mid-point, 30 Oct) | [transcript](../interviews/mp-leadership-mid-point/transcript.md) |
+| LS | Laura Shillington – SEO Director | [transcript](../interviews/ls-laura-shillington/transcript.md) |
+| KZ | Karl Zaharopoulos – Senior SEO Manager & Link-building Lead | [transcript](../interviews/kz-karl-zaharopoulos/transcript.md) |
+| SB | Sid Bali – Technical SEO Specialist | [transcript](../interviews/sb-sid-bali/transcript.md) |
+| TG | Tonie Guevarra – Outreach Specialist | [transcript](../interviews/tg-tonie-guevarra/transcript.md) |
+| ZC | Zach Chamberlain – SEO Manager | [transcript](../interviews/zc-zach-chamberlain/transcript.md) |
+| SJ | Sarah Julian – Content Manager | [transcript](../interviews/sj-sarah-julian/transcript.md) |
+| HT | Hayley Tantau – Content Specialist | [transcript](../interviews/ht-hayley-tantau/transcript.md) |
+| WS | Wendlley Simoes – Performance Marketing Director | [transcript](../interviews/ws-wendlley-simoes/transcript.md) |
+| SH | Sophie Hesseborn – Senior Performance Marketing Manager | [transcript](../interviews/sh-sophie-hesseborn/transcript.md) |
+| SD | Shrishti Dokwal – Senior Performance Marketing Manager | [transcript](../interviews/sd-shrishti-dokwal/transcript.md) |
+| DM | Diya Manoj – Performance Marketing Manager | [transcript](../interviews/dm-diya-manoj/transcript.md) |
+| MC | Michaela Cruz – Performance Marketing Specialist | [transcript](../interviews/mc-michaela-cruz/transcript.md) |
 
 
 ## 1.2 Shared root causes – headline findings
@@ -1235,7 +1235,7 @@ Ordered roughly by anchor. Every pain point sits in exactly one cluster.
 
 ## 1.3 Contradictions register
 
-Status tally: Needs Aperitif 9, Needs data 5, Resolved 14, Needs Austin 3. 'Resolved (from evidence)' means the transcripts themselves explain the difference; the rest need a person or a record.
+Status tally: Needs Aperitif 9, Needs data 5, Resolved 14, Open – audit team 3. 'Resolved (from evidence)' means the transcripts themselves explain the difference; the rest need a person or a record.
 
 | ID | Topic | Claim A | Claim B | Likely explanation | Status | What it changes |
 |---|---|---|---|---|---|---|
@@ -1248,8 +1248,8 @@ Status tally: Needs Aperitif 9, Needs data 5, Resolved 14, Needs Austin 3. 'Reso
 | X-07 | Hayley's client count | **Context pack §2:** 17 content clients. | **HT-X01:** About 7 this month (L147). | 17 is likely all clients she has written for this year; ~7 is the active monthly book. | Needs Aperitif | Use '~7 active a month' for capacity maths. C-22. |
 | X-08 | easyAML ownership | **Context pack §4:** Google Ads manager DM. | **SD-X01:** Shrishti calls easyAML her client. | Possibly split by platform, recently reassigned, or the pacing-sheet initials are stale. | Needs Aperitif | Minor; don't cite easyAML ownership. |
 | X-09 | Performance team leadership | **KO-PP04:** Julia: 'a bit headless when it comes to performance' (22 Oct, L066). | **WS-PP11 / WS-X04 / context pack:** Wendlley is Performance Marketing Director; 'JP', a Head of Performance, left ~2 weeks before 28 Oct; KO-dep08 calls lead titles 'director titles, not directorships'. | Consistent: a senior Head of Performance (JP) above the Director left mid-October; the Director title doesn't carry that seat. | Resolved (from evidence) – confirm JP's role | Say 'senior performance seat vacant since mid-October'. C-37. |
-| X-10 | $10K Leaselab overspend vs LinkedIn overspend | **MP-PP01:** $10K credit (Leaselab): budget changed but sheet not updated, so tracker paced against the wrong number (L377). | **MP-PP02 / context pack:** LinkedIn had no pacing tracker – 'now we've got to spend on LinkedIn because we didn't have a pacing tracker' (L577); pack: '$10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure)'. MP-X02: Joe says it sat with 'our most senior person'; pack lists DM on Leaselab Google. | Probably one Leaselab LinkedIn incident with two causes (no LinkedIn tracker and a stale budget figure), but the transcript doesn't tie them explicitly. | Needs Austin (confirm with Joe) | Cite as one incident only once confirmed; until then '$10K credit on one Leaselab overspend'. C-01, C-03. |
-| X-11 | Julia at the mid-point meeting | **Evidence Log:** Mid-point listed as Joe & Julia. | **MP-X01:** No line firmly attributable to Julia. | Julia may have been present but silent, or absent. | Needs Austin | All MP raises counted as Joe's. If Julia was absent, nothing changes; if present and agreeing, still no extra raise. |
+| X-10 | $10K Leaselab overspend vs LinkedIn overspend | **MP-PP01:** $10K credit (Leaselab): budget changed but sheet not updated, so tracker paced against the wrong number (L377). | **MP-PP02 / context pack:** LinkedIn had no pacing tracker – 'now we've got to spend on LinkedIn because we didn't have a pacing tracker' (L577); pack: '$10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure)'. MP-X02: Joe says it sat with 'our most senior person'; pack lists DM on Leaselab Google. | Probably one Leaselab LinkedIn incident with two causes (no LinkedIn tracker and a stale budget figure), but the transcript doesn't tie them explicitly. | Open – to confirm with Joe | Cite as one incident only once confirmed; until then '$10K credit on one Leaselab overspend'. C-01, C-03. |
+| X-11 | Julia at the mid-point meeting | **Evidence Log:** Mid-point listed as Joe & Julia. | **MP-X01:** No line firmly attributable to Julia. | Julia may have been present but silent, or absent. | Open – audit team | All MP raises counted as Joe's. If Julia was absent, nothing changes; if present and agreeing, still no extra raise. |
 | X-12 | Campaign build 1 day vs 3–5 days | **Context pack §5:** Build 3–5 days. | **MC-PP10 / MC-str08:** Build ~1 day once approvals are in (L271); SD-PP12 ad hoc launch ≥ 1 week incl. creatives and approvals. | Touch time ~1 day; elapsed time 3–5 days or more because of approvals and creatives. | Resolved (from evidence) | Report touch vs elapsed separately. C-09, C-14. |
 | X-13 | Diya's client tiers | **DM-X02:** Mostly Tier 2/3 clients. | **Context pack §4:** DM on Leaselab ($141K Google), White & Co, easyAML, AMIGA. | Context-pack tiers are SEO tiers; paid has its own (or no formal) tiering by spend. | Needs Aperitif (paid tier list) | Don't use SEO tiers for paid-side statements. C-17. |
 | X-14 | Sarah's 4 vs 5 freelancers | **SJ-X04:** 'Four freelancers'. | **Context pack §2:** Five contractor names (Chloe, Jess, Kayla, Aly, Ben). | Four active now; one occasional or former. | Needs Aperitif | Minor. C-21, C-22. |
@@ -1261,7 +1261,7 @@ Status tally: Needs Aperitif 9, Needs data 5, Resolved 14, Needs Austin 3. 'Reso
 | X-20 | Live link checks stopped after April | **Context pack (problem #3):** Live checks stopped after April. | **TG-X02:** Outreach lead checks status at publication with a browser extension. | Publication-time check continues; post-publication re-checks stopped. | Resolved (from evidence) | Word C-25 as 'nobody re-checks after publication'. |
 | X-21 | Are call transcripts used? | **KO-X04:** Joe: Otter recordings 'should go into the CRM automatically' (L320). | **MP-PP20 / KZ-PP16 / ZC-PP13:** Only Joe uses transcripts; Gemini notes switched on inconsistently and rarely reviewed. | Captured (sometimes) but not used. | Resolved (from evidence) | C-07: capture exists, use doesn't. |
 | X-22 | Is there any proactive alerting? | **KO-str08 / KO-X05:** Google Ads script flags 7 days without conversions (L356). | **SD-PP04 / DM-PP03 / WS-PP04:** Issues seen only in the account; alerts give no cause. | Script covers one failure mode only. | Resolved (from evidence) | C-04 says 'one narrow alert exists'. |
-| X-23 | What is 'Tina'? | **SJ-X05:** Industry-statistics bot. | **Context pack / SD-PP19:** Pacing and agenda bot. | Tina is an OpenClaw agent workspace with several functions. | Needs Austin (confirm with Joe) | Name the function, not 'Tina', in the pack. C-02, C-32. |
+| X-23 | What is 'Tina'? | **SJ-X05:** Industry-statistics bot. | **Context pack / SD-PP19:** Pacing and agenda bot. | Tina is an OpenClaw agent workspace with several functions. | Open – to confirm with Joe | Name the function, not 'Tina', in the pack. C-02, C-32. |
 | X-24 | Call-prep time | **SD-PP05:** 1 h–1 h 15 per 30-min call incl. follow-up (L161). | **DM-PP05:** ~30 min data review per monthly WIP call (L257). | Different scopes (prep+follow-up vs data review) and client complexity. | Resolved (from evidence) | Report a range by tier in Stage 2. C-05. |
 | X-25 | Underperformance tickets – HubSpot or Monday | **WS-X03 (L367):** 'Flow in HubSpot'. | **WS-X03 (L378):** 'Migrated from HubSpot to Monday'. | Migrated; the HubSpot description is out of date. | Resolved (from evidence) | C-30. |
 | X-26 | Content volume baseline | **SJ-X01 (L069):** Started at 40,000 words a month. | **SJ-X01 (L257) / context pack:** Sheet growth 'from 60 to 100'; pack ~93k average. | Different start points; ~100k is current and consistent with ~93k average. | Needs data (tracker history) | Use ~93–100k/month. C-21. |
@@ -1273,7 +1273,7 @@ Status tally: Needs Aperitif 9, Needs data 5, Resolved 14, Needs Austin 3. 'Reso
 
 ## 1.4 Known-facts check (context pack §7)
 
-Facts marked Contradicted or contested must not be quoted in the pack until resolved.
+Facts marked Contradicted or contested should not be treated as settled until resolved.
 
 | Fact | Status | IDs | Note |
 |---|---|---|---|
@@ -1289,7 +1289,7 @@ Facts marked Contradicted or contested must not be quoted in the pack until reso
 | Notion wiki: 217 pages, 43% not edited in over a year; Joe last editor on 39% | **Supported (interviewer-sourced)** | MP-PP03, KO-PP15 | Austin's own stats, agreed by Joe in MP-PP03; Julia says a wiki is badly needed (KO-PP15). |
 | Recent incident: $10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure) | **Supported – link unconfirmed** | MP-PP01, MP-PP02 | $10K credit and both causes stated, but the transcript doesn't explicitly tie the $10K to LinkedIn (X-10). Don't quote as one incident until confirmed. |
 
-## 1.5 Key-person dependencies (Austin-only – names shown)
+## 1.5 Key-person dependencies (names shown)
 
 IDs: `KO-dep1` = first row of section 10 in the KO extraction, and so on.
 

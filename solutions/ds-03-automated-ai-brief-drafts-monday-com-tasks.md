@@ -4,7 +4,7 @@ title: "Automated AI brief drafts → Monday.com tasks"
 team: "SEO and content"  # inferred: the page gives no "Team:" line
 bundle: "Delivery & reporting"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-03 (full)", "O-25 (full)"]
 earlier_ideas: []
@@ -16,9 +16,6 @@ pain_points_cited: ["HT-PP01", "HT-PP02", "LS-PP03", "SJ-PP01", "SJ-PP02", "SJ-P
 pain_points_interviewer_raised_or_inferred: []
 value: "8–12 h/mo of content-team time → more words written (not counted as MRR)"
 value_time_h_month: [8, 12]
-build_cost: "A$350"
-monthly: "A$100/month management (may bundle with other Claude-skill solutions)"
-notion_section: "Automated AI brief drafts → Monday.com tasks"
 ---
 
 # DS-03 · Automated AI brief drafts → Monday.com tasks
@@ -38,25 +35,16 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 | Pain points cited | [HT-PP01](../pain-points/README.md#ht-pp01), [HT-PP02](../pain-points/README.md#ht-pp02), [LS-PP03](../pain-points/README.md#ls-pp03), [SJ-PP01](../pain-points/README.md#sj-pp01), [SJ-PP02](../pain-points/README.md#sj-pp02), [SJ-PP04](../pain-points/README.md#sj-pp04), [SJ-PP06](../pain-points/README.md#sj-pp06), [SJ-PP10](../pain-points/README.md#sj-pp10), [SJ-PP11](../pain-points/README.md#sj-pp11), [SJ-PP14](../pain-points/README.md#sj-pp14), [ZC-PP02](../pain-points/README.md#zc-pp02), [ZC-PP03](../pain-points/README.md#zc-pp03) |
 | Written source | – |
 | Value | 8–12 h/mo of content-team time → more words written (not counted as MRR) |
-| Build cost | A\$350 |
-| Monthly | A\$100/month management (may bundle with other Claude-skill solutions) |
 
 ## Vision
 
 > **The month's work comes straight out of the master sheet and turns into to-dos.** AI reads the content plan in the Master SEO Document, drafts the briefs, and each one becomes a task in Monday for the right person – nobody re-cuts the plan or retypes it into tasks. Happy with the rest as written (content intake, freelancer boards, Claude skill first, full automation as the upgrade).
 
-## Pricing & priority
-
-> **Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)**
->
-> | Option | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Recommended – Claude skill** (briefs from the master sheet, Monday task on approval) | A\$350 | A\$100/month management (may be bundled with other Claude-skill solutions) + Make (existing plan likely covers it) |
-> | **Upgrade – full automation**, connected to the AI brain ([DS-04](ds-04-ai-client-brain.md)/DS-15), incl. content intake | A\$1,750 feature addition | AI tokens \~US\$5–25/month + Make |
+## Decision
 
 **Decision (9 Nov):** AI generates the monthly brief drafts, and each brief is turned into a task in Monday.com. Recommended version: a **Claude skill** (cheap); the **fully automated** end-to-end version is offered as the upgrade (see Decided).
 
-## How it works (draft)
+## How it works
 
 1. Each month the automation reads the content plan in the client's **Master SEO Document**.
 2. It drafts each brief in the house template (keywords, structure, internal links, tone, regional/localisation metadata where needed) straight into the standard Google Doc – no copy-paste into Word.
@@ -68,7 +56,6 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 
 - **[O-03](../opportunities/README.md#o-03)** AI brief drafts from the Master SEO Document – rank 3, priority 100, quick win, effort S
 - **[O-25](../opportunities/README.md#o-25)** Content intake on Monday with brief standard and slots – all of it (task creation plus intake, added 9 Nov) (rank 25; overlaps [O-03](../opportunities/README.md#o-03))
-- Austin's notes: *"We could make a claude workflow or bot that auto turns briefs into task items"*
 
 ## Problems it fixes and the evidence
 
@@ -76,11 +63,11 @@ notion_section: "Automated AI brief drafts → Monday.com tasks"
 - Briefs arrive unseen or late – 2 content team members ([C-21](../synthesis/clusters-and-root-causes.md#c-21), part of [Content tracker and link sheets live outside Monday.com](../problems/p-11-content-tracker-and-link-sheets-live-outside.md), not in this proposal). *"if it's dropped in on a day that I'm not checking it Maybe it means that I would see it for two days"* – a content team member ([SJ-PP02](../pain-points/README.md#sj-pp02)). Auto-created Monday tasks remove this.
 - Also helps (Solve later): [Content delivery hinges on the Content Manager as writer, editor and contractor manager](../problems/p-09-content-delivery-hinges-on-the-content-manager.md) – less routing by hand.
 
-## Future state (draft)
+## Future state
 
 Monthly briefs are drafted by AI from the plan that already exists, reviewed by the SEO manager in minutes, and land in Monday.com as assigned tasks with due dates. Nobody re-cuts a plan, reformats a document or chases whether a brief was seen.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -88,7 +75,7 @@ Monthly briefs are drafted by AI from the plan that already exists, reviewed by 
 | Briefs needing manual reformatting | All – copied into Word (ZC-O02) | 0 |
 | Time from brief approved to writer task created | Up to 2 days unseen ([SJ-PP02](../pain-points/README.md#sj-pp02)) | Same day, automatic |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Every brief is clear, consistent and in one place.** The content team fills in a short standard form; the brief is produced automatically from it and the Master SEO Document, sent to Monday as a task, and saved in the client brain – so writers get the same clarity every time.
 
@@ -114,9 +101,9 @@ The bigger win is clarity: briefs often lack it today, so writers go back and fo
 
 *Inputs from Austin (10 Nov): \~20 min per brief today, often lacking clarity; standardise with a form, produce automatically, save in the brain. Assumption: \~5–10 min per brief with the form.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

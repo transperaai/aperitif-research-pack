@@ -71,9 +71,6 @@
    "shared_root_cause": "RC-01",
    "flags": [
     "COI – extraction opportunities that Transpera would build (MC-O04, MC-O10, MP-O03, SD-O02, SH-O01, SH-O02) fix MC-PP07, MP-PP01, SD-PP02, SD-PP03, SH-PP01, SH-PP03, SH-PP04"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769811db952ca85e18ce3af"
    ]
   },
   {
@@ -147,9 +144,6 @@
     "COI – extraction opportunities that Transpera would build (MC-O04, SD-O02, SH-O01) fix MC-PP06, SD-PP01, SD-PP19, SH-PP02, SH-PP05",
     "Detected by extractor (not said outright): SD-PP19",
     "Interviewer-framed: MC-PP06 – \"interviewee (Tina reliability framed by interviewer, agreed)\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981588f56dcb58d6b0625"
    ]
   },
   {
@@ -209,9 +203,6 @@
    "shared_root_cause": "RC-02",
    "flags": [
     "COI – extraction opportunities that Transpera would build (MP-O03, WS-O01) fix MP-PP02, WS-PP02"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769811db952ca85e18ce3af"
    ]
   },
   {
@@ -297,9 +288,6 @@
     "Interviewer-framed: DM-PP03 – \"interviewee (weekly update); interviewer extended to real-time thresholds\"",
     "Interviewer-framed: MC-PP08 – \"interviewee (answering Austin's open question)\"",
     "Interviewer-sourced (corroboration only): MP-PP17"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981d8a087ed06b4ec140a"
    ]
   },
   {
@@ -382,9 +370,6 @@
     "Interviewer-framed: SH-PP13 – \"interviewee (after Austin prompted, L371–L381)\"",
     "Interviewer-sourced (corroboration only): SD-PP14",
     "Interviewer-framed: WS-PP03 – \"interviewee (consolidated view framed by interviewer; interviewee agreed)\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981efb9f8d9efda5367f0"
    ]
   },
   {
@@ -463,9 +448,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (DM-O05, KZ-O10, LS-O02, SH-O03, WS-O06) fix DM-PP04, KZ-PP18, LS-PP04, LS-PP16, SH-PP06, WS-PP05",
     "Interviewer-sourced (corroboration only): LS-PP16"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981b6a4eaf34024fb2334"
    ]
   },
   {
@@ -553,9 +535,6 @@
     "Interviewer-framed: WS-PP08 – \"detected (interviewer probed)\"",
     "Detected by extractor (not said outright): WS-PP08",
     "COI: 'AI business brain' is Austin's own product idea (KO suggestions, interviewer-sourced)."
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff7698168a440ee525bce4877"
    ]
   },
   {
@@ -629,9 +608,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (KO-O02) fix KO-PP01",
     "Interviewer-sourced (corroboration only): KO-PP01"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769818e891ce057635a604d"
    ]
   },
   {
@@ -709,10 +685,6 @@
     "COI – extraction opportunities that Transpera would build (MC-O11, SD-O07) fix MC-PP10, MC-PP17, SD-PP09, SD-PP10",
     "Interviewer-framed: SD-PP10 – \"interviewee (BAU disruption raised by interviewer – agreed)\"",
     "Interviewer-sourced (corroboration only): MC-PP17"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769816bb3a6ed13ce47da58",
-    "https://app.notion.com/40fe204ff769812d9b86e757a536c275"
    ]
   },
   {
@@ -792,9 +764,6 @@
     "COI – extraction opportunities that Transpera would build (KO-O02, KZ-O01, SD-O07) fix KO-PP22, KZ-PP01, KZ-PP02, KZ-PP03, KZ-PP04, SD-PP11",
     "Interviewer-framed: KZ-PP02 – \"interviewee (interviewer framed growth; interviewee agreed and gave the example)\"",
     "COI: Austin offered his own client-research agent for new-client dossiers (KO suggestions, leadership's request)."
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769816bb3a6ed13ce47da58"
    ]
   },
   {
@@ -870,9 +839,6 @@
     "COI – extraction opportunities that Transpera would build (LS-O05) fix LS-PP07, LS-PP17",
     "Interviewer-framed: ZC-PP06 – \"interviewee (answering interviewer)\"",
     "Interviewer-sourced (corroboration only): LS-PP07"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981b68122d87f55dc84be"
    ]
   },
   {
@@ -935,9 +901,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (SJ-O03, ZC-O01) fix SJ-PP07, ZC-PP11",
     "Interviewer-framed: ZC-PP11 – \"interviewee (answering interviewer)\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769816c906cebe25af6cc33"
    ]
   },
   {
@@ -1001,9 +964,6 @@
    "shared_root_cause": "RC-07",
    "flags": [
     "COI – extraction opportunities that Transpera would build (SB-O05) fix SB-PP07, SB-PP08"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769811096cfd291b9f670da"
    ]
   },
   {
@@ -1074,10 +1034,7 @@
     "Approval thresholds (what needs sign-off, by when, and what happens by default) aren't agreed with clients."
    ],
    "shared_root_cause": "RC-07",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff76981e1b678c897751d71d3"
-   ]
+   "flags": []
   },
   {
    "id": "C-15",
@@ -1146,9 +1103,6 @@
    "shared_root_cause": "RC-02",
    "flags": [
     "COI – extraction opportunities that Transpera would build (KZ-O08, ZC-O03, ZC-O07, ZC-O12) fix KZ-PP19, KZ-PP20, ZC-PP09, ZC-PP15, ZC-PP17"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981e6ae3af6fc3a18a751"
    ]
   },
   {
@@ -1225,9 +1179,6 @@
     "Interviewer-framed: KO-PP06 – \"detected (Austin proposed signals; leadership described the manual method)\"",
     "Detected by extractor (not said outright): KO-PP06",
     "Interviewer-sourced (corroboration only): LS-PP09"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769813f888bfe3b3ee38213"
    ]
   },
   {
@@ -1322,9 +1273,6 @@
     "Interviewer-framed: SH-PP09 – \"interviewee (answering Austin's 7–10 more clients hypothetical)\"",
     "Interviewer-sourced (corroboration only): MP-PP21",
     "Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading."
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981208c95f2a96063afd7"
    ]
   },
   {
@@ -1401,9 +1349,6 @@
    "shared_root_cause": "RC-05",
    "flags": [
     "COI – extraction opportunities that Transpera would build (KZ-O09) fix KZ-PP05"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769819496a5d0c622b9e531"
    ]
   },
   {
@@ -1462,10 +1407,7 @@
     "There is no lightweight effort signal (e.g. ticket estimates) tied to retainer value."
    ],
    "shared_root_cause": "RC-05",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/410e204ff7698185a4cdd8510d2a40ee"
-   ]
+   "flags": []
   },
   {
    "id": "C-20",
@@ -1527,9 +1469,6 @@
    "shared_root_cause": "RC-01",
    "flags": [
     "COI – extraction opportunities that Transpera would build (KZ-O05, LS-O01, ZC-O01) fix KZ-PP17, LS-PP03, ZC-PP02"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769810aafa6ce47457ecf5a"
    ]
   },
   {
@@ -1607,9 +1546,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (HT-O03, SJ-O03) fix HT-PP05, SJ-PP06",
     "Interviewer-framed: SJ-PP06 – \"interviewee (Austin restated; she agreed)\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769812bb6b9dae3c44d0839"
    ]
   },
   {
@@ -1673,9 +1609,6 @@
    "shared_root_cause": "RC-06",
    "flags": [
     "Interviewer-framed: HT-PP07 – \"interviewee (cost wording garbled, may be Austin's, L214–L215)\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769811b9981d8c28a6528e8"
    ]
   },
   {
@@ -1752,11 +1685,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (KO-O08, MP-O06, TG-O02) fix KO-PP16, MP-PP14, MP-PP15, TG-PP06, TG-PP07",
     "COI: Austin offered to build a link-building CRM/link monitor with leadership ('maybe we can do something together', KO suggestions)."
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769810ca893d816b25addef",
-    "https://app.notion.com/40fe204ff769812bb6b9dae3c44d0839",
-    "https://app.notion.com/40fe204ff7698131876fec27eeb87b51"
    ]
   },
   {
@@ -1837,9 +1765,6 @@
     "COI – extraction opportunities that Transpera would build (TG-O01, TG-O04, TG-O06, ZC-O09) fix TG-PP01, TG-PP02, TG-PP04, TG-PP08, ZC-PP16",
     "Interviewer-framed: TG-PP03 – \"interviewee (pricing angle: interviewer)\"",
     "Interviewer-framed: TG-PP08 – \"interviewee (finite-supply question: interviewer)\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769813aaa23cf4c2049bdf4"
    ]
   },
   {
@@ -1910,9 +1835,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (KZ-O02, MP-O05, ZC-O08) fix KZ-PP10, MP-PP13, ZC-PP10",
     "COI: as C-23 – link monitor offered by Austin (KO suggestions)."
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981f989dcde7f6575b490"
    ]
   },
   {
@@ -1980,10 +1902,7 @@
     "Strategy and technical work run as separate queues with no shared priority order."
    ],
    "shared_root_cause": "RC-05",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff7698188a460d2fc6e105ee9"
-   ]
+   "flags": []
   },
   {
    "id": "C-27",
@@ -2055,9 +1974,6 @@
    "shared_root_cause": "RC-03",
    "flags": [
     "COI – extraction opportunities that Transpera would build (SH-O02, SH-O04) fix SH-PP10"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff76981c88fe8f4907efc6ba1"
    ]
   },
   {
@@ -2124,10 +2040,7 @@
     "No shared build template or QA checklist exists for Meta."
    ],
    "shared_root_cause": "RC-04",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769810e9f37d9b2921c73bf"
-   ]
+   "flags": []
   },
   {
    "id": "C-29",
@@ -2195,10 +2108,7 @@
     "Creative supply is ad hoc rather than a priced service with a vendor brief standard."
    ],
    "shared_root_cause": "RC-07",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff76981918b83ff403f9c9ba2"
-   ]
+   "flags": []
   },
   {
    "id": "C-30",
@@ -2282,9 +2192,6 @@
     "Interviewer-framed: MP-PP05 – \"interviewee (leadership); Austin observed the same\"",
     "Interviewer-sourced (corroboration only): MP-PP06",
     "Detected by extractor (not said outright): WS-PP15"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981e9b92fcb8a575cb3f4"
    ]
   },
   {
@@ -2356,9 +2263,6 @@
    "shared_root_cause": "RC-04",
    "flags": [
     "COI – extraction opportunities that Transpera would build (KO-O06, KO-O07) fix KO-PP11, KO-PP12"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff76981998f05d3821fbd38e3"
    ]
   },
   {
@@ -2429,9 +2333,6 @@
     "COI – extraction opportunities that Transpera would build (HT-O03, TG-O02) fix HT-PP06, TG-PP09",
     "Detected by extractor (not said outright): TG-PP09",
     "Interviewer-framed: HT-PP06 – \"interviewee; interviewer added the builder's reduced time\""
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769813ea8eec750d9aace68"
    ]
   },
   {
@@ -2517,9 +2418,6 @@
    "flags": [
     "COI – extraction opportunities that Transpera would build (DM-O08, KO-O09, KO-O10, SB-O06, WS-O06) fix DM-PP11, KO-PP14, SB-PP12, WS-PP13",
     "Detected by extractor (not said outright): WS-PP13"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff769810cb2c8de6b51137637"
    ]
   },
   {
@@ -2577,10 +2475,7 @@
     "There is no standard per-client storage rule linked from the task."
    ],
    "shared_root_cause": "RC-01",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff769814e99e7da6322099cae"
-   ]
+   "flags": []
   },
   {
    "id": "C-35",
@@ -2657,10 +2552,6 @@
     "COI – extraction opportunities that Transpera would build (KO-O07, KO-O09, KO-O10, MP-O10) fix KO-PP13, KO-PP15, MP-PP04",
     "Interviewer-framed: MP-PP03 – \"interviewee (leadership); Austin's Notion stats agree\"",
     "Interviewer-sourced (corroboration only): MP-PP07"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981e1ac5af94b85e59678",
-    "https://app.notion.com/40fe204ff7698159a507c9835dc6a1f0"
    ]
   },
   {
@@ -2738,9 +2629,6 @@
     "COI – extraction opportunities that Transpera would build (KO-O01) fix KO-PP05, KO-PP21",
     "Interviewer-framed: KO-PP05 – \"interviewee (leadership; leadership prompted the topic)\"",
     "Detected by extractor (not said outright): SD-PP16"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981e2924cfbae1ffa8478"
    ]
   },
   {
@@ -2808,10 +2696,7 @@
     "No management-capability plan accompanies promotions."
    ],
    "shared_root_cause": "RC-06",
-   "flags": [],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff76981e18b83f14ee089f51e"
-   ]
+   "flags": []
   },
   {
    "id": "C-38",
@@ -2882,9 +2767,6 @@
     "Interviewer-sourced (corroboration only): MP-PP10",
     "Interviewer-framed: MP-PP12 – \"interviewee (leadership); Austin agreed\"",
     "Bias: interviewer raised the sales-overcommit problem first (MP-PP10); leadership agreed strongly."
-   ],
-   "registry_pages": [
-    "https://app.notion.com/40fe204ff76981f585acc9b86b6be9b9"
    ]
   },
   {
@@ -2957,10 +2839,6 @@
    "shared_root_cause": "RC-06",
    "flags": [
     "COI – extraction opportunities that Transpera would build (KO-O11, KZ-O12) fix KO-PP17, KO-PP18, KO-PP24, KZ-PP21"
-   ],
-   "registry_pages": [
-    "https://app.notion.com/p/410e204ff7698149a72ccd9d798ea640",
-    "https://app.notion.com/40fe204ff769816c8f78fdc8c0b16830"
    ]
   }
  ],
@@ -3209,7 +3087,7 @@
     "claim": "LinkedIn had no pacing tracker – 'now we've got to spend on LinkedIn because we didn't have a pacing tracker' (L577); pack: '$10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure)'. MP-X02: Joe says it sat with 'our most senior person'; pack lists DM on Leaselab Google."
    },
    "explanation": "Probably one Leaselab LinkedIn incident with two causes (no LinkedIn tracker and a stale budget figure), but the transcript doesn't tie them explicitly.",
-   "status": "Needs Austin (confirm with Joe)",
+   "status": "Open – to confirm with Joe",
    "pack_effect": "Cite as one incident only once confirmed; until then '$10K credit on one Leaselab overspend'. C-01, C-03."
   },
   {
@@ -3224,7 +3102,7 @@
     "claim": "No line firmly attributable to Julia."
    },
    "explanation": "Julia may have been present but silent, or absent.",
-   "status": "Needs Austin",
+   "status": "Open – audit team",
    "pack_effect": "All MP raises counted as Joe's. If Julia was absent, nothing changes; if present and agreeing, still no extra raise."
   },
   {
@@ -3404,7 +3282,7 @@
     "claim": "Pacing and agenda bot."
    },
    "explanation": "Tina is an OpenClaw agent workspace with several functions.",
-   "status": "Needs Austin (confirm with Joe)",
+   "status": "Open – to confirm with Joe",
    "pack_effect": "Name the function, not 'Tina', in the pack. C-02, C-32."
   },
   {
@@ -4304,8 +4182,7 @@
    "problem": "Budgets maintained by hand in three places; LinkedIn not tracked → $10K overspend",
    "verdict": "Split",
    "cluster": "C-01, C-03",
-   "note": "Re-keying/wrong-figure half → C-01; untracked-channel half → C-03.",
-   "registry_page": "https://app.notion.com/40fe204ff769811db952ca85e18ce3af"
+   "note": "Re-keying/wrong-figure half → C-01; untracked-channel half → C-03."
   },
   {
    "pack_no": 2,
@@ -4313,8 +4190,7 @@
    "problem": "Meta pacing sheet is broken – Supermetrics connector failing",
    "verdict": "Reword",
    "cluster": "C-02",
-   "note": "Supermetrics status contested (X-01); widen to Google and the Tina bot.",
-   "registry_page": "https://app.notion.com/40fe204ff76981588f56dcb58d6b0625"
+   "note": "Supermetrics status contested (X-01); widen to Google and the Tina bot."
   },
   {
    "pack_no": 3,
@@ -4322,8 +4198,7 @@
    "problem": "Paid links disappear after payment – detected manually",
    "verdict": "Reword",
    "cluster": "C-25",
-   "note": "Drop the 32% figure until X-06 is resolved.",
-   "registry_page": "https://app.notion.com/40fe204ff76981f989dcde7f6575b490"
+   "note": "Drop the 32% figure until X-06 is resolved."
   },
   {
    "pack_no": 4,
@@ -4331,8 +4206,7 @@
    "problem": "Link building runs on 7+ disconnected spreadsheets",
    "verdict": "Confirm",
    "cluster": "C-23",
-   "note": "",
-   "registry_page": "https://app.notion.com/40fe204ff769810ca893d816b25addef"
+   "note": ""
   },
   {
    "pack_no": 5,
@@ -4340,8 +4214,7 @@
    "problem": "Content delivery hinges on the Content Manager as writer, editor and contractor manager",
    "verdict": "Confirm",
    "cluster": "C-22",
-   "note": "Medium confidence (2 content-team raises).",
-   "registry_page": "https://app.notion.com/40fe204ff769811b9981d8c28a6528e8"
+   "note": "Medium confidence (2 content-team raises)."
   },
   {
    "pack_no": 6,
@@ -4349,8 +4222,7 @@
    "problem": "Managers at capacity – Tier 2/3 clients get dropped first",
    "verdict": "Confirm",
    "cluster": "C-17",
-   "note": "",
-   "registry_page": "https://app.notion.com/40fe204ff76981208c95f2a96063afd7"
+   "note": ""
   },
   {
    "pack_no": 7,
@@ -4358,8 +4230,7 @@
    "problem": "Client work files are owned by individual staff accounts, including staff who have left",
    "verdict": "Reword",
    "cluster": "C-34",
-   "note": "Departed-staff ownership not evidenced in interviews.",
-   "registry_page": "https://app.notion.com/40fe204ff769814e99e7da6322099cae"
+   "note": "Departed-staff ownership not evidenced in interviews."
   },
   {
    "pack_no": 8,
@@ -4367,8 +4238,7 @@
    "problem": "Documentation and internal tooling held by the founder",
    "verdict": "Merge",
    "cluster": "→ C-35",
-   "note": "Leadership-only; tooling side sits in dependencies.",
-   "registry_page": "https://app.notion.com/40fe204ff7698159a507c9835dc6a1f0"
+   "note": "Leadership-only; tooling side sits in dependencies."
   },
   {
    "pack_no": 9,
@@ -4376,8 +4246,7 @@
    "problem": "Client knowledge lives in people's heads, not per client",
    "verdict": "Confirm",
    "cluster": "C-07",
-   "note": "",
-   "registry_page": "https://app.notion.com/40fe204ff7698168a440ee525bce4877"
+   "note": ""
   },
   {
    "pack_no": 10,
@@ -4385,8 +4254,7 @@
    "problem": "Onboarding stalls on client access and disrupts BAU",
    "verdict": "Split",
    "cluster": "C-09, C-10",
-   "note": "Access/inputs half → C-09; BAU-disruption half → C-10.",
-   "registry_page": "https://app.notion.com/40fe204ff769816bb3a6ed13ce47da58"
+   "note": "Access/inputs half → C-09; BAU-disruption half → C-10."
   },
   {
    "pack_no": 11,
@@ -4394,8 +4262,7 @@
    "problem": "Content stalls at client approval – or the tracker can't show what's finished",
    "verdict": "Confirm",
    "cluster": "C-11",
-   "note": "",
-   "registry_page": "https://app.notion.com/40fe204ff76981b68122d87f55dc84be"
+   "note": ""
   },
   {
    "pack_no": 12,
@@ -4403,8 +4270,7 @@
    "problem": "Client documents are built by duplicating previous ones – errors reach clients",
    "verdict": "Reword",
    "cluster": "C-06",
-   "note": "Duplication-error mechanism not evidenced in interviews.",
-   "registry_page": "https://app.notion.com/40fe204ff76981b6a4eaf34024fb2334"
+   "note": "Duplication-error mechanism not evidenced in interviews."
   },
   {
    "pack_no": 13,
@@ -4412,8 +4278,7 @@
    "problem": "No proactive performance alerting – problems found at month-end",
    "verdict": "Reword",
    "cluster": "C-04",
-   "note": "Add SEO and tracking breaks.",
-   "registry_page": "https://app.notion.com/40fe204ff76981d8a087ed06b4ec140a"
+   "note": "Add SEO and tracking breaks."
   },
   {
    "pack_no": 14,
@@ -4421,8 +4286,7 @@
    "problem": "Documentation is stale and rarely read",
    "verdict": "Confirm",
    "cluster": "C-35",
-   "note": "",
-   "registry_page": "https://app.notion.com/40fe204ff76981e1ac5af94b85e59678"
+   "note": ""
   },
   {
    "pack_no": 15,
@@ -4430,8 +4294,7 @@
    "problem": "Client-call prep takes longer than the call",
    "verdict": "Reword",
    "cluster": "C-05",
-   "note": "Call prep is one symptom of data collation.",
-   "registry_page": "https://app.notion.com/40fe204ff76981efb9f8d9efda5367f0"
+   "note": "Call prep is one symptom of data collation."
   },
   {
    "pack_no": 16,
@@ -4439,8 +4302,7 @@
    "problem": "Sales commits to work delivery can't profitably do",
    "verdict": "Confirm",
    "cluster": "C-38",
-   "note": "Interviewer raised first (bias flag).",
-   "registry_page": "https://app.notion.com/40fe204ff76981f585acc9b86b6be9b9"
+   "note": "Interviewer raised first (bias flag)."
   },
   {
    "pack_no": 17,
@@ -4448,8 +4310,7 @@
    "problem": "Pricing is inconsistent across templates and the margin maths is wrong",
    "verdict": "Reword",
    "cluster": "C-19",
-   "note": "Template inconsistency/margin maths are document findings only.",
-   "registry_page": "https://app.notion.com/410e204ff7698185a4cdd8510d2a40ee"
+   "note": "Template inconsistency/margin maths are document findings only."
   },
   {
    "pack_no": 18,
@@ -4457,8 +4318,7 @@
    "problem": "No single home for current templates – versions held by individuals",
    "verdict": "Retire",
    "cluster": "–",
-   "note": "Not raised in any of the 14 interviews; keep only as a document finding (5 non-interview evidence rows).",
-   "registry_page": "https://app.notion.com/40fe204ff769811f9330cde79b4e0b11"
+   "note": "Not raised in any of the 14 interviews; keep only as a document finding (5 non-interview evidence rows)."
   },
   {
    "pack_no": 19,
@@ -4466,8 +4326,7 @@
    "problem": "Conversion tracking depends on one contractor",
    "verdict": "Merge",
    "cluster": "→ C-09",
-   "note": "One interview raises the wait (MC-PP16); dependency noted by three.",
-   "registry_page": "https://app.notion.com/40fe204ff769812d9b86e757a536c275"
+   "note": "One interview raises the wait (MC-PP16); dependency noted by three."
   },
   {
    "pack_no": 20,
@@ -4475,8 +4334,7 @@
    "problem": "Outreacher invoicing tracked as PayPal links in spreadsheet cells",
    "verdict": "Merge",
    "cluster": "→ C-23",
-   "note": "Invoicing admin evidenced (KZ-PP08, KO-PP16); PayPal-cell detail not.",
-   "registry_page": "https://app.notion.com/40fe204ff7698131876fec27eeb87b51"
+   "note": "Invoicing admin evidenced (KZ-PP08, KO-PP16); PayPal-cell detail not."
   },
   {
    "pack_no": 21,
@@ -4484,8 +4342,7 @@
    "problem": "Slack bots and agents have no visible owner or documentation",
    "verdict": "Reword",
    "cluster": "C-32",
-   "note": "Widen beyond Slack bots.",
-   "registry_page": "https://app.notion.com/40fe204ff769813ea8eec750d9aace68"
+   "note": "Widen beyond Slack bots."
   },
   {
    "pack_no": 22,
@@ -4493,8 +4350,7 @@
    "problem": "Proposals are rebuilt from scratch per prospect",
    "verdict": "Merge",
    "cluster": "→ C-39",
-   "note": "Single staff raise (KZ-PP21).",
-   "registry_page": "https://app.notion.com/40fe204ff769816c8f78fdc8c0b16830"
+   "note": "Single staff raise (KZ-PP21)."
   },
   {
    "pack_no": 23,
@@ -4502,8 +4358,7 @@
    "problem": "Escalations route around department leads to the Head of Client Services",
    "verdict": "Reword",
    "cluster": "C-36",
-   "note": "Widen to sign-offs, QA and Tier 1 relationships.",
-   "registry_page": "https://app.notion.com/40fe204ff76981e2924cfbae1ffa8478"
+   "note": "Widen to sign-offs, QA and Tier 1 relationships."
   },
   {
    "pack_no": 24,
@@ -4511,8 +4366,7 @@
    "problem": "Seasonal and trending content is planned too late to catch the peak",
    "verdict": "Confirm",
    "cluster": "C-15",
-   "note": "Widen to news and competitor signals.",
-   "registry_page": "https://app.notion.com/40fe204ff76981e6ae3af6fc3a18a751"
+   "note": "Widen to news and competitor signals."
   },
   {
    "pack_no": 25,
@@ -4520,8 +4374,7 @@
    "problem": "Reminders go unacted; a broken reminder bot went unnoticed",
    "verdict": "Reword",
    "cluster": "C-30",
-   "note": "Reframe around Monday.com hygiene.",
-   "registry_page": "https://app.notion.com/40fe204ff76981e9b92fcb8a575cb3f4"
+   "note": "Reframe around Monday.com hygiene."
   },
   {
    "pack_no": 26,
@@ -4529,8 +4382,7 @@
    "problem": "Content tracker and link sheets live outside Monday.com",
    "verdict": "Split",
    "cluster": "C-21, C-23",
-   "note": "Content tracker → C-21; link sheets → C-23.",
-   "registry_page": "https://app.notion.com/40fe204ff769812bb6b9dae3c44d0839"
+   "note": "Content tracker → C-21; link sheets → C-23."
   }
  ],
  "meta": {
@@ -4538,7 +4390,6 @@
   "date": "2026-11-06",
   "pain_points": 243,
   "clusters": 39,
-  "review_page": "https://app.notion.com/p/410e204ff76980af8523d8d22dcdd909",
   "id_conventions": "PREFIX-PPnn = pain point; PREFIX-strNN = nth strength in section 7; PREFIX-depN = nth row of section 10; R# = Problems registry auto-ID; pack # = context-pack numbering"
  }
 }

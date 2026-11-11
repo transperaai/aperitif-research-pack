@@ -2573,41 +2573,5 @@
    "who_role": "Growth Strategy Lead (sales)",
    "if_absent": "Resets with each sales hire"
   }
- ],
- "follow_ups": {
-  "questions": [
-   "WIP length and attendees; quarterly review time with AI vs before; which AI tool?",
-   "New paid clients a month and strategy reviews landing on WS?",
-   "Which of the 18 channels are outside Google/Meta; which overspends, when, how much?",
-   "Is the Meta pacing sheet working? Does WS do Meta pacing manually in Claude daily, and how long does it take?",
-   "Which Tier 1 account was inherited and who owns it long term?",
-   "Julia/Joe: backfill Head of Performance? Who sets channel caps?",
-   "Jethro: is there a written pre-sales checklist?",
-   "Michaela and Tatiana: implementation detail (builds, pacing, landing pages)"
-  ],
-  "contradictions": [
-   "Resolved by S2 (2026-11-04 Meta pacing call): WS does fill the Meta pacing sheet via Claude because the Supermetrics connection keeps dropping (subscription not cancelled) – not mentioned in the 28 Oct interview",
-   "Context pack: pacing adjustment 15–20 min/account vs WS 'budget is pretty easy to change' (time is in analysis)",
-   "Tickets: 'flow in HubSpot' (L367) vs 'migrated from HubSpot to Monday' (L378)",
-   "Context pack has no Head of Performance; 'JP' left ~2 weeks before interview",
-   "Evidence Log note on forecasting tool 'increasing revenue per employee' not found in transcript",
-   "Combined high-end WS hours (~217 h/month) exceed one FTE"
-  ],
-  "data_requests": [
-   "Google and Meta pacing sheets + list of channels outside them (Wendlley)",
-   "Performance WIP doc (Wendlley)",
-   "One AI-generated quarterly review + prompt (Wendlley)",
-   "Gemini forecasting prompt + output (Wendlley)",
-   "Overspend incident log (Wendlley / Julia)",
-   "Underperformance ticket history (Wendlley)",
-   "Notion paid-media onboarding SOP (Wendlley)",
-   "One-week time log for WS"
-  ],
-  "verify": [
-   "'Two months with no website' – which client, hours spent",
-   "Landing page ~$1,500 and who builds them",
-   "All four of her clients are Tier 1",
-   "Speaker attribution (messy labels)"
-  ]
- }
+ ]
 }

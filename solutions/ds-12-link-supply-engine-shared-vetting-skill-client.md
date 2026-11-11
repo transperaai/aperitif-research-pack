@@ -4,9 +4,9 @@ title: "Link supply engine: shared vetting skill, client matching, brand mention
 team: "link building"  # inferred: the page gives no "Team:" line
 bundle: "Link-building CRM"
 status: "Decided (as written) – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
-opportunities: ["O-20 (vetting and matching part (brand mentions moved to DS-31))"]
+opportunities: ["O-20 (vetting and matching part)"]
 earlier_ideas: []
 written_sources: ["WS-ZC-01 Zach Chamberlain \"AI suggestions\" Google Doc"]
 problems_fixed: ["P-34"]
@@ -17,14 +17,11 @@ pain_points_interviewer_raised_or_inferred: []
 value: "7.5–17 h/mo · ~4–8 more links a month"
 value_time_h_month: [7.5, 17]
 value_extra_links_month: [4, 8]
-build_cost: "A$500"
-monthly: "absorbed into link-building CRM maintenance (DS-11)"
-notion_section: "Link supply engine: shared vetting, client matching, brand mentions"
 ---
 
 # DS-12 · Link supply engine: shared vetting, client matching, brand mentions
 
-*Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM (brand mentions moved to DS-31).*
+*Shared vetting skill, client matching and quota reviews as the sourcing stage of the DS-11 CRM.*
 
 | | |
 | --- | --- |
@@ -32,15 +29,13 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | Team | link building *(inferred)* |
 | Status | Decided (as written) – priced |
 | Source type | evidence-backed |
-| Opportunities | [O-20](../opportunities/README.md#o-20) (vetting and matching part (brand mentions moved to DS-31)) |
+| Opportunities | [O-20](../opportunities/README.md#o-20) (vetting and matching part) |
 | Earlier ideas | – |
 | Fixes | [P-34 Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent](../problems/p-34-link-sourcing-is-slow-manual-and-supply.md) |
 | Also helps | – |
 | Pain points cited | [KZ-PP06](../pain-points/README.md#kz-pp06), [KZ-PP07](../pain-points/README.md#kz-pp07), [LS-PP12](../pain-points/README.md#ls-pp12), [TG-PP01](../pain-points/README.md#tg-pp01), [TG-PP02](../pain-points/README.md#tg-pp02), [TG-PP03](../pain-points/README.md#tg-pp03), [TG-PP04](../pain-points/README.md#tg-pp04), [TG-PP08](../pain-points/README.md#tg-pp08), [TG-PP10](../pain-points/README.md#tg-pp10), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | 7.5–17 h/mo · \~4–8 more links a month |
-| Build cost | A\$500 |
-| Monthly | absorbed into link-building CRM maintenance (DS-11) |
 
 ## Vision
 
@@ -48,13 +43,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 >
 > **Bundle:** presented as part of the **Link-building CRM bundle** with [DS-11](ds-11-link-building-workflow-crm.md), but kept as its own solution (own scope, cost and KPIs).
 
-## Pricing & priority
-
-> **Priority: Fill-in · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Link-building CRM
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Link supply engine – Claude skill** (vetting + client matching), results passed into the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md)) through a **custom MCP** | **A\$500** | Absorbed into the link-building CRM maintenance ([DS-11](ds-11-link-building-workflow-crm.md)); runs on Claude seats |
+## Decision
 
 **Decision (9 Nov):** adopt [O-20](../opportunities/README.md#o-20) as written. It works as the **sourcing stage of the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md))**: domains are vetted and matched before they become orders.
 
@@ -92,7 +81,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | Agreement between skill and link lead | \~50% (54 passed vs 27 approved, [TG-PP02](../pain-points/README.md#tg-pp02)) | ≥ 90% |
 | Duplicate domains per client | Has happened ([TG-PP10](../pain-points/README.md#tg-pp10)) | 0 |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Domains arrive pre-vetted and matched to clients.** AI checks quality and spam signals and suggests which client each domain suits, so Karl reviews a shortlist instead of 60 domains one at a time.
 
@@ -114,9 +103,9 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 
 *Inputs from Austin (10 Nov): \~half of vetted domains approved; 60 domains a batch take 1–2 h (Karl). Assumption: AI pre-vetting removes 70–80% of vetting time.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

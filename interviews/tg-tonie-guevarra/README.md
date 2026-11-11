@@ -5,7 +5,6 @@
 | Role | Outreach Specialist (link building) |
 | Team | Organic |
 | Date | 2026-11-04 |
-| Length | \~45 min |
 | Clients managed | – |
 
 ## Files

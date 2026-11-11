@@ -8,9 +8,9 @@
 - **The recommendation** – a people or process change.
 - **Solutions that support it** – DS items that help, but don't replace the people change.
 
-**Where the evidence comes from.** The Stage 4 culture sweep (8 Nov) re-read all 14 transcripts and logged 153 culture items in 15 themes. Six of these became problems P-43 to P-48. P-41 (thin management layer) and P-21 (managers at capacity) come from the main clustering; Austin moved both here because they can't be solved by a build.
+**Where the evidence comes from.** The Stage 4 culture sweep (8 Nov) re-read all 14 transcripts and logged 153 culture items in 15 themes. Six of these became problems P-43 to P-48. P-41 (thin management layer) and P-21 (managers at capacity) come from the main clustering; both are covered here because they can't be solved by a build.
 
-**Austin's calls on these problems** (for transparency): P-44, P-47 and P-48 are "Solve now", with DS-02 or DS-15 named as the fix. P-43, P-45 and P-46 were not taken into the solutions. P-41 is not in this proposal as a build – it's a culture issue, covered here. P-21 stays "Solve now" but is handled here, not by a build. All eight are included so Joe sees the full picture.
+**Decisions on these problems** (for transparency): P-44, P-47 and P-48 are "Solve now", with DS-02 or DS-15 named as the fix. P-43, P-45 and P-46 were not taken into the solutions. P-41 is not in this proposal as a build – it's a culture issue, covered here. P-21 stays "Solve now" but is handled here, not by a build. All eight are included so Joe sees the full picture.
 
 ---
 
@@ -195,7 +195,7 @@
 - Fixes depend on someone noticing. When that person is busy or away, things break quietly (the pacing feed, the reminder bot).
 
 **Recommendation**
-- **Name an owner for every tool and every recurring check.** Austin's note: designated champions who are capable.
+- **Name an owner for every tool and every recurring check** – designated champions who are capable of keeping it running.
 - **Set aside a little time each month for root-cause fixes** – the workarounds people have "been making do" with.
 - **Add "who owns it and what to do if it breaks" to the definition of done** for anything new.
 

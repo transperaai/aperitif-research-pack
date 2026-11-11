@@ -2928,38 +2928,5 @@
       "who_role": "Senior SEO Manager (KZ)",
       "if_absent": "Cover manager can't see what's planned or done"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Karl: how many hours does one standard onboarding take you end to end (per step)? Needed to firm up KZ-P01 and KZ-O01.",
-      "Karl: how many briefs per client per month and minutes per brief? (KZ-P02)",
-      "Karl: how often do vetting batches come through, and how long do invoice runs take? (KZ-P08, KZ-P09)",
-      "Tonie: outreach steps and time per link, drop-off rate, how domains are logged and paid (Karl's suggestion, L128).",
-      "Sid / Spencer / Everhardt: how the technical plan is prioritised and when tickets close relative to reporting (Karl's suggestion, L073–L079).",
-      "Sarah: do freelance writers use AI, and how is it checked?",
-      "Laura / Julia: is there a cap on onboardings per manager?"
-    ],
-    "contradictions": [
-      "Reporting lines: context pack has Zach reporting to Sid and Tonie to Sid; Karl says both report to him (L089, L094).",
-      "Dead-link rate: ~100 dead links in ~10 months (~3% of ~3,000 links) vs the context pack's 32% fault rate Jan–Apr – different measures (fault vs removed later?); check definitions.",
-      "Disney and AquaSafe are not in the context-pack client lists, but Disney is described as one of Karl's largest, highest-paying clients.",
-      "Karl first says he's not overstretched ('No, I feel okay', L156) but describes overtime in onboarding months (L201) and being 'at my cap' (L560).",
-      "Context pack credits Karl's Claude prompt guide with a ~75–90 min strategy; Karl still describes month one as long and manual – the guide covers only part of the package.",
-      "Combined high-end hours (~217 h/month) exceed one FTE – the assumptions can't all be at their high end together."
-    ],
-    "data_requests": [
-      "Cleaned copy of the SEO pricing calculator (Karl – agreed in the interview, L498–L502).",
-      "Example completed Master SEO Document and onboarding strategy deck (Karl).",
-      "The ~100 dead-links report and the link-order sheets (Karl / Tonie).",
-      "Karl's Claude domain-vetting artifact and prompts (Karl).",
-      "Disney report deck, Trends tracker and events calendar (Karl).",
-      "Monday.com tech-ticket dates vs report dates for one month (Sid)."
-    ],
-    "verify": [
-      "300–350 links/month vs the order book (~300/month in the context pack).",
-      "Disney volume: 5–10 localisation docs a week and 15–20 min each – check against the Teams channel / content calendar.",
-      "The 100 dead links over ~10 months – period, method, and whether replacements were obtained.",
-      "Who Disney is contracted through (direct or via a network) and its tier."
-    ]
-  }
+  ]
 }

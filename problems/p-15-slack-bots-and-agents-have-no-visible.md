@@ -1,8 +1,7 @@
 ---
 id: P-15
 title: "Slack bots and agents have no visible owner or documentation"
-austin_call: "Solve now"
-austin_note: ""
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-10"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["HT-PP06", "SB-PP11", "TG-PP09"]
 theme: "Process / automation"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff769813ea8eec750d9aace68
 ---
 
 # P-15 · Slack bots and agents have no visible owner or documentation
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | – |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Other |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff769813ea8eec750d9aace68
 
 - Fixes: [DS-10 Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)](../solutions/ds-10-systems-register-and-break-fix-runbook.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-08](../opportunities/README.md#o-08) Sales-to-delivery gate: handover fields, owner, access checklist – addressed ([DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md))
 - [O-16](../opportunities/README.md#o-16) Own and verify automations: register, backup admin, reconciliation – addressed ([DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md))
@@ -42,8 +39,7 @@ notion_id: 40fe204ff769813ea8eec750d9aace68
 
 - Cluster [C-32](../synthesis/clusters-and-root-causes.md#c-32): Home-built automations and tools have one builder, no documentation and no backup – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools, automations and AI workflows are built by individuals with no owner, documentation, policy or renewal plan, so they break or stay personal.
-- Problems DB root cause: Automations were added channel by channel (HubSpot agents, Zapier, Tina/Franco agents, finance agent, Monday mirror) without a register of triggers or owners.
-- Merge notes: Stage 1 merge (6 Nov): Reword → [C-32](../synthesis/clusters-and-root-causes.md#c-32). Widen beyond Slack bots. Proposed rewording in body. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Automations were added channel by channel (HubSpot agents, Zapier, Tina/Franco agents, finance agent, Monday mirror) without a register of triggers or owners.
 
 ## Pain points (3)
 
@@ -54,6 +50,6 @@ notion_id: 40fe204ff769813ea8eec750d9aace68
 - [TG-PP09](../pain-points/README.md#tg-pp09) – Four home-built tools are undocumented, unreviewed and run by one person
   - *"but if there is really simpler way, and more accurate because yeah, I'm not really sure if these are really working well."* – Tonie Guevarra, Outreach Specialist · inferred · [\~42:29 (L452)](../interviews/tg-tonie-guevarra/transcript.md?plain=1#L459) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Slack review: at least 6 bot-fed channels; open questions on every trigger; "Who manages the agents in Slack and where are they?"

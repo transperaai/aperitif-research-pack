@@ -70,14 +70,14 @@ Where two sources disagree. Generated from [stage1-part-b.json](stage1-part-b.js
 - **A** ([MP-PP01](../pain-points/README.md#mp-pp01)): \$10K credit (Leaselab): budget changed but sheet not updated, so tracker paced against the wrong number (L377).
 - **B** ([MP-PP02](../pain-points/README.md#mp-pp02) / context pack): LinkedIn had no pacing tracker – 'now we've got to spend on LinkedIn because we didn't have a pacing tracker' (L577); pack: '\$10K LinkedIn overspend (no LinkedIn pacing, wrong budget figure)'. MP-X02: Joe says it sat with 'our most senior person'; pack lists DM on Leaselab Google.
 - **Explanation:** Probably one Leaselab LinkedIn incident with two causes (no LinkedIn tracker and a stale budget figure), but the transcript doesn't tie them explicitly.
-- **Status:** Needs Austin (confirm with Joe)
+- **Status:** Open – to confirm with Joe
 
 ## <a id="x-11"></a>X-11 Julia at the mid-point meeting
 
 - **A** (Evidence Log): Mid-point listed as Joe & Julia.
 - **B** (MP-X01): No line firmly attributable to Julia.
 - **Explanation:** Julia may have been present but silent, or absent.
-- **Status:** Needs Austin
+- **Status:** Open – audit team
 
 ## <a id="x-12"></a>X-12 Campaign build 1 day vs 3–5 days
 
@@ -161,7 +161,7 @@ Where two sources disagree. Generated from [stage1-part-b.json](stage1-part-b.js
 - **A** (SJ-X05): Industry-statistics bot.
 - **B** (Context pack / [SD-PP19](../pain-points/README.md#sd-pp19)): Pacing and agenda bot.
 - **Explanation:** Tina is an OpenClaw agent workspace with several functions.
-- **Status:** Needs Austin (confirm with Joe)
+- **Status:** Open – to confirm with Joe
 
 ## <a id="x-24"></a>X-24 Call-prep time
 

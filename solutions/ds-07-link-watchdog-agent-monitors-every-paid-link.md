@@ -4,7 +4,7 @@ title: "Link watchdog agent: monitors every paid link"
 team: "link building"  # inferred: the page gives no "Team:" line
 bundle: "Link-building CRM"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-07 (full)"]
 earlier_ideas: []
@@ -16,9 +16,6 @@ pain_points_cited: ["KO-PP16", "KZ-PP10", "MP-PP13", "TG-PP11", "ZC-PP10"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Up to A$10K–16K/yr recovered; client results protected"
 value_recovered_aud_per_year_up_to: [10000, 16000]
-build_cost: "A$2,250"
-monthly: "A$350/month + tokens ~US$1–10 (+ optional proxy ~US$0–50)"
-notion_section: "Link watchdog agent: monitors every paid link"
 ---
 
 # DS-07 · Link watchdog agent: monitors every paid link
@@ -39,24 +36,16 @@ notion_section: "Link watchdog agent: monitors every paid link"
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP10](../pain-points/README.md#kz-pp10), [MP-PP13](../pain-points/README.md#mp-pp13), [TG-PP11](../pain-points/README.md#tg-pp11), [ZC-PP10](../pain-points/README.md#zc-pp10) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | Up to A\$10K–16K/yr recovered; client results protected |
-| Build cost | A\$2,250 |
-| Monthly | A\$350/month + tokens \~US\$1–10 (+ optional proxy \~US\$0–50) |
 
 ## Vision
 
 > **Make sure every paid link stays up, and track the reliability (rep) rate of each provider** – how often their links drop – so the team keeps buying from publishers that hold up. Everything else as written (weekly checks, drop alerts, templated publisher emails that learn from edits).
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 4 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Link-building CRM
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Link watchdog agent** – weekly checks of every paid link, drop alerts, templated publisher emails, publisher reliability score | **A\$2,250** | **A\$350/month** maintenance + AI tokens \~US\$1–10/month (+ optional proxy for blocked sites \~US\$0–50) |
+## Decision
 
 **Decision (9 Nov):** an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider **link-building workflow CRM**. Tool options: **Jev AI** (no output tokens needed, so cheap to run) or another automation method.
 
-## How it works (draft)
+## How it works
 
 1. Every paid link from the link record (CRM) is added to the watch list with its requirements: target URL, anchor text, dofollow, approved domain, and the date it went live.
 2. The agent re-checks each page on a schedule and watches for changes.
@@ -77,14 +66,14 @@ notion_section: "Link watchdog agent: monitors every paid link"
 - [Paid links disappear after payment – detected manually](../problems/p-07-paid-links-disappear-after-payment-detected-manually.md) – Solve now. 3 staff + 1 leadership. A one-off check found **about 100 dead links over roughly 10 months**: *"there's like 100 links that just like were no longer working, like 404s or they took them down"* – the link-building lead ([KZ-PP10](../pain-points/README.md#kz-pp10)). *"we have no visibility on whether links stay live or not."* – an SEO manager ([ZC-PP10](../pain-points/README.md#zc-pp10)). *"we don't have a way to currently check whether these are dropping off"* – leadership ([MP-PP13](../pain-points/README.md#mp-pp13)). The outreach specialist isn't sure the current link-status checker is accurate ([TG-PP11](../pain-points/README.md#tg-pp11)).
 - [Link building runs on 7+ disconnected spreadsheets](../problems/p-06-link-building-runs-on-7-disconnected-spreadsheets.md) – Solve now. Leadership wants a CRM for the link team: *"That is still being run out of spreadsheets."* ([KO-PP16](../pain-points/README.md#ko-pp16)). The watchdog needs one link list to read from, so it depends on this being fixed (via the CRM).
 
-## Future state (draft)
+## Future state
 
 1. Every paid link is on the watch list from the day it goes live.
 2. Drops and changes are caught within days, not found months later in a one-off report.
 3. Each drop is logged with evidence and the publisher's record is updated, so the team can claim a replacement and steer away from bad publishers.
 4. Nobody checks links by hand.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -94,7 +83,7 @@ notion_section: "Link watchdog agent: monitors every paid link"
 | Time from link drop to the team knowing | Months – found in a one-off report | ≤ 7 days |
 | Dropped links replaced or refunded | Unknown | Set after baseline |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Every paid link is watched.** Live links are checked automatically; when one disappears the team is alerted and a refund or re-placement request is drafted from templates.
 
@@ -112,9 +101,9 @@ About **100 links stopped working over \~10 months** (Karl) – roughly **10 a m
 
 *Inputs from Austin (10 Nov): lost links are refunded or put back up by the publisher once noticed.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
@@ -128,4 +117,4 @@ See this solution's green **Pricing & priority** box above.
 - **When a link drops:** the team is alerted and asked whether to email the publisher. The system drafts the email from templates, the employee tailors it, and the system sends it. It learns from sent emails to cut rework over time.
 - **Check frequency:** weekly to start; the cadence is adjustable.
 - **The link-building CRM is its own solution** (with [O-18](../opportunities/README.md#o-18)), covered when we reach it. The watchdog reads its link list from the CRM.
-- Tool (Jev AI or another automation method) is confirmed at build; price is in Pricing & priority.
+- Tool (Jev AI or another automation method) is confirmed at build; price is in [Builds and pricing](../builds/README.md).

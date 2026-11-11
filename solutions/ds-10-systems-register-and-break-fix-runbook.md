@@ -4,7 +4,7 @@ title: "Systems register and break-fix runbook (everything built, who owns it, w
 team: "leadership / whoever builds tools"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-16 (full)"]
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["SB-PP10", "SB-PP11", "SD-PP19"]
 pain_points_interviewer_raised_or_inferred: ["SD-PP19 (inferred)"]
 value: "No reliance on one person"
-build_cost: "Free"
-monthly: "none (Notion already paid)"
-notion_section: "Systems register and break-fix runbook"
 ---
 
 # DS-10 · Systems register and break-fix runbook
@@ -37,20 +34,12 @@ notion_section: "Systems register and break-fix runbook"
 | Pain points cited | [SB-PP10](../pain-points/README.md#sb-pp10), [SB-PP11](../pain-points/README.md#sb-pp11), [SD-PP19](../pain-points/README.md#sd-pp19) (inferred) |
 | Written source | – |
 | Value | No reliance on one person |
-| Build cost | Free |
-| Monthly | none (Notion already paid) |
 
 ## Vision
 
-> **A help-doc repository for everything that's built, connected to the AI brain so people can ask it and get help.** "How do I use X?", "X stopped working, what do I check?" – the brain answers from the help docs and runbooks (through Slack, like the @oracle in [DS-02](ds-02-ai-playbook-repository.md)). It **reduces Austin's time spent debugging and showing people how to use things**, and means fixes don't depend on one person.
+> **A help-doc repository for everything that's built, connected to the AI brain so people can ask it and get help.** "How do I use X?", "X stopped working, what do I check?" – the brain answers from the help docs and runbooks (through Slack, like the @oracle in [DS-02](ds-02-ai-playbook-repository.md)). It **reduces time spent debugging and showing people how to use things**, and means fixes don't depend on one person.
 
-## Pricing & priority
-
-> **Priority: Fill-in – do early (foundation) · Impact 3 / 5 · Effort 1 / 5 (draft – confirm)**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Help docs and systems register** – documentation, not a build; connected to the AI brain so @oracle answers from it | **A\$0 – no charge** (documentation supplied with each build) | – (Notion already paid) |
+## Decision
 
 **Decision (9 Nov):** adopt [O-16](../opportunities/README.md#o-16). In Austin's words, it's **one place with the information for everything that's built and what to do if something breaks**. It sits alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)) and covers every solution in this pack as it goes live.
 
@@ -92,7 +81,7 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 | Systems with a trained backup owner | 0 for Monday/Make ([SB-PP11](../pain-points/README.md#sb-pp11)) | 100% of critical systems |
 | Time to fix a broken automation | Depends on one person being available | Same day, by owner or backup |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Visibility and risk, not hours.** A register of every automation, bot and tool – what it does, who owns it and how to fix it – so nothing depends on one person (today only Sid Bali knows the Monday and Make set-up). No hours claimed.
 
@@ -100,9 +89,9 @@ Covers Make scenarios, bots (e.g. the M/W/F pacing bot), Apps Scripts, extension
 
 **Goals:** trust · good performance
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

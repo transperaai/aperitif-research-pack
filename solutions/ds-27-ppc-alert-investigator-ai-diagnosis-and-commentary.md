@@ -4,7 +4,7 @@ title: "PPC: alert investigator – AI diagnosis and commentary on flagged activ
 team: "PPC"
 bundle: "PPC performance"
 status: "Added – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-12 (draft-diagnosis part)"]
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["DM-PP01", "WS-PP04"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Counted in DS-01 – removes the \"what's going on\" time when an alert fires"
-build_cost: "A$5,000"
-monthly: "A$750/month + tokens ~US$15–60"
-notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 ---
 
 # DS-27 · PPC: alert investigator – AI diagnosis and commentary
@@ -37,8 +34,6 @@ notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 | Pain points cited | [DM-PP01](../pain-points/README.md#dm-pp01), [WS-PP04](../pain-points/README.md#ws-pp04) |
 | Written source | – |
 | Value | Counted in DS-01 – removes the "what's going on" time when an alert fires |
-| Build cost | A\$5,000 |
-| Monthly | A\$750/month + tokens \~US\$15–60 |
 
 ## Vision
 
@@ -55,15 +50,7 @@ notion_section: "PPC: alert investigator – AI diagnosis and commentary"
 
 No direct Google Ads / Meta API connectors are needed at first, which keeps the build light and avoids the API approvals. *Limit: without account-level change history, search terms and auction insights the diagnosis is a well-informed starting point, not a forensic answer; direct ad-platform data can be added later if needed.* Also ask in the Adpulse demo whether it can export change history or search-term data.
 
-## Pricing & priority
-
-> **Priority: Impact 3 / 5 · Effort 3 / 5 (draft – re-scored for the lighter Adpulse + brain approach; confirm)** · Bundle: PPC performance
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **PPC alert investigator** – Adpulse alert metrics + client brain context → potential diagnosis in Slack | **A\$5,000** | **A\$750/month** maintenance + AI tokens \~US\$15–60/month |
->
-> *Needs [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (Adpulse) and [DS-04](ds-04-ai-client-brain.md) (client brain) in place.*
+## Decision
 
 **Team:** PPC. **Decision (9 Nov):** when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
 
@@ -71,7 +58,7 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 
 **Partly.** [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (pacing + alerting) **alerts** on thresholds, and Bïrch-style SaaS runs **rules** (pause, scale, notify) – neither diagnoses why something happened. [O-12](../opportunities/README.md#o-12) included a "draft diagnosis" step that [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) didn't carry over. So this is a separate layer on top of [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s alerting (Adpulse).
 
-## How it works (draft)
+## How it works
 
 1. A [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) alert (e.g. CPA spike, conversion drop, spend anomaly) triggers the investigator.
 2. It pulls the alert's metrics from Adpulse and context from the client brain ([DS-04](ds-04-ai-client-brain.md)).
@@ -89,7 +76,7 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 
 Every alert arrives with a first diagnosis, so managers start fixing rather than investigating.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -97,7 +84,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 | Time to get up to speed on a flagged problem | \~20–30 min (Austin's estimate) | A few minutes |
 | Time from alert to cause found | Manual, varies | −50% |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Gets the account manager straight to the fix.** When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 20–30 minutes working out what's going on.
 
@@ -112,9 +99,9 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 *Inputs from Austin (10 Nov): \~20–30 min to work out what's going on and fix it today.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

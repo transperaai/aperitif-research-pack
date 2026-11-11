@@ -1,8 +1,7 @@
 ---
 id: P-35
 title: "Strategy and technical SEO run as separate queues, so big technical work slips"
-austin_call: "Not in proposal"
-austin_note: "Why: the fix (O-35, joint monthly tech-priority check) is a process change, not a build, so it's offered as a habit in the culture recommendations (P-47)."
+decision: "Not in proposal"
 status: not_in_proposal
 fixed_by: []
 also_helped_by: []
@@ -13,16 +12,14 @@ pain_points: ["KZ-PP11", "KZ-PP12", "SB-PP14", "ZC-PP12"]
 theme: "Process / automation"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff7698188a460d2fc6e105ee9
 ---
 
 # P-35 · Strategy and technical SEO run as separate queues, so big technical work slips
 
 | | |
 | --- | --- |
-| Austin's call | **Not in proposal** |
-| Austin's note | Why: the fix (O-35, joint monthly tech-priority check) is a process change, not a build, so it's offered as a habit in the culture recommendations (P-47). |
-| Status | not in proposal – why: Not solving in this proposal – the fix ([O-35](../opportunities/README.md#o-35)) was dropped (Austin, 9 Nov). |
+| Decision | **Not in proposal** |
+| Status | not in proposal – why: the fix ([O-35](../opportunities/README.md#o-35)) was not taken forward. |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -31,7 +28,7 @@ notion_id: 410e204ff7698188a460d2fc6e105ee9
 
 - None.
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-35](../opportunities/README.md#o-35) Joint monthly tech-priority check between strategist and tech team – dropped
 
@@ -39,8 +36,7 @@ notion_id: 410e204ff7698188a460d2fc6e105ee9
 
 - Cluster [C-26](../synthesis/clusters-and-root-causes.md#c-26): Strategy and technical SEO run as separate queues, so big technical work slips – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): There is no effort model: time per client isn't measured, scope and onboardings aren't checked against capacity, and intake isn't triaged – so work is sold, priced and scheduled by feel.
-- Problems DB root cause: [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): No effort model; work isn't prioritised against capacity. Chain: big technical tasks pushed months out and reports show nothing for technical ([KZ-PP11](../pain-points/README.md#kz-pp11), [KZ-PP12](../pain-points/README.md#kz-pp12)) → strategists have little say in technical priority; ownership split ([KZ-PP11](../pain-points/README.md#kz-pp11), [SB-PP14](../pain-points/README.md#sb-pp14)) → SEO hours vs dev work not defined in scope ([ZC-PP12](../pain-points/README.md#zc-pp12)) → strategy and technical work run as separate queues with no shared priority order.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-26](../synthesis/clusters-and-root-causes.md#c-26). 3 staff. One technical team member sees no performance impact ([SB-PP14](../pain-points/README.md#sb-pp14)) – note the disagreement. Members: [KZ-PP11](../pain-points/README.md#kz-pp11), [KZ-PP12](../pain-points/README.md#kz-pp12), [SB-PP14](../pain-points/README.md#sb-pp14), [ZC-PP12](../pain-points/README.md#zc-pp12)
+- Root cause (problem record): [RC-05](../synthesis/clusters-and-root-causes.md#rc-05): No effort model; work isn't prioritised against capacity. Chain: big technical tasks pushed months out and reports show nothing for technical ([KZ-PP11](../pain-points/README.md#kz-pp11), [KZ-PP12](../pain-points/README.md#kz-pp12)) → strategists have little say in technical priority; ownership split ([KZ-PP11](../pain-points/README.md#kz-pp11), [SB-PP14](../pain-points/README.md#sb-pp14)) → SEO hours vs dev work not defined in scope ([ZC-PP12](../pain-points/README.md#zc-pp12)) → strategy and technical work run as separate queues with no shared priority order.
 
 ## Pain points (4)
 
@@ -53,6 +49,6 @@ notion_id: 410e204ff7698188a460d2fc6e105ee9
 - [ZC-PP12](../pain-points/README.md#zc-pp12) – Unclear line between SEO hours and dev work – a CRO mock-up led to a request to swap SEO hours for dev hours
   - *"can we swap this seo hours to dev hours to get this get this implemented"* – Zach Chamberlain, SEO Manager · staff-raised · [\~10:38 (L087)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L93)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "sometimes it's pretty simple tasks in there and the beefier tasks are all the way six months from now kind of thing as well." – an SEO manager ([KZ-PP11](../pain-points/README.md#kz-pp11), \~32:57, L316) | "task still in progress and now it's like, well, I'm putting nothing in the report." – an SEO manager ([KZ-PP12](../pain-points/README.md#kz-pp12), \~34:37, L337) | "can we swap this seo hours to dev hours to get this get this implemented" – an SEO manager ([ZC-PP12](../pain-points/README.md#zc-pp12), \~10:38, L087)

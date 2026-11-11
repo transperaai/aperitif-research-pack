@@ -4,7 +4,7 @@ title: "Daily priorities assistant: one triaged list per person from Monday, Sla
 team: "everyone"
 bundle: "Team productivity"
 status: "Added – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-29 (daily brief part)"]
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["MC-PP03", "SB-PP01", "SB-PP02"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Focus each morning"
-build_cost: "A$2,000"
-monthly: "A$500/month + tokens ~US$20–70"
-notion_section: "Daily priorities assistant"
 ---
 
 # DS-30 · Daily priorities assistant
@@ -29,7 +26,7 @@ notion_section: "Daily priorities assistant"
 | Bundle | [Team productivity](README.md#bundle-team-productivity) |
 | Team | everyone |
 | Status | Added – priced |
-| Source type | mixed – Split from DS-06 (Austin, 9 Nov); Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief |
+| Source type | mixed – Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief |
 | Opportunities | [O-29](../opportunities/README.md#o-29) (daily brief part) |
 | Earlier ideas | – |
 | Fixes | [P-16 Reminders go unacted; a broken reminder bot went unnoticed](../problems/p-16-reminders-go-unacted-a-broken-reminder-bot.md) |
@@ -37,24 +34,14 @@ notion_section: "Daily priorities assistant"
 | Pain points cited | [MC-PP03](../pain-points/README.md#mc-pp03), [SB-PP01](../pain-points/README.md#sb-pp01), [SB-PP02](../pain-points/README.md#sb-pp02) |
 | Written source | – |
 | Value | Focus each morning |
-| Build cost | A\$2,000 |
-| Monthly | A\$500/month + tokens \~US\$20–70 |
 
-**Team:** everyone. **Decision (9 Nov):** split out of [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md) as its own solution.
+**Team:** everyone. **Decision (9 Nov):** a solution of its own, alongside [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md).
 
 ## Vision
 
 > **The thing that keeps people efficient so they can just focus on work.** Every morning each person gets one triaged list of what to do today, pulled from everywhere work comes from: Monday, Slack, email, calendar, ad and SEO performance, seasonal events – anything and everything.
 
-## Pricing & priority
-
-> **Priority: Fill-in (after [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)) · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Team productivity
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Daily priorities assistant** – one ranked Slack DM per person each morning from Monday, Slack, email, calendar, performance and seasonal signals | **A\$2,000** | **A\$500/month** maintenance + AI tokens \~US\$20–70/month |
-
-## How it works (draft)
+## How it works
 
 1. Each morning the assistant gathers, per person:
    - Monday tasks due, overdue or newly assigned;
@@ -79,7 +66,7 @@ notion_section: "Daily priorities assistant"
 
 Nobody starts the day by checking five tools; everyone starts from one list that already knows their tasks, messages, meetings and client alerts.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -87,7 +74,7 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 | Tasks overdue > 3 days | Unknown (DM-O03) | −70% |
 | Staff using the daily DM | 0 | ≥ 80% |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: everyone starts the day knowing what matters.** A morning DM pulls together what's due, what's been asked and what's flagged across Slack, Monday and email. How people plan their day is personal, so no hours are claimed – the value is focus and fewer things slipping.
 
@@ -95,9 +82,9 @@ Nobody starts the day by checking five tools; everyone starts from one list that
 
 **Goals:** good performance · good customer service
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

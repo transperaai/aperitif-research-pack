@@ -1,8 +1,7 @@
 ---
 id: P-03
 title: "No proactive performance alerting – problems found at month-end"
-austin_call: "Solve now"
-austin_note: "this can be an extension of the pacing checker or a software like revealbot (bir.ch). this would enable people to only have to check accounts when notified rather than juggling accounts or catching things late."
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-01", "DS-22", "DS-23", "DS-27", "DS-29"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["DM-PP02", "DM-PP03", "LS-PP05", "MC-PP08", "MP-PP17", "SD-PP04", 
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981d8a087ed06b4ec140a
 ---
 
 # P-03 · No proactive performance alerting – problems found at month-end
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | this can be an extension of the pacing checker or a software like revealbot (bir.ch). this would enable people to only have to check accounts when notified rather than juggling accounts or catching things late. |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md), [DS-23](../solutions/ds-23-seo-drop-and-anomaly-alerts.md), [DS-27](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -35,7 +32,7 @@ notion_id: 40fe204ff76981d8a087ed06b4ec140a
 - Fixes: [DS-27 PPC: alert investigator – AI diagnosis and commentary on flagged activity](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md)
 - Fixes: [DS-29 PPC: automated Monday client performance check (Google Ads, Meta and other channels)](../solutions/ds-29-ppc-automated-monday-client-performance-check.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-01](../opportunities/README.md#o-01) Restore the pacing data feed and cover every live channel – addressed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md))
 - [O-10](../opportunities/README.md#o-10) Switch on native platform alert rules and scripts now – absorbed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md))
@@ -49,8 +46,7 @@ notion_id: 40fe204ff76981d8a087ed06b4ec140a
 
 - Cluster [C-04](../synthesis/clusters-and-root-causes.md#c-04): Performance drops and tracking breaks surface only in manual checks, often at month-end – raised by 7 staff + 0 leadership; confidence High.
 - Root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02): Monitoring is human: nothing pushes signals on spend, performance, tracking, link status, trends or churn, so problems surface late.
-- Problems DB root cause: No macro view across accounts. Consultants only see an issue when they are inside that account; the only check is a manual mid-month comparison.
-- Merge notes: Stage 1 merge (6 Nov): Reword → [C-04](../synthesis/clusters-and-root-causes.md#c-04). Add SEO and tracking breaks. Proposed rewording in body. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): No macro view across accounts. Consultants only see an issue when they are inside that account; the only check is a manual mid-month comparison.
 
 ## Pain points (10)
 
@@ -75,6 +71,6 @@ notion_id: 40fe204ff76981d8a087ed06b4ec140a
 - [ZC-PP05](../pain-points/README.md#zc-pp05) – Monday performance check often skipped when busy; dips and wins surface at month-end
   - *"I find that these can sometimes be an afterthought because you know you're busy"* – Zach Chamberlain, SEO Manager · staff-raised · [\~27:39 (L285)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L291) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Shrishti: "only knows an account is underperforming when actively inside the platform"; "most performance issues are only caught during monthly reporting". Wendlley: wants trigger automation to investigate ad account activity and diagnose.

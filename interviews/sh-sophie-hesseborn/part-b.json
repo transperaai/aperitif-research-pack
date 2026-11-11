@@ -2299,37 +2299,5 @@
       "who_role": "Client-supplied; built on in kickoff call",
       "if_absent": "Not documented by Aperitif as standard"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Sophie: emails/day and hours on comms; minutes per brief; prep time per WIP",
-      "Sophie: Monday e-com update – how long and who does it (Sophie, Michaela or Tati)?",
-      "Sophie: budget changes and false pacing alerts per month; how often tracking breaks",
-      "Sophie: which clients are the Monday 4-sheet e-com client, the AU/NZ e-com client and the bank client (NICU?)",
-      "Wendlley: who owns the pacing sheets and monthly rollover; is Monday or HubSpot the intended budget master?",
-      "Sales (Jethro): what is captured in HubSpot at handover?",
-      "How is Michaela/Tati capacity split between Sophie's and Shrishti's briefs?"
-    ],
-    "contradictions": [
-      "Budget 'three places': Sophie = HubSpot / Monday / pacing sheet; context pack = budget sheet / pacing sheet / platforms",
-      "Austin says pacing summary arrives 'every day' (L193); context pack says Tina bot posts M/W/F – not corrected by Sophie",
-      "Context pack: Tati does mid-month checks; Sophie describes the mid-month pacing check as 'we' (L491)",
-      "Context pack: Michaela and Tati report to Shrishti; Sophie also briefs both (L038)",
-      "Sophie: performance won't use HubSpot 'to the same extent anymore' (L075), yet budget/fee data still sits there (L205)"
-    ],
-    "data_requests": [
-      "Audit document + roadmap checklist and onboarding questionnaire – Sophie (agreed to Slack, L063)",
-      "Pacing sheet template and a sample month tab – Sophie / Wendlley",
-      "The four e-com client weekly spreadsheets – Sophie",
-      "Sample Monday implementation briefs – Sophie / Michaela",
-      "Austin's Figma process map from this session – Austin",
-      "AgencyAnalytics report template – Sophie"
-    ],
-    "verify": [
-      "All assumed time figures (comms 30–60 min/day, prep 15–45 min/WIP, pacing 15–20 min/client, audit 6–12 h)",
-      "Interview length (~60 min) and all timestamps are estimated",
-      "'DDG/DGG' = DDEG – confirm it is also a paid client",
-      "Whether the Monday e-com update is Sophie's time or shared"
-    ]
-  }
+  ]
 }

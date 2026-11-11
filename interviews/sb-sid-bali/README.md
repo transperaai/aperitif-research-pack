@@ -5,7 +5,6 @@
 | Role | Technical SEO Specialist |
 | Team | Organic |
 | Date | 2026-11-04 |
-| Length | \~40 min |
 | Clients managed | 20 |
 
 ## Files

@@ -1,6 +1,6 @@
 # Solution bundles
 
-The 32 active solutions are grouped into nine bundles so they're easier to talk about. **The bundles are for the deck and report only** – each solution stays separate, with its own evidence, decision and cost (Austin, 9 Nov). DS-13 is merged into DS-14 and isn't listed on its own.
+The 32 active solutions are grouped into nine bundles so they're easier to talk about. **The bundles are for the deck and report only** – each solution stays separate, with its own evidence and decision; prices are per build in [Builds and pricing](../builds/README.md). DS-13 is covered by DS-14 and isn't listed on its own.
 
 ---
 

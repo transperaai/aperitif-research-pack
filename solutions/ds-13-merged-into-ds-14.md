@@ -4,7 +4,7 @@ title: "Merged into DS-14 – escalation and delegation rules (DS-14 Part B)"
 team: "leadership and department leads"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
 status: "Merged – see DS-14"
-ledger_status: absorbed
+coverage: absorbed
 source_type: "evidence-backed"
 merged_into: DS-14
 opportunities: ["O-21 (full – now DS-14 Part B)"]
@@ -16,9 +16,6 @@ problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP02", "KO-PP03", "KO-PP05", "MP-PP08", "MP-PP09", "WS-PP10"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Part of DS-14 – not valued separately"
-build_cost: "Covered by DS-14"
-monthly: "Covered by DS-14"
-notion_section: "Merged into DS-14 – Escalation and delegation rules"
 ---
 
 # DS-13 · Merged into DS-14 – Escalation and delegation rules
@@ -30,7 +27,7 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | leadership and department leads *(inferred)* |
 | Status | Merged – see DS-14 |
-| Source type | evidence-backed – Merged into DS-14 (Austin, 9 Nov) |
+| Source type | evidence-backed – Merged into DS-14 |
 | Opportunities | [O-21](../opportunities/README.md#o-21) (full – now DS-14 Part B) |
 | Earlier ideas | – |
 | Fixes | [P-22 Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) |
@@ -39,10 +36,8 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Pain points cited | [KO-PP02](../pain-points/README.md#ko-pp02), [KO-PP03](../pain-points/README.md#ko-pp03), [KO-PP05](../pain-points/README.md#ko-pp05), [MP-PP08](../pain-points/README.md#mp-pp08), [MP-PP09](../pain-points/README.md#mp-pp09), [WS-PP10](../pain-points/README.md#ws-pp10) |
 | Written source | – |
 | Value | Part of DS-14 – not valued separately |
-| Build cost | Covered by DS-14 |
-| Monthly | Covered by DS-14 |
 
-> **Merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) (Austin's call, 9 Nov).** This is now **Part B of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) · Client health & growth intelligence**: [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift.
+> **Merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md).** This is now **Part B of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) · Client health & growth intelligence**: [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift.
 
 **Decision (9 Nov):** the [O-21](../opportunities/README.md#o-21) rules are fine, but they must be **connected to the anti-churn and growth intelligence ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md))**: its alerts are what trigger an escalation, and the rules say who acts on each one.
 
@@ -81,9 +76,9 @@ notion_section: "Merged into DS-14 – Escalation and delegation rules"
 | Contracts signed without the founder | 0% (KO-O05) | All standard SME deals |
 | Tier 1 accounts with a second relationship owner | Unknown ([KO-PP02](../pain-points/README.md#ko-pp02)) | 100% |
 
-## Indicative build cost and OpEx
+## Pricing
 
-Covered by [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) – see its **Pricing & priority** box.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

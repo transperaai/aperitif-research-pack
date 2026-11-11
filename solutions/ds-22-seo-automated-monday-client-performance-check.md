@@ -4,7 +4,7 @@ title: "SEO: automated Monday client performance check (GA4, Search Console, Ahr
 team: "SEO"
 bundle: "SEO performance"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-12 (SEO part (ZC-O03, LS-O03))"]
 earlier_ideas: []
@@ -17,9 +17,6 @@ pain_points_interviewer_raised_or_inferred: []
 value: "17–39 h/mo · A$88K–202K capacity (≈ 2–5 SEO clients)"
 value_time_h_month: [17, 39]
 value_capacity_aud_per_year: [88000, 202000]
-build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
-monthly: "A$1,250/month + tokens ~US$8–35"
-notion_section: "SEO: automated Monday client performance check"
 ---
 
 # DS-22 · SEO: automated Monday client performance check
@@ -39,20 +36,12 @@ notion_section: "SEO: automated Monday client performance check"
 | Pain points cited | [LS-PP05](../pain-points/README.md#ls-pp05), [ZC-PP05](../pain-points/README.md#zc-pp05) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | 17–39 h/mo · A\$88K–202K capacity (≈ 2–5 SEO clients) |
-| Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
-| Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
 ## Vision
 
 > **Proactive performance intel that comes to the team**, so nobody has to go into accounts to find out how a client is doing. A steady flow of intel the team can use to report to the client. (Shared vision for the SEO monitoring set: DS-22 Monday check, [DS-23](ds-23-seo-drop-and-anomaly-alerts.md) drop alerts, [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md) mid-month wins.)
 
-## Pricing & priority
-
-> **Priced as one bundle: SEO performance (DS-22 + [DS-23](ds-23-seo-drop-and-anomaly-alerts.md) + [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md))** · Draft scores: DS-22 impact 3 / effort 2 · [DS-23](ds-23-seo-drop-and-anomaly-alerts.md) 3 / 2 · [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md) 2 / 1 (confirm)
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **SEO performance bundle** – Monday performance check, drop and anomaly alerts, mid-month wins (shared GA4 / Search Console / Ahrefs pipeline) | **A\$8,500** | **A\$1,250/month** maintenance + AI tokens \~US\$8–35/month |
+## Decision
 
 **Team:** SEO. **Decision (9 Nov):** a separate solution for the SEO team ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
 
@@ -81,7 +70,7 @@ Every SEO client is checked every Monday automatically; managers read a summary 
 | Weeks the Monday check is completed for every client | Sometimes skipped ([ZC-PP05](../pain-points/README.md#zc-pp05)) | 100% (automated) |
 | Manager time on the Monday check | Manual per client ([LS-PP05](../pain-points/README.md#ls-pp05)) | Review summary only |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Performance intel comes to the SEO team.** Every Monday each manager gets a digest of how every client is going across GA4, Search Console and Ahrefs, so nobody opens three tools for every client to find out.
 
@@ -111,9 +100,9 @@ Capacity to grow into without hiring, not guaranteed revenue.
 
 *Inputs from Austin (10 Nov): 68 live SEO clients and A\$222,374 live SEO MRR (client board, paused excluded), 5–10 min weekly check per client, 4 SEO managers (org chart). Assumptions: 70–80% of checks removed; \~130 productive hours per manager per month.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

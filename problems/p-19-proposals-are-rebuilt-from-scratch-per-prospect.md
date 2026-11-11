@@ -1,8 +1,7 @@
 ---
 id: P-19
 title: "Proposals are rebuilt from scratch per prospect"
-austin_call: "Solve now"
-austin_note: "proposal generator and supporting ai agents"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-05"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP17", "KO-PP18", "KO-PP19", "KO-PP23", "KO-PP24", "KZ-PP21", 
 theme: "Process / automation"
 severity: "Medium"
 confidence: "Low – raised by 1"
-notion_id: 40fe204ff769816c8f78fdc8c0b16830
 ---
 
 # P-19 · Proposals are rebuilt from scratch per prospect
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | proposal generator and supporting ai agents |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) |
 | Theme · severity · confidence | Process / automation · Medium · Low – raised by 1 |
 | Process area | Sales |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff769816c8f78fdc8c0b16830
 
 - Fixes: [DS-05 Automated deck generator: quarterly + 6-month reviews and proposals](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-14](../opportunities/README.md#o-14) AI-prefilled onboarding audit and Master SEO Document – addressed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
@@ -43,8 +40,7 @@ notion_id: 40fe204ff769816c8f78fdc8c0b16830
 
 - Cluster [C-39](../synthesis/clusters-and-root-causes.md#c-39): Growth depends on the founder and inbound leads while AI erodes core services – raised by 1 staff + 2 leadership; confidence High.
 - Root cause [RC-06](../synthesis/clusters-and-root-causes.md#rc-06): Decisions and quality gates sit with a few senior people because authority isn't delegated and the management layer is thin.
-- Problems DB root cause: Templates exist (Services, Ecommerce, Automotive/Financial Pipeline masters, pricing slides) but most proposals are bespoke copies.
-- Merge notes: Stage 1 merge (6 Nov): Merge → [C-39](../synthesis/clusters-and-root-causes.md#c-39). Single staff raise ([KZ-PP21](../pain-points/README.md#kz-pp21)). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Templates exist (Services, Ecommerce, Automotive/Financial Pipeline masters, pricing slides) but most proposals are bespoke copies.
 
 ## Pain points (7)
 
@@ -63,6 +59,6 @@ notion_id: 40fe204ff769816c8f78fdc8c0b16830
 - [MP-PP11](../pain-points/README.md#mp-pp11) – Founder still pulled into building deal strategies and ad-spend numbers
   - *"So I'm still getting involved in a lot of that, but I don't want to"* – Joe Romeo, Leadership (mid-point) · staff-raised · [\~17:18 (L192)](../interviews/mp-leadership-mid-point/transcript.md?plain=1#L195)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Karl: "Proposal decks take a long time". Sales folder: \~155 decks, 6 templates, many "Copy of…" duplicates.

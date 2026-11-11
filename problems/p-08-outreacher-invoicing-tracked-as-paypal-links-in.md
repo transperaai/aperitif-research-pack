@@ -1,8 +1,7 @@
 ---
 id: P-08
 title: "Outreacher invoicing tracked as PayPal links in spreadsheet cells"
-austin_call: "Solve later"
-austin_note: "can go into the link build crm"
+decision: "Solve later"
 status: addressed
 fixed_by: ["DS-11"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP16", "KZ-PP08", "MP-PP14", "MP-PP15", "TG-PP05", "TG-PP06", 
 theme: "Process / automation"
 severity: "Medium"
 confidence: "Medium – raised by 2"
-notion_id: 40fe204ff7698131876fec27eeb87b51
 ---
 
 # P-08 · Outreacher invoicing tracked as PayPal links in spreadsheet cells
 
 | | |
 | --- | --- |
-| Austin's call | **Solve later** |
-| Austin's note | can go into the link build crm |
+| Decision | **Solve later** |
 | Status | addressed – Fixed by [DS-11](../solutions/ds-11-link-building-workflow-crm.md) |
 | Theme · severity · confidence | Process / automation · Medium · Medium – raised by 2 |
 | Process area | Finance / admin |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff7698131876fec27eeb87b51
 
 - Fixes: [DS-11 Link-building workflow CRM (orders, publishers, links, invoicing and payments)](../solutions/ds-11-link-building-workflow-crm.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-18](../opportunities/README.md#o-18) One link record: standard order template, auto-sync, invoice run – addressed ([DS-11](../solutions/ds-11-link-building-workflow-crm.md))
 - [O-20](../opportunities/README.md#o-20) Widen link supply: shared vetting skill, client matching, mentions – addressed ([DS-12](../solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md))
@@ -40,8 +37,7 @@ notion_id: 40fe204ff7698131876fec27eeb87b51
 
 - Cluster [C-23](../synthesis/clusters-and-root-causes.md#c-23): Link building runs on disconnected sheets; every order, link and invoice is re-keyed – raised by 2 staff + 2 leadership; confidence High.
 - Root cause [RC-01](../synthesis/clusters-and-root-causes.md#rc-01): No system of record: budgets, client data, briefs, links and files are held in many hand-maintained copies, so people re-key, reconcile and collate by hand.
-- Problems DB root cause: Payments to external outreachers are per-person, per-link, in mixed currencies (USD, AUD) with no ledger outside the sheets.
-- Merge notes: Stage 1 merge (6 Nov): Merge → [C-23](../synthesis/clusters-and-root-causes.md#c-23). Invoicing admin evidenced ([KZ-PP08](../pain-points/README.md#kz-pp08), [KO-PP16](../pain-points/README.md#ko-pp16)); PayPal-cell detail not. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Payments to external outreachers are per-person, per-link, in mixed currencies (USD, AUD) with no ledger outside the sheets.
 
 ## Pain points (7)
 
@@ -60,6 +56,6 @@ notion_id: 40fe204ff7698131876fec27eeb87b51
 - [TG-PP07](../pain-points/README.md#tg-pp07) – Home-built master sheet → Monday.com sync unreliable; managers raised concerns
   - *"for the October, it added already, but I received a few concerns from the managers, from the handlers."* – Tonie Guevarra, Outreach Specialist · staff-raised · [\~41:14 (L439)](../interviews/tg-tonie-guevarra/transcript.md?plain=1#L446)
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Juliet sheet: PayPal invoice URL and PAID flag per row. Joe: AI agents to follow up on overdue/outstanding invoices for Karl.

@@ -1,8 +1,7 @@
 ---
 id: P-01
 title: "Meta pacing sheet is broken – Supermetrics connector failing"
-austin_call: "Solve now"
-austin_note: "This can be the pacing checker solution"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-01"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["MC-PP06", "SD-PP01", "SD-PP15", "SD-PP19", "SH-PP02", "SH-PP05"]
 theme: "Process / automation"
 severity: "Critical"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981588f56dcb58d6b0625
 ---
 
 # P-01 · Meta pacing sheet is broken – Supermetrics connector failing
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | This can be the pacing checker solution |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) |
 | Theme · severity · confidence | Process / automation · Critical · High – raised by 3+ people |
 | Process area | Reporting |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff76981588f56dcb58d6b0625
 
 - Fixes: [DS-01 Modern ad budget pacing + performance alerting](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-01](../opportunities/README.md#o-01) Restore the pacing data feed and cover every live channel – addressed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md))
 - [O-11](../opportunities/README.md#o-11) Pacing tracker reads budgets and spend, flags gaps – absorbed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md))
@@ -41,8 +38,7 @@ notion_id: 40fe204ff76981588f56dcb58d6b0625
 
 - Cluster [C-02](../synthesis/clusters-and-root-causes.md#c-02): Pacing tools are broken or fragile, so Meta and Google pacing is done by hand – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools, automations and AI workflows are built by individuals with no owner, documentation, policy or renewal plan, so they break or stay personal.
-- Problems DB root cause: Pacing depends on a paid connector (Supermetrics) that lapsed, and the sheet needs a manual re-point of the query on the 1st of every month. No owner monitors whether it's working.
-- Merge notes: Stage 1 merge (6 Nov): Reword → [C-02](../synthesis/clusters-and-root-causes.md#c-02). Supermetrics status contested ([X-01](../synthesis/contradictions.md#x-01)); widen to Google and the Tina bot. Proposed rewording in body. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Pacing depends on a paid connector (Supermetrics) that lapsed, and the sheet needs a manual re-point of the query on the 1st of every month. No owner monitors whether it's working.
 
 ## Pain points (6)
 
@@ -59,6 +55,6 @@ notion_id: 40fe204ff76981588f56dcb58d6b0625
 - [SH-PP05](../pain-points/README.md#sh-pp05) – Meta account-level daily spend must be summed by hand from ad sets
   - *"if it's in ad set level you have to like go in and just like summarize just add everything up."* – Sophie Hesseborn, Senior Performance Marketing Manager · staff-raised · [\~30:53 (L292)](../interviews/sh-sophie-hesseborn/transcript.md?plain=1#L292) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Nov tab header: "Error: Facebook error: User may not have permissions to access account". 37 of 42 accounts "No budget set"; 5 "Meta data unavailable via connector – spend not updated". Shrishti: pacing sheets broke after Supermetrics lapsed, now done manually in Claude for Meta.

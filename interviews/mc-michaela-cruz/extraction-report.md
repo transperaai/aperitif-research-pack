@@ -1,10 +1,10 @@
 # Part A – Transcript extraction: Michaela Cruz (Performance Marketing Specialist)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Michaela Cruz - Workflow & Process Interview", 2 Nov 2026, 10:00 am (Melbourne). Full transcript retrieved (451 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/MC/transcript.md`; ~mm:ss is estimated from cumulative word position across ~47 minutes (60-minute booking; Austin: "I think I can give you 13 minutes back", L440).
-- **Speakers:** the diariser labelled Austin as A and split Michaela across labels B, C and D. All non-Austin lines are treated as Michaela. A few B/D lines read like Austin (e.g. L058 "Okay, understood, yeah"), and L429 "No, okay." (labelled A) looks like Austin echoing Michaela's "no" – see 11.
-- **Name and term corrections (transcription):** "cloud / Cloud" → Claude · "Srishti / Shristi / Christy / shirsty / Tristie / Shruti" → Shrishti (Dokwal, Senior Performance Marketing Manager) · "Dia" → Diya (Manoj) · "inversion tracking" → conversion tracking · "ciphermetrics / supermetrics" → Supermetrics · "Claude Froth-Rome" → Claude for Chrome · "slap me" → Slack me (L073) · "blind checker" → email checker (L340, inferred) · "meta many pixels" → Many Pixels (outsourced creative) · "White& Co / white and co" → White & Co Living · "agency analytics" → AgencyAnalytics · "Tina" → the Tina Slack agent bot (OpenClaw), not a person. Unresolved: "float years" (L148, probably "low tiers"), "DDG" (L186, probably DDEG), "AOD-sodden" (L101), "No wind" (L077) – see 11.
+- Transcript: meeting notes "Michaela Cruz - Workflow & Process Interview", 2 Nov 2026, 10:00 am (Melbourne). Full transcript retrieved (451 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~47 minutes (60-minute booking; Austin: "I think I can give you 13 minutes back", L440).
+- **Speakers:** the diariser labelled Austin as A and split Michaela across labels B, C and D. All non-Austin lines are treated as Michaela. A few B/D lines read like Austin (e.g. L058 "Okay, understood, yeah"), and L429 "No, okay." (labelled A) looks like Austin echoing Michaela's "no".
+- **Name and term corrections (transcription):** "cloud / Cloud" → Claude · "Srishti / Shristi / Christy / shirsty / Tristie / Shruti" → Shrishti (Dokwal, Senior Performance Marketing Manager) · "Dia" → Diya (Manoj) · "inversion tracking" → conversion tracking · "ciphermetrics / supermetrics" → Supermetrics · "Claude Froth-Rome" → Claude for Chrome · "slap me" → Slack me (L073) · "blind checker" → email checker (L340, inferred) · "meta many pixels" → Many Pixels (outsourced creative) · "White& Co / white and co" → White & Co Living · "agency analytics" → AgencyAnalytics · "Tina" → the Tina Slack agent bot (OpenClaw), not a person. Unresolved: "float years" (L148, probably "low tiers"), "DDG" (L186, probably DDEG), "AOD-sodden" (L101), "No wind" (L077).
 - The freelancer doing conversion tracking is named "Liam" by Austin (L306) – Liam Lau, Conversion Tracking Specialist (contractor) per context pack.
 - Hours are costed at **$80/hr internal labour cost**. Process totals include team time (account managers answering brief queries, Shrishti's agenda reading and strategy review) where those people do steps in the process; the interviewee-only share is shown separately.
 
@@ -19,7 +19,7 @@
 | Team | Performance (paid media) |
 | Date / length | 2 Nov 2026 · ~47 min (booked 60) |
 | Interviewer | Austin Smith (Transpera AI) |
-| Clients managed | 11 own low-touch clients (stated "11", L148; then agreed "10", L156 – see 11) plus implementation for the wider Performance team's accounts |
+| Clients managed | 11 own low-touch clients (stated "11", L148; then agreed "10", L156) plus implementation for the wider Performance team's accounts |
 | Channels / services | Google Ads, Meta, LinkedIn, TikTok, sometimes Pinterest (L092–L093); campaign build and implementation (main role), strategy and optimisation for own clients, pacing sheet upkeep, monthly reports, onboarding, Merchant Center / Google Partner admin checks |
 | Reports to | Shrishti Dokwal, Senior Performance Marketing Manager ("my manager, which is Srishti", L119) – matches context pack |
 | Hands work to | Account managers (completed builds, preview links, "waiting approval" status via Monday.com; Slack if urgent); Shrishti (strategy review for her own onboardings; daily agenda); Liam Lau (conversion tracking, contractor); Many Pixels (creative briefs); clients (emails, reports, strategy, previews, handover docs) |
@@ -319,7 +319,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | MC-P10 | NEW: Platform compliance checks | 1.1–2.2 | 1.1–2.2 | $88–$176 |
 | **Total** | | **108.3–206.1 h** | **106.7–200.5 h** | **$8,664–$16,488** |
 
-The high ends can't all happen in the same month: MC's high-end share (~200 h) is more than one full-time month (~152 h). MC-P01 is a residual (the rest of her day), so it shrinks when onboarding or pacing work grows. Treat the low-to-mid range as more realistic and confirm with timesheet and Monday.com data (see 11).
+The high ends can't all happen in the same month: MC's high-end share (~200 h) is more than one full-time month (~152 h). MC-P01 is a residual (the rest of her day), so it shrinks when onboarding or pacing work grows. Treat the low-to-mid range as more realistic and confirm with timesheet and Monday.com data.
 
 ## 3. Pain points and problems
 
@@ -498,7 +498,7 @@ Ties are broken by Ease, then Impact, then hours saved. Process change beats aut
 | Monthly | subscription | Personal Claude paid by MC (amount not given) | "I'm paying for it every month." ~39:17 (L343) | stated |
 | Oct 2026 | month adopted | AgencyAnalytics for monthly reports | "agency analytics last month so everything has been automated" ~21:39 (L204) | stated |
 | Not renewing | status | Supermetrics | "I don't think we're… we will be using or renewing our Supermetrics." ~44:38–44:43 (L419–L420) | stated (her belief) |
-| Daily | cadence | Tina pacing check (Austin's description) | Austin: "So the pacing check that we have that Tina does daily..." ~43:52 (L407) | stated (interviewer) – conflicts with M/W/F, see 11 |
+| Daily | cadence | Tina pacing check (Austin's description) | Austin: "So the pacing check that we have that Tina does daily..." ~43:52 (L407) | stated (interviewer) – conflicts with M/W/F |
 | Tue / Thu | cadence | Proposed scheduled Claude audit | Austin: "Like every Tuesday and Thursday, it audits the accounts" ~17:43 (L179) | stated (interviewer proposal) |
 | 13 | minutes | Interview finished early | Austin: "I think I can give you 13 minutes back." ~46:11 (L440) | stated |
 
@@ -522,41 +522,6 @@ Ties are broken by Ease, then Impact, then hours saved. Process change beats aut
 | Sales context for new clients | Joe Romeo (Founder) | Onboarding calls run blind; clients asked repeat questions |
 | Strategy sign-off for MC's onboardings | Shrishti Dokwal (Senior Performance Marketing Manager) | MC's onboarding strategy waits |
 
-## 11. Follow-ups
-
-**Questions**
-- Michaela: how many implementation tasks a week, and typical build time per task type (Meta ad set, new Google campaign)? How often are briefs incomplete?
-- Michaela: how many accounts get Day 1 budget reverts, and how long per account?
-- Michaela: which 10–11 clients are hers – does this include Northern Inland Credit Union (context pack: MC on a $28K/month Google and ~$20K Meta budget, which isn't "low touch")?
-- Michaela: what did "float years" (L148) mean – "low tiers"?
-- Shrishti: how often are same-day implementation asks made, and could they be briefed a day earlier? Is the brief template in use?
-- Wendlley / Julia: who decided not to renew Supermetrics, when does it end, and what replaces the pacing feed and Tina's data?
-- Liam: what does conversion tracking setup involve and how is "done" signalled? (Austin action item, L310)
-- Who owns contract end dates, and where do they live (HubSpot)?
-
-**Contradictions**
-- Client count: 11 (L148) vs 10 (L156).
-- Tina cadence: Austin says Tina checks pacing "daily" (L407); known facts and Shrishti's interview say M/W/F updates.
-- Supermetrics: context pack says the subscription has lapsed; on 2 Nov Michaela speaks as if the sheet is still connected but failing, and "I don't think we're… renewing".
-- Onboarding duration: context pack says campaign build 3–5 days; Michaela says the build "only took me a day" once approvals are in (L271) – the 3–5 days may include waiting, or her clients are smaller.
-- Client tiering: she describes her book as low-touch, yet the context pack assigns her NICU, a top-5 Google Ads budget.
-- Speaker labels: some B/D lines (e.g. L058, L060) read like Austin; L429 "No, okay." is labelled Austin but appears to be Michaela's answer echoed. Treated per method (non-A = Michaela).
-- Combined high-end hours (MC share ~200 h/month) exceed one FTE – the assumptions can't all be at their high end together.
-
-**Data / artefacts to request**
-- Monday.com export of tasks assigned to Michaela for one month (created vs due dates, priority-field fill rate) – Shrishti / Sid.
-- Implementation brief template drafted with Shrishti – Michaela.
-- HubSpot onboarding task template – Julia / Joe.
-- Team pacing sheet and a log of Supermetrics failures – Michaela / Wendlley.
-- Onboarding questionnaire and offboarding handover document template – Shrishti.
-- Many Pixels brief examples and revision history – Michaela.
-
-**Claims to verify before the pack**
-- "Supermetrics is breaking down a lot" – get dates and frequency.
-- Day 1 = a whole day on budget reverts.
-- Optimisation cut from 60 to 30 min with Claude.
-- Merchant Center unchecked for ~3 weeks – check for disapprovals in that window.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -566,13 +531,3 @@ Ties are broken by Ease, then Impact, then hours saved. Process change beats aut
 | Unnamed new client | unknown | Signed; testing through November; go-live this week depends on how fast the client responds (L206) |
 | Unnamed past client | unknown | Offboarding handover missed; client chased 2–3 days after contract end (L249) |
 | Unnamed client (Shrishti's onboarding) | unknown | Needed 4–5 ad copy revision rounds (L270–L271) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: engaged and constructive, a little stretched.** She is open about wanting change – "I can complain though I've been open about this with the team before" ~26:24 (L239) – and keen on AI: "Are you also focused on like AI integration on that?… Oh yeah, that's great." ~02:16–02:21 (L036–L039). She describes herself as new (L239).
-- **Workload:** day to day she says she isn't overwhelmed ("Not too much", L067; "it's not every day that i have like my days full", L159), but onboarding weeks are (L160). Same-day asks clearly frustrate her ("it messes up", L135).
-- **Manager relationship:** the daily agenda to her manager feels "redundant… consuming my time" (L053), though she says "good communication also should be maintained". No conflict signalled; she has raised the brief template with Shrishti directly. Keep the "redundant" comment out of the pack verbatim.
-- **Personal cost:** she pays for her own Claude subscription to do her job (L343) – a fairness and retention point.
-- **Austin's comments on her:** "very descriptive, very articulate" and "more detailed than most of the other people I've spoken to" (L214, L324) – positive, interviewer-side only.
-- Austin disclosed his own sleep/work cycle and his past role as DDEG's vendor lead (L026, L186) – interviewer context, not about staff.
-- Nothing negative was said about any named individual.

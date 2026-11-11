@@ -4,7 +4,7 @@ title: "New-client dossier agent (at signing → client brain)"
 team: "sales and account managers"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "Austin addition"
 opportunities: []
 earlier_ideas: ["EI-17 Prospect research and dossier agent"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["KO-PP22"]
 pain_points_interviewer_raised_or_inferred: []
 value: "New standard: every new client researched before kick-off"
-build_cost: "A$200"
-monthly: "absorbed into DS-04 maintenance"
-notion_section: "New-client dossier agent"
 ---
 
 # DS-20 · New-client dossier agent
@@ -37,24 +34,16 @@ notion_section: "New-client dossier agent"
 | Pain points cited | [KO-PP22](../pain-points/README.md#ko-pp22) |
 | Written source | – |
 | Value | New standard: every new client researched before kick-off |
-| Build cost | A\$200 |
-| Monthly | absorbed into DS-04 maintenance |
 
 ## Vision
 
 > **A dossier on every new client so the team is well informed before work starts.** Created at signing and saved into the client brain ([DS-04](ds-04-ai-client-brain.md)).
 
-## Pricing & priority
-
-> **Priority: Fill-in · Impact 2 / 5 · Effort 1 / 5 (draft – confirm)** · Bundle: Client lifecycle
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **New-client dossier** – Claude, connected through an MCP to the AI client brain ([DS-04](ds-04-ai-client-brain.md)) | **A\$200** | Absorbed into the client brain maintenance ([DS-04](ds-04-ai-client-brain.md)); runs on Claude seats |
+## Decision
 
 **Decision (9 Nov):** option B – when a client **signs**, an agent researches them and loads a dossier into the **client brain ([DS-04](ds-04-ai-client-brain.md))**. (Prospect research before the sales call is not included.)
 
-## How it works (draft)
+## How it works
 
 1. Triggered when a deal is marked won (alongside the [DS-08](ds-08-ai-sales-handover-extracted-from-sales-calls.md) handover).
 2. The agent researches the client across the web: ownership and any private-equity backing, leadership and key contacts (LinkedIn), company size and news, competitors, market position, current marketing (site, ads, socials).
@@ -70,14 +59,14 @@ notion_section: "New-client dossier agent"
 
 Every new client has a sourced dossier in their brain within a day of signing, so the team knows who they're dealing with before the first call.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
 | New clients with a dossier before kick-off | 0 ([KO-PP22](../pain-points/README.md#ko-pp22)) | 100% |
 | Head of Client Services time on new-client research | Manual, per client ([KO-PP22](../pain-points/README.md#ko-pp22)) | ≈ 0 – review only |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value:** a new standard – every new client gets a research pack (business, market, competitors, people) before kick-off. Today only Julia does this, for about 20 minutes, so for most clients nobody does it. The value is a sharper first impression and a team that walks in already understanding the client.
 
@@ -85,9 +74,9 @@ Every new client has a sourced dossier in their brain within a day of signing, s
 
 **Goals:** good customer service · trust
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

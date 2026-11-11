@@ -1,8 +1,8 @@
 # Part A – Transcript extraction: Wendlley Simoes (Performance Marketing Director)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "AI Consulting Discovery Interview: Performance Director (Wendley)", 28 Oct 2026, 10:59 am (Melbourne) – https://app.notion.com/p/406e204ff7698065a650df10a42c4d12. Full transcript retrieved (833 utterances, ~9,800 words, ends at sign-off) – not truncated. The AI summary and Austin's Evidence Log notes were not used as sources (cross-check only).
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/WS/transcript.md`; ~mm:ss is estimated from cumulative word position across ~63 minutes (start 10:59; Austin says "I know it's 12 o'clock" at L800, which falls at ~61:03 on the estimate, so the scale checks out; the Notion page was last edited 12:03).
+- Transcript: meeting notes "AI Consulting Discovery Interview: Performance Director (Wendley)", 28 Oct 2026, 10:59 am (Melbourne). Full transcript retrieved (833 utterances, ~9,800 words, ends at sign-off) – not truncated. The AI summary and Austin's Evidence Log notes were not used as sources (cross-check only).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~63 minutes (start 10:59; Austin says "I know it's 12 o'clock" at L800, which falls at ~61:03 on the estimate, so the scale checks out; the Notion page was last edited 12:03).
 - **Speakers:** the diariser split Wendlley across labels A, C and E, and Austin across D plus short interjections labelled B, F, G and H (e.g. G at L309 asks the analysis question; H at L721 starts the client-portal question). Per the brief, every non-Austin line is treated as Wendlley; content was used to judge where labels clearly cross over.
 - **Name and term corrections (transcription):** "Wendley" → Wendlley · "whips / wipes / weeks / web" → WIPs · "performance with Doc / performance web" → Performance WIP doc · "Julie" → Julia · "SLPs" → SOPs · "Ocean" → Notion · "Tachi" → Tati (Tatiana Stinson, Coordinator) · "APIs" → KPIs · "Chatupity" → ChatGPT (ads) · "Cocoa" → Google · "PMX" → PMax · "Dia" → Diya · "Kyle, SEO" → Karl · "DDG" → DDEG (Tier 1; Austin's former employer, where he was the client-side contact) · "polled" → pulled.
 - **Unresolved:** "50 field crisis" (L483 – possibly "fuel crisis"); "one mutual client" running Criteo (L525 – possibly MUJI); "agency ads … video ads" (L685 – possibly "UGC ads"); "different locations for parks" (L566); the name before "is like one of the most senior here" (L810); "JP", the former Head of Performance (not in the context pack).
@@ -349,7 +349,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | WS-P13 | Creative production | 0.5–3.0 | 0.5–3.0 | $40–$240 |
 | **Total** | | **90.0–249.5 h** | **83.2–217.2 h** | **$7,200–$19,960** |
 
-The high ends can't all happen in the same month: WS's high-end share (~217 h) is more than one full-time month (~164–195 h). Treat the low-to-mid range as more realistic and confirm with a time log (see 11).
+The high ends can't all happen in the same month: WS's high-end share (~217 h) is more than one full-time month (~164–195 h). Treat the low-to-mid range as more realistic and confirm with a time log.
 
 ## 3. Pain points and problems
 
@@ -532,60 +532,6 @@ Ties are broken by Ease, then Impact, then hours saved. Augmentation beats autom
 | Landing page / designer coordination | Tati (Tatiana Stinson, Coordinator) | not stated |
 | Pre-sales expectations (creatives, website) | Sales – Jethro Jason (new Growth Strategy Lead) | Resets with each sales hire |
 
-## 11. Follow-ups
-
-**Questions**
-- Wendlley: how long are the Tue/Thu/Fri WIPs and who attends? How long does a quarterly review take now with AI vs before, and which AI tool?
-- Wendlley: how many new paid clients a month, and how many strategy reviews land on you?
-- Wendlley: which of your 18 channels are outside Google/Meta? Which overspends happened, when, and by how much?
-- Wendlley: is the Meta pacing sheet working? (Brief and Shrishti's interview say it broke when Supermetrics lapsed and you now do Meta pacing manually in Claude daily – not mentioned here.) How long does that take?
-- Wendlley: which Tier 1 account did you inherit, and who owns it long term?
-- Julia / Joe: will the Head of Performance role be backfilled? Who sets channel caps per manager?
-- Jethro (Sales): is there a written pre-sales checklist (website live, creative supply, landing pages)?
-- Michaela and Tatiana (she recommended both): implementation detail – builds, pacing, landing page coordination.
-
-**Contradictions**
-- Brief / Shrishti's interview: Wendlley does Meta pacing manually in Claude every day since Supermetrics lapsed → here she says only "then we created a meta one" (L518) and mentions neither a broken sheet nor Claude.
-- Context pack: pacing adjustments ~15–20 min per account (Shrishti) → she says budget changes are "pretty easy" (L302); the time is in the analysis (L305). Different step, not necessarily a contradiction.
-- Tickets: "we created this flow in HubSpot about tickets" (L367) vs "we migrated from HubSpot to Monday" (L378).
-- The context pack has no Head of Performance; "JP" left ~2 weeks before this interview.
-- Austin's Evidence Log notes say a forecasting tool "would streamline how to manage staff … increasing revenue per employee" – not found in the transcript (likely Austin's interpretation).
-- Combined high-end hours (WS share ~217 h/month) exceed one FTE – the assumptions can't all be at their high end together.
-
-**Data / artefacts to request**
-- Google and Meta pacing sheets, plus the list of channels outside them (Wendlley).
-- Performance WIP doc (Wendlley).
-- One AI-generated quarterly review and the prompt / workflow behind it (Wendlley).
-- Gemini forecasting prompt and one output (Wendlley).
-- Overspend incident log (Wendlley / Julia).
-- Underperformance ticket history – HubSpot and/or Monday.com (Wendlley).
-- Notion paid-media onboarding SOP (Wendlley).
-- A one-week time log for WS (to firm up the 50/50 split and the process hours).
-
-**Claims to verify before the pack**
-- "Two months with no website" – which client, and the hours spent.
-- Landing page cost ~$1,500 and who builds them (she was unsure: "two or one").
-- That all four of her clients are Tier 1 ("because they are tier one clients as well", L123).
-- Speaker attribution – labels were messy; WS quotes were checked by content.
-
-**Supplementary source – Meta pacing troubleshooting call (2026-11-04, from Hayley's recording)**
-
-Source: `/home/claude/HT/transcript-session2-wendlley.md` – a ~26-minute call between Austin and Wendlley (S2 L389–L919) that continued on Hayley Tantau's 4 Nov recording. Quotes are tagged "S2 L###"; ~mm:ss is the timestamp in that recording (estimated). Speaker labels: Wendlley = F / J / Q (plus stray single-line labels); Austin = I / L. Not used to change the Part A tables or JSON above – added as a supplement.
-
-| Value / fact | Context | Quote + timestamp | Certainty |
-|---|---|---|---|
-| Supermetrics not cancelled, but its Google Sheets connection keeps dropping | Meta pacing sheet stops filling in | "Apparently we're not canceling SupraMetrics [Supermetrics], so that's fine" ~34:27 (S2 L409); "It just disconnects for some reason." ~36:20 (S2 L451) | stated |
-| WS fills the Meta pacing sheet with Claude because Supermetrics isn't working | Confirms the brief / Shrishti finding that the Director does Meta pacing by hand in Claude | "the cloud [Claude] i was doing because the supermetrics was not working" ~35:22 (S2 L434) | stated |
-| Daily routine: she asks Claude to pull this month's spend from Ads Manager and fill the sheet | Manual prompt each morning; minutes per day not stated | "I'm just saying Claude, go to Ads Manager. get like a report, get all of these [spends] for this month for these clients and populate here for me." ~47:17–47:20 (S2 L644–L645) | stated (time not stated) |
-| Client input tab of the pacing sheet is kept by hand | Client list and monthly media spend typed in | "This is currently manual." ~40:19 (S2 L540) | stated |
-| The founder wants the pacing list fed from HubSpot active clients, but HubSpot names don't match ad account names (some accounts are only numbers) | Blocks automation; unmatched clients go unnoticed | "some accounting ads manager like doesn't even have a name. It's just numbers" ~41:52–41:58 (S2 L563–L565) | stated |
-| WS asked for the same for Google and every other channel (ChatGPT ads, Pinterest, LinkedIn, Criteo, Bing) | Supports WS-PP02 / WS-O01 | "we need to create for other that accounts like other channels as well, like [ChatGPT]" ~45:20 (S2 L614) | stated |
-| Austin set up a scheduled Claude task to update the Meta pacing sheet daily at 7:30 am Melbourne time (interim fix) | Interviewer-built workaround; Supermetrics connector needs Joe's approval | Austin: "Everyday at 7:30 Melbourne time." ~55:16 (S2 L825) | stated |
-| Meta connector couldn't read 4 accounts (incl. Five Good Friends – not yet rolled out by Meta) and 2 accounts (Alzburg, Slidetrack) weren't visible to her login | Remaining gaps still need manual or Supermetrics coverage | Austin: "the Metas can't read four accounts yet. And then two accounts don't appear at all." ~55:55–55:58 (S2 L835–L836) | stated |
-| Google pacing runs on a script and is working | Contrasts with "Google stays manual" in the Shrishti extraction | "This one is using a script It is working, yeah." ~59:13 (S2 L899) | stated |
-
-**Effect on this extraction:** confirms the brief's known fact (manual Meta pacing in Claude since the Supermetrics connection failed – but the subscription itself was not cancelled), resolves the section 11 contradiction, and adds a match to "Meta pacing sheet is broken – Supermetrics connector failing". It also adds a likely new problem: client names in HubSpot don't match ad account names, so the pacing list can't be built automatically and missing clients go unnoticed. Daily minutes for the Claude routine weren't stated – still to confirm. **COI note:** Austin built the interim fix and said he would fix it properly "when … Joe hires me" (~53:46, S2 L799) – flag for WS-O01.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -595,13 +541,3 @@ Source: `/home/claude/HT/transcript-session2-wendlley.md` – a ~26-minute call 
 | Unnamed client with no website | unknown | Two months of strategy work with no live website (L710) |
 | Unnamed client on Criteo ("one mutual client" – possibly MUJI) | Possibly Tier 2 (MUJI) – unresolved | The only Criteo account (L524–L525) |
 | Unnamed client with location budgets ("for parks") | unknown | Client-agreed budgets per location limit where budget can move (L566–L568) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: stretched but cooperative and constructive.** She had been unwell for over a week, described herself as "stretched out too much basically" ~06:03 (L092), was protective of manual budget control, and finished positively: "Looking forward to hearing more of what you can come up with." ~62:49 (L828).
-- **Former Head of Performance (JP):** she said he left ~2 weeks ago "because he was not meeting the APIs [KPIs] that we needed" ~12:53 (L169); Austin added he was meant to be a very senior hire that "just didn't work out" (L165). Keep out of the pack.
-- **Junior team members:** "There are some people in the team that are … not very strong or they are not senior yet so like they've been needing a lot of mentoring" ~11:31 (L157). No names given.
-- **Founder bypassing process:** "I've tried to tell Joe, like, Joe, you're skipping like this process that we have in place" ~19:40 (L243).
-- **Accountability pressure from the founder:** "if something goes wrong, he's going to ask me what happens. … Why were you not aware of it?" ~18:02 (L218–L221).
-- **Sales turnover:** "as we changed quite often the sales team, I still need to make sure that Jethro knows about this." ~52:19 (L671).
-- **Staff assessment beyond retention is gut feel:** "Yeah, I have a sense feel as well, like of how the person is performing." ~34:34 (L413).

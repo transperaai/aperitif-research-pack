@@ -1641,39 +1641,5 @@
       "who_role": "Karl (per Austin's description)",
       "if_absent": "Publishers unpaid; delays"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Tonie: how often is a ~1,000-lead QA batch run and how long does it take?",
-      "Tonie: minutes to allocate one domain and to send an internal vs external order?",
-      "Tonie: replacement requests and 'has issues' flags per month?",
-      "Tonie: what does 'dynamic clients' mean; is 'parking car rentals' Bargain Car Rentals?",
-      "Tonie: what did 'It is me' (L251) mean – any publisher payments?",
-      "Karl: batch approval time; why skill-passed leads are declined; criteria missing from the skill?",
-      "Karl / Laura: link cost vs client price for dynamic clients?",
-      "Account managers: what were the concerns about October's Monday.com entries?"
-    ],
-    "contradictions": [
-      "Context pack: Tonie reports to Sid; transcript: all approvals go to Karl, Sid not mentioned",
-      "Context pack: live checks stopped after April; Tonie uses a link-status extension at publication (doesn't cover later removal)",
-      "Context pack shape 'SEO manager orders → outreacher sources site' vs Tonie sources, Karl approves, Tonie allocates and orders",
-      "'Tier 1 leads' (single-niche sites) vs 'Tier 1 clients' – same label, two meanings",
-      "Same skill, different results (54 vs 27)",
-      "Low-end hours (~47 h) can't fill a full-time role described as her whole day"
-    ],
-    "data_requests": [
-      "All spreadsheets shown, with access (Tonie – agreed L457–L459)",
-      "Publishers list with prices (Tonie – agreed L186)",
-      "Both Claude lead-review skills (Tonie, Karl)",
-      "Approved/do-not-use lists for last two batches with Karl's decisions (Tonie)",
-      "Apps Script, link-status extension, Monday.com automation (Tonie)",
-      "Order book cost vs client price for BCR, Five Good Friends, Leaselab (Karl)"
-    ],
-    "verify": [
-      "32 approved of ~1,000 and 27 of 54 – check batch sheets",
-      "300–340 links/month – check order book",
-      "Publication 0–3 weeks and negotiation 1–2 weeks – check dates",
-      "'parking car rentals' = Bargain Car Rentals"
-    ]
-  }
+  ]
 }

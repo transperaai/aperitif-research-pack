@@ -1,20 +1,19 @@
 # Part A – Transcript extraction: Laura Shillington (SEO Director)
 - **Timestamps:** the transcript has no timestamps and no stated length. Length is estimated from word count: 3,590 words ÷ ~180 words per minute ≈ 20 min; the file is a cleaned transcript (filler removed), so the recording ran longer. Estimated length **20–30 min**. Every timestamp is written `~mm:ss (L###)`, placed by word position assuming a 25-minute midpoint, so allow ±20% (about ±5 min by the end). L### is the exact utterance number and is the reliable anchor.
-- **Speakers:** two speakers, Laura and Austin, taken from the file's speaker labels (reliable per Austin). 103 utterances (L001–L103); Austin spoke about 34% of the words. The file header says the source had no speaker labels; the labels in the file were used as given.
+- **Speakers:** two speakers, Laura and Austin, taken from the file's speaker labels. 103 utterances (L001–L103); Austin spoke about 34% of the words. The file header says the source had no speaker labels; the labels in the file were used as given.
 - **Name and term corrections (transcription):** "Carl" → Karl (Karl Zaharopoulos, Senior SEO Manager & Link-building Lead) at L030, L044, L066, L076, L088, L092 and L100; "Agency Analytics" → AgencyAnalytics; "Sid and Spencer" → Sid Bali and Spencer Potts (tech team); "Sarah" → Sarah Julian (Content Manager). "Grace Cellar [unclear]" (L005) left as heard and flagged. "OMG" (Laura's previous agency) and "DDG" (Austin's former workplace) kept as said.
-- **Corrections applied 6 Nov per Austin:** "Carl" = Karl. The manager who resigned last week with 19 clients is Nadiya Hisham per the context pack (Laura did not name her); her reasons are in section 12 only.
+- **Name corrections:** "Carl" = Karl. The manager who resigned last week with 19 clients is Nadiya Hisham per the context pack (Laura did not name her).
 
 ## 0. Interview card
 | Field | Detail |
 |---|---|
 | Interviewee | Laura Shillington |
 | Role / team | SEO Director, Organic |
-| Date / length | Wed 28 Oct 2026; 3,590 words (cleaned). Length estimated 20–30 min (not stated). Evidence Log row EV-3: https://app.notion.com/p/40fe204ff76981f09398c36ba6dc5cdd |
+| Date / length | Wed 28 Oct 2026; 3,590 words (cleaned). Length estimated 20–30 min (not stated). Evidence Log row EV-3 |
 | Clients managed | 12 own clients (3 enterprise); team members carry 9–19 each (L009, L013, L088). One team manager with 19 clients resigned last week: Nadiya Hisham per context pack (L013). |
 | Services | SEO strategy and roadmap, technical audit, content briefs and delivery, link building, monthly and 6-month reviews |
 | Reports to | Julia Van Der Linden, Head of Client Services (context pack; not discussed) |
 | Hands work to / receives from | Tech team (Sid, Spencer, two new hires), Content Manager Sarah and writers, link building under Karl; receives documents and questions from SEO managers; performance team awareness is "pretty basic" (L058) |
-| Austin's notes (corroboration only) | 60/40 split, 12 clients, client portal, cross-sell, talk to Karl, Sid, Spencer – all consistent with the transcript |
 | Costing basis | Process hours are mostly assumed (Laura gave few times). Scope: Laura's own portfolio and her team role; other managers' portfolios not costed. |
 
 ## 1. Five-line summary
@@ -397,35 +396,6 @@ Tag note: LS-O03 and LS-O09 are Impact 3 with Ease 3, which no tag covers; both 
 | Performance-check routine | Technical SEO (Sid) taught it; team runs it | Laura still checks by hand; routine not documented here (L060) |
 | Capacity model | SEO Director | Hiring and handover timing lose their basis |
 
-## 11. Follow-ups
-- **Questions:**
-  - Laura: how many new clients a month, and how many of the 12 are "smaller"? Which are the three enterprise clients?
-  - Laura: cadence of calls and performance checks per tier (weekly or monthly), so P07/P08 hours can be firmed up.
-  - Karl: active-work versus waiting split inside the 1–2 month link cycle (Laura deferred, L092).
-  - Sarah / Laura: what a good content brief contains and how many briefs a month the team writes.
-  - Sid / Spencer: what tech audit work is automatable (Laura, L096); confirm Spencer's role (Laura places him in the tech team).
-  - Who is the "tech guy" growing into a client-facing role (L056)? Not named.
-  - Which client has paused content (L074) and which resellers are in-housing (L084)?
-- **Contradictions:**
-  - Laura first says 70% own clients (L003), then revises to 60/40 (L007); Austin's notes record 60/40. Consistent once revised.
-  - Austin's wrap-up (L095) suggests little room to save time in organic; Laura agrees only "for strategy" and then lists briefs, content sheets, link building and slides. Austin's framing was leading.
-  - Laura has "three enterprise clients" (L088) but says "If it were just the clients it would be totally fine" (L011); smaller clients are the main time sink (L080). Both can be true; hours by client not given.
-  - Context pack says Laura reports to Julia and Karl reports to Laura; not discussed in this interview. HTML header says "no speaker labels in the source", Austin states labels are reliable; treated as reliable.
-  - Pack says Spencer Potts has no clear role; Laura places Spencer on the tech team (L100).
-- **Data or artefacts to request:**
-  - Capacity model (Laura)
-  - Role matrix for SEO / tech / content (Laura offered to send, L052)
-  - Example 6-month review deck (Laura showed one, L070)
-  - Monthly report template with last page (Laura)
-  - Pricing calculator and Master SEO Document sample (Laura / Zach)
-  - Link counts by month, Jan to now (Karl / order book)
-  - Client list with tier, retainer and group (Laura / Julia)
-- **Claims to verify before the pack:**
-  - All process touch times are assumed; confirm with Laura before using costs in the pack.
-  - LS-only hours (125.5–198 h) exceed an assumed 150–170 h working month at the high end; ranges overlap and are not additive.
-  - Interview length and every ~mm:ss timestamp are estimates (see section 0).
-  - "Carl" = Karl Zaharopoulos per Austin.
-
 ## 11a. Clients mentioned
 | Client | Tier (context pack) | What was said |
 |---|---|---|
@@ -434,11 +404,3 @@ Tag note: LS-O03 and LS-O09 are Impact 3 with Ease 3, which no tag covers; both 
 | Unnamed client with paused content | Not stated | Staff left the client; many internal approvals; work moved to links (L074) |
 | Unnamed reseller / white-label agencies (2–3) | Not stated | Trying to bring work in-house using Aperitif's work (L084) |
 | DDG (Austin's former workplace, L063) | Not a client mention | Anecdote on seasonal dip needing narrative. The pack has a client "DDEG"; Austin was speaking about his own past, so not logged as a client. |
-
-## 12. Sensitive notes (not for the pack)
-- **Resignation and pay.** Laura volunteered that the manager with 19 clients resigned last week (Nadiya Hisham per context pack): "She was the one with 19 and she said it was the workload, but there were other factors too; she was offered a much higher salary." ~03:13 (L013) Laura prefaced it with "I'm not sure if I should mention it". Treat as confidential: it links workload, attrition risk and pay competitiveness, and the pack lists this person as still owning templates and ~34% of 2026 briefing.
-- **Comments on a direct report.** On link building she says the Lead is "trying to improve efficiency" but still does a lot manually ("he's been trying to improve efficiency, but he still has to do a lot manually." ~21:55 (L088)) and that she and Karl are "too busy" to share knowledge (L044). She also said Karl raised the upsell-training idea in his performance review (L076) and described past review documents from him as hard to review (L066). Do not attribute these to Karl in the pack.
-- **Unnamed individuals.** One technical team member is becoming client-facing and is "keen to learn" (L056); another team member's AI-only work "was a mess" (L026, L038). Neither is named.
-- **Workload and sentiment.** Stretched but constructive and candid, guarded on a few points. She blames herself for keeping small clients ("Probably my own fault for not handing them over" ~20:17 (L080)) and described a past job as "It was my first agency and it was incredibly stressful." ~03:40 (L015) Possible strain: she wants more time for the team but is "a couple of hires away" (L003).
-- **Values and bias.** She is protective of human strategy and writing ("Staying true to our values", L036) and prefers manual review decks (L070). Austin's wrap-up question (L095) led her to a "not much room to save time" framing she only partly accepted; weigh her automation views with that in mind.
-- **Interviewer note.** Austin offered a landing-page builder (L039) and the client portal (L093); both are his ideas, marked as interviewer in section 5.

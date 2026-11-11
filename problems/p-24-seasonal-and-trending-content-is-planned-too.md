@@ -1,8 +1,7 @@
 ---
 id: P-24
 title: "Seasonal and trending content is planned too late to catch the peak"
-austin_call: "Solve now"
-austin_note: "can be connected to the AI client brain research agents"
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-16", "DS-32", "DS-33"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KZ-PP19", "KZ-PP20", "ZC-PP09", "ZC-PP15", "ZC-PP17"]
 theme: "Process / automation"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981e6ae3af6fc3a18a751
 ---
 
 # P-24 · Seasonal and trending content is planned too late to catch the peak
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | can be connected to the AI client brain research agents |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-16](../solutions/ds-16-seasonal-and-trending-content-radar-per-client.md), [DS-32](../solutions/ds-32-competitor-spy-per-client.md), [DS-33](../solutions/ds-33-macro-trend-tracker-per-client.md) |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Delivery / ops |
@@ -33,7 +30,7 @@ notion_id: 40fe204ff76981e6ae3af6fc3a18a751
 - Fixes: [DS-32 Competitor spy per client (split from DS-16)](../solutions/ds-32-competitor-spy-per-client.md) – competitor part
 - Fixes: [DS-33 Macro trend tracker per client (split from DS-16)](../solutions/ds-33-macro-trend-tracker-per-client.md) – news part
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [EI-19](../opportunities/README.md#ei-19) Seasonal & trending content radar per client – absorbed ([DS-16](../solutions/ds-16-seasonal-and-trending-content-radar-per-client.md))
 - [O-12](../opportunities/README.md#o-12) Cross-account performance monitor with draft diagnosis (paid and SEO) – addressed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-27](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md), [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md), [DS-23](../solutions/ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md))
@@ -44,8 +41,7 @@ notion_id: 40fe204ff76981e6ae3af6fc3a18a751
 
 - Cluster [C-15](../synthesis/clusters-and-root-causes.md#c-15): Seasonal, trending and competitor signals are spotted too late, by hand – raised by 2 staff + 0 leadership; confidence High.
 - Root cause [RC-02](../synthesis/clusters-and-root-causes.md#rc-02): Monitoring is human: nothing pushes signals on spend, performance, tracking, link status, trends or churn, so problems surface late.
-- Problems DB root cause: Content plans are set monthly from keyword research; nothing watches the calendar or industry news per client, so seasonal pages and news-driven posts are spotted by chance.
-- Merge notes: Stage 1 merge (6 Nov): Confirm → [C-15](../synthesis/clusters-and-root-causes.md#c-15). High by the 2-raises-with-stated-number rule (2 SEO managers). Widen to news and competitor signals. Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Content plans are set monthly from keyword research; nothing watches the calendar or industry news per client, so seasonal pages and news-driven posts are spotted by chance.
 
 ## Pain points (5)
 
@@ -60,6 +56,6 @@ notion_id: 40fe204ff76981e6ae3af6fc3a18a751
 - [ZC-PP17](../pain-points/README.md#zc-pp17) – News-driven content ideas depend on the manager spotting the story
   - *"the surcharge updates in Australia was headline news. So I managed to fast track that and get it in the pipeline as soon as possible."* – Zach Chamberlain, SEO Manager · staff-raised · [\~31:43 (L333)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L339) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Zach: 'I recently used Claude to create a seasonal collection page calendar for a flower delivery company. Our issue was that we were getting to these too late, and once work had been completed, we didn't fully capitalise on the peak of the season/event.' Zach: 'I'm sure there are many similar updates across the client industries we work on, where we are missing out on trending topics.' Karl: 'Automate seasonality for blogs'.

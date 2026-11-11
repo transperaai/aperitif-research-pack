@@ -4,7 +4,7 @@ title: "Landing page generator (ad landing pages, Aperitif-hosted)"
 team: "PPC"  # inferred: the page gives no "Team:" line
 bundle: "Standalone"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "Austin addition"
 opportunities: []
 earlier_ideas: ["EI-09 Landing page generator"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["KO-PP25", "SH-PP11", "WS-PP07", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
 value: "A new service offering (outsourced today at ~A$1,500 a page)"
-build_cost: "A$12,000"
-monthly: "A$1,500/month + hosting/tokens"
-notion_section: "Landing page generator"
 ---
 
 # DS-18 · Landing page generator
@@ -37,8 +34,6 @@ notion_section: "Landing page generator"
 | Pain points cited | [KO-PP25](../pain-points/README.md#ko-pp25), [SH-PP11](../pain-points/README.md#sh-pp11), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
 | Value | A new service offering (outsourced today at \~A\$1,500 a page) |
-| Build cost | A\$12,000 |
-| Monthly | A\$1,500/month + hosting/tokens |
 
 ## Vision
 
@@ -46,18 +41,11 @@ notion_section: "Landing page generator"
 >
 > Off-the-shelf builders (LanderLab, Leadpages, Unbounce) were compared; a custom generator is recommended so Aperitif can offer landing pages as a service.
 
-## Pricing & priority
-
-> **Priority: Impact 2 / 5 · Effort 2 / 5 (draft)** · Standalone
->
-> | Option | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Recommended – custom landing page generator** (brand cloning, Aperitif CRO templates, CMS for content and assets, Aperitif-hosted) | **A\$12,000** | **A\$1,500/month** maintenance + hosting/tokens |
-> | *For comparison – off-the-shelf builder* (e.g. LanderLab) with Aperitif templates | – | US\$119–239/month |
+## Decision
 
 **Decision (9 Nov):** add the landing page generator (Austin's earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
 
-## How it works (draft)
+## How it works
 
 1. The manager picks the client, campaign and offer.
 2. The generator pulls the client's brand, tone, style guide and USPs from the client brain ([DS-04](ds-04-ai-client-brain.md)), and the campaign's keywords and ad copy.
@@ -71,13 +59,13 @@ notion_section: "Landing page generator"
   - *"We don't have the capacity. And like we usually sell them to the clients as well."* – the performance director ([WS-PP14](../pain-points/README.md#ws-pp14)). Outsourced pages cost **\~\$1,500 each**, which is a barrier for clients.
 - Also related: clients sold without a working website ([WS-PP07](../pain-points/README.md#ws-pp07)) – a fast page can get a campaign live; client page changes break tracking ([SH-PP11](../pain-points/README.md#sh-pp11)) – pages Aperitif controls are tracked from the start.
 
-## Future state (draft)
+## Future state
 
 1. Landing pages are built in-house in hours, not outsourced over weeks.
 2. They become a product Aperitif can sell at a lower price with a better margin.
 3. Every page has tracking set up correctly from day one.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -85,15 +73,15 @@ notion_section: "Landing page generator"
 | Cost per landing page | \~\$1,500 outsourced ([WS-PP14](../pain-points/README.md#ws-pp14)) | Baseline in-house cost, then set |
 | Landing pages sold per month | Low – price barrier | Baseline, then set |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: a new service offering and a capability gain.** Landing pages are outsourced today at \~A\$1,500 each, campaigns wait while they're built, and some clients won't pay that price. With an in-house generator Aperitif can build branded, CRO-structured pages itself, launch campaigns sooner, and sell landing pages as a service. No figures claimed.
 
 **Goals:** good performance · good customer service · more MRR managed per person
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

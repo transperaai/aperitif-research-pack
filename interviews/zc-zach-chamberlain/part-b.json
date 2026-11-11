@@ -2477,37 +2477,5 @@
       "who_role": "Senior SEO Manager & Link-building Lead (Karl)",
       "if_absent": "Brand-mention / premium service ideas don't start"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Zach: briefs and content pieces handled in October; minutes per brief end to end",
-      "Zach: client calls per month and prep time",
-      "Zach: time per 6-month review and number due monthly",
-      "Zach: time for the Monday check and how often it's skipped",
-      "Sid: who maintains the Claude brief project; how many managers use it to generate briefs",
-      "Karl: status of PR-style link service talks; appetite for brand-mention outreach; owner of post-publish live checks",
-      "Who approves swapping SEO hours to dev hours?"
-    ],
-    "contradictions": [
-      "Context pack: Karl's guide ~75–90 min vs session title '60 minutes' and Zach 'a little bit longer than 60 minutes' – broadly consistent",
-      "Austin's playback assumed Tier 1/2 ad hoc work; Zach has no Tier 1/2 clients",
-      "'I spoke to Kyle' (L060) – almost certainly Karl",
-      "High-end hours (~159 h/month) exceed one FTE while Zach says months are 'pretty comfortable'"
-    ],
-    "data_requests": [
-      "Karl's Claude keyword research / strategy training document (Zach agreed to send)",
-      "Sid's Claude brief project instructions and a sample brief (Sid / Zach)",
-      "Zach's client-preferences Google Doc and one internal run sheet",
-      "Regulated-client guidelines run sheet (Zach)",
-      "Flower-delivery seasonal content calendar (Zach)",
-      "Content tracker export for October – sent/approved dates (Sarah Julian / Zach)",
-      "Zach's October 2026 calendar"
-    ],
-    "verify": [
-      "Content approval averages ~1 week",
-      "Onboarding strategy ~3 days → just over 1 hour with Claude",
-      "'Shaq Electric' client name and tier",
-      "'staff style backlink building' (L479) – possibly 'PR-style'"
-    ]
-  }
+  ]
 }

@@ -1,8 +1,8 @@
 # Problems (48)
 
-Problems P-01..P-48 from the Problems database (Notion), with Austin's call and the ledger status. A "Not in proposal" call stays out even if a solution also helps; each has a note why.
+Problems P-01..P-48, with the decision on each (Solve now, Solve later, Not in proposal, Reject) and its status. A "Not in proposal" problem stays out even if a solution also helps; each has a short reason.
 
-| ID | Problem | Austin's call | Status | Fixed by | Also helped by | Pain points |
+| ID | Problem | Decision | Status | Fixed by | Also helped by | Pain points |
 | --- | --- | --- | --- | --- | --- | --- |
 | [P-01](p-01-meta-pacing-sheet-is-broken-supermetrics-connector.md) | Meta pacing sheet is broken – Supermetrics connector failing | Solve now | addressed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) | – | 6 |
 | [P-02](p-02-budgets-maintained-by-hand-in-three-places.md) | Budgets maintained by hand in three places; some channels (incl. LinkedIn) not tracked; a missed budget change cost a \$10K credit | Solve now | addressed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) | – | 9 |

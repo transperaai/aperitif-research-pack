@@ -4,7 +4,7 @@ title: "Client files and logins in company-owned shared locations, linked to eac
 team: "everyone (operations)"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
 status: "Decided (as written) – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-30 (full)"]
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["SB-PP09", "SH-PP08"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Nothing lost when someone leaves"
-build_cost: "Free"
-monthly: "none"
-notion_section: "Client files and logins in company-owned shared locations"
 ---
 
 # DS-17 · Client files and logins in company-owned shared locations
@@ -37,22 +34,12 @@ notion_section: "Client files and logins in company-owned shared locations"
 | Pain points cited | [SB-PP09](../pain-points/README.md#sb-pp09), [SH-PP08](../pain-points/README.md#sh-pp08) |
 | Written source | – |
 | Value | Nothing lost when someone leaves |
-| Build cost | Free |
-| Monthly | none |
 
 ## Vision
 
 > **Not really a build – a foundation: a good file structure and clean data.** It's kept in the pack because the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and the client brains ([DS-04](ds-04-ai-client-brain.md)) are only as good as the files and records they read. Same folder structure for every client, files in company-owned locations, logins in the shared vault, nothing on personal drives.
 
-## Pricing & priority
-
-> **Priority: Fill-in – do early (foundation) · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Client lifecycle
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Client files and logins in company-owned locations** – folder template, ownership transfer, LastPass per client, links from Monday and the brain | **A\$0 – free** | – (existing tools) |
->
-> *Staff time to move their files is separate.*
+## Decision
 
 **Decision (9 Nov):** adopt [O-30](../opportunities/README.md#o-30), **connected to the AI client brains ([DS-04](ds-04-ai-client-brain.md))** – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
 
@@ -88,7 +75,7 @@ notion_section: "Client files and logins in company-owned shared locations"
 | Client logins in the shared vault (not HubSpot or personal) | Migration unfinished ([SB-PP09](../pain-points/README.md#sb-pp09)) | 100% |
 | Time to find a client's documents on handover | "trying to find documents" ([SH-PP08](../pain-points/README.md#sh-pp08)) | \< 2 min |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: visibility and risk.** Every client's files and logins live in company-owned locations linked to the client, so nothing is lost when someone leaves and anyone can find what they need. No hours claimed.
 
@@ -96,9 +83,9 @@ notion_section: "Client files and logins in company-owned shared locations"
 
 **Goals:** trust · good customer service
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

@@ -5,7 +5,6 @@
 | Role | SEO Director |
 | Team | Organic |
 | Date | 2026-10-28 |
-| Length | \~25 min |
 | Clients managed | 12 |
 
 ## Files

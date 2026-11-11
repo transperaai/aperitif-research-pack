@@ -5,7 +5,6 @@
 | Role | Senior Performance Marketing Manager |
 | Team | Performance |
 | Date | 2026-10-29 |
-| Length | \~60 min |
 | Clients managed | 12 |
 
 ## Files

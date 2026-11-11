@@ -2,17 +2,17 @@
 
 The full research behind the AI and business audit of **Aperitif**, a \~27-person Australian digital agency (paid media, SEO, content, link building). Audit by Austin Smith for Joe Romeo (founder), November 2026. Nothing is anonymised: names and roles are real.
 
-It traces every recommendation back to what people said in interviews: transcripts → pain points → problems → opportunities → Austin's decisions → solutions. Read [START-HERE.md](START-HERE.md) first.
+It traces every recommendation back to what people said in interviews: transcripts → pain points → problems → opportunities → decisions → solutions → builds. Read [START-HERE.md](START-HERE.md) first.
 
 ## Contents
 
-- [Builds and pricing](builds/README.md) – **current (11 Nov):** the 32 solutions consolidated into 18 builds, with prices, maintenance, running costs, dollar value and start order
+- [Builds and pricing](builds/README.md) – the 32 solutions consolidated into 18 builds in 9 bundles, with prices, maintenance, running costs, dollar value and start order
 - [Value by bundle](VALUE-BY-BUNDLE.md) – time saved, capacity, DLER, evidence and basis for every solution
 - [How everything connects](#how-everything-connects)
 - [How the solutions connect](#how-the-solutions-connect)
 - [How it is organised](#how-it-is-organised)
 - [How to read it](#how-to-read-it)
-- [If you are an AI](#if-you-are-an-ai)
+- [Using this repo with an AI tool](#using-this-repo-with-an-ai-tool)
 
 ## How everything connects
 
@@ -26,12 +26,12 @@ flowchart TD
   CL --> P["48 problems"]
   P --> RO["143 raw ideas"]
   RO --> O["35 merged opportunities<br/>+ 21 earlier ideas"]
-  O --> D{"Austin's decisions"}
+  O --> D{"Decisions"}
   D -->|kept| DS["32 solutions<br/>DS-01 to DS-33"]
-  D -->|dropped| NR["Not recommending<br/>and dropped ideas"]
+  D -->|dropped| NR["Dropped ideas"]
   P -->|people and culture| CR["Culture recommendations"]
   DS --> B["9 bundles"]
-  DS --> PR["Pricing & priority"]
+  DS --> PR["18 builds<br/>pricing and start order"]
 ```
 
 ## How the solutions connect
@@ -76,27 +76,26 @@ flowchart LR
 
 | Folder | What is in it |
 | --- | --- |
-| [builds/](builds/README.md) | **Current (11 Nov):** 18 consolidated builds – prices, maintenance, OpEx, dollar value, phases – plus `builds.csv` and `builds.json` |
-| [solutions/](solutions/README.md) | One file per solution DS-01..DS-33, with front matter and the one-pager; index grouped by bundle |
-| [problems/](problems/README.md) | One file per problem P-01..P-48: Austin's call, status, solutions, pain points with quotes, root cause |
+| [builds/](builds/README.md) | 18 consolidated builds – prices, maintenance, OpEx, dollar value, phases – plus `builds.csv` and `builds.json` |
+| [solutions/](solutions/README.md) | One file per solution DS-01..DS-33, with front matter and the one-pager; index grouped by bundle. Pricing is in builds/ |
+| [problems/](problems/README.md) | One file per problem P-01..P-48: decision, status, solutions, pain points with quotes, root cause |
 | [pain-points/](pain-points/README.md) | All 243 pain points grouped by interview, plus `pain-points.csv` |
 | [opportunities/](opportunities/README.md) | Merged opportunities O-01..O-35 and earlier ideas EI-01..EI-21, with decision and reason, plus CSV |
 | [interviews/](interviews/README.md) | One folder per interview: transcript, extraction report, structured JSON |
-| [decisions/](decisions/README.md) | Decision ledger (CSV/JSON), Austin's decisions log, not-recommending list |
 | [synthesis/](synthesis/README.md) | Merge outputs: clusters, root causes, contradictions, opportunities, findings, culture and strengths |
-| [method/](method/README.md) | Prompts, method notes, independent audit and quote checks, gaps and issues, raw exports |
-| [pack/](pack/README.md) | Drafts of the client pack content (when present) |
+| [method/](method/README.md) | How the research was done, and the conventions used for value and evidence |
+| [pack/](pack/README.md) | The client pack pages: strengths, culture, scope and method, risks, assumptions, glossary, bundles |
 | [data/](data/README.md) | Machine-readable JSON: solutions map, bundles, problems, pain points, interviews |
 
 ## How to read it
 
 - **Browsing:** start at [START-HERE.md](START-HERE.md), open a bundle, then a solution. Each solution links to the problems it fixes; each problem lists its pain points with the quote, the person and a link to the exact transcript line.
 - **Checking a claim:** follow the IDs down to the quote, then to the transcript. If a quote is interviewer-raised or inferred, it is labelled.
-- **Status of anything:** [decisions/ledger.csv](decisions/ledger.csv) has one row per item with status and reason.
+- **Status of anything:** each problem file, [pain-points.csv](pain-points/pain-points.csv) and [opportunities.csv](opportunities/opportunities.csv) carry the status and reason.
 
-## If you are an AI
+## Using this repo with an AI tool
 
-You are reading a structured evidence base. Use it like this.
+If you load this repo into an AI tool, it is a structured evidence base. Use it like this.
 
 **Layers (bottom to top):**
 
@@ -104,10 +103,10 @@ You are reading a structured evidence base. Use it like this.
 2. **PP** pain points – `KO-PP01`, `SB-PP04` … The prefix is the interview code (SD = Shrishti Dokwal; KO = leadership kick-off; MP = leadership mid-point). Index: `pain-points/README.md`, data: `pain-points/pain-points.csv`.
 3. **P** problems – `P-01`..`P-48` (Problems database). Several pain points roll up into one problem. Files: `problems/p-xx-*.md`. Stage 1 clusters are `C-xx`, root causes `RC-xx`, contradictions `X-xx` (`synthesis/`).
 4. **O** merged opportunities – `O-01`..`O-35` (Stage 2), built from per-interview ideas such as `SB-O02`. **EI** – `EI-01`..`EI-21`, Austin's earlier ideas. Both in `opportunities/`.
-5. **DS** solutions – `DS-01`..`DS-33`, Austin's final recommendations (`solutions/`). DS-13 is merged into DS-14. **NR** = not recommending.
+5. **DS** solutions – `DS-01`..`DS-33`, the recommendations (`solutions/`). DS-13 is covered by DS-14 (Part B). The 32 solutions are delivered as 18 builds (`builds/`).
 6. **X** contradictions – `X-01`..`X-31`: where two sources disagree (`synthesis/contradictions.md`). Also `WS-ZC-01` = Zach Chamberlain's written "AI suggestions" Google Doc (not in the repo).
 
-**Following evidence:** down = DS front matter → `problems_fixed` → problem file → pain points → quote and transcript line. Up = pain point → its problem → the DS that fixes it (`status` / `addressed_by` in the CSV). `decisions/ledger.json` has `links_up` and `links_down` for every row; `data/ds_map.json` is the solutions map.
+**Following evidence:** down = DS front matter → `problems_fixed` → problem file → pain points → quote and transcript line. Up = pain point → its problem → the DS that fixes it (`status` / `addressed_by` in the CSV). `data/ds_map.json` is the solutions map.
 
 **Source types of a pain point:**
 
@@ -120,12 +119,9 @@ You are reading a structured evidence base. Use it like this.
 **Rules:**
 
 - Cite IDs for every claim (e.g. "DS-06 fixes P-16; evidence SB-PP04, stated").
-- Do not treat assumptions as facts. Current prices, maintenance, running costs and dollar values come from builds/README.md (11 Nov, 18 consolidated builds); the research basis behind each value is in VALUE-BY-BUNDLE.md. Do not invent figures, and never add time and capacity together. Prices in individual solution files and any cost-of-inactivity (COI) figure elsewhere are superseded.
-- Austin's calls are decisions, not evidence. A *Not in proposal* problem stays out even if a solution "also helps".
-- Where sources conflict, check `synthesis/contradictions.md` and `method/gaps-and-issues.md` before stating a fact.
-- Merge outputs (Stage 1–3, 6 Nov) predate Austin's decisions; the ledger and solution files are current.
-- In the synthesis and merge documents (`synthesis/`, `method/merge-prompt.md`), **COI means conflict of interest** (Transpera could build the fix, or Austin has a link to it) – not cost of inactivity.
+- Do not treat assumptions as facts. Current prices, maintenance, running costs and dollar values come from builds/README.md (11 Nov, 18 consolidated builds); the research basis behind each value is in VALUE-BY-BUNDLE.md. Do not invent figures, and never add time and capacity together. Hour and dollar figures in the synthesis files are earlier research estimates; use builds/README.md for current figures.
+- Decisions are not evidence. A *Not in proposal* problem stays out even if a solution "also helps".
+- Where sources conflict, check `synthesis/contradictions.md` before stating a fact.
+- The synthesis outputs (Stage 1–3, 6 Nov) came before the decisions; the problem, solution and build files are current.
+- In the synthesis documents (`synthesis/`), **COI means conflict of interest** (Transpera could build the fix, or Austin has a link to it) – not cost of inactivity.
 
-## Regenerating
-
-This repo is generated. Do not edit files by hand; change the sources and re-run the build script (`build_repo.py`, kept with the sources, not in this repo). Reasons Austin marked internal on his page are withheld; the suggested wording for Joe is kept. Source hashes for the current build are in [data/build-info.json](data/build-info.json).

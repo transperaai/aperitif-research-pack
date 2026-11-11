@@ -2800,36 +2800,5 @@
       "who_role": "Head of Client Services (Julia Van Der Linden)",
       "if_absent": "Overload rests with each manager"
     }
-  ],
-  "follow_ups": {
-    "questions": [
-      "Which of the 14 clients are Tier 1/2/3 and how many calls a month?",
-      "Month-end allocation analysis time per client; share needing approval vs FYI?",
-      "What does 'every 12' (L076) mean; FGF reconciliation time?",
-      "Wendlley: who owns and maintains the Tina Slack agent, and is it documented? How long does the daily manual Meta pacing in Claude take?",
-      "When did Supermetrics lapse and who owns subscriptions?",
-      "Michaela/Tati: time per hygiene optimisation, SQR, campaign build"
-    ],
-    "contradictions": [
-      "easyAML listed under DM in context pack; SD calls it her client",
-      "FGF 'majority of my week's hours' vs 14-client book",
-      "Pacing 'twice a week' vs Monday/Wednesday/Friday",
-      "High-end SD hours (~197 h/month) exceed one FTE"
-    ],
-    "data_requests": [
-      "Campaign strategy brief templates – Google, Meta, short version (Shrishti)",
-      "Client campaign brief template (Shrishti)",
-      "Budget recs sheet and Pacing Sheet for one month (Shrishti)",
-      "Sample Tina-bot M/W/F pacing update (Wendlley) and mid-month flag (Tatiana)",
-      "Onboarding audit and launch checklists (Shrishti / Wendlley)",
-      "Monday.com brief→done→reviewed dates for one month (Wendlley)",
-      "SD calendar Oct 2026"
-    ],
-    "verify": [
-      "1 h–1 h 15 prep/follow-up per 30-min call",
-      "15–20 min per pacing adjustment",
-      "Onboarding ≥ 1 week after access; launch ≥ 1 week",
-      "Whether 'Holstroms' is a client"
-    ]
-  }
+  ]
 }

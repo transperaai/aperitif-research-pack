@@ -1,10 +1,10 @@
 ---
 id: DS-16
-title: "Seasonal & trending content radar per client (split 9 Nov)"
+title: "Seasonal & trending content radar per client"
 team: "SEO and content strategists"  # inferred: the page gives no "Team:" line
 bundle: "Market intelligence"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-28 (seasonal & trending part)"]
 earlier_ideas: ["EI-19 Seasonal & trending content radar per client"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["KZ-PP19", "KZ-PP20", "ZC-PP09", "ZC-PP15", "ZC-PP17"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Content lands before the peak, not after"
-build_cost: "A$750"
-monthly: "A$300/month (+ trends data ~US$20–100 if needed)"
-notion_section: "Per-client market radar → now: Seasonal & trending content radar"
 ---
 
 # DS-16 · Per-client market radar → now: Seasonal & trending content radar
@@ -37,20 +34,12 @@ notion_section: "Per-client market radar → now: Seasonal & trending content ra
 | Pain points cited | [KZ-PP19](../pain-points/README.md#kz-pp19), [KZ-PP20](../pain-points/README.md#kz-pp20), [ZC-PP09](../pain-points/README.md#zc-pp09), [ZC-PP15](../pain-points/README.md#zc-pp15), [ZC-PP17](../pain-points/README.md#zc-pp17) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | Content lands before the peak, not after |
-| Build cost | A\$750 |
-| Monthly | A\$300/month (+ trends data \~US\$20–100 if needed) |
 
 ## Vision
 
-> **Split into three solutions (Austin's call, 9 Nov):** DS-16 is now the **seasonal & trending content radar**; the **competitor spy** is [DS-32](ds-32-competitor-spy-per-client.md) and the **macro trend tracker** is [DS-33](ds-33-macro-trend-tracker-per-client.md). Each one **lives in every client's brain** ([DS-04](ds-04-ai-client-brain.md)) and **alerts the strategist in Slack**. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
+> **One of three related solutions:** DS-16 is the **seasonal & trending content radar**; the **competitor spy** is [DS-32](ds-32-competitor-spy-per-client.md) and the **macro trend tracker** is [DS-33](ds-33-macro-trend-tracker-per-client.md). Each one **lives in every client's brain** ([DS-04](ds-04-ai-client-brain.md)) and **alerts the strategist in Slack**. The description below covers all three as originally written; DS-16's own scope is the seasonal & trending row.
 
-## Pricing & priority
-
-> **Priority: Impact 2 / 5 · Effort 3 / 5 (draft – confirm)** · Bundle: Market intelligence
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Seasonal & trending content radar** – a **Claude routine** connected to an MCP that uploads results into each AI client brain ([DS-04](ds-04-ai-client-brain.md)) and alerts the strategist in Slack | **A\$750** | **A\$300/month** maintenance (+ trends/search data source if needed, \~US\$20–100/month – to verify) |
+## Decision
 
 **Decision (9 Nov):** one radar **for each client** with three parts: a **seasonal and trending content radar**, a **competitor spy**, and a **macro trend tracker** for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and writes into each client brain ([DS-04](ds-04-ai-client-brain.md)).
 
@@ -95,7 +84,7 @@ All three post to the client's strategist (Slack/Monday) and are stored in the c
 | Clients with an active competitor watch | 0 ([ZC-PP15](../pain-points/README.md#zc-pp15)) | 100% |
 | Trend checks done by hand | Every 2–3 days for one client ([KZ-PP19](../pain-points/README.md#kz-pp19)) | 0 |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: ideas and a stronger service offering, not time saved.** People already watch trends and seasons by hand (Karl refreshes Google Trends for Disney every 2–3 days because he can't do it daily), but only for some clients and only when they have time. The radar does far more of this, for every client, every day – so content lands before the peak instead of after it (the World Series was missed), and managers bring clients timely ideas they didn't ask for. That makes the service more proactive and gives clients more reasons to stay and to buy more. No hours claimed.
 
@@ -103,9 +92,9 @@ All three post to the client's strategist (Slack/Monday) and are stored in the c
 
 **Goals:** good performance · good customer service · retention · trust
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

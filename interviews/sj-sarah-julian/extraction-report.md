@@ -1,11 +1,11 @@
 # Part A – Transcript extraction: Sarah Julian (Content Manager)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Sarah Julian – Workflow & Process Interview", 29 Oct 2026, 2:00 pm (Melbourne). Full transcript retrieved (349 utterances, 4,890 words, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- Transcript: meeting notes "Sarah Julian – Workflow & Process Interview", 29 Oct 2026, 2:00 pm (Melbourne). Full transcript retrieved (349 utterances, 4,890 words, ends at sign-off) – not truncated. The AI summary was not used as a source.
 - **Length:** not stated on the page. Estimated at **~30 min**: 4,890 words at the ~180 words/min rate of the Shrishti interview (9,730 words over ~54 min) ≈ 27 min, plus pauses while Sarah screen-shared the content sheet.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/SJ/transcript.md`; ~mm:ss is estimated from cumulative word position across the estimated ~30 minutes.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across the estimated ~30 minutes.
 - **Speakers:** the diariser labelled Austin as A and split Sarah across labels B, C, D, E, F, G, H and "unknown". All non-Austin lines are treated as Sarah. A few short lines labelled E read like Austin ("Yeah, no, that makes really good sense", L096; "Cool. So I guess...", L099) – none are used as evidence.
-- **Name and term corrections (transcription):** "Jo" → Joe (Romeo) · "Claw" (L128) → Claude (could also mean Joe's OpenClaw agents – see 11) · "Tina bot" (L125) → the Tina Slack agent bot (Joe's OpenClaw workspace), here described as checking industry statistics · "Monday" → Monday.com · "Sid" → Sid (Siddharth) Bali, Technical SEO Specialist · "rider" (L190) → writer · "shades / sheet" (L243, L247) → sheets · "tears" (L284) → tiers · "from the Dome" (L122–L123) → "from the dome" (written from her own head, no AI) · "Laura" → Laura Shillington, SEO Director (inferred – the only Laura in the context pack). Unresolved: "Superlative" (L041, Austin), "MS CRAWFORD" (L191, diariser artefact), "Things are June and stuff" (L065), "blind clients" (L144), "an advisor … they do liquidation" (L147–L148), "36 is more than 20,000" (L261) – see 11.
+- **Name and term corrections (transcription):** "Jo" → Joe (Romeo) · "Claw" (L128) → Claude (could also mean Joe's OpenClaw agents) · "Tina bot" (L125) → the Tina Slack agent bot (Joe's OpenClaw workspace), here described as checking industry statistics · "Monday" → Monday.com · "Sid" → Sid (Siddharth) Bali, Technical SEO Specialist · "rider" (L190) → writer · "shades / sheet" (L243, L247) → sheets · "tears" (L284) → tiers · "from the Dome" (L122–L123) → "from the dome" (written from her own head, no AI) · "Laura" → Laura Shillington, SEO Director (inferred – the only Laura in the context pack). Unresolved: "Superlative" (L041, Austin), "MS CRAWFORD" (L191, diariser artefact), "Things are June and stuff" (L065), "blind clients" (L144), "an advisor … they do liquidation" (L147–L148), "36 is more than 20,000" (L261).
 - **Writing time is not costed.** Sarah writes a large share of the content (37% of words per the context pack), but the interview gave no writing times. Processes below cost the briefing, admin, editing, approval and tracking work around the writing.
 - Hours are costed at **$80/hr internal labour cost**. Process totals include team time (client managers, the Content Specialist as second editor, the content team at workshops) where those people do steps in the process; the interviewee-only share is shown separately.
 - **Volume basis (assumed):** 45–55 content pieces a month (context pack: ~47 requests/month Jan–Oct 2026; Sarah: volume now ~100,000 words, L069) and 20–27 of them written by freelancers (context pack: contractors wrote 48% of words).
@@ -139,7 +139,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 - **Trigger:** each new month; each status change.
 - **Owner role:** SJ.
 - **Frequency:** monthly rollover plus continuous status updates.
-- **Tools / files:** master content spreadsheet (in use since Oct/Nov 2024 – see 11), overview tab, four freelancer trackers.
+- **Tools / files:** master content spreadsheet (in use since Oct/Nov 2024), overview tab, four freelancer trackers.
 
 | # | Step | Actor (role) | Tool / file | Touch time (min) | Wait time | Handoff to | Certainty |
 |---|---|---|---|---|---|---|---|
@@ -188,7 +188,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | SJ-P05 | Knowledge & SOPs (brief workshop) | 1.2–3.8 | 0.4–1.6 | $96–$304 |
 | **Total** | | **50.7–159.4 h** | **30.2–113.0 h** | **$4,056–$12,752** |
 
-Drafting is excluded. Sarah's own writing (~37% of ~93–100k words a month, per the context pack) would add a large block of time on top of SJ's 30–113 h, so the high end of the SJ share plus writing would exceed one full-time month. Treat the low-to-mid range as more realistic and confirm with timesheets and the sheet's volume data (see 11).
+Drafting is excluded. Sarah's own writing (~37% of ~93–100k words a month, per the context pack) would add a large block of time on top of SJ's 30–113 h, so the high end of the SJ share plus writing would exceed one full-time month. Treat the low-to-mid range as more realistic and confirm with timesheets and the sheet's volume data.
 
 ## 3. Pain points and problems
 
@@ -321,7 +321,7 @@ Ties are broken by Ease, then Impact, then the interviewee's own priority (SJ-O0
 | Value | Unit | Context | Quote + timestamp | Certainty |
 |---|---|---|---|---|
 | ~40,000 → ~100,000 | words per month | Content volume when Sarah started vs now | "It was like, 40,000 words or something and now we're like on 100,000" ~06:53 (L069) | stated |
-| 60 → 100 | thousand words per month (assumed unit) | Growth shown in the master sheet | "you can see how it's, like, grown already from 60 to 100" ~22:25 (L257) | stated (unit assumed) – differs from 40k start, see 11 |
+| 60 → 100 | thousand words per month (assumed unit) | Growth shown in the master sheet | "you can see how it's, like, grown already from 60 to 100" ~22:25 (L257) | stated (unit assumed) – differs from 40k start |
 | 20,000 | words per person per month | Individual KPI | "our KPI is 20,000 words per person." ~22:55 (L263) | stated |
 | 4 | freelancers | Current freelancer pool, each with their own sheet | "we've got like four freelancers at the moment." ~04:50 (L055) | stated |
 | 2 | freelancers on contract | Fixed number of words a month | "two of the freelancers are on contract. So they have a set number of words per month." ~27:14 (L307) | stated |
@@ -333,7 +333,7 @@ Ties are broken by Ease, then Impact, then the interviewee's own priority (SJ-O0
 | ~2 | working days | Lost when a delay falls on a Friday | "if it's a delay on a Friday, then that's already a whole weekend when you've effectively lost like two working days" ~10:11 (L118) | stated |
 | 1–2 | Tier 1 clients | Sarah works directly with | "maybe like two of our tier one clients, I have more direct interaction with them." ~18:04 (L188) | stated |
 | ~6 | months | Brief-process refresh cycle | "Every sort of six months or so we like workshop the content briefing process." ~10:40 (L124) | stated |
-| Oct / Nov 2024 | start date | Master content sheet in use since | "since, yeah, last year in October." ~22:07 (L249); "this is probably November from the year prior, 2024." ~22:21 (L254) | stated (two dates – see 11) |
+| Oct / Nov 2024 | start date | Master content sheet in use since | "since, yeah, last year in October." ~22:07 (L249); "this is probably November from the year prior, 2024." ~22:21 (L254) | stated (two dates) |
 | 200,000 | extra words (hypothetical) | Austin's capacity test – answer: more freelancers | Austin: "if I gave you another 200,000 words, you would probably faint" ~17:42 (L180) | interviewer hypothetical |
 | Blog over service pages | content mix | Service pages no longer written ("if"), focus on blogs | "especially if we're not even doing service pages anymore, if we're like focusing on writing blog content." ~13:43 (L140) | stated (hedged) |
 
@@ -355,42 +355,6 @@ Ties are broken by Ease, then Impact, then the interviewee's own priority (SJ-O0
 | Monday.com automation for content | Sid (Technical SEO Specialist) | Migration stalls |
 | Industry statistics bot | Joe (founder) – Tina / OpenClaw agent | Model for the research bot sits with the founder |
 
-## 11. Follow-ups
-
-**Questions**
-- Sarah: how many briefs a month, and what share go to freelancers? (needed to firm up SJ-P01–P03; the assumption is 45–55 and 20–27)
-- Sarah: how long do allocation, freelancer briefing (per piece) and editing (per freelancer piece) take? What share of briefs arrive late or change?
-- Sarah: how many clients and words does she write herself, and what share of her week is writing vs admin?
-- Sarah: who is "the other person in the content team" who edits (Hayley Tantau?), and which two freelancers are on contract (Jess Kidd and Chloe Moss?)
-- Sarah: who decides changes to the brief template, and who attends the six-monthly workshop?
-- Sid: what is the Monday.com plan for content (boards, forms, automations, Make) and when will the master sheet be retired?
-- Karl / Laura: who decides when to add freelancers, and is there an agreed client priority ranking?
-- Joe: what does the Tina bot do for industry statistics – is it the same Tina Slack agent that sends pacing and agenda updates?
-
-**Contradictions**
-- Start volume: "40,000 words" when she started (L069) vs the sheet showing growth "from 60 to 100" (L257) – different baselines or dates.
-- Sheet start date: "last year in October" (L249) vs "November … 2024" (L254).
-- Volume "100,000" words (L069) vs context pack ~93k words/month (Jan–Oct average) – consistent if 100k is current.
-- "Four freelancers" (L055, L307) vs the context pack's five contractor names (Chloe, Jess, Kayla, Aly, Ben).
-- Context pack describes Tina as the bot sending pacing and agenda reminders; here Joe's "Tina bot" "checks against all of the industry statistics" (L125) – either a different Tina agent or the same bot with several jobs.
-- She says admin "doesn't even dominate" (L104, L110) but also calls it "the most annoying part of this job" (L336) – the pain is frustration and error risk more than hours; the costing reflects this.
-
-**Data / artefacts to request**
-- Master content spreadsheet, including the overview tab (Sarah – agreed in the interview, L246, L327).
-- The four freelancer tracking sheets (Sarah – L309).
-- Current content brief template and the last workshop's changes (Sarah).
-- Monday.com content / freelancer board design (Sid – after the 30 Oct meeting).
-- Freelancer contracts or word commitments for the two contracted freelancers (Sarah / Karl).
-- A month of brief-drop dates vs allocation dates from the sheet (Sarah) – to measure the intake delay.
-
-**Claims to verify before the pack**
-- 40k → 100k words a month growth – check against the sheet's monthly totals.
-- Up-to-2-day delay on missed briefs – check brief-drop vs assignment dates.
-- 20,000-word KPI per person – check with Karl / Laura.
-- Austin's "I think 36 is more than 20,000" (L261) – unclear whether a writer is at ~36,000 words against the 20k KPI; check the sheet.
-- "Not doing service pages anymore" (L140) – hedged; confirm the content mix.
-- Unresolved transcription: "Superlative" (L041), "blind clients" (L144), "an advisor … they do liquidation" (L147–L148).
-
 ## 11a. Clients mentioned
 
 No client was named in the interview. Clients were referred to by industry or tier:
@@ -405,12 +369,3 @@ No client was named in the interview. Clients were referred to by industry or ti
 | "An advisor … they do liquidation" (Tier 2) | Tier 2 (as stated) | Would be good to have a knowledge bank for (L147–L148). Possibly HM Advisory (on the context pack's content client list, tier not given) – unconfirmed |
 | Education-based clients (a few, unnamed) | Unknown | Candidate industry for a knowledge bank (L150) |
 | Dental clients (a few, unnamed) | Unknown | Need up-to-date facts and compliance checks (L152–L154) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: engaged and constructive, frustrated with admin rather than stretched.** She is clear the writing is fine and the spreadsheets are the problem: "Like this is probably like the most annoying part of this job because obviously like I love the writing" ~29:36 (L336); "I didn't get into writing to freaking do maths." ~29:49 (L339). Positive about the audit: "Yeah, excited to Fix this." ~29:32 (L332). Mixed on capacity – "Yep" to feeling stretched (L160), then says it's mainly one demanding client and that volume growth could be absorbed with more freelancers (L184).
-- **Comment about a named colleague (Laura – likely Laura Shillington, SEO Director):** Sarah says she emails a client directly because Laura doesn't understand some content questions: "Yeah, also it's like, yeah, Laura doesn't really understand what's going on either." ~18:51 (L200); "So if she was going to try and explain it, it would take longer" ~19:01 (L203). Austin joked along (L201–L202). This is about a manager's grasp of content detail on one account – keep out of the pack verbatim. It supports the generic finding SJ-PP12 (relays lose detail).
-- She is protective of quality on clients she has worked on before ("I do need to read through all of the briefs", L165) – relevant to SJ-O06 (spreading editing).
-- She's self-aware about the sheet being a "band-aid" she has kept going; she may feel ownership of it (she calls it "My beautiful shades [sheets]", L243). Frame the sheet's retirement as her goal (L257), not a criticism.
-- Austin opened with a joke ("you can say you hate Joe") – nothing negative was said about Joe; she cites his Tina bot positively.
-- Nothing about pay was raised.

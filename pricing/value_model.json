@@ -1,5 +1,5 @@
 {
- "_method": "Value set with Austin solution by solution (10 Nov). capacity = freed hours per manager / ~130 productive h x MRR per manager. Bundle totals later.",
+ "_method": "Value worked out solution by solution (10 Nov). capacity = freed hours per manager / ~130 productive h x MRR per manager. Bundle totals are in VALUE-BY-BUNDLE.md; current figures per build are in builds/README.md.",
  "DS-01": {
   "time_h_month": [
    56,

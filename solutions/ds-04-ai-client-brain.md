@@ -4,7 +4,7 @@ title: "AI client brain (per client) – under the AI Business Brain banner"
 team: "account managers and delivery (everyone)"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-04 (full)", "O-13 (full)", "O-27 (per-client part)", "O-26 (style guide only)"]
 earlier_ideas: ["EI-07 Individual AI client Brains", "EI-12 Meeting transcripts → per-client action runsheet"]
@@ -17,9 +17,6 @@ pain_points_interviewer_raised_or_inferred: ["MP-PP20 (interviewer-raised)"]
 value: "6–9 h/mo · A$26K–39K capacity; the foundation for DS-03, 05, 14, 27, 28"
 value_time_h_month: [6, 9]
 value_capacity_aud_per_year: [26000, 39000]
-build_cost: "A$12,500"
-monthly: "A$850/month maintenance; hosting + tokens TBC (model-agnostic; research needed)"
-notion_section: "AI client brain (per client)"
 ---
 
 # DS-04 · AI client brain (per client)
@@ -39,8 +36,6 @@ notion_section: "AI client brain (per client)"
 | Pain points cited | [KO-PP05](../pain-points/README.md#ko-pp05), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP14](../pain-points/README.md#mc-pp14), [MP-PP16](../pain-points/README.md#mp-pp16), [MP-PP20](../pain-points/README.md#mp-pp20) (interviewer-raised), [SB-PP03](../pain-points/README.md#sb-pp03), [SD-PP05](../pain-points/README.md#sd-pp05), [SJ-PP09](../pain-points/README.md#sj-pp09), [ZC-PP04](../pain-points/README.md#zc-pp04) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | 6–9 h/mo · A\$26K–39K capacity; the foundation for DS-03, 05, 14, 27, 28 |
-| Build cost | A\$12,500 |
-| Monthly | A\$850/month maintenance; hosting + tokens TBC (model-agnostic; research needed) |
 
 ## Vision
 
@@ -62,18 +57,11 @@ notion_section: "AI client brain (per client)"
 > 7. **Ask and act** – e.g. "@oracle, create a task for Sid to fix the tracking" from Slack goes into Monday (phase 2, with a confirm step).
 > 8. **Consent and retention** – clients agree to call recording; a set period for keeping transcripts, decided before launch.
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 5 / 5 · Effort 5 / 5 (draft – confirm)**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **AI client brain** (all clients, all sources, visible client pages, call-outs, health card, digest) – **includes the shared platform** (client registry, connectors, @oracle Slack bot, role-based access, memory with citations) | **A\$12,500** | **A\$850/month** maintenance |
-> | Hosting and AI tokens | – | **TBC** – to research; the brain will be model-agnostic. Worksheet draft: tokens \~US\$60–300/month, hosting shared, one-off backfill \~US\$100–500 |
+## Decision
 
 **Decision (9 Nov):** an AI brain **for each client** that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to **review and query**. It sits under the **AI Business Brain** banner but is treated as a separate solution for now.
 
-## What it pulls together (draft)
+## What it pulls together
 
 | Source | What it adds |
 | --- | --- |
@@ -104,7 +92,6 @@ The query box is there for questions; the call-outs, logs and actions are always
 - **[O-13](../opportunities/README.md#o-13)** AI per-client summary for reports, calls and data questions – rank 13, 75, strategic, effort M (overlaps [O-04](../opportunities/README.md#o-04))
 - **[O-27](../opportunities/README.md#o-27)** AI business brain over client records and SOPs – the per-client part (rank 27, Consider) – the company-wide part stays for a later solution
 - Austin's earlier ideas: *Individual AI client Brains*, *Meeting transcripts → per-client action runsheet*
-- Austin's notes: client brain for call prep dossiers, handover reports ("sub 3 click hand over report"), research and compliance context, request and email-chain summaries
 
 ## Problems it fixes and the evidence
 
@@ -113,10 +100,10 @@ The query box is there for questions; the call-outs, logs and actions are always
 - [Client handovers (sales to delivery, offboarding) have no structured pack or trigger](../problems/p-27-client-handovers-have-no-structured-pack-or.md) – High. 3 staff. *"So sometimes I'm going in blind…"* – a performance team member ([MC-PP11](../pain-points/README.md#mc-pp11)). Handover docs missed until the client chased ([MC-PP14](../pain-points/README.md#mc-pp14)).
 - [Regulated-industry content lacks shared compliance rules and credible sources](../problems/p-28-regulated-industry-content-lacks-shared-compliance-rules.md) – the client's compliance rules live in its brain.
 - [Escalations route around department leads to the Head of Client Services](../problems/p-22-escalations-route-around-department-leads-to-the.md) – partly: about five churn-risk escalations a week land with the Head of Client Services ([KO-PP05](../pain-points/README.md#ko-pp05)); with each client's history in one place, department leads can handle more of them themselves.
-- Also helps: [Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) (organic and paid see the same client picture); request extraction from email chains ([SB-PP03](../pain-points/README.md#sb-pp03), Austin's note).
+- Also helps: [Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) (organic and paid see the same client picture); request extraction from email chains ([SB-PP03](../pain-points/README.md#sb-pp03)).
 - **Zach's written AI suggestions** (Google Doc): Otter/Gemini notes sit in different places and he keeps a Google Doc as the source of truth for client meetings – he wants transcripts turned into actions and collected in **one runsheet per client**. The client brain does this.
 
-## Future state (draft)
+## Future state
 
 1. Every active client has one brain; nothing about the client lives only in someone's head or personal doc.
 2. Every client call is recorded; its transcript, summary, key call-outs and actions are saved to the client's page within 24 hours. Key client emails are saved the same way. Anyone can read them without querying.
@@ -124,7 +111,7 @@ The query box is there for questions; the call-outs, logs and actions are always
 4. When a client changes hands or offboards, a handover report is generated in under three clicks.
 5. Anyone working on the client – SEO, paid, content, writers – queries the same brain instead of asking a colleague.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -133,7 +120,7 @@ The query box is there for questions; the call-outs, logs and actions are always
 | Client calls summarised into the brain within 24 h | \~0 – transcripts unused (ZC-O10, [MP-PP20](../pain-points/README.md#mp-pp20)) | ≥ 95% |
 | Time to produce a handover pack | Unknown; missed until client chased ([MC-PP14](../pain-points/README.md#mc-pp14)) | \< 10 min |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Every client's history, ready before every call.** The brain pulls together calls, emails, Slack, HubSpot, Monday and the work itself, so a manager opens a ready-made prep pack instead of digging through five places – and anyone can get up to speed on a client in minutes.
 
@@ -160,9 +147,9 @@ Handovers and cover: target of **15 minutes or less** to get up to speed on any 
 
 *Inputs from Austin (10 Nov): client board: 101 live clients, 31 with a monthly meeting, Tier 2 clients meet quarterly; 15–20 min prep today, \~5 min with the brain, handovers ≤15 min.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

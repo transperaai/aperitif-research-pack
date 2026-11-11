@@ -5,7 +5,6 @@
 | Role | Content Specialist |
 | Team | Organic |
 | Date | 2026-11-04 |
-| Length | \~33 min |
 | Clients managed | 7 |
 
 ## Files

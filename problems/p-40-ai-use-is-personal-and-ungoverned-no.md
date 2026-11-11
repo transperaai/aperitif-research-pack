@@ -1,8 +1,7 @@
 ---
 id: P-40
 title: "AI use is personal and ungoverned: no policy, shared skills, client context or seats"
-austin_call: "Solve later"
-austin_note: "standardised userflows and ai training"
+decision: "Solve later"
 status: addressed
 fixed_by: ["DS-02"]
 also_helped_by: ["DS-05"]
@@ -13,15 +12,13 @@ pain_points: ["DM-PP11", "DM-PP12", "HT-PP08", "KO-PP14", "KZ-PP24", "LS-PP13", 
 theme: "Process / automation"
 severity: "Medium"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff769810cb2c8de6b51137637
 ---
 
 # P-40 · AI use is personal and ungoverned: no policy, shared skills, client context or seats
 
 | | |
 | --- | --- |
-| Austin's call | **Solve later** |
-| Austin's note | standardised userflows and ai training |
+| Decision | **Solve later** |
 | Status | addressed – Fixed by [DS-02](../solutions/ds-02-ai-playbook-repository.md); also helped by [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) |
 | Theme · severity · confidence | Process / automation · Medium · High – raised by 3+ people |
 | Process area | Other |
@@ -32,7 +29,7 @@ notion_id: 410e204ff769810cb2c8de6b51137637
 - Fixes: [DS-02 AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills)](../solutions/ds-02-ai-playbook-repository.md)
 - Also helps: [DS-05 Automated deck generator: quarterly + 6-month reviews and proposals](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-33](../opportunities/README.md#o-33) SOPs linked from Monday templates; stale pages retired – partly addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
 - [O-02](../opportunities/README.md#o-02) AI data rule, company Claude seats and shared skills library – addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-25](../solutions/ds-25-ppc-performance-forecasting-tool.md))
@@ -44,8 +41,7 @@ notion_id: 410e204ff769810cb2c8de6b51137637
 
 - Cluster [C-33](../synthesis/clusters-and-root-causes.md#c-33): AI use is personal and ungoverned: no policy, shared skills, client context or seats – raised by 9 staff + 1 leadership; confidence High.
 - Root cause [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools, automations and AI workflows are built by individuals with no owner, documentation, policy or renewal plan, so they break or stay personal.
-- Problems DB root cause: [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools and AI workflows are built by individuals with no owner, policy or plan. Chain: AI output varies, needs re-briefing and double-checking; some deliverables went out poor ([LS-PP13](../pain-points/README.md#ls-pp13), [HT-PP08](../pain-points/README.md#ht-pp08), [DM-PP11](../pain-points/README.md#dm-pp11), [ZC-PP14](../pain-points/README.md#zc-pp14)) → each person builds their own prompts, skills and accounts, some personal ([MC-PP19](../pain-points/README.md#mc-pp19), [WS-PP13](../pain-points/README.md#ws-pp13), [SH-PP14](../pain-points/README.md#sh-pp14)) → no policy on client data in AI, no shared skills library, no client context, too few seats ([DM-PP12](../pain-points/README.md#dm-pp12), [SB-PP12](../pain-points/README.md#sb-pp12)) → AI adoption has been bottom-up with no owner or standards.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-33](../synthesis/clusters-and-root-causes.md#c-33). 9 staff + 1 leadership (broadest staff raise). Policy gap ([DM-PP12](../pain-points/README.md#dm-pp12)) is a prerequisite for any AI opportunity in Stage 2. Members: [KO-PP14](../pain-points/README.md#ko-pp14), [LS-PP13](../pain-points/README.md#ls-pp13), [DM-PP12](../pain-points/README.md#dm-pp12), [MC-PP19](../pain-points/README.md#mc-pp19), [WS-PP13](../pain-points/README.md#ws-pp13), [SB-PP12](../pain-points/README.md#sb-pp12), [KZ-PP24](../pain-points/README.md#kz-pp24), [SH-PP14](../pain-points/README.md#sh-pp14), [HT-PP08](../pain-points/README.md#ht-pp08), [DM-PP11](../pain-points/README.md#dm-pp11), [ZC-PP14](../pain-points/README.md#zc-pp14)
+- Root cause (problem record): [RC-04](../synthesis/clusters-and-root-causes.md#rc-04): Tools and AI workflows are built by individuals with no owner, policy or plan. Chain: AI output varies, needs re-briefing and double-checking; some deliverables went out poor ([LS-PP13](../pain-points/README.md#ls-pp13), [HT-PP08](../pain-points/README.md#ht-pp08), [DM-PP11](../pain-points/README.md#dm-pp11), [ZC-PP14](../pain-points/README.md#zc-pp14)) → each person builds their own prompts, skills and accounts, some personal ([MC-PP19](../pain-points/README.md#mc-pp19), [WS-PP13](../pain-points/README.md#ws-pp13), [SH-PP14](../pain-points/README.md#sh-pp14)) → no policy on client data in AI, no shared skills library, no client context, too few seats ([DM-PP12](../pain-points/README.md#dm-pp12), [SB-PP12](../pain-points/README.md#sb-pp12)) → AI adoption has been bottom-up with no owner or standards.
 
 ## Pain points (11)
 
@@ -72,6 +68,6 @@ notion_id: 410e204ff769810cb2c8de6b51137637
 - [ZC-PP14](../pain-points/README.md#zc-pp14) – Claude keyword research can go 'AWOL' in niche industries – output triple-checked
   - *"I definitely find that double checking it is really important when it's quite a niche industry."* – Zach Chamberlain, SEO Manager · staff-raised · [\~15:41 (L150)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L156) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "we've had a few cases where team members used AI for the whole thing and it was a mess." – an SEO manager ([LS-PP13](../pain-points/README.md#ls-pp13), \~07:00, L026) | "Personally, I set up my personal [Claude] using my work email and I'm paying for it every month." – a performance team member ([MC-PP19](../pain-points/README.md#mc-pp19), \~39:17, L343) | "I'm not sure how much it is okay to have the data privacy and everything when we do that." – a performance manager ([DM-PP12](../pain-points/README.md#dm-pp12), \~15:21, L181)

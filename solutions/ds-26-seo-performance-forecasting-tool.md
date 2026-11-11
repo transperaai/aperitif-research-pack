@@ -4,7 +4,7 @@ title: "SEO: performance forecasting tool"
 team: "SEO"
 bundle: "SEO performance"
 status: "Added – priced; weak SEO evidence"
-ledger_status: addressed
+coverage: addressed
 source_type: "Austin addition"
 opportunities: []
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["LS-PP16"]
 pain_points_interviewer_raised_or_inferred: ["LS-PP16 (interviewer-raised)"]
 value: "Better planning, realistic expectations"
-build_cost: "A$3,000 for the bundle (DS-25 + DS-26)"
-monthly: "A$300/month + tokens ~US$3–30"
-notion_section: "SEO: performance forecasting tool"
 ---
 
 # DS-26 · SEO: performance forecasting tool
@@ -37,8 +34,6 @@ notion_section: "SEO: performance forecasting tool"
 | Pain points cited | [LS-PP16](../pain-points/README.md#ls-pp16) (interviewer-raised) |
 | Written source | – |
 | Value | Better planning, realistic expectations |
-| Build cost | A\$3,000 for the bundle (DS-25 + DS-26) |
-| Monthly | A\$300/month + tokens \~US\$3–30 |
 
 ## Vision
 
@@ -48,7 +43,7 @@ notion_section: "SEO: performance forecasting tool"
 
 **Team:** SEO. **Decision (9 Nov):** the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
 
-## How it works (draft)
+## How it works
 
 1. Pulls each client's GA4, Search Console and Ahrefs history ([DS-22](ds-22-seo-automated-monday-client-performance-check.md)'s data).
 2. Adds seasonality, search-demand trends and industry movements ([DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md)).
@@ -60,22 +55,22 @@ notion_section: "SEO: performance forecasting tool"
 - Related: *"it probably wouldn't comment on seasonality. That requires intervention."* – Laura, SEO Director, on reports ([LS-PP16](../pain-points/README.md#ls-pp16), *raised by the interviewer*).
 - No SEO forecasting pain point was raised directly – **Austin's addition**.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
 | SEO clients with a current forecast | 0 | 100% of focus clients |
 | Forecast accuracy | Not tracked | Baseline, then improve |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: better planning, fewer surprises.** Organic forecasts per client let the team set realistic expectations and plan content and links against them, as [DS-25](ds-25-ppc-performance-forecasting-tool.md) does for paid.
 
 **Goals:** good performance · trust · good customer service
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

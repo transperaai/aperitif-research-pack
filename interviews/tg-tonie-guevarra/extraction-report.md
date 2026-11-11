@@ -1,12 +1,12 @@
 # Part A – Transcript extraction: Tonie Guevarra (Outreach Specialist, link building)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Tonie - Workflow & Process Interview", 4 Nov 2026, 3:15 pm (Melbourne). Full transcript retrieved (483 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/TG/transcript.md`; ~mm:ss is estimated from cumulative word position across ~45 minutes (calendar slot 15:15–16:00; the transcript runs from greeting to "Bye-bye"). Actual call length not stated – 45 min is the booked slot.
+- Transcript: meeting notes "Tonie - Workflow & Process Interview", 4 Nov 2026, 3:15 pm (Melbourne). Full transcript retrieved (483 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~45 minutes (calendar slot 15:15–16:00; the transcript runs from greeting to "Bye-bye"). Actual call length not stated – 45 min is the booked slot.
 - **Speakers:** the diariser labelled Austin as B and split Tonie across labels A and C. All non-Austin lines are treated as Tonie. L010 ("So I think if you made the Questions?", label C) may be Austin – no bearing on findings.
-- **Name and term corrections (transcription):** "Carl" → Karl (Zaharopoulos, Senior SEO Manager & Link-building Lead) · "Cloud / Lord" → Claude · "HMix" (L115) → Ahrefs · "parking car rentals" → Bargain Car Rentals (BCR) – inferred: the other two "dynamic clients" are Tier 1 clients and BCR is the third Tier 1 car-rental client; confirm · "lease lab / Please Love" → Leaselab · "Tony" → Tonie · "scale" (L232) → skill · "deletes" (L178) → leads · "the main names" (L064) → domain names · "loves / logs" (L284, L286) → blogs · "Monday" → Monday.com · "Apertif" → Aperitif. Unresolved: "Loree" (L413 – probably someone off-call), "nieces" (L339 – niches or issues), "the main.com" (L266), "dynamic clients" (Tonie's term; meaning not explained – see 11).
+- **Name and term corrections (transcription):** "Carl" → Karl (Zaharopoulos, Senior SEO Manager & Link-building Lead) · "Cloud / Lord" → Claude · "HMix" (L115) → Ahrefs · "parking car rentals" → Bargain Car Rentals (BCR) – inferred: the other two "dynamic clients" are Tier 1 clients and BCR is the third Tier 1 car-rental client; confirm · "lease lab / Please Love" → Leaselab · "Tony" → Tonie · "scale" (L232) → skill · "deletes" (L178) → leads · "the main names" (L064) → domain names · "loves / logs" (L284, L286) → blogs · "Monday" → Monday.com · "Apertif" → Aperitif. Unresolved: "Loree" (L413 – probably someone off-call), "nieces" (L339 – niches or issues), "the main.com" (L266), "dynamic clients" (Tonie's term; meaning not explained).
 - **Terminology:** Tonie calls the outreachers who place links "publishers" (internal team = her in-house trainees in the Philippines; external = brokers/outreachers). "Leads" = candidate publisher domains. "Tier 1/2/3 leads" are a **content-niche classification of publisher sites**, not client tiers – the two uses collide because the three "dynamic clients" are also Tier 1 clients.
-- Hours are costed at **$80/hr internal labour cost**. Process totals include Karl's approval time where he does a step; the interviewee-only share is shown separately. Almost no times were stated in this interview – most per-step times are **assumed** and need checking (see 11).
+- Hours are costed at **$80/hr internal labour cost**. Process totals include Karl's approval time where he does a step; the interviewee-only share is shown separately. Almost no times were stated in this interview – most per-step times are **assumed** and need checking.
 
 ---
 
@@ -168,7 +168,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | 3 | Publisher publishes – sometimes before payment | Publisher | – | – | – | TG-P03 | stated (L248) |
 
 - **Happy path total:** not discussed.
-- **Bad paths:** not discussed. Tonie's "It is me" (L251) after Austin's comment about scams is unclear – she may handle some payments; confirm.
+- **Bad paths:** not discussed. Tonie's "It is me" (L251) after Austin's comment about scams is unclear – she may handle some payments.
 - **Decision points:** pay before vs after publishing (both happen; split not given).
 - **Monthly hours:** **not costed – not discussed** (0–0 h in totals).
 - **Monthly cost:** **$0** (not costed).
@@ -184,7 +184,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | TG-P05 | Link building – outreacher invoicing | not costed | – | – |
 | **Total** | | **48.3–164.7 h** | **47.3–155.7 h** | **$3,864–$13,176** |
 
-TG's high end (~156 h) is about one full-time month (~152–160 h), which fits "every day that's what I do" (L036); the low end (~47 h) would leave most of her month unexplained. The true figure is probably in the upper half. Confirm per-link and per-batch times with Tonie (see 11).
+TG's high end (~156 h) is about one full-time month (~152–160 h), which fits "every day that's what I do" (L036); the low end (~47 h) would leave most of her month unexplained. The true figure is probably in the upper half. Confirm per-link and per-batch times with Tonie.
 
 ## 3. Pain points and problems
 
@@ -345,40 +345,6 @@ Ties are broken by Ease, then Impact. Augmentation (not full automation) is pref
 | Relationships with in-house and external publishers/brokers | TG | Supply and order delivery disrupted |
 | Publisher payments | Karl (per Austin's description) | Publishers unpaid; possible delays |
 
-## 11. Follow-ups
-
-**Questions**
-- Tonie: how often do you run a ~1,000-lead QA batch, and how long does a batch take (skill run + manual checks)?
-- Tonie: how long does allocating one approved domain to a client take, and how long to send an internal vs external order?
-- Tonie: how many replacement requests and "has issues" flags a month?
-- Tonie: what does "dynamic clients" mean – and is "parking car rentals" Bargain Car Rentals?
-- Tonie: what did "It is me" (L251) mean – do you handle any publisher payments?
-- Karl: how long does approving a batch take, why do you decline skill-passed leads, and what criteria aren't in the skill?
-- Karl / Laura: what does a link cost for the dynamic clients vs what they're charged?
-- Account managers: what were the concerns about October's Monday.com entries?
-
-**Contradictions**
-- Context pack: Tonie reports to Sid. In the transcript all approvals go to Karl and Sid isn't mentioned.
-- Context pack: link live checks "stopped after April". Tonie describes a link-status extension that flags live/issue links when completed links are entered (L343). It checks at publication only, so it doesn't contradict the later-removal problem, but it is a live check in use now.
-- Context pack link-building shape ("SEO manager orders → outreacher sources site"): in practice Tonie sources and qualifies sites, Karl approves, Tonie allocates to clients, then sends orders to publishers.
-- "Tier 1 leads" (single-niche sites) vs "Tier 1 clients" – the same label for two different things.
-- Same skill, different results (54 vs 27) – either the skills differ in practice or Karl applies criteria outside the skill.
-- Low-end hours (~47 h TG share) can't fill a full-time role that she describes as her whole day – the per-step assumptions are probably at the low end.
-
-**Data / artefacts to request**
-- All spreadsheets shown in the interview, with access (Tonie – agreed, L457–L459).
-- Publishers list with prices (Tonie – agreed, L186).
-- Both Claude lead-review skills/prompts – Tonie's and Karl's (Tonie, Karl).
-- The approved / do-not-use lists for the last two batches with Karl's decisions (Tonie).
-- The Apps Script, link-status extension and Monday.com automation (Tonie).
-- Order book cost vs client price for BCR, Five Good Friends and Leaselab links (Karl).
-
-**Claims to verify before the pack**
-- 32 approved from ~1,000 and 27 of 54 – check against the batch sheets.
-- 300–340 links a month – check against the order book (~300/month in the context pack: consistent).
-- Publication 0–3 weeks and negotiation 1–2 weeks – check order vs published dates.
-- That "parking car rentals" = Bargain Car Rentals.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -387,13 +353,3 @@ Ties are broken by Ease, then Impact. Augmentation (not full automation) is pref
 | Five Good Friends | Tier 1 | Dynamic client; same Tier 1 lead scarcity and cost |
 | Leaselab ("lease lab" / "Please Love") | Tier 1 | Dynamic client; same Tier 1 lead scarcity and cost |
 | All link-building clients (unnamed) | – | 300–340 links a month across "all the clients" |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: energised and eager, slightly unsure of herself.** "I told Carl [Karl] already that I am excited about it" ~01:17 (L015); "This is really what we need." ~44:31 (L477). She describes her own AI experience modestly: "Actually, I have really lack of experience." (L015) and "I really don't have the broad idea about how to use it." (L016).
-- She enjoys the work but feels the time it takes: "It is good, but it is a good job. I enjoy it. It's just that I think of the time being consumed." ~35:53 (L371).
-- Possible out-of-hours work: she ran the ~1,000-lead batch "last night" (L134, L149). The interview also cut into her lunch break (L006, L468). Possible workload or time-zone issue (Philippines) – don't quote.
-- The 54 vs 27 approval gap could read as criticism of Karl's or Tonie's judgement. Present it in the pack as an unclear standard, not as anyone's performance.
-- Account managers ("handlers") raised concerns about her Monday.com sync – mild friction around a tool she built on her own initiative.
-- **Related-party question (not discussed – handle carefully):** in-house publishers are "my churchmates" whom she is training (L190–L193), and the context pack lists Jasfer Guevarra (same surname) as both her report and an outreacher on order sheets. If these publishers are paid per link, Austin may want to check who approves their rates and volumes. No wrongdoing is suggested by the transcript.
-- Nothing negative was said about any named individual.

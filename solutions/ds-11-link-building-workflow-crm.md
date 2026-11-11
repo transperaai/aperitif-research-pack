@@ -4,7 +4,7 @@ title: "Link-building workflow CRM (orders, publishers, links, invoicing and pay
 team: "link building"  # inferred: the page gives no "Team:" line
 bundle: "Link-building CRM"
 status: "Decided – custom build; priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-18 (full)"]
 earlier_ideas: []
@@ -17,9 +17,6 @@ pain_points_interviewer_raised_or_inferred: ["TG-PP09 (inferred)"]
 value: "18.5–30 h/mo · ~9–15 more links a month (delivery capacity)"
 value_time_h_month: [18.5, 30]
 value_extra_links_month: [9, 15]
-build_cost: "A$3,500"
-monthly: "A$750/month + hosting/tokens (shared)"
-notion_section: "Link-building workflow CRM"
 ---
 
 # DS-11 · Link-building workflow CRM
@@ -40,8 +37,6 @@ notion_section: "Link-building workflow CRM"
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP08](../pain-points/README.md#kz-pp08), [LS-PP12](../pain-points/README.md#ls-pp12), [MP-PP14](../pain-points/README.md#mp-pp14), [MP-PP15](../pain-points/README.md#mp-pp15), [TG-PP05](../pain-points/README.md#tg-pp05), [TG-PP06](../pain-points/README.md#tg-pp06), [TG-PP07](../pain-points/README.md#tg-pp07), [TG-PP09](../pain-points/README.md#tg-pp09) (inferred) |
 | Written source | – |
 | Value | 18.5–30 h/mo · \~9–15 more links a month (delivery capacity) |
-| Build cost | A\$3,500 |
-| Monthly | A\$750/month + hosting/tokens (shared) |
 
 ## Vision
 
@@ -51,19 +46,11 @@ notion_section: "Link-building workflow CRM"
 > - Other solutions **connect to it but stay separate**: the link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)), the link supply engine ([DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md)) and brand-mention tracking ([DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md)).
 > - It **feeds the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and each client brain ([DS-04](ds-04-ai-client-brain.md))** – which links were built for a client, where, and whether they're still live.
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 4 / 5 · Effort 4 / 5 (draft – confirm)** · Bundle: Link-building CRM
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Link-building workflow CRM – custom AI-native app** (publisher portal, orders, live links, invoicing and payment runs; feeds [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)/12/31 and the brains) | **A\$3,500** | **A\$750/month** maintenance + hosting/tokens (mostly shared with the brain platform) |
->
-> *Maintenance for the link-building solutions ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md), DS-11, [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md)) may be consolidated into one fee – to settle at the end.*
+## Decision
 
 **Decision (9 Nov):** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Recommended: a custom AI-native build. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
 
-## What it covers (draft)
+## What it covers
 
 | Stage | In the CRM |
 | --- | --- |
@@ -87,7 +74,7 @@ notion_section: "Link-building workflow CRM"
 - **Home-built tools nobody else understands:** four home-built tools run by one person; the outreach specialist isn't sure they work properly (*undocumented status inferred, not stated* – [TG-PP09](../pain-points/README.md#tg-pp09)).
 - Enables [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md): [Paid links disappear after payment – detected manually](../problems/p-07-paid-links-disappear-after-payment-detected-manually.md) needs one clean link list.
 
-## Future state (draft)
+## Future state
 
 1. Every order, publisher, link and invoice lives in one system with one ID.
 2. Publishers update their own orders; nobody re-keys links.
@@ -95,7 +82,7 @@ notion_section: "Link-building workflow CRM"
 4. Outreachers are paid weekly against verified link IDs in one approval pass.
 5. The link lead spends time growing the team and supply, not on admin.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -104,7 +91,7 @@ notion_section: "Link-building workflow CRM"
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time ([KZ-PP08](../pain-points/README.md#kz-pp08)) | Baseline, then −50% |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **One system for every link.** Orders, publishers, live links and invoices live in one CRM, so nobody copies orders into publisher sheets or re-keys every published link into the master sheet.
 
@@ -127,9 +114,9 @@ At \~2 h of team time per link today, \~18.5–30 h freed ≈ room for **\~9–1
 
 *Inputs from Austin (10 Nov): \~320 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

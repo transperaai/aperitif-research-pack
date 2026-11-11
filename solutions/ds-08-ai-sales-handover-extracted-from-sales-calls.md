@@ -4,7 +4,7 @@ title: "AI sales handover: extracted from sales calls, confirmed by delivery"
 team: "sales and delivery"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-08 (handover part; access checklist + staged onboarding as add-on)"]
 earlier_ideas: []
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["KO-PP01", "MC-PP10", "MC-PP11", "MC-PP13", "MP-PP10", "SH-PP07", "WS-PP06", "WS-PP07", "ZC-PP07"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP01 (interviewer-raised)", "MP-PP10 (interviewer-raised)"]
 value: "New standard: at least an hour of prepared information before kick-off"
-build_cost: "A$1,250"
-monthly: "A$300/month + tokens ~US$1–10"
-notion_section: "AI sales handover: extracted from sales calls, confirmed by delivery"
 ---
 
 # DS-08 · AI sales handover: extracted from sales calls, confirmed by delivery
@@ -37,8 +34,6 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 | Pain points cited | [KO-PP01](../pain-points/README.md#ko-pp01) (interviewer-raised), [MC-PP10](../pain-points/README.md#mc-pp10), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP13](../pain-points/README.md#mc-pp13), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [SH-PP07](../pain-points/README.md#sh-pp07), [WS-PP06](../pain-points/README.md#ws-pp06), [WS-PP07](../pain-points/README.md#ws-pp07), [ZC-PP07](../pain-points/README.md#zc-pp07) |
 | Written source | – |
 | Value | New standard: at least an hour of prepared information before kick-off |
-| Build cost | A\$1,250 |
-| Monthly | A\$300/month + tokens \~US\$1–10 |
 
 ## Vision
 
@@ -46,17 +41,11 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 >
 > **It also sets the client up everywhere else:** creates the standard client folder structure in Google Drive ([DS-17](ds-17-client-files-and-logins-in-company-owned.md)), the Monday client item and onboarding board, the Slack channel, the shared vault entry for logins, and links them all from the client brain – so nobody builds a new client's set-up by hand.
 
-## Pricing & priority
-
-> **Priority: Impact 3 / 5 · Effort 3 / 5 (draft – confirm; borderline)** · Extension of the AI brain ([DS-04](ds-04-ai-client-brain.md))
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **AI sales handover + new-client auto set-up** (handover from sales calls, delivery confirm/deny, new client brain entry, Drive/Monday/Slack set-up) | **A\$1,250** | **A\$300/month** maintenance + AI tokens \~US\$1–10/month |
+## Decision
 
 **Decision (9 Nov):** **no hard blocks** on deals. Instead, the handover is **extracted by AI from the sales call transcripts**, the sales rep is shown **questions to fill any gaps**, the result **loads into the AI client brain ([DS-04](ds-04-ai-client-brain.md))**, and the delivery departments get a **notification to review and confirm or deny – with reasons**.
 
-## How it works (draft)
+## How it works
 
 1. Sales calls are recorded and transcribed (as the founder's handover already relies on: "just the transcript", [KO-PP01](../pain-points/README.md#ko-pp01)).
 2. When a deal is won, AI reads the sales call transcripts and HubSpot deal notes and extracts the handover: goals, services and scope sold, budget, promises made, competitors, key contacts and personalities, delivery prerequisites (website live, creative supply, tracking), access needed, and risks.
@@ -77,14 +66,14 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 - [Sales commits to work delivery can't profitably do](../problems/p-18-sales-commits-to-work-delivery-can-t.md) – clients sold without delivery prerequisites: *"They didn't even have a website ready. So we went two months off doing work for them"* – the performance director ([WS-PP07](../pain-points/README.md#ws-pp07)). Delivery's confirm/deny step surfaces this before kick-off. *Bias note: Austin raised over-commit first ([MP-PP10](../pain-points/README.md#mp-pp10)).*
 - Also helps: onboarding delays from access and missing information ([C-09](../synthesis/clusters-and-root-causes.md#c-09) – [ZC-PP07](../pain-points/README.md#zc-pp07), [MC-PP10](../pain-points/README.md#mc-pp10)), since access needs and prerequisites are captured at handover.
 
-## Future state (draft)
+## Future state
 
 1. Every won deal produces a handover within a day, drafted from the sales calls – the rep only fills gaps.
 2. Delivery sees exactly what was sold and promised before the first client call, so nobody goes in blind or re-asks the client.
 3. Each department confirms it can deliver, or flags why not, before kick-off.
 4. The handover lives in the client brain for the life of the client.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -93,7 +82,7 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 | Clients re-asked questions already answered in sales | Happens ([SH-PP07](../pain-points/README.md#sh-pp07)) | 0 |
 | Deals denied by delivery, with reasons logged | Not tracked | Tracked; reasons reviewed monthly with sales |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Teams meet to clarify, not to learn.** What was sold is pulled from the sales call and confirmed by delivery before kick-off, so the delivery manager starts with at least an hour's worth of prepared information instead of going in blind.
 
@@ -103,9 +92,9 @@ notion_section: "AI sales handover: extracted from sales calls, confirmed by del
 
 **Goals:** good customer service · trust · retention
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

@@ -1,6 +1,6 @@
 **Supplementary source – Meta pacing troubleshooting call (2026-11-04, from Hayley's recording)**
 
-Source: `/home/claude/HT/transcript-session2-wendlley.md` – a ~26-minute call between Austin and Wendlley (S2 L389–L919) that continued on Hayley Tantau's 4 Nov recording. Quotes are tagged "S2 L###"; ~mm:ss is the timestamp in that recording (estimated). Speaker labels: Wendlley = F / J / Q (plus stray single-line labels); Austin = I / L. Not used to change the Part A tables or JSON above – added as a supplement.
+Source: `transcript-session2-meta-pacing-call.md` – a ~26-minute call between Austin and Wendlley (S2 L389–L919) that continued on Hayley Tantau's 4 Nov recording. Quotes are tagged "S2 L###"; ~mm:ss is the timestamp in that recording (estimated). Speaker labels: Wendlley = F / J / Q (plus stray single-line labels); Austin = I / L. Not used to change the Part A tables or JSON above – added as a supplement.
 
 | Value / fact | Context | Quote + timestamp | Certainty |
 |---|---|---|---|

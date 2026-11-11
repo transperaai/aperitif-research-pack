@@ -1514,7 +1514,6 @@
     "B-K12"
    ],
    "registry_action": "create",
-   "registry_page": "https://app.notion.com/p/412e204ff76981b99e8dd9d8c72f7ebc",
    "registry_title": null,
    "root_cause": [
     "Pacing-sheet, SOP and pace standards are missed, and leadership falls back on reminders or a three-strikes rule (B-K04, B-K05).",
@@ -1591,7 +1590,6 @@
     "B-K01"
    ],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/40fe204ff76981e1ac5af94b85e59678",
    "registry_title": "Documentation is stale and rarely read (C-35)",
    "root_cause": null,
    "damage_area": null
@@ -1644,7 +1642,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "create",
-   "registry_page": "https://app.notion.com/p/412e204ff769817b85d2f6e269eb277d",
    "registry_title": null,
    "root_cause": [
     "Shared AI memory, meeting note-takers and Monday features go unused (A-K14, D-K22, C-K31).",
@@ -1703,7 +1700,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/410e204ff769813f888bfe3b3ee38213",
    "registry_title": "Churn risk is spotted late and account teams report rather than advise (C-16)",
    "root_cause": null,
    "damage_area": null
@@ -1757,7 +1753,6 @@
     "C-K06"
    ],
    "registry_action": "create",
-   "registry_page": "https://app.notion.com/p/412e204ff7698133a070eeb8e0d46282",
    "registry_title": null,
    "root_cause": [
     "Staff hesitate to take positions or share ideas (A-K01, E-K12).",
@@ -1837,7 +1832,6 @@
     "C-K35"
    ],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/40fe204ff76981e2924cfbae1ffa8478",
    "registry_title": "Escalations route around department leads (C-36)",
    "root_cause": null,
    "damage_area": null
@@ -1883,7 +1877,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/410e204ff7698149a72ccd9d798ea640",
    "registry_title": "Growth depends on the founder (C-39)",
    "root_cause": null,
    "damage_area": null
@@ -1958,7 +1951,6 @@
     "C-K07"
    ],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/40fe204ff76981208c95f2a96063afd7",
    "registry_title": "Managers at capacity (C-17)",
    "root_cause": null,
    "damage_area": null
@@ -2016,7 +2008,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "create",
-   "registry_page": "https://app.notion.com/p/412e204ff76981cabacdcef909635864",
    "registry_title": null,
    "root_cause": [
     "Margin and staff time leak into over-servicing, bespoke reports, scope creep and unready clients (B-K26, C-K16, C-K15, D-K05).",
@@ -2076,7 +2067,6 @@
     "E-K28"
    ],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/410e204ff76981e1b678c897751d71d3",
    "registry_title": "Client approval cycles… managers carry the blame (C-14)",
    "root_cause": null,
    "damage_area": null
@@ -2142,7 +2132,6 @@
     "D-K15"
    ],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/40fe204ff7698168a440ee525bce4877",
    "registry_title": "Client knowledge lives in people's heads (C-07)",
    "root_cause": null,
    "damage_area": null
@@ -2197,7 +2186,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "create",
-   "registry_page": "https://app.notion.com/p/412e204ff76981af9182ca6683db10ee",
    "registry_title": null,
    "root_cause": [
     "Strategists and managers don't know what technical or specialist work has been done, in what order or how (B-K19, B-K21, E-K14).",
@@ -2266,7 +2254,6 @@
     "C-K32"
    ],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/40fe204ff76981e9b92fcb8a575cb3f4",
    "registry_title": "Reminders go unacted / Monday.com hygiene (C-30)",
    "root_cause": null,
    "damage_area": null
@@ -2328,7 +2315,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "append",
-   "registry_page": "https://app.notion.com/410e204ff769818e891ce057635a604d",
    "registry_title": "Client handovers have no structured pack or trigger (C-08)",
    "root_cause": null,
    "damage_area": null
@@ -2382,7 +2368,6 @@
    ],
    "interviewer_items": [],
    "registry_action": "create",
-   "registry_page": "https://app.notion.com/p/412e204ff769811fb874c5d98c0c5b0e",
    "registry_title": null,
    "root_cause": [
     "Errors and broken feeds are found late or by luck (B-K16, C-K34).",
@@ -10362,9 +10347,5 @@
    "caveat": "Said by the interviewer; she replied \"Yeah\" in the surrounding exchange"
   }
  },
- "notion": {
-  "review_page": "https://app.notion.com/p/410e204ff76980af8523d8d22dcdd909",
-  "itemised_child_page": "https://app.notion.com/p/412e204ff76981aca858d4e5d8e40571",
-  "start_here": "https://app.notion.com/p/410e204ff76981b09039ea35b5663b75"
- }
+ "notion": {}
 }

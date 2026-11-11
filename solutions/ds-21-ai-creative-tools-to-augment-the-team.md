@@ -4,7 +4,7 @@ title: "AI creative tools to augment the team (existing tools, no build)"
 team: "PPC and creative"  # inferred: the page gives no "Team:" line
 bundle: "Standalone"
 status: "Decided – tool shortlist to trial; cost = licences"
-ledger_status: addressed
+coverage: addressed
 source_type: "Austin addition"
 opportunities: []
 earlier_ideas: ["EI-04 AI-assisted creative production"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["MC-PP15", "MP-PP22", "SD-PP12", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Faster creative in-house"
-build_cost: "Free"
-monthly: "software paid direct ~US$70–380/month"
-notion_section: "AI creative tools to augment the team"
 ---
 
 # DS-21 · AI creative tools to augment the team
@@ -37,20 +34,12 @@ notion_section: "AI creative tools to augment the team"
 | Pain points cited | [MC-PP15](../pain-points/README.md#mc-pp15), [MP-PP22](../pain-points/README.md#mp-pp22), [SD-PP12](../pain-points/README.md#sd-pp12), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
 | Value | Faster creative in-house |
-| Build cost | Free |
-| Monthly | software paid direct \~US\$70–380/month |
 
 ## Vision
 
 > **As written:** no build – recommend existing AI creative tools (Canva AI, [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield), trialled for a month on real lead-gen clients, keeping only what saves time.
 
-## Pricing & priority
-
-> **Priority: Fill-in · Impact 2 / 5 · Effort 1 / 5 (draft – confirm)** · Standalone
->
-> | Item | Cost from Transpera | Software (paid by Aperitif direct) |
-> | --- | --- | --- |
-> | **AI creative tools – recommendations only** (Canva AI first; trial [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield for a month) | **A\$0 – free** | \~US\$70–380/month for two tools, depending on tier (Canva already paid) |
+## Decision
 
 **Decision (9 Nov):** no build – recommend **existing AI tools** the team can use to augment creative production.
 
@@ -85,15 +74,15 @@ Simple ad variants and resizes are made in-house with AI tools in minutes; the d
 | Ad variants made in-house per month | Canva only | Baseline, then set |
 | Time to launch an ad-hoc campaign | ≥ 1 week ([SD-PP12](../pain-points/README.md#sd-pp12)) | Fewer days where client creative is the blocker |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: faster creative and a capability gain.** The performance team can produce and test ad creative in-house with proven AI tools instead of waiting on outsourced back-and-forth (Michaela Cruz: "they'll be doing the exact opposite of what you briefed in"). Campaigns launch sooner and more variants get tested. No figures claimed.
 
 **Goals:** good performance · good customer service
 
-## Indicative build cost and OpEx
+## Pricing
 
-**No build.** OpEx = tool licences (entry plans roughly US\$20–\$39/month per tool for one brand; agency/multi-brand plans cost more, e.g. [AdCreative.ai](http://AdCreative.ai) about US\$249/month; Canva already paid).
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

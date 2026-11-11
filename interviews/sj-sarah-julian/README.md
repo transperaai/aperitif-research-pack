@@ -5,7 +5,6 @@
 | Role | Content Manager |
 | Team | Organic |
 | Date | 2026-10-29 |
-| Length | \~30 min |
 | Clients managed | – |
 
 ## Files

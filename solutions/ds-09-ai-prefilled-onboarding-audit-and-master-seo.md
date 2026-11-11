@@ -4,7 +4,7 @@ title: "AI-prefilled onboarding audit and Master SEO Document"
 team: "SEO strategists (onboarding)"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
 status: "Decided (as written) – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-14 (full)"]
 earlier_ideas: ["EI-01 1-click audit access system + AI audit workflow (also a lead magnet)"]
@@ -17,9 +17,6 @@ pain_points_interviewer_raised_or_inferred: []
 value: "10–22 h/mo · A$51K–113K capacity (≈ 1–3 SEO clients)"
 value_time_h_month: [10, 22]
 value_capacity_aud_per_year: [51000, 113000]
-build_cost: "A$1,500"
-monthly: "A$400/month (runs on seats)"
-notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 ---
 
 # DS-09 · AI-prefilled onboarding audit and Master SEO Document
@@ -39,8 +36,6 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 | Pain points cited | [KZ-PP01](../pain-points/README.md#kz-pp01), [KZ-PP02](../pain-points/README.md#kz-pp02), [KZ-PP03](../pain-points/README.md#kz-pp03), [KZ-PP04](../pain-points/README.md#kz-pp04), [KZ-PP21](../pain-points/README.md#kz-pp21), [SD-PP11](../pain-points/README.md#sd-pp11) |
 | Written source | – |
 | Value | 10–22 h/mo · A\$51K–113K capacity (≈ 1–3 SEO clients) |
-| Build cost | A\$1,500 |
-| Monthly | A\$400/month (runs on seats) |
 
 ## Vision
 
@@ -48,13 +43,7 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 >
 > **Connected to the client brain ([DS-04](ds-04-ai-client-brain.md)):** the finished audit, Master SEO Document and findings are saved into the client's brain, so they feed briefs ([DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md)), reviews ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)), monitoring ([DS-22](ds-22-seo-automated-monday-client-performance-check.md), [DS-29](ds-29-ppc-automated-monday-client-performance-check.md)) and health tracking ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)) from day one.
 
-## Pricing & priority
-
-> **Priority: Quick win · Impact 4 / 5 · Effort 2 / 5 (draft – confirm)**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Onboarding audit – Claude skills** (organic: pre-fills the Master SEO Document; paid: drafts the 30-item audit) – the only version recommended | **A\$1,500** | **A\$400/month** maintenance (runs on Claude seats) |
+## Decision
 
 **Decision (9 Nov):** adopt [O-14](../opportunities/README.md#o-14) as written – it speeds up onboarding audits.
 
@@ -92,7 +81,7 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 | Audit hours per paid onboarding | Unknown – longest onboarding step (SD-O07) | −40% |
 | Concurrent onboardings per manager without overtime | Limited ([KZ-PP02](../pain-points/README.md#kz-pp02)) | Set after baseline |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Onboarding stops capping growth.** AI pre-fills the onboarding audit and Master SEO Document so managers check and add strategy instead of building it from scratch – and can take on new clients without working out of hours.
 
@@ -114,9 +103,9 @@ notion_section: "AI-prefilled onboarding audit and Master SEO Document"
 
 *Inputs from Austin (10 Nov): 3–4 new clients a month; 10–12 h per SEO onboarding today. Assumptions: \~2–3 of the new clients are SEO; AI pre-filling cuts 50–60% (Karl: it would pull out "90% of the things").*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

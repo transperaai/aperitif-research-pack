@@ -5,7 +5,6 @@
 | Role | Performance Marketing Manager |
 | Team | Performance |
 | Date | 2026-10-30 |
-| Length | \~45 min |
 | Clients managed | 20 |
 
 ## Files

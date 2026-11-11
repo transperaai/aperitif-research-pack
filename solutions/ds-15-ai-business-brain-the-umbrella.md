@@ -4,7 +4,7 @@ title: "AI Business Brain – the umbrella (client brains, smart SOPs, one place
 team: "everyone"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
 status: "Decided – framing; priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-27 (company layer)"]
 earlier_ideas: ["EI-02 AI Business Brain", "EI-20 Team wiki – fast answers, self-updating, fits into workflows"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["KO-PP10", "KO-PP14", "KO-PP15", "MP-PP04", "MP-PP06", "MP-PP17", "MP-PP20"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP06 (interviewer-raised)", "MP-PP17 (interviewer-raised)", "MP-PP20 (interviewer-raised)"]
 value: "Better visibility for leadership"
-build_cost: "A$2,500"
-monthly: "TBC + tokens ~US$2–15"
-notion_section: "AI Business Brain – the umbrella"
 ---
 
 # DS-15 · AI Business Brain – the umbrella
@@ -37,8 +34,6 @@ notion_section: "AI Business Brain – the umbrella"
 | Pain points cited | [KO-PP10](../pain-points/README.md#ko-pp10), [KO-PP14](../pain-points/README.md#ko-pp14), [KO-PP15](../pain-points/README.md#ko-pp15), [MP-PP04](../pain-points/README.md#mp-pp04), [MP-PP06](../pain-points/README.md#mp-pp06) (interviewer-raised), [MP-PP17](../pain-points/README.md#mp-pp17) (interviewer-raised), [MP-PP20](../pain-points/README.md#mp-pp20) (interviewer-raised) |
 | Written source | – |
 | Value | Better visibility for leadership |
-| Build cost | A\$2,500 |
-| Monthly | TBC + tokens \~US\$2–15 |
 
 ## Vision
 
@@ -53,13 +48,7 @@ notion_section: "AI Business Brain – the umbrella"
 > 5. **Role-based access control (RBAC)** on both its memory and the information it can show – people only see what their role allows (e.g. commercial and HR detail limited to leadership).
 > 6. **A connector to the systems of record, not a copy of them** – Monday, HubSpot, Drive, the ad platforms and the link CRM stay the source of truth; the brain reads from them. No staff tracking or timesheets.
 
-## Pricing & priority
-
-> **Priority: Strategic build · Impact 4 / 5 · Effort 3 / 5 (draft – confirm)** · **Add-on to the AI client brain ([DS-04](ds-04-ai-client-brain.md))**
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **AI Business Brain – company layer**: @oracle front door, home view, weekly leadership pulse; **Joe's OpenClaw agents move into it** | **A\$2,500** (placeholder – scope not fully defined yet) | **TBC**  • AI tokens \~US\$2–15/month |
+## Decision
 
 **Decision (9 Nov):** the AI Business Brain is the **umbrella**. It has solutions under it – the client brain, **smart SOPs people can query**, and similar – rather than being one separate tool.
 
@@ -85,8 +74,8 @@ notion_section: "AI Business Brain – the umbrella"
 - **No usable wiki; the founder re-explains things:** *"No. We need a wiki badly."* – Head of Client Services ([KO-PP15](../pain-points/README.md#ko-pp15)). *"I'm sick of just explaining the same thing over and over again."* – leadership ([MP-PP04](../pain-points/README.md#mp-pp04)). Linked problems: [Documentation is stale and rarely read](../problems/p-12-documentation-is-stale-and-rarely-read.md), [Documentation and internal tooling held by the founder](../problems/p-13-documentation-and-internal-tooling-held-by-the.md).
 - **The AI assistant nobody uses:** *"it's got access to the team via a Slack channel. No one utilises it."* – founder ([KO-PP14](../pain-points/README.md#ko-pp14)). Transcripts paid for but unused: *"I think I'm the only one that does anything with the transcripts."* ([MP-PP20](../pain-points/README.md#mp-pp20), *raised by Austin*).
 - **Leadership visibility:** can't see whether work is happening on remote days ([MP-PP06](../pain-points/README.md#mp-pp06), *raised by Austin*); account data isn't pre-synthesised (*Austin's own observation in the mid-point interview, not staff evidence* – [MP-PP17](../pain-points/README.md#mp-pp17)).
-- [No single home for current templates – versions held by individuals](../problems/p-25-no-single-home-for-current-templates-versions.md) – Solve now. The brain becomes the one home for current templates: the playbook ([DS-02](ds-02-ai-playbook-repository.md)) holds the master templates and the brain answers "where's the latest X template?" with the link (Austin's call, 9 Nov).
-- [Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) – Solve now (culture). Every team reads the same client brains and company layer, so SEO, paid and content see each other's work and priorities for a client (Austin's call, 9 Nov).
+- [No single home for current templates – versions held by individuals](../problems/p-25-no-single-home-for-current-templates-versions.md) – Solve now. The brain becomes the one home for current templates: the playbook ([DS-02](ds-02-ai-playbook-repository.md)) holds the master templates and the brain answers "where's the latest X template?" with the link.
+- [Teams work in silos and don't see each other's work or priorities](../problems/p-47-teams-work-in-silos-and-don-t.md) – Solve now (culture). Every team reads the same client brains and company layer, so SEO, paid and content see each other's work and priorities for a client.
 - **Systems not followed:** *"you can build the best system in the world, but like, people don't use it"* – founder ([KO-PP10](../pain-points/README.md#ko-pp10)). This is the brain's main adoption risk.
 - [Problems are fixed after they break, by individual vigilance](../problems/p-48-problems-are-fixed-after-they-break-by.md) – Solve now (culture). The brain and the proactive solutions under it (pacing alerts [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md), link watchdog [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md), health signals [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md), market radar [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md), systems register [DS-10](ds-10-systems-register-and-break-fix-runbook.md)) shift the team from reacting to being warned early.
 
@@ -105,7 +94,7 @@ notion_section: "AI Business Brain – the umbrella"
 | Questions to the founder / Head of Client Services on "how do we do X" | Repeated ([MP-PP04](../pain-points/README.md#mp-pp04)) | −50% |
 | SOPs answerable by the brain | 0 | 100% of the top-10 repeat tasks ([DS-02](ds-02-ai-playbook-repository.md)) |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Better visibility for leadership, not hours.** One place to ask anything about the business in Slack, a weekly leadership pulse, and a home for Joe's OpenClaw agents. Its value is visibility: leadership sees what's happening without asking around. No hours claimed.
 
@@ -113,9 +102,9 @@ notion_section: "AI Business Brain – the umbrella"
 
 **Goals:** trust · good performance
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

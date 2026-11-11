@@ -4,7 +4,7 @@ title: "SEO: drop and anomaly alerts"
 team: "SEO"
 bundle: "SEO performance"
 status: "Decided – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "mixed"
 opportunities: ["O-12 (SEO part)"]
 earlier_ideas: []
@@ -17,9 +17,6 @@ pain_points_interviewer_raised_or_inferred: []
 value: "7–11 h/mo · A$35K–58K capacity (≈ 1–1.5 SEO clients)"
 value_time_h_month: [7, 11]
 value_capacity_aud_per_year: [35000, 58000]
-build_cost: "A$8,500 for the bundle (DS-22 + DS-23 + DS-24)"
-monthly: "A$1,250/month + tokens ~US$8–35"
-notion_section: "SEO: drop and anomaly alerts"
 ---
 
 # DS-23 · SEO: drop and anomaly alerts
@@ -39,8 +36,6 @@ notion_section: "SEO: drop and anomaly alerts"
 | Pain points cited | [LS-PP15](../pain-points/README.md#ls-pp15) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | 7–11 h/mo · A\$35K–58K capacity (≈ 1–1.5 SEO clients) |
-| Build cost | A\$8,500 for the bundle (DS-22 + DS-23 + DS-24) |
-| Monthly | A\$1,250/month + tokens \~US\$8–35 |
 
 ## Vision
 
@@ -74,7 +69,7 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 | Days from a ranking/traffic drop to the manager knowing | Unknown – found at month-end (LS-O03) | ≤ 1 day |
 | Drops raised by the client before the team | Happens | 0 |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 > **Drops are caught and explained the day they happen.** The alert arrives with the data collated and a first view of the cause and market context, so the manager goes straight to the fix and can tell the client before they notice.
 
@@ -95,9 +90,9 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 
 *Inputs from Austin (10 Nov): \~0.4 drops worth investigating per client per month; 20–30 min to work out why today.*
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

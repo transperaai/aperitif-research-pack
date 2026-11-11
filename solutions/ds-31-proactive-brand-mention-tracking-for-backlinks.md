@@ -1,10 +1,10 @@
 ---
 id: DS-31
-title: "Proactive brand-mention tracking for backlinks (split from DS-12)"
+title: "Proactive brand-mention tracking for backlinks"
 team: "link building / SEO"
 bundle: "Link-building CRM"
 status: "Added – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-20 (brand-mention part)"]
 earlier_ideas: ["EI-21 Unlinked brand-mention monitoring and outreach (Tier 1)"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["TG-PP03", "ZC-PP16"]
 pain_points_interviewer_raised_or_inferred: []
 value: "Links won without paying a publisher"
-build_cost: "A$1,000"
-monthly: "A$300/month + tokens ~US$2–10"
-notion_section: "Proactive brand-mention tracking for backlinks"
 ---
 
 # DS-31 · Proactive brand-mention tracking for backlinks
@@ -29,7 +26,7 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 | Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
 | Team | link building / SEO |
 | Status | Added – priced |
-| Source type | evidence-backed – Split from DS-12 (9 Nov); ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01) |
+| Source type | evidence-backed – ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01) |
 | Opportunities | [O-20](../opportunities/README.md#o-20) (brand-mention part) |
 | Earlier ideas | [EI-21](../opportunities/README.md#ei-21) Unlinked brand-mention monitoring and outreach (Tier 1) |
 | Fixes | [P-34 Link sourcing is slow, manual and supply-constrained, and AI vetting is inconsistent](../problems/p-34-link-sourcing-is-slow-manual-and-supply.md) (the supply part) |
@@ -37,24 +34,14 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 | Pain points cited | [TG-PP03](../pain-points/README.md#tg-pp03), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | Links won without paying a publisher |
-| Build cost | A\$1,000 |
-| Monthly | A\$300/month + tokens \~US\$2–10 |
 
-**Team:** link building / SEO. **Decision (9 Nov):** split out of [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md) as its own solution.
+**Team:** link building / SEO. **Decision (9 Nov):** a solution of its own, alongside [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md).
 
 ## Vision
 
 > **Proactively track brand mentions so the team can turn them into backlinks** – catch every new mention of a client that doesn't link to them, and reach out while it's fresh.
 
-## Pricing & priority
-
-> **Priority: Fill-in · Impact 2 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: Link-building CRM
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **Brand-mention tracker (Ahrefs Alerts + Claude drafting, feeds [DS-11](ds-11-link-building-workflow-crm.md)/DS-07)** | **A\$1,000** | **A\$300/month** maintenance + AI tokens \~US\$2–10/month (Ahrefs Alerts assumed in current plan) |
-
-## How it works (draft)
+## How it works
 
 1. Weekly (or faster) scan of the web for mentions of each Tier 1/2 client's brand, products and key people.
 2. Filters to mentions with **no link or no dofollow link** to the client.
@@ -73,22 +60,22 @@ notion_section: "Proactive brand-mention tracking for backlinks"
 
 Every new unlinked mention of a top client is found within a week and followed up, giving a steady stream of relevant links that cost no publisher fee.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
 | Links won from brand mentions per month | 0 ([ZC-PP16](../pain-points/README.md#zc-pp16)) | Set after a 1-month pilot |
 | Time from mention published to outreach sent | Not done | ≤ 7 days |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: links without paying a publisher.** Unlinked brand mentions are found and turned into links – every one won saves the \~A\$80–130 Aperitif pays for a placed link and strengthens the client's results.
 
 **Goals:** good performance
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

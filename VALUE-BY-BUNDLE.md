@@ -1,11 +1,11 @@
 # Value by bundle
 
-Mirror of the Notion page "Value by bundle" (10 Nov 2026, summary updated 11 Nov). Source of truth is Notion; numbers are recorded in [pricing/value_model.json](pricing/value_model.json).
+Value by bundle (10 Nov 2026, summary updated 11 Nov). The numbers are also in [pricing/value_model.json](pricing/value_model.json).
 
-> What each bundle is worth – **time saved**, **capacity unlocked** (extra MRR the same team could manage without hiring) and the value that can't be counted – with **how it works**, the **evidence** behind it and the **basis** of every number. Based on Aperitif's client board (10 Nov, live clients only), the interviews and Austin's inputs, and checked by two independent reviews. Full detail sits in each solution's **Value** section on the Distilled Solutions page in Notion.
+> What each bundle is worth – **time saved**, **capacity unlocked** (extra MRR the same team could manage without hiring) and the value that can't be counted – with **how it works**, the **evidence** behind it and the **basis** of every number. Based on Aperitif's client board (10 Nov, live clients only), the interviews and Austin's inputs, and checked by two independent reviews. Full detail sits in each solution's **Value** section in [solutions/](solutions/README.md).
 
 
-> **Updated 11 November.** The 32 solutions are now consolidated into 18 builds, and the value has been re-checked with one method. The current figures – including a dollar value and intangibles for every build – are in [builds/README.md](builds/README.md). The summary below is updated; the per-solution tables further down keep the original research detail (DS-01 now uses Windsor.ai rather than Adpulse).
+> **Updated 11 November.** The 32 solutions are now consolidated into 18 builds, and the value has been re-checked with one method. The current figures – including a dollar value and intangibles for every build – are in [builds/README.md](builds/README.md). The summary below matches the builds; the per-solution tables further down give the research detail (the PPC build uses Windsor.ai rather than Adpulse).
 
 > **Basis labels:** 📊 client board data · 🗣️ interview evidence · 👤 Austin / leadership input · 🔶 assumption or estimate · 💡 new capability or idea – value described, not measured
 
@@ -24,7 +24,7 @@ Mirror of the Notion page "Value by bundle" (10 Nov 2026, summary updated 11 Nov
 | Team productivity | \~16 h | – | – | \~A\$15K/yr of one specialist's time; nothing missed; clearer focus |
 | Market intelligence | – | – | – | Ideas and a stronger service offering |
 | Standalone | – | – | – | Landing pages: \~A\$18K–72K/yr new revenue (A\$300–600 a page × 5–10 a month, assumed) |
-| **Total** | **\~178–277 h** | **\~A\$0.49M–0.79M** | **\~13–21 clients** | Capacity and time A\$577K–968K/yr · revenue kept \~A\$540K/yr (indicative) · combined \~A\$1.12M–1.51M/yr, partly overlapping |
+| **Total** | **\~178–277 h** | **\~A\$0.49M–0.79M** | **\~13–21 clients** | Capacity and time A\$579.5K–973K/yr · revenue kept \~A\$540K/yr (indicative) · combined \~A\$1.12M–1.51M/yr, partly overlapping |
 
 ## What it means for DLER
 

@@ -4,7 +4,7 @@ title: "PPC: automated Monday client performance check (Google Ads, Meta and oth
 team: "PPC"
 bundle: "PPC performance"
 status: "Added – priced"
-ledger_status: addressed
+coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-12 (paid part (weekly check))"]
 earlier_ideas: ["EI-15 Proactive PPC monitor and anomaly detector"]
@@ -15,9 +15,6 @@ problems_related_only: []
 pain_points_cited: ["DM-PP02", "MC-PP08", "MC-PP18", "SH-PP11", "SH-PP12", "SH-PP15"]
 pain_points_interviewer_raised_or_inferred: []
 value: "New standard: clients hear from Aperitif before they ask (trust, retention)"
-build_cost: "A$1,500"
-monthly: "A$500/month + tokens ~US$5–25"
-notion_section: "PPC: automated Monday client performance check"
 ---
 
 # DS-29 · PPC: automated Monday client performance check
@@ -37,8 +34,6 @@ notion_section: "PPC: automated Monday client performance check"
 | Pain points cited | [DM-PP02](../pain-points/README.md#dm-pp02), [MC-PP08](../pain-points/README.md#mc-pp08), [MC-PP18](../pain-points/README.md#mc-pp18), [SH-PP11](../pain-points/README.md#sh-pp11), [SH-PP12](../pain-points/README.md#sh-pp12), [SH-PP15](../pain-points/README.md#sh-pp15) |
 | Written source | – |
 | Value | New standard: clients hear from Aperitif before they ask (trust, retention) |
-| Build cost | A\$1,500 |
-| Monthly | A\$500/month + tokens \~US\$5–25 |
 
 ## Vision
 
@@ -46,13 +41,7 @@ notion_section: "PPC: automated Monday client performance check"
 >
 > **How it's delivered:** from **Adpulse** if chosen for [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (its portfolio dashboard and custom monitors), or a **light version** built on the modernised pacing bot ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) smaller option) if Adpulse isn't bought.
 
-## Pricing & priority
-
-> **Priority: Fill-in · Impact 3 / 5 · Effort 2 / 5 (draft – confirm)** · Bundle: PPC performance
->
-> | Item | Build cost | Monthly cost |
-> | --- | --- | --- |
-> | **PPC Monday performance check – with Adpulse** (Adpulse dashboards and monitors + a Claude summary per client to Slack/Monday and the brain) | **A\$1,500** | **A\$500/month** maintenance + AI tokens \~US\$5–25/month (Adpulse licence counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)) |
+## Decision
 
 **Team:** PPC. **Decision (9 Nov):** the PPC version of [DS-22](ds-22-seo-automated-monday-client-performance-check.md) – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
 
@@ -62,7 +51,7 @@ notion_section: "PPC: automated Monday client performance check"
 - **[DS-27](ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md)** **diagnoses** an alert once it fires.
 - **DS-29** is the **weekly roll-up**: every account's performance in one summary, whether or not anything crossed a threshold – trends, small dips, wins, and housekeeping checks.
 
-## How it works (draft)
+## How it works
 
 1. Every Monday it pulls each client's figures from Google Ads, Meta, LinkedIn and the other live channels, plus GA4 conversions: spend vs pace, conversions, CPA/CPL/ROAS, CTR, frequency.
 2. It compares them with last week, last month and the client's targets.
@@ -82,7 +71,7 @@ notion_section: "PPC: automated Monday client performance check"
 
 Every paid client gets a performance check every Monday automatically, including the housekeeping checks that slip in busy weeks.
 
-## KPIs (draft)
+## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
@@ -90,15 +79,15 @@ Every paid client gets a performance check every Monday automatically, including
 | Days a tracking break goes unnoticed | Up to \~7 ([SH-PP11](../pain-points/README.md#sh-pp11)) | ≤ 1 week max, usually same week |
 | Merchant Center / feed checks done on time | Missed for \~3 weeks ([MC-PP18](../pain-points/README.md#mc-pp18)) | Weekly |
 
-## Value (revised with Austin, 10 Nov)
+## Value
 
 **Value: a new standard of client communication.** A weekly performance summary per client that the team can act on and report to the client from. Proactive client updates don't happen today, so this isn't time back – it's clients hearing from Aperitif before they ask, which builds trust and supports retention.
 
 **Goals:** trust · good customer service · retention
 
-## Indicative build cost and OpEx
+## Pricing
 
-See this solution's green **Pricing & priority** box above.
+Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 

@@ -1,8 +1,7 @@
 ---
 id: P-27
 title: "Client handovers (sales to delivery, offboarding) have no structured pack or trigger"
-austin_call: "Solve now"
-austin_note: "Standard list of requirements delivery needs from sales calls that can then be automatically sent to delivery team to review and confirm. so we don’t need to rely on Joe signing every contract. we can remove joe from that component of sales by capturing his decision making and enforcing sales is asking the right question."
+decision: "Solve now"
 status: addressed
 fixed_by: ["DS-04", "DS-08"]
 also_helped_by: []
@@ -13,15 +12,13 @@ pain_points: ["KO-PP01", "MC-PP11", "MC-PP14", "SH-PP07", "WS-PP06"]
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 410e204ff769818e891ce057635a604d
 ---
 
 # P-27 · Client handovers (sales to delivery, offboarding) have no structured pack or trigger
 
 | | |
 | --- | --- |
-| Austin's call | **Solve now** |
-| Austin's note | Standard list of requirements delivery needs from sales calls that can then be automatically sent to delivery team to review and confirm. so we don’t need to rely on Joe signing every contract. we can remove joe from that component of sales by capturing his decision making and enforcing sales is asking the right question. |
+| Decision | **Solve now** |
 | Status | addressed – Fixed by [DS-04](../solutions/ds-04-ai-client-brain.md), [DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Sales |
@@ -32,7 +29,7 @@ notion_id: 410e204ff769818e891ce057635a604d
 - Fixes: [DS-04 AI client brain (per client) – under the AI Business Brain banner](../solutions/ds-04-ai-client-brain.md)
 - Fixes: [DS-08 AI sales handover: extracted from sales calls, confirmed by delivery](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md)
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-08](../opportunities/README.md#o-08) Sales-to-delivery gate: handover fields, owner, access checklist – addressed ([DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md))
 - [EI-12](../opportunities/README.md#ei-12) Meeting transcripts → per-client action runsheet – absorbed ([DS-04](../solutions/ds-04-ai-client-brain.md))
@@ -42,8 +39,7 @@ notion_id: 410e204ff769818e891ce057635a604d
 
 - Cluster [C-08](../synthesis/clusters-and-root-causes.md#c-08): Client handovers (sales to delivery, offboarding) have no structured pack or trigger – raised by 3 staff + 0 leadership; confidence High.
 - Root cause [RC-03](../synthesis/clusters-and-root-causes.md#rc-03): Client context isn't captured per client, so every hand-off – sales to delivery, manager to writer or specialist, cover – loses detail.
-- Problems DB root cause: [RC-03](../synthesis/clusters-and-root-causes.md#rc-03): Client context isn't captured per client, so every hand-off loses detail. Chain: clients re-asked, onboarding calls run 'blind', an offboarding handover missed ([SH-PP07](../pain-points/README.md#sh-pp07), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP14](../pain-points/README.md#mc-pp14)) → internal sales-to-delivery call late or skipped ([WS-PP06](../pain-points/README.md#ws-pp06)) → handover relies on a transcript and HubSpot notes, not a required pack ([KO-PP01](../pain-points/README.md#ko-pp01), KO-str07) → client lifecycle transitions have no required fields, checklist or trigger.
-- Merge notes: Stage 1 merge (6 Nov): New – [C-08](../synthesis/clusters-and-root-causes.md#c-08). 3 staff + 0 leadership; corroborated by [KO-PP01](../pain-points/README.md#ko-pp01). Related to R14 and R18. Leadership describes a 15-minute handover on one HubSpot record (KO-str07); staff say it is often late or skipped ([X-16](../synthesis/contradictions.md#x-16)). Members: [KO-PP01](../pain-points/README.md#ko-pp01), [SH-PP07](../pain-points/README.md#sh-pp07), [MC-PP11](../pain-points/README.md#mc-pp11), [WS-PP06](../pain-points/README.md#ws-pp06), [MC-PP14](../pain-points/README.md#mc-pp14)
+- Root cause (problem record): [RC-03](../synthesis/clusters-and-root-causes.md#rc-03): Client context isn't captured per client, so every hand-off loses detail. Chain: clients re-asked, onboarding calls run 'blind', an offboarding handover missed ([SH-PP07](../pain-points/README.md#sh-pp07), [MC-PP11](../pain-points/README.md#mc-pp11), [MC-PP14](../pain-points/README.md#mc-pp14)) → internal sales-to-delivery call late or skipped ([WS-PP06](../pain-points/README.md#ws-pp06)) → handover relies on a transcript and HubSpot notes, not a required pack ([KO-PP01](../pain-points/README.md#ko-pp01), KO-str07) → client lifecycle transitions have no required fields, checklist or trigger.
 
 ## Pain points (5)
 
@@ -58,6 +54,6 @@ notion_id: 410e204ff769818e891ce057635a604d
 - [WS-PP06](../pain-points/README.md#ws-pp06) – Internal sales-to-delivery onboarding call happens late (sometimes 10 min before client call) or the process is skipped, incl. by the founder
   - *"Sometimes that call happens like 10 minutes before the client call."* – Wendlley Simoes, Performance Marketing Director · staff-raised · [\~20:43 (L251)](../interviews/ws-wendlley-simoes/transcript.md?plain=1#L256) · Austin: Agree – ai brain should to provide this automatically with the call be required for clarifications rather than knowledge transfer
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 "So we're like re-asking questions. And ideally, it would be nice to find that information somewhere." – a performance manager ([SH-PP07](../pain-points/README.md#sh-pp07), \~14:56, L133) | "So sometimes I'm going in blind… I haven't talked to [sales] on what has been communicated on the sales side" – a performance team member ([MC-PP11](../pain-points/README.md#mc-pp11), \~30:11, L266) | "Another two or three days has passed… the client is following up on the handover docs… So that makes us look bad." – a performance team member ([MC-PP14](../pain-points/README.md#mc-pp14), \~27:55, L249)

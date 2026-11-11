@@ -1,8 +1,7 @@
 ---
 id: P-10
 title: "Content stalls at client approval – or the tracker can't show what's finished"
-austin_call: "Not in proposal"
-austin_note: "Why: the fix (O-24, client approval deadlines) was dropped by Austin on 9 Nov; approvals sit with the client."
+decision: "Not in proposal"
 status: not_in_proposal
 fixed_by: []
 also_helped_by: []
@@ -13,16 +12,14 @@ pain_points: ["HT-PP10", "KZ-PP14", "LS-PP06", "LS-PP07", "LS-PP17", "ZC-PP06"]
 theme: "Process / automation"
 severity: "High"
 confidence: "High – raised by 3+ people"
-notion_id: 40fe204ff76981b68122d87f55dc84be
 ---
 
 # P-10 · Content stalls at client approval – or the tracker can't show what's finished
 
 | | |
 | --- | --- |
-| Austin's call | **Not in proposal** |
-| Austin's note | Why: the fix (O-24, client approval deadlines) was dropped by Austin on 9 Nov; approvals sit with the client. |
-| Status | not in proposal – why: Not solving in this proposal – the fix ([O-24](../opportunities/README.md#o-24)) was dropped (Austin, 9 Nov). |
+| Decision | **Not in proposal** |
+| Status | not in proposal – why: the fix ([O-24](../opportunities/README.md#o-24)) was not taken forward. |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -31,7 +28,7 @@ notion_id: 40fe204ff76981b68122d87f55dc84be
 
 - None.
 
-## Opportunities linked in Notion
+## Linked opportunities
 
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
 - [O-24](../opportunities/README.md#o-24) Client approval SLAs with logged dates and reminders – dropped
@@ -41,8 +38,7 @@ notion_id: 40fe204ff76981b68122d87f55dc84be
 
 - Cluster [C-11](../synthesis/clusters-and-root-causes.md#c-11): Content stalls at client approval with no client-facing approval trail – raised by 4 staff + 0 leadership; confidence High.
 - Root cause [RC-07](../synthesis/clusters-and-root-causes.md#rc-07): External dependencies – client access, approvals, inputs, contractors and vendors – aren't contracted, time-boxed or tracked, so delivery waits.
-- Problems DB root cause: Approval happens by sending Google Docs to clients who aren't sure what they're reviewing, and the tracker status isn't updated after delivery. Either way, nobody can see what's actually approved and live.
-- Merge notes: Stage 1 merge (6 Nov): Confirm → [C-11](../synthesis/clusters-and-root-causes.md#c-11). Root cause and quotes below are pre-merge document evidence; Stage 1 root cause and anonymised quotes are in the page body.
+- Root cause (problem record): Approval happens by sending Google Docs to clients who aren't sure what they're reviewing, and the tracker status isn't updated after delivery. Either way, nobody can see what's actually approved and live.
 
 ## Pain points (6)
 
@@ -59,6 +55,6 @@ notion_id: 40fe204ff76981b68122d87f55dc84be
 - [ZC-PP06](../pain-points/README.md#zc-pp06) – Client content approval averages \~1 week and needs chasing; results stall until published
   - *"I think on average, it probably takes like a week on average. So it's quite a long time to get it done."* – Zach Chamberlain, SEO Manager · staff-raised · [\~41:13 (L435)](../interviews/zc-zach-chamberlain/transcript.md?plain=1#L441) · Austin: Agree
 
-## Best quotes and figures (Problems DB)
+## Best quotes and figures
 
 Internal Content Tracker Jan–Oct 2026: 428 of 471 requests (91%) at 'Written – awaiting approval'; only 4 'Approved'; 16 cancelled; 4 blocked. Overview 'Total' reads 785,550 words but months sum to 928,250 – the formula omits the Content Specialist's 142,700 words. Ideas list: 'Aperitif docs for approval are confusing for non-technical people – "What am I looking at?" comments from clients'.

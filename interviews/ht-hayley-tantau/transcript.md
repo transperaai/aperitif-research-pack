@@ -1,6 +1,6 @@
 # Transcript – Hayley Tantau (Content Specialist) – 2026-11-04
 
-Source: Notion meeting note https://app.notion.com/p/40ee204ff76981a883bbcadb12b177c5 (include_transcript). No timestamps in source; [~mm:ss] estimated from word position assuming the 60-min recording (13:30–14:30 AEDT). Speaker labels as in source: A and C = Austin Smith (interviewer); B, D, E = Hayley (interviewee). Some short backchannels may be mislabelled.
+Source: meeting notes (include_transcript). No timestamps in source; [~mm:ss] estimated from word position assuming the 60-min recording (13:30–14:30 AEDT). Speaker labels as in source: A and C = Austin Smith (interviewer); B, D, E = Hayley (interviewee). Some short backchannels may be mislabelled.
 Lines L389–L919 (a separate Meta pacing troubleshooting session with Wendlley Simoes, speakers F–Q) are saved in transcript-session2-wendlley.md and are OUT OF SCOPE for this extraction.
 
 L001 [~00:00] A: Hey Hayley.  

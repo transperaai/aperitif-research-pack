@@ -1,23 +1,23 @@
 # Interviews (14 sessions)
 
-Each folder holds the transcript (`transcript.md`, with line numbers L### and estimated \~mm:ss), the extraction report (`extraction-report.md`, Part A of the extraction prompt) and the structured data (`part-b.json`, Part B).
+Each session ran an hour or more. Each folder holds the transcript (`transcript.md`, with line numbers L### and estimated \~mm:ss), the extraction report (`extraction-report.md`, Part A) and the structured data (`part-b.json`, Part B).
 
-| Code | Who | Role | Team | Date | Minutes | Pain points |
-| --- | --- | --- | --- | --- | --- | --- |
-| [KO](ko-leadership-kick-off/README.md) | Joe Romeo; Julia Van Der Linden | Founder & Principal Consultant; Head of Client Services | Leadership | 2026-10-22 | 90 | 26 |
-| [LS](ls-laura-shillington/README.md) | Laura Shillington | SEO Director | Organic | 2026-10-28 | 25 | 17 |
-| [WS](ws-wendlley-simoes/README.md) | Wendlley Simoes | Performance Marketing Director | Performance | 2026-10-28 | 63 | 16 |
-| [KZ](kz-karl-zaharopoulos/README.md) | Karl Zaharopoulos | Senior SEO Manager & Link-building Lead | Organic | 2026-10-29 | 60 | 24 |
-| [SH](sh-sophie-hesseborn/README.md) | Sophie Hesseborn | Senior Performance Marketing Manager | Performance | 2026-10-29 | 60 | 17 |
-| [SJ](sj-sarah-julian/README.md) | Sarah Julian | Content Manager | Organic | 2026-10-29 | 30 | 14 |
-| [DM](dm-diya-manoj/README.md) | Diya Manoj | Performance Marketing Manager | Performance | 2026-10-30 | 45 | 14 |
-| [MP](mp-leadership-mid-point/README.md) | Joe Romeo & Julia Van Der Linden | Founder & Principal Consultant; Head of Client Services | Leadership | 2026-10-30 | 45 | 22 |
-| [SD](sd-shrishti-dokwal/README.md) | Shrishti Dokwal | Senior Performance Marketing Manager | Performance | 2026-10-30 | 54 | 19 |
-| [MC](mc-michaela-cruz/README.md) | Michaela Cruz | Performance Marketing Specialist | Performance | 2026-11-02 | 47 | 20 |
-| [HT](ht-hayley-tantau/README.md) | Hayley Tantau | Content Specialist | Organic | 2026-11-04 | 33 | 10 |
-| [SB](sb-sid-bali/README.md) | Sid (Siddharth) Bali | Technical SEO Specialist | Organic | 2026-11-04 | 40 | 15 |
-| [TG](tg-tonie-guevarra/README.md) | Tonie Guevarra | Outreach Specialist (link building) | Organic | 2026-11-04 | 45 | 12 |
-| [ZC](zc-zach-chamberlain/README.md) | Zach (Zachary) Chamberlain | SEO Manager | Organic | 2026-11-04 | 47 | 17 |
+| Code | Who | Role | Team | Date | Pain points |
+| --- | --- | --- | --- | --- | --- |
+| [KO](ko-leadership-kick-off/README.md) | Joe Romeo; Julia Van Der Linden | Founder & Principal Consultant; Head of Client Services | Leadership | 2026-10-22 | 26 |
+| [LS](ls-laura-shillington/README.md) | Laura Shillington | SEO Director | Organic | 2026-10-28 | 17 |
+| [WS](ws-wendlley-simoes/README.md) | Wendlley Simoes | Performance Marketing Director | Performance | 2026-10-28 | 16 |
+| [KZ](kz-karl-zaharopoulos/README.md) | Karl Zaharopoulos | Senior SEO Manager & Link-building Lead | Organic | 2026-10-29 | 24 |
+| [SH](sh-sophie-hesseborn/README.md) | Sophie Hesseborn | Senior Performance Marketing Manager | Performance | 2026-10-29 | 17 |
+| [SJ](sj-sarah-julian/README.md) | Sarah Julian | Content Manager | Organic | 2026-10-29 | 14 |
+| [DM](dm-diya-manoj/README.md) | Diya Manoj | Performance Marketing Manager | Performance | 2026-10-30 | 14 |
+| [MP](mp-leadership-mid-point/README.md) | Joe Romeo & Julia Van Der Linden | Founder & Principal Consultant; Head of Client Services | Leadership | 2026-10-30 | 22 |
+| [SD](sd-shrishti-dokwal/README.md) | Shrishti Dokwal | Senior Performance Marketing Manager | Performance | 2026-10-30 | 19 |
+| [MC](mc-michaela-cruz/README.md) | Michaela Cruz | Performance Marketing Specialist | Performance | 2026-11-02 | 20 |
+| [HT](ht-hayley-tantau/README.md) | Hayley Tantau | Content Specialist | Organic | 2026-11-04 | 10 |
+| [SB](sb-sid-bali/README.md) | Sid (Siddharth) Bali | Technical SEO Specialist | Organic | 2026-11-04 | 15 |
+| [TG](tg-tonie-guevarra/README.md) | Tonie Guevarra | Outreach Specialist (link building) | Organic | 2026-11-04 | 12 |
+| [ZC](zc-zach-chamberlain/README.md) | Zach (Zachary) Chamberlain | SEO Manager | Organic | 2026-11-04 | 17 |
 
 ## Written sources
 

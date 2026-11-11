@@ -1,8 +1,8 @@
 # Solutions
 
-One file per solution (DS-01..DS-33). Each file starts with YAML front matter and a summary table, then the one-pager from Austin's "Distilled Solutions" page (Notion), converted to GitHub markdown. DS-13 was merged into DS-14 (Part B); its file is kept so numbering does not shift. Bundles are for presenting the work; each solution keeps its own scope, KPIs and cost.
+One file per solution (DS-01..DS-33). Each file starts with YAML front matter and a summary table, then the solution one-pager. DS-13 is covered by DS-14 (Part B); its file is kept so numbering does not shift. Bundles are for presenting the work; each solution keeps its own scope, KPIs and evidence.
 
-**Costs:** each solution's build price and monthly fee (set by Austin, A\$; SaaS and AI tokens in US\$) are in its file and in the green Pricing & priority box on the Notion page. Value (time saved, capacity unlocked, evidence and basis) is in [../VALUE-BY-BUNDLE.md](../VALUE-BY-BUNDLE.md), which is authoritative; time and capacity are the same hours counted two ways, so never add them. Older cost-of-inactivity (COI) figures are superseded.
+**Costs and value:** the 32 solutions are delivered as 18 builds; prices, maintenance, running costs and dollar value for each build are in [../builds/README.md](../builds/README.md). The research basis behind each value (time saved, capacity unlocked, evidence) is in [../VALUE-BY-BUNDLE.md](../VALUE-BY-BUNDLE.md); time and capacity are the same hours counted two ways, so never add them.
 
 ## <a id="bundle-ai-business-brain"></a>AI Business Brain
 
@@ -40,15 +40,15 @@ One file per solution (DS-01..DS-33). Each file starts with YAML front matter an
 | [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md) | Link watchdog agent: monitors every paid link | link building | Decided – priced | mixed | [P-07](../problems/p-07-paid-links-disappear-after-payment-detected-manually.md) | Up to A\$10K–16K/yr recovered; client results protected |
 | [DS-11](ds-11-link-building-workflow-crm.md) | Link-building workflow CRM (orders, publishers, links, invoicing and payments) | link building | Decided – custom build; priced | evidence-backed | [P-06](../problems/p-06-link-building-runs-on-7-disconnected-spreadsheets.md), [P-08](../problems/p-08-outreacher-invoicing-tracked-as-paypal-links-in.md) | 18.5–30 h/mo · \~9–15 more links a month (delivery capacity) |
 | [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md) | Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM) | link building | Decided (as written) – priced | evidence-backed | [P-34](../problems/p-34-link-sourcing-is-slow-manual-and-supply.md) | 7.5–17 h/mo · \~4–8 more links a month |
-| [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md) | Proactive brand-mention tracking for backlinks (split from DS-12) | link building / SEO | Added – priced | evidence-backed | [P-34](../problems/p-34-link-sourcing-is-slow-manual-and-supply.md) | Links won without paying a publisher |
+| [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md) | Proactive brand-mention tracking for backlinks | link building / SEO | Added – priced | evidence-backed | [P-34](../problems/p-34-link-sourcing-is-slow-manual-and-supply.md) | Links won without paying a publisher |
 
 ## <a id="bundle-market-intelligence"></a>Market intelligence
 
 | ID | Solution | Team | Status | Source type | Fixes | Value |
 | --- | --- | --- | --- | --- | --- | --- |
-| [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md) | Seasonal & trending content radar per client (split 9 Nov) | SEO and content strategists | Decided – priced | evidence-backed | [P-24](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) | Content lands before the peak, not after |
-| [DS-32](ds-32-competitor-spy-per-client.md) | Competitor spy per client (split from DS-16) | SEO and content strategists (paid can use it too) | Decided – priced | evidence-backed | [P-24](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) | React to competitors first |
-| [DS-33](ds-33-macro-trend-tracker-per-client.md) | Macro trend tracker per client (split from DS-16) | SEO, content and paid strategists | Decided – priced | Austin addition | [P-24](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) | Timely ideas from news and regulation |
+| [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md) | Seasonal & trending content radar per client | SEO and content strategists | Decided – priced | evidence-backed | [P-24](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) | Content lands before the peak, not after |
+| [DS-32](ds-32-competitor-spy-per-client.md) | Competitor spy per client | SEO and content strategists (paid can use it too) | Decided – priced | evidence-backed | [P-24](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) | React to competitors first |
+| [DS-33](ds-33-macro-trend-tracker-per-client.md) | Macro trend tracker per client | SEO, content and paid strategists | Decided – priced | Austin addition | [P-24](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) | Timely ideas from news and regulation |
 
 ## <a id="bundle-client-lifecycle"></a>Client lifecycle
 
@@ -82,6 +82,3 @@ One file per solution (DS-01..DS-33). Each file starts with YAML front matter an
 | [DS-19](ds-19-ai-receptionist.md) | AI receptionist (phone; Aircall add-on or own build) | sales / leadership (phones) | Decided – call director; Aircall add-on (\~A\$370/mo) recommended, own build as the cheaper alternative; weak interview evidence | Austin addition | none | No missed leads; callers reach the right person |
 | [DS-21](ds-21-ai-creative-tools-to-augment-the-team.md) | AI creative tools to augment the team (existing tools, no build) | PPC and creative | Decided – tool shortlist to trial; cost = licences | Austin addition | [P-38](../problems/p-38-creative-and-landing-pages-are-outsourced-slow.md) | Faster creative in-house |
 
-## Not recommending
-
-- [NR-01 Email inbox PA assistant](../decisions/not-recommending.md#nr-01) – An assistant that acts on someone's behalf only works where people reliably check its output; the audit found systems and reminders often aren't followed (KO-PP10, MP-PP03, MP-PP05), so the risk of unchecked replies going to clients is too high for now. DS-06 and DS-30 help with the inbox without acting for anyone.

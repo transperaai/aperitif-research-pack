@@ -1,9 +1,9 @@
 # Part A – Transcript extraction: Hayley Tantau (Content Specialist)
 
 **Source and method notes**
-- Transcript: Notion meeting notes "Hayley - Workflow & Process Interview", 4 Nov 2026, 1:30 pm (Melbourne), booked 60 min (Evidence Log EV-12). Full transcript retrieved (919 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **The recording holds two sessions.** L001–L388 is the Hayley interview (~33 min; Austin closed early: "I can give you 30 minutes back", L374). L389–L919 is a separate Meta pacing / Supermetrics troubleshooting session between Austin and Wendlley Simoes ("Thanks so much, Wendley", L918). **Only L001–L388 is extracted here.** The second session is saved separately (`/home/claude/HT/transcript-session2-wendlley.md`) and flagged in section 11.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `/home/claude/HT/transcript.md`; ~mm:ss is estimated from cumulative word position across the 60-minute recording (13:30–14:30 AEDT), which puts the end of the Hayley section at ~33:37.
+- Transcript: meeting notes "Hayley - Workflow & Process Interview", 4 Nov 2026, 1:30 pm (Melbourne), booked 60 min (Evidence Log EV-12). Full transcript retrieved (919 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **The recording holds two sessions.** L001–L388 is the Hayley interview (~33 min; Austin closed early: "I can give you 30 minutes back", L374). L389–L919 is a separate Meta pacing / Supermetrics troubleshooting session between Austin and Wendlley Simoes ("Thanks so much, Wendley", L918). **Only L001–L388 is extracted here.** The second session is saved separately (`transcript-session2-meta-pacing-call.md`).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across the 60-minute recording (13:30–14:30 AEDT), which puts the end of the Hayley section at ~33:37.
 - **Speakers:** the diariser labelled Austin as C (and A for "Hey Hayley" and short backchannels) and split Hayley across B, D and E. A and C are treated as Austin; all other lines in L001–L388 as Hayley. A few short lines are clearly mislabelled (for example L242 "I just write." under C is Hayley's).
 - **Name and term corrections (transcription):** "super loop logs" (L048) → Superloop blogs · "kid" (L232) → Sid (Siddharth Bali) · "Monday" → Monday.com · "chat GPT" → ChatGPT · "Apartheid" (L349) → Aperitif · "provisions" (L057) → revisions · "Would count" (L207) → word count · "seo tech" (L155, L269) → SEO specialists · "APRA guidelines" (L117, dental client) → likely AHPRA (health practitioner advertising rules) – inferred · "two on client" (L308) → likely "tier one client" – inferred. Unresolved: "AI fly" (L349), "imperative style" (L218, probably "our style"), "Do you agree with shades?" (L194).
 - Hours are costed at **$80/hr internal labour cost**. Process totals cover Hayley's own time unless a row says otherwise (the Content Manager's freelancer assignment time is noted but not costed – not discussed).
@@ -19,7 +19,7 @@
 | Team | Organic (content) |
 | Date / length | 4 Nov 2026 · ~33 min of a 60-min booking (rest of the recording is a separate session) |
 | Interviewer | Austin Smith (Transpera AI) |
-| Clients managed | ~7 this month (stated, L147). Context pack says 17 content clients – see 11 |
+| Clients managed | ~7 this month (stated, L147). Context pack says 17 content clients |
 | Channels / services | SEO content writing: pages and blogs, research, drafting, revisions; editing freelancer overflow; covers freelancer assignment when the Content Manager is away |
 | Reports to | Sarah Julian, Content Manager ("Sarah, who's my manager", L040) |
 | Hands work to | Clients for approval (via account managers / SEO specialists – "a different AM", L048); Content Manager |
@@ -199,7 +199,7 @@ Flags: ⏸ bottleneck · 👤 single-person dependent · ⌨️ manual copy / re
 | HT-P06 | Client meetings & prep | 1.0–3.0 | 1.0–3.0 | $80–$240 |
 | **Total** | | **104.5–168.6 h** | **104.5–168.6 h** | **$8,360–$13,488** |
 
-These are Hayley's hours only (Content Manager, SEO specialist and freelancer time is not costed – not discussed). The high end (~169 h) is slightly more than one full-time month (~152–165 h), so the assumptions can't all be at their high end together; the mid range (~135 h) is more realistic. Confirm with timesheets and the word-count tracker (see 11).
+These are Hayley's hours only (Content Manager, SEO specialist and freelancer time is not costed – not discussed). The high end (~169 h) is slightly more than one full-time month (~152–165 h), so the assumptions can't all be at their high end together; the mid range (~135 h) is more realistic. Confirm with timesheets and the word-count tracker.
 
 ## 3. Pain points and problems
 
@@ -317,7 +317,7 @@ Ties are broken by Ease, then Impact. Note: HT-O04 (Impact 3, Ease 3) fits none 
 
 | Value | Unit | Context | Quote + timestamp | Certainty |
 |---|---|---|---|---|
-| ~7 | clients | HT's book this month | "I think I have about like Seven this month." ~12:49 (L147) | stated (context pack says 17 – see 11) |
+| ~7 | clients | HT's book this month | "I think I have about like Seven this month." ~12:49 (L147) | stated (context pack says 17) |
 | ~2 | days per client | Writing time per client per month | "I kind of work on a client for a couple of days" ~12:49 (L147) | stated |
 | 24th | day of month | Target to finish own client work | "aiming this month to get all our client work done by the 24th" ~12:49 (L147) | stated |
 | 2 | writers with client books | Content Manager and HT | "We have a certain amount of clients each, Sarah and I" ~03:15 (L045) | stated |
@@ -348,37 +348,6 @@ Ties are broken by Ease, then Impact. Note: HT-O04 (Impact 3, Ease 3) fits none 
 | Sheets–Monday.com integration know-how | Sid (Siddharth Bali, Technical SEO Specialist) – moving to client work | Migration stalls (HT-PP06) |
 | AI prompting workflow (Claude → finesse → Gemini) | HT (individual) | New junior and freelancers start from scratch |
 
-## 11. Follow-ups
-
-**Questions**
-- Hayley: which client is the out-of-cycle, in-person client, and how many hours a month do its last-minute requests take?
-- Hayley: how many revision rounds a month, and how long each? Typical client approval turnaround?
-- Hayley / Sarah: how many words a month does Hayley write and edit (from the word-count tracker), and how much of the last week goes on freelancer editing?
-- Sarah: is the leave-cover arrangement written down? Who signs off the junior hire and when is the start date?
-- Sid / Austin: status of the Google Sheets–Monday.com connection, and who owns it now?
-- Hayley: what is "AI fly" (L349) and "imperative style" (L218)?
-
-**Contradictions**
-- Context pack says Hayley owns **17 content clients**; she says "about like Seven this month" (L147). Could be active clients this month vs total book – confirm.
-- Context pack has the Content Specialist at ~15% of team words (~14k words/month); 7 clients × ~2 days each fits roughly but should be checked against the tracker.
-- Combined high-end hours (~169 h/month) are above one FTE – the assumptions can't all be at the high end together.
-- Hayley says client nuance is "not a pain point that I feel" (L106) but also that they "could probably protect ourselves more" (L135) – recorded as a risk, not a felt pain.
-
-**Out-of-scope content in this recording**
-- L389–L919 (~26 min) is a separate troubleshooting session between Austin and Wendlley Simoes on the broken Supermetrics → Meta pacing sheet connection (Wendlley: "the cloud [Claude] i was doing because the supermetrics was not working", L434). It confirms the known fact that Wendlley has been doing Meta pacing manually in Claude. Per the Notion AI summary, a scheduled Claude automation was set up, the Meta connector reached 4 of 6 accounts, and a Supermetrics access request is waiting on Joe. **This should be extracted against Wendlley's Evidence Log row (or logged as its own evidence), not under Hayley.** Not extracted here.
-
-**Data / artefacts to request**
-- A range of briefs, including a freelancer brief and a "very detailed" Tier 1 brief, with Hayley's notes on each (Hayley – agreed in the interview, L303–L312).
-- Draft content as submitted to clients for approval, matched to its brief (Hayley – agreed, L314, L362–L364).
-- Internal content tracker 2026 overview / word-count tracker (Sarah / Hayley – Austin now has access, L357–L360).
-- Freelancer sheets and rates (Sarah).
-- Monday.com content board export (Sarah / Sid).
-
-**Claims to verify before the pack**
-- ~7 clients and "a couple of days" per client – check against the word-count tracker.
-- Freelancer reliance is "so expensive" – the cost line is garbled (L214–L215) and may be Austin's; use the context-pack contractor spend (~$14k/month) instead.
-- Dental client's "APRA guidelines" – likely AHPRA advertising rules; confirm which client.
-
 ## 11a. Clients mentioned
 
 | Client | Tier (context pack) | What was said |
@@ -389,14 +358,3 @@ Ties are broken by Ease, then Impact. Note: HT-O04 (Impact 3, Ease 3) fits none 
 | Unnamed high-priority client | Likely Tier 1 (inferred) | Met in person; works outside the content cycle; not briefed by the SEO specialists; sends work at the last minute (L052, L154–L156) |
 | Possibly easyAML (inferred) | Not on the SEO tier list; paid media client (context pack) | "looking up money laundering content that I don't understand" (L296) – inferred from the topic only; confirm |
 | Unnamed client for "a different AM" | Unknown | Two pages to prioritise tomorrow (L048) |
-
-## 12. Sensitive notes (not for the pack)
-
-- **Overall sentiment: positive, relaxed and engaged.** She describes the role as "pretty predictable, which is really, really nice" (L159) and the workload as "at the moment, manageable" (L221). She apologised for not having more problems to share (L367–L368).
-- She is self-critical: she puts the end-of-month crunch down partly to "my own time management. issues um that i'm always working on" (L150–L152), and says "I need to get better with Claude" (L267). Austin reassured her she is ahead of most users (L270).
-- Some job-security sensitivity around AI: "I don't think I can use any more than I do. do without making myself obsolete." (L290–L292).
-- Leave cover was stressful: "when Sarah went on leave, it was like crunchy for me for sure." (L208).
-- Positive comments about named colleagues: Zach's briefs for the dental client are "so detailed" (L115); Sarah "can put together a mean spreadsheet" (L195). No negative comments about any individual.
-- Clients are "really nice", though feedback sometimes stings ("Spam [?] my feelings", L064–L067).
-- Austin said Sid is "moving into more client-focused positions, so he's probably got less time" (L236) – a role change Austin raised, not Hayley.
-- Austin's side remarks (an "AI receptionist" vs a receptionist named Joanna, L338; the gun analogy, L335) are not findings.
