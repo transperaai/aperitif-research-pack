@@ -388,6 +388,109 @@
    "intangibles": "Leadership visibility without chasing; fewer interruptions to the founder; SOPs actually used; one home for every agent."
   },
   {
+   "order": 4,
+   "include": "Y",
+   "name": "Client Retention and Growth AI",
+   "id": "DS-14",
+   "bundle": "AI Business Brain",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Strategic build",
+   "ie": "4 / 4",
+   "vision": "An anti-churn and growth engine that is present in every meeting, email and deliverable. It doesn't just scan for keywords and phrases – it reads behaviour and patterns across the whole relationship, the way an experienced account director would. It notices when meetings start getting cancelled or pushed, when replies slow down, when the senior contact stops turning up, when a new stakeholder appears, when approvals and invoices drag, when sentiment cools across calls, emails and Slack, and when results drift away from the client's goals. It also spots growth: new goals, strong results worth building on, and services the client doesn't have yet. Running on the client brain, it builds a picture of each person at the client – how they communicate, what they care about and how their sentiment is trending – and when something shows, it alerts the account manager, department lead and Head of Client Services together, with the evidence and a suggested next step. Every outcome is logged, so it learns which signals really matter for Aperitif's clients.",
+   "vision_bullets": [
+    "Behaviour, not keywords: tracks patterns over time – meetings cancelled, rescheduled or no-showed, slower response times, fewer people on calls, a senior contact going quiet, new stakeholders appearing, delayed approvals, late payments, requests to cut scope or budget, and requests for data exports or account access.",
+    "Sentiment across all comms: tone tracked per person across calls, emails and Slack, so a cooling relationship shows up as a trend, not a single bad email.",
+    "Results against goals: performance drifting away from what the client cares about, before they raise it.",
+    "Growth signals: new goals, strong results that justify a bigger budget, and services that fit but aren't sold yet (e.g. an SEO client with no paid media) – fed into call prep, reviews and proposals.",
+    "Live retention and growth scores for every client, with leadership seeing portfolio health in one view.",
+    "Alerts with evidence and a next step, well before a client leaves; people own the escalation.",
+    "Present everywhere: risks and opportunities show up in meeting prep, drafted client comms (build 13) and review decks – not a separate dashboard nobody opens.",
+    "Gets smarter: every alert's outcome (kept, churned, upsold) is logged, so the signals improve."
+   ],
+   "problems": [
+    "Churn risk is spotted late – some clients leave \"out of the blue\" – and account teams report on results rather than advise; raised by leadership and staff.",
+    "About five churn-risk escalations a week land with the Head of Client Services, rather than department leads.",
+    "Upsell opportunities are spotted only occasionally."
+   ],
+   "how": [
+    [
+     "Signals",
+     "the client brain feeds it calls and transcripts, emails, Slack, the calendar (meetings booked, cancelled, rescheduled, attendance), Monday (approvals and delays), HubSpot and Xero (contract dates, scope changes, late payments) and results from Windsor and Ahrefs."
+    ],
+    [
+     "Patterns",
+     "each signal is compared with the client's own normal over time – e.g. three meetings pushed in a month, reply times doubling, sentiment trending down across several people – rather than matching keywords."
+    ],
+    [
+     "Scores",
+     "a retention score and a growth score per client, updated as new information arrives, with the evidence behind each change."
+    ],
+    [
+     "Alerts",
+     "when a score moves past a threshold, the account manager, department lead and Head of Client Services get one alert with the evidence and a suggested next step; growth signals go into call prep, client comms and proposals."
+    ],
+    [
+     "Learning",
+     "the outcome of every alert is logged, and the weighting of signals is tuned from what actually predicted churn or growth."
+    ]
+   ],
+   "future": [
+    "Every client has a live retention score and growth score, updated as new calls, emails, meetings and results come in.",
+    "Account owners hear about a cooling relationship from patterns – cancelled meetings, slower replies, falling sentiment – well before a client leaves.",
+    "Growth opportunities surface automatically and go into call prep, client comms and reviews.",
+    "Leadership sees portfolio health in one view and steps in only on high-risk alerts.",
+    "Escalations reach the right department lead first, not the Head of Client Services by default."
+   ],
+   "kpis": [
+    [
+     "Churned clients flagged ≥ 30 days ahead",
+     "Unknown – some \"out of the blue\"",
+     "≥ 80%"
+    ],
+    [
+     "Monthly client churn",
+     "~4% a month (estimate; 10 contracts ended 31 Aug–17 Oct)",
+     "~2.5% a month – down ~1.5 points (indicative)"
+    ],
+    [
+     "Upsell / cross-sell proposals raised per month",
+     "\"a few\"",
+     "Baseline, then set a target"
+    ],
+    [
+     "Expansion revenue per month",
+     "Not baselined",
+     "Baseline, then set a target"
+    ]
+   ],
+   "value": [
+    [
+     "Indicative",
+     "could reduce churn by about 1.5% a month – about 1.5 clients a month, or 18 clients (about $540k a year) kept",
+     "Indicative – churn today ~4% a month (estimate), reduced by ~1.5 points; the real effect will show once it is live · 1.5% of 101 active clients (client board, 10 Nov) ≈ 1.5 a month · client board (10 contracts ended 31 August–17 October, average $2,500 a month)"
+    ]
+   ],
+   "assumptions": [
+    "Depends on the client brain (build 2) being live with transcripts, email, Slack and the calendar.",
+    "Profiling client contacts' communication and sentiment needs the AI-data rule and a clear line on what's stored about individuals (privacy) – staff are not profiled.",
+    "Calendar, Xero and HubSpot read access is needed for the behaviour signals.",
+    "\"Gets smarter\" needs outcomes logged for every alert (kept / churned / upsold); without that, it can't learn.",
+    "Signals are suggestions; people keep the escalation."
+   ],
+   "build": "$4,500",
+   "build_lo": 4500,
+   "build_hi": 4500,
+   "maint": "$500",
+   "maint_n": 500,
+   "opex": "AI US$40–150",
+   "allin_lo": 555.555555555556,
+   "allin_hi": 708.333333333333,
+   "dollar_lo": 540000,
+   "dollar_hi": 540000,
+   "dollar_basis": "Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn ~4% → ~2.5% a month: ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
+   "intangibles": "Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships."
+  },
+  {
    "order": 5,
    "include": "Y",
    "name": "Link-building system",
@@ -1135,109 +1238,6 @@
    "dollar_hi": 15000,
    "dollar_basis": "Time: ~16 hours a month of one specialist's email triage at $80/hr (stated). Request chains across the team (estimate ~45 hours a month ≈ $43k) are not counted – no measured volumes.",
    "intangibles": "Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list."
-  },
-  {
-   "order": 4,
-   "include": "Y",
-   "name": "Client Retention and Growth AI",
-   "id": "DS-14",
-   "bundle": "AI Business Brain",
-   "phase": "1 – Foundations and quick wins",
-   "type": "Strategic build",
-   "ie": "4 / 4",
-   "vision": "An anti-churn and growth engine that is present in every meeting, email and deliverable. It doesn't just scan for keywords and phrases – it reads behaviour and patterns across the whole relationship, the way an experienced account director would. It notices when meetings start getting cancelled or pushed, when replies slow down, when the senior contact stops turning up, when a new stakeholder appears, when approvals and invoices drag, when sentiment cools across calls, emails and Slack, and when results drift away from the client's goals. It also spots growth: new goals, strong results worth building on, and services the client doesn't have yet. Running on the client brain, it builds a picture of each person at the client – how they communicate, what they care about and how their sentiment is trending – and when something shows, it alerts the account manager, department lead and Head of Client Services together, with the evidence and a suggested next step. Every outcome is logged, so it learns which signals really matter for Aperitif's clients.",
-   "vision_bullets": [
-    "Behaviour, not keywords: tracks patterns over time – meetings cancelled, rescheduled or no-showed, slower response times, fewer people on calls, a senior contact going quiet, new stakeholders appearing, delayed approvals, late payments, requests to cut scope or budget, and requests for data exports or account access.",
-    "Sentiment across all comms: tone tracked per person across calls, emails and Slack, so a cooling relationship shows up as a trend, not a single bad email.",
-    "Results against goals: performance drifting away from what the client cares about, before they raise it.",
-    "Growth signals: new goals, strong results that justify a bigger budget, and services that fit but aren't sold yet (e.g. an SEO client with no paid media) – fed into call prep, reviews and proposals.",
-    "Live retention and growth scores for every client, with leadership seeing portfolio health in one view.",
-    "Alerts with evidence and a next step, well before a client leaves; people own the escalation.",
-    "Present everywhere: risks and opportunities show up in meeting prep, drafted client comms (build 13) and review decks – not a separate dashboard nobody opens.",
-    "Gets smarter: every alert's outcome (kept, churned, upsold) is logged, so the signals improve."
-   ],
-   "problems": [
-    "Churn risk is spotted late – some clients leave \"out of the blue\" – and account teams report on results rather than advise; raised by leadership and staff.",
-    "About five churn-risk escalations a week land with the Head of Client Services, rather than department leads.",
-    "Upsell opportunities are spotted only occasionally."
-   ],
-   "how": [
-    [
-     "Signals",
-     "the client brain feeds it calls and transcripts, emails, Slack, the calendar (meetings booked, cancelled, rescheduled, attendance), Monday (approvals and delays), HubSpot and Xero (contract dates, scope changes, late payments) and results from Windsor and Ahrefs."
-    ],
-    [
-     "Patterns",
-     "each signal is compared with the client's own normal over time – e.g. three meetings pushed in a month, reply times doubling, sentiment trending down across several people – rather than matching keywords."
-    ],
-    [
-     "Scores",
-     "a retention score and a growth score per client, updated as new information arrives, with the evidence behind each change."
-    ],
-    [
-     "Alerts",
-     "when a score moves past a threshold, the account manager, department lead and Head of Client Services get one alert with the evidence and a suggested next step; growth signals go into call prep, client comms and proposals."
-    ],
-    [
-     "Learning",
-     "the outcome of every alert is logged, and the weighting of signals is tuned from what actually predicted churn or growth."
-    ]
-   ],
-   "future": [
-    "Every client has a live retention score and growth score, updated as new calls, emails, meetings and results come in.",
-    "Account owners hear about a cooling relationship from patterns – cancelled meetings, slower replies, falling sentiment – well before a client leaves.",
-    "Growth opportunities surface automatically and go into call prep, client comms and reviews.",
-    "Leadership sees portfolio health in one view and steps in only on high-risk alerts.",
-    "Escalations reach the right department lead first, not the Head of Client Services by default."
-   ],
-   "kpis": [
-    [
-     "Churned clients flagged ≥ 30 days ahead",
-     "Unknown – some \"out of the blue\"",
-     "≥ 80%"
-    ],
-    [
-     "Monthly client churn",
-     "~4% a month (estimate; 10 contracts ended 31 Aug–17 Oct)",
-     "~2.5% a month – down ~1.5 points (indicative)"
-    ],
-    [
-     "Upsell / cross-sell proposals raised per month",
-     "\"a few\"",
-     "Baseline, then set a target"
-    ],
-    [
-     "Expansion revenue per month",
-     "Not baselined",
-     "Baseline, then set a target"
-    ]
-   ],
-   "value": [
-    [
-     "Indicative",
-     "could reduce churn by about 1.5% a month – about 1.5 clients a month, or 18 clients (about $540k a year) kept",
-     "Indicative – churn today ~4% a month (estimate), reduced by ~1.5 points; the real effect will show once it is live · 1.5% of 101 active clients (client board, 10 Nov) ≈ 1.5 a month · client board (10 contracts ended 31 August–17 October, average $2,500 a month)"
-    ]
-   ],
-   "assumptions": [
-    "Depends on the client brain (build 2) being live with transcripts, email, Slack and the calendar.",
-    "Profiling client contacts' communication and sentiment needs the AI-data rule and a clear line on what's stored about individuals (privacy) – staff are not profiled.",
-    "Calendar, Xero and HubSpot read access is needed for the behaviour signals.",
-    "\"Gets smarter\" needs outcomes logged for every alert (kept / churned / upsold); without that, it can't learn.",
-    "Signals are suggestions; people keep the escalation."
-   ],
-   "build": "$4,500",
-   "build_lo": 4500,
-   "build_hi": 4500,
-   "maint": "$500",
-   "maint_n": 500,
-   "opex": "AI US$40–150",
-   "allin_lo": 555.555555555556,
-   "allin_hi": 708.333333333333,
-   "dollar_lo": 540000,
-   "dollar_hi": 540000,
-   "dollar_basis": "Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn ~4% → ~2.5% a month: ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
-   "intangibles": "Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships."
   },
   {
    "order": 13,

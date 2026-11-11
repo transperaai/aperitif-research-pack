@@ -29,6 +29,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | 1 | PPC pacing and performance assistant | DS-01, DS-27 | 1 | \$7,500 | \$750 | Windsor.ai US\$499–598 · AI US\$25–55 · hosting US\$25–70 | \$187k–213k a year |
 | 2 | Client brain | DS-04 | 1 | \$12,500 | \$1,250 | AI US\$153–515 · hosting US\$60–120 | \$26k–39k a year |
 | 3 | Business brain | DS-15 | 1 | In build 2 | In build 2 | In build 2 | Not measured |
+| 4 | Client Retention and Growth AI | DS-14 | 1 | \$4,500 | \$500 | AI US\$40–150 | \$540k a year (indicative) |
 | 5 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | Optional link-check proxy US\$0–50 · AI US\$15–40 · hosting US\$25–50 | \$35k–61k a year |
 | 6 | Brief drafts | DS-03 | 1 | \$1,250 | \$200 | Make operations US\$0–20 · AI US\$5–15 | \$12k–23k a year |
 | 7 | Onboarding audit | DS-09 | 1 | \$1,500 | \$200 | AI US\$10–25 | \$88k–177k a year |
@@ -37,7 +38,6 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | 10 | New-client dossier | DS-20 | 2 | \$200 | In build 2 | In build 2 | \~\$1k a year |
 | 11 | Sales proposal and reporting deck generator | DS-05 | 2 | \$4,250 | \$350 | AI US\$5–40 | \$75k–112k a year |
 | 12 | Team assistant | DS-06, DS-30 | 2 | \$2,500 | In build 2 | In build 2 | \$15k a year |
-| 4 | Client Retention and Growth AI | DS-14 | 1 | \$4,500 | \$500 | AI US\$40–150 | \$540k a year (indicative) |
 | 13 | Client comms | DS-28, DS-29 | 3 | \$2,500 | \$250 | AI US\$15–65 | In build 4 (retention) |
 | 14 | Forecasting | DS-25, DS-26 | 3 | \$750 | In build 1 | AI US\$3–15 (rest in build 1) | Not measured |
 | 15 | Market radar | DS-16, DS-32, DS-33 | 3 | \$1,350 | \$200 | SerpApi US\$25–75 · AI US\$20–80 | Not measured |
@@ -49,7 +49,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 
 ## Phases
 
-- **Phase 1 – Foundations and quick wins:** PPC pacing and performance assistant, Client brain, Business brain, Link-building system, Brief drafts, Onboarding audit, Client Retention and Growth AI
+- **Phase 1 – Foundations and quick wins:** PPC pacing and performance assistant, Client brain, Business brain, Client Retention and Growth AI, Link-building system, Brief drafts, Onboarding audit
 - **Phase 2 – Built on the foundations:** SEO monitoring, Sales handover, New-client dossier, Sales proposal and reporting deck generator, Team assistant
 - **Phase 3 – Retention and growth:** Client comms, Forecasting, Market radar
 - **Phase 4 – New products and requests:** Landing page generator, AI receptionist
@@ -62,6 +62,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | PPC pacing and performance assistant | \$187k–213k a year | Capacity: 51–58 hours a month of PPC manager time ÷ \~130 productive hours × PPC MRR per manager (A\$39,749). Plus up to \$10,000 of overspend credits avoided (one incident this year; not added). | Fewer overspends and client credits; better results from scaling winning ads sooner; managers trusted to watch every channel, including LinkedIn and TikTok; a path to autonomous optimisation. |
 | Client brain | \$26k–39k a year | Capacity: 6–9 hours a month of meeting prep at the blended MRR per manager. The client brain is mainly an enabler: SEO monitoring, the deck generator, the new-client dossier, the team assistant and Client Retention and Growth AI need it live – together about \$0.75M–\$0.93M a year of the program's value relies on it (not added again here). The PPC assistant's investigator, the sales handover and client comms also run on it. | Client knowledge no longer lives in people's heads – no loss when someone leaves; handovers in minutes; every agent works from full context; leadership can ask where anything is at. |
 | Business brain | Not measured | Not measured – no data on repeat questions to the founder or Head of Client Services. | Leadership visibility without chasing; fewer interruptions to the founder; SOPs actually used; one home for every agent. |
+| Client Retention and Growth AI | \$540k a year | Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn \~4% → \~2.5% a month: \~1.5% of 101 clients a month ≈ 18 clients a year × \$2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted. | Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships. |
 | Link-building system | \$35k–61k a year | Time: 26–47 hours a month of link-team admin and vetting at \$80/hr (≈ \$25k–\$45k), plus \$10k–\$16k a year of lost paid links recovered by the watchdog. | One system instead of 7+ spreadsheets; less key-person risk; more links built with the same team; client results protected; free links from brand mentions. |
 | Brief drafts | \$12k–23k a year | Time: 12–24 hours a month of content-team time at \$80/hr. | More words written with the same team; no briefs missed or unseen; consistent briefs across writers and freelancers. |
 | Onboarding audit | \$88k–177k a year | Capacity: 10–22 SEO hours at SEO MRR per manager plus 10–18 paid hours at PPC MRR per manager, ÷ \~130 productive hours. | New clients see value sooner; fewer back-to-back onboarding crunches and less out-of-hours work; consistent audits across managers. |
@@ -70,7 +71,6 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | New-client dossier | \~\$1k a year | Time: 3–4 new clients × 20 minutes of Head of Client Services research at \$80/hr. | Every department starts from the same picture of the client; the team walks into the first call informed. |
 | Sales proposal and reporting deck generator | \$75k–112k a year | Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ \$69k–\$104k), plus 6–8 hours a month of proposal time at \$80/hr (≈ \$6k–\$8k). | No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales. |
 | Team assistant | \$15k a year | Time: \~16 hours a month of one specialist's email triage at \$80/hr (stated). Request chains across the team (estimate \~45 hours a month ≈ \$43k) are not counted – no measured volumes. | Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list. |
-| Client Retention and Growth AI | \$540k a year | Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn \~4% → \~2.5% a month: \~1.5% of 101 clients a month ≈ 18 clients a year × \$2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted. | Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships. |
 | Client comms | In build 4 (retention) | Counted in Client Retention and Growth AI (build 4) – its value is retention, so it isn't counted twice. | Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land. |
 | Forecasting | Not measured | Not measured – no data on how many forecasts are produced today. | Better budget decisions; realistic client expectations; one method across the team instead of one person's workflow. |
 | Market radar | Not measured | Not measured – one example of manual trend checks only. | Content lands before seasonal peaks; first to react to competitors; timely ideas that support the 'bring a recommendation' goal. |
