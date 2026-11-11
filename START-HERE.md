@@ -14,9 +14,13 @@ Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 
 | [Solutions](solutions/README.md) (DS) | 33 | 32 in the final set; DS-13 merged into DS-14 |
 | [Not recommending](decisions/not-recommending.md) (NR) | 1 | Email inbox PA assistant |
 
+## Current builds (11 Nov)
+
+The 32 solutions below are consolidated into **18 builds** with current prices, maintenance, running costs, dollar value and start order in [builds/README.md](builds/README.md). Prices in the individual solution files are superseded.
+
 ## The solutions, by bundle
 
-Bundles group solutions for presenting; each solution keeps its own scope, KPIs and cost. Build prices and monthly fees are in each solution file (A\$, SaaS/tokens in US\$).
+Bundles group solutions for presenting; each solution keeps its own scope, KPIs and evidence. Current prices are in [builds/README.md](builds/README.md).
 
 **AI Business Brain**
 
@@ -90,6 +94,7 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 | Question | Go to |
 | --- | --- |
 | What is recommended and why? | [solutions/](solutions/README.md) – one file per DS |
+| What are the builds, prices and start order? | [builds/README.md](builds/README.md) |
 | What is each solution worth (time, capacity, DLER)? | [VALUE-BY-BUNDLE.md](VALUE-BY-BUNDLE.md) |
 | What did people actually say? | [pain-points/](pain-points/README.md), then the [transcripts](interviews/README.md) |
 | What is broken, and what did Austin decide about it? | [problems/](problems/README.md) |

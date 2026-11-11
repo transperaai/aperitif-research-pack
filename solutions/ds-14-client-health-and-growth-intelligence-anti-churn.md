@@ -14,8 +14,8 @@ problems_also_helped: []
 problems_related_only: ["P-41"]
 pain_points_cited: ["KO-PP06", "KO-PP20", "KO-PP21", "LS-PP08", "LS-PP09", "LS-PP15", "MP-PP16"]
 pain_points_interviewer_raised_or_inferred: ["KO-PP06 (inferred)", "LS-PP09 (interviewer-raised)"]
-value: "Churn 3% → 2% a month: ~12 clients, ~A$360K/yr kept"
-value_retained_aud_per_year: [360000, 360000]
+value: "Churn reduced ~1.5% a month (indicative): ~18 clients, ~A$540K/yr kept"
+value_retained_aud_per_year: [540000, 540000]
 build_cost: "A$6,500"
 monthly: "A$500/month (for now) + tokens ~US$40–150"
 notion_section: "Client health & growth intelligence (anti-churn + expansion)"
@@ -38,7 +38,7 @@ notion_section: "Client health & growth intelligence (anti-churn + expansion)"
 | Related only | [P-41 Management layer is thin: paid media lacks a senior lead; new leads lack training](../problems/p-41-management-layer-is-thin-paid-media-lacks.md) – Not in proposal |
 | Pain points cited | [KO-PP06](../pain-points/README.md#ko-pp06) (inferred), [KO-PP20](../pain-points/README.md#ko-pp20), [KO-PP21](../pain-points/README.md#ko-pp21), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09) (interviewer-raised), [LS-PP15](../pain-points/README.md#ls-pp15), [MP-PP16](../pain-points/README.md#mp-pp16) |
 | Written source | – |
-| Value | Churn 3% → 2% a month: \~12 clients, \~A\$360K/yr kept |
+| Value | Churn reduced \~1.5% a month (indicative): \~18 clients, \~A\$540K/yr kept |
 | Build cost | A\$6,500 |
 | Monthly | A\$500/month (for now) + tokens \~US\$40–150 |
 

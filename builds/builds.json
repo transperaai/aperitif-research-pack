@@ -1,0 +1,1737 @@
+{
+ "note": "Consolidated builds, 11 Nov 2026. A$ unless marked; OpEx in US$ a month; all-in in A$ a month at A$1 = US$0.65.",
+ "totals": {
+  "Totals (builds with Include = Y)": [
+   null,
+   null
+  ],
+  "US$ to A$ rate (A$1 = US$…)": [
+   0.65,
+   "Assumption from the pricing model (10 Nov)"
+  ],
+  "Build (one-off, A$)": [
+   59100,
+   59100
+  ],
+  "Maintenance – Transpera (A$ a month)": [
+   5300,
+   5300
+  ],
+  "SaaS – bought (US$ a month)": [
+   622,
+   983
+  ],
+  "AI usage – what we build (US$ a month)": [
+   309,
+   1185
+  ],
+  "Hosting – what we build (US$ a month)": [
+   130,
+   300
+  ],
+  "All-in monthly (A$)": [
+   6932.30769230769,
+   9096.92307692308
+  ],
+  "Year-1 total (build + 12 months all-in, A$)": [
+   142287.692307692,
+   168263.076923077
+  ],
+  "Target retainer (A$ a month)": [
+   5000,
+   "Austin's working cap (10 Nov)"
+  ],
+  "Maintenance above target (A$ a month)": [
+   300,
+   null
+  ],
+  "Dollar value (A$ a year, builds with Include = Y)": [
+   null,
+   null
+  ],
+  "Capacity and time value": [
+   576500,
+   968300
+  ],
+  "Revenue kept (indicative)": [
+   540000,
+   540000
+  ],
+  "Total dollar value": [
+   1116500,
+   1508300
+  ],
+  "Capacity is headroom (more clients the same team could manage), not guaranteed revenue. Time saved and capacity are the same hours counted two ways – never added.": [
+   null,
+   null
+  ]
+ },
+ "hours_a_month": [
+  175,
+  271.8
+ ],
+ "builds": [
+  {
+   "order": 1,
+   "include": "Y",
+   "name": "PPC pacing and performance assistant",
+   "id": "DS-01, DS-27",
+   "bundle": "PPC performance",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Quick win",
+   "ie": "5 / 3",
+   "vision": "Pacing and proactive performance alerts for every PPC account. Account managers only open an account when something is flagged: either it needs a change, or there's a winning ad worth doubling down on. The alerts are connected to the client brain, so the AI isn't reviewing the ad account in isolation. It looks at the same data and context a manager would use to triage and make an educated decision – the client's goals, history, recent conversations and what's been tried before, their industry, competitor intel, seasonality and market trends. Later, the same system can take autonomous action within the limits the team sets.",
+   "vision_bullets": [
+    "Daily pacing across every live channel, flagged when a client is off pace.",
+    "Proactive performance alerts on each client's own KPIs and thresholds – problems to fix and winners to scale.",
+    "Every alert comes with a diagnosis drawn from the account data and the client brain – the same context a manager would use.",
+    "Later: autonomous action within agreed limits (e.g. moving budget to a winning ad, pausing a failing one), with the manager kept informed."
+   ],
+   "problems": [
+    "Budgets are kept by hand in three places and some channels, including LinkedIn, aren't tracked; one missed budget change cost a $10,000 credit – critical; raised by 3 staff and leadership.",
+    "The Meta pacing sheet is broken because the Supermetrics feed keeps failing – critical; raised by 3 staff.",
+    "There's no performance alerting, so problems are found at month-end – the widest raise in paid media, 7 staff.",
+    "When performance drops, working out why means jumping between platforms and the client's history – the diagnosis part of the alerting problem raised by 7 staff.",
+    "The weekly account check is done by hand, account by account, and clients often hear about results only at month-end."
+   ],
+   "how": [
+    [
+     "Windsor.ai (bought, data only)",
+     "pulls spend and performance from every channel Aperitif runs – Google, Meta, Microsoft, LinkedIn, TikTok, Pinterest, Reddit, ChatGPT ads, Criteo and DV360 – into one place each day, and exposes it to the AI through its MCP connection and API."
+    ],
+    [
+     "Pacing engine (Transpera build)",
+     "a budget register holds each client's monthly budget per channel and every change, dated. A daily job compares spend to date with where it should be (straight-line or a set flight plan), forecasts month-end, and flags anything outside the agreed range."
+    ],
+    [
+     "Performance alerts (Transpera build)",
+     "each client's KPIs and thresholds (CPA, ROAS, conversions, CTR) are checked daily against target and the last 4–8 weeks; drops, spikes, stopped spend and clear winners are flagged."
+    ],
+    [
+     "Performance assistant (Transpera build)",
+     "every flag goes to Slack tagging the account owner, and an AI agent reads the account through Windsor alongside the client brain (goals, history, recent conversations, what's been tried, industry, competitor intel, seasonality and market trends) and posts a diagnosis and a recommended next step in the thread."
+    ],
+    [
+     "Later phase",
+     "autonomous actions through Windsor's write actions (Google and Meta budgets, pausing), within limits agreed per client, every change logged and the manager notified."
+    ]
+   ],
+   "future": [
+    "Budgets are entered once, with every change logged and dated.",
+    "Spend from every live channel is pulled automatically each day; nobody fills a sheet.",
+    "Account managers open an account only when it's flagged – to fix something or to double down on a winner.",
+    "Every alert comes with a diagnosis and a recommended next step, so the manager starts deciding rather than investigating.",
+    "Winning ads and audiences are spotted early and scaled, not found at month-end.",
+    "No spend goes live on a channel without a pacing line."
+   ],
+   "kpis": [
+    [
+     "% of live channels with a pacing line",
+     "Below 100% – LinkedIn and others missing",
+     "100%"
+    ],
+    [
+     "Overspend credits paid to clients",
+     "$10K on one incident",
+     "$0"
+    ],
+    [
+     "Performance drops caught before month-end",
+     "Unknown – found in manual checks",
+     "Alert within 24–48 h"
+    ],
+    [
+     "Winning ads flagged to scale",
+     "Not tracked",
+     "Flagged weekly per client"
+    ],
+    [
+     "Alerts with a diagnosis and next step",
+     "0%",
+     "100%"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "51–58 hours a month · about $187k–$213k a year of capacity (5–6 more clients)",
+     "Client board (67 PPC clients) · Austin's input (15-minute weekly check per client ≈ 73 hours a month) · estimate (alerts remove 70–80% of checks) · capacity = hours ÷ ~130 productive hours × PPC MRR per manager (A$198,747 ÷ 5) · winner-scaling uplift not measured"
+    ],
+    [
+     "",
+     "$10,000 overspend risk removed",
+     ""
+    ],
+    [
+     "",
+     "Better client results from scaling winners sooner",
+     ""
+    ]
+   ],
+   "assumptions": [
+    "Hours saved are estimates; the transcripts gave few stated times.",
+    "The alert investigator needs the client brain (build 2) live – that's where the client context comes from.",
+    "Autonomous action is a later phase: it needs agreed limits per client and the team's trust in the alerts first.",
+    "Confirm the live channel list per client (currently from one interview) and the total ad-account count (sets the Windsor plan).",
+    "Windsor data is daily (cached up to 6 hours), so pacing catches drift by the next morning, not a same-day blowout; a 'no data arrived' check guards against silent connector failures.",
+    "Test on Windsor's 30-day trial (10 sources, 15 accounts) against a few live accounts before committing.",
+    "Build scope (~20–25 days): Windsor set-up and data checks (2), budget register and import from the current sheets (3–4), pacing engine (3–4), performance alerts and thresholds (3–4), Slack router (1–2), alert investigator with client-brain context (4–6), winners scan (2–3), logging and feedback (1–2), pilot, tuning and training (2–3)."
+   ],
+   "build": "$7,500",
+   "build_lo": 7500,
+   "build_hi": 7500,
+   "maint": "$750",
+   "maint_n": 750,
+   "opex": "Windsor.ai US$499–598 · AI US$25–55 · hosting US$25–70",
+   "allin_lo": 1594.61538461538,
+   "allin_hi": 1862.30769230769,
+   "dollar_lo": 187000,
+   "dollar_hi": 213000,
+   "dollar_basis": "Capacity: 51–58 hours a month of PPC manager time ÷ ~130 productive hours × PPC MRR per manager (A$39,749). Plus up to $10,000 of overspend credits avoided (one incident this year; not added).",
+   "intangibles": "Fewer overspends and client credits; better results from scaling winning ads sooner; managers trusted to watch every channel, including LinkedIn and TikTok; a path to autonomous optimisation."
+  },
+  {
+   "order": 2,
+   "include": "Y",
+   "name": "Client brain",
+   "id": "DS-04",
+   "bundle": "AI Business Brain",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Strategic build",
+   "ie": "5 / 5",
+   "vision": "The connective tissue of the business. One AI brain that links every piece of software, document, client conversation and process into one view of the business – and inside it, a smaller brain for every client. Each client brain holds everything about that client: their goals and KPIs, contacts, contract and services, call transcripts, emails and Slack threads, Monday tasks and deliverables, ad and analytics performance, decisions made and what's been tried before, assets and artefacts. Leadership can ask where anything is at from a single chat bar and get an answer with sources, across every client or for one. Staff never miss a beat: open a client brain and the full story is there, and the brain calls out what matters before anyone asks. It is also the shared memory every other system we build plugs into. Because the PPC assistant, brief drafts, client comms, onboarding audit and client health tools all read from and write back to the same brain, they behave as intelligent agents rather than automations: they know the client's goals, history and what's been tried, reason about what to do next, and get smarter as the team's feedback and every result are saved back.",
+   "vision_bullets": [
+    "One business brain, many client brains: every client has its own brain inside the company brain, so answers about a client only draw on that client's information – and leadership can still ask across all of them.",
+    "What's in each client brain: goals and KPIs, contacts, contract and services, calls, emails, Slack, Monday tasks, deliverables, ad and analytics performance, decisions and what's been tried, assets.",
+    "Connective tissue: links Slack, email, Otter calls, Monday, HubSpot, Drive, Notion and the ad accounts automatically – nobody copies information in.",
+    "One chat bar for leadership: \"where is this at?\", \"which clients are at risk?\", \"what did we promise them?\" – answered with sources.",
+    "Staff never miss a beat: client history, open actions and how-we-do-it processes are always one question away, and handovers come with the brain attached.",
+    "Proactive: surfaces key facts, risks and missed actions for each client without being asked.",
+    "Shared memory for every agent: each system we build reads the client brain before it acts and writes back what it did and what happened – so they're intelligent agents that reason with full context, not automations following fixed rules.",
+    "Gets smarter over time: the team's feedback, approved and rejected recommendations, and results are stored, so every agent learns what works for each client."
+   ],
+   "problems": [
+    "Client knowledge lives in people's heads and personal docs, not in one place per client – high; raised by 4 staff.",
+    "Preparing for a client call can take longer than the call – high; raised by 4 staff.",
+    "Handovers – sales to delivery, cover, offboarding – have no structured pack or trigger – high; raised by 3 staff."
+   ],
+   "how": [
+    [
+     "Business brain",
+     "shared knowledge – SOPs and processes (Notion), team, services, pricing, templates – plus a cross-client view for leadership questions."
+    ],
+    [
+     "Client brains",
+     "one per client, built from a standard record (goals, KPIs, contacts, services, budgets, key dates) and filled automatically by connectors – Otter transcripts, Gmail, Slack client channels, HubSpot, Monday, Windsor (performance) and Drive/Notion docs. Every item is tagged to its client so answers stay within that client."
+    ],
+    [
+     "",
+     "Each new call is summarised with actions into the client brain within 24 hours; a weekly digest per client flags changes, risks and open actions."
+    ],
+    [
+     "",
+     "The team asks questions in Slack (one chat bar) and gets answers with sources, plus a prep pack before every meeting; access follows who works on the client, with leadership seeing all."
+    ],
+    [
+     "Agent layer",
+     "every other build connects to the brain through one shared interface – it reads the client brain for context before acting (goals, history, past decisions, what's been tried) and writes back its output, the manager's feedback and the result. One memory, many agents."
+    ]
+   ],
+   "future": [
+    "Every active client has one brain; nothing about the client lives only in someone's head or personal doc.",
+    "Every client call is recorded; its transcript, summary, key call-outs and actions are saved to the client's page within 24 hours. Key client emails are saved the same way. Anyone can read them without querying.",
+    "Before a call, the manager asks for a brief and gets the last call's actions, open items and month-on-month performance in one view.",
+    "When a client changes hands or offboards, a handover report is generated in under three clicks.",
+    "Anyone working on the client – SEO, paid, content, writers – queries the same brain instead of asking a colleague.",
+    "Every agent Transpera builds works from the same client context, so recommendations get more specific to each client over time instead of repeating generic rules."
+   ],
+   "kpis": [
+    [
+     "Prep minutes per client meeting",
+     "15–20 min (Austin, 10 Nov)",
+     "~5 min"
+    ],
+    [
+     "% of active clients with a current brain",
+     "0 central",
+     "100%"
+    ],
+    [
+     "Client calls summarised into the brain within 24 h",
+     "~0 – transcripts unused",
+     "≥ 95%"
+    ],
+    [
+     "Time to produce a handover pack",
+     "Unknown; missed until client chased",
+     "< 10 min"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "6–9 hours a month of meeting prep · about $26k–$39k a year of capacity · the enabler that most of the program's value depends on – the PPC assistant, SEO monitoring, the deck generator, client comms and Client Retention and Growth AI all run on it",
+     "Client board (31 monthly meetings plus Tier 2 quarterly) · Austin's input (15–20 minutes of prep cut to 5) · capacity at the blended MRR per manager · wider time savings (staff chasing information, handovers) not counted"
+    ]
+   ],
+   "assumptions": [
+    "Prep time per meeting is Austin's figure (15–20 min); one interviewee reported 60–75 min, treated as an outlier.",
+    "Needs call-recording consent from clients, the AI-data rule and read access to Slack, email and ad platforms.",
+    "One client-record template agreed across organic and paid.",
+    "Pulling Slack and email per client needs a reliable way to tag which messages belong to which client.",
+    "Built at the same time as the business brain (build 3) – one system."
+   ],
+   "build": "$12,500",
+   "build_lo": 12500,
+   "build_hi": 12500,
+   "maint": "$1,250",
+   "maint_n": 1250,
+   "opex": "AI US$153–515 · hosting US$60–120",
+   "allin_lo": 1577.69230769231,
+   "allin_hi": 2226.92307692308,
+   "dollar_lo": 26000,
+   "dollar_hi": 39000,
+   "dollar_basis": "Capacity: 6–9 hours a month of meeting prep at the blended MRR per manager. The client brain is mainly an enabler: the PPC assistant's investigator, SEO monitoring, the deck generator, the sales handover, the team assistant, client comms and Client Retention and Growth AI all run on it – together about $0.9M–$1.1M a year of the program's value depends on it (not added again here).",
+   "intangibles": "Client knowledge no longer lives in people's heads – no loss when someone leaves; handovers in minutes; every agent works from full context; leadership can ask where anything is at."
+  },
+  {
+   "order": 3,
+   "include": "Y",
+   "name": "Business brain",
+   "id": "DS-15",
+   "bundle": "AI Business Brain",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Quick win",
+   "ie": "4 / 3",
+   "vision": "The company layer of the brain: everything in the business can be seen from here – without overdoing it for the sake of it. It connects what already exists – the client brains, SOPs and help docs, retention and growth scores, and the agents Joe already runs – rather than adding another system people have to maintain. Leadership asks anything about the business from one chat bar and gets a weekly pulse without chasing. Staff ask \"how do we do X?\" and get the current SOP with its source, in Slack, without hunting through a stale wiki or interrupting the founder.",
+   "vision_bullets": [
+    "Leadership chat bar: \"how are Tier 1 clients tracking?\", \"who's over capacity?\", \"what's stuck?\" – answered across every client brain, with sources.",
+    "Weekly pulse: portfolio health, wins, risks and what's stuck, sent to leadership every Monday.",
+    "SOPs in the flow of work: processes and help docs answered in Slack, with the source linked – no stale wiki.",
+    "Fewer repeat questions to the founder and Head of Client Services: the brain answers first.",
+    "One home for every agent: Joe's existing agents and every new build plug in here, not into another silo."
+   ],
+   "problems": [
+    "There's no usable wiki, so the founder re-explains things, and the existing AI assistant in Slack goes unused.",
+    "Leadership can't see what's happening across the business without asking around."
+   ],
+   "how": [
+    [
+     "",
+     "A company-level layer on the client brain (build 2): SOPs and help docs from Notion, the team and services, and a cross-client view over every client brain."
+    ],
+    [
+     "",
+     "Leadership and staff ask questions in Slack (the same chat bar) and get answers with sources; access follows role, with leadership seeing all."
+    ],
+    [
+     "",
+     "Every Monday a weekly pulse goes to leadership – portfolio health from Client Retention and Growth AI, wins, risks and stuck work from Monday."
+    ],
+    [
+     "",
+     "Joe's existing agents (including the current Slack assistant) are moved onto it or replaced."
+    ]
+   ],
+   "future": [
+    "Staff ask the brain first – about a client, a process or a system – and get an answer with its source.",
+    "SOPs are answered in the flow of work, not looked up in a stale wiki.",
+    "Leadership gets a weekly pulse and a Tier 1 summary without chasing.",
+    "Each new solution plugs into the same brain rather than becoming another silo."
+   ],
+   "kpis": [
+    [
+     "Staff using the brain weekly",
+     "~0 – Slack assistant unused",
+     "≥ 80% of staff"
+    ],
+    [
+     "Questions to the founder / Head of Client Services on \"how do we do X\"",
+     "Repeated",
+     "−50%"
+    ],
+    [
+     "SOPs answerable by the brain",
+     "0",
+     "100% of the top-10 repeat tasks"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "Better visibility for leadership",
+     "New capability – not measured"
+    ]
+   ],
+   "assumptions": [
+    "Adoption is the main risk: the brain needs to live where people already work (Slack, Monday) and be introduced with training, not just switched on.",
+    "Needs the AI-data rule before client data is connected, and the client brain (build 2) live.",
+    "The existing Slack assistant (OpenClaw) can be reused or replaced – to confirm.",
+    "SOPs must be current in Notion for answers to be right.",
+    "Built at the same time as the client brain (build 2) – they are one system: the business layer and the client brains."
+   ],
+   "build": "In build 2",
+   "build_lo": 0,
+   "build_hi": 0,
+   "maint": "In build 2",
+   "maint_n": 0,
+   "opex": "In build 2",
+   "allin_lo": 0,
+   "allin_hi": 0,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Not measured – no data on repeat questions to the founder or Head of Client Services.",
+   "intangibles": "Leadership visibility without chasing; fewer interruptions to the founder; SOPs actually used; one home for every agent."
+  },
+  {
+   "order": 4,
+   "include": "Y",
+   "name": "Link-building system",
+   "id": "DS-11, DS-12, DS-07, DS-31",
+   "bundle": "Link-building system",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Strategic build",
+   "ie": "4 / 4",
+   "vision": "One AI-native system that runs the whole link-building operation. Orders, publishers, live links and invoices live in one place with one ID; domains are pre-vetted and matched to clients; every paid link is watched after it goes live; and unlinked brand mentions are turned into free links. The link lead spends their time growing supply and the team, not keeping spreadsheets in sync. Every link built feeds the client brain, so anyone can see which links a client has, where, and whether they're still live.",
+   "vision_bullets": [
+    "One system, one ID: orders, publishers, live links and payments tracked once; publishers update their own orders through a portal.",
+    "Supply engine: one shared vetting skill checks domains for quality and spam and matches them to clients – the link lead only reviews a shortlist.",
+    "Link watchdog: every live paid link is checked on a schedule; missing or changed links alert the team with a refund or replacement email drafted.",
+    "Brand mentions: unlinked mentions of Tier 1 and 2 clients are found, ranked and drafted as outreach.",
+    "Connected to the client brain: each client's link history, live status and spend sit in their brain and flow into reporting."
+   ],
+   "problems": [
+    "Link building runs on seven or more disconnected spreadsheets, with about 2,830 orders this year – raised by staff and leadership.",
+    "Outreacher invoices are tracked as PayPal links in spreadsheet cells, and the link lead's time goes on admin rather than links.",
+    "Home-built link tools are understood by only one person.",
+    "Link sourcing is slow, manual and short of supply, and AI vetting is inconsistent – raised by 4 staff.",
+    "Vetting a batch of 60 domains takes one to two hours, and one link takes one to two months end to end."
+   ],
+   "how": [
+    [
+     "Link-building app (custom)",
+     "a small database with a team view and a publisher portal replaces the spreadsheets. Orders, publishers, live links and invoices are logged once with one ID, publishers update their own orders, and live links sync to Monday and the client brain."
+    ],
+    [
+     "Supply engine",
+     "a Claude skill vets domains for quality and spam and matches them to clients, writing straight into the app so the link lead reviews a shortlist."
+    ],
+    [
+     "Link watchdog",
+     "a scheduled job checks every live paid link; when one is missing or changed it alerts the team and drafts the refund or replacement email."
+    ],
+    [
+     "Brand mentions",
+     "Ahrefs Alerts find mentions of Tier 1 and 2 clients with no link; AI ranks them and drafts outreach for the outreacher to send."
+    ]
+   ],
+   "future": [
+    "Every order, publisher, link and invoice lives in one system with one ID.",
+    "Publishers update their own orders; nobody re-keys links.",
+    "Live links flow automatically to Monday, client reporting and the watchdog.",
+    "Outreachers are paid weekly against verified link IDs in one approval pass.",
+    "The link lead spends time growing the team and supply, not on admin.",
+    "Every domain is vetted by one shared skill that agrees with the link lead; only borderline cases need a person."
+   ],
+   "kpis": [
+    [
+     "Published links re-keyed by hand",
+     "~283 a month (client board)",
+     "0"
+    ],
+    [
+     "Order-number mismatches per month",
+     "\"sometimes\"",
+     "0"
+    ],
+    [
+     "Spreadsheets used to run link building",
+     "7+",
+     "0 (CRM only)"
+    ],
+    [
+     "Link lead hours on admin per month",
+     "Unknown – most of their time",
+     "Baseline, then −50%"
+    ],
+    [
+     "Lead time per vetting batch (~60 domains)",
+     "1–2 h, one at a time",
+     "≤ 20 min human review"
+    ]
+   ],
+   "value": [
+    [
+     "Link-building system",
+     "16.5–26.5 hours a month · about 8–13 more links a month",
+     "Client board (283 links a month) · Austin's input (5–8 minutes of admin a link) · estimate (the system removes about 70%)"
+    ],
+    [
+     "Supply engine",
+     "6.5–15 hours a month · about 3–8 more links a month",
+     "Interview evidence (60 domains take 1–2 hours) · Austin's input (about half approved) · estimate (AI removes 70–80%)"
+    ],
+    [
+     "Link watchdog",
+     "Up to $10k–$16k a year recovered, and client results protected",
+     "Interview evidence (about 100 lost in 10 months) · estimate ($80–$130 a link)"
+    ],
+    [
+     "Brand mentions",
+     "Links won without paying a publisher",
+     "New capability – not measured"
+    ]
+   ],
+   "assumptions": [
+    "Hours saved assumed.",
+    "External publishers will use a portal/filtered view rather than their own sheets – some brokers may refuse.",
+    "Existing sheets can be migrated (link history, order IDs) without losing data.",
+    "Payment method (PayPal or other) stays the same; only the tracking moves.",
+    "Hours saved assumed; the only stated time is 1–2 h per 60-domain batch."
+   ],
+   "build": "$5,750",
+   "build_lo": 5750,
+   "build_hi": 5750,
+   "maint": "$750",
+   "maint_n": 750,
+   "opex": "Optional link-check proxy US$0–50 · AI US$15–40 · hosting US$25–50",
+   "allin_lo": 811.538461538462,
+   "allin_hi": 965.384615384615,
+   "dollar_lo": 32000,
+   "dollar_hi": 56000,
+   "dollar_basis": "Time: 23–41.5 hours a month of link-team admin and vetting at $80/hr (≈ $22k–$40k), plus $10k–$16k a year of lost paid links recovered by the watchdog.",
+   "intangibles": "One system instead of 7+ spreadsheets; less key-person risk; more links built with the same team; client results protected; free links from brand mentions."
+  },
+  {
+   "order": 5,
+   "include": "Y",
+   "name": "Brief drafts",
+   "id": "DS-03",
+   "bundle": "Delivery and reporting",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Quick win",
+   "ie": "4 / 2",
+   "vision": "The month's content work comes straight out of the plan that already exists. The content team fills in a short standard form for the details that need to be consistent; the AI combines it with the content plan in the client's Master SEO Document and drafts every brief in Aperitif's template. Once the SEO manager approves a brief, it becomes a Monday task for the right writer with a due date. Nobody re-cuts the plan, retypes it into tasks or chases whether a brief was seen. Over time, the brief also draws on the client brain – tone, compliance and what's worked before – so drafts need fewer edits.",
+   "vision_bullets": [
+    "Briefs are drafted from the Master SEO Document plus a short standard form – not rebuilt by hand.",
+    "One review step: the SEO manager approves or edits in minutes.",
+    "An approved brief becomes an assigned Monday task automatically, freelancer boards included.",
+    "Later: client-brain context (tone, compliance, past performance) goes into every brief."
+   ],
+   "problems": [
+    "Content briefs are re-cut and re-formatted by hand, using up the first half of each month – high; raised by 3 staff.",
+    "Briefs arrive unseen or late, because there's no single intake or alert – raised by the content team."
+   ],
+   "how": [
+    [
+     "Standard form",
+     "the content team captures the details that must be consistent across every brief (e.g. confirmed keyword, angle, word count, links, CTA, client notes)."
+    ],
+    [
+     "Phase 1 (Claude skill)",
+     "the SEO manager runs a brief-drafting skill on the form and the client's plan, and gets briefs back in the standard template."
+    ],
+    [
+     "Phase 2 (automation)",
+     "at the start of the month a Make scenario reads the plan rows marked for this month and the matching forms, sends each to the AI with the template, posts drafts for approval, then creates the Monday task for the writer and saves the brief to the client brain."
+    ]
+   ],
+   "future": [
+    "Monthly briefs are drafted by AI from the plan that already exists, reviewed by the SEO manager in minutes, and land in Monday.com as assigned tasks with due dates. Nobody re-cuts a plan, reformats a document or chases whether a brief was seen."
+   ],
+   "kpis": [
+    [
+     "Content-team time per brief",
+     "~20 min",
+     "~5–10 min"
+    ],
+    [
+     "Briefs needing manual reformatting",
+     "All – copied into Word",
+     "0"
+    ],
+    [
+     "Time from brief approved to writer task created",
+     "Up to 2 days unseen",
+     "Same day, automatic"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "12–24 hours a month of content-team time, turned into more words written",
+     "Client board (48 clients receive content) · Austin's estimate (1.5–2 briefs per client a month, ~72–96 briefs) · Austin's input (20 minutes a brief today) · estimate (5–10 minutes with the form and AI draft)"
+    ]
+   ],
+   "assumptions": [
+    "Hours saved are estimates; briefs per client (1.5–2 a month) is Austin's estimate.",
+    "Needs one current brief template and the standard form agreed with the content team.",
+    "For best output, per-client context (tone, compliance) comes later from the client brain (build 2).",
+    "The Master SEO Document layout must be consistent enough across clients to be read automatically – confirm on 2–3 clients.",
+    "The Monday.com integration builds on the existing Make set-up, whose gaps sit with the Technical SEO Specialist."
+   ],
+   "build": "$1,250",
+   "build_lo": 1250,
+   "build_hi": 1250,
+   "maint": "$200",
+   "maint_n": 200,
+   "opex": "Make operations US$0–20 · AI US$5–15",
+   "allin_lo": 207.692307692308,
+   "allin_hi": 253.846153846154,
+   "dollar_lo": 11500,
+   "dollar_hi": 23000,
+   "dollar_basis": "Time: 12–24 hours a month of content-team time at $80/hr.",
+   "intangibles": "More words written with the same team; no briefs missed or unseen; consistent briefs across writers and freelancers."
+  },
+  {
+   "order": 6,
+   "include": "Y",
+   "name": "Onboarding audit",
+   "id": "DS-09",
+   "bundle": "Client lifecycle",
+   "phase": "1 – Foundations and quick wins",
+   "type": "Quick win",
+   "ie": "4 / 2",
+   "vision": "AI does the heavy lifting of onboarding wherever it can. The team points it at the new client's site and accounts, and it runs the audit and fills in the onboarding documents – the Master SEO Document for SEO clients and the 30-point paid audit checklist for paid clients. It flags what needs attention and drafts first recommendations; the strategist reviews, adds the strategy and signs off. A new client's audit is ready within a day of access, not spread across most of month one.",
+   "vision_bullets": [
+    "SEO: Master SEO Document pre-filled from the site crawl, Ahrefs, GA4 and Search Console.",
+    "Paid: the 30-point audit checklist run against the ad accounts through Windsor (same connection as build 1).",
+    "Issues ranked by impact, each with a first-draft recommendation.",
+    "Strategist reviews and signs off; findings go into the client brain from day one."
+   ],
+   "problems": [
+    "Onboarding a new SEO client takes most of the first month, and the audit is the biggest part of it.",
+    "Onboarding effort limits how many new clients a manager can take, and back-to-back onboardings wear people down."
+   ],
+   "how": [
+    [
+     "",
+     "A Claude skill per audit type (SEO and paid), connected to Ahrefs, GA4, Search Console and Windsor, with read-only access granted at signing."
+    ],
+    [
+     "",
+     "The manager starts it with the client's domain and account IDs; it pulls the data, works through the checklist, writes into the Master SEO Document or paid audit template, and lists what needs a human check."
+    ]
+   ],
+   "future": [
+    "A new client's Master SEO Document and paid audit are drafted within a day of access, not over most of month one.",
+    "Strategists spend their time on judgement and the client conversation, not copying keywords and checking accounts line by line.",
+    "Managers can take more new clients at once without out-of-hours work."
+   ],
+   "kpis": [
+    [
+     "Strategist hours per SEO onboarding",
+     "~10–12 h (Austin's estimate)",
+     "~4–6 h"
+    ],
+    [
+     "Audit hours per paid onboarding",
+     "~10 h (Austin's estimate)",
+     "~4–5 h"
+    ],
+    [
+     "Concurrent onboardings per manager without overtime",
+     "Limited",
+     "Set after baseline"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "20–40 hours a month · about $88k–$177k a year of capacity (2–5 more clients)",
+     "10–12 hours per onboarding, 2–3 a month; paid: ~10 hours per onboarding, 2–3 a month) · estimate (AI cuts 50–60%) · capacity at SEO MRR per manager (A$222,374 ÷ 4) for SEO hours and PPC MRR per manager (A$198,747 ÷ 5) for paid hours, ÷ ~130 productive hours"
+    ]
+   ],
+   "assumptions": [
+    "Hours saved are estimates; onboarding hours and volumes are Austin's estimates.",
+    "The strongest precedent is the existing prompt guide that cut strategy from ~3 days to ~75–90 min (context pack).",
+    "Needs read-only access at signing (sales handover, build 8) and the AI-data rule.",
+    "Needs Windsor live (build 1) for the paid audit.",
+    "The 30-item paid audit checklist is current and can be encoded.",
+    "Confirm Aperitif's Ahrefs plan is Lite or above (MCP access) and has enough API units."
+   ],
+   "build": "$1,500",
+   "build_lo": 1500,
+   "build_hi": 1500,
+   "maint": "$200",
+   "maint_n": 200,
+   "opex": "AI US$10–25",
+   "allin_lo": 215.384615384615,
+   "allin_hi": 238.461538461538,
+   "dollar_lo": 88000,
+   "dollar_hi": 177000,
+   "dollar_basis": "Capacity: 10–22 SEO hours at SEO MRR per manager plus 10–18 paid hours at PPC MRR per manager, ÷ ~130 productive hours.",
+   "intangibles": "New clients see value sooner; fewer back-to-back onboarding crunches and less out-of-hours work; consistent audits across managers."
+  },
+  {
+   "order": 7,
+   "include": "Y",
+   "name": "SEO monitoring",
+   "id": "DS-22, DS-23, DS-24",
+   "bundle": "SEO performance",
+   "phase": "2 – Built on the foundations",
+   "type": "Fill-in",
+   "ie": "3 / 2",
+   "vision": "Proactive SEO performance intel that comes to the team instead of the team going looking. Every Monday, each manager gets one digest of every client – what moved and what needs attention. Drops are flagged the day they happen, with the data collated and a likely cause drawn from the client brain. Mid-month, each client's wins are spotted and a short note is drafted; the manager chooses to send it now or save it for the end-of-month report, and the client brain remembers either way.",
+   "vision_bullets": [
+    "Monday digest: every SEO client checked automatically; managers read one summary instead of opening each account.",
+    "Drop alerts: ranking, traffic or conversion drops reach the manager within a day, with a likely cause, before the client notices.",
+    "Mid-month wins: a drafted win note for each focus client – send it now or save it for the monthly report; the client brain keeps it either way.",
+    "Same engine as the PPC assistant: shared data (Windsor and Ahrefs), alerting and client-brain context – one system to maintain."
+   ],
+   "problems": [
+    "SEO managers check every client's data by hand each week, and the check is sometimes skipped.",
+    "Ranking and traffic drops are found late – sometimes by the client first.",
+    "Wins between monthly reports aren't shared, though the team sees small wins as good for retention."
+   ],
+   "how": [
+    [
+     "Monday check",
+     "every Monday the system pulls GA4, Search Console (through Windsor) and Ahrefs for every client and sends each manager one digest of what moved and what needs attention."
+    ],
+    [
+     "Drop alerts",
+     "daily checks on the same data flag unusual drops; the alert arrives with the data collated and a first view of the likely cause from the client brain."
+    ],
+    [
+     "Mid-month wins",
+     "mid-month, the system spots each client's wins – rankings, traffic, conversions – and drafts a short note; the manager sends it or saves it for the end-of-month report, and the note and the choice are saved to the client brain."
+    ],
+    [
+     "",
+     "Runs on the PPC assistant's alert engine (build 1) – same data connection, thresholds, Slack routing and logging."
+    ]
+   ],
+   "future": [
+    "Every SEO client is checked every Monday automatically; managers read a summary instead of opening each account.",
+    "SEO drops are known to the manager within a day, with a likely cause, before the client notices.",
+    "Every focus SEO client hears about a win between monthly reports."
+   ],
+   "kpis": [
+    [
+     "Weeks the Monday check is completed for every client",
+     "Sometimes skipped",
+     "100% (automated)"
+    ],
+    [
+     "Manager time on the Monday check",
+     "~5–10 min per client a week",
+     "≤ 2 min review per client"
+    ],
+    [
+     "Days from a ranking/traffic drop to the manager knowing",
+     "Unknown – found at month-end",
+     "≤ 1 day"
+    ],
+    [
+     "Drops raised by the client before the team",
+     "Happens",
+     "0"
+    ],
+    [
+     "Mid-month win notes sent per focus client",
+     "0",
+     "≥ 1 a month"
+    ]
+   ],
+   "value": [
+    [
+     "Monday check",
+     "17–39 hours a month · about $88k–$202k a year of capacity (2–5 more clients)",
+     "Client board (68 SEO clients) · Austin's input (5–10-minute weekly check) · estimate (70–80% of checks removed) · capacity at SEO MRR per manager (A$222,374 ÷ 4) ÷ ~130 productive hours"
+    ],
+    [
+     "Drop alerts",
+     "7–11 hours a month · about $35k–$58k a year of capacity (1–1.5 more clients)",
+     "Austin's input (0.4 drops per client a month, 20–30 minutes each) · estimate (about 5 minutes with the alert)"
+    ],
+    [
+     "Mid-month wins",
+     "A new standard: wins shared between reports",
+     "New capability – not measured"
+    ]
+   ],
+   "assumptions": [
+    "API access to every client's GA4, Search Console and Ahrefs project.",
+    "Thresholds agreed per client by the SEO team.",
+    "Alert thresholds tuned per client so managers aren't flooded.",
+    "Mainly Zach's suggestion (written doc) plus one interview opportunity; not raised widely.",
+    "Needs the PPC assistant's alert engine and Windsor (build 1) and the client brain (build 2) live."
+   ],
+   "build": "$4,250",
+   "build_lo": 4250,
+   "build_hi": 4250,
+   "maint": "In build 1",
+   "maint_n": 0,
+   "opex": "AI US$8–35 (rest in build 1)",
+   "allin_lo": 12.3076923076923,
+   "allin_hi": 53.8461538461539,
+   "dollar_lo": 123000,
+   "dollar_hi": 260000,
+   "dollar_basis": "Capacity: 24–50 hours a month of SEO manager time (Monday check 17–39 h, drop alerts 7–11 h) at SEO MRR per manager.",
+   "intangibles": "Drops caught before the client notices; wins shared mid-month, supporting retention; no skipped weekly checks."
+  },
+  {
+   "order": 8,
+   "include": "Y",
+   "name": "Sales handover",
+   "id": "DS-08",
+   "bundle": "Client lifecycle",
+   "phase": "2 – Built on the foundations",
+   "type": "Fill-in",
+   "ie": "3 / 3",
+   "vision": "A won deal creates the new client's record in the client brain, already filled in. The handover pulls together everything sales learned – the sales meeting transcripts, the HubSpot deal (notes, emails, contacts, quote and services sold), the signed proposal and any forms or documents the client shared – and extracts the goals, promises, budgets, timelines, key people and risks. The sales rep only answers a short set of questions for what's missing, and each delivery department confirms or questions the handover before kick-off. Nobody goes into a first client call blind, and the client is never asked again what they already told sales.",
+   "vision_bullets": [
+    "Triggered by HubSpot: a deal marked won starts the handover with no manual step.",
+    "Extracts from every sales source: meeting transcripts, HubSpot deal notes, emails and contacts, the quote and services sold, the signed proposal and shared documents.",
+    "Pulls out what delivery needs: goals, KPIs, promises made, budgets, timelines, key contacts, prerequisites and risks – each point linked to its source.",
+    "The rep only fills gaps through a short question set.",
+    "Each department confirms it can deliver, or flags why not, before kick-off; denied deals and reasons are logged for sales.",
+    "Lives in the client brain for the life of the client – what was sold and promised is always one question away."
+   ],
+   "problems": [
+    "The sales-to-delivery handover has no structured pack or trigger, and sometimes happens minutes before the first client call.",
+    "Clients are sometimes sold without delivery prerequisites in place, such as a working website."
+   ],
+   "how": [
+    [
+     "",
+     "When a deal is marked won in HubSpot, the agent gathers the sales meeting transcripts, the HubSpot deal record (notes, emails, contacts, quote, line items), the signed proposal (build 10) and any shared documents."
+    ],
+    [
+     "",
+     "It extracts goals, KPIs, promises, budgets, timelines, key contacts, prerequisites and risks into the standard handover template, each point linked to its source, and flags what's missing."
+    ],
+    [
+     "",
+     "The sales rep answers a short question set for the gaps; the handover is saved to the client brain and each delivery department confirms or questions it before kick-off."
+    ]
+   ],
+   "future": [
+    "Every won deal produces a handover within a day, extracted from the sales calls, HubSpot and the proposal – the rep only fills gaps.",
+    "Delivery sees exactly what was sold and promised, with sources, before the first client call, so nobody goes in blind or re-asks the client.",
+    "Missing prerequisites (such as a working website) are flagged before kick-off, not discovered in month one.",
+    "Each department confirms it can deliver, or flags why not, before kick-off.",
+    "The handover lives in the client brain for the life of the client."
+   ],
+   "kpis": [
+    [
+     "Won deals with a handover in the brain before kick-off",
+     "Unknown – handover is \"just the transcript\"",
+     "100%"
+    ],
+    [
+     "Handovers confirmed by every delivery department before the first client call",
+     "Unknown; call sometimes 10 min before",
+     "≥ 90%"
+    ],
+    [
+     "Clients re-asked questions already answered in sales",
+     "Happens",
+     "0"
+    ],
+    [
+     "Deals denied by delivery, with reasons logged",
+     "Not tracked",
+     "Tracked; reasons reviewed monthly with sales"
+    ]
+   ],
+   "value": [
+    [
+     "A new standard",
+     "at least an hour of prepared information before kick-off",
+     "Austin's input · new standard – not measured"
+    ]
+   ],
+   "assumptions": [
+    "Sales calls are recorded with prospect consent and the transcripts are reachable (the founder already relies on them).",
+    "The sales lead wasn't interviewed, so the sales side of the evidence is leadership's view.",
+    "Depends on the client brain (build 2) and the AI-data rule.",
+    "HubSpot deal records (notes, emails, line items) are kept up to date by sales; the API gives read access."
+   ],
+   "build": "$750",
+   "build_lo": 750,
+   "build_hi": 750,
+   "maint": "In build 2",
+   "maint_n": 0,
+   "opex": "In build 2",
+   "allin_lo": 0,
+   "allin_hi": 0,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Not measured – no data on time spent on handovers today.",
+   "intangibles": "Clients never re-asked what they told sales; delivery knows what was promised; wrong-fit deals flagged before kick-off; a better first impression."
+  },
+  {
+   "order": 9,
+   "include": "Y",
+   "name": "New-client dossier",
+   "id": "DS-20",
+   "bundle": "Client lifecycle",
+   "phase": "2 – Built on the foundations",
+   "type": "Fill-in",
+   "ie": "2 / 1",
+   "vision": "A dossier on every new client so the team is well informed before work starts. At signing, an AI agent researches the business, its market, competitors and the people the team will work with, and saves a sourced pack into the client brain – so everyone knows who they're dealing with before the first call.",
+   "vision_bullets": [
+    "Created automatically at signing – no one has to remember to do the research.",
+    "Covers the business, market, competitors and key people, every point sourced.",
+    "Saved to the client brain, so every department starts from the same picture.",
+    "The Head of Client Services reviews instead of researching."
+   ],
+   "problems": [
+    "New-client research is done by hand, and only by the Head of Client Services (about 20 minutes a client)."
+   ],
+   "how": [
+    [
+     "",
+     "When a deal is marked won, an AI agent researches the new client from public sources – business, market, competitors, people – and saves a sourced pack to the client brain before kick-off."
+    ]
+   ],
+   "future": [
+    "Every new client has a sourced dossier in their brain within a day of signing, so the team knows who they're dealing with before the first call.",
+    "The Head of Client Services reviews the dossier instead of doing the research."
+   ],
+   "kpis": [
+    [
+     "New clients with a dossier before kick-off",
+     "0",
+     "100%"
+    ],
+    [
+     "Head of Client Services time on new-client research",
+     "~20 min per client",
+     "≈ 0 – review only"
+    ]
+   ],
+   "value": [
+    [
+     "A new standard",
+     "every new client researched before kick-off",
+     "Austin's input (only the Head of Client Services does it today, about 20 minutes)"
+    ]
+   ],
+   "assumptions": [
+    "Austin's suggestion, supported by one leadership quote.",
+    "Uses public information only; LinkedIn data access to be confirmed.",
+    "Needs the client brain (build 2) live."
+   ],
+   "build": "$200",
+   "build_lo": 200,
+   "build_hi": 200,
+   "maint": "In build 2",
+   "maint_n": 0,
+   "opex": "In build 2",
+   "allin_lo": 0,
+   "allin_hi": 0,
+   "dollar_lo": 1000,
+   "dollar_hi": 1300,
+   "dollar_basis": "Time: 3–4 new clients × 20 minutes of Head of Client Services research at $80/hr.",
+   "intangibles": "Every department starts from the same picture of the client; the team walks into the first call informed."
+  },
+  {
+   "order": 10,
+   "include": "Y",
+   "name": "Sales proposal and reporting deck generator",
+   "id": "DS-05",
+   "bundle": "Delivery and reporting",
+   "phase": "2 – Built on the foundations",
+   "type": "Strategic build",
+   "ie": "4 / 4",
+   "vision": "One generator for the two documents that take the most hand-building: sales proposals and client reporting decks. For a prospect, it researches the business, pulls keyword and competitor data from Ahrefs, prices the scope with the price calculator, runs a margin check and drafts the proposal in Aperitif's template – the salesperson reviews and adds the pitch, without needing the founder's numbers or a senior SEO manager's half-day. For a client, it pulls results from every channel through Windsor and the client's goals, history and wins from the client brain, makes the charts the team would normally screenshot, and fills the quarterly or 6-month review deck; the consultant fills a short form for what the data can't tell it and adds the story and recommendations. Every proposal and deck is saved to the client brain, so a won proposal becomes the new client's starting record.",
+   "vision_bullets": [
+    "Sales proposals: prospect research, Ahrefs keyword and competitor data, calculator pricing and a margin check – drafted the same day in the master template.",
+    "Reporting decks: quarterly and 6-month reviews filled from Windsor and the client brain, with the charts built automatically.",
+    "A short form for what the data can't tell it: context, wins, plans, the pitch or the story.",
+    "One master template per document type – no more duplicating old decks and carrying over errors.",
+    "Everything saved to the client brain: won proposals become the client's starting record; review decks become part of its history."
+   ],
+   "problems": [
+    "Proposals are rebuilt from scratch for each prospect, pricing isn't consistently run through the calculator, and they depend on the founder's numbers or a senior SEO manager's time – raised by leadership and delivery.",
+    "Client review decks are built by duplicating old ones, so errors reach clients – raised by 5 staff.",
+    "Review decks are rebuilt by hand with screenshots, and current templates live with individuals."
+   ],
+   "how": [
+    [
+     "Sales proposals",
+     "the salesperson enters the prospect's domain, services and goals in a short form; the generator researches the business, pulls Ahrefs keyword, traffic and competitor data, prices the scope with the price calculator, checks margin against the threshold, and fills the proposal template for review."
+    ],
+    [
+     "Reporting decks",
+     "the consultant picks the client and period and fills a short form (context, wins, plans); the generator pulls results through Windsor and context from the client brain, builds the charts and fills the review deck template for review."
+    ],
+    [
+     "",
+     "Both run as Claude skills with a chart helper, writing into Aperitif's master Google Slides templates; finished documents are saved to the client brain."
+    ],
+    [
+     "",
+     "Monthly reporting carries on in AgencyAnalytics unchanged."
+    ]
+   ],
+   "future": [
+    "Every proposal is drafted the same day from one master template, with calculator pricing and a margin check before it goes out.",
+    "Proposals no longer need the founder's numbers or a senior SEO manager's half-day.",
+    "Every quarterly and 6-month review deck starts from one master template, filled automatically with the client's data and charts.",
+    "AI drafts the narrative; the salesperson or manager spends their time on the pitch, story and recommendations, not on screenshots and copy-paste.",
+    "A won proposal flows into the new client's brain, so delivery starts with what was sold.",
+    "Monthly reporting carries on in AgencyAnalytics unchanged."
+   ],
+   "kpis": [
+    [
+     "Time to produce a proposal",
+     "~1.5 h plus the founder's numbers (Austin's input)",
+     "Draft same day; ~30 min review"
+    ],
+    [
+     "Proposals with price-calculator output and margin check",
+     "Unknown – not consistent",
+     "100%"
+    ],
+    [
+     "Hours per quarterly / 6-month review deck",
+     "~1.5–2 h (Austin's input)",
+     "~30 min review"
+    ],
+    [
+     "Review decks generated from the master template",
+     "0%",
+     "100%"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "22–32 hours a month (6–8 of them sales time on proposals) · about $69k–$104k a year of delivery capacity from review decks (2–3 more clients)",
+     "Austin's input (proposals 1.5 hours, decks 1.5–2 hours) · estimate (30 minutes to review each; 6–8 proposals a month, conservative) · capacity counts the 16–24 deck hours only, at the blended MRR per manager; proposal hours are sales time and aren't counted as delivery capacity"
+    ]
+   ],
+   "assumptions": [
+    "Hours saved assumed; the only stated time is the half-day for one bespoke multi-market deck.",
+    "The sales lead wasn't recorded, so proposal evidence is leadership plus one delivery staff member.",
+    "Needs one current master template per document type, the price calculator with current rates and the margin threshold, the AI-data rule and data access.",
+    "Needs Windsor (build 1) and the client brain (build 2) for reporting decks.",
+    "The SEO director is comfortable with AI-drafted 6-month reviews for smaller clients; larger clients may need more of the narrative written by hand."
+   ],
+   "build": "$4,250",
+   "build_lo": 4250,
+   "build_hi": 4250,
+   "maint": "$350",
+   "maint_n": 350,
+   "opex": "AI US$5–40",
+   "allin_lo": 357.692307692308,
+   "allin_hi": 411.538461538462,
+   "dollar_lo": 75000,
+   "dollar_hi": 112000,
+   "dollar_basis": "Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ $69k–$104k), plus 6–8 hours a month of proposal time at $80/hr (≈ $6k–$8k).",
+   "intangibles": "No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales."
+  },
+  {
+   "order": 11,
+   "include": "Y",
+   "name": "Team assistant",
+   "id": "DS-06, DS-30",
+   "bundle": "Team productivity",
+   "phase": "2 – Built on the foundations",
+   "type": "Strategic build",
+   "ie": "4 / 4",
+   "vision": "Nothing gets lost and everyone starts the day focused. Requests sent by Slack, DM or email become Monday tasks with the evidence attached, so the client brain always knows what's been asked. The assistant also sweeps Monday for work that's stuck and nudges the owner. Each morning, everyone gets one short list of what matters – tasks, messages, meetings and client alerts – instead of checking five tools.",
+   "vision_bullets": [
+    "Request sweeper: catches requests in Slack channels, DMs and email, confirms with the sender, and creates the Monday task with the evidence attached.",
+    "Task status sweep: flags tasks that look finished but aren't closed, tasks past due with no update, and \"awaiting approval\" items nobody moved – and nudges the owner.",
+    "Daily priorities: one morning message per person, pulled from Monday, Slack, email, the calendar and the client brain.",
+    "Leadership sees status in Monday, not by chasing in Slack.",
+    "Runs on the client brain: it uses the same connections, memory and AI as the brain, so it knows each client's context."
+   ],
+   "problems": [
+    "Requests arrive by Slack DM and email and are missed, because not everyone uses Monday to log tasks.",
+    "Reminders go unactioned, and a broken reminder bot went unnoticed – raised by staff and leadership.",
+    "People miss things they need to do, reminders go unactioned, and one specialist spends about an hour a day triaging email."
+   ],
+   "how": [
+    [
+     "Request sweeper",
+     "an assistant reads Slack (channels and DMs) and email for requests, asks the sender to confirm, and creates the Monday task with the evidence attached."
+    ],
+    [
+     "Task status sweep",
+     "a daily job reads Monday due dates and status changes, flags stuck items to the owner in Slack, and escalates to the department lead after 3 days."
+    ],
+    [
+     "Daily priorities",
+     "each morning an AI message pulls together what's due, what's been asked and what's been flagged across Slack, Monday, email and the client brain for each person."
+    ],
+    [
+     "Runs on the client brain (build 2)",
+     "same connectors, database and AI – no separate system to maintain."
+    ]
+   ],
+   "future": [
+    "Every request that matters ends up as a Monday task, whether it was sent through Monday, a Slack channel or a DM.",
+    "Nobody has to remember to copy a request into Monday – the sweeper creates the task automatically from Slack; email requests are confirmed by the employee first.",
+    "Requests with missing details are flagged straight away, not discovered when the work starts.",
+    "Leadership sees status in Monday, not by chasing in Slack.",
+    "Nobody starts the day by checking five tools; everyone starts from one list that already knows their tasks, messages, meetings and client alerts."
+   ],
+   "kpis": [
+    [
+     "Share of internal requests that exist as a Monday task",
+     "Unknown – \"not everybody uses Monday\"",
+     "≥ 90%"
+    ],
+    [
+     "Time spent untangling a request from email/Slack",
+     "~30 min per chain",
+     "≤ 5 min"
+    ],
+    [
+     "Requests needing a chase for missing details",
+     "Unknown – \"sometimes\"",
+     "−50%; baseline to be measured"
+    ],
+    [
+     "Tasks overdue > 3 days",
+     "Unknown",
+     "−70%"
+    ],
+    [
+     "Minutes a day spent triaging email and messages",
+     "~60 (one specialist)",
+     "≤ 15"
+    ]
+   ],
+   "value": [
+    [
+     "Request sweeper",
+     "Nothing gets missed",
+     "Not measured – captures what is missed today"
+    ],
+    [
+     "Daily priorities",
+     "A clear focus each morning",
+     "Not measured – personal to each person"
+    ]
+   ],
+   "assumptions": [
+    "DM access is the hard part: a Slack app can only read a person's DMs if that person authorises it (a user-level permission). Channels are straightforward. Needs staff consent and a clear rule on what the sweeper reads and keeps (ties to the AI-data rule).",
+    "Monday's own Slack integration can already turn a message into a task by hand – the sweeper adds the automatic detection.",
+    "Automatic creation in Slack may produce some junk tasks at first; the evidence link makes them quick to spot and delete. Detection rules get tuned over the first few weeks.",
+    "Email access needs each person's Gmail authorisation, the same as DMs.",
+    "Each person connects their own inbox, calendar and DMs (same consent as the request sweeper).",
+    "Needs the client brain (build 2) live – it runs on the brain's connections and hosting."
+   ],
+   "build": "$2,500",
+   "build_lo": 2500,
+   "build_hi": 2500,
+   "maint": "In build 2",
+   "maint_n": 0,
+   "opex": "In build 2",
+   "allin_lo": 0,
+   "allin_hi": 0,
+   "dollar_lo": 15000,
+   "dollar_hi": 15000,
+   "dollar_basis": "Time: ~16 hours a month of one specialist's email triage at $80/hr (stated). Request chains across the team (estimate ~45 hours a month ≈ $43k) are not counted – no measured volumes.",
+   "intangibles": "Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list."
+  },
+  {
+   "order": 12,
+   "include": "Y",
+   "name": "Client Retention and Growth AI",
+   "id": "DS-14",
+   "bundle": "AI Business Brain",
+   "phase": "3 – Retention and growth",
+   "type": "Strategic build",
+   "ie": "4 / 4",
+   "vision": "An anti-churn and growth engine that is present in every meeting, email and deliverable. It doesn't just scan for keywords and phrases – it reads behaviour and patterns across the whole relationship, the way an experienced account director would. It notices when meetings start getting cancelled or pushed, when replies slow down, when the senior contact stops turning up, when a new stakeholder appears, when approvals and invoices drag, when sentiment cools across calls, emails and Slack, and when results drift away from the client's goals. It also spots growth: new goals, strong results worth building on, and services the client doesn't have yet. Running on the client brain, it builds a picture of each person at the client – how they communicate, what they care about and how their sentiment is trending – and when something shows, it alerts the account manager, department lead and Head of Client Services together, with the evidence and a suggested next step. Every outcome is logged, so it learns which signals really matter for Aperitif's clients.",
+   "vision_bullets": [
+    "Behaviour, not keywords: tracks patterns over time – meetings cancelled, rescheduled or no-showed, slower response times, fewer people on calls, a senior contact going quiet, new stakeholders appearing, delayed approvals, late payments, requests to cut scope or budget, and requests for data exports or account access.",
+    "Sentiment across all comms: tone tracked per person across calls, emails and Slack, so a cooling relationship shows up as a trend, not a single bad email.",
+    "Results against goals: performance drifting away from what the client cares about, before they raise it.",
+    "Growth signals: new goals, strong results that justify a bigger budget, and services that fit but aren't sold yet (e.g. an SEO client with no paid media) – fed into call prep, reviews and proposals.",
+    "Live retention and growth scores for every client, with leadership seeing portfolio health in one view.",
+    "Alerts with evidence and a next step, well before a client leaves; people own the escalation.",
+    "Present everywhere: risks and opportunities show up in meeting prep, drafted client comms (build 13) and review decks – not a separate dashboard nobody opens.",
+    "Gets smarter: every alert's outcome (kept, churned, upsold) is logged, so the signals improve."
+   ],
+   "problems": [
+    "Churn risk is spotted late – some clients leave \"out of the blue\" – and account teams report on results rather than advise; raised by leadership and staff.",
+    "About five churn-risk escalations a week land with the Head of Client Services, rather than department leads.",
+    "Upsell opportunities are spotted only occasionally."
+   ],
+   "how": [
+    [
+     "Signals",
+     "the client brain feeds it calls and transcripts, emails, Slack, the calendar (meetings booked, cancelled, rescheduled, attendance), Monday (approvals and delays), HubSpot and Xero (contract dates, scope changes, late payments) and results from Windsor and Ahrefs."
+    ],
+    [
+     "Patterns",
+     "each signal is compared with the client's own normal over time – e.g. three meetings pushed in a month, reply times doubling, sentiment trending down across several people – rather than matching keywords."
+    ],
+    [
+     "Scores",
+     "a retention score and a growth score per client, updated as new information arrives, with the evidence behind each change."
+    ],
+    [
+     "Alerts",
+     "when a score moves past a threshold, the account manager, department lead and Head of Client Services get one alert with the evidence and a suggested next step; growth signals go into call prep, client comms and proposals."
+    ],
+    [
+     "Learning",
+     "the outcome of every alert is logged, and the weighting of signals is tuned from what actually predicted churn or growth."
+    ]
+   ],
+   "future": [
+    "Every client has a live retention score and growth score, updated as new calls, emails, meetings and results come in.",
+    "Account owners hear about a cooling relationship from patterns – cancelled meetings, slower replies, falling sentiment – well before a client leaves.",
+    "Growth opportunities surface automatically and go into call prep, client comms and reviews.",
+    "Leadership sees portfolio health in one view and steps in only on high-risk alerts.",
+    "Escalations reach the right department lead first, not the Head of Client Services by default."
+   ],
+   "kpis": [
+    [
+     "Churned clients flagged ≥ 30 days ahead",
+     "Unknown – some \"out of the blue\"",
+     "≥ 80%"
+    ],
+    [
+     "Monthly client churn",
+     "Not baselined – 10 contracts ended 31 Aug–17 Oct",
+     "Down ~1.5 points (indicative)"
+    ],
+    [
+     "Upsell / cross-sell proposals raised per month",
+     "\"a few\"",
+     "Baseline, then set a target"
+    ],
+    [
+     "Expansion revenue per month",
+     "Not baselined",
+     "Baseline, then set a target"
+    ]
+   ],
+   "value": [
+    [
+     "Indicative",
+     "could reduce churn by about 1.5% a month – about 1.5 clients a month, or 18 clients (about $540k a year) kept",
+     "Indicative – the real effect on churn will show once it is live · 1.5% of 101 active clients (client board, 10 Nov) ≈ 1.5 a month · client board (10 contracts ended 31 August–17 October, average $2,500 a month)"
+    ]
+   ],
+   "assumptions": [
+    "Depends on the client brain (build 2) being live with transcripts, email, Slack and the calendar.",
+    "Profiling client contacts' communication and sentiment needs the AI-data rule and a clear line on what's stored about individuals (privacy) – staff are not profiled.",
+    "Calendar, Xero and HubSpot read access is needed for the behaviour signals.",
+    "\"Gets smarter\" needs outcomes logged for every alert (kept / churned / upsold); without that, it can't learn.",
+    "Signals are suggestions; people keep the escalation."
+   ],
+   "build": "$4,500",
+   "build_lo": 4500,
+   "build_hi": 4500,
+   "maint": "$500",
+   "maint_n": 500,
+   "opex": "AI US$40–150",
+   "allin_lo": 561.538461538462,
+   "allin_hi": 730.769230769231,
+   "dollar_lo": 540000,
+   "dollar_hi": 540000,
+   "dollar_basis": "Revenue kept (indicative): ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
+   "intangibles": "Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships."
+  },
+  {
+   "order": 13,
+   "include": "Y",
+   "name": "Client comms",
+   "id": "DS-28, DS-29",
+   "bundle": "Delivery and reporting",
+   "phase": "3 – Retention and growth",
+   "type": "Fill-in",
+   "ie": "2 / 2",
+   "vision": "Clients hear from Aperitif through the month, before they have to ask. The AI turns what the PPC assistant and SEO monitoring find into client updates in each client's tone – wins worth sharing, what moved and why, what the team is doing next – and sends notes that set expectations before a seasonal or industry dip lands. Because it runs on the client brain, every message draws on the whole relationship, not just what one account manager remembers: every call, email and Slack thread, what was sold and promised, the client's goals, what's been tried before, and the work every department has done – SEO, paid, content and links. Every message is advisory, approved by the manager before it goes, and saved back to the client brain.",
+   "vision_bullets": [
+    "Context across the whole relationship: drafts use everything in the client brain – calls, emails, Slack, promises from the sales handover, goals, past decisions and every department's work – not one person's memory.",
+    "Drafted from what the team already knows: PPC alerts and diagnoses (build 1), SEO digests and wins (build 7) and the client's history.",
+    "In each client's tone: the client brain knows how each client likes to be spoken to.",
+    "Ahead of the dip: forecast seasonal or industry dips explained before they show up in the monthly report.",
+    "Advise, not just report: every update ends with what Aperitif recommends next.",
+    "Manager approves every message: nothing goes to a client automatically, and everything sent is saved to the client brain so the next message knows what was said."
+   ],
+   "problems": [
+    "Client comms crowd out strategy, and updates tend to describe what happened rather than advise on what to do next.",
+    "What a client is told depends on what their account manager remembers; context from other departments and earlier conversations is often missed."
+   ],
+   "how": [
+    [
+     "",
+     "Weekly, after the Monday digests, the AI drafts a short update for each focus client from the PPC and SEO findings, reading the client brain first for the full relationship context (calls, emails, promises, goals, what's been tried, other departments' work). Drafts go to the manager in Slack to approve, edit or skip, then are sent by email and saved to the client brain."
+    ],
+    [
+     "On demand",
+     "a manager asks for a reply to a client and gets a draft in the client's tone, grounded in the latest results and the whole relationship history."
+    ]
+   ],
+   "future": [
+    "Clients hear from the team through the month without managers writing every update.",
+    "Every message reflects the whole relationship – what other departments did, what was promised and what was said last time – not just one manager's view.",
+    "Seasonal and industry dips are flagged to clients before they land.",
+    "Updates advise on what to do next, not only report what happened."
+   ],
+   "kpis": [
+    [
+     "Proactive client updates per month",
+     "Ad hoc",
+     "≥ 2 per focus client"
+    ],
+    [
+     "Dips explained to the client before the monthly report",
+     "Rare",
+     "100% of forecast dips"
+    ],
+    [
+     "Manager time on routine client comms",
+     "Crowds out strategy",
+     "Baseline, then −30%"
+    ]
+   ],
+   "value": [
+    [
+     "Higher client retention and trust",
+     "clients hear proactive, informed advice through the month and dips are explained before they land",
+     "New capability – retention and trust effect not measured; supports client health and growth (build 12)"
+    ]
+   ],
+   "assumptions": [
+    "Managers approve every message before it goes; nothing is sent to clients automatically without review.",
+    "Needs the client brain (build 2), and the PPC assistant (build 1) and SEO monitoring (build 7) for the weekly findings.",
+    "Austin's suggestion, supported by one staff interview and the leadership kick-off."
+   ],
+   "build": "$2,500",
+   "build_lo": 2500,
+   "build_hi": 2500,
+   "maint": "$250",
+   "maint_n": 250,
+   "opex": "AI US$15–65",
+   "allin_lo": 273.076923076923,
+   "allin_hi": 350,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Counted in Client Retention and Growth AI (build 12) – its value is retention, so it isn't counted twice.",
+   "intangibles": "Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land."
+  },
+  {
+   "order": 14,
+   "include": "Y",
+   "name": "Forecasting",
+   "id": "DS-25, DS-26",
+   "bundle": "PPC performance",
+   "phase": "3 – Retention and growth",
+   "type": "Fill-in",
+   "ie": "2 / 2",
+   "vision": "Every manager can forecast a client's results in minutes using one shared method, for paid and organic. Change a budget, a season or a market assumption and see the scenarios, so planning and client expectations rest on data, not gut feel. It turns the performance director's own forecasting approach into a shared Claude skill the whole team uses. Forecasts are saved to the client brain and checked against what actually happened, so the method gets better over time.",
+   "vision_bullets": [
+    "PPC forecasting: spend and results scenarios from each client's history through Windsor, with seasonality built in.",
+    "SEO forecasting: traffic and ranking scenarios from GA4, Search Console and Ahrefs.",
+    "One method for everyone: the director's approach, shared across the team instead of living in one person's Gemini workflow.",
+    "Forecasts that learn: each forecast is saved to the client brain and compared with actuals.",
+    "Feeds proposals and reviews: forecasts drop straight into the deck generator (build 10) and client comms (build 13)."
+   ],
+   "problems": [
+    "Forecasting is done by hand or with personal tools, and takes hours per client.",
+    "Only the performance director has a working method (his own Gemini workflow); it isn't shared with the team.",
+    "Seasons and external shocks make history unreliable on its own; SEO forecasting wasn't raised directly (Austin's addition)."
+   ],
+   "how": [
+    [
+     "PPC forecasting",
+     "a Claude skill pulls the client's spend and results history through Windsor, applies seasonality and the manager's assumptions (budget, season, market), and returns low / expected / high scenarios with the reasoning."
+    ],
+    [
+     "SEO forecasting",
+     "the same skill using GA4, Search Console and Ahrefs data to forecast traffic and rankings."
+    ],
+    [
+     "",
+     "Every forecast is saved to the client brain; a monthly check compares forecasts with actuals."
+    ]
+   ],
+   "future": [
+    "Every PPC and SEO manager can produce a client forecast in minutes, using the same method, with outside factors built in.",
+    "The director's method is no longer a personal workflow – the whole team uses it.",
+    "Forecasts are checked against actuals, so accuracy is known and improves.",
+    "Proposals and review decks include a forecast without extra work."
+   ],
+   "kpis": [
+    [
+     "Managers producing forecasts with the shared skill",
+     "1 (the performance director)",
+     "All PPC and SEO managers"
+    ],
+    [
+     "Forecast accuracy (actual vs forecast)",
+     "Not tracked",
+     "Baseline, then improve"
+    ],
+    [
+     "SEO clients with a current forecast",
+     "0",
+     "100% of focus clients"
+    ]
+   ],
+   "value": [
+    [
+     "PPC forecasting",
+     "better budget decisions and fewer surprises",
+     "performance director's input (hours by hand vs ~15 minutes with AI) · new capability for the wider team – not measured"
+    ],
+    [
+     "SEO forecasting",
+     "better planning and realistic client expectations",
+     "new capability – not measured"
+    ]
+   ],
+   "assumptions": [
+    "Mainly Austin's suggestion; evidence is one person (the performance director), who has largely solved it personally with Gemini.",
+    "Needs Windsor (build 1) for PPC history and the client brain (build 2) to store forecasts.",
+    "Economic and trend data sources (if any) to be chosen; the first version uses history and seasonality only."
+   ],
+   "build": "$750",
+   "build_lo": 750,
+   "build_hi": 750,
+   "maint": "In build 1",
+   "maint_n": 0,
+   "opex": "AI US$3–15 (rest in build 1)",
+   "allin_lo": 4.61538461538462,
+   "allin_hi": 23.0769230769231,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Not measured – no data on how many forecasts are produced today.",
+   "intangibles": "Better budget decisions; realistic client expectations; one method across the team instead of one person's workflow."
+  },
+  {
+   "order": 15,
+   "include": "Y",
+   "name": "Market radar",
+   "id": "DS-16, DS-32, DS-33",
+   "bundle": "Market intelligence",
+   "phase": "3 – Retention and growth",
+   "type": "Fill-in",
+   "ie": "2 / 3",
+   "vision": "Every client has a live market radar. Trends, seasons, competitors, news and regulation are watched for every client automatically. Seasonal peaks are flagged two to three months ahead, so content lands before the peak, not after. Competitor moves – new pages, keyword and ranking gains – are summarised weekly without anyone checking sites by hand. Relevant news and regulation changes arrive the same day with an idea to act on. Everything is saved to the client brain, so strategists, client comms and proposals all draw on it – and Aperitif brings clients timely recommendations before they ask.",
+   "vision_bullets": [
+    "Seasonal and trending radar: peaks flagged 2–3 months ahead; sudden spikes the same day.",
+    "Competitor watch: a weekly summary of each client's competitors' new pages and ranking moves, from Ahrefs.",
+    "News and regulation: daily checks per client niche; a relevance filter keeps what matters and AI explains why, with an idea.",
+    "Feeds the rest of the system: ideas go into the client brain, content briefs (build 5), client comms (build 13) and Client Retention and Growth AI (build 12)."
+   ],
+   "problems": [
+    "Seasonal and trending content is planned too late to catch the peak – raised by 2 staff.",
+    "Competitors' new pages and ranking moves are checked by hand, if at all, so Aperitif reacts late.",
+    "Trending topics and regulation changes are missed, and external shocks make history unreliable for planning."
+   ],
+   "how": [
+    [
+     "Seasonal and trending radar",
+     "a routine checks Google Trends (through SerpApi), seasonal calendars and news for each client's niche and alerts the strategist two to three months ahead of a peak, and the same day for sudden spikes."
+    ],
+    [
+     "Competitor watch",
+     "each client's competitors are tracked weekly through Ahrefs – new pages, keyword and ranking moves – and notable changes are summarised in Slack and saved to the client brain."
+    ],
+    [
+     "News and regulation",
+     "news and regulation searches run daily for each client; a relevance filter keeps what matters and AI explains why, with an idea to act on."
+    ],
+    [
+     "",
+     "Runs on the client brain's scheduler; client niches and competitor lists come from the Master SEO Document."
+    ]
+   ],
+   "future": [
+    "Every client has a live radar: seasonal peaks, trends, competitors and world events.",
+    "Topics reach the strategist 2–3 months before peaks; sudden spikes and news reach them the same day.",
+    "Competitor moves are reported weekly without anyone checking sites by hand.",
+    "Strategists bring timely ideas to clients, supporting the \"bring a recommendation\" goal."
+   ],
+   "kpis": [
+    [
+     "Seasonal / trend pieces live 4+ weeks before peak",
+     "Peaks reached too late",
+     "≥ 80%"
+    ],
+    [
+     "Major events with content published in time",
+     "Missed",
+     "≥ 80% of calendar events"
+    ],
+    [
+     "Clients with an active competitor watch",
+     "0",
+     "100%"
+    ],
+    [
+     "Trend checks done by hand",
+     "Every 2–3 days for one client",
+     "0"
+    ]
+   ],
+   "value": [
+    [
+     "Seasonal and trending radar",
+     "Content lands before the peak, not after",
+     "New capability – not measured"
+    ],
+    [
+     "Competitor watch",
+     "React to competitors first",
+     "New capability – not measured"
+    ],
+    [
+     "Macro trend tracker",
+     "Timely ideas from news and regulation",
+     "New capability – not measured"
+    ]
+   ],
+   "assumptions": [
+    "Evidence is from organic only (2 people); Austin's earlier idea plus one staff suggestion; one stated example.",
+    "Each client's competitor list and niche keywords exist or can be pulled from the Master SEO Document.",
+    "Alert volume is tuned per client so strategists aren't flooded.",
+    "Google Trends has no official API; data comes through a third party (SerpApi)."
+   ],
+   "build": "$1,350",
+   "build_lo": 1350,
+   "build_hi": 1350,
+   "maint": "$200",
+   "maint_n": 200,
+   "opex": "SerpApi US$25–75 · AI US$20–80",
+   "allin_lo": 269.230769230769,
+   "allin_hi": 438.461538461538,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Not measured – one example of manual trend checks only.",
+   "intangibles": "Content lands before seasonal peaks; first to react to competitors; timely ideas that support the 'bring a recommendation' goal."
+  },
+  {
+   "order": 16,
+   "include": "Y",
+   "name": "Landing page generator",
+   "id": "DS-18",
+   "bundle": "New services and standalone tools",
+   "phase": "4 – New products and requests",
+   "type": "Fill-in",
+   "ie": "2 / 2",
+   "vision": "A landing page product Aperitif can sell. The generator picks up a client's brand from their website – colours, fonts, imagery and tone – and builds ad landing pages on Aperitif's own conversion-tested page structures. The team edits content, assets and creatives in a simple editor and publishes on Aperitif's hosting, with tracking set up correctly from day one. Pages go live in hours, not weeks of outsourcing – getting campaigns live even for clients without a working website, and turning a $1,500 outsourced cost into a service Aperitif sells at a better margin.",
+   "vision_bullets": [
+    "Brand cloned from the client's site: colours, fonts, style and tone – no brief to a designer.",
+    "Built on Aperitif's tested page structures, so every page starts conversion-ready.",
+    "The team customises in a simple editor: content, assets and creatives.",
+    "Hosted by Aperitif: no client CMS access needed, tracking set up from day one, and ads can launch even without a working client site.",
+    "A product to sell: faster and cheaper than outsourcing, at a better margin.",
+    "Connected: page results feed the PPC assistant (build 1), and pages are saved to the client brain."
+   ],
+   "problems": [
+    "Landing pages are outsourced at about $1,500 a page, slow and hard to brief, because the team doesn't have capacity – raised by 2 staff and leadership.",
+    "Some clients are sold without a working website; a fast page can get a campaign live."
+   ],
+   "how": [
+    [
+     "",
+     "A custom generator reads a client's website to pick up their brand – colours, fonts, imagery, tone – and builds ad landing pages on Aperitif's tested page structures."
+    ],
+    [
+     "",
+     "The team edits content, assets and creatives in a simple editor, then publishes to Aperitif's hosting with tracking and forms set up; leads go to the client and HubSpot."
+    ],
+    [
+     "It runs on demand",
+     "pages are generated and revised only when the team asks for them."
+    ]
+   ],
+   "future": [
+    "Landing pages are built in-house in hours, not outsourced over weeks.",
+    "They become a product Aperitif can sell at a lower price with a better margin.",
+    "Every page has tracking set up correctly from day one."
+   ],
+   "kpis": [
+    [
+     "Time to a live landing page",
+     "Outsourced, \"clunky\"",
+     "≤ 2 business days"
+    ],
+    [
+     "Cost per landing page",
+     "~$1,500 outsourced",
+     "Baseline in-house cost, then set"
+    ],
+    [
+     "Landing pages sold per month",
+     "Low – price barrier",
+     "Baseline, then set"
+    ],
+    [
+     "Revenue from landing pages per month",
+     "$0 – outsourced",
+     "$1.5k–$6k (5–10 pages at $300–$600)"
+    ]
+   ],
+   "value": [
+    [
+     "A new service to sell",
+     "about $18k–$72k a year of revenue at $300–$600 a page and 5–10 pages a month · campaigns can launch for clients without a working site",
+     "Austin's pricing ($300–$600 a page) · assumption (5–10 pages a month) · interview evidence (outsourced today at about $1,500 a page)"
+    ]
+   ],
+   "assumptions": [
+    "Austin's suggestion; evidence is leadership + one staff member.",
+    "Pages are published on Aperitif's own hosted page builder, so no client CMS access is needed.",
+    "Scope and maintenance are expected to grow as features are added; the A$850 a month reflects the first version."
+   ],
+   "build": "$9,250",
+   "build_lo": 9250,
+   "build_hi": 9250,
+   "maint": "$850",
+   "maint_n": 850,
+   "opex": "AI US$10–150 · hosting US$20–60",
+   "allin_lo": 896.153846153846,
+   "allin_hi": 1173.07692307692,
+   "dollar_lo": 18000,
+   "dollar_hi": 72000,
+   "dollar_basis": "New revenue: 5–10 landing pages a month (assumption – volume not yet known) sold at $300–$600 a page (Austin's pricing). Outsourced today at about $1,500 a page.",
+   "intangibles": "A new product to sell; campaigns can launch for clients without a working site; in-house speed and control of tracking."
+  },
+  {
+   "order": 17,
+   "include": "Y",
+   "name": "AI receptionist",
+   "id": "DS-19",
+   "bundle": "New services and standalone tools",
+   "phase": "4 – New products and requests",
+   "type": "Reconsider",
+   "ie": "1 / 1",
+   "vision": "Every inbound call reaches the right person. Aircall's AI receptionist answers each call, works out whether it's a new lead or an existing client, sends new leads to Joe and existing clients to their account manager, and logs the call to HubSpot or the client brain. Nothing more complex than that. Included at Joe's request: Transpera doesn't recommend it as a priority – there's no evidence of missed calls or call volumes, and the money and attention are better spent on the builds above it.",
+   "vision_bullets": [
+    "Every call answered, day or night.",
+    "New lead → Joe; existing client → their account manager.",
+    "Logged automatically: new leads into HubSpot, client calls into the client brain.",
+    "Bought, not built: Aircall's add-on, set up and tuned by Transpera.",
+    "Transpera's view: not recommended as a priority – included because Joe asked; revisit once call volumes show missed calls."
+   ],
+   "problems": [
+    "Inbound sales still depend on the founder, and calls may go unanswered or reach the wrong person – no call volumes or missed-call data were provided."
+   ],
+   "how": [
+    [
+     "",
+     "Aircall's AI receptionist answers inbound calls, identifies new leads and existing clients, routes new leads to Joe and existing clients to their account manager, and logs each call to HubSpot or the client brain."
+    ]
+   ],
+   "future": [
+    "Every inbound call is answered and routed in seconds.",
+    "New leads reach Joe with the caller's details; existing clients reach their account manager.",
+    "Every call is logged, so nothing relies on someone remembering to write it down."
+   ],
+   "kpis": [
+    [
+     "Inbound calls answered",
+     "Unknown",
+     "100%"
+    ],
+    [
+     "Calls routed to the right person first time",
+     "Unknown",
+     "≥ 95%"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "No missed calls; callers reach the right person",
+     "Not measured – no call volumes or missed-call data · Transpera does not recommend this as a priority (included at Joe's request)"
+    ]
+   ],
+   "assumptions": [
+    "Austin's suggestion at Joe's request; weak interview evidence and no call volumes.",
+    "Transpera's recommendation: not a priority; revisit once call data shows missed or misrouted calls.",
+    "Needs Aircall in use for inbound calls, and the HubSpot connection for logging."
+   ],
+   "build": "$300",
+   "build_lo": 300,
+   "build_hi": 300,
+   "maint": "In build 2",
+   "maint_n": 0,
+   "opex": "Aircall (billed A$150–370) US$98–240 (rest in build 2)",
+   "allin_lo": 150.769230769231,
+   "allin_hi": 369.230769230769,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Not measured – no call volumes or missed-call data.",
+   "intangibles": "Every call answered and routed; nothing relies on someone remembering to log a call."
+  },
+  {
+   "order": 18,
+   "include": "N",
+   "name": "AI creative tools",
+   "id": "DS-21",
+   "bundle": "New services and standalone tools",
+   "phase": "No build – trial can start in week 1",
+   "type": "Fill-in",
+   "ie": "2 / 1",
+   "vision": "Aperitif's paid team makes simple ad creative in-house in minutes with AI tools, instead of waiting on the design partner. Ad variants, resizes and short videos are produced by the team; the design partner focuses on hero creative. This isn't a build: it's a one-month trial of proven AI creative tools on real lead-gen clients, keeping only what saves time.",
+   "vision_bullets": [
+    "Trial before buying: one month on real clients – keep the tools that save time, cancel the rest.",
+    "In-house variants and resizes: made in minutes, not sent out for another round.",
+    "Video without a shoot: AI video for simple ads and social.",
+    "Design partner on hero work only: fewer revision rounds and faster campaign launches.",
+    "Winning creative feeds the PPC assistant: results show which AI-made ads work (build 1)."
+   ],
+   "problems": [
+    "Creative is slow or outsourced, and AI creative tools haven't been tested on Aperitif's clients."
+   ],
+   "how": [
+    [
+     "",
+     "Recommended AI creative tools are trialled for a month on real clients, keeping only what saves time."
+    ]
+   ],
+   "future": [
+    "Simple ad variants and resizes are made in-house with AI tools in minutes; the design partner is used only for hero creative; video is possible without an outsourced shoot."
+   ],
+   "kpis": [
+    [
+     "Creative revision rounds with the design partner",
+     "Repeated back-and-forth",
+     "≤ 1"
+    ],
+    [
+     "Ad variants made in-house per month",
+     "Canva only",
+     "Baseline, then set"
+    ],
+    [
+     "Time to launch an ad-hoc campaign",
+     "≥ 1 week",
+     "Fewer days where client creative is the blocker"
+    ]
+   ],
+   "value": [
+    [
+     "",
+     "Faster creative in-house",
+     "New capability – not measured"
+    ]
+   ],
+   "assumptions": [
+    "Prices and features from vendor and review sites, Nov 2026 – to verify.",
+    "Output quality for lead-gen and service clients is the open question; the trial decides."
+   ],
+   "build": "$0",
+   "build_lo": 0,
+   "build_hi": 0,
+   "maint": "$0",
+   "maint_n": 0,
+   "opex": "Creative tools, paid direct US$70–380",
+   "allin_lo": 107.692307692308,
+   "allin_hi": 584.615384615385,
+   "dollar_lo": 0,
+   "dollar_hi": 0,
+   "dollar_basis": "Not measured – trial decides.",
+   "intangibles": "Faster creative in-house; fewer revision rounds with the design partner; video without a shoot."
+  }
+ ]
+}

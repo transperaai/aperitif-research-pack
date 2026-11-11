@@ -128,15 +128,16 @@
  },
  "DS-14": {
   "retained_arr": [
-   360000,
-   360000
+   540000,
+   540000
   ],
   "churn_month": {
    "today": 0.03,
-   "with_tool": 0.02
+   "reduction": 0.015,
+   "note": "reduction indicative"
   },
-  "saved": "~12/yr x A$2,500 x 12",
-  "basis": "Austin's estimate and target (10 Nov); client board consistent",
+  "saved": "~1.5% of 101 clients a month ≈ 18/yr x A$2,500 x 12",
+  "basis": "Indicative (Austin, 11 Nov); client board (101 clients; 10 contracts ended 31 Aug–17 Oct, avg A$2,500)",
   "note": "Capacity-capped: kept clients reduce replacement wins needed; not added to capacity"
  },
  "DS-15": {
@@ -253,8 +254,8 @@
    ]
   },
   "retained_arr": [
-   360000,
-   360000
+   540000,
+   540000
   ],
   "recovered_upto": [
    10000,
@@ -262,5 +263,6 @@
   ],
   "retained_note": "Not added to capacity totals (capacity-capped business)"
  },
- "_labels": "70-80% check removal = estimate/target; proposals 6-8 conservative; A$80/hr per Joe"
+ "_labels": "70-80% check removal = estimate/target; proposals 6-8 conservative; A$80/hr per Joe",
+ "note_11nov": "Consolidated builds, prices and dollar values (11 Nov): see builds/README.md and builds/builds.json."
 }

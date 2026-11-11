@@ -1,9 +1,11 @@
 # Value by bundle
 
-Mirror of the Notion page "Value by bundle" (10 Nov 2026). Source of truth is Notion; numbers are recorded in [pricing/value_model.json](pricing/value_model.json).
+Mirror of the Notion page "Value by bundle" (10 Nov 2026, summary updated 11 Nov). Source of truth is Notion; numbers are recorded in [pricing/value_model.json](pricing/value_model.json).
 
 > What each bundle is worth – **time saved**, **capacity unlocked** (extra MRR the same team could manage without hiring) and the value that can't be counted – with **how it works**, the **evidence** behind it and the **basis** of every number. Based on Aperitif's client board (10 Nov, live clients only), the interviews and Austin's inputs, and checked by two independent reviews. Full detail sits in each solution's **Value** section on the Distilled Solutions page in Notion.
 
+
+> **Updated 11 November.** The 32 solutions are now consolidated into 18 builds, and the value has been re-checked with one method. The current figures – including a dollar value and intangibles for every build – are in [builds/README.md](builds/README.md). The summary below is updated; the per-solution tables further down keep the original research detail (DS-01 now uses Windsor.ai rather than Adpulse).
 
 > **Basis labels:** 📊 client board data · 🗣️ interview evidence · 👤 Austin / leadership input · 🔶 assumption or estimate · 💡 new capability or idea – value described, not measured
 
@@ -13,16 +15,16 @@ Mirror of the Notion page "Value by bundle" (10 Nov 2026). Source of truth is No
 
 | Bundle | Time saved / month | Capacity unlocked / year | ≈ Extra clients | Other value |
 | --- | --- | --- | --- | --- |
-| PPC performance | \~56–64 h | **\~A\$186K–213K** | 5–6 PPC | A\$10K overspend risk removed |
+| PPC performance | \~51–58 h | **\~A\$187K–213K** | 5–6 PPC | A\$10K overspend risk removed |
 | SEO performance | \~24–50 h | **\~A\$123K–260K** | 3–7 SEO | Drops caught the day they happen |
-| Delivery & reporting | \~30–44 h | **\~A\$69K–104K** | 1.5–2 | Clear briefs; more words written |
-| Client lifecycle | \~10–22 h | **\~A\$51K–113K** | 1–3 SEO | Teams meet to clarify, not to learn |
-| AI Business Brain | \~6–9 h | **\~A\$26K–39K** | <1 | **Churn 3% → 2% a month: \~12 clients (\~A\$360K/yr) kept**; foundation for the rest |
-| Link-building CRM | \~23–41 h | 11–21 more links a month | – | Up to \~A\$10K–16K/yr recovered |
-| Team productivity | – | – | – | Nothing missed; clearer focus |
+| Delivery & reporting | \~34–56 h | **\~A\$69K–104K** | 2–3 | Clear briefs; more words written (\~A\$12K–23K/yr of content time; \~A\$6K–8K of proposal time) |
+| Client lifecycle | \~21–41 h | **\~A\$88K–177K** | 2–5 | SEO and paid onboarding; teams meet to clarify, not to learn |
+| AI Business Brain | \~6–9 h | **\~A\$26K–39K** | <1 | **Churn reduced \~1.5% a month (indicative): \~18 clients (\~A\$540K/yr) kept**; foundation for the rest |
+| Link-building system | \~23–42 h | 11–21 more links a month | – | \~A\$22K–40K/yr of team time + up to \~A\$10K–16K/yr recovered |
+| Team productivity | \~16 h | – | – | \~A\$15K/yr of one specialist's time; nothing missed; clearer focus |
 | Market intelligence | – | – | – | Ideas and a stronger service offering |
-| Standalone | – | – | – | New service offering and capability gain |
-| **Total** | **\~149–231 h (≈ A\$143K–221K/yr)** | **\~A\$0.46M–0.73M** | **\~11–18 clients** | \~A\$360K/yr kept (not added – see below) + up to A\$10K–16K recovered |
+| Standalone | – | – | – | Landing pages: \~A\$18K–72K/yr new revenue (A\$300–600 a page × 5–10 a month, assumed) |
+| **Total** | **\~175–272 h** | **\~A\$0.49M–0.79M** | **\~13–21 clients** | Total dollar value \~A\$1.12M–1.51M/yr: capacity and time A\$577K–968K + \~A\$540K/yr kept (indicative) |
 
 ## What it means for DLER
 
@@ -39,7 +41,7 @@ That's roughly 0.8–1.3 account managers' worth of headroom without hiring.
 ## How to read the numbers
 
 - **Time and capacity are the same hours counted two ways – read them as either/or, never add them.** Time is costed at A\$80/hr (Joe's figure); capacity is what the same hours could carry if they go into managing more clients.
-- **Kept clients aren't added to capacity.** Aperitif is capped by team capacity, so the \~12 clients a year kept by DS-14 mean \~12 fewer replacement wins and onboardings are needed – the business reaches its new ceiling sooner rather than above it.
+- **Kept clients aren't added to capacity.** Aperitif is capped by team capacity, so the \~18 clients a year kept by DS-14 mean \~18 fewer replacement wins and onboardings are needed – the business reaches its new ceiling sooner rather than above it.
 - **Capacity is headroom, not guaranteed revenue.** It needs sales to fill it, and links and content to scale with it. It covers account-management time only.
 - **Estimates, not timesheets.** Aperitif doesn't keep timesheets, so time figures are task counts from the client board × the time per task the team described. The share of checks removed by alerts (70–80%) is the target, not a measured figure; proposal volume is conservative.
 - **Method:** hours freed ÷ \~130 productive hours a month × MRR managed per account manager (PPC \~A\$39.7K, SEO \~A\$55.6K, blended \~A\$46.8K; 5 PPC and 4 SEO managers per org chart). Conservative view (recurring account-management overhead only): \~A\$0.40M–0.62M a year.
@@ -104,7 +106,7 @@ That's roughly 0.8–1.3 account managers' worth of headroom without hiring.
 | Solution | How it does it | Value | Evidence | Basis |
 | --- | --- | --- | --- | --- |
 | **DS-04** Client brain | Connectors pull call transcripts, emails, Slack, HubSpot, Monday and the work itself into one record per client; the team asks it questions in Slack and gets a prep pack before every meeting, with sources cited. | **6–9 h/mo** · **A\$26K–39K** capacity; the foundation for DS-03, 05, 14, 27, 28 | Shrishti Dokwal (SD-PP05): “for a half an hour call, I'm basically spending about one…” · P-14, P-04, P-27 | 📊 31 monthly meetings + Tier 2 quarterly · 👤 15–20 min prep → 5 min |
-| **DS-14** Client health & growth | The client brain watches each client's signals – tone, response times, results, approvals, contract dates – scores risk and growth, and alerts the account manager, department lead and Julia with the evidence and a next step. | **Churn 3% → 2% a month: \~12 clients, \~A\$360K/yr kept** | Julia Van Der Linden (KO-PP06): “you can just recognise it based on their behaviour. Asking to…” · P-31, P-22 | 📊 10 clients ended 31 Aug–17 Oct, avg \~A\$2,500 · 👤 3% churn today, 2% with early warning (Austin's estimate and target) |
+| **DS-14** Client health & growth | The client brain watches each client's signals – tone, response times, results, approvals, contract dates – scores risk and growth, and alerts the account manager, department lead and Julia with the evidence and a next step. | **Churn reduced \~1.5% a month (indicative): \~18 clients, \~A\$540K/yr kept** | Julia Van Der Linden (KO-PP06): “you can just recognise it based on their behaviour. Asking to…” · P-31, P-22 | 📊 10 clients ended 31 Aug–17 Oct, avg \~A\$2,500 · 👤 \~3% churn today (Austin's estimate) · 🔶 \~1.5% a month reduction, indicative – 1.5% of 101 clients ≈ 1.5 a month |
 | **DS-02** AI playbook | One shared playbook – the AI data rule, approved tools, prompts, skills and SOPs – that anyone can ask in Slack, with company Claude seats so nobody uses a personal account. | Fewer repeat questions; lets the other AI solutions run safely | Diya Manoj (DM-PP12): “I'm not sure how much it is okay to have the…” · P-40, P-44 | 💡 foundation – not measured |
 | **DS-15** Business Brain | A company-level layer over the client brain: leadership asks anything about the business in Slack and gets a weekly pulse; Joe's OpenClaw agents run from here. | Better visibility for leadership | Julia Van Der Linden (KO-PP15): “No. We need a wiki badly.” · P-12, P-13, P-25 | 💡 visibility – not measured |
 | **DS-10** Systems register | A register of every automation, bot and tool – what it does, who owns it, how to fix it – kept up to date as part of every build. | No reliance on one person | Sid Bali (SB-PP11): “But if I'm not there, who's going to do it? It…” · P-15, P-39 | 💡 risk reduction – not measured |

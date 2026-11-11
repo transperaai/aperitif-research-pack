@@ -6,6 +6,7 @@ It traces every recommendation back to what people said in interviews: transcrip
 
 ## Contents
 
+- [Builds and pricing](builds/README.md) – **current (11 Nov):** the 32 solutions consolidated into 18 builds, with prices, maintenance, running costs, dollar value and start order
 - [Value by bundle](VALUE-BY-BUNDLE.md) – time saved, capacity, DLER, evidence and basis for every solution
 - [How everything connects](#how-everything-connects)
 - [How the solutions connect](#how-the-solutions-connect)
@@ -75,6 +76,7 @@ flowchart LR
 
 | Folder | What is in it |
 | --- | --- |
+| [builds/](builds/README.md) | **Current (11 Nov):** 18 consolidated builds – prices, maintenance, OpEx, dollar value, phases – plus `builds.csv` and `builds.json` |
 | [solutions/](solutions/README.md) | One file per solution DS-01..DS-33, with front matter and the one-pager; index grouped by bundle |
 | [problems/](problems/README.md) | One file per problem P-01..P-48: Austin's call, status, solutions, pain points with quotes, root cause |
 | [pain-points/](pain-points/README.md) | All 243 pain points grouped by interview, plus `pain-points.csv` |
@@ -118,7 +120,7 @@ You are reading a structured evidence base. Use it like this.
 **Rules:**
 
 - Cite IDs for every claim (e.g. "DS-06 fixes P-16; evidence SB-PP04, stated").
-- Do not treat assumptions as facts. Value figures (time saved, capacity unlocked, retained, recovered) come only from VALUE-BY-BUNDLE.md, which is authoritative and has a basis label on every number – do not invent any, and never add time and capacity together. Any cost-of-inactivity (COI) figure elsewhere is superseded. Build prices are in each solution file.
+- Do not treat assumptions as facts. Current prices, maintenance, running costs and dollar values come from builds/README.md (11 Nov, 18 consolidated builds); the research basis behind each value is in VALUE-BY-BUNDLE.md. Do not invent figures, and never add time and capacity together. Prices in individual solution files and any cost-of-inactivity (COI) figure elsewhere are superseded.
 - Austin's calls are decisions, not evidence. A *Not in proposal* problem stays out even if a solution "also helps".
 - Where sources conflict, check `synthesis/contradictions.md` and `method/gaps-and-issues.md` before stating a fact.
 - Merge outputs (Stage 1–3, 6 Nov) predate Austin's decisions; the ledger and solution files are current.
