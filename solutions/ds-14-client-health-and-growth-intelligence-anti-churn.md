@@ -3,7 +3,7 @@ id: DS-14
 title: "Client health & growth intelligence: anti-churn and expansion tracking and alerting, with escalation and delegation rules (Part B, from DS-13)"
 team: "account managers and leadership"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – churn basis to confirm; priced"
+status: "Recommended – build 4, Client Retention and Growth AI"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-31 (full)", "O-23 (opportunities/upsell part)", "O-21 (Part B (merged from DS-13))"]
@@ -26,7 +26,7 @@ value_retained_aud_per_year: [540000, 540000]
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | account managers and leadership *(inferred)* |
-| Status | Decided – churn basis to confirm; priced |
+| Status | Recommended – build 4, Client Retention and Growth AI |
 | Source type | mixed – Austin addition: contact personality profiling and self-learning |
 | Opportunities | [O-31](../opportunities/README.md#o-31) (full), [O-23](../opportunities/README.md#o-23) (opportunities/upsell part), [O-21](../opportunities/README.md#o-21) (Part B (merged from DS-13)) |
 | Earlier ideas | – |
@@ -43,7 +43,7 @@ value_retained_aud_per_year: [540000, 540000]
 
 ## Decision
 
-**Decision (9 Nov):** a **proactive system** that tracks every client's words and sentiment, builds a picture of each contact's **personality type**, watches for **signals of churn** and **signals of room to cross-sell or expand**, and alerts the right people. It learns from outcomes, so it **gets smarter over time** – the aim is to minimise churn and maximise account growth.
+**Decision:** a **proactive system** that tracks every client's words and sentiment, builds a picture of each contact's **personality type**, watches for **signals of churn** and **signals of room to cross-sell or expand**, and alerts the right people. It learns from outcomes, so it **gets smarter over time** – the aim is to minimise churn and maximise account growth.
 
 ## How it works
 
@@ -119,7 +119,7 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - "Gets smarter" needs outcomes logged for every alert (kept / churned / upsold); without that, it can't learn.
 - Signals are suggestions; people still own the escalation ([O-31](../opportunities/README.md#o-31): "Humans keep the escalation pipeline").
 
-## Decided (9 Nov)
+## Decided
 
 - **Who gets alerts:** the account owner, the **department lead and Julia at every risk level**. Julia's alerts can be **toggled on and off**; she wants them on for now. ([DS-13](ds-13-merged-into-ds-14.md)'s aim to move escalations to department leads still stands – Julia sees alerts, leads act first.)
 - **Churn basis:** \~4% a month today, brought down to \~2.5% – Austin's estimate and target. The client board (10 contracts ended 31 Aug–17 Oct 2026, average \~A\$2,500) is consistent with it.

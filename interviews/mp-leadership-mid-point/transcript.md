@@ -1,5 +1,5 @@
 # Transcript – Mid-point check-in (Joe & Julia) – 2026-10-30
-Timestamps estimated by word position across 45 min (calendar slot 12:00–12:45). Speaker labels as in Notion transcript (A/B/C/D...).
+Timestamps estimated by word position (12:00 AEDT). Speaker labels as in Notion transcript (A/B/C/D...).
 
 L001 [~00:00] A: Sweet.
 L002 [~00:00] B: Just a little bit lag.

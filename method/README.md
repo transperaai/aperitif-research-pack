@@ -8,8 +8,8 @@
 4. **Synthesis.** The 14 extractions were combined in stages: Stage 1 clustered 243 pain points into 39 clusters and 8 root causes and logged contradictions; Stage 2 merged the per-interview ideas into 35 opportunities with hours saved (assumed) and rank; Stage 3 wrote the findings; Stage 4 (8 Nov) re-read all transcripts for culture and strengths. See [../synthesis/](../synthesis/README.md).
 5. **Problems and decisions.** The clusters became 48 problems. Each problem got a decision (Solve now / Solve later / Not in proposal / Reject), each pain point an Agree/Disagree check, and each opportunity and earlier idea a call (Keep / Change / Drop).
 6. **Solutions.** The kept opportunities were worked into one-page solutions DS-01..DS-33 (vision, future state, KPIs, value, assumptions). Zach Chamberlain's written "AI suggestions" doc was used as a written source (WS-ZC-01).
-7. **Builds.** On 11 Nov the 32 solutions were consolidated into 18 builds in 9 bundles, with one price, one maintenance fee and one value method per build ([../builds/README.md](../builds/README.md)).
-8. **Traceability and checks.** Every item is traced from pain point to solution, with status and reason recorded on each problem, pain point and opportunity. An independent check on 9 Nov compared the quotes cited in solutions DS-01 to DS-21 word for word against the transcripts: all 66 matched.
+7. **Builds.** The 32 solutions are delivered as 18 builds in 9 bundles, with one price, one maintenance fee and one value method per build ([../builds/README.md](../builds/README.md)).
+8. **Traceability and checks.** Every item is traced from pain point to solution, with status and reason recorded on each problem, pain point and opportunity. An independent check compared the quotes cited in solutions DS-01 to DS-21 word for word against the transcripts: all 66 matched.
 
 ## Conventions
 

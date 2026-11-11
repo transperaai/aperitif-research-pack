@@ -2,8 +2,8 @@
 id: DS-07
 title: "Link watchdog agent: monitors every paid link"
 team: "link building"  # inferred: the page gives no "Team:" line
-bundle: "Link-building CRM"
-status: "Decided – priced"
+bundle: "Link-building system"
+status: "Recommended – build 5, Link-building system (with DS-11, DS-12, DS-31)"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-07 (full)"]
@@ -24,9 +24,9 @@ value_recovered_aud_per_year_up_to: [10000, 16000]
 
 | | |
 | --- | --- |
-| Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
+| Bundle | [Link-building system](README.md#bundle-link-building-system) |
 | Team | link building *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 5, Link-building system (with DS-11, DS-12, DS-31) |
 | Source type | mixed – Austin addition: Jev AI as tool option; publisher emails that learn from sent edits |
 | Opportunities | [O-07](../opportunities/README.md#o-07) (full) |
 | Earlier ideas | – |
@@ -39,11 +39,11 @@ value_recovered_aud_per_year_up_to: [10000, 16000]
 
 ## Vision
 
-> **Make sure every paid link stays up, and track the reliability (rep) rate of each provider** – how often their links drop – so the team keeps buying from publishers that hold up. Everything else as written (weekly checks, drop alerts, templated publisher emails that learn from edits).
+> **Make sure every paid link stays up, and track the reliability (rep) rate of each provider** – how often their links drop – so the team keeps buying from publishers that hold up. It also covers weekly checks, drop alerts and templated publisher emails that learn from edits.
 
 ## Decision
 
-**Decision (9 Nov):** an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider **link-building workflow CRM**. Tool options: **Jev AI** (no output tokens needed, so cheap to run) or another automation method.
+**Decision:** an agent that keeps an eye on every paid link. It monitors the publisher websites for changes and checks that each link still meets the requirements: live, not taken down, and whatever else was agreed. It connects to a wider **link-building workflow CRM**. Tool options: **Jev AI** (no output tokens needed, so cheap to run) or another automation method.
 
 ## How it works
 
@@ -58,7 +58,7 @@ value_recovered_aud_per_year_up_to: [10000, 16000]
 ## Opportunities it covers
 
 - **[O-07](../opportunities/README.md#o-07)** Automated live-link checks with publisher replacement claims – rank 7, priority 80, quick win, effort M
-- Connects to **[O-18](../opportunities/README.md#o-18)** One link record (order template, auto-sync, invoice run), which is the CRM side – now its own solution, [DS-11](ds-11-link-building-workflow-crm.md) (link-building CRM).
+- Connects to **[O-18](../opportunities/README.md#o-18)** One link record (order template, auto-sync, invoice run), which is the CRM side – its own solution, [DS-11](ds-11-link-building-workflow-crm.md) (link-building CRM).
 - Austin's earlier idea: a *link monitor* (offered at kick-off).
 
 ## Problems it fixes and the evidence
@@ -99,7 +99,7 @@ About **100 links stopped working over \~10 months** (Karl) – roughly **10 a m
 
 **Goals:** trust · good performance · retention
 
-*Inputs from Austin (10 Nov): lost links are refunded or put back up by the publisher once noticed.*
+*Inputs from Austin: lost links are refunded or put back up by the publisher once noticed.*
 
 ## Pricing
 
@@ -110,11 +110,11 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - The dead-link figure comes from one one-off report (\~100 over \~10 months) – the real rate may differ.
 - Needs one clean link list with URLs and requirements, so it depends on the CRM / one link record ([O-18](../opportunities/README.md#o-18)).
 - Publisher terms must allow replacement claims or refunds for the money to be recovered.
-- Jev AI's fit (scale, scheduling, change detection) to be confirmed.
+- Jev AI's fit (scale, scheduling, change detection) is checked at build.
 
-## Decided (9 Nov)
+## Decided
 
 - **When a link drops:** the team is alerted and asked whether to email the publisher. The system drafts the email from templates, the employee tailors it, and the system sends it. It learns from sent emails to cut rework over time.
 - **Check frequency:** weekly to start; the cadence is adjustable.
-- **The link-building CRM is its own solution** (with [O-18](../opportunities/README.md#o-18)), covered when we reach it. The watchdog reads its link list from the CRM.
-- Tool (Jev AI or another automation method) is confirmed at build; price is in [Builds and pricing](../builds/README.md).
+- **The link-building CRM is its own solution** ([DS-11](ds-11-link-building-workflow-crm.md), with [O-18](../opportunities/README.md#o-18)); both are part of build 5, the link-building system. The watchdog reads its link list from the CRM.
+- Tool (Jev AI or another automation method) is chosen at build; price is in [Builds and pricing](../builds/README.md).

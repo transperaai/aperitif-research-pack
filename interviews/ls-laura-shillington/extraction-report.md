@@ -1,5 +1,5 @@
 # Part A – Transcript extraction: Laura Shillington (SEO Director)
-- **Timestamps:** the transcript has no timestamps and no stated length. Length is estimated from word count: 3,590 words ÷ ~180 words per minute ≈ 20 min; the file is a cleaned transcript (filler removed), so the recording ran longer. Estimated length **20–30 min**. Every timestamp is written `~mm:ss (L###)`, placed by word position assuming a 25-minute midpoint, so allow ±20% (about ±5 min by the end). L### is the exact utterance number and is the reliable anchor.
+- **Timestamps:** the transcript has no timestamps; the file is a cleaned transcript (filler removed). Every timestamp is written `~mm:ss (L###)`, placed by word position, so allow ±20%. L### is the exact utterance number and is the reliable anchor.
 - **Speakers:** two speakers, Laura and Austin, taken from the file's speaker labels. 103 utterances (L001–L103); Austin spoke about 34% of the words. The file header says the source had no speaker labels; the labels in the file were used as given.
 - **Name and term corrections (transcription):** "Carl" → Karl (Karl Zaharopoulos, Senior SEO Manager & Link-building Lead) at L030, L044, L066, L076, L088, L092 and L100; "Agency Analytics" → AgencyAnalytics; "Sid and Spencer" → Sid Bali and Spencer Potts (tech team); "Sarah" → Sarah Julian (Content Manager). "Grace Cellar [unclear]" (L005) left as heard and flagged. "OMG" (Laura's previous agency) and "DDG" (Austin's former workplace) kept as said.
 - **Name corrections:** "Carl" = Karl. The manager who resigned last week with 19 clients is Nadiya Hisham per the context pack (Laura did not name her).
@@ -9,7 +9,7 @@
 |---|---|
 | Interviewee | Laura Shillington |
 | Role / team | SEO Director, Organic |
-| Date / length | Wed 28 Oct 2026; 3,590 words (cleaned). Length estimated 20–30 min (not stated). Evidence Log row EV-3 |
+| Date | Wed 28 Oct 2026; 3,590 words (cleaned). Evidence Log row EV-3 |
 | Clients managed | 12 own clients (3 enterprise); team members carry 9–19 each (L009, L013, L088). One team manager with 19 clients resigned last week: Nadiya Hisham per context pack (L013). |
 | Services | SEO strategy and roadmap, technical audit, content briefs and delivery, link building, monthly and 6-month reviews |
 | Reports to | Julia Van Der Linden, Head of Client Services (context pack; not discussed) |

@@ -3,7 +3,7 @@ id: DS-10
 title: "Systems register and break-fix runbook (everything built, who owns it, what to do when it breaks)"
 team: "leadership / whoever builds tools"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – priced"
+status: "Recommended – not a separate build; ships with every build"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-16 (full)"]
@@ -25,7 +25,7 @@ value: "No reliance on one person"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | leadership / whoever builds tools *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – not a separate build; ships with every build |
 | Source type | evidence-backed |
 | Opportunities | [O-16](../opportunities/README.md#o-16) (full) |
 | Earlier ideas | – |
@@ -41,7 +41,7 @@ value: "No reliance on one person"
 
 ## Decision
 
-**Decision (9 Nov):** adopt [O-16](../opportunities/README.md#o-16). In Austin's words, it's **one place with the information for everything that's built and what to do if something breaks**. It sits alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)) and covers every solution in this pack as it goes live.
+**Decision:** adopt [O-16](../opportunities/README.md#o-16). In Austin's words, it's **one place with the information for everything that's built and what to do if something breaks**. It sits alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)) and covers every solution in this pack as it goes live.
 
 ## What goes in it
 
@@ -98,6 +98,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - The register is kept up to date only if adding an entry is part of "done" for every new build.
 - The second admin has capacity to be trained.
 
-## Decided (9 Nov)
+## Decided
 
 - One place for everything built: what it is, who owns it, and what to do when it breaks. Lives alongside the AI playbook ([DS-02](ds-02-ai-playbook-repository.md)).

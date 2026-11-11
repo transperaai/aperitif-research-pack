@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Sophie Hesseborn - Workflow & Process Interview", 29 Oct 2026, 11:30 am (Melbourne). Full transcript retrieved (666 utterances, ends at sign-off "Bye.") – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps and the page gives no duration. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~60 minutes (8,168 words ≈ 60 min at ~135 words/min; Austin says "in the remaining 15 minutes or so" at L423 and "We're just finished right on time" at L661). Treat as ±2 min.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position. Treat as ±2 min.
 - **Speakers:** the diariser labelled Austin as A, F, H, I and J and split Sophie across B, C, D, E, G and "unknown". Labels were assigned by content; a few G lines (e.g. L232, L246) are ambiguous. All non-Austin lines are treated as Sophie.
 - **Live Figma process mapping:** ran from ~43:00 to ~53:46 (L423–L579). The Figma board itself was not available to this extraction; the processes mapped are reconstructed from what was said while mapping (section 2, "Processes mapped live in Figma"). Austin will send Sophie the completed flow in ~2 weeks (L661).
 - **Name and term corrections (transcription):** "Carl" → Karl (L018) · "Wendley" → Wendlley (L350, L585) · "Patty" → Tati (Tatiana Stinson, L481) · "the girls" → Michaela and Tati (L343) · "Metis" → Meta (L241) · "crow" → CRO (L589) · "whips" → WIPs (L552) · "e-compliance" → e-commerce (L110) · "declined comms" → client comms (L326) · "Agents Analytics / Art in Aging" → AgencyAnalytics (L562, L564) · "breathe" → brief (L460) · "to my sessions" → optimisations (L458) · "add cards" → add-to-carts (L302) · "DDG / DGG" → DDEG (assumed, L268–L270). Unresolved: "Alex Mahim" (L388, Austin – probably garbled filler).
@@ -18,7 +18,7 @@
 | Interviewee | Sophie Hesseborn |
 | Role | Senior Performance Marketing Manager |
 | Team | Performance (paid media) |
-| Date / length | 29 Oct 2026 · ~60 min (estimated – no duration on the page) |
+| Date | 29 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | ~12 clients across three tiers – one Tier 1, one "almost Tier 1" Tier 2, rest Tier 2/3 (stated, L316, L320). Fifth month at Aperitif (L070) |
 | Channels / services | Google Ads, Meta, Bing/Microsoft, ChatGPT ads, TikTok, Pinterest (per client relevance, L098); onboarding audit and strategy, client comms and WIPs, briefing and QA of implementers, some campaign builds, pacing, optimisation, AgencyAnalytics reporting |

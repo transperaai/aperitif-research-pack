@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Diya Manoj – Workflow & Process Interview", 30 Oct 2026, 11:00 am (Melbourne) booking (00:00–01:00 UTC). Full transcript retrieved (668 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~45 minutes (60-minute booking, Austin closed "15 minutes early", L655).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser split Austin across A, G and H (G: "Can you see my screen?", L323; H: "So let's just say they've approved", L451) and Diya across B, C, D, E, F and I (mostly C and D; E/F/I are back-channel). All non-Austin lines are treated as Diya. A few one-word D lines could be either speaker; none are relied on.
 - **Name and term corrections (transcription):** "cloud" → Claude · "Esten" → Austin · "Wenly" → Wendlley (Simoes) · "Katty and Mickey / Patty / tattooing / Mikhail / Nikaila / Mikaela / Ochaty" → Tati (Tatiana Stinson, Performance Marketing Coordinator) and Michaela (Cruz, Performance Marketing Specialist) · "Tina" → the Tina Slack agent bot (OpenClaw workspace), not Tatiana · "Ruby" → Rubii (Diya spelled it R-U-B-I-I, L143) · "monthly bits / vips" → monthly WIPs · "Facing / basing / pasting" → pacing · "ROS / ROAs" → ROAS · "Convertions" → conversions · "Monday" → Monday.com · "Agency Analytics" → AgencyAnalytics · "Dio / Dia" → Diya.
 - Hours are costed at **$80/hr internal labour cost**. Process totals are Diya's time only: the specialists' build time (Michaela / Tati) was not discussed and is not costed.
@@ -16,7 +16,7 @@
 | Interviewee | Diya Manoj |
 | Role | Performance Marketing Manager (media buyer) |
 | Team | Performance (paid media) |
-| Date / length | 30 Oct 2026 · ~45 min (booked 60) |
+| Date | 30 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | ~20, mostly Tier 2 and Tier 3 (stated, L072, L344) |
 | Channels / services | Google Ads and Meta only at Aperitif (L550); strategy, budget confirmation, pacing, optimisation, reporting, monthly WIPs, new-client audit and strategy, landing-page and creative brief review |

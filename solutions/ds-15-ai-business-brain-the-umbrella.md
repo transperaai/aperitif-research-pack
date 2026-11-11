@@ -3,7 +3,7 @@ id: DS-15
 title: "AI Business Brain – the umbrella (client brains, smart SOPs, one place to ask)"
 team: "everyone"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – framing; priced"
+status: "Recommended – build 3, Business brain"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-27 (company layer)"]
@@ -25,7 +25,7 @@ value: "Better visibility for leadership"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | everyone *(inferred)* |
-| Status | Decided – framing; priced |
+| Status | Recommended – build 3, Business brain |
 | Source type | mixed – Austin addition: umbrella framing grouping DS-02, DS-04, DS-10, DS-14 |
 | Opportunities | [O-27](../opportunities/README.md#o-27) (company layer) |
 | Earlier ideas | [EI-02](../opportunities/README.md#ei-02) AI Business Brain, [EI-20](../opportunities/README.md#ei-20) Team wiki – fast answers, self-updating, fits into workflows |
@@ -39,7 +39,7 @@ value: "Better visibility for leadership"
 
 > **Everything in the business can be seen from here – without overdoing it for the sake of it.** It connects what already exists (client brains, smart SOPs, help docs, client health) rather than adding another system people have to maintain.
 >
-> **Also in the vision (agreed 9 Nov):**
+> **Also in the vision:**
 >
 > 1. **One front door** – @oracle in Slack plus one simple home view in the browser; no new app to learn.
 > 2. **One-page weekly leadership pulse** – clients at risk and wins ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)), overdue work ([DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md)), performance flags ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-22](ds-22-seo-automated-monday-client-performance-check.md), [DS-29](ds-29-ppc-automated-monday-client-performance-check.md)), capacity signals.
@@ -50,7 +50,7 @@ value: "Better visibility for leadership"
 
 ## Decision
 
-**Decision (9 Nov):** the AI Business Brain is the **umbrella**. It has solutions under it – the client brain, **smart SOPs people can query**, and similar – rather than being one separate tool.
+**Decision:** the AI Business Brain is the **umbrella**. It has solutions under it – the client brain, **smart SOPs people can query**, and similar – rather than being one separate tool.
 
 ## What sits under it
 
@@ -112,6 +112,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - Needs the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)) before client data is connected.
 - The existing Slack assistant (OpenClaw) can be reused or replaced – to confirm.
 
-## Decided (9 Nov)
+## Decided
 
 - The AI Business Brain is the umbrella; client brains, smart SOPs and the other parts are solutions under it.

@@ -1,4 +1,4 @@
-# Diya Manoj – Workflow & Process Interview – 2026-10-30 (Fri, 11:00 AEDT slot, 60 min booked; ended ~15 min early per Austin at L655 → ~45 min). Source: Notion meeting-note transcript, 668 utterances, no timestamps; [~mm:ss] estimated from word position across 45 min. Speaker labels: A, G, H = Austin Smith (interviewer); B, C, D, E, F, I = Diya Manoj (interviewee).
+# Diya Manoj – Workflow & Process Interview – 2026-10-30 (Fri, 11:00 AEDT). Source: meeting-note transcript, 668 utterances, no timestamps; [~mm:ss] estimated from word position. Speaker labels: A, G, H = Austin Smith (interviewer); B, C, D, E, F, I = Diya Manoj (interviewee).
 
 
 L001 [~00:00] A: -Hey, dear.

@@ -2,8 +2,8 @@
 id: DS-29
 title: "PPC: automated Monday client performance check (Google Ads, Meta and other channels)"
 team: "PPC"
-bundle: "PPC performance"
-status: "Added – priced"
+bundle: "Delivery and reporting"
+status: "Recommended – build 13, Client comms (with DS-28)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-12 (paid part (weekly check))"]
@@ -23,9 +23,9 @@ value: "New standard: clients hear from Aperitif before they ask (trust, retenti
 
 | | |
 | --- | --- |
-| Bundle | [PPC performance](README.md#bundle-ppc-performance) |
+| Bundle | [Delivery and reporting](README.md#bundle-delivery-and-reporting) |
 | Team | PPC |
-| Status | Added – priced |
+| Status | Recommended – build 13, Client comms (with DS-28) |
 | Source type | evidence-backed – DS-22's PPC twin; DM-PP02, MC-PP08, MC-PP18, SH-PP11/12/15 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (paid part (weekly check)) |
 | Earlier ideas | [EI-15](../opportunities/README.md#ei-15) Proactive PPC monitor and anomaly detector |
@@ -39,11 +39,11 @@ value: "New standard: clients hear from Aperitif before they ask (trust, retenti
 
 > **Same as the SEO set: proactive performance intel comes to the PPC team**, so nobody has to go into every account – a steady flow of intel to act on and report to the client from.
 >
-> **How it's delivered:** from **Adpulse** if chosen for [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (its portfolio dashboard and custom monitors), or a **light version** built on the modernised pacing bot ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) smaller option) if Adpulse isn't bought.
+> **How it's delivered:** as part of build 13, **Client comms** (with [DS-28](ds-28-client-comms-assistant-monthly-updates-and-expectation.md)). It runs on the PPC pacing and performance assistant (build 1, [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)) – the same Windsor.ai data from every channel, the same alert engine – and on the client brain ([DS-04](ds-04-ai-client-brain.md)), so each weekly summary feeds the client updates the manager approves.
 
 ## Decision
 
-**Team:** PPC. **Decision (9 Nov):** the PPC version of [DS-22](ds-22-seo-automated-monday-client-performance-check.md) – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
+**Team:** PPC. **Decision:** the PPC version of [DS-22](ds-22-seo-automated-monday-client-performance-check.md) – every Monday, an automated performance check for each paid client, so managers read a summary instead of opening every account.
 
 ## How it is different from DS-01 and DS-27
 
@@ -53,7 +53,7 @@ value: "New standard: clients hear from Aperitif before they ask (trust, retenti
 
 ## How it works
 
-1. Every Monday it pulls each client's figures from Google Ads, Meta, LinkedIn and the other live channels, plus GA4 conversions: spend vs pace, conversions, CPA/CPL/ROAS, CTR, frequency.
+1. Every Monday it pulls each client's figures from Google Ads, Meta, LinkedIn and the other live channels through Windsor.ai, plus GA4 conversions: spend vs pace, conversions, CPA/CPL/ROAS, CTR, frequency.
 2. It compares them with last week, last month and the client's targets.
 3. It runs the routine checks managers do by hand: tracking firing, Merchant Center / feed status, new auto-enabled platform features, disapproved ads.
 4. Each manager gets one short summary per client in Slack/Monday – what moved, what needs a look – and it's stored in the client brain ([DS-04](ds-04-ai-client-brain.md)). Wins feed the client comms assistant ([DS-28](ds-28-client-comms-assistant-monthly-updates-and-expectation.md)).
@@ -81,7 +81,7 @@ Every paid client gets a performance check every Monday automatically, including
 
 ## Value
 
-**Value: a new standard of client communication.** A weekly performance summary per client that the team can act on and report to the client from. Proactive client updates don't happen today, so this isn't time back – it's clients hearing from Aperitif before they ask, which builds trust and supports retention.
+**Value: a new standard of client communication.** A weekly performance summary per client that the team can act on and report to the client from. Proactive client updates don't happen today, so this isn't time back – it's clients hearing from Aperitif before they ask, which builds trust and supports retention. Its dollar value is counted in Client Retention and Growth AI (build 4), so it isn't counted twice.
 
 **Goals:** trust · good customer service · retention
 
@@ -91,5 +91,5 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
-- API access to every live ad account and GA4.
+- Windsor.ai (build 1) and the client brain (build 2) live, with access to every live ad account and GA4.
 - Check list (tracking, feeds, auto-enabled features) agreed with the performance director.

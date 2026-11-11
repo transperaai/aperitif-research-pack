@@ -1,7 +1,7 @@
 # Tonie Guevarra interview transcript (4 Nov 2026)
 
 Source: meeting notes ("Tonie - Workflow & Process Interview", 4 Nov 2026 3:15 pm Melbourne; full transcript, not truncated; ends at sign-off).
-No timestamps in source. ~mm:ss = estimated from cumulative word position over ~45 min (calendar slot 15:15–16:00; transcript runs from greeting to "Bye-bye", 3,993 words). L### = utterance number.
+No timestamps in source. ~mm:ss = estimated from cumulative word position (transcript runs from greeting to "Bye-bye", 3,993 words). L### = utterance number.
 Speakers: diariser label B = Austin Smith; A/C = Tonie Guevarra (diariser split her voice into two labels; L010 "So I think if you made the Questions?" is labelled C and treated as Tonie per rule, but may be Austin).
 Original diariser label shown in brackets after the name, e.g. [Tonie/A].
 

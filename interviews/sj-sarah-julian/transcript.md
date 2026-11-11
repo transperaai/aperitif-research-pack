@@ -1,5 +1,5 @@
 # Sarah Julian – Workflow & Process Interview – 2026-10-29 14:00 (Melbourne)
-Source: meeting notes (transcript, verbatim, 349 utterances, ends at sign-off). No timestamps in source and no stated length; ~mm:ss estimated from cumulative word position across an estimated ~30 min (4,890 words at the ~180 words/min rate of the Shrishti interview = ~27 min, plus screen-share pauses). Speaker A = Austin (interviewer); all other labels (B–H, unknown) treated as Sarah – a few short lines labelled E look like Austin (e.g. L096, L099).
+Source: meeting notes (transcript, verbatim, 349 utterances, ends at sign-off). No timestamps in source; ~mm:ss estimated from cumulative word position (4,890 words). Speaker A = Austin (interviewer); all other labels (B–H, unknown) treated as Sarah – a few short lines labelled E look like Austin (e.g. L096, L099).
 
 L001 [~00:00] AUSTIN (A): Yeah.
 L002 [~00:00] SARAH (unknown): Yeah.

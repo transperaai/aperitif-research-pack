@@ -3,7 +3,7 @@ id: DS-22
 title: "SEO: automated Monday client performance check (GA4, Search Console, Ahrefs)"
 team: "SEO"
 bundle: "SEO performance"
-status: "Decided – priced"
+status: "Recommended – build 8, SEO monitoring (with DS-23, DS-24)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-12 (SEO part (ZC-O03, LS-O03))"]
@@ -27,7 +27,7 @@ value_capacity_aud_per_year: [88000, 202000]
 | --- | --- |
 | Bundle | [SEO performance](README.md#bundle-seo-performance) |
 | Team | SEO |
-| Status | Decided – priced |
+| Status | Recommended – build 8, SEO monitoring (with DS-23, DS-24) |
 | Source type | evidence-backed – Also rests on Zach's written AI suggestions doc (WS-ZC-01) |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (SEO part (ZC-O03, LS-O03)) |
 | Earlier ideas | – |
@@ -43,7 +43,7 @@ value_capacity_aud_per_year: [88000, 202000]
 
 ## Decision
 
-**Team:** SEO. **Decision (9 Nov):** a separate solution for the SEO team ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
+**Team:** SEO. **Decision:** a separate solution for the SEO team ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) is the PPC team's). It automates the Monday "client performance checks" that are often skipped. Source: Zach's written AI suggestions, plus the interviews.
 
 ## How it works
 
@@ -98,7 +98,7 @@ Capacity to grow into without hiring, not guaranteed revenue.
 
 **Goals:** more MRR managed per person · good performance · good customer service
 
-*Inputs from Austin (10 Nov): 68 live SEO clients and A\$222,374 live SEO MRR (client board, paused excluded), 5–10 min weekly check per client, 4 SEO managers (org chart). Assumptions: 70–80% of checks removed; \~130 productive hours per manager per month.*
+*Inputs from Austin: 68 live SEO clients and A\$222,374 live SEO MRR (client board, paused excluded), 5–10 min weekly check per client, 4 SEO managers (org chart). Assumptions: 70–80% of checks removed; \~130 productive hours per manager per month.*
 
 ## Pricing
 

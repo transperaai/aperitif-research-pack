@@ -1,9 +1,9 @@
 ---
 id: DS-19
-title: "AI receptionist (phone; Aircall add-on or own build)"
+title: "AI receptionist (phone; Aircall add-on)"
 team: "sales / leadership (phones)"  # inferred: the page gives no "Team:" line
-bundle: "Standalone"
-status: "Decided – call director; Aircall add-on (~A$370/mo) recommended, own build as the cheaper alternative; weak interview evidence"
+bundle: "New services and standalone tools"
+status: "Recommended – build 17, AI receptionist"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -14,19 +14,19 @@ problems_also_helped: []
 problems_related_only: ["P-42"]
 pain_points_cited: ["KO-PP17", "KO-PP18"]
 pain_points_interviewer_raised_or_inferred: []
-value: "No missed leads; callers reach the right person"
+value: "No missed calls; callers reach the right person"
 ---
 
 # DS-19 · AI receptionist
 
-*AI receptionist on the phone for new leads and existing clients; decided: call director, Aircall add-on recommended, own build as alternative.*
+*Aircall's AI receptionist answers inbound calls and routes new leads to Joe and existing clients to their account manager.*
 
 | | |
 | --- | --- |
-| Bundle | [Standalone](README.md#bundle-standalone) |
+| Bundle | [New services and standalone tools](README.md#bundle-new-services-and-standalone-tools) |
 | Team | sales / leadership (phones) *(inferred)* |
-| Status | Decided – call director; Aircall add-on (\~A\$370/mo) recommended, own build as the cheaper alternative; weak interview evidence |
-| Source type | Austin addition – Earlier idea; weak evidence (KO-PP17, KO-PP18 indirect); no problem fixed; decided 9 Nov (call director; Aircall add-on recommended) |
+| Status | Recommended – build 17, AI receptionist |
+| Source type | Austin addition – Earlier idea; weak evidence (KO-PP17, KO-PP18 indirect); no problem fixed |
 | Opportunities | – |
 | Earlier ideas | [EI-03](../opportunities/README.md#ei-03) AI receptionist |
 | Fixes | none |
@@ -34,48 +34,46 @@ value: "No missed leads; callers reach the right person"
 | Related only | [P-42 Growth depends on the founder and inbound leads while AI erodes core services](../problems/p-42-growth-depends-on-the-founder-and-inbound.md) – Reject |
 | Pain points cited | [KO-PP17](../pain-points/README.md#ko-pp17), [KO-PP18](../pain-points/README.md#ko-pp18) |
 | Written source | – |
-| Value | No missed leads; callers reach the right person |
+| Value | No missed calls; callers reach the right person |
 
 ## Vision
 
-> **Just a call director.** An inbound new lead goes to Joe; an existing client goes to their account manager. Nothing more complex than that.
+> **Every inbound call reaches the right person – just a call director.** Aircall's AI receptionist answers each call, works out whether it's a new lead or an existing client, sends new leads to Joe and existing clients to their account manager, and logs the call to HubSpot or the client brain. Nothing more complex than that.
 >
-> **Options for Joe:**
->
-> - **Recommended: Aircall's AI receptionist add-on** – about **A\$370/month** for 1,000 minutes; nothing to build or maintain.
-> - **Alternative: Transpera builds a simple call director** – cheaper to run, but a build to maintain (needs a feasibility study before pricing).
+> - **Bought, not built:** Aircall's AI receptionist add-on (billed about A\$150–370 a month), set up and tuned by Transpera.
+> - **Low priority:** there's no data yet on call volumes or missed calls, so it sits last in the start order (build 17, Phase 4); revisit once call data shows missed or misrouted calls.
 
 ## Decision
 
-**Decision (9 Nov):** add the AI receptionist (Austin's earlier idea). There's no merged opportunity and **little direct interview evidence** – it goes in as Austin's recommendation.
+**Decision:** include the AI receptionist (Austin's earlier idea) as build 17, a "Reconsider" item: there's no merged opportunity and **little direct interview evidence**, so the builds above it come first.
 
 ## How it works
 
-1. Answers inbound calls (and possibly web chat) when the team is busy or after hours.
-2. Qualifies new leads – budget, service, timing – and books a call with sales, logging the lead in HubSpot.
-3. Routes existing clients to their account manager and logs the message in the client brain ([DS-04](ds-04-ai-client-brain.md)).
+1. Aircall's AI receptionist answers inbound calls, day or night.
+2. It identifies new leads and existing clients.
+3. New leads are routed to Joe with the caller's details and logged in HubSpot; existing clients are routed to their account manager and the call is logged in the client brain ([DS-04](ds-04-ai-client-brain.md)).
 
 ## Problems it fixes and the evidence
 
-- **Lead handling (indirect):** only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget ([KO-PP18](../pain-points/README.md#ko-pp18), leadership). Sales still depends on the founder ([KO-PP17](../pain-points/README.md#ko-pp17)). An AI receptionist would qualify and book leads quickly. *Note: the related problem "Growth depends on the founder and inbound leads" ([P-42](../problems/p-42-growth-depends-on-the-founder-and-inbound.md)) is not taken forward in this proposal.*
-- **Existing tool:** the context pack says the Aircall phone system reportedly already has an AI receptionist *(unverified)*.
+- **Lead handling (indirect):** only about one in ten raw leads closes, and a large share are unreachable or have the wrong budget ([KO-PP18](../pain-points/README.md#ko-pp18), leadership). Sales still depends on the founder ([KO-PP17](../pain-points/README.md#ko-pp17)). An AI receptionist makes sure every new lead reaches Joe quickly. *Note: the related problem "Growth depends on the founder and inbound leads" ([P-42](../problems/p-42-growth-depends-on-the-founder-and-inbound.md)) is not taken forward in this proposal.*
+- **Existing tool:** Aperitif already uses Aircall for inbound calls; its AI receptionist is a paid add-on.
 
 ## Future state
 
-1. Every inbound call is answered, day or night.
-2. New leads are qualified and booked into a sales call, logged in HubSpot.
-3. Existing clients' messages reach their account manager and are logged in the client brain.
+1. Every inbound call is answered and routed in seconds.
+2. New leads reach Joe with the caller's details; existing clients reach their account manager.
+3. Every call is logged, so nothing relies on someone remembering to write it down.
 
 ## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
 | Inbound calls answered | Unknown | 100% |
-| Qualified leads booked into a sales call | Unknown | Baseline, then set |
+| Calls routed to the right person first time | Unknown | ≥ 95% |
 
 ## Value
 
-**Value: no missed leads, and callers reach the right person first time.** New leads go straight to Joe and existing clients go to their account manager, so no enquiry is lost and clients aren't passed around. No figures claimed.
+**Value: no missed calls, and callers reach the right person first time.** New leads go straight to Joe and existing clients go to their account manager, so no enquiry is lost and clients aren't passed around. Not measured – no call volumes or missed-call data.
 
 **Goals:** good customer service · trust
 
@@ -85,14 +83,12 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
-- Austin's suggestion; weak interview evidence.
+- Austin's suggestion; weak interview evidence and no call volumes.
+- Needs Aircall in use for inbound calls, and the HubSpot connection for logging.
+- Revisit once call data shows missed or misrouted calls.
 
-## Decided (9 Nov)
+## Decided
 
 - **Handles both** new leads and existing clients.
 - **Phone only.**
-- ~~Uses Aircall's built-in AI receptionist~~ **Corrected (audit, 9 Nov):** Aircall's AI receptionist is a **paid add-on** (about A\$370/month for 1,000 minutes), not built in.
-
-## Open questions
-
-- Open: whether call volumes justify the add-on.
+- **Aircall's AI receptionist add-on**, not a custom build.

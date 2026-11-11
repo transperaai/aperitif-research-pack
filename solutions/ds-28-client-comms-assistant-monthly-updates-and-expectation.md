@@ -2,8 +2,8 @@
 id: DS-28
 title: "Client comms assistant: monthly updates and expectation setting"
 team: "account managers (PPC and SEO)"
-bundle: "Delivery & reporting"
-status: "Added – priced"
+bundle: "Delivery and reporting"
+status: "Recommended – build 13, Client comms (with DS-29)"
 coverage: addressed
 source_type: "mixed"
 opportunities: []
@@ -23,9 +23,9 @@ value: "Consistent, faster client updates, saved to the brain"
 
 | | |
 | --- | --- |
-| Bundle | [Delivery & reporting](README.md#bundle-delivery-and-reporting) |
+| Bundle | [Delivery and reporting](README.md#bundle-delivery-and-reporting) |
 | Team | account managers (PPC and SEO) |
-| Status | Added – priced |
+| Status | Recommended – build 13, Client comms (with DS-29) |
 | Source type | mixed – Austin – new; SH-PP09, KO-PP20 (O-23 related) |
 | Opportunities | – |
 | Earlier ideas | – |
@@ -37,11 +37,11 @@ value: "Consistent, faster client updates, saved to the brain"
 
 ## Vision
 
-> **As written** – drafts proactive client updates through the month and pre-empts dips with expectation-setting notes, all approved by the manager before sending. **Every update sent is saved to the client brain ([DS-04](ds-04-ai-client-brain.md))**, so the end-of-month report, the quarterly review and the 6-month review ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) are easier to put together – the story of the period is already written.
+> **Clients hear from Aperitif through the month, before they have to ask.** The assistant drafts proactive client updates through the month and pre-empts dips with expectation-setting notes, all approved by the manager before sending. **Every update sent is saved to the client brain ([DS-04](ds-04-ai-client-brain.md))**, so the end-of-month report, the quarterly review and the 6-month review ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) are easier to put together – the story of the period is already written.
 
 ## Decision
 
-**Team:** account managers (PPC and SEO). **Decision (9 Nov):** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
+**Team:** account managers (PPC and SEO). **Decision:** a system that helps with client communication – it highlights updates across the month that can be sent automatically, and tempers expectations when industry movement is likely to reduce performance, so dips are pre-empted rather than explained afterwards.
 
 ## How it works
 
@@ -70,7 +70,7 @@ Clients hear from the team through the month without managers writing every upda
 
 ## Value
 
-**Value: consistent, faster client communication.** Client updates and replies are drafted in each client's tone with the latest results and context, and every message is saved to the client brain – so clients get clear, timely updates and nothing said to a client is lost. Hours aren't claimed (no figures were given).
+**Value: consistent, faster client communication.** Client updates and replies are drafted in each client's tone with the latest results and context, and every message is saved to the client brain – so clients get clear, timely updates and nothing said to a client is lost. Hours aren't claimed (no figures were given). Its value is retention, so its dollar value is counted in Client Retention and Growth AI (build 4) and not counted twice.
 
 **Problems it eliminates:** helps **P-31** Churn risk is spotted late and account teams report rather than advise
 

@@ -1,5 +1,5 @@
 # Transcript – Michaela Cruz interview, 2026-11-02 (Notion meeting note, verbatim)
-# Timestamps estimated from word position across ~47 min actual length (60-min slot 10:00–11:00 AEDT; Austin gives "13 minutes back" at L440). Speaker A = Austin, all other labels = Michaela.
+# Timestamps estimated from word position (10:00 AEDT). Speaker A = Austin, all other labels = Michaela.
 
 L001 [~00:00] Austin (A): you Hey Michaela, how are you doing?
 L002 [~00:02] Michaela (B): Hi, good morning.

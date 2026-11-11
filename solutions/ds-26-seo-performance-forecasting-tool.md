@@ -2,8 +2,8 @@
 id: DS-26
 title: "SEO: performance forecasting tool"
 team: "SEO"
-bundle: "SEO performance"
-status: "Added – priced; weak SEO evidence"
+bundle: "PPC performance"
+status: "Recommended – build 14, Forecasting (with DS-25)"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -23,9 +23,9 @@ value: "Better planning, realistic expectations"
 
 | | |
 | --- | --- |
-| Bundle | [SEO performance](README.md#bundle-seo-performance) |
+| Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | SEO |
-| Status | Added – priced; weak SEO evidence |
+| Status | Recommended – build 14, Forecasting (with DS-25) |
 | Source type | Austin addition – Austin – new; no SEO forecasting pain point raised (LS-PP16 is interviewer-raised) |
 | Opportunities | – |
 | Earlier ideas | – |
@@ -37,17 +37,16 @@ value: "Better planning, realistic expectations"
 
 ## Vision
 
-> **A forecasting simulator** – same goal as [DS-25](ds-25-ppc-performance-forecasting-tool.md), with SEO nuances: toggle inputs and simulate events and trends (seasonality, algorithm updates, demand shifts, content output) to see the impact on organic delivery. **Starting point:** talk to the SEO leads about how they forecast today and turbo-charge it.
+> **The same shared forecasting skill as [DS-25](ds-25-ppc-performance-forecasting-tool.md), for organic:** traffic and ranking scenarios from GA4, Search Console and Ahrefs, with seasonality built in, so the team plans content and links and sets client expectations against a forecast. Together with DS-25 it is build 14, Forecasting.
 
-> **Pricing:** part of the **forecasting bundle** – see [DS-25](ds-25-ppc-performance-forecasting-tool.md) (A\$3,000 build, A\$300/month for [DS-25](ds-25-ppc-performance-forecasting-tool.md) + DS-26).
 
-**Team:** SEO. **Decision (9 Nov):** the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
+**Team:** SEO. **Decision:** the SEO version – forecasts each client's organic performance from history, seasonality, search trends, economic and industry movements, and known algorithm changes.
 
 ## How it works
 
-1. Pulls each client's GA4, Search Console and Ahrefs history ([DS-22](ds-22-seo-automated-monday-client-performance-check.md)'s data).
-2. Adds seasonality, search-demand trends and industry movements ([DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md)).
-3. Forecasts traffic and conversions per client with a range, and flags expected dips (e.g. seasonal low, demand falling).
+1. The shared Claude skill pulls each client's GA4, Search Console and Ahrefs history ([DS-22](ds-22-seo-automated-monday-client-performance-check.md)'s data).
+2. It applies seasonality and the manager's assumptions.
+3. It returns low / expected / high scenarios for traffic and rankings per client, with the reasoning, and flags expected dips (e.g. seasonal low, demand falling). Forecasts are saved to the client brain and checked against actuals.
 4. Feeds reviews ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) and client expectation setting ([DS-28](ds-28-client-comms-assistant-monthly-updates-and-expectation.md)).
 
 ## Problems it fixes and the evidence

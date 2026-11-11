@@ -2,8 +2,8 @@
 id: DS-31
 title: "Proactive brand-mention tracking for backlinks"
 team: "link building / SEO"
-bundle: "Link-building CRM"
-status: "Added – priced"
+bundle: "Link-building system"
+status: "Recommended – build 5, Link-building system (with DS-11, DS-12, DS-07)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-20 (brand-mention part)"]
@@ -23,9 +23,9 @@ value: "Links won without paying a publisher"
 
 | | |
 | --- | --- |
-| Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
+| Bundle | [Link-building system](README.md#bundle-link-building-system) |
 | Team | link building / SEO |
-| Status | Added – priced |
+| Status | Recommended – build 5, Link-building system (with DS-11, DS-12, DS-07) |
 | Source type | evidence-backed – ZC-PP16 plus Zach's written AI suggestions doc (WS-ZC-01) |
 | Opportunities | [O-20](../opportunities/README.md#o-20) (brand-mention part) |
 | Earlier ideas | [EI-21](../opportunities/README.md#ei-21) Unlinked brand-mention monitoring and outreach (Tier 1) |
@@ -35,7 +35,7 @@ value: "Links won without paying a publisher"
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | Links won without paying a publisher |
 
-**Team:** link building / SEO. **Decision (9 Nov):** a solution of its own, alongside [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md).
+**Team:** link building / SEO. **Decision:** a solution of its own, alongside [DS-12](ds-12-link-supply-engine-shared-vetting-skill-client.md).
 
 ## Vision
 

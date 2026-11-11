@@ -2,8 +2,8 @@
 id: DS-21
 title: "AI creative tools to augment the team (existing tools, no build)"
 team: "PPC and creative"  # inferred: the page gives no "Team:" line
-bundle: "Standalone"
-status: "Decided – tool shortlist to trial; cost = licences"
+bundle: "New services and standalone tools"
+status: "Recommended – build 18, AI creative tools: no build, a one-month trial"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -23,9 +23,9 @@ value: "Faster creative in-house"
 
 | | |
 | --- | --- |
-| Bundle | [Standalone](README.md#bundle-standalone) |
+| Bundle | [New services and standalone tools](README.md#bundle-new-services-and-standalone-tools) |
 | Team | PPC and creative *(inferred)* |
-| Status | Decided – tool shortlist to trial; cost = licences |
+| Status | Recommended – build 18, AI creative tools: no build, a one-month trial |
 | Source type | Austin addition – Earlier idea; tool list from web research Nov 2026, not interviews |
 | Opportunities | – |
 | Earlier ideas | [EI-04](../opportunities/README.md#ei-04) AI-assisted creative production |
@@ -37,13 +37,13 @@ value: "Faster creative in-house"
 
 ## Vision
 
-> **As written:** no build – recommend existing AI creative tools (Canva AI, [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield), trialled for a month on real lead-gen clients, keeping only what saves time.
+> **No build:** recommend existing AI creative tools (Canva AI, [AdCreative.ai](http://AdCreative.ai), Creatify/HeyGen, Higgsfield), trialled for a month on real lead-gen clients, keeping only what saves time.
 
 ## Decision
 
-**Decision (9 Nov):** no build – recommend **existing AI tools** the team can use to augment creative production.
+**Decision:** no build – recommend **existing AI tools** the team can use to augment creative production.
 
-## Suggested shortlist to trial (research, Nov 2026 – verify pricing and fit before recommending)
+## Suggested shortlist to trial (research, Nov 2026)
 
 | Need | Tool | Why it fits |
 | --- | --- | --- |
@@ -60,7 +60,7 @@ value: "Faster creative in-house"
   - Outsourced creative ignores briefs: *"they'll be doing the exact opposite of what you briefed in. So you have to back and forth."* – a performance team member ([MC-PP15](../pain-points/README.md#mc-pp15)).
   - *"You can see that a lot of these tools are built for e-comm … It's not really our ICP."* – leadership ([MP-PP22](../pain-points/README.md#mp-pp22)); the team only has Canva.
   - No in-house capacity for video ([WS-PP14](../pain-points/README.md#ws-pp14)); ad-hoc launches need at least a week even when client creatives arrive on time ([SD-PP12](../pain-points/README.md#sd-pp12)).
-- A performance team member is already trialling AI creative tools (context pack) – a natural owner for the trial.
+- A performance team member is already trialling AI creative tools – a natural owner for the trial.
 
 ## Future state
 
@@ -86,9 +86,10 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
-- Prices and features from vendor and review sites, Nov 2026 – to verify.
+- Prices and features from vendor and review sites, Nov 2026; checked again before the trial starts.
+- No build: a one-month trial that can start in week 1, with the tools (about US\$70–380 a month if all are kept) paid directly by Aperitif.
 - Output quality for lead-gen and service clients is the open question; the trial decides.
 
-## Decided (9 Nov)
+## Decided
 
 - Recommend existing AI tools, not a build; trial on real clients before committing.

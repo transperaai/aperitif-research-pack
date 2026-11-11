@@ -3,7 +3,7 @@ id: DS-24
 title: "SEO: mid-month wins sent to clients"
 team: "SEO"
 bundle: "SEO performance"
-status: "Decided – priced"
+status: "Recommended – build 8, SEO monitoring (with DS-22, DS-23)"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-12 (ZC-O03 win note)"]
@@ -25,7 +25,7 @@ value: "New standard: wins shared between reports (trust, retention)"
 | --- | --- |
 | Bundle | [SEO performance](README.md#bundle-seo-performance) |
 | Team | SEO |
-| Status | Decided – priced |
+| Status | Recommended – build 8, SEO monitoring (with DS-22, DS-23) |
 | Source type | mixed – Mainly Zach's written AI suggestions doc (WS-ZC-01) plus ZC-O03 and LS-PP08 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (ZC-O03 win note) |
 | Earlier ideas | – |
@@ -39,9 +39,8 @@ value: "New standard: wins shared between reports (trust, retention)"
 
 > Shared with [DS-22](ds-22-seo-automated-monday-client-performance-check.md): **a steady flow of intel** the team uses to report to the client – wins surface automatically and go to the client mid-month.
 
-> **Pricing:** part of the **SEO performance bundle** – see [DS-22](ds-22-seo-automated-monday-client-performance-check.md) (A\$8,500 build, A\$1,250/month for [DS-22](ds-22-seo-automated-monday-client-performance-check.md) + [DS-23](ds-23-seo-drop-and-anomaly-alerts.md) + DS-24).
 
-**Team:** SEO. **Decision (9 Nov):** separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
+**Team:** SEO. **Decision:** separate solution. AI spots mid-month wins – ranking, traffic or conversion improvements – and drafts a short note so the manager can share small wins with the client mid-month, which helps retention.
 
 ## How it works
 

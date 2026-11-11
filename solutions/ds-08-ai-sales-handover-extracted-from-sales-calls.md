@@ -3,7 +3,7 @@ id: DS-08
 title: "AI sales handover: extracted from sales calls, confirmed by delivery"
 team: "sales and delivery"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided – priced"
+status: "Recommended – build 9, Sales handover"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-08 (handover part; access checklist + staged onboarding as add-on)"]
@@ -25,7 +25,7 @@ value: "New standard: at least an hour of prepared information before kick-off"
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | sales and delivery *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 9, Sales handover |
 | Source type | evidence-backed – No-hard-block design is Austin decision |
 | Opportunities | [O-08](../opportunities/README.md#o-08) (handover part; access checklist + staged onboarding as add-on) |
 | Earlier ideas | – |
@@ -37,13 +37,13 @@ value: "New standard: at least an hour of prepared information before kick-off"
 
 ## Vision
 
-> **As written – plus: a won deal spawns the new client's entry in the AI brain.** The moment a deal is won, a new client brain ([DS-04](ds-04-ai-client-brain.md)) is created automatically and the handover becomes its first entry, followed by the dossier ([DS-20](ds-20-new-client-dossier-agent.md)) and onboarding audit ([DS-09](ds-09-ai-prefilled-onboarding-audit-and-master-seo.md)). Delivery confirms or denies from there.
+> **A won deal spawns the new client's entry in the AI brain.** The moment a deal is won, a new client brain ([DS-04](ds-04-ai-client-brain.md)) is created automatically and the handover becomes its first entry, followed by the dossier ([DS-20](ds-20-new-client-dossier-agent.md)) and onboarding audit ([DS-09](ds-09-ai-prefilled-onboarding-audit-and-master-seo.md)). Delivery confirms or denies from there.
 >
 > **It also sets the client up everywhere else:** creates the standard client folder structure in Google Drive ([DS-17](ds-17-client-files-and-logins-in-company-owned.md)), the Monday client item and onboarding board, the Slack channel, the shared vault entry for logins, and links them all from the client brain – so nobody builds a new client's set-up by hand.
 
 ## Decision
 
-**Decision (9 Nov):** **no hard blocks** on deals. Instead, the handover is **extracted by AI from the sales call transcripts**, the sales rep is shown **questions to fill any gaps**, the result **loads into the AI client brain ([DS-04](ds-04-ai-client-brain.md))**, and the delivery departments get a **notification to review and confirm or deny – with reasons**.
+**Decision:** **no hard blocks** on deals. Instead, the handover is **extracted by AI from the sales call transcripts**, the sales rep is shown **questions to fill any gaps**, the result **loads into the AI client brain ([DS-04](ds-04-ai-client-brain.md))**, and the delivery departments get a **notification to review and confirm or deny – with reasons**.
 
 ## How it works
 
@@ -102,7 +102,7 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - The sales lead wasn't interviewed, so the sales side of the evidence is leadership's view.
 - Depends on [DS-04](ds-04-ai-client-brain.md) (client brain) and the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)).
 
-## Decided (9 Nov)
+## Decided
 
 - **No hard blocks** – AI extracts the handover from sales calls; the rep answers gap questions; it loads into the client brain; delivery confirms or denies with reasons.
 - **Who reviews:** only the departments for the services sold.

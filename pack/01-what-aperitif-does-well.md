@@ -2,7 +2,7 @@
 
 Before the problems, here is what's working. These are the things to protect while anything changes.
 
-**How this list was built.** A second pass over all 14 interview transcripts looked only for what's good (488 positive items, grouped into 20 themes – Stage 4 culture and strengths sweep, 8 Nov). Two points are Austin's own observations (S-14, S-15). "Raised by" counts people who said it themselves; things Austin said and someone agreed with aren't counted. Theme IDs (ST-xx, S-xx) trace back to the research in [synthesis/stage4-culture-and-strengths.md](../synthesis/stage4-culture-and-strengths.md).
+**How this list was built.** A second pass over all 14 interview transcripts looked only for what's good (488 positive items, grouped into 20 themes – Stage 4 culture and strengths sweep). Two points are Austin's own observations (S-14, S-15). "Raised by" counts people who said it themselves; things Austin said and someone agreed with aren't counted. Theme IDs (ST-xx, S-xx) trace back to the research in [synthesis/stage4-culture-and-strengths.md](../synthesis/stage4-culture-and-strengths.md).
 
 ---
 
@@ -115,7 +115,7 @@ Before the problems, here is what's working. These are the things to protect whi
 - **In their words:**
   - *"the moment a client gets onboarded and a deal is signed on HubSpot, all the onboarding tasks go into Monday."* – Sid Bali, Technical SEO Specialist (SB L094)
   - *"I'm not asking to go ahead with Ruby as well because I know that Monday involves another cost"* – Diya Manoj (DM L158)
-- **Note:** in interviews the HubSpot-to-Monday glue is Make; Zapier runs Slack automations and announcements (context pack). The Monday/Make set-up has one builder, Sid (see implementation risks).
+- **Note:** in interviews the HubSpot-to-Monday glue is Make; Zapier runs Slack automations and announcements (pre-audit briefing). The Monday/Make set-up has one builder, Sid (see implementation risks).
 
 ### 14. Reporting is already automated
 - **What we saw:** AgencyAnalytics builds reports and gives clients self-serve dashboards, with little re-keying from GA4 now.
@@ -123,7 +123,7 @@ Before the problems, here is what's working. These are the things to protect whi
 - **Why it matters:** this is why monthly reports stay in AgencyAnalytics and aren't rebuilt (DS-05 covers review decks only).
 
 ### 15. Home-grown AI tools already save real time
-- **What we saw:** people have built their own Claude and Gemini tools that work. Karl's Claude SEO-strategy prompt guide cut onboarding strategy from about 3 days to roughly an hour (S-02; the context pack gives 75–90 min). Wendlley's Gemini forecasting takes about 15 minutes.
+- **What we saw:** people have built their own Claude and Gemini tools that work. Karl's Claude SEO-strategy prompt guide cut onboarding strategy from about 3 days to roughly an hour (S-02; the pre-audit briefing gives 75–90 min). Wendlley's Gemini forecasting takes about 15 minutes.
 - **Raised by:** 11 staff + Joe (ST-18, S-02).
 - **In their words:**
   - *"I used to take like hours doing this and Gemini did it in like 15 minutes and gave me scenarios"* – Wendlley Simoes (WS L462)

@@ -48,7 +48,7 @@
 | --- | --- | --- | --- | --- | --- |
 | <a id="ei-01"></a>EI-01 | 1-click audit access system + AI audit workflow (also a lead magnet) | Keep | absorbed | [DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md) | Merged into DS-09 onboarding audit |
 | <a id="ei-02"></a>EI-02 | AI Business Brain | Keep | addressed | [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) | Became the DS-15 umbrella |
-| <a id="ei-03"></a>EI-03 | AI receptionist | Keep | addressed | [DS-19](../solutions/ds-19-ai-receptionist.md) | Became DS-19; decided 9 Nov: call director; Aircall add-on (\~A\$370/mo) recommended, own build as alternative; weak evidence |
+| <a id="ei-03"></a>EI-03 | AI receptionist | Keep | addressed | [DS-19](../solutions/ds-19-ai-receptionist.md) | Became DS-19 (build 17): a call director using Aircall's AI receptionist add-on; weak evidence |
 | <a id="ei-04"></a>EI-04 | AI-assisted creative production | Keep | addressed | [DS-21](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md) | Became DS-21: existing tools, no build |
 | <a id="ei-05"></a>EI-05 | Auto set-up of financial profile for new clients | Drop | dropped | – | Not taken up – Drop |
 | <a id="ei-06"></a>EI-06 | Client approval tool / portal | Drop | dropped | – | Dropped with O-24 |

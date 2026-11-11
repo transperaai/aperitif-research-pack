@@ -1,9 +1,9 @@
 # Part A – Transcript extraction: Joe Romeo (Founder) & Julia Van Der Linden (Head of Client Services) – Mid-point check-in
 
 **Source and method notes**
-- Transcript: meeting notes "Mid Point Check In", 30 Oct 2026, 12:00 pm (Melbourne), calendar slot 12:00–12:45. Full transcript retrieved (583 utterances, ~7,900 words, ends at sign-off "Have a good weekend. Bye.") – not truncated. The AI summary was not used as a source. Evidence Log row EV-16.
+- Transcript: meeting notes "Mid Point Check In", 30 Oct 2026, 12:00 pm (Melbourne). Full transcript retrieved (583 utterances, ~7,900 words, ends at sign-off "Have a good weekend. Bye.") – not truncated. The AI summary was not used as a source. Evidence Log row EV-16.
 - **Leadership evidence, not staff evidence.** This was Austin's mid-point check-in: Austin presented interim findings and tool ideas, and leadership reacted and added context. Many ideas in section 5 are Austin's, not leadership's – each is labelled.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across 45 minutes (the calendar slot).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser used labels A–G. **A = Austin** (certain). **B = Joe** (high confidence: "another reason why I got Julia in", his WME days, "when I keep hiring people"). **D = most likely Joe as well** (books the 12 Nov slot saying "she's got the same time as me", refers to Julia in the third person, and says "I think I'm the only one that does anything with the transcripts", which the AI summary attributes to Joe). **E, F, G** = short backchannel only ("Stoic.", "Surveillance system.", "All right, Joe.") – speaker unknown, possibly Julia. All non-Austin lines are treated as leadership; attribution is shown as "Joe (B)", "Joe (D, likely)" or "unattributed".
 - **Julia:** no utterance can be firmly attributed to her. She is referred to in the third person throughout, and Austin signs off only to Joe ("All right, Joe, you take care", L581). She may have been present but silent, or may not have attended. Recorded as an interviewee per the Evidence Log.
 - **IDs** use the prefix `MP-` (mid-point), so they don't clash with the pre-audit Joe & Julia meeting.
@@ -19,7 +19,7 @@
 | Interviewee | Joe Romeo and Julia Van Der Linden (Julia's contribution not identifiable in the transcript – see notes) |
 | Role | Founder & Principal Consultant (Joe); Head of Client Services (Julia) |
 | Team | Leadership |
-| Date / length | 30 Oct 2026 · ~45 min (calendar slot 12:00–12:45) |
+| Date | 30 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | Not applicable (leadership). Joe sometimes joins Tier 1 WIPs (L530); Julia owns escalations (L436) |
 | Channels / services | Whole agency |

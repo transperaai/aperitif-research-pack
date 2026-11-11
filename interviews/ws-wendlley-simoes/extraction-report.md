@@ -2,8 +2,8 @@
 
 **Source and method notes**
 - Transcript: meeting notes "AI Consulting Discovery Interview: Performance Director (Wendley)", 28 Oct 2026, 10:59 am (Melbourne). Full transcript retrieved (833 utterances, ~9,800 words, ends at sign-off) – not truncated. The AI summary and Austin's Evidence Log notes were not used as sources (cross-check only).
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~63 minutes (start 10:59; Austin says "I know it's 12 o'clock" at L800, which falls at ~61:03 on the estimate, so the scale checks out; the Notion page was last edited 12:03).
-- **Speakers:** the diariser split Wendlley across labels A, C and E, and Austin across D plus short interjections labelled B, F, G and H (e.g. G at L309 asks the analysis question; H at L721 starts the client-portal question). Per the brief, every non-Austin line is treated as Wendlley; content was used to judge where labels clearly cross over.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
+- **Speakers:** the diariser split Wendlley across labels A, C and E, and Austin across D plus short interjections labelled B, F, G and H (e.g. G at L309 asks the analysis question; H at L721 starts the client-portal question). Every non-Austin line is treated as Wendlley; content was used to judge where labels clearly cross over.
 - **Name and term corrections (transcription):** "Wendley" → Wendlley · "whips / wipes / weeks / web" → WIPs · "performance with Doc / performance web" → Performance WIP doc · "Julie" → Julia · "SLPs" → SOPs · "Ocean" → Notion · "Tachi" → Tati (Tatiana Stinson, Coordinator) · "APIs" → KPIs · "Chatupity" → ChatGPT (ads) · "Cocoa" → Google · "PMX" → PMax · "Dia" → Diya · "Kyle, SEO" → Karl · "DDG" → DDEG (Tier 1; Austin's former employer, where he was the client-side contact) · "polled" → pulled.
 - **Unresolved:** "50 field crisis" (L483 – possibly "fuel crisis"); "one mutual client" running Criteo (L525 – possibly MUJI); "agency ads … video ads" (L685 – possibly "UGC ads"); "different locations for parks" (L566); the name before "is like one of the most senior here" (L810); "JP", the former Head of Performance (not in the context pack).
 - Hours are costed at **$80/hr internal labour cost**. Process totals include team time (PMs/specialists, sales) where those people do steps in the process; the interviewee-only share is shown separately.
@@ -17,7 +17,7 @@
 | Interviewee | Wendlley Simoes |
 | Role | Performance Marketing Director |
 | Team | Performance (paid media) |
-| Date / length | 28 Oct 2026 · ~63 min (estimated – see method notes) |
+| Date | 28 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | 4 clients (described as Tier 1) across ~18 channels, up from ~10 in July (stated, L086–L102); recently pulled into one more Tier 1 account after the Head of Performance left (L169) |
 | Channels / services | Google Ads, Meta, LinkedIn, ChatGPT ads, Criteo (one client), Pinterest, TikTok (Reddit stopped); strategy, optimisation, budget management, campaign briefing and review, forecasting, quarterly reviews, team oversight |
@@ -510,7 +510,6 @@ Ties are broken by Ease, then Impact, then hours saved. Augmentation beats autom
 | 2 | months | Work done for a client with no website | "and we still didn't have a website two months in." ~54:49 (L710) | stated |
 | 7–14 | days | Lookback in platform conversion-drop notifications | "we've noticed like a decrease in conversions in the past like seven, 14 days" ~59:22 (L780) | stated |
 | Weekly / "every so often" / monthly | client comms cadence | Tier 1 / Tier 2 / Tier 3 | "Tier 2 happens every so often. Tier 3 is more like the monthly ongoing stuff." ~50:31 (L642) | stated |
-| ~63 | minutes | Interview length | Austin: "I know it's 12 o'clock" ~61:03 (L800); start 10:59 | estimated |
 
 ## 9. Tools, data and workarounds
 
@@ -518,7 +517,7 @@ Ties are broken by Ease, then Impact, then hours saved. Augmentation beats autom
 - **Shadow tools / workarounds:** Gemini for performance forecasting (her own workflow); an AI workflow for quarterly reviews (tool not named); her personal Performance WIP doc for client status; manual platform-by-platform pacing checks for channels without a sheet.
 - **Same data in more than one place:** client status in her WIP doc but not in Monday.com; tasks partly in Monday.com (briefs) and partly nowhere (her own tasks, L383); underperformance tickets described in HubSpot while tasks live in Monday.com – confirm which holds them now.
 - **Data or access she needs but doesn't have:** pacing data for LinkedIn, ChatGPT ads, Criteo, Pinterest and TikTok; one view of metrics plus strategy and client context; root-cause data on alerts (search-term and competitor changes vs history).
-- **Not discussed:** Supermetrics, Claude, the Tina Slack bot, or any manual Meta pacing workaround (the brief's known fact – that she does Meta pacing by hand in Claude daily since Supermetrics lapsed – did not come up; she described a Meta pacing sheet existing).
+- **Not discussed:** Supermetrics, Claude, the Tina Slack bot, or any manual Meta pacing workaround (the pre-audit briefing's known fact – that she does Meta pacing by hand in Claude daily since Supermetrics lapsed – did not come up; she described a Meta pacing sheet existing).
 
 ## 10. Knowledge and dependency
 

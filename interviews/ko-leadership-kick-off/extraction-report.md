@@ -1,6 +1,6 @@
 # Part A – Transcript extraction: Joe Romeo (Founder & Principal Consultant) and Julia Van Der Linden (Head of Client Services) – Pre-audit kick-off
 
-- **Timestamps:** the transcript is a cleaned version with no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md` (426 utterances, 19 section headings) and ~mm:ss is estimated from word position (15,655 words spread over about 90 minutes, about 174 words a minute). The page header states ~92 min; the word count at 180 wpm gives about 87 min, and the cleaned text is shorter than the recording, so treat length as 87–92 min and every timestamp as accurate to about ±3 minutes (more drift late in the session). Austin says he is 'ten minutes out' at ~75:16 (L349), which fits a 85–90 minute session.
+- **Timestamps:** the transcript is a cleaned version with no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md` (426 utterances, 19 section headings) and ~mm:ss is estimated from word position (15,655 words), so treat every timestamp as accurate to about ±3 minutes (more drift late in the session).
 
 - **Speakers:** the page labels three speakers (Austin 214 utterances, Joe 148, Julia 64) and says the labels are best-effort because the source had none. All three are used as labelled. Some lines look mis-attributed: L146 (a question and its answer both under Joe) and L274–L278 (Joe names Jethro and Julia adds she also closes deals). Every quote below carries its speaker so Joe's and Julia's views stay separate. This is leadership evidence: their view of the business, not observed process times.
 
@@ -18,7 +18,6 @@
 | Department / team | Leadership |
 | Interviewer | Austin Smith (Transpera AI) |
 | Date | 2026-10-22 (Thu 22 Oct 2026, from the page header; 'Stage 1 of 4 – scoping session') |
-| Length | ~92 min per page header; estimated 87–92 min from 15,655 words (about 180 wpm); timestamps use 90 min. Estimated, not recorded. |
 | Clients managed | Joe: key tier-1 relationships plus 'one or two' smaller ones, count not stated (L099). Julia: no portfolio; 30–40% of her time is direct client work (L013). |
 | Channels / services | Whole agency: SEO/organic, paid media, content, link building (and a sales function of one person). Joe: sales, manual finance, tier-1 relationships, new product development, Aperitif's own marketing (L007). Julia: team operations, service offering, escalation pipeline, people reviews (L013–L022). |
 | Reports to | Joe: none (founder). Julia: Joe. |

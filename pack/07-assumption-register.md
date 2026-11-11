@@ -1,6 +1,6 @@
 # Assumption register
 
-Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with how to confirm it. Taken from each solution's **Assumptions** section and the basis behind its **Value** (see VALUE-BY-BUNDLE.md – every value number there carries a basis label: client board, interview, Austin/leadership input, assumption, or new capability not measured). A few rows (marked "audit") come from the independent audit of 9 Nov rather than the page.
+Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with how to confirm it. Taken from each solution's **Assumptions** section and the basis behind its **Value** (see VALUE-BY-BUNDLE.md – every value number there carries a basis label: client board, interview, Austin/leadership input, assumption, or new capability not measured). A few rows (marked "audit") come from the independent audit rather than the page.
 
 **Types**
 - **Hours** – an estimate of time saved or spent, not a stated time.
@@ -33,11 +33,12 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-01 · Modern ad budget pacing + performance alerting
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| Time saved (~56–64 h/month): 67 live PPC clients (client board) × ~15 min weekly check (Austin/leadership input) plus pacing fixes (Wendlley); alerts remove 70–80% of checks – the target, not a measured figure | Hours | Time one week of account checks across the PPC team |
-| Capacity (~A$186K–213K a year) assumes ~130 productive hours per manager a month | Hours | Confirm productive hours with Julia |
+| Time saved (~51–58 h/month): 67 live PPC clients (client board) × ~15 min weekly check (Austin/leadership input); alerts remove 70–80% of checks – the target, not a measured figure | Hours | Time one week of account checks across the PPC team |
+| Capacity (~A$187K–213K a year) assumes ~130 productive hours per manager a month | Hours | Confirm productive hours with Julia |
 | The channel list (LinkedIn, TikTok, Criteo, Pinterest, ChatGPT ads) comes from one interview (WS-O01) | Evidence-thin | Pull the live channel list per client |
-| Bïrch facts from its pricing page and reviews, Nov 2026; LinkedIn not listed | Pricing | Vendor check before deciding |
-| Adpulse: Enterprise tier at ~US$1.2M/month spend and 100+ accounts; Slack @mentions, real-time alerts and per-channel alert types not documented | Pricing | Adpulse demo (five questions on the DS-01 page) |
+| The total ad-account count across all channels sets the Windsor.ai plan (US$499–598 a month assumed) | Pricing | Count ad accounts; test on Windsor.ai's 30-day trial (10 sources, 15 accounts) against a few live accounts |
+| Windsor.ai data is daily (cached up to 6 hours), so pacing catches drift by the next morning, not a same-day blowout | Dependency | A 'no data arrived' check guards against silent connector failures |
+| Autonomous action is a later phase and needs agreed limits per client | Dependency | Agree limits per client once alerts are trusted |
 | Supermetrics is connected but failing, not cancelled (contradiction X-01) | Evidence-thin | Check the Supermetrics account |
 | Whether the $10K overspend credit was on LinkedIn is not confirmed (contradiction X-10; from the audit, not the page) | Evidence-thin | Ask Joe |
 
@@ -51,7 +52,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-03 · Automated AI brief drafts → Monday.com tasks
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| Time saved (~8–12 h/month of content-team time): 48 clients receive content (client board) × ~20 min a brief today (Austin input) → ~5–10 min with the form (assumption). Briefs are written by the content team, so the time goes into more words written, not MRR | Hours | Time a month of briefing before and after |
+| Time saved (~12–24 h/month of content-team time): 48 clients receive content (client board) × 1.5–2 briefs a month (Austin's estimate) × ~20 min a brief today (Austin input) → ~5–10 min with the form (assumption). Briefs are written by the content team, so the time goes into more words written, not MRR | Hours | Time a month of briefing before and after |
 | Needs one current brief template (C-20), and per-client tone and compliance context from DS-04 | Dependency | Agree the template with the content and SEO teams |
 | The Master SEO Document is consistent enough across clients to read automatically | Evidence-thin | Test on 2–3 clients |
 | The Monday integration builds on the Make set-up, whose gaps sit with Sid Bali (C-31) | Dependency | Review with Sid |
@@ -76,7 +77,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-06 · Request sweeper ("Roomba")
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| No hours claimed – value is that nothing gets missed (not measured) | – | Count requests captured in a 2-week pilot |
+| Value is mainly that nothing gets missed (not measured); the team assistant's ~A$15K a year is ~16 h a month of one specialist's email triage (stated) at $80/hr | Hours | Count requests captured in a 2-week pilot |
 | Reading DMs needs each person's authorisation; email needs each person's Gmail authorisation | Dependency | Staff opt-in; DS-02 rule |
 | Monday's Slack integration already turns a message into a task by hand; the sweeper adds automatic detection | Evidence-thin | Check Monday's current integration |
 | Some junk tasks at first; rules tuned over the first few weeks | Evidence-thin | Track false positives in the pilot |
@@ -85,7 +86,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Dead-link rate from one one-off report (~100 over ~10 months); the audit notes a document check found a much higher fault rate (32% of ~1,016 links checked Jan–Apr), so the real figure may be higher | Evidence-thin | Run one full check of live paid links |
-| Price per link ~$80–$130: the page cites KZ-PP10, but the audit traced it to the context pack and order sheets, not the interview | Pricing | Check the order book |
+| Price per link ~$80–$130: the page cites KZ-PP10, but the audit traced it to the pre-audit briefing and order sheets, not the interview | Pricing | Check the order book |
 | Up to ~A$10K–16K a year recovered: ~10 lost links a month (Karl) × ~A$80–130 a link; assumes publishers refund or re-place once a loss is noticed (Austin input), and some losses are already found by hand | Evidence-thin | Review publisher terms |
 | Needs one clean link list with URLs and requirements (DS-11) | Dependency | DS-11 first |
 | Jev AI's fit (scale, scheduling, change detection) | Pricing | Trial |
@@ -101,7 +102,8 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-09 · AI-prefilled onboarding audit and Master SEO Document
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| Time saved (~10–22 h/month): 10–12 h per SEO onboarding and 3–4 new clients a month (Austin input); 2–3 of them SEO and AI cutting 50–60% are assumptions | Hours | Time the next two onboardings |
+| Time saved (~20–40 h/month): 10–12 h per SEO onboarding and ~10 h per paid onboarding, 2–3 of each a month (Austin input); AI cutting 50–60% is an assumption | Hours | Time the next two onboardings |
+| Needs Windsor.ai (build 1) for the paid audit, and an Ahrefs plan at Lite or above (MCP access) with enough API units | Dependency | Check the Ahrefs plan |
 | Needs read-only access at signing (DS-08 add-on) and the AI data rule (DS-02) | Dependency | DS-02, DS-08 |
 | The 30-item paid audit checklist is current and can be encoded | Evidence-thin | Review with Wendlley |
 
@@ -170,14 +172,14 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Austin's suggestion; evidence is leadership plus one staff member | Austin addition | – |
-| Pages published on a builder Aperitif controls (not the client's CMS) | Dependency | Trial one builder |
-| Value not measured – a new service offering; pages outsourced per year unknown (~A$1,500 a page quoted by Wendlley) | Evidence-thin | Wendlley to count pages outsourced |
+| Pages published on Aperitif's own hosted page builder (not the client's CMS) | Dependency | – |
+| New revenue ~A$18K–72K a year assumes 5–10 pages a month sold at A$300–600 a page (Austin's pricing); pages outsourced per year unknown (~A$1,500 a page quoted by Wendlley) | Evidence-thin | Wendlley to count pages outsourced |
 
 ### DS-19 · AI receptionist
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Austin's suggestion; weak interview evidence | Austin addition | – |
-| Aircall add-on ~A$370/month for 1,000 minutes | Pricing | Re-check before signing |
+| Aircall add-on billed about A$150–370 a month | Pricing | Re-check before signing |
 | Value not measured – no call or missed-call volumes | Evidence-thin | Pull Aircall call logs |
 
 ### DS-20 · New-client dossier agent
@@ -185,7 +187,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 | --- | --- | --- |
 | Austin's suggestion, supported by one leadership quote (KO-PP22) | Austin addition | – |
 | Public information only; LinkedIn data access to be confirmed | Dependency | Check LinkedIn terms |
-| Value not measured – a new standard; only Julia researches new clients today (~20 min, Austin input) | – | Julia to confirm time per new client |
+| ~A$1K a year: 3–4 new clients a month × ~20 min of Julia's research (Austin input) at $80/hr; mainly a new standard | Hours | Julia to confirm time per new client |
 
 ### DS-21 · AI creative tools
 | Assumption | Type | How to confirm |
@@ -216,7 +218,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Mainly Austin's suggestion; evidence is one person (Wendlley), who has largely solved it personally with Gemini | Austin addition | Ask other performance managers |
-| Economic and trend data sources to be chosen | Dependency | – |
+| Needs Windsor.ai (build 1) for PPC history and the client brain (build 2) to store forecasts; economic and trend data sources (if any) chosen later – the first version uses history and seasonality only | Dependency | – |
 
 ### DS-26 · SEO: performance forecasting tool
 | Assumption | Type | How to confirm |
@@ -227,20 +229,20 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Value counted in DS-01 – the investigation time is part of the weekly check valued there; don't add it again | – | Time investigations for two weeks |
-| Needs API access to ad accounts, GA4 and the CRM | Dependency | Access audit |
+| Needs Windsor.ai and the alert engine (DS-01) and the client brain (DS-04) live | Dependency | DS-01, DS-04 first |
 
 ### DS-28 · Client comms assistant
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | Austin's suggestion, supported by SH-PP09 and KO-PP20 | Austin addition | – |
 | Managers approve every message; nothing goes to clients automatically | Dependency | Rule in DS-02 |
-| No hours claimed – value is consistent, faster client updates (not measured) | – | – |
+| No hours claimed – value is retention, counted in DS-14 (Client Retention and Growth AI), not again here | – | – |
 
 ### DS-29 · PPC: Monday client performance check
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
 | No hours claimed – a new standard of client communication (not measured; the check time is valued in DS-01) | – | – |
-| API access to every live ad account and GA4 | Dependency | Access audit |
+| Windsor.ai (build 1) and the client brain (build 2) live, with access to every live ad account and GA4 | Dependency | Access audit |
 | Check list agreed with Wendlley | Dependency | Wendlley |
 
 ### DS-30 · Daily priorities assistant

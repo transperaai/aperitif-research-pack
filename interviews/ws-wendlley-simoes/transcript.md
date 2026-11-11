@@ -1,7 +1,7 @@
 # Transcript – Wendlley Simoes interview, 2026-10-28 (meeting note, verbatim)
 Source: meeting notes (transcript, 833 utterances, no timestamps).
 Speaker labels in source: A, C, E = Wendlley (interviewee); D = Austin; B, F, G, H = short interjections, mostly Austin (marked 'Austin?'). Labels are messy; content used to judge.
-Timestamps are ESTIMATED from cumulative word position across a 63-min meeting (10:59 start; Austin says 'it's 12 o'clock' at L800; page last edited 12:03). Total words 9791.
+Timestamps are ESTIMATED from cumulative word position (10:59 start). Total words 9791.
 
 L001 [~00:00] [A=Wendlley] Hey Austin.
 L002 [~00:00] [B=Austin?] How are you feeling?

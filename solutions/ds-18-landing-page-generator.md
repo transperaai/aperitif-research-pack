@@ -2,8 +2,8 @@
 id: DS-18
 title: "Landing page generator (ad landing pages, Aperitif-hosted)"
 team: "PPC"  # inferred: the page gives no "Team:" line
-bundle: "Standalone"
-status: "Decided – priced"
+bundle: "New services and standalone tools"
+status: "Recommended – build 16, Landing page generator"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -14,7 +14,7 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KO-PP25", "SH-PP11", "WS-PP07", "WS-PP14"]
 pain_points_interviewer_raised_or_inferred: []
-value: "A new service offering (outsourced today at ~A$1,500 a page)"
+value: "A new service to sell: ~A$18K–72K a year (outsourced today at ~A$1,500 a page)"
 ---
 
 # DS-18 · Landing page generator
@@ -23,9 +23,9 @@ value: "A new service offering (outsourced today at ~A$1,500 a page)"
 
 | | |
 | --- | --- |
-| Bundle | [Standalone](README.md#bundle-standalone) |
+| Bundle | [New services and standalone tools](README.md#bundle-new-services-and-standalone-tools) |
 | Team | PPC *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 16, Landing page generator |
 | Source type | Austin addition – Earlier idea, no merged opportunity; problem evidence KO-PP25, WS-PP14 |
 | Opportunities | – |
 | Earlier ideas | [EI-09](../opportunities/README.md#ei-09) Landing page generator |
@@ -33,17 +33,17 @@ value: "A new service offering (outsourced today at ~A$1,500 a page)"
 | Also helps | – |
 | Pain points cited | [KO-PP25](../pain-points/README.md#ko-pp25), [SH-PP11](../pain-points/README.md#sh-pp11), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP14](../pain-points/README.md#ws-pp14) |
 | Written source | – |
-| Value | A new service offering (outsourced today at \~A\$1,500 a page) |
+| Value | A new service to sell: \~A\$18K–72K a year (outsourced today at \~A\$1,500 a page) |
 
 ## Vision
 
-> **An AI tool like "Landing Page Labs":** clone a client's website brand identity (colours, fonts, style) and make landing pages for ads. It uses Aperitif's own **CRO-optimised page structures**; the team just customises the content, assets and creatives in a CMS.
+> **An AI tool like "Landing Page Labs":** clone a client's website brand identity (colours, fonts, style) and make landing pages for ads. It uses Aperitif's own **CRO-optimised page structures**; the team just customises the content, assets and creatives in a simple editor and publishes on Aperitif's hosting, with tracking set up from day one.
 >
 > Off-the-shelf builders (LanderLab, Leadpages, Unbounce) were compared; a custom generator is recommended so Aperitif can offer landing pages as a service.
 
 ## Decision
 
-**Decision (9 Nov):** add the landing page generator (Austin's earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
+**Decision:** add the landing page generator (Austin's earlier idea). There's no merged opportunity for it, but the interviews do support the problem.
 
 ## How it works
 
@@ -72,10 +72,11 @@ value: "A new service offering (outsourced today at ~A$1,500 a page)"
 | Time to a live landing page | Outsourced, "clunky" ([KO-PP25](../pain-points/README.md#ko-pp25)) | ≤ 2 business days |
 | Cost per landing page | \~\$1,500 outsourced ([WS-PP14](../pain-points/README.md#ws-pp14)) | Baseline in-house cost, then set |
 | Landing pages sold per month | Low – price barrier | Baseline, then set |
+| Revenue from landing pages per month | \$0 – outsourced | \$1.5K–6K (5–10 pages at \$300–600) |
 
 ## Value
 
-**Value: a new service offering and a capability gain.** Landing pages are outsourced today at \~A\$1,500 each, campaigns wait while they're built, and some clients won't pay that price. With an in-house generator Aperitif can build branded, CRO-structured pages itself, launch campaigns sooner, and sell landing pages as a service. No figures claimed.
+**Value: a new service offering and a capability gain.** Landing pages are outsourced today at \~A\$1,500 each, campaigns wait while they're built, and some clients won't pay that price. With an in-house generator Aperitif can build branded, CRO-structured pages itself, launch campaigns sooner, and sell landing pages as a service: about **A\$18K–72K a year of new revenue** at A\$300–600 a page (Austin's pricing) and 5–10 pages a month (assumption – volume not yet known).
 
 **Goals:** good performance · good customer service · more MRR managed per person
 
@@ -87,9 +88,10 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 - Austin's suggestion; evidence is leadership + one staff member.
 - Pages are published on Aperitif's own hosted page builder, so no client CMS access is needed.
+- Scope and maintenance are expected to grow as features are added; the first version is what's priced.
 
-## Decided (9 Nov)
+## Decided
 
 - **Aperitif-controlled hosting** – pages are mainly **landing pages for ads**, published on a page builder Aperitif controls (not the client's CMS).
 - **Offered to clients as a service.**
-- Pages outsourced per year: **unknown**.
+- Pages outsourced per year: **unknown**, so volume is assumed at 5–10 a month.

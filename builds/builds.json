@@ -1,7 +1,7 @@
 {
- "note": "Consolidated builds, 11 Nov 2026. A$ unless marked; OpEx in US$ a month; all-in in A$ a month at A$1 = US$0.72.",
+ "note": "Builds and pricing. A$ unless marked; OpEx in US$ a month; all-in in A$ a month at A$1 = US$0.72.",
  "totals": {
-  "Totals (builds with Include = Y)": [
+  "Totals": [
    null,
    null
   ],
@@ -37,7 +37,7 @@
    140383.333333333,
    163833.333333333
   ],
-  "Dollar value (A$ a year, builds with Include = Y)": [
+  "Dollar value (A$ a year)": [
    null,
    null
   ],
@@ -743,7 +743,7 @@
    ],
    "assumptions": [
     "Hours saved are estimates; onboarding hours and volumes are Austin's estimates.",
-    "The strongest precedent is the existing prompt guide that cut strategy from ~3 days to ~75–90 min (context pack).",
+    "The strongest precedent is the existing prompt guide that cut strategy from ~3 days to ~75–90 min.",
     "Needs read-only access at signing (sales handover, build 9) and the AI-data rule.",
     "Needs Windsor live (build 1) for the paid audit.",
     "The 30-item paid audit checklist is current and can be encoded.",
@@ -1642,7 +1642,7 @@
     ]
    ],
    "assumptions": [
-    "Austin addition; weak interview evidence and no call volumes.",
+    "Austin's suggestion; weak interview evidence and no call volumes.",
     "Low priority for now; revisit once call data shows missed or misrouted calls.",
     "Needs Aircall in use for inbound calls, and the HubSpot connection for logging."
    ],
@@ -1716,10 +1716,10 @@
     "Prices and features from vendor and review sites, Nov 2026 – to verify.",
     "Output quality for lead-gen and service clients is the open question; the trial decides."
    ],
-   "build": "$0",
+   "build": "No build",
    "build_lo": 0,
    "build_hi": 0,
-   "maint": "$0",
+   "maint": "–",
    "maint_n": 0,
    "opex": "Creative tools, paid direct US$70–380",
    "allin_lo": 97.2222222222222,

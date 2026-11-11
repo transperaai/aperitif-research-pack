@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Sid - Workflow & Process Interview", 4 Nov 2026, 11:30 am (Melbourne). Full transcript retrieved (588 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~40 minutes (60-minute booking; Austin closed "We can give you 20 minutes back in your day", L575; the page was last edited 41 min after the start).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser labelled Austin as A and split Sid across labels B and C (plus short fragments D, E, F, G, H – backchannel or background noise). All non-Austin lines are treated as Sid. A few A-labelled lines are probably Sid (e.g. L009, L198).
 - **Name and term corrections (transcription):** "cloud" → Claude · "Cloud and Chrome" → Claude in Chrome · "make" → Make.com · "Monday" → Monday.com · "EQ salary" → EQ Saddlery · "Nadia" → Nadiya (Hisham) · "Aparity" → Aperitif · "HubSort" → HubSpot · "Macs" → Max (Claude plan) · "Notion's really good" / "thickness" → Figma (Austin self-corrects, L312) · "Adriatic Furniture" → Adriatic (Tier 3). Unresolved: "Kshalo" (L081 – something in HubSpot that holds logins), "ASFROJS" (L070 – typed prompt), "trendsite.com.au" (L269 – JS-heavy site Sid shared; client status unknown).
 - Hours are costed at **$80/hr internal labour cost**. Process totals are Sid's time only; no other actors' time was described with figures.
@@ -16,7 +16,7 @@
 | Interviewee | Sid (Siddharth) Bali |
 | Role | Technical SEO Specialist (also runs end-to-end SEO for a few clients; built and runs the Monday.com + Make system) |
 | Team | Organic |
-| Date / length | 4 Nov 2026 · ~40 min (booked 60) |
+| Date | 4 Nov 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | 5 end-to-end (said four, then "Actually, five", L249–L255); ~15 technical-only ("estimation it would be around 15", L322) – stated, rough |
 | Channels / services | Technical SEO (audits, on-site fixes, page uploads), SEO strategy and client comms for end-to-end clients, content and link briefs, monthly reporting, Monday.com/Make administration |
@@ -418,7 +418,6 @@ Ties are broken by Ease, then Impact. Automation beats augmentation for owner as
 | Pro for Teams | Claude plan | Current; Sid wants Max | "I think we use Pro for team, but I think we need Max." ~26:54 (L373) | stated (Sid's belief) |
 | 4 | Gmail label groups | Per client, to respond, updates, platforms | "It's every client, it's to respond, it's updates, it's platforms." ~28:33 (L396) | stated |
 | 1 | Make→Monday connection | Only link between HubSpot and Monday (deal signed) | "That's the only connection between HubSpot and Monday currently." ~36:03 (L509) | stated |
-| ~40 | minutes | Interview length (60-min slot, finished ~20 min early) | "We can give you 20 minutes back in your day." ~39:33 (L575) | estimated |
 
 ## 9. Tools, data and workarounds
 

@@ -3,7 +3,7 @@ id: DS-17
 title: "Client files and logins in company-owned shared locations, linked to each client brain"
 team: "everyone (operations)"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided (as written) – priced"
+status: "Recommended – not a separate build; set up as each client brain is built"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-30 (full)"]
@@ -25,7 +25,7 @@ value: "Nothing lost when someone leaves"
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | everyone (operations) *(inferred)* |
-| Status | Decided (as written) – priced |
+| Status | Recommended – not a separate build; set up as each client brain is built |
 | Source type | evidence-backed |
 | Opportunities | [O-30](../opportunities/README.md#o-30) (full) |
 | Earlier ideas | – |
@@ -41,7 +41,7 @@ value: "Nothing lost when someone leaves"
 
 ## Decision
 
-**Decision (9 Nov):** adopt [O-30](../opportunities/README.md#o-30), **connected to the AI client brains ([DS-04](ds-04-ai-client-brain.md))** – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
+**Decision:** adopt [O-30](../opportunities/README.md#o-30), **connected to the AI client brains ([DS-04](ds-04-ai-client-brain.md))** – each client's brain links to its folder and its login entries, so anyone working on the client finds them in one place.
 
 ## What changes
 
@@ -92,6 +92,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - LastPass stays as the password manager.
 - Staff move their files across during a set migration window.
 
-## Decided (9 Nov)
+## Decided
 
 - Adopt as written; linked from each client brain ([DS-04](ds-04-ai-client-brain.md)), with passwords kept in the vault, not the brain.

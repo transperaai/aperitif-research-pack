@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Shrishti Dokwal – Workflow & Process Interview", 30 Oct 2026, 2:30 pm (Melbourne). Full transcript retrieved (544 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~54 minutes (60-minute booking, Austin closed "six minutes early", L533).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser labelled Austin as B and split Shrishti across labels A, C, D, E and F. All non-Austin lines are treated as Shrishti.
 - **Name and term corrections (transcription):** "Tati / Taddy / daddy / Terti" → Tati (Tatiana Stinson, Performance Marketing Coordinator) · "Tina" → the Tina Slack agent bot (OpenClaw workspace), not Tatiana · "Lord / cloud" → Claude · "EasyML" → easyAML · "Supermetric" → Supermetrics · "auto" (note taker) → Otter · "Monday" → Monday.com · "Mera / Meraz" → Meta · "pasting / facing / spacing" → pacing · "client comps" → client comms · "D1s / D2s" and "201" → Tier 1s / Tier 2s · "weekly whips" → weekly WIPs · "we've leased capacity" → we've breached capacity · "grant work" → grunt work · "Connect, yeah" → Correct, yeah · "Wildjar" → WildJar (call tracking) · "lendier" → lengthier. "Leah's" (L193) → Wendlley (Simoes, Performance Marketing Director). Unresolved: "Holstroms" (L503).
 - **Name corrections:** Leah's = Wendlley; Tina = Slack bot; escalation director = Julia.
@@ -17,7 +17,7 @@
 | Interviewee | Shrishti Dokwal |
 | Role | Senior Performance Marketing Manager |
 | Team | Performance (paid media) |
-| Date / length | 30 Oct 2026 · ~54 min (booked 60) |
+| Date | 30 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | 14 clients across 24 channels (stated, L087–L088) |
 | Channels / services | Google Ads, Meta, LinkedIn (mentioned); campaign strategy, budget allocation and forecasting, pacing, optimisation, reporting, onboarding |

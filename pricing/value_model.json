@@ -1,12 +1,12 @@
 {
- "_method": "Value worked out solution by solution (10 Nov). capacity = freed hours per manager / ~130 productive h x MRR per manager. Bundle totals are in VALUE-BY-BUNDLE.md; current figures per build are in builds/README.md.",
+ "_method": "Value worked out solution by solution. capacity = freed hours per manager / ~130 productive h x MRR per manager. Bundle totals are in VALUE-BY-BUNDLE.md; current figures per build are in builds/README.md.",
  "DS-01": {
   "time_h_month": [
-   56,
-   64
+   51,
+   58
   ],
   "capacity_arr": [
-   186000,
+   187000,
    213000
   ],
   "clients": [
@@ -31,7 +31,7 @@
   "value": "counted in DS-01; makes the understanding time disappear when an alert fires"
  },
  "DS-29": {
-  "value": "new capability: client communication & trust"
+  "value": "new capability: client communication & trust; value counted in DS-14 (retention)"
  },
  "DS-25": {},
  "_teams": {
@@ -61,7 +61,7 @@
   "churn_board": "10 ended 31 Aug-17 Oct 2026, avg A$2,500",
   "productive_h": 130,
   "source": "client board 10 Nov, live (paused excluded)",
-  "churn_month": 0.03
+  "churn_month": 0.04
  },
  "DS-22": {
   "time_h_month": [
@@ -135,10 +135,10 @@
    "today": 0.04,
    "with_tool": 0.025,
    "reduction": 0.015,
-   "note": "Austin 11 Nov: ~4% baseline; reduction indicative"
+   "note": "Austin's estimate: ~4% baseline; reduction indicative"
   },
   "saved": "~1.5% of 101 clients a month ≈ 18/yr x A$2,500 x 12",
-  "basis": "Indicative (Austin, 11 Nov); client board (101 clients; 10 contracts ended 31 Aug–17 Oct, avg A$2,500)",
+  "basis": "Indicative (Austin's estimate); client board (101 clients; 10 contracts ended 31 Aug–17 Oct, avg A$2,500)",
   "note": "Capacity-capped: kept clients reduce replacement wins needed; not added to capacity"
  },
  "DS-15": {
@@ -150,19 +150,25 @@
  "_rule": "Nothing parked: non-hour solutions get a qualitative Value line (new standard / visibility / risk).",
  "DS-09": {
   "time_h_month": [
-   10,
-   22
+   20,
+   40
   ],
   "capacity_arr": [
-   51000,
-   113000
-  ]
+   88000,
+   177000
+  ],
+  "clients": [
+   2,
+   5
+  ],
+  "split": "SEO 10-22 h at SEO MRR per manager + paid 10-18 h at PPC MRR per manager"
  },
  "DS-08": {
   "value": "new standard: teams meet to clarify not learn"
  },
  "DS-20": {
-  "value": "new standard: research pack per new client"
+  "value": "new standard: research pack per new client",
+  "time_aud_year": 1000
  },
  "DS-17": {
   "value": "visibility & risk"
@@ -175,20 +181,35 @@
   "capacity_arr": [
    69000,
    104000
+  ],
+  "clients": [
+   2,
+   3
+  ],
+  "dollar_value_arr": [
+   75000,
+   112000
   ]
  },
  "DS-28": {
-  "value": "consistent faster client comms, saved to brain"
+  "value": "consistent faster client comms, saved to brain; value counted in DS-14 (retention)"
  },
  "DS-03": {
   "time_h_month": [
-   8,
-   12
+   12,
+   24
+  ],
+  "time_aud_year": [
+   12000,
+   23000
   ],
   "capacity": "content output, not MRR"
  },
  "DS-06": {
-  "value": "capture what's missed"
+  "value": "capture what's missed",
+  "time_h_month": 16,
+  "time_aud_year": 15000,
+  "note": "one specialist's email triage (stated); team assistant build value with DS-30"
  },
  "DS-30": {
   "value": "focus; personal"
@@ -206,35 +227,40 @@
   "value": "faster creative, capability"
  },
  "DS-19": {
-  "value": "no missed leads"
+  "value": "no missed calls"
  },
  "DS-18": {
-  "value": "new service offering"
+  "value": "new service to sell",
+  "revenue_arr": [
+   18000,
+   72000
+  ],
+  "basis": "5-10 pages a month (assumed) x A$300-600 a page"
  },
  "TOTAL": {
   "time_h_month": [
-   149,
-   231
+   178,
+   277.3
   ],
   "time_aud_year": [
-   143000,
-   221000
+   170900,
+   266200
   ],
   "capacity_arr": [
-   455000,
-   729000
+   493000,
+   793000
   ],
   "capacity_mrr": [
-   37900,
-   60750
+   41100,
+   66100
   ],
   "capacity_pct": [
-   9,
-   14.4
+   9.8,
+   15.7
   ],
   "clients": [
-   11,
-   18
+   12,
+   20
   ],
   "conservative_capacity": [
    404000,
@@ -243,15 +269,15 @@
   "dler_per_person": {
    "today": 15597,
    "filled": [
-    17000,
-    17850
+    17100,
+    18000
    ]
   },
   "dler_per_am": {
    "today": 46791,
    "filled": [
-    51000,
-    53500
+    51300,
+    54100
    ]
   },
   "retained_arr": [
@@ -262,8 +288,16 @@
    10000,
    16000
   ],
-  "retained_note": "Not added to capacity totals (capacity-capped business)"
+  "retained_note": "Not added to capacity totals (capacity-capped business)",
+  "capacity_and_time_value": [
+   579500,
+   973300
+  ],
+  "combined_value": [
+   1119500,
+   1513300
+  ]
  },
  "_labels": "70-80% check removal = estimate/target; proposals 6-8 conservative; A$80/hr per Joe",
- "note_11nov": "Consolidated builds, prices and dollar values (11 Nov): see builds/README.md and builds/builds.json."
+ "note_builds": "Builds, prices and dollar values: see builds/README.md and builds/builds.json."
 }

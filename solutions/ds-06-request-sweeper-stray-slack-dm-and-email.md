@@ -3,10 +3,10 @@ id: DS-06
 title: "Request sweeper (\"Roomba\"): stray Slack, DM and email requests → Monday.com"
 team: "everyone"  # inferred: the page gives no "Team:" line
 bundle: "Team productivity"
-status: "Decided – priced"
+status: "Recommended – build 12, Team assistant (with DS-30)"
 coverage: addressed
 source_type: "mixed"
-opportunities: ["O-06 (capture part)", "O-29 (inbox triage part (daily brief moved to DS-30))"]
+opportunities: ["O-06 (capture part)", "O-29 (inbox triage part (daily brief in DS-30))"]
 earlier_ideas: []
 written_sources: []
 problems_fixed: ["P-16", "P-36"]
@@ -25,9 +25,9 @@ value: "Nothing gets missed"
 | --- | --- |
 | Bundle | [Team productivity](README.md#bundle-team-productivity) |
 | Team | everyone *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 12, Team assistant (with DS-30) |
 | Source type | mixed – Austin addition: DM and email sweeping ("Roomba"); one interview (SB-PP04) confirms DMs as a request route |
-| Opportunities | [O-06](../opportunities/README.md#o-06) (capture part), [O-29](../opportunities/README.md#o-29) (inbox triage part (daily brief moved to DS-30)) |
+| Opportunities | [O-06](../opportunities/README.md#o-06) (capture part), [O-29](../opportunities/README.md#o-29) (inbox triage part (daily brief in DS-30)) |
 | Earlier ideas | – |
 | Fixes | [P-16 Reminders go unacted; a broken reminder bot went unnoticed](../problems/p-16-reminders-go-unacted-a-broken-reminder-bot.md); [P-36 Internal task briefs from managers to implementers are slow to write and often incomplete](../problems/p-36-internal-task-briefs-from-managers-to-implementers.md) |
 | Also helps | [P-21 Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – Solve now; [P-32 Unplanned same-day and high-touch client requests break the planned month](../problems/p-32-unplanned-same-day-and-high-touch-client.md) – Not in proposal (via cluster C-18 in text) |
@@ -40,12 +40,12 @@ value: "Nothing gets missed"
 > **The sweeper keeps the AI brain's information fresh, not stale.**
 >
 > - It catches stray requests from Slack, DMs and email and puts them into Monday, so the brain ([DS-04](ds-04-ai-client-brain.md)) always knows what's been asked.
-> - **Task status sweep (added 9 Nov):** the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved ([DM-PP09](../pain-points/README.md#dm-pp09)), and nudges the owner.
-> - The **daily priorities** assistant is now its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)**.
+> - **Task status sweep:** the brain also sweeps Monday to check whether tasks are actually done, based on due dates and overdue dates – it flags tasks that look finished but aren't closed, tasks past due with no update, and "awaiting approval" items nobody moved ([DM-PP09](../pain-points/README.md#dm-pp09)), and nudges the owner.
+> - The **daily priorities** assistant is its own solution, **[DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)**; together they are build 12, the team assistant.
 
 ## Decision
 
-**Decision (9 Nov):** Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in **direct messages** and **email** – and puts them into Monday.com as tasks.
+**Decision:** Slack stays for instant call-outs, but requests sent there get lost. A "Roomba"-style sweeper picks up the stray requests – including the many sent in **direct messages** and **email** – and puts them into Monday.com as tasks.
 
 ## How it works
 
@@ -54,14 +54,14 @@ value: "Nothing gets missed"
 3. For each request it drafts a Monday task: requester, assignee, client/account, what's needed, due date, links – and flags any missing fields (budget, URLs, QA) back to the requester.
 4. **Slack:** the task is created automatically there and then, and the sweeper replies in the thread with the task link. **Email:** the sweeper sends the employee a confirm request first, then creates the task.
 5. **Every task shows its evidence** – a link to the original Slack message or email and the quoted text it was drawn from – so people can see where the information came from.
-6. *(Moved to [DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md) – Daily priorities assistant.)* **Daily priority brief (added 9 Nov, [O-29](../opportunities/README.md#o-29)):** each morning the agent sends every person a **Slack DM with their suggested priorities** for the day – what needs action across Gmail, Slack and Monday, client replies waiting, tasks due or overdue – with one-click links. The inbox is also labelled by what matters (respond to client, task request, FYI) and admin notifications are muted.
+6. The morning priority brief ([O-29](../opportunities/README.md#o-29)) is covered by [DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md), the daily priorities assistant.
 7. From then on, Monday is the record and does the notifying; Slack is only the call-out.
 
 ## Opportunities it covers
 
 - **[O-06](../opportunities/README.md#o-06)** All internal requests via Monday forms; Monday notifies, not people – rank 6, priority 100, quick win – **the capture part**. This solution catches requests where people actually send them rather than relying on everyone using the form.
 - **SB-O02** AI inbox triage (the email-request finder from Sid's call) – the email part: spot requests and replies that matter in the inbox and turn requests into tasks.
-- **[O-29](../opportunities/README.md#o-29)** AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M – added 9 Nov: triage labels and a daily suggested-priority DM from the agent.
+- **[O-29](../opportunities/README.md#o-29)** AI inbox triage and daily brief across Gmail, Slack, Monday – rank 29, effort M: triage labels and a daily suggested-priority DM from the agent.
 - **Not included:** [O-06](../opportunities/README.md#o-06)'s Monday request forms (process for process' sake) and replacing the daily agenda channel messages – those messages stay.
 
 ## Problems it fixes and the evidence
@@ -89,7 +89,7 @@ value: "Nothing gets missed"
 
 ## Value
 
-**Value: nothing gets missed.** Requests that arrive in Slack DMs and email are caught, confirmed and turned into Monday tasks, so work isn't lost or caught last-minute (Sid Bali: "not everybody uses Monday"). This is about capturing what's missed today, not time back – no hours claimed. It protects delivery quality and the client experience, and gives leadership a true picture of the work.
+**Value: nothing gets missed.** Requests that arrive in Slack DMs and email are caught, confirmed and turned into Monday tasks, so work isn't lost or caught last-minute (Sid Bali: "not everybody uses Monday"). This is mainly about capturing what's missed today. The one stated time is counted at build level: about 16 hours a month of one specialist's email triage (\~an hour a day, [SB-PP02](../pain-points/README.md#sb-pp02)) at A\$80/hr ≈ **A\$15K a year**, the dollar value of the team assistant (build 12, with [DS-30](ds-30-daily-priorities-assistant-one-triaged-list-per.md)). Request chains across the team (estimate \~45 h a month ≈ A\$43K) are not counted – no measured volumes. It protects delivery quality and the client experience, and gives leadership a true picture of the work.
 
 **Problems it eliminates:** **P-16** Reminders go unacted; a broken reminder bot went unnoticed · **P-36** Internal task briefs are slow to write and unclear · helps **P-32** Unplanned requests break the planned month and **P-21** Managers at capacity
 
@@ -106,7 +106,7 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - Automatic creation in Slack may produce some junk tasks at first; the evidence link makes them quick to spot and delete. Detection rules get tuned over the first few weeks.
 - Email access needs each person's Gmail authorisation, the same as DMs.
 
-## Decided (9 Nov)
+## Decided
 
 - **Channels preferred, DMs accepted:** people are encouraged to post requests in channels, but the sweeper also covers DMs, since that's where many land. Each person connects their DMs and inbox (needs their authorisation).
 - **Email included:** it connects to the email-request finder from Sid's call (SB-O02). The technical SEO specialist spends about an hour a day on email triage ([SB-PP02](../pain-points/README.md#sb-pp02), stated), and forwarded chains take \~30 min each to untangle ([SB-PP03](../pain-points/README.md#sb-pp03)).

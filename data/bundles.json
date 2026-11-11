@@ -10,16 +10,17 @@
  "PPC performance": [
   "DS-01",
   "DS-25",
-  "DS-27",
-  "DS-29"
+  "DS-26",
+  "DS-27"
  ],
  "SEO performance": [
+  "DS-03",
+  "DS-09",
   "DS-22",
   "DS-23",
-  "DS-24",
-  "DS-26"
+  "DS-24"
  ],
- "Link-building CRM": [
+ "Link-building system": [
   "DS-07",
   "DS-11",
   "DS-12",
@@ -32,20 +33,19 @@
  ],
  "Client lifecycle": [
   "DS-08",
-  "DS-09",
   "DS-17",
   "DS-20"
  ],
- "Delivery & reporting": [
-  "DS-03",
+ "Delivery and reporting": [
   "DS-05",
-  "DS-28"
+  "DS-28",
+  "DS-29"
  ],
  "Team productivity": [
   "DS-06",
   "DS-30"
  ],
- "Standalone": [
+ "New services and standalone tools": [
   "DS-18",
   "DS-19",
   "DS-21"

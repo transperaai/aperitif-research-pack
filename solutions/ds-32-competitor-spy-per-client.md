@@ -3,7 +3,7 @@ id: DS-32
 title: "Competitor spy per client"
 team: "SEO and content strategists (paid can use it too)"
 bundle: "Market intelligence"
-status: "Decided – priced"
+status: "Recommended – build 15, Market radar (with DS-16, DS-33)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-28 (competitor part)"]
@@ -25,7 +25,7 @@ value: "React to competitors first"
 | --- | --- |
 | Bundle | [Market intelligence](README.md#bundle-market-intelligence) |
 | Team | SEO and content strategists (paid can use it too) |
-| Status | Decided – priced |
+| Status | Recommended – build 15, Market radar (with DS-16, DS-33) |
 | Source type | evidence-backed – one stated pain point (ZC-PP15) plus Zach's written doc |
 | Opportunities | [O-28](../opportunities/README.md#o-28) (competitor part) |
 | Earlier ideas | – |
@@ -35,7 +35,7 @@ value: "React to competitors first"
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | React to competitors first |
 
-**Team:** SEO and content strategists (paid can use it too). **Decision (9 Nov):** a solution of its own, alongside [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
+**Team:** SEO and content strategists (paid can use it too). **Decision:** a solution of its own, alongside [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
 
 ## Vision
 

@@ -2,8 +2,8 @@
 id: DS-05
 title: "Automated deck generator: quarterly + 6-month reviews and proposals"
 team: "account managers and sales"  # inferred: the page gives no "Team:" line
-bundle: "Delivery & reporting"
-status: "Decided – priced"
+bundle: "Delivery and reporting"
+status: "Recommended – build 11, Sales proposal and reporting deck generator"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-05 (deck part)", "O-22 (calculator part)", "O-14 (prospect-deck part)"]
@@ -14,7 +14,7 @@ problems_also_helped: ["P-21", "P-40", "P-25"]
 problems_related_only: []
 pain_points_cited: ["KZ-PP18", "KZ-PP21", "LS-PP02", "MP-PP10", "MP-PP11", "MP-PP12", "WS-PP05", "WS-PP07", "WS-PP13"]
 pain_points_interviewer_raised_or_inferred: ["MP-PP10 (interviewer-raised)", "WS-PP13 (inferred)"]
-value: "22–32 h/mo · A$69K–104K capacity (≈ 1.5–2 clients)"
+value: "22–32 h/mo · A$69K–104K capacity (≈ 2–3 clients)"
 value_time_h_month: [22, 32]
 value_capacity_aud_per_year: [69000, 104000]
 ---
@@ -25,9 +25,9 @@ value_capacity_aud_per_year: [69000, 104000]
 
 | | |
 | --- | --- |
-| Bundle | [Delivery & reporting](README.md#bundle-delivery-and-reporting) |
+| Bundle | [Delivery and reporting](README.md#bundle-delivery-and-reporting) |
 | Team | account managers and sales *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 11, Sales proposal and reporting deck generator |
 | Source type | evidence-backed |
 | Opportunities | [O-05](../opportunities/README.md#o-05) (deck part), [O-22](../opportunities/README.md#o-22) (calculator part), [O-14](../opportunities/README.md#o-14) (prospect-deck part) |
 | Earlier ideas | [EI-16](../opportunities/README.md#ei-16) Proposal generator |
@@ -35,7 +35,7 @@ value_capacity_aud_per_year: [69000, 104000]
 | Also helps | [P-21 Managers at capacity – Tier 2/3 clients get dropped first](../problems/p-21-managers-at-capacity-tier-2-3-clients.md) – Solve now ("also helps (partly)"; capacity not solved – O-17/O-19/O-32 dropped); [P-40 AI use is personal and ungoverned: no policy, shared skills, client context or seats](../problems/p-40-ai-use-is-personal-and-ungoverned-no.md) – Solve later; [P-25 No single home for current templates – versions held by individuals](../problems/p-25-no-single-home-for-current-templates-versions.md) – Solve now (deck templates only) |
 | Pain points cited | [KZ-PP18](../pain-points/README.md#kz-pp18), [KZ-PP21](../pain-points/README.md#kz-pp21), [LS-PP02](../pain-points/README.md#ls-pp02), [MP-PP10](../pain-points/README.md#mp-pp10) (interviewer-raised), [MP-PP11](../pain-points/README.md#mp-pp11), [MP-PP12](../pain-points/README.md#mp-pp12), [WS-PP05](../pain-points/README.md#ws-pp05), [WS-PP07](../pain-points/README.md#ws-pp07), [WS-PP13](../pain-points/README.md#ws-pp13) (inferred) |
 | Written source | – |
-| Value | 22–32 h/mo · A\$69K–104K capacity (≈ 1.5–2 clients) |
+| Value | 22–32 h/mo · A\$69K–104K capacity (≈ 2–3 clients) |
 
 ## Vision
 
@@ -46,7 +46,7 @@ value_capacity_aud_per_year: [69000, 104000]
 > - The consultant fills out a form for what the data can't tell it (context, wins, plans, the story).
 > - The system assembles the finished deck in Aperitif's template.
 >
-> **Also in the vision (agreed 9 Nov):**
+> **Also in the vision:**
 >
 > 1. **The form pre-fills from the client brain** ([DS-04](ds-04-ai-client-brain.md)) – wins, issues and next-quarter plan drafted from calls and tasks; the consultant edits and confirms (\~5 minutes, not 20).
 > 2. **Charts built natively** in Aperitif's style, always the right date range – **or the consultant can upload** their own screenshots/visuals where needed.
@@ -55,12 +55,12 @@ value_capacity_aud_per_year: [69000, 104000]
 
 ## Decision
 
-**Decision (9 Nov):** **monthly reports stay in AgencyAnalytics** – no change. **Quarterly and 6-month (bi-annual) review decks** are generated automatically through a deck generator, and **proposals are automated** the same way. It could be a custom build.
+**Decision:** **monthly reports stay in AgencyAnalytics** – no change. **Quarterly and 6-month (bi-annual) review decks** are generated automatically through a deck generator, and **proposals are automated** the same way. Both run as Claude skills with a chart helper, writing into Aperitif's master Google Slides templates.
 
 ## How it works
 
 1. The manager picks the client and deck type (quarterly review, 6-month review, or proposal).
-2. The generator pulls the data: platform performance via AgencyAnalytics / GSC / Ahrefs / ad platforms for reviews; prospect research, Ahrefs data and the price calculator for proposals.
+2. The generator pulls the data: results from every channel through Windsor.ai and the client's goals, history and wins from the client brain for reviews; prospect research, Ahrefs keyword, traffic and competitor data and the price calculator (with a margin check against the threshold) for proposals.
 3. It fills the master template – charts, tables, work completed and planned – and AI drafts the narrative: wins, issues, recommendations, next-quarter plan.
 4. The manager reviews and edits the story (human stays in the loop), then exports to Google Slides / PDF.
 5. Proposals always carry the price-calculator output, so pricing isn't pulled from memory.
@@ -94,10 +94,10 @@ value_capacity_aud_per_year: [69000, 104000]
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Hours per quarterly / 6-month review deck | Unknown – "a lot of time consuming" ([WS-PP05](../pain-points/README.md#ws-pp05)) | ≤ 1.5 h incl. review ([O-05](../opportunities/README.md#o-05)) |
+| Hours per quarterly / 6-month review deck | \~1.5–2 h (Austin's input; "a lot of time consuming", [WS-PP05](../pain-points/README.md#ws-pp05)) | \~30 min review |
 | Review decks generated from the master template | 0% | 100% |
-| Proposals with price-calculator output | Unknown – not consistent (MP-O07) | 100% |
-| Time to produce a proposal / prospect deck | Unknown; slow, on top of BAU ([KZ-PP21](../pain-points/README.md#kz-pp21)) | Draft same day; baseline to be measured |
+| Proposals with price-calculator output and margin check | Unknown – not consistent (MP-O07) | 100% |
+| Time to produce a proposal / prospect deck | \~1.5 h plus the founder's numbers (Austin's input; slow, on top of BAU, [KZ-PP21](../pain-points/README.md#kz-pp21)) | Draft same day; \~30 min review |
 | Proposals needing founder input on numbers | Most ([MP-PP11](../pain-points/README.md#mp-pp11)) | Only above the scope threshold |
 
 ## Value
@@ -110,11 +110,11 @@ value_capacity_aud_per_year: [69000, 104000]
 | --- | --- | --- |
 | Quarterly and six-month review decks | \~101 live clients: 60% get a six-month review (121 a year), 20% quarterly (81 a year) ≈ 17 decks a month × 1.5–2 h today → \~30 min to review | **\~16–24 h** (meeting prep already counted in [DS-04](ds-04-ai-client-brain.md) removed) |
 | Sales proposals | \~6–8 proposals a month (conservative estimate – could be more) × 1.5 h today → \~30 min | **\~6–8 h** (sales and leadership time) |
-| **Total** |  | **\~22–32 h ≈ A\$21K–31K a year** |
+| **Total** |  | **\~22–32 h** |
 
 **2. Capacity and revenue unlocked**
 
-Deck time freed (\~16–24 h) ÷ \~130 productive hours × \~A\$46.8K MRR per manager → **\~A\$5.7K–8.6K MRR ≈ A\$69K–104K a year of capacity** (≈ 1.5–2 more clients). Faster proposals also shorten an already 6–8 week sales cycle.
+Deck time freed (\~16–24 h) ÷ \~130 productive hours × \~A\$46.8K MRR per manager → **\~A\$5.7K–8.6K MRR ≈ A\$69K–104K a year of capacity** (≈ 2–3 more clients). Proposal hours are sales time, so they aren't counted as delivery capacity: 6–8 h a month at A\$80/hr adds \~A\$6K–8K, for a **dollar value of \~A\$75K–112K a year**. Faster proposals also shorten an already 6–8 week sales cycle.
 
 **3. Problems it eliminates**
 
@@ -124,7 +124,7 @@ Deck time freed (\~16–24 h) ÷ \~130 productive hours × \~A\$46.8K MRR per ma
 
 **Goals:** more MRR managed per person · good customer service · trust
 
-*Inputs from Austin (10 Nov): 60% of clients get a six-month review, 20% quarterly; a deck takes 1.5–2 h (Disney is an outlier); proposals take \~1.5 h and should take \~30 min. Assumptions: \~30 min to review a generated deck; \~6–8 proposals a month.*
+*Inputs from Austin: 60% of clients get a six-month review, 20% quarterly; a deck takes 1.5–2 h (Disney is an outlier); proposals take \~1.5 h and should take \~30 min. Assumptions: \~30 min to review a generated deck; \~6–8 proposals a month.*
 
 ## Pricing
 
@@ -134,14 +134,13 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 - Hours saved assumed; the only stated time is the half-day for one bespoke multi-market deck.
 - The sales lead wasn't recorded, so proposal evidence is leadership plus one delivery staff member ([C-38](../synthesis/clusters-and-root-causes.md#c-38)/C-39).
-- Needs one current master template per deck type (duplication errors today, [C-06](../synthesis/clusters-and-root-causes.md#c-06)), the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)) and data access.
+- Needs one current master template per deck type (duplication errors today, [C-06](../synthesis/clusters-and-root-causes.md#c-06)), the price calculator with current rates and the margin threshold, the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)) and data access.
+- Needs Windsor.ai (build 1) and the client brain (build 2) for reporting decks.
 - The SEO director is comfortable with AI-drafted 6-month reviews for **smaller clients** (LS-O11); larger clients may need more of the narrative written by hand.
 
-## Decided (9 Nov)
+## Decided
 
-- **Uses Aperitif's own slide templates**, driven either by a Claude skill or a custom workflow – no third-party deck SaaS.
+- **Uses Aperitif's own master Google Slides templates**, driven by Claude skills with a chart helper – no third-party deck SaaS.
 - **The bespoke multi-market monthly deck is included** ([KZ-PP18](../pain-points/README.md#kz-pp18)) – the one monthly deck that moves into the generator.
 - **"Work completed / planned" content stays human-supplied**, because forward planning isn't reliable enough to pull from; the generator only handles the **formatting and placement** on the deck.
 - **Reads from the client brain ([DS-04](ds-04-ai-client-brain.md))** for the narrative, so reviews and proposals reflect what was agreed on calls.
-
-Price: see [Builds and pricing](../builds/README.md).

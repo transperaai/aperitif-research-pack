@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Zach - Workflow & Process Interview", 4 Nov 2026, 10:30 am (Melbourne). Full transcript retrieved (507 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~47 minutes (60-minute booking; 8,445 words at ~180 words/min, the rate measured in the Shrishti interview; Austin closed early to "give you back some time", L496). Length is estimated, not stated.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser labelled Austin as B and split Zach across labels A, C, D, E and F. All non-Austin lines are treated as Zach (one "A" line, L500, says "Cheers, Austin", which confirms A is Zach).
 - **Name and term corrections (transcription):** "cloud / claw / Clawed / cord thread / core project" → Claude · "Carl" → Karl (Zaharopoulos) · "Kyle" (L060) → Karl · "Sarah" → Sarah Julian (Content Manager) · "Sid" → Sid Bali (Technical SEO Specialist) · "NSCO" (L042) → SEO · "Apartheid" (L303) → Aperitif · "MTP" (L283) → MCP (Model Context Protocol connector) · "keyboard research" → keyword research · "href / hrefs" → Ahrefs · "compressor analysis" (L321) → competitor analysis · "corporate car provider" (L149) → corporate card provider (he says "corporate card" elsewhere, L253) · "stress you work" (L124) → strategy work · "spread things out" (L176) → sped things up · "biopersonal" (L266) → buyer persona · "Blinking" (L366) → linking · "I've been adding a link" (L365) → about adding a link · "Monday" in L044 → Monday.com; "Monday performance check" (L283) = the weekday. Unresolved: "staff style backlink building" (L479 – possibly "PR-style"), "three, four extra" (L046), "big bombs" (L210), "Shaq Electric" (L303 – client name not in the context pack).
 - Hours are costed at **$80/hr internal labour cost**. Most process times were not stated in this interview (the focus was what he does, not how long it takes), so most touch times are `assumed` and the ranges are wide. Process totals are Zach's time unless stated.
@@ -16,7 +16,7 @@
 | Interviewee | Zach (Zachary) Chamberlain |
 | Role | SEO Manager (promoted from SEO Specialist "last month", i.e. October 2026 – L199) |
 | Team | Organic (SEO) |
-| Date / length | 4 Nov 2026 · ~47 min (booked 60; estimated) |
+| Date | 4 Nov 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | About 19 (stated, L195); mainly Tier 3 and 4, no Tier 1 or 2 (L197–L203); about 5 are the monthly focus (L220); several are low-touch "tech hours" only (L207) |
 | Channels / services | SEO strategy, keyword research, content planning and briefing, content QA and client approval, link targets (anchors / URLs), CRO and navigation suggestions, technical SEO diagnosis with the tech team, monthly reporting, 6-month reviews, onboarding strategy |

@@ -2,8 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Sarah Julian – Workflow & Process Interview", 29 Oct 2026, 2:00 pm (Melbourne). Full transcript retrieved (349 utterances, 4,890 words, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Length:** not stated on the page. Estimated at **~30 min**: 4,890 words at the ~180 words/min rate of the Shrishti interview (9,730 words over ~54 min) ≈ 27 min, plus pauses while Sarah screen-shared the content sheet.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across the estimated ~30 minutes.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser labelled Austin as A and split Sarah across labels B, C, D, E, F, G, H and "unknown". All non-Austin lines are treated as Sarah. A few short lines labelled E read like Austin ("Yeah, no, that makes really good sense", L096; "Cool. So I guess...", L099) – none are used as evidence.
 - **Name and term corrections (transcription):** "Jo" → Joe (Romeo) · "Claw" (L128) → Claude (could also mean Joe's OpenClaw agents) · "Tina bot" (L125) → the Tina Slack agent bot (Joe's OpenClaw workspace), here described as checking industry statistics · "Monday" → Monday.com · "Sid" → Sid (Siddharth) Bali, Technical SEO Specialist · "rider" (L190) → writer · "shades / sheet" (L243, L247) → sheets · "tears" (L284) → tiers · "from the Dome" (L122–L123) → "from the dome" (written from her own head, no AI) · "Laura" → Laura Shillington, SEO Director (inferred – the only Laura in the context pack). Unresolved: "Superlative" (L041, Austin), "MS CRAWFORD" (L191, diariser artefact), "Things are June and stuff" (L065), "blind clients" (L144), "an advisor … they do liquidation" (L147–L148), "36 is more than 20,000" (L261).
 - **Writing time is not costed.** Sarah writes a large share of the content (37% of words per the context pack), but the interview gave no writing times. Processes below cost the briefing, admin, editing, approval and tracking work around the writing.
@@ -19,7 +18,7 @@
 | Interviewee | Sarah Julian |
 | Role | Content Manager |
 | Team | Organic (content) |
-| Date / length | 29 Oct 2026 · ~30 min (estimated – not stated) |
+| Date | 29 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | Not discussed in the interview. The team manages volume in words: ~100,000 words a month (stated, L069). Context pack: Sarah owns 24 content clients |
 | Channels / services | Content writing (now mainly blog content rather than service pages, L140), content briefing for freelancers, editing/QA, brief-template standards (AI-search structure) |

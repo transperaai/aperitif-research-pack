@@ -3,7 +3,7 @@ id: DS-25
 title: "PPC: performance forecasting tool"
 team: "PPC"
 bundle: "PPC performance"
-status: "Added – priced"
+status: "Recommended – build 14, Forecasting (with DS-26)"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: ["O-02 (WS-O09 forecasting prompt only)"]
@@ -25,7 +25,7 @@ value: "Better budget decisions, fewer surprises"
 | --- | --- |
 | Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | PPC |
-| Status | Added – priced |
+| Status | Recommended – build 14, Forecasting (with DS-26) |
 | Source type | Austin addition – Austin – new; evidence is one person (WS-PP12, WS-PP13 detected) |
 | Opportunities | [O-02](../opportunities/README.md#o-02) (WS-O09 forecasting prompt only) |
 | Earlier ideas | – |
@@ -37,18 +37,19 @@ value: "Better budget decisions, fewer surprises"
 
 ## Vision
 
-> **A forecasting simulator.** The team can toggle inputs and simulate real-world events and trends (budget changes, seasonality, economic shifts, platform changes) to see how they would affect delivery and results. Shared goal with [DS-26](ds-26-seo-performance-forecasting-tool.md), with PPC-specific nuances. **Starting point:** talk to the leads about how they forecast today (e.g. Wendlley's Gemini method) and then turbo-charge it.
+> **Every manager can forecast a client's results in minutes using one shared method.** Change a budget, a season or a market assumption and see the scenarios, so planning and client expectations rest on data, not gut feel. It turns the performance director's own forecasting approach (his Gemini workflow) into a shared Claude skill the whole team uses. Shared with [DS-26](ds-26-seo-performance-forecasting-tool.md) for organic; together they are build 14, Forecasting.
 
 ## Decision
 
-**Team:** PPC. **Decision (9 Nov):** a forecasting tool that predicts each client's paid performance from history, seasonality, economic trends and predictions, and other outside factors.
+**Team:** PPC. **Decision:** a forecasting tool that predicts each client's paid performance from history, seasonality, economic trends and predictions, and other outside factors.
 
 ## How it works
 
-1. Pulls each client's ad history (spend, conversions, CPA/ROAS) and seasonality.
-2. Adds outside signals: economic indicators, industry trends, events (from the market radar, [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md)).
-3. Produces a forecast per client and channel – expected results at a given budget, with a range – and flags where results are likely to dip.
-4. Used for budget planning, proposals ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) and setting client expectations ([DS-28](ds-28-client-comms-assistant-monthly-updates-and-expectation.md)).
+1. A shared Claude skill pulls each client's spend and results history (spend, conversions, CPA/ROAS) through Windsor.ai.
+2. It applies seasonality and the manager's assumptions (budget, season, market); economic and trend data can be added later – the first version uses history and seasonality only.
+3. It returns low / expected / high scenarios per client and channel, with the reasoning, and flags where results are likely to dip.
+4. Every forecast is saved to the client brain, and a monthly check compares forecasts with actuals.
+5. Used for budget planning, proposals ([DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md)) and setting client expectations ([DS-28](ds-28-client-comms-assistant-monthly-updates-and-expectation.md)).
 
 ## Problems it fixes and the evidence
 
@@ -59,18 +60,18 @@ value: "Better budget decisions, fewer surprises"
 
 ## Future state
 
-Every PPC manager can produce a client forecast in minutes, using the same method, with outside factors built in.
+Every PPC manager can produce a client forecast in minutes, using the same method, with outside factors built in. The director's method is no longer a personal workflow, and forecasts are checked against actuals, so accuracy is known and improves.
 
 ## KPIs
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Managers producing forecasts with the shared tool | 1 (WS) | All PPC managers |
+| Managers producing forecasts with the shared skill | 1 (the performance director) | All PPC and SEO managers |
 | Forecast accuracy (actual vs forecast) | Not tracked | Baseline, then improve |
 
 ## Value
 
-**Value: better decisions, fewer surprises.** The team can simulate budget changes, seasonality and market shifts before committing, so budget conversations with clients are backed by a forecast and results land closer to what was promised.
+**Value: better decisions, fewer surprises.** The team can run scenarios on budget changes, seasonality and market shifts before committing, so budget conversations with clients are backed by a forecast and results land closer to what was promised.
 
 **Goals:** good performance · trust · good customer service
 
@@ -81,4 +82,5 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 ## Assumptions
 
 - Mainly Austin's suggestion; evidence is one person (the performance director), who has largely solved it personally with Gemini.
-- Economic and trend data sources to be chosen.
+- Needs Windsor.ai (build 1) for PPC history and the client brain (build 2) to store forecasts.
+- Economic and trend data sources (if any) are chosen later; the first version uses history and seasonality only.

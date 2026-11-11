@@ -1,6 +1,6 @@
-# Builds and pricing (consolidated, 11 Nov 2026)
+# Builds and pricing
 
-> The build list and pricing, consolidated on 11 November 2026 from the 32 solutions into 18 builds in 9 bundles. All prices are in AUD unless marked US\$. This page is the reference for prices, value and start order; the solution pages describe scope and evidence, and Value by bundle gives the research basis.
+> The build list and pricing: the 32 solutions delivered as 18 builds in 9 bundles. All prices are in AUD unless marked US\$. This page is the reference for prices, value and start order; the solution pages describe scope and evidence, and Value by bundle gives the research basis.
 
 
 ## Totals
@@ -79,9 +79,9 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | AI creative tools | Not measured | Not measured – trial decides. | Faster creative in-house; fewer revision rounds with the design partner; video without a shoot. |
 
 ## How the builds relate to the 32 solutions
-- **Consolidated into 18 builds.** Solutions that were parts of the same system now share one build, one price and one maintenance fee – for example, pacing and alerts (DS-01) and the alert investigator (DS-27) are one PPC assistant. The "Merged from" column shows which solutions each build brings together.
+- **18 builds.** Solutions that are parts of the same system share one build, one price and one maintenance fee – for example, pacing and alerts (DS-01) and the alert investigator (DS-27) are one PPC assistant. The "Merged from" column shows which solutions each build brings together.
 - **Not separate builds.** The AI playbook (DS-02) is documentation; the systems register (DS-10) ships with every build; company-owned files and logins (DS-17) are set up as each client brain is built.
-- **Windsor.ai replaces Adpulse** as the data layer for paid media. It covers every channel Aperitif runs – Google, Meta, Microsoft, LinkedIn, TikTok, Pinterest, Reddit, ChatGPT ads, Criteo and DV360 – and connects straight to the AI, at about US\$499–598 a month against Adpulse's \~US\$935–1,300. Transpera builds the pacing engine, budget register and alerts on top. Windsor's data is daily, so pacing catches drift by the next morning.
+- **Windsor.ai is the data layer for paid media.** It covers every channel Aperitif runs – Google, Meta, Microsoft, LinkedIn, TikTok, Pinterest, Reddit, ChatGPT ads, Criteo and DV360 – and connects straight to the AI through its MCP connection and API, at about US\$499–598 a month. Transpera builds the pacing engine, budget register and alerts on top. Windsor's data is daily (cached up to 6 hours), so pacing catches drift by the next morning, and a 'no data arrived' check guards against silent connector failures; it is tested on Windsor's 30-day trial (10 sources, 15 accounts) against a few live accounts before committing. Options considered for this layer included all-channel pacing tools such as Adpulse, rules tools such as Bïrch (no LinkedIn) and a fully custom build; Windsor.ai is the choice.
 - **One brain, many client brains.** The client brain and business brain are one system, built together: a business layer for leadership and SOPs, and a brain for every client that every other build reads from and writes back to.
 - **Scope of the combined builds:** Client Retention and Growth AI (DS-14) tracks behaviour across the relationship, not keywords; the deck generator covers sales proposals and reporting decks; client comms is the client-facing layer on the PPC and SEO findings; forecasting is a shared skill rather than a simulator.
 - **Shared costs.** Several smaller builds are maintained inside the PPC assistant or the client brain ("In build N" in the table), so there is one fee per system.

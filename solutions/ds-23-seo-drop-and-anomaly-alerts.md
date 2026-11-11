@@ -3,7 +3,7 @@ id: DS-23
 title: "SEO: drop and anomaly alerts"
 team: "SEO"
 bundle: "SEO performance"
-status: "Decided – priced"
+status: "Recommended – build 8, SEO monitoring (with DS-22, DS-24)"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-12 (SEO part)"]
@@ -27,7 +27,7 @@ value_capacity_aud_per_year: [35000, 58000]
 | --- | --- |
 | Bundle | [SEO performance](README.md#bundle-seo-performance) |
 | Team | SEO |
-| Status | Decided – priced |
+| Status | Recommended – build 8, SEO monitoring (with DS-22, DS-24) |
 | Source type | mixed – Mainly Zach's written AI suggestions doc (WS-ZC-01) plus LS-PP15 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (SEO part) |
 | Earlier ideas | – |
@@ -41,9 +41,8 @@ value_capacity_aud_per_year: [35000, 58000]
 
 > Shared with [DS-22](ds-22-seo-automated-monday-client-performance-check.md): **proactive performance intel comes to the team** – drops and anomalies arrive as alerts, so nobody has to dig through accounts to find them.
 
-> **Pricing:** part of the **SEO performance bundle** – see [DS-22](ds-22-seo-automated-monday-client-performance-check.md) (A\$8,500 build, A\$1,250/month for [DS-22](ds-22-seo-automated-monday-client-performance-check.md) + DS-23 + [DS-24](ds-24-seo-mid-month-wins-sent-to-clients.md)).
 
-**Team:** SEO. **Decision (9 Nov):** separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
+**Team:** SEO. **Decision:** separate solution. AI watches every SEO client for large drop-offs and sudden changes and alerts the manager straight away, so the team is on top of bad results before the client sees them in the monthly report.
 
 ## How it works
 
@@ -88,7 +87,7 @@ SEO drops are known to the manager within a day, with a likely cause, before the
 
 **Goals:** good performance · retention · trust · more MRR managed per person
 
-*Inputs from Austin (10 Nov): \~0.4 drops worth investigating per client per month; 20–30 min to work out why today.*
+*Inputs from Austin: \~0.4 drops worth investigating per client per month; 20–30 min to work out why today.*
 
 ## Pricing
 

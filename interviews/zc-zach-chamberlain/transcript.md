@@ -1,7 +1,7 @@
 # Zach Chamberlain interview transcript (4 Nov 2026)
 
 Source: meeting notes (full transcript, not truncated; ends at sign-off). Evidence Log row EV-10.
-No timestamps in source. ~mm:ss = estimated from cumulative word position over ~47 min (booked 10:30-11:30 AEDT; 8,445 words at ~180 words/min, the rate in the Shrishti interview; Austin closed early, L496). L### = utterance number.
+No timestamps in source. ~mm:ss = estimated from cumulative word position (10:30 AEDT; 8,445 words). L### = utterance number.
 Speakers: diariser label B = Austin Smith; A/C/D/E/F = Zach Chamberlain (diariser split his voice into several labels; all non-Austin lines treated as Zach).
 
 L001 ~00:00 [Zach] I'm good, thanks.

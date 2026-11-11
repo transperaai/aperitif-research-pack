@@ -16,11 +16,11 @@ Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 
 
 ## Builds and pricing
 
-The 32 solutions below are consolidated into **18 builds** with prices, maintenance, running costs, dollar value and start order in [builds/README.md](builds/README.md). All pricing is there; the solution files describe scope and evidence.
+The 32 solutions below are delivered as **18 builds** with prices, maintenance, running costs, dollar value and start order in [builds/README.md](builds/README.md). All pricing is there; the solution files describe scope and evidence.
 
 ## The solutions, by bundle
 
-Bundles group solutions for presenting; each solution keeps its own scope, KPIs and evidence. Prices are in [builds/README.md](builds/README.md).
+Bundles group the builds; each solution keeps its own scope, KPIs and evidence. Prices are in [builds/README.md](builds/README.md).
 
 **AI Business Brain**
 
@@ -33,19 +33,20 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 
 **PPC performance**
 
-- [DS-01 Modern ad budget pacing + performance alerting](solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) – One pacing and alerting tool across every live ad channel, with per-client thresholds and Slack alerts (PPC team; alerts only).
+- [DS-01 Modern ad budget pacing + performance alerting](solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) – Daily pacing and proactive performance alerts across every live ad channel, with per-client thresholds and Slack alerts – part of the PPC pacing and performance assistant (build 1).
 - [DS-25 PPC: performance forecasting tool](solutions/ds-25-ppc-performance-forecasting-tool.md) – PPC team: forecasting tool for each client from history, seasonality and outside signals.
+- [DS-26 SEO: performance forecasting tool](solutions/ds-26-seo-performance-forecasting-tool.md) – SEO team: forecasting tool for each client's organic performance.
 - [DS-27 PPC: alert investigator – AI diagnosis and commentary on flagged activity](solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md) – PPC team: when DS-01 flags something, AI investigates and gives a first diagnosis.
-- [DS-29 PPC: automated Monday client performance check (Google Ads, Meta and other channels)](solutions/ds-29-ppc-automated-monday-client-performance-check.md) – PPC team: automated Monday performance check per paid client across all channels.
 
 **SEO performance**
 
+- [DS-03 Automated AI brief drafts → Monday.com tasks](solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) – AI drafts monthly content briefs from the Master SEO Document and turns each into a Monday task, plus the full content-intake standard.
+- [DS-09 AI-prefilled onboarding audit and Master SEO Document](solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md) – AI pre-fills the onboarding audit and Master SEO Document for a strategist to sign off.
 - [DS-22 SEO: automated Monday client performance check (GA4, Search Console, Ahrefs)](solutions/ds-22-seo-automated-monday-client-performance-check.md) – SEO team: automated Monday performance check per client from GA4, Search Console and Ahrefs.
 - [DS-23 SEO: drop and anomaly alerts](solutions/ds-23-seo-drop-and-anomaly-alerts.md) – SEO team: daily drop and anomaly alerts per client with a first guess at the cause.
 - [DS-24 SEO: mid-month wins sent to clients](solutions/ds-24-seo-mid-month-wins-sent-to-clients.md) – SEO team: AI spots mid-month wins and drafts a short client note for the manager to send.
-- [DS-26 SEO: performance forecasting tool](solutions/ds-26-seo-performance-forecasting-tool.md) – SEO team: forecasting tool for each client's organic performance.
 
-**Link-building CRM**
+**Link-building system**
 
 - [DS-07 Link watchdog agent: monitors every paid link](solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) – Agent that checks every paid link weekly and drafts publisher emails when a link drops.
 - [DS-11 Link-building workflow CRM (orders, publishers, links, invoicing and payments)](solutions/ds-11-link-building-workflow-crm.md) – Link-building CRM covering publishers, orders, live links, invoicing and payments.
@@ -61,25 +62,24 @@ Bundles group solutions for presenting; each solution keeps its own scope, KPIs 
 **Client lifecycle**
 
 - [DS-08 AI sales handover: extracted from sales calls, confirmed by delivery](solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md) – AI extracts the sales handover from call transcripts; delivery confirms or denies with reasons (no hard blocks).
-- [DS-09 AI-prefilled onboarding audit and Master SEO Document](solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md) – AI pre-fills the onboarding audit and Master SEO Document for a strategist to sign off.
 - [DS-17 Client files and logins in company-owned shared locations, linked to each client brain](solutions/ds-17-client-files-and-logins-in-company-owned.md) – Client files and logins moved to company-owned shared locations, linked from each client brain.
 - [DS-20 New-client dossier agent (at signing → client brain)](solutions/ds-20-new-client-dossier-agent.md) – At signing, an agent researches the new client and loads a sourced dossier into the client brain.
 
-**Delivery & reporting**
+**Delivery and reporting**
 
-- [DS-03 Automated AI brief drafts → Monday.com tasks](solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) – AI drafts monthly content briefs from the Master SEO Document and turns each into a Monday task, plus the full content-intake standard.
 - [DS-05 Automated deck generator: quarterly + 6-month reviews and proposals](solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) – Deck generator for quarterly and 6-month reviews and proposals (with price calculator); monthly reports stay in AgencyAnalytics.
 - [DS-28 Client comms assistant: monthly updates and expectation setting](solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md) – Account managers: drafts client updates through the month and expectation-setting notes before likely dips.
+- [DS-29 PPC: automated Monday client performance check (Google Ads, Meta and other channels)](solutions/ds-29-ppc-automated-monday-client-performance-check.md) – PPC team: automated Monday performance check per paid client across all channels.
 
 **Team productivity**
 
 - [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) – Request sweeper that turns stray Slack, DM and email requests into Monday tasks, plus a task-status sweep.
 - [DS-30 Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals](solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) – Everyone: one triaged daily priority list per person from Monday, Slack, email, calendar, performance and seasonal signals, sent as a Slack DM.
 
-**Standalone**
+**New services and standalone tools**
 
 - [DS-18 Landing page generator (ad landing pages, Aperitif-hosted)](solutions/ds-18-landing-page-generator.md) – In-house landing page generator for ad landing pages on Aperitif-hosted pages.
-- [DS-19 AI receptionist (phone; Aircall add-on or own build)](solutions/ds-19-ai-receptionist.md) – AI receptionist on the phone for new leads and existing clients; decided: call director, Aircall add-on recommended, own build as alternative.
+- [DS-19 AI receptionist (phone; Aircall add-on)](solutions/ds-19-ai-receptionist.md) – Aircall's AI receptionist answers inbound calls and routes new leads to Joe and existing clients to their account manager.
 - [DS-21 AI creative tools to augment the team (existing tools, no build)](solutions/ds-21-ai-creative-tools-to-augment-the-team.md) – Trial existing AI creative tools (no build) to make ad variants and video in-house.
 
 ## Biggest open points

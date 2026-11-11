@@ -3,7 +3,7 @@ id: DS-16
 title: "Seasonal & trending content radar per client"
 team: "SEO and content strategists"  # inferred: the page gives no "Team:" line
 bundle: "Market intelligence"
-status: "Decided – priced"
+status: "Recommended – build 15, Market radar (with DS-32, DS-33)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-28 (seasonal & trending part)"]
@@ -25,11 +25,11 @@ value: "Content lands before the peak, not after"
 | --- | --- |
 | Bundle | [Market intelligence](README.md#bundle-market-intelligence) |
 | Team | SEO and content strategists *(inferred)* |
-| Status | Decided – priced |
-| Source type | evidence-backed – Seasonal & trending part only since the 9 Nov split (competitor spy is DS-32, macro tracker DS-33) |
+| Status | Recommended – build 15, Market radar (with DS-32, DS-33) |
+| Source type | evidence-backed – Seasonal & trending part only (competitor spy is DS-32, macro tracker DS-33) |
 | Opportunities | [O-28](../opportunities/README.md#o-28) (seasonal & trending part) |
 | Earlier ideas | [EI-19](../opportunities/README.md#ei-19) Seasonal & trending content radar per client |
-| Fixes | [P-24 Seasonal and trending content is planned too late to catch the peak](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) (seasonal & trending part (competitor and news parts split to DS-32, DS-33)) |
+| Fixes | [P-24 Seasonal and trending content is planned too late to catch the peak](../problems/p-24-seasonal-and-trending-content-is-planned-too.md) (seasonal & trending part; the competitor and news parts are DS-32 and DS-33) |
 | Also helps | – |
 | Pain points cited | [KZ-PP19](../pain-points/README.md#kz-pp19), [KZ-PP20](../pain-points/README.md#kz-pp20), [ZC-PP09](../pain-points/README.md#zc-pp09), [ZC-PP15](../pain-points/README.md#zc-pp15), [ZC-PP17](../pain-points/README.md#zc-pp17) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
@@ -41,7 +41,7 @@ value: "Content lands before the peak, not after"
 
 ## Decision
 
-**Decision (9 Nov):** one radar **for each client** with three parts: a **seasonal and trending content radar**, a **competitor spy**, and a **macro trend tracker** for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and writes into each client brain ([DS-04](ds-04-ai-client-brain.md)).
+**Decision:** one radar **for each client** with three parts: a **seasonal and trending content radar**, a **competitor spy**, and a **macro trend tracker** for what's happening in the world that affects the client, their industry and more. Sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) and writes into each client brain ([DS-04](ds-04-ai-client-brain.md)).
 
 ## The three parts
 
@@ -102,6 +102,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - Each client's competitor list and niche keywords exist or can be pulled from the Master SEO Document.
 - Alert volume is tuned per client so strategists aren't flooded.
 
-## Decided (9 Nov)
+## Decided
 
 - One radar per client with three parts: seasonal & trending, competitor spy, macro trend tracker.

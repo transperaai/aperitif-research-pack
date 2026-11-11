@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Michaela Cruz - Workflow & Process Interview", 2 Nov 2026, 10:00 am (Melbourne). Full transcript retrieved (451 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~47 minutes (60-minute booking; Austin: "I think I can give you 13 minutes back", L440).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser labelled Austin as A and split Michaela across labels B, C and D. All non-Austin lines are treated as Michaela. A few B/D lines read like Austin (e.g. L058 "Okay, understood, yeah"), and L429 "No, okay." (labelled A) looks like Austin echoing Michaela's "no".
 - **Name and term corrections (transcription):** "cloud / Cloud" → Claude · "Srishti / Shristi / Christy / shirsty / Tristie / Shruti" → Shrishti (Dokwal, Senior Performance Marketing Manager) · "Dia" → Diya (Manoj) · "inversion tracking" → conversion tracking · "ciphermetrics / supermetrics" → Supermetrics · "Claude Froth-Rome" → Claude for Chrome · "slap me" → Slack me (L073) · "blind checker" → email checker (L340, inferred) · "meta many pixels" → Many Pixels (outsourced creative) · "White& Co / white and co" → White & Co Living · "agency analytics" → AgencyAnalytics · "Tina" → the Tina Slack agent bot (OpenClaw), not a person. Unresolved: "float years" (L148, probably "low tiers"), "DDG" (L186, probably DDEG), "AOD-sodden" (L101), "No wind" (L077).
 - The freelancer doing conversion tracking is named "Liam" by Austin (L306) – Liam Lau, Conversion Tracking Specialist (contractor) per context pack.
@@ -17,7 +17,7 @@
 | Interviewee | Michaela Cruz |
 | Role | Performance Marketing Specialist |
 | Team | Performance (paid media) |
-| Date / length | 2 Nov 2026 · ~47 min (booked 60) |
+| Date | 2 Nov 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | 11 own low-touch clients (stated "11", L148; then agreed "10", L156) plus implementation for the wider Performance team's accounts |
 | Channels / services | Google Ads, Meta, LinkedIn, TikTok, sometimes Pinterest (L092–L093); campaign build and implementation (main role), strategy and optimisation for own clients, pacing sheet upkeep, monthly reports, onboarding, Merchant Center / Google Partner admin checks |
@@ -500,7 +500,6 @@ Ties are broken by Ease, then Impact, then hours saved. Process change beats aut
 | Not renewing | status | Supermetrics | "I don't think we're… we will be using or renewing our Supermetrics." ~44:38–44:43 (L419–L420) | stated (her belief) |
 | Daily | cadence | Tina pacing check (Austin's description) | Austin: "So the pacing check that we have that Tina does daily..." ~43:52 (L407) | stated (interviewer) – conflicts with M/W/F |
 | Tue / Thu | cadence | Proposed scheduled Claude audit | Austin: "Like every Tuesday and Thursday, it audits the accounts" ~17:43 (L179) | stated (interviewer proposal) |
-| 13 | minutes | Interview finished early | Austin: "I think I can give you 13 minutes back." ~46:11 (L440) | stated |
 
 ## 9. Tools, data and workarounds
 

@@ -3,7 +3,7 @@ id: DS-30
 title: "Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals"
 team: "everyone"
 bundle: "Team productivity"
-status: "Added – priced"
+status: "Recommended – build 12, Team assistant (with DS-06)"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-29 (daily brief part)"]
@@ -25,7 +25,7 @@ value: "Focus each morning"
 | --- | --- |
 | Bundle | [Team productivity](README.md#bundle-team-productivity) |
 | Team | everyone |
-| Status | Added – priced |
+| Status | Recommended – build 12, Team assistant (with DS-06) |
 | Source type | mixed – Austin addition: all-sources daily list (calendar, ad/SEO flags, seasonal); evidence SB-PP01, SB-PP02, MC-PP03; O-29 daily brief |
 | Opportunities | [O-29](../opportunities/README.md#o-29) (daily brief part) |
 | Earlier ideas | – |
@@ -35,7 +35,7 @@ value: "Focus each morning"
 | Written source | – |
 | Value | Focus each morning |
 
-**Team:** everyone. **Decision (9 Nov):** a solution of its own, alongside [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md).
+**Team:** everyone. **Decision:** a solution of its own, alongside [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md).
 
 ## Vision
 

@@ -2,8 +2,8 @@
 id: DS-11
 title: "Link-building workflow CRM (orders, publishers, links, invoicing and payments)"
 team: "link building"  # inferred: the page gives no "Team:" line
-bundle: "Link-building CRM"
-status: "Decided – custom build; priced"
+bundle: "Link-building system"
+status: "Recommended – build 5, Link-building system (with DS-12, DS-07, DS-31)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-18 (full)"]
@@ -25,9 +25,9 @@ value_extra_links_month: [9, 15]
 
 | | |
 | --- | --- |
-| Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
+| Bundle | [Link-building system](README.md#bundle-link-building-system) |
 | Team | link building *(inferred)* |
-| Status | Decided – custom build; priced |
+| Status | Recommended – build 5, Link-building system (with DS-12, DS-07, DS-31) |
 | Source type | evidence-backed – CRM-first is Austin decision |
 | Opportunities | [O-18](../opportunities/README.md#o-18) (full) |
 | Earlier ideas | – |
@@ -48,7 +48,7 @@ value_extra_links_month: [9, 15]
 
 ## Decision
 
-**Decision (9 Nov):** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Recommended: a custom AI-native build. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
+**Decision:** go **straight to a link-building workflow CRM** (not the sheets-first route in [O-18](../opportunities/README.md#o-18)), covering the whole workflow **including outreacher invoicing and payments**. Recommended: a custom AI-native build. The link watchdog ([DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md)) reads its link list from here.
 
 ## What it covers
 
@@ -112,7 +112,7 @@ At \~2 h of team time per link today, \~18.5–30 h freed ≈ room for **\~9–1
 
 **Goals:** more MRR managed per person · good performance · trust
 
-*Inputs from Austin (10 Nov): \~320 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.*
+*Inputs from Austin: \~320 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.*
 
 ## Pricing
 

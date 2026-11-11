@@ -3,7 +3,7 @@ id: DS-02
 title: "AI playbook repository (how we use AI: rules, SOPs, prompts, agents, skills)"
 team: "everyone (leadership owns)"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – includes the AI data rule and company Claude seats; priced. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it"
+status: "Recommended – not a separate build (documentation); includes the AI data rule and company Claude seats. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-02 (full)", "O-33 (SOP part)"]
@@ -25,7 +25,7 @@ value: "Fewer repeat questions; lets the other AI solutions run safely"
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | everyone (leadership owns) *(inferred)* |
-| Status | Decided – includes the AI data rule and company Claude seats; priced. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it |
+| Status | Recommended – not a separate build (documentation); includes the AI data rule and company Claude seats. DS-03, DS-04, DS-05, DS-06, DS-08, DS-09, DS-14, DS-15 depend on it |
 | Source type | evidence-backed – Decision to include the AI data rule and company seats is Austin's |
 | Opportunities | [O-02](../opportunities/README.md#o-02) (full), [O-33](../opportunities/README.md#o-33) (SOP part) |
 | Earlier ideas | [EI-08](../opportunities/README.md#ei-08) L&D platform – training, manuals and SOPs made clear |
@@ -45,7 +45,7 @@ value: "Fewer repeat questions; lets the other AI solutions run safely"
 
 ## Decision
 
-**Decision (9 Nov):** one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It will connect to the AI brain solution (to be discussed later).
+**Decision:** one repository for how Aperitif uses AI – the SOPs, prompts, agents and skills in one place. It connects to the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)), which answers questions from it.
 
 ## What goes in it
 
@@ -116,9 +116,9 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - The rule needs the founder's sign-off on client-data use and a check against client contracts.
 - Adoption risk: the library goes stale like the wiki ([C-35](../synthesis/clusters-and-root-causes.md#c-35)) unless it is linked from Monday and owned.
 
-## Decided (9 Nov)
+## Decided
 
 - **Includes the AI data rule and company-wide Claude seats** ([O-02](../opportunities/README.md#o-02)'s two prerequisites) – the rule needs Joe's sign-off.
 - It sits under the AI Business Brain ([DS-15](ds-15-ai-business-brain-the-umbrella.md)) as the smart SOPs part: the brain reads the playbook and answers questions from it.
 - **Dependency:** [DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md), [DS-04](ds-04-ai-client-brain.md), [DS-05](ds-05-automated-deck-generator-quarterly-6-month-reviews.md), [DS-06](ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-08](ds-08-ai-sales-handover-extracted-from-sales-calls.md), [DS-09](ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) and [DS-15](ds-15-ai-business-brain-the-umbrella.md) need the AI data rule in place before client data is connected, so DS-02 goes first.
-- Still open: where the working parts live (Notion plus Claude Projects/skills is the default).
+- The working parts live in Notion plus Claude Projects/skills by default.

@@ -5,7 +5,6 @@
     "role": "Performance Marketing Specialist",
     "team": "Performance",
     "date": "2026-11-02",
-    "minutes": 47,
     "clients_managed": 11
   },
   "time_allocation": [
@@ -2676,14 +2675,6 @@
       "quote": "Like every Tuesday and Thursday, it audits the accounts",
       "timestamp": "~17:43 (L179)",
       "certainty": "stated (interviewer proposal)"
-    },
-    {
-      "value": "13",
-      "unit": "minutes",
-      "context": "Interview finished early",
-      "quote": "I think I can give you 13 minutes back.",
-      "timestamp": "~46:11 (L440)",
-      "certainty": "stated"
     }
   ],
   "tools": {

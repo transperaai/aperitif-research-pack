@@ -6,7 +6,7 @@ It traces every recommendation back to what people said in interviews: transcrip
 
 ## Contents
 
-- [Builds and pricing](builds/README.md) – the 32 solutions consolidated into 18 builds in 9 bundles, with prices, maintenance, running costs, dollar value and start order
+- [Builds and pricing](builds/README.md) – the 32 solutions delivered as 18 builds in 9 bundles, with prices, maintenance, running costs, dollar value and start order
 - [Value by bundle](VALUE-BY-BUNDLE.md) – time saved, capacity, DLER, evidence and basis for every solution
 - [How everything connects](#how-everything-connects)
 - [How the solutions connect](#how-the-solutions-connect)
@@ -36,7 +36,7 @@ flowchart TD
 
 ## How the solutions connect
 
-Arrows show data flowing from one solution to another. The client brain (DS-04) is the shared platform: most solutions either write into it or read from it, which is why it is built first. Standalone solutions (DS-18 landing pages, DS-19 AI receptionist, DS-21 creative tools) are not shown.
+Arrows show data flowing from one solution to another. The client brain (DS-04) is the shared platform: most solutions either write into it or read from it, which is why it is built first. New services and standalone tools (DS-18 landing pages, DS-19 AI receptionist, DS-21 creative tools) are not shown.
 
 ```mermaid
 flowchart LR
@@ -60,7 +60,7 @@ flowchart LR
   DS04 --> DS03["DS-03 Brief drafts"]
   DS06["DS-06 Request sweeper"] --> DS30["DS-30 Daily priorities"]
   DS06 --> DS04
-  DS01["DS-01 Adpulse pacing & alerts"] --> DS27["DS-27 Alert investigator"]
+  DS01["DS-01 Pacing & alerts (Windsor.ai)"] --> DS27["DS-27 Alert investigator"]
   DS01 --> DS29["DS-29 PPC Monday check"]
   DS04 --> DS27
   DS22["DS-22 SEO Monday check"] --> DS23["DS-23 SEO drop alerts"]
@@ -76,7 +76,7 @@ flowchart LR
 
 | Folder | What is in it |
 | --- | --- |
-| [builds/](builds/README.md) | 18 consolidated builds – prices, maintenance, OpEx, dollar value, phases – plus `builds.csv` and `builds.json` |
+| [builds/](builds/README.md) | 18 builds – prices, maintenance, OpEx, dollar value, phases – plus `builds.csv` and `builds.json` |
 | [solutions/](solutions/README.md) | One file per solution DS-01..DS-33, with front matter and the one-pager; index grouped by bundle. Pricing is in builds/ |
 | [problems/](problems/README.md) | One file per problem P-01..P-48: decision, status, solutions, pain points with quotes, root cause |
 | [pain-points/](pain-points/README.md) | All 243 pain points grouped by interview, plus `pain-points.csv` |
@@ -119,7 +119,7 @@ If you load this repo into an AI tool, it is a structured evidence base. Use it 
 **Rules:**
 
 - Cite IDs for every claim (e.g. "DS-06 fixes P-16; evidence SB-PP04, stated").
-- Do not treat assumptions as facts. Current prices, maintenance, running costs and dollar values come from builds/README.md (11 Nov, 18 consolidated builds); the research basis behind each value is in VALUE-BY-BUNDLE.md. Do not invent figures, and never add time and capacity together. Hour and dollar figures in the synthesis files are earlier research estimates; use builds/README.md for current figures.
+- Do not treat assumptions as facts. Current prices, maintenance, running costs and dollar values come from builds/README.md (18 builds); the research basis behind each value is in VALUE-BY-BUNDLE.md. Do not invent figures, and never add time and capacity together. Hour and dollar figures in the synthesis files are earlier research estimates; use builds/README.md for current figures.
 - Decisions are not evidence. A *Not in proposal* problem stays out even if a solution "also helps".
 - Where sources conflict, check `synthesis/contradictions.md` before stating a fact.
 - The synthesis outputs (Stage 1–3, 6 Nov) came before the decisions; the problem, solution and build files are current.

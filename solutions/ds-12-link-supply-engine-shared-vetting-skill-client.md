@@ -2,8 +2,8 @@
 id: DS-12
 title: "Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)"
 team: "link building"  # inferred: the page gives no "Team:" line
-bundle: "Link-building CRM"
-status: "Decided (as written) – priced"
+bundle: "Link-building system"
+status: "Recommended – build 5, Link-building system (with DS-11, DS-07, DS-31)"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-20 (vetting and matching part)"]
@@ -25,9 +25,9 @@ value_extra_links_month: [4, 8]
 
 | | |
 | --- | --- |
-| Bundle | [Link-building CRM](README.md#bundle-link-building-crm) |
+| Bundle | [Link-building system](README.md#bundle-link-building-system) |
 | Team | link building *(inferred)* |
-| Status | Decided (as written) – priced |
+| Status | Recommended – build 5, Link-building system (with DS-11, DS-07, DS-31) |
 | Source type | evidence-backed |
 | Opportunities | [O-20](../opportunities/README.md#o-20) (vetting and matching part) |
 | Earlier ideas | – |
@@ -39,20 +39,20 @@ value_extra_links_month: [4, 8]
 
 ## Vision
 
-> **As written** – one shared vetting skill that agrees with the link lead, automatic client matching with no duplicates, and quota reviews where supply is scarce.
+> **One shared vetting skill that agrees with the link lead, automatic client matching with no duplicates, and quota reviews where supply is scarce.**
 >
-> **Bundle:** presented as part of the **Link-building CRM bundle** with [DS-11](ds-11-link-building-workflow-crm.md), but kept as its own solution (own scope, cost and KPIs).
+> **Build:** part of build 5, the **link-building system**, with [DS-11](ds-11-link-building-workflow-crm.md), [DS-07](ds-07-link-watchdog-agent-monitors-every-paid-link.md) and [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md); it keeps its own scope and KPIs.
 
 ## Decision
 
-**Decision (9 Nov):** adopt [O-20](../opportunities/README.md#o-20) as written. It works as the **sourcing stage of the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md))**: domains are vetted and matched before they become orders.
+**Decision:** adopt [O-20](../opportunities/README.md#o-20) as written. It works as the **sourcing stage of the link-building CRM ([DS-11](ds-11-link-building-workflow-crm.md))**: domains are vetted and matched before they become orders.
 
 ## How it works
 
 1. **One shared, versioned vetting skill** built from the link team's criteria (authority, relevance, spam signals, niche fit), tested against past approve/reject decisions so it agrees with the link lead.
 2. Outreachers and broker intake run every domain through it before submitting; only **borderline domains** go to a person for review.
 3. A **client requirements table** (niche, tier, exclusions, domains already used) lets Claude suggest the best client for each approved domain and block duplicates.
-4. *(Moved to [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md) – its own solution, 9 Nov.)* **Brand-mention monitoring** (Ahrefs Alerts) finds unlinked mentions of Tier 1/2 clients and queues outreach to turn them into links.
+4. **Brand-mention monitoring** (Ahrefs Alerts) – unlinked mentions of Tier 1/2 clients turned into links – is its own solution, [DS-31](ds-31-proactive-brand-mention-tracking-for-backlinks.md).
 5. Link quotas are reviewed with clients – fewer, higher-quality links where supply is scarce.
 
 ## Opportunities it covers
@@ -101,7 +101,7 @@ value_extra_links_month: [4, 8]
 
 **Goals:** more MRR managed per person · good performance
 
-*Inputs from Austin (10 Nov): \~half of vetted domains approved; 60 domains a batch take 1–2 h (Karl). Assumption: AI pre-vetting removes 70–80% of vetting time.*
+*Inputs from Austin: \~half of vetted domains approved; 60 domains a batch take 1–2 h (Karl). Assumption: AI pre-vetting removes 70–80% of vetting time.*
 
 ## Pricing
 
@@ -113,6 +113,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - The link lead's criteria can be written down and tested on past decisions.
 - Clients will accept quota changes where supply is scarce.
 
-## Decided (9 Nov)
+## Decided
 
 - Adopt as written; runs as the sourcing stage of the [DS-11](ds-11-link-building-workflow-crm.md) CRM.

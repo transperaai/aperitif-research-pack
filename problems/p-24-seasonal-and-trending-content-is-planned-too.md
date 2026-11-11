@@ -26,9 +26,9 @@ confidence: "High – raised by 3+ people"
 
 ## Solutions addressing it
 
-- Fixes: [DS-16 Seasonal & trending content radar per client (split 9 Nov)](../solutions/ds-16-seasonal-and-trending-content-radar-per-client.md) – seasonal & trending part (competitor and news parts split to DS-32, DS-33)
-- Fixes: [DS-32 Competitor spy per client (split from DS-16)](../solutions/ds-32-competitor-spy-per-client.md) – competitor part
-- Fixes: [DS-33 Macro trend tracker per client (split from DS-16)](../solutions/ds-33-macro-trend-tracker-per-client.md) – news part
+- Fixes: [DS-16 Seasonal & trending content radar per client](../solutions/ds-16-seasonal-and-trending-content-radar-per-client.md) – seasonal & trending part (competitor and news parts split to DS-32, DS-33)
+- Fixes: [DS-32 Competitor spy per client](../solutions/ds-32-competitor-spy-per-client.md) – competitor part
+- Fixes: [DS-33 Macro trend tracker per client](../solutions/ds-33-macro-trend-tracker-per-client.md) – news part
 
 ## Linked opportunities
 

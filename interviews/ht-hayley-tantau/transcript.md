@@ -1,7 +1,7 @@
 # Transcript – Hayley Tantau (Content Specialist) – 2026-11-04
 
-Source: meeting notes (include_transcript). No timestamps in source; [~mm:ss] estimated from word position assuming the 60-min recording (13:30–14:30 AEDT). Speaker labels as in source: A and C = Austin Smith (interviewer); B, D, E = Hayley (interviewee). Some short backchannels may be mislabelled.
-Lines L389–L919 (a separate Meta pacing troubleshooting session with Wendlley Simoes, speakers F–Q) are saved in transcript-session2-wendlley.md and are OUT OF SCOPE for this extraction.
+Source: meeting notes (include_transcript). No timestamps in source; [~mm:ss] estimated from word position across the whole recording. Speaker labels as in source: A and C = Austin Smith (interviewer); B, D, E = Hayley (interviewee). Some short backchannels may be mislabelled.
+Lines L389–L919 (a separate Meta pacing troubleshooting session with Wendlley Simoes, speakers F–Q) are saved in [transcript-session2-meta-pacing-call.md](transcript-session2-meta-pacing-call.md) and are out of scope for this interview.
 
 L001 [~00:00] A: Hey Hayley.  
 L002 [~00:00] B: then Good, how are you?  

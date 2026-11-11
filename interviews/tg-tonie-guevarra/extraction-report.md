@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Tonie - Workflow & Process Interview", 4 Nov 2026, 3:15 pm (Melbourne). Full transcript retrieved (483 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across ~45 minutes (calendar slot 15:15–16:00; the transcript runs from greeting to "Bye-bye"). Actual call length not stated – 45 min is the booked slot.
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position (the transcript runs from greeting to "Bye-bye").
 - **Speakers:** the diariser labelled Austin as B and split Tonie across labels A and C. All non-Austin lines are treated as Tonie. L010 ("So I think if you made the Questions?", label C) may be Austin – no bearing on findings.
 - **Name and term corrections (transcription):** "Carl" → Karl (Zaharopoulos, Senior SEO Manager & Link-building Lead) · "Cloud / Lord" → Claude · "HMix" (L115) → Ahrefs · "parking car rentals" → Bargain Car Rentals (BCR) – inferred: the other two "dynamic clients" are Tier 1 clients and BCR is the third Tier 1 car-rental client; confirm · "lease lab / Please Love" → Leaselab · "Tony" → Tonie · "scale" (L232) → skill · "deletes" (L178) → leads · "the main names" (L064) → domain names · "loves / logs" (L284, L286) → blogs · "Monday" → Monday.com · "Apertif" → Aperitif. Unresolved: "Loree" (L413 – probably someone off-call), "nieces" (L339 – niches or issues), "the main.com" (L266), "dynamic clients" (Tonie's term; meaning not explained).
 - **Terminology:** Tonie calls the outreachers who place links "publishers" (internal team = her in-house trainees in the Philippines; external = brokers/outreachers). "Leads" = candidate publisher domains. "Tier 1/2/3 leads" are a **content-niche classification of publisher sites**, not client tiers – the two uses collide because the three "dynamic clients" are also Tier 1 clients.
@@ -17,7 +17,7 @@
 | Interviewee | Tonie Guevarra |
 | Role | Outreach Specialist (link building) |
 | Team | Organic (link building) |
-| Date / length | 4 Nov 2026 · ~45 min (booked slot; actual length not stated) |
+| Date | 4 Nov 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | All link-building clients ("For all the clients, now we're doing 300 plus", L084); count not stated – ~60 on the order book per context pack |
 | Channels / services | Link building: lead sourcing and qualification, client allocation, ordering from internal and external publishers, published-link checks, master sheet and Monday.com updates; training in-house publishers |

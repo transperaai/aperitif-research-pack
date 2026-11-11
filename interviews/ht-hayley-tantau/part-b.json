@@ -5,7 +5,6 @@
     "role": "Content Specialist",
     "team": "Organic",
     "date": "2026-11-04",
-    "minutes": 33,
     "clients_managed": 7
   },
   "time_allocation": [
@@ -1459,14 +1458,6 @@
       "context": "Content Manager's leave; HT covered freelancer assignment",
       "quote": "she went on leave a few months ago so I did that",
       "timestamp": "~12:28 (L146)",
-      "certainty": "stated"
-    },
-    {
-      "value": "~30",
-      "unit": "minutes",
-      "context": "Interview ended early in a 60-min slot",
-      "quote": "I can give you 30 minutes back into your calendar",
-      "timestamp": "~33:01 (L374)",
       "certainty": "stated"
     }
   ],

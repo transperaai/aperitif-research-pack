@@ -1,9 +1,9 @@
 # Part A – Transcript extraction: Hayley Tantau (Content Specialist)
 
 **Source and method notes**
-- Transcript: meeting notes "Hayley - Workflow & Process Interview", 4 Nov 2026, 1:30 pm (Melbourne), booked 60 min (Evidence Log EV-12). Full transcript retrieved (919 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **The recording holds two sessions.** L001–L388 is the Hayley interview (~33 min; Austin closed early: "I can give you 30 minutes back", L374). L389–L919 is a separate Meta pacing / Supermetrics troubleshooting session between Austin and Wendlley Simoes ("Thanks so much, Wendley", L918). **Only L001–L388 is extracted here.** The second session is saved separately (`transcript-session2-meta-pacing-call.md`).
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across the 60-minute recording (13:30–14:30 AEDT), which puts the end of the Hayley section at ~33:37.
+- Transcript: meeting notes "Hayley - Workflow & Process Interview", 4 Nov 2026, 1:30 pm (Melbourne) (Evidence Log EV-12). Full transcript retrieved (919 utterances, ends at sign-off) – not truncated. The AI summary was not used as a source.
+- **The recording holds two sessions.** L001–L388 is the Hayley interview. L389–L919 is a separate Meta pacing / Supermetrics troubleshooting session between Austin and Wendlley Simoes ("Thanks so much, Wendley", L918). **Only L001–L388 is extracted here.** The second session is saved separately (`transcript-session2-meta-pacing-call.md`).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across the whole recording.
 - **Speakers:** the diariser labelled Austin as C (and A for "Hey Hayley" and short backchannels) and split Hayley across B, D and E. A and C are treated as Austin; all other lines in L001–L388 as Hayley. A few short lines are clearly mislabelled (for example L242 "I just write." under C is Hayley's).
 - **Name and term corrections (transcription):** "super loop logs" (L048) → Superloop blogs · "kid" (L232) → Sid (Siddharth Bali) · "Monday" → Monday.com · "chat GPT" → ChatGPT · "Apartheid" (L349) → Aperitif · "provisions" (L057) → revisions · "Would count" (L207) → word count · "seo tech" (L155, L269) → SEO specialists · "APRA guidelines" (L117, dental client) → likely AHPRA (health practitioner advertising rules) – inferred · "two on client" (L308) → likely "tier one client" – inferred. Unresolved: "AI fly" (L349), "imperative style" (L218, probably "our style"), "Do you agree with shades?" (L194).
 - Hours are costed at **$80/hr internal labour cost**. Process totals cover Hayley's own time unless a row says otherwise (the Content Manager's freelancer assignment time is noted but not costed – not discussed).
@@ -17,7 +17,7 @@
 | Interviewee | Hayley Tantau |
 | Role | Content Specialist |
 | Team | Organic (content) |
-| Date / length | 4 Nov 2026 · ~33 min of a 60-min booking (rest of the recording is a separate session) |
+| Date | 4 Nov 2026 (the rest of the recording is a separate session) |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | ~7 this month (stated, L147). Context pack says 17 content clients |
 | Channels / services | SEO content writing: pages and blogs, research, drafting, revisions; editing freelancer overflow; covers freelancer assignment when the Content Manager is away |
@@ -329,7 +329,6 @@ Ties are broken by Ease, then Impact. Note: HT-O04 (Impact 3, Ease 3) fits none 
 | 1 | junior writer | Hire in progress; reviewing CVs | "we're currently like going through some CVs for a junior" ~18:44 (L214) | stated |
 | Word count | monthly target | Writers work to a word-count target (value not stated) | "Like we kind of just have a word count." ~03:54 (L052) | stated (value not discussed) |
 | A few months ago | – | Content Manager's leave; HT covered freelancer assignment | "she went on leave a few months ago so I did that" ~12:28 (L146) | stated |
-| ~30 | minutes | Interview finished early in a 60-min slot | "I can give you 30 minutes back into your calendar" ~33:01 (L374) | stated |
 
 ## 9. Tools, data and workarounds
 

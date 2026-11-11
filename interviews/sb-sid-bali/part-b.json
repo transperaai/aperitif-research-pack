@@ -5,7 +5,6 @@
     "role": "Technical SEO Specialist",
     "team": "Organic",
     "date": "2026-11-04",
-    "minutes": 40,
     "clients_managed": 20
   },
   "time_allocation": [
@@ -2010,14 +2009,6 @@
       "quote": "That's the only connection between HubSpot and Monday currently.",
       "timestamp": "~36:03 (L509)",
       "certainty": "stated"
-    },
-    {
-      "value": "~40",
-      "unit": "minutes",
-      "context": "Interview length (60-min booking)",
-      "quote": "We can give you 20 minutes back in your day.",
-      "timestamp": "~39:33 (L575)",
-      "certainty": "estimated"
     }
   ],
   "tools": {

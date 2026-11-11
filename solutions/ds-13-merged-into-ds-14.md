@@ -39,7 +39,7 @@ value: "Part of DS-14 – not valued separately"
 
 > **Merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md).** This is now **Part B of [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) · Client health & growth intelligence**: [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)'s alerts trigger the escalation, and these rules say who acts. Kept under its own heading so the DS numbers don't shift.
 
-**Decision (9 Nov):** the [O-21](../opportunities/README.md#o-21) rules are fine, but they must be **connected to the anti-churn and growth intelligence ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md))**: its alerts are what trigger an escalation, and the rules say who acts on each one.
+**Decision:** the [O-21](../opportunities/README.md#o-21) rules are fine, but they must be **connected to the anti-churn and growth intelligence ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md))**: its alerts are what trigger an escalation, and the rules say who acts on each one.
 
 ## The rules
 
@@ -85,6 +85,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - Leads get short coaching on escalations and client comms ([MP-PP08](../pain-points/README.md#mp-pp08)).
 - The founder sets the contract value threshold.
 
-## Decided (9 Nov)
+## Decided
 
 - Adopt the rules; merged into [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) – [DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md) alerts are the escalation triggers.

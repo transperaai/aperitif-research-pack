@@ -40,7 +40,7 @@ Plain-English meanings for the terms used in this pack.
 | **6-month review** | The performance and strategy review deck for other clients. |
 | **DLER** | MRR managed per person – how much monthly recurring revenue each person looks after (today ~$15.6K per person across 27 staff; live client board, 10 Nov). |
 | **Retainer** | The fixed monthly fee a client pays. |
-| **Churn** | Clients leaving. Churn rate = the share of clients lost in a year. |
+| **Churn** | Clients leaving. Churn rate = the share of clients lost each month (about 4% today, Austin's estimate). |
 
 ## Paid media (PPC) terms
 
@@ -100,3 +100,5 @@ Plain-English meanings for the terms used in this pack.
 | **Make / Zapier** | Automation tools that move data between systems. Make pushes HubSpot deals into Monday; Zapier runs Slack automations. |
 | **OpenClaw** | Joe's personal AI agent set-up that runs Slack bots (including "Tina"). |
 | **Supermetrics** | The tool that pulled ad data into Google Sheets. Its connector is failing, which broke the Meta pacing sheet. |
+| **Windsor.ai** | The bought data layer for paid media in build 1: it pulls spend and performance from every ad channel each day and connects it to the AI. |
+| **Build** | One of the 18 priced pieces of work the 32 solutions are delivered as (see Builds and pricing). |

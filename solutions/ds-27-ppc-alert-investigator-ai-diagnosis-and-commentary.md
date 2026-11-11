@@ -3,7 +3,7 @@ id: DS-27
 title: "PPC: alert investigator – AI diagnosis and commentary on flagged activity"
 team: "PPC"
 bundle: "PPC performance"
-status: "Added – priced"
+status: "Recommended – build 1, PPC pacing and performance assistant (with DS-01)"
 coverage: addressed
 source_type: "mixed"
 opportunities: ["O-12 (draft-diagnosis part)"]
@@ -25,7 +25,7 @@ value: "Counted in DS-01 – removes the \"what's going on\" time when an alert 
 | --- | --- |
 | Bundle | [PPC performance](README.md#bundle-ppc-performance) |
 | Team | PPC |
-| Status | Added – priced |
+| Status | Recommended – build 1, PPC pacing and performance assistant (with DS-01) |
 | Source type | mixed – Austin – new on top of O-12's draft-diagnosis step; WS-PP04, DM-PP01 |
 | Opportunities | [O-12](../opportunities/README.md#o-12) (draft-diagnosis part) |
 | Earlier ideas | – |
@@ -39,30 +39,30 @@ value: "Counted in DS-01 – removes the \"what's going on\" time when an alert 
 
 > **Collate the information for the account manager and add intel and a first diagnosis**, so nobody spends 20–30 minutes getting up to speed on a problem – they jump straight into fixing it.
 
-## Build approach (agreed 10 Nov)
+## Build approach
 
-**Adpulse metrics + client brain context → a potential diagnosis.** Adpulse flags the change but doesn't explain it (its alerts are threshold-based and its insights are rule-based best-practice checks). So:
+**Windsor.ai account data + client brain context → a diagnosis and a recommended next step.** The pacing engine and performance alerts ([DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)) flag the change; the investigator explains it:
 
-1. An Adpulse alert (via its API or the Slack alert) triggers the investigator.
-2. It pulls the alert's metrics and recent trend from Adpulse.
-3. It adds context from the client brain ([DS-04](ds-04-ai-client-brain.md)): the client's strategy and goals, recent work and changes logged in Monday, recent client comms, and industry, seasonal and news context ([DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md), [DS-33](ds-33-macro-trend-tracker-per-client.md)).
-4. Claude writes a **potential diagnosis** – likely causes ranked, with the evidence for each – and what to check first, in the alert's Slack thread.
+1. A [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) flag (posted to Slack, tagging the account owner) triggers the investigator.
+2. An AI agent reads the account through Windsor.ai – the flagged metrics and their recent trend.
+3. It adds context from the client brain ([DS-04](ds-04-ai-client-brain.md)): the client's goals and history, recent conversations, what's been tried before, recent work and changes logged in Monday, their industry, competitor intel, seasonality and market trends ([DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md), [DS-32](ds-32-competitor-spy-per-client.md), [DS-33](ds-33-macro-trend-tracker-per-client.md)).
+4. It posts a **diagnosis** – likely causes ranked, with the evidence for each – and a recommended next step in the alert's Slack thread.
 
-No direct Google Ads / Meta API connectors are needed at first, which keeps the build light and avoids the API approvals. *Limit: without account-level change history, search terms and auction insights the diagnosis is a well-informed starting point, not a forensic answer; direct ad-platform data can be added later if needed.* Also ask in the Adpulse demo whether it can export change history or search-term data.
+*Limit: where account-level detail such as change history, search terms or auction insights isn't in the data, the diagnosis is a well-informed starting point, not a forensic answer.*
 
 ## Decision
 
-**Team:** PPC. **Decision (9 Nov):** when certain activity is flagged in an ad account, an automation investigates it and gives a commentary or a first diagnosis of the problem.
+**Team:** PPC. **Decision:** when certain activity is flagged in an ad account, the AI investigates it and gives a first diagnosis and a recommended next step. Delivered with [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) as build 1, the PPC pacing and performance assistant; it needs the client brain (build 2) live, because that's where the client context comes from.
 
 ## Is it already covered?
 
-**Partly.** [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (pacing + alerting) **alerts** on thresholds, and Bïrch-style SaaS runs **rules** (pause, scale, notify) – neither diagnoses why something happened. [O-12](../opportunities/README.md#o-12) included a "draft diagnosis" step that [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) didn't carry over. So this is a separate layer on top of [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s alerting (Adpulse).
+**Partly.** [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (pacing + alerting) **alerts** on thresholds, and rules tools (pause, scale, notify) don't diagnose why something happened. [O-12](../opportunities/README.md#o-12) included a "draft diagnosis" step; DS-27 is that layer on top of [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md)'s alerting, in the same build.
 
 ## How it works
 
 1. A [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) alert (e.g. CPA spike, conversion drop, spend anomaly) triggers the investigator.
-2. It pulls the alert's metrics from Adpulse and context from the client brain ([DS-04](ds-04-ai-client-brain.md)).
-3. It writes a short commentary: what changed, the most likely causes ranked, and what to check first.
+2. It reads the alert's metrics through Windsor.ai and context from the client brain ([DS-04](ds-04-ai-client-brain.md)).
+3. It writes a short commentary: what changed, the most likely causes ranked, and the recommended next step.
 4. The manager gets the alert and the diagnosis together in Slack.
 
 ## Problems it fixes and the evidence
@@ -74,7 +74,7 @@ No direct Google Ads / Meta API connectors are needed at first, which keeps the 
 
 ## Future state
 
-Every alert arrives with a first diagnosis, so managers start fixing rather than investigating.
+Every alert arrives with a diagnosis and a recommended next step, so managers start deciding rather than investigating.
 
 ## KPIs
 
@@ -88,7 +88,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 > **Gets the account manager straight to the fix.** When an account needs attention, the investigator collates the data and the client's context and gives a first diagnosis, so nobody spends 20–30 minutes working out what's going on.
 
-**1. Time saved and 2. Capacity unlocked:** counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md). The time spent working out what's going on in an account is part of the weekly session already valued there, so it isn't counted again. DS-27 is what makes that time disappear when an alert fires – the diagnosis arrives with it.
+**1. Time saved and 2. Capacity unlocked:** counted in [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) – together they are build 1, valued at 51–58 hours a month, about A\$187K–213K a year of PPC capacity. The time spent working out what's going on in an account is part of the weekly session already valued there, so it isn't counted again. DS-27 is what makes that time disappear when an alert fires – the diagnosis arrives with it.
 
 **3. Problems it eliminates**
 
@@ -97,7 +97,7 @@ Every alert arrives with a first diagnosis, so managers start fixing rather than
 
 **Goals:** more MRR managed per person · good performance · good customer service
 
-*Inputs from Austin (10 Nov): \~20–30 min to work out what's going on and fix it today.*
+*Inputs from Austin: \~20–30 min to work out what's going on and fix it today.*
 
 ## Pricing
 
@@ -105,4 +105,4 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
-- Needs [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (Adpulse) and [DS-04](ds-04-ai-client-brain.md) live.
+- Needs [DS-01](ds-01-modern-ad-budget-pacing-performance-alerting.md) (Windsor.ai and the alert engine) and the client brain ([DS-04](ds-04-ai-client-brain.md)) live.

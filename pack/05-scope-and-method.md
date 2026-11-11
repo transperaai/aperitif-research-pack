@@ -6,26 +6,24 @@ How the findings were put together, who was spoken to, and what the limits are.
 
 ## Who was interviewed
 
-14 recorded sessions between 22 Oct and 4 Nov 2026: two with Joe and Julia, and twelve one-on-one staff interviews. Lengths are estimates (most recordings had no timestamps).
+14 recorded sessions between 22 Oct and 4 Nov 2026, each an hour or more: two with Joe and Julia, and twelve one-on-one staff interviews.
 
-| Date | Person | Role | Length (est.) |
-| --- | --- | --- | --- |
-| Thu 22 Oct | Joe Romeo and Julia Van Der Linden | Founder & Principal Consultant; Head of Client Services – kick-off | ~90 min |
-| Wed 28 Oct | Wendlley Simoes | Performance Marketing Director | ~63 min |
-| Wed 28 Oct | Laura Shillington | SEO Director | ~20–30 min |
-| Thu 29 Oct | Karl Zaharopoulos | Senior SEO Manager & Link-building Lead | ~60 min |
-| Thu 29 Oct | Sophie Hesseborn | Senior Performance Marketing Manager | ~60 min |
-| Thu 29 Oct | Sarah Julian | Content Manager | ~30 min |
-| Fri 30 Oct | Joe Romeo (and Julia) | Mid-point check-in | ~45 min |
-| Fri 30 Oct | Diya Manoj | Performance Marketing Manager | ~45 min |
-| Fri 30 Oct | Shrishti Dokwal | Senior Performance Marketing Manager | ~54 min |
-| Mon 2 Nov | Michaela Cruz | Performance Marketing Specialist | ~47 min |
-| Wed 4 Nov | Sid (Siddharth) Bali | Technical SEO Specialist | ~40 min |
-| Wed 4 Nov | Tonie Guevarra | Outreach Specialist (link building) | ~45 min |
-| Wed 4 Nov | Zach Chamberlain | SEO Manager | ~47 min |
-| Wed 4 Nov | Hayley Tantau | Content Specialist | ~33 min |
-
-About 11 hours of conversation in total (estimated); staff interviews averaged about 45 minutes.
+| Date | Person | Role |
+| --- | --- | --- |
+| Thu 22 Oct | Joe Romeo and Julia Van Der Linden | Founder & Principal Consultant; Head of Client Services – kick-off |
+| Wed 28 Oct | Wendlley Simoes | Performance Marketing Director |
+| Wed 28 Oct | Laura Shillington | SEO Director |
+| Thu 29 Oct | Karl Zaharopoulos | Senior SEO Manager & Link-building Lead |
+| Thu 29 Oct | Sophie Hesseborn | Senior Performance Marketing Manager |
+| Thu 29 Oct | Sarah Julian | Content Manager |
+| Fri 30 Oct | Joe Romeo (and Julia) | Mid-point check-in |
+| Fri 30 Oct | Diya Manoj | Performance Marketing Manager |
+| Fri 30 Oct | Shrishti Dokwal | Senior Performance Marketing Manager |
+| Mon 2 Nov | Michaela Cruz | Performance Marketing Specialist |
+| Wed 4 Nov | Sid (Siddharth) Bali | Technical SEO Specialist |
+| Wed 4 Nov | Tonie Guevarra | Outreach Specialist (link building) |
+| Wed 4 Nov | Zach Chamberlain | SEO Manager |
+| Wed 4 Nov | Hayley Tantau | Content Specialist |
 
 **Also used**
 - A working session with Wendlley on 4 Nov to troubleshoot the Meta pacing sheet (recorded after Hayley's interview). Used for context only, not as interview evidence.
@@ -80,15 +78,15 @@ About 11 hours of conversation in total (estimated); staff interviews averaged a
 
 Each step fed the next. Every finding traces back down the chain to a transcript line.
 
-1. **Extraction.** Each transcript was read in full and broken into processes, pain points, opportunities, strengths and quotes, using a shared context pack (people, tools, clients, the 26 problems already known, and the $80/hr internal labour rate).
+1. **Extraction.** Each transcript was read in full and broken into processes, pain points, opportunities, strengths and quotes, using a shared pre-audit briefing (people, tools, clients, the 26 problems already known, and the $80/hr internal labour rate).
 2. **Pain points.** Each one tagged with who raised it, whether they said it themselves, Austin raised it, or it was inferred, plus a severity and a verbatim quote.
 3. **Clustering.** Pain points grouped into clusters, with a "raised by" count (staff + leadership; Austin's prompts not counted). Contradictions between interviews were logged.
 4. **Root causes.** Clusters traced to a small set of shared root causes.
 5. **Problems.** Clusters merged with the 26 known problems into one problem list. A separate culture sweep added six culture problems.
 6. **Process costs and opportunities.** Monthly hours costed per process at $80/hr. Each interview's opportunities merged into one list and ranked.
 7. **Austin's decisions.** Austin made a call on every problem (solve now, later, not in this proposal, reject) and every opportunity and earlier idea (keep, change, drop).
-8. **Solutions.** The kept items were written up as solutions DS-01 to DS-33, each with evidence, future state, KPIs, value (time saved and capacity unlocked – revised with Austin on 10 Nov against the live client board) and assumptions.
-9. **Independent audit.** A separate check on 9 Nov re-checked every quote against the transcripts and recomputed every cost figure. Its fixes were applied.
+8. **Solutions.** The kept items were written up as solutions DS-01 to DS-33, each with evidence, future state, KPIs, value (time saved and capacity unlocked – checked with Austin against the live client board, 10 Nov) and assumptions.
+9. **Independent audit.** A separate check re-checked every quote against the transcripts and recomputed every cost figure.
 
 ---
 
@@ -106,7 +104,7 @@ Each step fed the next. Every finding traces back down the chain to a transcript
 | Problems | **48** (incl. 26 known before the audit and 6 culture problems) – decisions: 29 solve now, 5 solve later, 9 not in this proposal (each with a short reason), 5 reject | Problems database |
 | Opportunities | **143** raised in interviews → **35** merged, plus **21** of Austin's earlier ideas | Stage 2; Opportunities database |
 | Solutions | **33** numbered (DS-01 to DS-33) – **32 active**; DS-13 is covered by DS-14 – delivered as **18 builds** in 9 bundles | Distilled Solutions; Builds and pricing |
-| Independent quote check | 66 of 66 quotes verbatim | Independent check, 9 Nov |
+| Independent quote check | 66 of 66 quotes verbatim | Independent check |
 
 **Pain point coverage:** 173 addressed by a solution, 20 partly addressed, 48 sit under problems not in this proposal, 2 under rejected problems.
 

@@ -5,7 +5,6 @@
   "role": "Performance Marketing Director",
   "team": "Performance",
   "date": "2026-10-28",
-  "minutes": 63,
   "clients_managed": 4
  },
  "time_allocation": [
@@ -2493,14 +2492,6 @@
    "quote": "the Metas can't read four accounts yet. And then two accounts don't appear at all.",
    "timestamp": "~55:55–55:58 (S2 L835–L836)",
    "certainty": "stated"
-  },
-  {
-   "value": "~63",
-   "unit": "minutes",
-   "context": "Interview length",
-   "quote": "I know it's 12 o'clock, but just one last question.",
-   "timestamp": "~61:03 (L800)",
-   "certainty": "estimated"
   }
  ],
  "tools": {

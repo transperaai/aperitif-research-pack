@@ -27,7 +27,7 @@ confidence: "High – raised by 3+ people"
 ## Solutions addressing it
 
 - Fixes: [DS-12 Link supply engine: shared vetting skill, client matching, brand mentions (sourcing stage of the DS-11 CRM)](../solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md)
-- Fixes: [DS-31 Proactive brand-mention tracking for backlinks (split from DS-12)](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) – the supply part
+- Fixes: [DS-31 Proactive brand-mention tracking for backlinks](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) – the supply part
 
 ## Linked opportunities
 

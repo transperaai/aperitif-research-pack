@@ -26,7 +26,7 @@ confidence: "High – raised by 3+ people"
 
 ## Solutions addressing it
 
-- Related only: [DS-19 AI receptionist (phone; Aircall add-on or own build)](../solutions/ds-19-ai-receptionist.md) – text note only: problem rejected
+- Related only: [DS-19 AI receptionist (phone; Aircall add-on)](../solutions/ds-19-ai-receptionist.md) – text note only: problem rejected
 
 ## Linked opportunities
 

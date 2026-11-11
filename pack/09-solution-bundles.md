@@ -1,6 +1,6 @@
 # Solution bundles
 
-The 32 active solutions are grouped into nine bundles so they're easier to talk about. **The bundles are for the deck and report only** – each solution stays separate, with its own evidence and decision; prices are per build in [Builds and pricing](../builds/README.md). DS-13 is covered by DS-14 and isn't listed on its own.
+The 32 active solutions are delivered as 18 builds in nine bundles. Each solution keeps its own evidence and decision; prices, value and start order are per build in [Builds and pricing](../builds/README.md). DS-13 is covered by DS-14 and isn't listed on its own.
 
 ---
 
@@ -24,12 +24,12 @@ The 32 active solutions are grouped into nine bundles so they're easier to talk 
 
 | ID | Solution |
 | --- | --- |
-| DS-01 | Modern ad budget pacing + performance alerting across every channel |
-| DS-27 | Alert investigator – AI diagnosis and commentary on flagged activity |
-| DS-29 | Automated Monday client performance check |
-| DS-25 | Performance forecasting tool |
+| DS-01 | Modern ad budget pacing + performance alerting across every channel (build 1) |
+| DS-27 | Alert investigator – AI diagnosis and commentary on flagged activity (build 1) |
+| DS-25 | PPC performance forecasting (build 14) |
+| DS-26 | SEO performance forecasting (build 14) |
 
-**The story.** Managers stop checking every account and react only to what's flagged. Each alert arrives with a first diagnosis, each Monday starts with a summary, and forecasts help set client expectations. This is how a manager looks after more clients without dropping Tier 2/3.
+**The story.** Managers stop checking every account and react only to what's flagged. Each alert arrives with a diagnosis and a recommended next step, and one shared forecasting method helps set client expectations. This is how a manager looks after more clients without dropping Tier 2/3.
 
 ---
 
@@ -38,16 +38,17 @@ The 32 active solutions are grouped into nine bundles so they're easier to talk 
 
 | ID | Solution |
 | --- | --- |
-| DS-22 | Automated Monday client performance check (GA4, Search Console, Ahrefs) |
-| DS-23 | Drop and anomaly alerts |
-| DS-24 | Mid-month wins sent to clients |
-| DS-26 | Performance forecasting tool |
+| DS-22 | Automated Monday client performance check (GA4, Search Console, Ahrefs) (build 8) |
+| DS-23 | Drop and anomaly alerts (build 8) |
+| DS-24 | Mid-month wins sent to clients (build 8) |
+| DS-03 | Automated AI brief drafts → Monday.com tasks (build 6) |
+| DS-09 | AI-prefilled onboarding audit and Master SEO Document (build 7) |
 
-**The story.** The SEO twin of the PPC bundle. The weekly checks that often get skipped happen automatically, drops are known before the client sees them, and good news reaches clients mid-month instead of waiting for the report.
+**The story.** The SEO twin of the PPC bundle. The weekly checks that often get skipped happen automatically, drops are known before the client sees them, and good news reaches clients mid-month instead of waiting for the report. Briefs come out of the master sheet, and a new client's onboarding audit is mostly drafted for the strategist.
 
 ---
 
-## 4. Link-building CRM
+## 4. Link-building system
 **Serves:** the link-building team – Karl, Tonie Guevarra and the outreachers – and the SEO managers who order links.
 
 | ID | Solution |
@@ -81,23 +82,22 @@ The 32 active solutions are grouped into nine bundles so they're easier to talk 
 | --- | --- |
 | DS-08 | AI sales handover – extracted from sales calls, confirmed by delivery |
 | DS-20 | New-client dossier agent – research at signing, into the client brain |
-| DS-09 | AI-prefilled onboarding audit and Master SEO Document |
 | DS-17 | Client files and logins in company-owned shared locations |
 
-**The story.** A new client's first month gets easier for everyone. What was agreed in the pitch reaches delivery, the team knows who they're dealing with before the first call, the audit is mostly drafted for them, and every file and login sits in a company-owned place from day one.
+**The story.** A new client's first month gets easier for everyone. What was agreed in the sales process reaches delivery, the team knows who they're dealing with before the first call, and every file and login sits in a company-owned place from day one.
 
 ---
 
-## 7. Delivery & reporting
-**Serves:** the content team (Sarah Julian, Hayley Tantau), SEO managers and account managers.
+## 7. Delivery and reporting
+**Serves:** account managers (PPC and SEO) and sales.
 
 | ID | Solution |
 | --- | --- |
-| DS-03 | Automated AI brief drafts → Monday.com tasks |
-| DS-05 | Automated deck generator – quarterly and 6-month reviews and proposals |
-| DS-28 | Client comms assistant – monthly updates and expectation setting |
+| DS-05 | Sales proposal and reporting deck generator – quarterly and 6-month reviews and proposals (build 11) |
+| DS-28 | Client comms assistant – monthly updates and expectation setting (build 13) |
+| DS-29 | PPC automated Monday client performance check (build 13) |
 
-**The story.** The repetitive writing around the work gets drafted for people. Briefs come out of the master sheet, review decks pull their own data, and client updates are drafted through the month for the manager to approve – so time goes back into strategy.
+**The story.** The repetitive writing around the work gets drafted for people. Review decks and proposals pull their own data, and client updates are drafted through the month from the PPC and SEO findings for the manager to approve – so time goes back into strategy.
 
 ---
 
@@ -113,13 +113,13 @@ The 32 active solutions are grouped into nine bundles so they're easier to talk 
 
 ---
 
-## 9. Standalone
-These don't fit a bundle and can be decided on their own.
+## 9. New services and standalone tools
+New things to sell, and faster service and creative in-house. Each can be decided on its own.
 
 | ID | Solution | Serves |
 | --- | --- | --- |
-| DS-18 | Landing page generator – ad landing pages on an Aperitif-controlled builder | Performance team |
+| DS-18 | Landing page generator – ad landing pages built on Aperitif's tested structures and hosted by Aperitif | Performance team |
 | DS-19 | AI receptionist – a call director: new leads to Joe, clients to their account manager | Joe, sales and account managers |
 | DS-21 | AI creative tools – existing tools trialled on real clients, no build | Performance team and creative |
 
-**The story.** Three of Austin's own additions, each with lighter interview evidence. Two lean on existing tools first (DS-19 Aircall's add-on; DS-21 no build), and DS-18 starts with a trial of off-the-shelf page builders.
+**The story.** Three of Austin's own additions, each with lighter interview evidence. Two lean on existing tools (DS-19 Aircall's add-on; DS-21 no build, a one-month trial), and DS-18 is a custom generator that turns an outsourced cost into a service Aperitif can sell.

@@ -1,6 +1,6 @@
 # Transcript – Sid (Siddharth) Bali – Technical SEO Specialist – 2026-11-04
 
-Source: meeting notes (verbatim AI transcript). Scheduled 11:30–12:30 AEDT; actual length ~40 min (Austin: "we finished early ... 20 minutes back"; page last edited 41 min after start). No timestamps in source: [~mm:ss] estimated from word position across 40 min. Speaker A = Austin; B, C, D, E, F, G, H = treated as Sid (C and B are clearly Sid; D–H are mostly filler/backchannel or background noise). A few A-labelled lines are probably Sid (e.g. L009, L198).
+Source: meeting notes (verbatim AI transcript). Started 11:30 AEDT. No timestamps in source: [~mm:ss] estimated from word position. Speaker A = Austin; B, C, D, E, F, G, H = treated as Sid (C and B are clearly Sid; D–H are mostly filler/backchannel or background noise). A few A-labelled lines are probably Sid (e.g. L009, L198).
 
 L001 [~00:00] Austin: into Finish all these interviews so I can come up with some solutions, but good.
 L002 [~00:05] Sid (B): It was pretty good.

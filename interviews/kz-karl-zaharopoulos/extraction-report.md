@@ -2,7 +2,7 @@
 
 **Source and method notes**
 - Transcript: meeting notes "Karl Zaharopoulos – Workflow & Process Interview", 29 Oct 2026, 10:00 am (Melbourne). Full transcript retrieved (594 utterances, 11,515 words, ends at sign-off) – not truncated. The AI summary was not used as a source.
-- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position across 60 minutes (booked 10:00; Austin: "We finished at 11", L584).
+- **Timestamps:** the transcript has no timestamps. Every timestamp below is written `~mm:ss (L###)`: L### is the utterance number in `transcript.md`; ~mm:ss is estimated from cumulative word position.
 - **Speakers:** the diariser labelled Austin mostly as A and split Karl across B, C, D, E, F, G, H, I, J and "unknown". All non-Austin lines are treated as Karl, except where the content is clearly Austin's (L213 E, L487 G, L500 G) or clearly Karl's under A (L155 "Not really.", L591 "You too, take care.").
 - **Name and term corrections (transcription):** "Carl" → Karl · "Tony / Toni" → Tonie (Guevarra, Outreach Specialist) · "Jasper" → Jasfer (Guevarra) · "Everhart" → Everhardt (Strauss) · "Spence" → Spencer (Potts) · "Kslot / Caseland" → Khaselyn (Ibanez) · "DDG / TDD" → DDEG (Tier 1) · "Outlink's team" → our link team · "Duck reporting" → Disney reporting (self-corrected) · "Emmanuel" → manual · "EAT" → E-E-A-T · "Red Mop and Young" → roadmap (likely) · "agency analytics" → AgencyAnalytics · "Transpara" → Transpera · "Hey, Tom" (L001) → greeting to Karl. Unresolved: "Fnano" (L278), "Raymer" (L164, a CMS migrated to WordPress), "Joe Allen" / "Bradman" (calculator tabs, L512), "Bella" (Disney contact).
 - Hours are costed at **$80/hr internal labour cost**. Process totals are KZ's own time; outreach-team and tech-team time is not costed (not discussed).
@@ -16,7 +16,7 @@
 | Interviewee | Karl Zaharopoulos |
 | Role | Senior SEO Manager & Link-building Lead |
 | Team | Organic (SEO, link building) |
-| Date / length | 29 Oct 2026 · 60 min (10:00–11:00, stated L052, L584) |
+| Date | 29 Oct 2026 |
 | Interviewer | Austin Smith (Transpera AI) |
 | Clients managed | 12–13, mostly larger retainers (stated, L065, L152) |
 | Channels / services | SEO strategy, keyword research, content briefs, link plans, reporting, onboarding strategy, some content implementation; leads link-building operations; sales prospect decks |
@@ -582,7 +582,6 @@ Ties are broken by Ease, then Impact. KZ-O08 (Impact 3, Ease 3) isn't covered by
 | $3K vs $6K | per month | Example retainer sizes KZ uses to set effort | "I can kind of feel the difference between like a 3K client a month or like a 6K client a month" ~46:36 (L473) | stated |
 | 5 + 5 | hours / month | Calculator example for a $6K client: technical and SEO-manager hours (plus 5 links, 3,000 words) | "technical hours, maybe they get five hours a month. ... SEO like manager hours, maybe they get like five hours a month." ~49:49–50:13 (L495–L496) | stated (example) |
 | Weekly | 1:1s | With Zach and with Tonie; daily check-in with Zach | "We do weekly one-on-ones, use training plans and progression plans" ~07:04 (L089) | stated |
-| 60 | minutes | Interview length (10:00–11:00) | "We finished at 11, which is great" ~59:32 (L584) | stated |
 
 ## 9. Tools, data and workarounds
 

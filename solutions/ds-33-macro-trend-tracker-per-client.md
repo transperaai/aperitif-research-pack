@@ -3,7 +3,7 @@ id: DS-33
 title: "Macro trend tracker per client"
 team: "SEO, content and paid strategists"
 bundle: "Market intelligence"
-status: "Decided – priced"
+status: "Recommended – build 15, Market radar (with DS-16, DS-32)"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -25,7 +25,7 @@ value: "Timely ideas from news and regulation"
 | --- | --- |
 | Bundle | [Market intelligence](README.md#bundle-market-intelligence) |
 | Team | SEO, content and paid strategists |
-| Status | Decided – priced |
+| Status | Recommended – build 15, Market radar (with DS-16, DS-32) |
 | Source type | Austin addition – Austin's earlier idea plus Zach's written doc; one stated example (ZC-PP17), WS-PP12 |
 | Opportunities | – |
 | Earlier ideas | [EI-11](../opportunities/README.md#ei-11) Macro trend tracker agent for client industries |
@@ -35,7 +35,7 @@ value: "Timely ideas from news and regulation"
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
 | Value | Timely ideas from news and regulation |
 
-**Team:** SEO, content and paid strategists. **Decision (9 Nov):** a solution of its own, alongside [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
+**Team:** SEO, content and paid strategists. **Decision:** a solution of its own, alongside [DS-16](ds-16-seasonal-and-trending-content-radar-per-client.md).
 
 ## Vision
 

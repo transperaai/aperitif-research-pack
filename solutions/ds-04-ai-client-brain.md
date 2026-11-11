@@ -3,7 +3,7 @@ id: DS-04
 title: "AI client brain (per client) – under the AI Business Brain banner"
 team: "account managers and delivery (everyone)"  # inferred: the page gives no "Team:" line
 bundle: "AI Business Brain"
-status: "Decided – priced"
+status: "Recommended – build 2, Client brain"
 coverage: addressed
 source_type: "evidence-backed"
 opportunities: ["O-04 (full)", "O-13 (full)", "O-27 (per-client part)", "O-26 (style guide only)"]
@@ -27,7 +27,7 @@ value_capacity_aud_per_year: [26000, 39000]
 | --- | --- |
 | Bundle | [AI Business Brain](README.md#bundle-ai-business-brain) |
 | Team | account managers and delivery (everyone) *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 2, Client brain |
 | Source type | evidence-backed – Design choices (all clients, all sources, custom app, visible client page) are Austin decisions |
 | Opportunities | [O-04](../opportunities/README.md#o-04) (full), [O-13](../opportunities/README.md#o-13) (full), [O-27](../opportunities/README.md#o-27) (per-client part), [O-26](../opportunities/README.md#o-26) (style guide only) |
 | Earlier ideas | [EI-07](../opportunities/README.md#ei-07) Individual AI client Brains, [EI-12](../opportunities/README.md#ei-12) Meeting transcripts → per-client action runsheet |
@@ -46,7 +46,7 @@ value_capacity_aud_per_year: [26000, 39000]
 > - Connected to the **anti-churn and growth** solution ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)).
 > - Makes it easy for every team to know what's going on with a client and how to perform better.
 >
-> **Also in the vision (agreed 9 Nov):**
+> **Also in the vision:**
 >
 > 1. **Every answer cites its source** – "budget agreed at \$8K, call on 3 Oct, 14:20" with a link – so people trust it.
 > 2. **Client health card** at the top of every client page: health score ([DS-14](ds-14-client-health-and-growth-intelligence-anti-churn.md)), last contact, open risks, open actions, next meeting.
@@ -59,7 +59,7 @@ value_capacity_aud_per_year: [26000, 39000]
 
 ## Decision
 
-**Decision (9 Nov):** an AI brain **for each client** that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to **review and query**. It sits under the **AI Business Brain** banner but is treated as a separate solution for now.
+**Decision:** an AI brain **for each client** that pulls from everywhere the client's information currently lives – call transcripts, Slack, emails, the work itself – stitches the loose pieces together, and makes it easy to **review and query**. It sits under the **AI Business Brain** banner but is treated as a separate solution for now.
 
 ## What it pulls together
 
@@ -70,11 +70,11 @@ value_capacity_aud_per_year: [26000, 39000]
 | Email | Client requests, approvals, change requests, sentiment |
 | The work | Master SEO Document, briefs, reports, Monday tasks, ad account change history |
 | Client profile | Strategy, USPs, tone of voice, compliance rules, personalities, preferences |
-| **Client style guide** (added 9 Nov, from [O-26](../opportunities/README.md#o-26)) | Each client's writing and editing rules – voice, terms to use and avoid, formatting, compliance wording – used by writers, freelancers and AI drafts ([DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md)), so edits are fewer and consistent |
+| **Client style guide** (from [O-26](../opportunities/README.md#o-26)) | Each client's writing and editing rules – voice, terms to use and avoid, formatting, compliance wording – used by writers, freelancers and AI drafts ([DS-03](ds-03-automated-ai-brief-drafts-monday-com-tasks.md)), so edits are fewer and consistent |
 
 **What people can do with it:** ask questions in plain English ("what did we agree on budgets last month?", "what's this client's tone?"), get a pre-call brief or dossier, get a handover report in under three clicks, and review a running timeline of everything that's happened with the client.
 
-**Visible, not just queryable (added 9 Nov):** every client brain has a page anyone can open and read without asking anything:
+**Visible, not just queryable:** every client brain has a page anyone can open and read without asking anything:
 
 | On the client page | What it shows |
 | --- | --- |
@@ -90,7 +90,7 @@ The query box is there for questions; the call-outs, logs and actions are always
 
 - **[O-04](../opportunities/README.md#o-04)** One per-client record fed by call summaries – rank 4, priority 100, quick win, effort S
 - **[O-13](../opportunities/README.md#o-13)** AI per-client summary for reports, calls and data questions – rank 13, 75, strategic, effort M (overlaps [O-04](../opportunities/README.md#o-04))
-- **[O-27](../opportunities/README.md#o-27)** AI business brain over client records and SOPs – the per-client part (rank 27, Consider) – the company-wide part stays for a later solution
+- **[O-27](../opportunities/README.md#o-27)** AI business brain over client records and SOPs – the per-client part (rank 27, Consider) – the company-wide part is [DS-15](ds-15-ai-business-brain-the-umbrella.md)
 - Austin's earlier ideas: *Individual AI client Brains*, *Meeting transcripts → per-client action runsheet*
 
 ## Problems it fixes and the evidence
@@ -145,7 +145,7 @@ Handovers and cover: target of **15 minutes or less** to get up to speed on any 
 
 **Goals:** more MRR managed per person · good customer service · retention · trust
 
-*Inputs from Austin (10 Nov): client board: 101 live clients, 31 with a monthly meeting, Tier 2 clients meet quarterly; 15–20 min prep today, \~5 min with the brain, handovers ≤15 min.*
+*Inputs from Austin: client board: 101 live clients, 31 with a monthly meeting, Tier 2 clients meet quarterly; 15–20 min prep today, \~5 min with the brain, handovers ≤15 min.*
 
 ## Pricing
 
@@ -158,7 +158,7 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - One client-record template agreed across organic and paid.
 - Pulling Slack and email per client needs a reliable way to tag which messages belong to which client.
 
-## Decided (9 Nov)
+## Decided
 
 - **All clients** from the start (not Tier 1 first).
 - **All sources at once** – transcripts, Slack, email, the work and the client profile; no phasing.

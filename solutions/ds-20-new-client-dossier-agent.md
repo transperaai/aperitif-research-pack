@@ -3,7 +3,7 @@ id: DS-20
 title: "New-client dossier agent (at signing → client brain)"
 team: "sales and account managers"  # inferred: the page gives no "Team:" line
 bundle: "Client lifecycle"
-status: "Decided – priced"
+status: "Recommended – build 10, New-client dossier"
 coverage: addressed
 source_type: "Austin addition"
 opportunities: []
@@ -25,7 +25,7 @@ value: "New standard: every new client researched before kick-off"
 | --- | --- |
 | Bundle | [Client lifecycle](README.md#bundle-client-lifecycle) |
 | Team | sales and account managers *(inferred)* |
-| Status | Decided – priced |
+| Status | Recommended – build 10, New-client dossier |
 | Source type | Austin addition – Earlier idea; one leadership quote (KO-PP22) |
 | Opportunities | – |
 | Earlier ideas | [EI-17](../opportunities/README.md#ei-17) Prospect research and dossier agent |
@@ -41,7 +41,7 @@ value: "New standard: every new client researched before kick-off"
 
 ## Decision
 
-**Decision (9 Nov):** option B – when a client **signs**, an agent researches them and loads a dossier into the **client brain ([DS-04](ds-04-ai-client-brain.md))**. (Prospect research before the sales call is not included.)
+**Decision:** when a client **signs**, an agent researches them and loads a dossier into the **client brain ([DS-04](ds-04-ai-client-brain.md))**. (Prospect research before the sales call is not included.)
 
 ## How it works
 
@@ -53,7 +53,6 @@ value: "New standard: every new client researched before kick-off"
 ## Problems it fixes and the evidence
 
 - **New-client research done by hand:** *"if we bring on a new client, I do want to stalk them across the internet"* – Head of Client Services ([KO-PP22](../pain-points/README.md#ko-pp22)). Ownership, private equity and LinkedIn profiles are looked up manually; there's no client dossier. Linked problem: [Onboarding stalls on client access and disrupts BAU](../problems/p-20-onboarding-stalls-on-client-access-and-disrupts.md).
-- Austin offered his own client-research agent for this at kick-off.
 
 ## Future state
 
@@ -68,7 +67,7 @@ Every new client has a sourced dossier in their brain within a day of signing, s
 
 ## Value
 
-**Value:** a new standard – every new client gets a research pack (business, market, competitors, people) before kick-off. Today only Julia does this, for about 20 minutes, so for most clients nobody does it. The value is a sharper first impression and a team that walks in already understanding the client.
+**Value:** a new standard – every new client gets a research pack (business, market, competitors, people) before kick-off. Today only Julia does this, for about 20 minutes, so for most clients nobody does it. The value is a sharper first impression and a team that walks in already understanding the client. In time saved it is worth about **A\$1K a year** (3–4 new clients a month × 20 minutes of Head of Client Services research at A\$80/hr).
 
 **Problems it eliminates:** helps **P-20** Onboarding stalls and disrupts BAU
 
@@ -83,6 +82,6 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 - Austin's suggestion, supported by one leadership quote.
 - Uses public information only; LinkedIn data access to be confirmed.
 
-## Decided (9 Nov)
+## Decided
 
-- Option B: research at signing, loaded into the client brain.
+- Research at signing, loaded into the client brain.
