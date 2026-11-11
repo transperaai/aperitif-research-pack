@@ -14,9 +14,9 @@ problems_also_helped: []
 problems_related_only: []
 pain_points_cited: ["KZ-PP06", "KZ-PP07", "LS-PP12", "TG-PP01", "TG-PP02", "TG-PP03", "TG-PP04", "TG-PP08", "TG-PP10", "ZC-PP16"]
 pain_points_interviewer_raised_or_inferred: []
-value: "6.5–15 h/mo · ~3–8 more links a month"
-value_time_h_month: [6.5, 15]
-value_extra_links_month: [3, 8]
+value: "7.5–17 h/mo · ~4–8 more links a month"
+value_time_h_month: [7.5, 17]
+value_extra_links_month: [4, 8]
 build_cost: "A$500"
 monthly: "absorbed into link-building CRM maintenance (DS-11)"
 notion_section: "Link supply engine: shared vetting, client matching, brand mentions"
@@ -38,7 +38,7 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 | Also helps | – |
 | Pain points cited | [KZ-PP06](../pain-points/README.md#kz-pp06), [KZ-PP07](../pain-points/README.md#kz-pp07), [LS-PP12](../pain-points/README.md#ls-pp12), [TG-PP01](../pain-points/README.md#tg-pp01), [TG-PP02](../pain-points/README.md#tg-pp02), [TG-PP03](../pain-points/README.md#tg-pp03), [TG-PP04](../pain-points/README.md#tg-pp04), [TG-PP08](../pain-points/README.md#tg-pp08), [TG-PP10](../pain-points/README.md#tg-pp10), [ZC-PP16](../pain-points/README.md#zc-pp16) |
 | Written source | [Zach Chamberlain – "AI suggestions" Google Doc](https://docs.google.com/document/d/1bsjfs6Aw1F6VOA_nvhWwzPoFv8XHxaXp4Q8UHYAgtsw/edit) (WS-ZC-01) |
-| Value | 6.5–15 h/mo · \~3–8 more links a month |
+| Value | 7.5–17 h/mo · \~4–8 more links a month |
 | Build cost | A\$500 |
 | Monthly | absorbed into link-building CRM maintenance (DS-11) |
 
@@ -100,11 +100,11 @@ notion_section: "Link supply engine: shared vetting, client matching, brand ment
 
 | Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Vetting domains by hand | \~half of vetted domains approved → \~570 domains for 283 links ≈ 9–10 batches × 1–2 h = 9–19 h today; AI pre-vetting removes 70–80% | **\~6.5–15 h** (mostly Karl) |
+| Vetting domains by hand | \~half of vetted domains approved → \~640 domains for 320 links ≈ 10–11 batches × 1–2 h = 10.5–21 h today; AI pre-vetting removes 70–80% | **\~7.5–17 h** (mostly Karl) |
 
 **2. Capacity and revenue unlocked**
 
-\~6.5–15 h freed at \~2 h per link ≈ **\~3–8 more links a month** of delivery capacity (not counted as extra revenue). Karl's time moves from admin to growing the link team.
+\~7.5–17 h freed at \~2 h per link ≈ **\~4–8 more links a month** of delivery capacity (not counted as extra revenue). Karl's time moves from admin to growing the link team.
 
 **3. Problems it eliminates**
 

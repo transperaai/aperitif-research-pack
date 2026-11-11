@@ -115,7 +115,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-11 · Link-building workflow CRM
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| Time saved (~16.5–26.5 h/month): ~283 links a month (client board) × 5–8 min admin a link (Austin input); the CRM removing ~70% is an assumption. Freed time ≈ 8–13 more links a month at ~2 h a link – delivery capacity, not extra revenue | Hours | Time one month of order and invoice admin |
+| Time saved (~18.5–30 h/month): ~320 links a month (client board) × 5–8 min admin a link (Austin input); the CRM removing ~70% is an assumption. Freed time ≈ 9–15 more links a month at ~2 h a link – delivery capacity, not extra revenue | Hours | Time one month of order and invoice admin |
 | External publishers will use a portal or filtered view rather than their own sheets – some brokers may refuse | Evidence-thin | Ask Tonie's top outreachers |
 | Existing sheets can be migrated without losing link history or order IDs | Evidence-thin | Test migration on one month |
 | Payment method stays the same; only tracking moves | Dependency | Confirm with Joe |
@@ -123,7 +123,7 @@ Every assumption labelled in the solutions (DS-01 to DS-33), in one place, with 
 ### DS-12 · Link supply engine
 | Assumption | Type | How to confirm |
 | --- | --- | --- |
-| Time saved (~6.5–15 h/month): 60 domains take 1–2 h to vet (Karl); about half approved (Austin input); AI pre-vetting removing 70–80% is an assumption | Hours | Time a few vetting batches |
+| Time saved (~7.5–17 h/month): 60 domains take 1–2 h to vet (Karl); about half approved (Austin input); AI pre-vetting removing 70–80% is an assumption | Hours | Time a few vetting batches |
 | Karl's vetting criteria can be written down and tested on past decisions | Evidence-thin | Back-test on 100 past decisions |
 | Clients accept quota changes where supply is scarce | Evidence-thin | Ask account managers |
 

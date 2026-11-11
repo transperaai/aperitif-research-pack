@@ -14,9 +14,9 @@ problems_also_helped: []
 problems_related_only: ["P-07"]
 pain_points_cited: ["KO-PP16", "KZ-PP08", "LS-PP12", "MP-PP14", "MP-PP15", "TG-PP05", "TG-PP06", "TG-PP07", "TG-PP09"]
 pain_points_interviewer_raised_or_inferred: ["TG-PP09 (inferred)"]
-value: "16.5–26.5 h/mo · ~8–13 more links a month (delivery capacity)"
-value_time_h_month: [16.5, 26.5]
-value_extra_links_month: [8, 13]
+value: "18.5–30 h/mo · ~9–15 more links a month (delivery capacity)"
+value_time_h_month: [18.5, 30]
+value_extra_links_month: [9, 15]
 build_cost: "A$3,500"
 monthly: "A$750/month + hosting/tokens (shared)"
 notion_section: "Link-building workflow CRM"
@@ -39,7 +39,7 @@ notion_section: "Link-building workflow CRM"
 | Related only | [P-07 Paid links disappear after payment – detected manually](../problems/p-07-paid-links-disappear-after-payment-detected-manually.md) – Solve now |
 | Pain points cited | [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP08](../pain-points/README.md#kz-pp08), [LS-PP12](../pain-points/README.md#ls-pp12), [MP-PP14](../pain-points/README.md#mp-pp14), [MP-PP15](../pain-points/README.md#mp-pp15), [TG-PP05](../pain-points/README.md#tg-pp05), [TG-PP06](../pain-points/README.md#tg-pp06), [TG-PP07](../pain-points/README.md#tg-pp07), [TG-PP09](../pain-points/README.md#tg-pp09) (inferred) |
 | Written source | – |
-| Value | 16.5–26.5 h/mo · \~8–13 more links a month (delivery capacity) |
+| Value | 18.5–30 h/mo · \~9–15 more links a month (delivery capacity) |
 | Build cost | A\$3,500 |
 | Monthly | A\$750/month + hosting/tokens (shared) |
 
@@ -99,7 +99,7 @@ notion_section: "Link-building workflow CRM"
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Published links re-keyed by hand | \~283 a month (client board) | 0 |
+| Published links re-keyed by hand | \~320 a month (client board) | 0 |
 | Order-number mismatches per month | "sometimes" (TG-O03) | 0 |
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time ([KZ-PP08](../pain-points/README.md#kz-pp08)) | Baseline, then −50% |
@@ -112,11 +112,11 @@ notion_section: "Link-building workflow CRM"
 
 | Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Re-keying orders and live links, matching links to clients | \~283 links a month (live clients, client board) × 5–8 min ≈ 24–38 h today; the CRM removes \~70% (links are still entered once) | **\~16.5–26.5 h** |
+| Re-keying orders and live links, matching links to clients | \~320 links a month (live clients, client board) × 5–8 min ≈ 27–43 h today; the CRM removes \~70% (links are still entered once) | **\~18.5–30 h** |
 
 **2. Capacity and revenue unlocked**
 
-At \~2 h of team time per link today, \~16.5–26.5 h freed ≈ room for **\~8–13 more links a month** without hiring. Links are sold inside SEO retainers, so this is delivery capacity, not extra revenue on top of the SEO figures.
+At \~2 h of team time per link today, \~18.5–30 h freed ≈ room for **\~9–15 more links a month** without hiring. Links are sold inside SEO retainers, so this is delivery capacity, not extra revenue on top of the SEO figures.
 
 **3. Problems it eliminates**
 
@@ -125,7 +125,7 @@ At \~2 h of team time per link today, \~16.5–26.5 h freed ≈ room for **\~8�
 
 **Goals:** more MRR managed per person · good performance · trust
 
-*Inputs from Austin (10 Nov): \~283 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.*
+*Inputs from Austin (10 Nov): \~320 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.*
 
 ## Indicative build cost and OpEx
 

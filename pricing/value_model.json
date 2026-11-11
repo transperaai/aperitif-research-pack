@@ -55,7 +55,7 @@
    "staff": 27,
    "avg_per_client": 4170
   },
-  "links_month": 283,
+  "links_month": 320,
   "meetings_month": 36,
   "content_clients": 48,
   "churn_board": "10 ended 31 Aug-17 Oct 2026, avg A$2,500",
@@ -90,22 +90,22 @@
  "DS-26": {},
  "DS-11": {
   "time_h_month": [
-   16.5,
-   26.5
+   18.5,
+   30
   ],
   "links_month": [
-   8,
-   13
+   9,
+   15
   ],
   "removal": 0.7
  },
  "DS-12": {
   "time_h_month": [
-   6.5,
-   15
+   7.5,
+   17
   ],
   "links_month": [
-   3,
+   4,
    8
   ]
  },

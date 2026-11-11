@@ -15,8 +15,8 @@
 | Hosting a month | US\$130–300 |
 | All-in a month | A\$6,774–8,728 (at A\$1 = US\$0.72) |
 | Year 1 (build + 12 months) | A\$140k–164k |
-| Hours handed back a month | 175–272 |
-| Capacity and time a year | \$577k–968k |
+| Hours handed back a month | 178–277 |
+| Capacity and time a year | \$580k–973k |
 | Revenue kept a year (indicative) | \$540k – churn \~4% → \~2.5% a month |
 | Combined dollar value | \$1.12M–1.51M (partly overlapping – kept clients use the same team capacity) |
 
@@ -29,7 +29,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | 1 | PPC pacing and performance assistant | DS-01, DS-27 | 1 | \$7,500 | \$750 | Windsor.ai US\$499–598 · AI US\$25–55 · hosting US\$25–70 | \$187k–213k a year |
 | 2 | Client brain | DS-04 | 1 | \$12,500 | \$1,250 | AI US\$153–515 · hosting US\$60–120 | \$26k–39k a year |
 | 3 | Business brain | DS-15 | 1 | In build 2 | In build 2 | In build 2 | Not measured |
-| 4 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | Optional link-check proxy US\$0–50 · AI US\$15–40 · hosting US\$25–50 | \$32k–56k a year |
+| 4 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | Optional link-check proxy US\$0–50 · AI US\$15–40 · hosting US\$25–50 | \$35k–61k a year |
 | 5 | Brief drafts | DS-03 | 1 | \$1,250 | \$200 | Make operations US\$0–20 · AI US\$5–15 | \$12k–23k a year |
 | 6 | Onboarding audit | DS-09 | 1 | \$1,500 | \$200 | AI US\$10–25 | \$88k–177k a year |
 | 7 | SEO monitoring | DS-22, DS-23, DS-24 | 2 | \$4,250 | In build 1 | AI US\$8–35 (rest in build 1) | \$123k–260k a year |
@@ -62,7 +62,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | PPC pacing and performance assistant | \$187k–213k a year | Capacity: 51–58 hours a month of PPC manager time ÷ \~130 productive hours × PPC MRR per manager (A\$39,749). Plus up to \$10,000 of overspend credits avoided (one incident this year; not added). | Fewer overspends and client credits; better results from scaling winning ads sooner; managers trusted to watch every channel, including LinkedIn and TikTok; a path to autonomous optimisation. |
 | Client brain | \$26k–39k a year | Capacity: 6–9 hours a month of meeting prep at the blended MRR per manager. The client brain is mainly an enabler: SEO monitoring, the deck generator, the new-client dossier, the team assistant and Client Retention and Growth AI need it live – together about \$0.75M–\$0.93M a year of the program's value relies on it (not added again here). The PPC assistant's investigator, the sales handover and client comms also run on it. | Client knowledge no longer lives in people's heads – no loss when someone leaves; handovers in minutes; every agent works from full context; leadership can ask where anything is at. |
 | Business brain | Not measured | Not measured – no data on repeat questions to the founder or Head of Client Services. | Leadership visibility without chasing; fewer interruptions to the founder; SOPs actually used; one home for every agent. |
-| Link-building system | \$32k–56k a year | Time: 23–41.5 hours a month of link-team admin and vetting at \$80/hr (≈ \$22k–\$40k), plus \$10k–\$16k a year of lost paid links recovered by the watchdog. | One system instead of 7+ spreadsheets; less key-person risk; more links built with the same team; client results protected; free links from brand mentions. |
+| Link-building system | \$35k–61k a year | Time: 26–47 hours a month of link-team admin and vetting at \$80/hr (≈ \$25k–\$45k), plus \$10k–\$16k a year of lost paid links recovered by the watchdog. | One system instead of 7+ spreadsheets; less key-person risk; more links built with the same team; client results protected; free links from brand mentions. |
 | Brief drafts | \$12k–23k a year | Time: 12–24 hours a month of content-team time at \$80/hr. | More words written with the same team; no briefs missed or unseen; consistent briefs across writers and freelancers. |
 | Onboarding audit | \$88k–177k a year | Capacity: 10–22 SEO hours at SEO MRR per manager plus 10–18 paid hours at PPC MRR per manager, ÷ \~130 productive hours. | New clients see value sooner; fewer back-to-back onboarding crunches and less out-of-hours work; consistent audits across managers. |
 | SEO monitoring | \$123k–260k a year | Capacity: 24–50 hours a month of SEO manager time (Monday check 17–39 h, drop alerts 7–11 h) at SEO MRR per manager. | Drops caught before the client notices; wins shared mid-month, supporting retention; no skipped weekly checks. |

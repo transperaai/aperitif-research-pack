@@ -24,7 +24,7 @@ Mirror of the Notion page "Value by bundle" (10 Nov 2026, summary updated 11 Nov
 | Team productivity | \~16 h | – | – | \~A\$15K/yr of one specialist's time; nothing missed; clearer focus |
 | Market intelligence | – | – | – | Ideas and a stronger service offering |
 | Standalone | – | – | – | Landing pages: \~A\$18K–72K/yr new revenue (A\$300–600 a page × 5–10 a month, assumed) |
-| **Total** | **\~175–272 h** | **\~A\$0.49M–0.79M** | **\~13–21 clients** | Capacity and time A\$577K–968K/yr · revenue kept \~A\$540K/yr (indicative) · combined \~A\$1.12M–1.51M/yr, partly overlapping |
+| **Total** | **\~178–277 h** | **\~A\$0.49M–0.79M** | **\~13–21 clients** | Capacity and time A\$577K–968K/yr · revenue kept \~A\$540K/yr (indicative) · combined \~A\$1.12M–1.51M/yr, partly overlapping |
 
 ## What it means for DLER
 
@@ -54,7 +54,7 @@ That's roughly 0.8–1.3 account managers' worth of headroom without hiring.
 | SEO | 68 | A\$222,374 | 4 | \~A\$55.6K | \~A\$3,270 |
 | **Total** | **101 clients** | **A\$421,121** | 9 | \~A\$46.8K | \~A\$4,170 per client |
 
-📊 Client board, 10 Nov, paused clients excluded. Also: \~283 links a month; 31 clients with a monthly meeting and Tier 2 clients quarterly; 48 clients receive content; 10 clients ended 31 Aug–17 Oct 2026 (average \~A\$2,500); churn taken as \~4% of clients a month (Austin's estimate, 11 Nov; the ten ended contracts would be closer to 6% a month taken at face value).
+📊 Client board, 10 Nov, paused clients excluded. Also: \~320 links a month; 31 clients with a monthly meeting and Tier 2 clients quarterly; 48 clients receive content; 10 clients ended 31 Aug–17 Oct 2026 (average \~A\$2,500); churn taken as \~4% of clients a month (Austin's estimate, 11 Nov; the ten ended contracts would be closer to 6% a month taken at face value).
 
 ## PPC performance
 
@@ -117,8 +117,8 @@ That's roughly 0.8–1.3 account managers' worth of headroom without hiring.
 
 | Solution | How it does it | Value | Evidence | Basis |
 | --- | --- | --- | --- | --- |
-| **DS-11** Link-building CRM | One CRM replaces the spreadsheets: orders, publishers, live links and invoices are logged once and synced to Monday, so nothing is copied between sheets. | **16.5–26.5 h/mo** · \~8–13 more links a month (delivery capacity) | Karl Zaharopoulos (KZ-PP08): “it's like typically going to like that admin side rather than…” · P-06, P-08 | 📊 283 links a month · 👤 5–8 min admin a link; \~2 h per link · 🔶 CRM removes \~70% |
-| **DS-12** Supply engine | A Claude skill vets domains (quality and spam checks via Ahrefs) and matches them to clients, writing straight into the CRM so Karl reviews a shortlist. | **6.5–15 h/mo** · \~3–8 more links a month | Karl Zaharopoulos (KZ-PP06): “I'll get 60 domains I need to vet and I'll go…” · P-34 | 🗣️ 60 domains take 1–2 h (Karl) · 👤 \~half approved · 🔶 AI removes 70–80% |
+| **DS-11** Link-building CRM | One CRM replaces the spreadsheets: orders, publishers, live links and invoices are logged once and synced to Monday, so nothing is copied between sheets. | **18.5–30 h/mo** · \~9–15 more links a month (delivery capacity) | Karl Zaharopoulos (KZ-PP08): “it's like typically going to like that admin side rather than…” · P-06, P-08 | 📊 320 links a month · 👤 5–8 min admin a link; \~2 h per link · 🔶 CRM removes \~70% |
+| **DS-12** Supply engine | A Claude skill vets domains (quality and spam checks via Ahrefs) and matches them to clients, writing straight into the CRM so Karl reviews a shortlist. | **7.5–17 h/mo** · \~4–8 more links a month | Karl Zaharopoulos (KZ-PP06): “I'll get 60 domains I need to vet and I'll go…” · P-34 | 🗣️ 60 domains take 1–2 h (Karl) · 👤 \~half approved · 🔶 AI removes 70–80% |
 | **DS-07** Link watchdog | An agent checks every live paid link on a schedule; when one is missing or changed it alerts the team and drafts the refund or re-placement email from templates. | Up to **A\$10K–16K/yr** recovered; client results protected | Karl Zaharopoulos (KZ-PP10): “there's like 100 links that just like were no longer working,…” · P-07 | 🗣️ \~100 links lost in \~10 months (Karl) · 👤 refunded or replaced · 🔶 cost A\$80–130 a link |
 | **DS-31** Brand mentions | Ahrefs alerts find mentions of Tier 1 and 2 clients with no link; AI ranks them and drafts outreach for the outreacher to send, and wins go into the CRM. | Links won without paying a publisher | Zach Chamberlain (ZC-PP16): “one thing that we're currently not doing that I think we…” · P-34 | 💡 new capability – not measured |
 

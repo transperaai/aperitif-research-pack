@@ -50,29 +50,29 @@
    null
   ],
   "Capacity and time value": [
-   576500,
-   968300
+   579500,
+   973300
   ],
   "Revenue kept (indicative)": [
    540000,
    540000
   ],
   "Combined dollar value (capacity and time + revenue kept, partly overlapping)": [
-   1116500,
-   1508300
+   1119500,
+   1513300
   ],
   "Capacity is headroom (more clients the same team could manage), not guaranteed revenue. Time saved and capacity are the same hours counted two ways – never added.": [
    null,
    null
   ],
   "Total dollar value": [
-   1116500,
-   1508300
+   1119500,
+   1513300
   ]
  },
  "hours_a_month": [
-  175,
-  271.8
+  178,
+  277.3
  ],
  "builds": [
   {
@@ -440,7 +440,7 @@
    "kpis": [
     [
      "Published links re-keyed by hand",
-     "~283 a month (client board)",
+     "~320 a month (client board)",
      "0"
     ],
     [
@@ -467,12 +467,12 @@
    "value": [
     [
      "Link-building system",
-     "16.5–26.5 hours a month · about 8–13 more links a month",
-     "Client board (283 links a month) · Austin's input (5–8 minutes of admin a link) · estimate (the system removes about 70%)"
+     "18.5–30 hours a month · about 9–15 more links a month",
+     "Client board (320 links a month) · Austin's input (5–8 minutes of admin a link) · estimate (the system removes about 70%)"
     ],
     [
      "Supply engine",
-     "6.5–15 hours a month · about 3–8 more links a month",
+     "7.5–17 hours a month · about 4–8 more links a month",
      "Interview evidence (60 domains take 1–2 hours) · Austin's input (about half approved) · estimate (AI removes 70–80%)"
     ],
     [
@@ -501,9 +501,9 @@
    "opex": "Optional link-check proxy US$0–50 · AI US$15–40 · hosting US$25–50",
    "allin_lo": 805.555555555556,
    "allin_hi": 944.444444444445,
-   "dollar_lo": 32000,
-   "dollar_hi": 56000,
-   "dollar_basis": "Time: 23–41.5 hours a month of link-team admin and vetting at $80/hr (≈ $22k–$40k), plus $10k–$16k a year of lost paid links recovered by the watchdog.",
+   "dollar_lo": 35000,
+   "dollar_hi": 61000,
+   "dollar_basis": "Time: 26–47 hours a month of link-team admin and vetting at $80/hr (≈ $25k–$45k), plus $10k–$16k a year of lost paid links recovered by the watchdog.",
    "intangibles": "One system instead of 7+ spreadsheets; less key-person risk; more links built with the same team; client results protected; free links from brand mentions."
   },
   {

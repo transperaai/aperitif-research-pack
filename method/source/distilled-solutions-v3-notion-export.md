@@ -1250,7 +1250,7 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Published links re-keyed by hand | \~283 a month (client board) | 0 |
+| Published links re-keyed by hand | \~320 a month (client board) | 0 |
 | Order-number mismatches per month | "sometimes" (TG-O03) | 0 |
 | Spreadsheets used to run link building | 7+ | 0 (CRM only) |
 | Link lead hours on admin per month | Unknown – most of their time (KZ-PP08) | Baseline, then −50% |
@@ -1265,11 +1265,11 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 | Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Re-keying orders and live links, matching links to clients | \~283 links a month (live clients, client board) × 5–8 min ≈ 24–38 h today; the CRM removes \~70% (links are still entered once) | <b>\~16.5–26.5 h</b> |
+| Re-keying orders and live links, matching links to clients | \~320 links a month (live clients, client board) × 5–8 min ≈ 27–43 h today; the CRM removes \~70% (links are still entered once) | <b>\~18.5–30 h</b> |
 
 <b>2. Capacity and revenue unlocked</b>
 
-At \~2 h of team time per link today, \~16.5–26.5 h freed ≈ room for <b>\~8–13 more links a month</b> without hiring. Links are sold inside SEO retainers, so this is delivery capacity, not extra revenue on top of the SEO figures.
+At \~2 h of team time per link today, \~18.5–30 h freed ≈ room for <b>\~9–15 more links a month</b> without hiring. Links are sold inside SEO retainers, so this is delivery capacity, not extra revenue on top of the SEO figures.
 
 <b>3. Problems it eliminates</b>
 
@@ -1278,7 +1278,7 @@ At \~2 h of team time per link today, \~16.5–26.5 h freed ≈ room for <b>\~8�
 
 <b>Goals:</b> more MRR managed per person · good performance · trust
 
-<i>Inputs from Austin (10 Nov): \~283 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.</i>
+<i>Inputs from Austin (10 Nov): \~320 links a month for live clients (client board), 5–8 min admin per link, \~2 h team time per link; links are sold to clients at A\$250–500 and cost Aperitif \~A\$80–130. Assumption: CRM removes \~70% of re-keying.</i>
 
 ### Indicative build cost and OpEx
 
@@ -1363,11 +1363,11 @@ See this solution's green <b>Pricing & priority</b> box above.
 
 | Task removed | How it's worked out | Per month |
 | --- | --- | --- |
-| Vetting domains by hand | \~half of vetted domains approved → \~570 domains for 283 links ≈ 9–10 batches × 1–2 h = 9–19 h today; AI pre-vetting removes 70–80% | <b>\~6.5–15 h</b> (mostly Karl) |
+| Vetting domains by hand | \~half of vetted domains approved → \~640 domains for 320 links ≈ 10–11 batches × 1–2 h = 10.5–21 h today; AI pre-vetting removes 70–80% | <b>\~7.5–17 h</b> (mostly Karl) |
 
 <b>2. Capacity and revenue unlocked</b>
 
-\~6.5–15 h freed at \~2 h per link ≈ <b>\~3–8 more links a month</b> of delivery capacity (not counted as extra revenue). Karl's time moves from admin to growing the link team.
+\~7.5–17 h freed at \~2 h per link ≈ <b>\~4–8 more links a month</b> of delivery capacity (not counted as extra revenue). Karl's time moves from admin to growing the link team.
 
 <b>3. Problems it eliminates</b>
 
