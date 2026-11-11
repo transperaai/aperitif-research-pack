@@ -51,7 +51,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 
 - **Phase 1 – Foundations and quick wins:** PPC pacing and performance assistant, Client brain, Business brain, Client Retention and Growth AI, Link-building system, Brief drafts, Onboarding audit
 - **Phase 2 – Built on the foundations:** SEO monitoring, Sales handover, New-client dossier, Sales proposal and reporting deck generator, Team assistant
-- **Phase 3 – Retention and growth:** Client comms, Forecasting, Market radar
+- **Phase 3 – Foresight and client updates:** Client comms, Forecasting, Market radar
 - **Phase 4 – New products and requests:** Landing page generator, AI receptionist
 - **No build:** AI creative tools – trial can start in week 1, paid directly by Aperitif.
 
