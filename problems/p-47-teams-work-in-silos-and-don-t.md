@@ -36,7 +36,6 @@ confidence: "High – raised by 3+ people"
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
 - [O-27](../opportunities/README.md#o-27) AI business brain over client records and SOPs – addressed ([DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md), [DS-04](../solutions/ds-04-ai-client-brain.md))
-- [O-35](../opportunities/README.md#o-35) Joint monthly tech-priority check between strategist and tech team – dropped
 
 ## Root cause and cluster
 

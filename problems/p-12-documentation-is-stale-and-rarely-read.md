@@ -34,11 +34,9 @@ confidence: "High – raised by 3+ people"
 - [O-33](../opportunities/README.md#o-33) SOPs linked from Monday templates; stale pages retired – partly addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
 - [O-16](../opportunities/README.md#o-16) Own and verify automations: register, backup admin, reconciliation – addressed ([DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md))
-- [O-19](../opportunities/README.md#o-19) Effort model: hours per client, load triggers, rebalanced books – dropped
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [O-27](../opportunities/README.md#o-27) AI business brain over client records and SOPs – addressed ([DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md), [DS-04](../solutions/ds-04-ai-client-brain.md))
 - [EI-20](../opportunities/README.md#ei-20) Team wiki – fast answers, self-updating, fits into workflows – absorbed ([DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md))
-- [EI-10](../opportunities/README.md#ei-10) Live chat bot with botflows for frequent processes, overflow to humans – dropped
 - [EI-02](../opportunities/README.md#ei-02) AI Business Brain – addressed ([DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md))
 - [EI-08](../opportunities/README.md#ei-08) L&D platform – training, manuals and SOPs made clear – absorbed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
 

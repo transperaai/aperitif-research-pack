@@ -59,6 +59,8 @@
 
 ### 2.2 Ranked opportunities
 
+> This copy lists only the opportunities carried into the client pack. Counts and ranks are from the full Stage 2 run.
+
 35 merged opportunities from all 143 extraction opportunities (each used once). Ranked by priority; ties broken on Ease, then Impact. 25 of 35 carry a COI flag because at least one source opportunity was flagged as something Transpera would build.
 
 ### O-01 · Restore the pacing data feed and cover every live channel
@@ -309,37 +311,6 @@
 - % of new clients with handover call ≥2 business days before kick-off – baseline unknown (WS-O02); target ≥ 90% (leading)
 - Days from signing to full access – baseline 'can take a long time' (ZC-O05); target ≤ 3 business days (lagging)
 
-### O-09 · Implementer self-QA checklists for page and ad builds
-
-**Rank 9 · Quick win · Priority 80** (Impact 4 × Confidence 5 × Ease 4) — **Lens:** Change the process — **Anchor:** Client experience & delivery — **Horizon:** This month
-
-**What changes:** Implementers complete a QA checklist (devices, templates, text; Meta placements, aspect ratios, copy) before hand-off; one consolidated page-approval round from a single client approver on a visual draft; seniors spot-check rather than full QA except launches.
-
-**Fixes:** C-13 (Page builds and content uploads reach clients with errors or loop for weeks) [R29] · C-28 (Meta campaign builds are manual and every ad needs hand QA) [R37] · C-36 (Escalations, sign-offs, QA and Tier 1 relationships funnel to a few senior people) [R22]
-
-**Pain points:** DM-PP08, KZ-PP13, SB-PP07, SB-PP08, SD-PP16 (also DM-B02, SB-B01, SD-B05)
-
-**Source opportunities:** KZ-O04 · SB-O05 · DM-O04 · SD-O12
-
-**Existing solution idea:** New / AI-assisted creative (partial) — **Candidate tool:** Monday.com checklist items; multi-device screenshot tool. No build.
-
-**Hours saved:** 3.1–12.7 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O04 0.1–0.9 + SB-O05 2.0–8.0 + DM-O04 0.3–2.0 + SD-O12 0.7–1.9 = 3.1–12.7 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 89.0–160.3 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 3.1–12.7 h × $80 = $248–$1,018/month
-
-**Effort:** S — **Adoption risk:** M – Checklists are a known adoption risk (SOPs unread, C-35); make the Monday status depend on the checklist.
-
-**Prerequisites:** Checklists written by the senior reviewers.
-
-**COI flag:** **Yes** – Transpera could build this (flagged on SB-O05).
-
-**Scoring notes:** Impact – hours mid 7.9 h → base 3; +1 Errors reach clients (C-13); senior QA bottleneck (C-36). Confidence – problem score 4 (primary cluster C-13: High), solution score 5 (4 raiser(s): KZ, SB, DM, SD); averaged; touched-process stated share 0%.
-
-**KPIs:**
-
-- Builds with issues found by the client – baseline unknown – 'the client sees it first' (L551) (KZ-O04); target 0 a month (lagging)
-- Manager QA minutes per Meta launch – baseline 20–30 ads checked one by one; minutes unknown (DM-O04); target ≤10 min (leading)
-
 ### O-10 · Switch on native platform alert rules and scripts now
 
 **Rank 10 · Quick win · Priority 75** (Impact 3 × Confidence 5 × Ease 5) — **Lens:** Change the process — **Anchor:** Performance visibility & margin — **Horizon:** This month
@@ -557,37 +528,6 @@
 - Make scenarios with written documentation – baseline unknown (assume 0) (SB-O04); target 100% (leading)
 - Clients whose monthly task set matches scope – baseline Unknown (KO-O06); target 100% each month, with alerts for gaps (leading)
 
-### O-17 · Cap concurrent onboardings per manager; protect BAU time
-
-**Rank 17 · Quick win · Priority 60** (Impact 3 × Confidence 5 × Ease 4) — **Lens:** People & policy — **Anchor:** Operations capacity & process — **Horizon:** This month
-
-**What changes:** Maximum two concurrent onboardings per manager with an allocation rule; pool month-1 keyword research above the cap; when a specialist onboards, cap team implementation that week; send access requests with the contract to start the clock earlier.
-
-**Fixes:** C-09 (Client onboarding stalls waiting on access, client inputs and the tracking contractor) [R20] · C-10 (Onboarding work is manual and heavy; clustered starts swamp BAU and wear staff down) [R20] · C-17 (Managers are at capacity, so lower-tier clients and account hygiene slip first) [R21] · C-18 (Unplanned same-day and high-touch client requests break the planned month) [R32] · C-19 (Effort per client isn't tracked, so capacity, pricing and margin are set by feel) [R26] · C-20 (Content briefs are re-cut and reformatted by hand, eating the first half of each month) [R33]
-
-**Pain points:** KO-PP08, KO-PP09, KZ-PP02, KZ-PP05, KZ-PP22, KZ-PP23, MC-PP01, MC-PP09, MC-PP12, SD-PP07, SD-PP10, ZC-PP02, ZC-PP08 (also KO-B03, KO-B04)
-
-**Source opportunities:** KO-O15 · KZ-O07 · ZC-O06 · SD-O08 · MC-O08
-
-**Existing solution idea:** New — **Candidate tool:** Monday.com workload view. No build.
-
-**Hours saved:** 0.0–5.2 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O15 0.0–0.0 + KZ-O07 0.0–0.0 + ZC-O06 0.0–2.0 + SD-O08 0.0–1.6 + MC-O08 0.0–1.6 = 0.0–5.2 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 31.7–121.4 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 0.0–5.2 h × $80 = $0–$418/month
-
-**Effort:** S — **Adoption risk:** M – Conflicts with sales timing (C-38) – needs leadership to hold the line.
-
-**Prerequisites:** Leadership agrees the cap and what happens to sales start dates.
-
-**COI flag:** No · Bias/COI carried from clusters: C-10: COI: Austin offered his own client-research agent for new-client dossiers (KO suggestions, leadership's request). | C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading.
-
-**Scoring notes:** Impact – hours mid 2.6 h → base 2; +1 C-10 severity 5, 4 staff + 2 leadership. Confidence – problem score 5 (primary cluster C-10: High), solution score 5 (5 raiser(s): leadership, KZ, ZC, SD, MC); averaged; touched-process stated share 0%.
-
-**KPIs:**
-
-- Concurrent onboardings per manager – baseline Up to 5 sites in a month (L164) (KZ-O07); target ≤ 2 (leading)
-- Days from signing to fully onboarded – baseline About 1 month (KO-O15); target Under 21 days (lagging)
-
 ### O-18 · One link record: standard order template, auto-sync, invoice run
 
 **Rank 18 · Strategic · Priority 60** (Impact 5 × Confidence 4 × Ease 3) — **Lens:** Change the process — **Anchor:** Operations capacity & process — **Horizon:** This quarter
@@ -618,37 +558,6 @@
 
 - Published links re-keyed by hand – baseline All 300–340 a month (TG-O02); target 0 (leading)
 - Order-number mismatches per month – baseline 'sometimes' (TG-O03); target 0 (lagging)
-
-### O-19 · Effort model: hours per client, load triggers, rebalanced books
-
-**Rank 19 · Strategic · Priority 60** (Impact 4 × Confidence 5 × Ease 3) — **Lens:** Change the process — **Anchor:** Operations capacity & process — **Horizon:** This quarter
-
-**What changes:** Use hours already allocated on monthly HubSpot/Monday tickets to compare allocated vs actual effort per client and per role (no timesheets); set client-load triggers per role for hiring; rebalance the two most overloaded senior books (move smaller clients and ~8 paid channels to senior managers).
-
-**Fixes:** C-17 (Managers are at capacity, so lower-tier clients and account hygiene slip first) [R21] · C-18 (Unplanned same-day and high-touch client requests break the planned month) [R32] · C-19 (Effort per client isn't tracked, so capacity, pricing and margin are set by feel) [R26] · C-35 (SOPs and new systems aren't adopted, so leaders re-explain and mistakes repeat) [R12] · C-37 (Management layer is thin: paid media lacks a senior lead; new leads lack training) [R41]
-
-**Pain points:** KO-PP07, KO-PP26, LS-PP01, LS-PP02, MP-PP07, MP-PP18, MP-PP19, SB-PP13, SB-PP15, WS-PP01, WS-PP11 (also LS-B03, LS-S14)
-
-**Source opportunities:** KO-O03 · MP-O13 · LS-O06 · WS-O08 · SB-O08
-
-**Existing solution idea:** Sales wiki / spend calculator (partial) / New — **Candidate tool:** HubSpot + Monday.com reporting; Google Sheets model. No build.
-
-**Hours saved:** 0.0–0.0 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O03 0.0–0.0 + LS-O06 8.5–16.7 + WS-O08 8.7–12.7 + SB-O08 0.0–0.0 = 0.0–0.0 h/month. High ends of capped people scaled by their 160 h cap ratio. These 17.2–29.4 h are senior hours freed by moving work to others – redistributed, not saved agency-wide, so saving is shown as 0. Process hours available: 191.0–300.8 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 0.0–0.0 h × $80 = $0–$0/month
-
-**Effort:** M — **Adoption risk:** H – Effort tracking has never existed ("a bit of a feel", KZ-O07); reassigning accounts touches client relationships.
-
-**Prerequisites:** Agreed hours per client tier from the price calculator; leadership decision on reassignments.
-
-**COI flag:** No · Bias/COI carried from clusters: C-17: Bias: interviewer's wrap-up framed organic as having little room to save time (LS-X02, MP-X04) – leading.
-
-**Scoring notes:** Impact – hours mid 0.0 h → base 1; +3 Margin set by feel (C-19) and managers at capacity (C-17, 7 staff + 2 leadership). Confidence – problem score 5 (primary cluster C-17: High), solution score 5 (4 raiser(s): leadership, LS, WS, SB); averaged; touched-process stated share 2%.
-
-**KPIs:**
-
-- Clients with allocated hours vs revenue shown (margin per client) – baseline 0% – no timesheets or utilisation tracking (KO-O03); target All tier-1 and tier-2 clients within one quarter (leading)
-- Channels managed by the senior performance lead – baseline 18 (WS-O08); target ≤ 10 (leading)
 
 ### O-20 · Widen link supply: shared vetting skill, client matching, mentions
 
@@ -773,37 +682,6 @@
 
 - Monthly reports with an explicit recommendation – baseline Unknown (KO-O13); target 100% of tier-1 reports (leading)
 - Upsell/cross-sell proposals raised per month – baseline Unknown ("a few") (LS-O07); target Set after baseline count (leading)
-
-### O-24 · Client approval SLAs with logged dates and reminders
-
-**Rank 24 · Quick win · Priority 48** (Impact 3 × Confidence 4 × Ease 4) — **Lens:** Change the process — **Anchor:** Client experience & delivery — **Horizon:** This month
-
-**What changes:** Log sent and approved dates for every client approval; approval window in the client agreement (e.g. 5 business days, deemed approved for low-risk content; 2 days for paid optimisations under a "change authority" clause) with automatic reminders on day 3 and 5 and a stalled-client flag. A client portal (phase 2) only if SLAs do not move the numbers.
-
-**Fixes:** C-11 (Content stalls at client approval with no client-facing approval trail) [R10] · C-14 (Client approval cycles hold up paid optimisations and launches, while managers carry the blame) [R30]
-
-**Pain points:** DM-PP06, DM-PP07, LS-PP06, LS-PP07, LS-PP17, ZC-PP06 (also DM-B01, DM-B04, DM-B05, LS-B01, LS-S06, LS-S07, LS-S11, ZC-B01)
-
-**Source opportunities:** LS-O04 · ZC-O04 · DM-O07 · LS-O05
-
-**Existing solution idea:** Client approval portal (lightweight version first) — **Candidate tool:** Monday.com date columns and automations; contract template. Portal would be a Transpera build.
-
-**Hours saved:** 2.6–8.7 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): LS-O05 2.0–4.7 + ZC-O04 0.3–2.5 + DM-O07 0.3–1.5 = 2.6–8.7 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 85.0–195.5 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 2.6–8.7 h × $80 = $208–$695/month
-
-**Effort:** S — **Adoption risk:** M – Client-facing change; managers carry the blame for delays today (C-14).
-
-**Prerequisites:** Contract wording change; account managers willing to enforce.
-
-**COI flag:** **Yes** – Transpera could build this (flagged on LS-O05).
-
-**Scoring notes:** Impact – hours mid 5.6 h → base 2; +1 C-11, C-14 High; ~1 week average approval (ZC-P04). Confidence – problem score 4 (primary cluster C-11: High), solution score 4 (3 raiser(s): LS, ZC, DM); averaged; touched-process stated share 3%.
-
-**KPIs:**
-
-- Days from content sent to approval – baseline ~7 days average (ZC-O04); target ≤ 4 business days (lagging)
-- Median approval turnaround for optimisations – baseline unknown (DM-O07); target ≤2 business days (lagging)
 
 ### O-25 · Content intake on Monday with brief standard and slots
 
@@ -1021,36 +899,6 @@
 - % churned clients flagged ≥30 days ahead – baseline unknown (MP-O08); target ≥80% (leading)
 - Portfolio retention % (company and department) – baseline Unknown – figure not stated (KO-O01); target Hold or improve retention against the target leadership sets (lagging)
 
-### O-32 · Fill the senior performance leadership seat
-
-**Rank 32 · Strategic · Priority 24** (Impact 4 × Confidence 2 × Ease 3) — **Lens:** People & policy — **Anchor:** Leadership & dependency — **Horizon:** This quarter
-
-**What changes:** Hire or appoint an interim senior performance lead and move the operational work leadership is covering back to that seat.
-
-**Fixes:** C-37 (Management layer is thin: paid media lacks a senior lead; new leads lack training) [R41]
-
-**Pain points:** KO-PP04 (also KO-B07)
-
-**Source opportunities:** KO-O14
-
-**Existing solution idea:** New — **Candidate tool:** Hire. No build.
-
-**Hours saved:** 0.0–0.0 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KO-O14 0.0–0.0 = 0.0–0.0 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 80.8–110.7 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 0.0–0.0 h × $80 = $0–$0/month
-
-**Effort:** L — **Adoption risk:** M – Hiring lead time; interim must have authority.
-
-**Prerequisites:** Budget; role scope agreed with the performance team.
-
-**COI flag:** No
-
-**Scoring notes:** Impact – hours mid 0.0 h → base 1; +3 C-37: paid media (61 clients, ~$788K/month budgets) has a vacant senior seat. Confidence – problem score 4 (primary cluster C-37: High), solution score 2 (1 raiser(s): leadership); averaged −1 (no stated time in touched processes, ≤2 raisers); touched-process stated share 0%.
-
-**KPIs:**
-
-- leadership's share of time on performance operations – baseline Unknown (KO-O14); target Under 10% within a quarter of the hire (leading)
-
 ### O-33 · SOPs linked from Monday templates; stale pages retired
 
 **Rank 33 · Fill-in · Priority 16** (Impact 2 × Confidence 2 × Ease 4) — **Lens:** Change the process — **Anchor:** Technology, AI & stack — **Horizon:** This quarter
@@ -1082,86 +930,26 @@
 - Repeat how-to questions to founder per month – baseline unknown (MP-O12); target -50% (lagging)
 - Tickets updated on time – baseline Unknown (KO-O10); target At least 90% (leading)
 
-### O-34 · Standard creative brief with one consolidated feedback round
-
-**Rank 34 · Fill-in · Priority 16** (Impact 2 × Confidence 2 × Ease 4) — **Lens:** Change the process — **Anchor:** Client experience & delivery — **Horizon:** This quarter
-
-**What changes:** Standard design-partner brief with must-haves, examples and an acceptance checklist; one consolidated feedback round; trial AI creative (Canva) for simple variants.
-
-**Fixes:** C-29 (Creative and landing pages are outsourced, slow and hard to brief) [R38]
-
-**Pain points:** MC-PP15 (also MC-B04)
-
-**Source opportunities:** MC-O13
-
-**Existing solution idea:** AI-assisted creative — **Candidate tool:** Canva AI; brief template. No build.
-
-**Hours saved:** 0.3–2.2 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): MC-O13 0.3–2.2 = 0.3–2.2 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 1.7–5.4 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 0.3–2.2 h × $80 = $24–$172/month
-
-**Effort:** S — **Adoption risk:** M – Single raiser; outsourced partner must accept the format.
-
-**Prerequisites:** Template written by a specialist.
-
-**COI flag:** No
-
-**Scoring notes:** Impact – hours mid 1.2 h → base 1; +1 Slow outsourced creative delays launches (C-29). Confidence – problem score 4 (primary cluster C-29: High), solution score 2 (1 raiser(s): MC); averaged −1 (no stated time in touched processes, ≤2 raisers); touched-process stated share 0%.
-
-**KPIs:**
-
-- Creative revision rounds per design-partner brief – baseline Several (MC-O13); target ≤1 (lagging)
-
-### O-35 · Joint monthly tech-priority check between strategist and tech team
-
-**Rank 35 · Fill-in · Priority 16** (Impact 2 × Confidence 2 × Ease 4) — **Lens:** Change the process — **Anchor:** Client experience & delivery — **Horizon:** This quarter
-
-**What changes:** Strategist and technical SEO agree the month's tasks by impact before work starts; tech tickets due by the 25th so reports show them done.
-
-**Fixes:** C-26 (Strategy and technical SEO run as separate queues, so big technical work slips) [R35]
-
-**Pain points:** KZ-PP11, KZ-PP12 (also KZ-B04)
-
-**Source opportunities:** KZ-O06
-
-**Existing solution idea:** New — **Candidate tool:** Monday.com. No build.
-
-**Hours saved:** 0.5–1.5 h/month (assumed). Per person, the largest saving among their merged sources (overlapping ideas from one person are not added): KZ-O06 0.5–1.5 = 0.5–1.5 h/month. High ends of capped people scaled by their 160 h cap ratio. Process hours available: 104.5–174.7 h. Certainty: assumed (reduction percentages are assumptions).
-
-**$ saved:** 0.5–1.5 h × $80 = $40–$118/month
-
-**Effort:** S — **Adoption risk:** M – Two queues with different managers (X-04 reporting lines unclear).
-
-**Prerequisites:** None beyond a 30-minute monthly slot.
-
-**COI flag:** No
-
-**Scoring notes:** Impact – hours mid 1.0 h → base 1; +1 Big technical work slips for months (C-26). Confidence – problem score 4 (primary cluster C-26: High), solution score 2 (1 raiser(s): KZ); averaged −1 (no stated time in touched processes, ≤2 raisers); touched-process stated share 0%.
-
-**KPIs:**
-
-- % of tech tasks done by report date – baseline unknown – sometimes still in progress on the 5th (L333) (KZ-O06); target ≥ 90% (leading)
-
 ### 2.2 Grouped views
 
-**Quick win (18)**: O-01 Restore the pacing data feed and cover every live channel (P125, COI) · O-02 AI data rule, company Claude seats and shared skills library (P125, COI) · O-03 AI brief drafts from the Master SEO Document (P100, COI) · O-04 One per-client record fed by call summaries (P100, COI) · O-05 Reports and review decks: auto-filled data, AI-drafted narrative (P100, COI) · O-06 All internal requests via Monday forms; Monday notifies, not people (P100, COI) · O-07 Automated live-link checks with publisher replacement claims (P80, COI) · O-08 Sales-to-delivery gate: handover fields, owner, access checklist (P80, COI) · O-09 Implementer self-QA checklists for page and ad builds (P80, COI) · O-10 Switch on native platform alert rules and scripts now (P75, COI) · O-15 Enter budgets once, log every change, written overspend policy (P64) · O-16 Own and verify automations: register, backup admin, reconciliation (P60, COI) · O-17 Cap concurrent onboardings per manager; protect BAU time (P60) · O-21 Delegation and triage rules for escalations and sign-offs (P48) · O-22 Sales discipline: calculator, margin check, speed-to-lead (P48, COI) · O-23 "Problem plus recommendation" rule in reports and calls (P48) · O-24 Client approval SLAs with logged dates and reminders (P48, COI) · O-30 Client files and logins in company-owned shared locations (P30)
+**Quick win (18)**: O-01 Restore the pacing data feed and cover every live channel (P125, COI) · O-02 AI data rule, company Claude seats and shared skills library (P125, COI) · O-03 AI brief drafts from the Master SEO Document (P100, COI) · O-04 One per-client record fed by call summaries (P100, COI) · O-05 Reports and review decks: auto-filled data, AI-drafted narrative (P100, COI) · O-06 All internal requests via Monday forms; Monday notifies, not people (P100, COI) · O-07 Automated live-link checks with publisher replacement claims (P80, COI) · O-08 Sales-to-delivery gate: handover fields, owner, access checklist (P80, COI) · O-10 Switch on native platform alert rules and scripts now (P75, COI) · O-15 Enter budgets once, log every change, written overspend policy (P64) · O-16 Own and verify automations: register, backup admin, reconciliation (P60, COI) · O-21 Delegation and triage rules for escalations and sign-offs (P48) · O-22 Sales discipline: calculator, margin check, speed-to-lead (P48, COI) · O-23 "Problem plus recommendation" rule in reports and calls (P48) · O-30 Client files and logins in company-owned shared locations (P30)
 
-**Strategic (11)**: O-11 Pacing tracker reads budgets and spend, flags gaps (P75, COI) · O-12 Cross-account performance monitor with draft diagnosis (paid and SEO) (P75, COI) · O-13 AI per-client summary for reports, calls and data questions (P75, COI) · O-14 AI-prefilled onboarding audit and Master SEO Document (P75, COI) · O-18 One link record: standard order template, auto-sync, invoice run (P60, COI) · O-19 Effort model: hours per client, load triggers, rebalanced books (P60) · O-20 Widen link supply: shared vetting skill, client matching, mentions (P60, COI) · O-25 Content intake on Monday with brief standard and slots (P48, COI) · O-26 Spread editing: checklist, trained backup editors, junior writer (P36) · O-31 Weekly churn-risk signal list per client (P24, COI) · O-32 Fill the senior performance leadership seat (P24)
+**Strategic (11)**: O-11 Pacing tracker reads budgets and spend, flags gaps (P75, COI) · O-12 Cross-account performance monitor with draft diagnosis (paid and SEO) (P75, COI) · O-13 AI per-client summary for reports, calls and data questions (P75, COI) · O-14 AI-prefilled onboarding audit and Master SEO Document (P75, COI) · O-18 One link record: standard order template, auto-sync, invoice run (P60, COI) · O-20 Widen link supply: shared vetting skill, client matching, mentions (P60, COI) · O-25 Content intake on Monday with brief standard and slots (P48, COI) · O-26 Spread editing: checklist, trained backup editors, junior writer (P36) · O-31 Weekly churn-risk signal list per client (P24, COI)
 
 **Consider (3)**: O-27 AI business brain over client records and SOPs (P36, COI) · O-28 Seasonal, trending and competitor content radar (P36, COI) · O-29 AI inbox triage and daily brief across Gmail, Slack, Monday (P36, COI)
 
-**Fill-in (3)**: O-33 SOPs linked from Monday templates; stale pages retired (P16, COI) · O-34 Standard creative brief with one consolidated feedback round (P16) · O-35 Joint monthly tech-priority check between strategist and tech team (P16)
+**Fill-in (3)**: O-33 SOPs linked from Monday templates; stale pages retired (P16, COI)
 
 **Deprioritise (0)**: none
 
-**COI summary.** 25 of 35 merged opportunities carry a COI flag (at least one source opportunity flagged as something Transpera would build). Most of the in-stack Quick wins carry the flag only because one source suggested a build – O-01, O-02, O-03, O-04, O-06, O-08, O-09, O-10, O-16 and O-24 can all be done without Transpera. The flag matters most for the six "Needs a build" items and for O-07 / O-18 / O-27, where Austin personally offered the link monitor/CRM and the AI business brain is his own idea. The 16 existing solution ideas in the pack predate the interviews – the verdict table below checks each against interview evidence rather than assuming they are right.
+**COI summary.** 25 of 35 merged opportunities carry a COI flag (at least one source opportunity flagged as something Transpera would build). Most of the in-stack Quick wins carry the flag only because one source suggested a build – O-01, O-02, O-03, O-04, O-06, O-08, O-10 and O-16 can all be done without Transpera. The flag matters most for the six "Needs a build" items and for O-07 / O-18 / O-27, where Austin personally offered the link monitor/CRM and the AI business brain is his own idea. The 16 existing solution ideas in the pack predate the interviews – the verdict table below checks each against interview evidence rather than assuming they are right.
 
 **By horizon**
 
 | Horizon | Opportunities |
 | --- | --- |
-| This month | O-01 Restore the pacing data feed and cover every live channel, O-02 AI data rule, company Claude seats and shared skills library, O-03 AI brief drafts from the Master SEO Document, O-04 One per-client record fed by call summaries, O-06 All internal requests via Monday forms; Monday notifies, not people, O-08 Sales-to-delivery gate: handover fields, owner, access checklist, O-09 Implementer self-QA checklists for page and ad builds, O-10 Switch on native platform alert rules and scripts now, O-15 Enter budgets once, log every change, written overspend policy, O-16 Own and verify automations: register, backup admin, reconciliation, O-17 Cap concurrent onboardings per manager; protect BAU time, O-21 Delegation and triage rules for escalations and sign-offs, O-22 Sales discipline: calculator, margin check, speed-to-lead, O-23 "Problem plus recommendation" rule in reports and calls, O-24 Client approval SLAs with logged dates and reminders, O-30 Client files and logins in company-owned shared locations |
-| This quarter | O-05 Reports and review decks: auto-filled data, AI-drafted narrative, O-07 Automated live-link checks with publisher replacement claims, O-18 One link record: standard order template, auto-sync, invoice run, O-19 Effort model: hours per client, load triggers, rebalanced books, O-20 Widen link supply: shared vetting skill, client matching, mentions, O-25 Content intake on Monday with brief standard and slots, O-26 Spread editing: checklist, trained backup editors, junior writer, O-29 AI inbox triage and daily brief across Gmail, Slack, Monday, O-31 Weekly churn-risk signal list per client, O-32 Fill the senior performance leadership seat, O-33 SOPs linked from Monday templates; stale pages retired, O-34 Standard creative brief with one consolidated feedback round, O-35 Joint monthly tech-priority check between strategist and tech team |
+| This month | O-01 Restore the pacing data feed and cover every live channel, O-02 AI data rule, company Claude seats and shared skills library, O-03 AI brief drafts from the Master SEO Document, O-04 One per-client record fed by call summaries, O-06 All internal requests via Monday forms; Monday notifies, not people, O-08 Sales-to-delivery gate: handover fields, owner, access checklist, O-10 Switch on native platform alert rules and scripts now, O-15 Enter budgets once, log every change, written overspend policy, O-16 Own and verify automations: register, backup admin, reconciliation, O-21 Delegation and triage rules for escalations and sign-offs, O-22 Sales discipline: calculator, margin check, speed-to-lead, O-23 "Problem plus recommendation" rule in reports and calls, O-30 Client files and logins in company-owned shared locations |
+| This quarter | O-05 Reports and review decks: auto-filled data, AI-drafted narrative, O-07 Automated live-link checks with publisher replacement claims, O-18 One link record: standard order template, auto-sync, invoice run, O-20 Widen link supply: shared vetting skill, client matching, mentions, O-25 Content intake on Monday with brief standard and slots, O-26 Spread editing: checklist, trained backup editors, junior writer, O-29 AI inbox triage and daily brief across Gmail, Slack, Monday, O-31 Weekly churn-risk signal list per client, O-33 SOPs linked from Monday templates; stale pages retired |
 | Needs a build | O-11 Pacing tracker reads budgets and spend, flags gaps, O-12 Cross-account performance monitor with draft diagnosis (paid and SEO), O-13 AI per-client summary for reports, calls and data questions, O-14 AI-prefilled onboarding audit and Master SEO Document, O-27 AI business brain over client records and SOPs, O-28 Seasonal, trending and competitor content radar |
 
 This month = Quick win with effort S and no build. This quarter = everything else that can be done in-stack. Needs a build = the candidate tool names a Transpera build.
@@ -1170,10 +958,10 @@ This month = Quick win with effort S and no build. This quarter = everything els
 
 | Anchor | Eliminate | Change the process | People & policy | Augment | Automate |
 | --- | --- | --- | --- | --- | --- |
-| Client experience & delivery | – | O-04, O-08, O-09, O-24, O-34, O-35 | O-23 | O-14, O-31 | – |
+| Client experience & delivery | – | O-04, O-08 | O-23 | O-14, O-31 | – |
 | Growth & sales engine | – | O-22 | – | – | O-28 |
-| Leadership & dependency | – | – | O-21, O-32 | – | – |
-| Operations capacity & process | – | O-06, O-18, O-19, O-25 | O-02, O-17, O-26 | O-03, O-05, O-13, O-20 | O-12 |
+| Leadership & dependency | – | – | O-21 | – | – |
+| Operations capacity & process | – | O-06, O-18, O-25 | O-02, O-26 | O-03, O-05, O-13, O-20 | O-12 |
 | Performance visibility & margin | – | O-01, O-10, O-15 | – | – | O-07, O-11 |
 | Technology, AI & stack | – | O-30, O-33 | O-16 | O-27, O-29 | – |
 
@@ -1196,9 +984,8 @@ Eliminate appears only inside O-06 (stopping the daily agenda message and status
 | Churn-risk alerts | Supported by leadership only | O-31 | No staff proposer; confidence 2 |
 | AI business brain | Not supported as a first step | O-27 | Austin's own idea; one leadership proposer; depends on client records and SOP adoption first |
 | Team wiki / L&D | Reframed | O-33, O-02 | Wiki exists; the problem is adoption and currency (X-15) |
-| Client approval portal | Not supported as a first step | O-24 | Single proposer (LS-O05); SLAs and logged dates first |
 | Unlinked brand-mention outreach | Weak | O-20 | Single proposer (ZC-O09); folded into link supply |
-| AI-assisted creative | Weak | O-34, O-09 | Single proposer (MC-O13); Fill-in |
+| AI-assisted creative | Weak | – | Single proposer (MC-O13); Fill-in |
 
 ### 2.3 Coverage check
 
@@ -1206,6 +993,6 @@ Eliminate appears only inside O-06 (stopping the daily agenda message and status
 
 **Opportunities that address no cluster:** none among the merged set. Two source opportunities fix no Stage 1 cluster on their own and were kept only as extensions: SB-O09 (lead-magnet audit) inside O-14 – justified because it reuses the same engine and serves C-39 growth; ZC-O11 (draft 6-month reviews) inside O-05 – it fixes process ZC-P11, which sits under C-06.
 
-**Thin coverage (one opportunity only):** C-08 → O-08, C-13 → O-09, C-25 → O-07, C-26 → O-35, C-34 → O-30. C-25 (paid links vanish, severity 5) rests on one opportunity – keep it on the shortlist.
+**Thin coverage (one opportunity only):** five clusters, including C-08 → O-08, C-25 → O-07 and C-34 → O-30. C-25 (paid links vanish, severity 5) rests on one opportunity – keep it on the shortlist.
 
-**Before you rely on these numbers:** savings are assumed percentages of mostly assumed process hours; leadership team-wide estimates were used only as cross-checks where staff gave their own (O-11, O-12, O-18); senior hours freed by rebalancing books are shown as redistributed, not saved (O-19). O-07's 5–10 h rests on one leadership estimate for re-keying links (MP-O05) – live re-checks currently take 0 h because nobody does them, so its value is mainly the avoided link loss. Hours saved are not additive across opportunities.
+**Before you rely on these numbers:** savings are assumed percentages of mostly assumed process hours; leadership team-wide estimates were used only as cross-checks where staff gave their own (O-11, O-12, O-18); senior hours freed by rebalancing books are shown as redistributed, not saved. O-07's 5–10 h rests on one leadership estimate for re-keying links (MP-O05) – live re-checks currently take 0 h because nobody does them, so its value is mainly the avoided link loss. Hours saved are not additive across opportunities.

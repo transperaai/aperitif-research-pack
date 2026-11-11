@@ -30,8 +30,6 @@ confidence: "High – raised by 3+ people"
 
 ## Linked opportunities
 
-- [O-17](../opportunities/README.md#o-17) Cap concurrent onboardings per manager; protect BAU time – dropped
-- [O-19](../opportunities/README.md#o-19) Effort model: hours per client, load triggers, rebalanced books – dropped
 
 ## Root cause and cluster
 

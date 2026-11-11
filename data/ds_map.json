@@ -422,7 +422,7 @@
     "id": "P-21",
     "title": "Managers at capacity – Tier 2/3 clients get dropped first",
     "call": "Solve now",
-    "note": "\"also helps (partly)\"; capacity not solved – O-17/O-19/O-32 dropped"
+    "note": "\"also helps (partly)\"; capacity not solved"
    },
    {
     "id": "P-40",
@@ -1428,7 +1428,7 @@
   "status": "Recommended – build 18, AI creative tools: no build, a one-month trial",
   "coverage": "addressed",
   "merged_into": "",
-  "progress_table_opportunities": "Austin's earlier idea (O-34 dropped; its AI-creative trial idea lives here)",
+  "progress_table_opportunities": "Austin's earlier idea (also takes in the AI-creative trial idea from the interviews)",
   "team_inferred": true,
   "bundle": "New services and standalone tools",
   "value": "Faster creative in-house"

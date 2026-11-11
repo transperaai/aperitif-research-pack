@@ -1,4 +1,4 @@
-# Opportunities (35 merged + 21 earlier ideas)
+# Opportunities (44: 28 from the interviews + 16 earlier ideas)
 
 **O-xx** are the merged opportunities from Stage 2 (built from the per-interview opportunities). **EI-xx** are Austin's earlier ideas (numbered alphabetically by title). Each has the audit call (Keep / Change / Drop) and the outcome with its reason. Hours saved are Stage 2 estimates (assumed). Machine-readable: [opportunities.csv](opportunities.csv).
 
@@ -14,7 +14,6 @@
 | <a id="o-06"></a>O-06 | All internal requests via Monday forms; Monday notifies, not people | Change | partly addressed | [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md) | Only the capture part kept, as the request sweeper; Monday forms not included |
 | <a id="o-07"></a>O-07 | Automated live-link checks with publisher replacement claims | Keep | addressed | [DS-07](../solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) | Core of [DS-07](../solutions/ds-07-link-watchdog-agent-monitors-every-paid-link.md) link watchdog |
 | <a id="o-08"></a>O-08 | Sales-to-delivery gate: handover fields, owner, access checklist | Keep | addressed | [DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md) | Handover part rebuilt without hard gates; access checklist and staged onboarding as add-on |
-| <a id="o-09"></a>O-09 | Implementer self-QA checklists for page and ad builds | Drop | dropped | – | Not included |
 | <a id="o-10"></a>O-10 | Switch on native platform alert rules and scripts now | Change | absorbed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) | Interim step inside [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) while the tool is chosen |
 | <a id="o-11"></a>O-11 | Pacing tracker reads budgets and spend, flags gaps | Keep | absorbed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) | Merged into the [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) pacing tool |
 | <a id="o-12"></a>O-12 | Cross-account performance monitor with draft diagnosis (paid and SEO) | Keep | addressed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-27](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md), [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md), [DS-23](../solutions/ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md) | Split: paid part in [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-27](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md) (diagnosis), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md) (Monday check); SEO part in [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md), [DS-23](../solutions/ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md) |
@@ -22,14 +21,11 @@
 | <a id="o-14"></a>O-14 | AI-prefilled onboarding audit and Master SEO Document | Keep | addressed | [DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) | Core of [DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md) as written; prospect-deck part also in [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) |
 | <a id="o-15"></a>O-15 | Enter budgets once, log every change, written overspend policy | Keep | absorbed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) | Merged into [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) (budgets entered once, changes logged) |
 | <a id="o-16"></a>O-16 | Own and verify automations: register, backup admin, reconciliation | Keep | addressed | [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) | Core of [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) systems register |
-| <a id="o-17"></a>O-17 | Cap concurrent onboardings per manager; protect BAU time | Drop | dropped | – | Not included |
 | <a id="o-18"></a>O-18 | One link record: standard order template, auto-sync, invoice run | Keep | addressed | [DS-11](../solutions/ds-11-link-building-workflow-crm.md) | Core of [DS-11](../solutions/ds-11-link-building-workflow-crm.md), rebuilt as a full CRM incl. invoicing |
-| <a id="o-19"></a>O-19 | Effort model: hours per client, load triggers, rebalanced books | Drop | dropped | – | Not included |
 | <a id="o-20"></a>O-20 | Widen link supply: shared vetting skill, client matching, mentions | Keep | addressed | [DS-12](../solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md), [DS-31](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) | Core of [DS-12](../solutions/ds-12-link-supply-engine-shared-vetting-skill-client.md) (vetting, matching); brand-mention part now [DS-31](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) |
 | <a id="o-21"></a>O-21 | Delegation and triage rules for escalations and sign-offs | Keep | absorbed | [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) | Covered by [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) as Part B (escalation and delegation rules) |
 | <a id="o-22"></a>O-22 | Sales discipline: calculator, margin check, speed-to-lead | Drop | partly addressed | [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) | Dropped as its own solution; only the calculator-in-every-proposal part kept in [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) |
 | <a id="o-23"></a>O-23 | "Problem plus recommendation" rule in reports and calls | Keep | partly addressed | [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) | Only the upsell part kept ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md)); the rule itself stays dropped; [DS-28](../solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md) drafts do it instead |
-| <a id="o-24"></a>O-24 | Client approval SLAs with logged dates and reminders | Drop | dropped | – | Not included |
 | <a id="o-25"></a>O-25 | Content intake on Monday with brief standard and slots | Keep | absorbed | [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) | Folded in full into [DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md) |
 | <a id="o-26"></a>O-26 | Spread editing: checklist, trained backup editors, junior writer | Change | partly addressed | [DS-04](../solutions/ds-04-ai-client-brain.md) | Only the client style guide kept, inside [DS-04](../solutions/ds-04-ai-client-brain.md) |
 | <a id="o-27"></a>O-27 | AI business brain over client records and SOPs | Keep | addressed | [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md), [DS-04](../solutions/ds-04-ai-client-brain.md) | Company layer is [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md); per-client part is [DS-04](../solutions/ds-04-ai-client-brain.md) |
@@ -37,10 +33,7 @@
 | <a id="o-29"></a>O-29 | AI inbox triage and daily brief across Gmail, Slack, Monday | Keep | absorbed | [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) | Inbox triage in [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md); daily brief now [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) |
 | <a id="o-30"></a>O-30 | Client files and logins in company-owned shared locations | Keep | addressed | [DS-17](../solutions/ds-17-client-files-and-logins-in-company-owned.md) | Core of [DS-17](../solutions/ds-17-client-files-and-logins-in-company-owned.md) as written |
 | <a id="o-31"></a>O-31 | Weekly churn-risk signal list per client | Keep | addressed | [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md) | Core of [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md), extended to continuous AI alerts |
-| <a id="o-32"></a>O-32 | Fill the senior performance leadership seat | Drop | dropped | – | Not included |
 | <a id="o-33"></a>O-33 | SOPs linked from Monday templates; stale pages retired | Drop | partly addressed | [DS-02](../solutions/ds-02-ai-playbook-repository.md) | SOP part kept in [DS-02](../solutions/ds-02-ai-playbook-repository.md); "retire stale pages" stays dropped |
-| <a id="o-34"></a>O-34 | Standard creative brief with one consolidated feedback round | Drop | dropped | – | Not included – a process change, not a build |
-| <a id="o-35"></a>O-35 | Joint monthly tech-priority check between strategist and tech team | Drop | dropped | – | Not included – a process change, not a build |
 
 ## <a id="earlier-ideas-table"></a>Earlier ideas
 
@@ -50,20 +43,15 @@
 | <a id="ei-02"></a>EI-02 | AI Business Brain | Keep | addressed | [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) | Became the DS-15 umbrella |
 | <a id="ei-03"></a>EI-03 | AI receptionist | Keep | addressed | [DS-19](../solutions/ds-19-ai-receptionist.md) | Became DS-19 (build 17): a call director using Aircall's AI receptionist add-on; weak evidence |
 | <a id="ei-04"></a>EI-04 | AI-assisted creative production | Keep | addressed | [DS-21](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md) | Became DS-21: existing tools, no build |
-| <a id="ei-05"></a>EI-05 | Auto set-up of financial profile for new clients | Drop | dropped | – | Not taken up – Drop |
-| <a id="ei-06"></a>EI-06 | Client approval tool / portal | Drop | dropped | – | Dropped with O-24 |
 | <a id="ei-07"></a>EI-07 | Individual AI client Brains | Keep | absorbed | [DS-04](../solutions/ds-04-ai-client-brain.md) | Merged into DS-04 client brain |
 | <a id="ei-08"></a>EI-08 | L&D platform – training, manuals and SOPs made clear | Keep | absorbed | [DS-02](../solutions/ds-02-ai-playbook-repository.md) | Merged into DS-02 AI playbook |
 | <a id="ei-09"></a>EI-09 | Landing page generator | Keep | addressed | [DS-18](../solutions/ds-18-landing-page-generator.md) | Became DS-18 |
-| <a id="ei-10"></a>EI-10 | Live chat bot with botflows for frequent processes, overflow to humans | Drop | dropped | – | Not taken up – Drop |
 | <a id="ei-11"></a>EI-11 | Macro trend tracker agent for client industries | Keep | addressed | [DS-33](../solutions/ds-33-macro-trend-tracker-per-client.md) | Became DS-33 (part of the DS-16 radar family) |
 | <a id="ei-12"></a>EI-12 | Meeting transcripts → per-client action runsheet | Change | absorbed | [DS-04](../solutions/ds-04-ai-client-brain.md) | Merged into DS-04 (meeting log and per-client actions) |
 | <a id="ei-13"></a>EI-13 | Pacing tracker + adjustment engine | Keep | partly addressed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md) | Tracker merged into DS-01; the adjustment engine (automated actions) left for a later phase |
-| <a id="ei-14"></a>EI-14 | PPC done-with/for-you productised service | Keep | held for discussion | – | Held for a later conversation – not a solution and not rejected |
 | <a id="ei-15"></a>EI-15 | Proactive PPC monitor and anomaly detector | Keep | absorbed | [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md) | Merged into DS-01 alerting (and the DS-29 weekly check) |
 | <a id="ei-16"></a>EI-16 | Proposal generator | Keep | absorbed | [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) | Merged into DS-05 deck generator |
 | <a id="ei-17"></a>EI-17 | Prospect research and dossier agent | Keep | partly addressed | [DS-20](../solutions/ds-20-new-client-dossier-agent.md) | Option B only: research at signing; prospect research before sales calls not included |
-| <a id="ei-18"></a>EI-18 | Replace HubSpot | Drop | dropped | – | Dropped – HubSpot stays as the sales CRM and the trigger for Monday onboarding |
 | <a id="ei-19"></a>EI-19 | Seasonal & trending content radar per client | Keep | absorbed | [DS-16](../solutions/ds-16-seasonal-and-trending-content-radar-per-client.md) | Merged into DS-16 (seasonal and trending part) |
 | <a id="ei-20"></a>EI-20 | Team wiki – fast answers, self-updating, fits into workflows | Keep | absorbed | [DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md) | Merged into DS-15 (smart SOPs people can query) |
 | <a id="ei-21"></a>EI-21 | Unlinked brand-mention monitoring and outreach (Tier 1) | Keep | absorbed | [DS-31](../solutions/ds-31-proactive-brand-mention-tracking-for-backlinks.md) | Covered by DS-31 brand-mention tracking (part of the DS-12 radar family) |
@@ -142,15 +130,6 @@
 - **Built from:** KO-O02, WS-O02, SH-O07, MC-O07, SB-O03, ZC-O05, MC-O02, MC-O11, MC-O12
 - **Decision:** addressed – Handover part rebuilt without hard gates; access checklist and staged onboarding as add-on
 
-### O-09 Implementer self-QA checklists for page and ad builds
-
-- **What changes:** Implementers complete a QA checklist (devices, templates, text; Meta placements, aspect ratios, copy) before hand-off; one consolidated page-approval round from a single client approver on a visual draft; seniors spot-check rather than full QA except launches.
-- **Lens:** Change the process · **Tool:** Monday.com checklist items; multi-device screenshot tool. No build. · **Rank:** 9 Quick win · **Hours saved/month (assumed):** 3.1–12.7
-- **Problems:** [P-22](../problems/p-22-escalations-route-around-department-leads-to-the.md), [P-29](../problems/p-29-page-builds-and-content-uploads-reach-clients.md), [P-37](../problems/p-37-meta-campaign-builds-are-manual-and-every.md), [P-48](../problems/p-48-problems-are-fixed-after-they-break-by.md)
-- **Fixes pain points:** [DM-PP08](../pain-points/README.md#dm-pp08), [KZ-PP13](../pain-points/README.md#kz-pp13), [SB-PP07](../pain-points/README.md#sb-pp07), [SB-PP08](../pain-points/README.md#sb-pp08), [SD-PP16](../pain-points/README.md#sd-pp16)
-- **Built from:** KZ-O04, SB-O05, DM-O04, SD-O12
-- **Decision:** dropped – Not included
-
 ### O-10 Switch on native platform alert rules and scripts now
 
 - **What changes:** Turn on Meta automated rules (frequency > 3, CPL > 2× target) and Google Ads rules/scripts for CPL spikes, conversion drops (e.g. −30% week on week) and monthly negative-keyword candidates; route Merchant Center disapprovals to Slack and add a weekly owned Monday check.
@@ -214,15 +193,6 @@
 - **Built from:** SB-O04, TG-O07, KO-O06, KO-O07
 - **Decision:** addressed – Core of [DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md) systems register
 
-### O-17 Cap concurrent onboardings per manager; protect BAU time
-
-- **What changes:** Maximum two concurrent onboardings per manager with an allocation rule; pool month-1 keyword research above the cap; when a specialist onboards, cap team implementation that week; send access requests with the contract to start the clock earlier.
-- **Lens:** People & policy · **Tool:** Monday.com workload view. No build. · **Rank:** 17 Quick win · **Hours saved/month (assumed):** 0.0–5.2
-- **Problems:** [P-17](../problems/p-17-conversion-tracking-depends-on-one-contractor.md), [P-20](../problems/p-20-onboarding-stalls-on-client-access-and-disrupts.md), [P-21](../problems/p-21-managers-at-capacity-tier-2-3-clients.md), [P-26](../problems/p-26-pricing-is-inconsistent-across-templates-and-the.md), [P-32](../problems/p-32-unplanned-same-day-and-high-touch-client.md), [P-33](../problems/p-33-content-briefs-are-re-cut-and-reformatted.md)
-- **Fixes pain points:** [KO-PP08](../pain-points/README.md#ko-pp08), [KO-PP09](../pain-points/README.md#ko-pp09), [KZ-PP02](../pain-points/README.md#kz-pp02), [KZ-PP05](../pain-points/README.md#kz-pp05), [KZ-PP22](../pain-points/README.md#kz-pp22), [KZ-PP23](../pain-points/README.md#kz-pp23), [MC-PP01](../pain-points/README.md#mc-pp01), [MC-PP09](../pain-points/README.md#mc-pp09), [MC-PP12](../pain-points/README.md#mc-pp12), [SD-PP07](../pain-points/README.md#sd-pp07), [SD-PP10](../pain-points/README.md#sd-pp10), [ZC-PP02](../pain-points/README.md#zc-pp02), [ZC-PP08](../pain-points/README.md#zc-pp08)
-- **Built from:** KO-O15, KZ-O07, ZC-O06, SD-O08, MC-O08
-- **Decision:** dropped – Not included
-
 ### O-18 One link record: standard order template, auto-sync, invoice run
 
 - **What changes:** One standard order template with fixed order IDs; external publishers see a filtered view of one Aperitif-owned order sheet; a publisher's completed-link entry triggers copy to the master sheet and Monday.com via one owned automation; outreachers invoice against link IDs on a form and payment runs weekly in one approval pass. A link-building CRM only if the sheet route fails.
@@ -231,15 +201,6 @@
 - **Fixes pain points:** [KO-PP16](../pain-points/README.md#ko-pp16), [KZ-PP08](../pain-points/README.md#kz-pp08), [MP-PP14](../pain-points/README.md#mp-pp14), [MP-PP15](../pain-points/README.md#mp-pp15), [TG-PP05](../pain-points/README.md#tg-pp05), [TG-PP06](../pain-points/README.md#tg-pp06), [TG-PP07](../pain-points/README.md#tg-pp07), [TG-PP09](../pain-points/README.md#tg-pp09), [TG-PP10](../pain-points/README.md#tg-pp10)
 - **Built from:** TG-O03, TG-O02, MP-O06, KO-O08, KZ-O13
 - **Decision:** addressed – Core of [DS-11](../solutions/ds-11-link-building-workflow-crm.md), rebuilt as a full CRM incl. invoicing
-
-### O-19 Effort model: hours per client, load triggers, rebalanced books
-
-- **What changes:** Use hours already allocated on monthly HubSpot/Monday tickets to compare allocated vs actual effort per client and per role (no timesheets); set client-load triggers per role for hiring; rebalance the two most overloaded senior books (move smaller clients and \~8 paid channels to senior managers).
-- **Lens:** Change the process · **Tool:** HubSpot + Monday.com reporting; Google Sheets model. No build. · **Rank:** 19 Strategic · **Hours saved/month (assumed):** 0.0–0.0
-- **Problems:** [P-12](../problems/p-12-documentation-is-stale-and-rarely-read.md), [P-13](../problems/p-13-documentation-and-internal-tooling-held-by-the.md), [P-21](../problems/p-21-managers-at-capacity-tier-2-3-clients.md), [P-26](../problems/p-26-pricing-is-inconsistent-across-templates-and-the.md), [P-32](../problems/p-32-unplanned-same-day-and-high-touch-client.md), [P-41](../problems/p-41-management-layer-is-thin-paid-media-lacks.md), [P-46](../problems/p-46-client-pleasing-comes-before-margin-scope-and.md)
-- **Fixes pain points:** [KO-PP07](../pain-points/README.md#ko-pp07), [KO-PP26](../pain-points/README.md#ko-pp26), [LS-PP01](../pain-points/README.md#ls-pp01), [LS-PP02](../pain-points/README.md#ls-pp02), [MP-PP07](../pain-points/README.md#mp-pp07), [MP-PP18](../pain-points/README.md#mp-pp18), [MP-PP19](../pain-points/README.md#mp-pp19), [SB-PP13](../pain-points/README.md#sb-pp13), [SB-PP15](../pain-points/README.md#sb-pp15), [WS-PP01](../pain-points/README.md#ws-pp01), [WS-PP11](../pain-points/README.md#ws-pp11)
-- **Built from:** KO-O03, MP-O13, LS-O06, WS-O08, SB-O08
-- **Decision:** dropped – Not included
 
 ### O-20 Widen link supply: shared vetting skill, client matching, mentions
 
@@ -276,15 +237,6 @@
 - **Fixes pain points:** [KO-PP20](../pain-points/README.md#ko-pp20), [LS-PP08](../pain-points/README.md#ls-pp08), [LS-PP09](../pain-points/README.md#ls-pp09)
 - **Built from:** KO-O13, LS-O07
 - **Decision:** partly addressed – Only the upsell part kept ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md)); the rule itself stays dropped; [DS-28](../solutions/ds-28-client-comms-assistant-monthly-updates-and-expectation.md) drafts do it instead
-
-### O-24 Client approval SLAs with logged dates and reminders
-
-- **What changes:** Log sent and approved dates for every client approval; approval window in the client agreement (e.g. 5 business days, deemed approved for low-risk content; 2 days for paid optimisations under a "change authority" clause) with automatic reminders on day 3 and 5 and a stalled-client flag. A client portal (phase 2) only if SLAs do not move the numbers.
-- **Lens:** Change the process · **Tool:** Monday.com date columns and automations; contract template. Portal would be a Transpera build. · **Rank:** 24 Quick win · **Hours saved/month (assumed):** 2.6–8.7
-- **Problems:** [P-10](../problems/p-10-content-stalls-at-client-approval-or-the.md), [P-30](../problems/p-30-client-approval-cycles-hold-up-paid-optimisations.md)
-- **Fixes pain points:** [DM-PP06](../pain-points/README.md#dm-pp06), [DM-PP07](../pain-points/README.md#dm-pp07), [LS-PP06](../pain-points/README.md#ls-pp06), [LS-PP07](../pain-points/README.md#ls-pp07), [LS-PP17](../pain-points/README.md#ls-pp17), [ZC-PP06](../pain-points/README.md#zc-pp06)
-- **Built from:** LS-O04, ZC-O04, DM-O07, LS-O05
-- **Decision:** dropped – Not included
 
 ### O-25 Content intake on Monday with brief standard and slots
 
@@ -349,15 +301,6 @@
 - **Built from:** KO-O01, MP-O08
 - **Decision:** addressed – Core of [DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md), extended to continuous AI alerts
 
-### O-32 Fill the senior performance leadership seat
-
-- **What changes:** Hire or appoint an interim senior performance lead and move the operational work leadership is covering back to that seat.
-- **Lens:** People & policy · **Tool:** Hire. No build. · **Rank:** 32 Strategic · **Hours saved/month (assumed):** 0–0
-- **Problems:** [P-41](../problems/p-41-management-layer-is-thin-paid-media-lacks.md)
-- **Fixes pain points:** [KO-PP04](../pain-points/README.md#ko-pp04)
-- **Built from:** KO-O14
-- **Decision:** dropped – Not included
-
 ### O-33 SOPs linked from Monday templates; stale pages retired
 
 - **What changes:** Link the relevant SOP from each Monday task template ("link first" when answering a how-to question); retire Notion pages unused for 12 months; a 90-day pause on new tools while current ones bed in, short role-based training and one AI champion per department.
@@ -367,20 +310,3 @@
 - **Built from:** MP-O12, KO-O10
 - **Decision:** partly addressed – SOP part kept in [DS-02](../solutions/ds-02-ai-playbook-repository.md); "retire stale pages" stays dropped
 
-### O-34 Standard creative brief with one consolidated feedback round
-
-- **What changes:** Standard design-partner brief with must-haves, examples and an acceptance checklist; one consolidated feedback round; trial AI creative (Canva) for simple variants.
-- **Lens:** Change the process · **Tool:** Canva AI; brief template. No build. · **Rank:** 34 Fill-in · **Hours saved/month (assumed):** 0.3–2.2
-- **Problems:** [P-38](../problems/p-38-creative-and-landing-pages-are-outsourced-slow.md)
-- **Fixes pain points:** [MC-PP15](../pain-points/README.md#mc-pp15)
-- **Built from:** MC-O13
-- **Decision:** dropped – Not included – a process change, not a build
-
-### O-35 Joint monthly tech-priority check between strategist and tech team
-
-- **What changes:** Strategist and technical SEO agree the month's tasks by impact before work starts; tech tickets due by the 25th so reports show them done.
-- **Lens:** Change the process · **Tool:** Monday.com. No build. · **Rank:** 35 Fill-in · **Hours saved/month (assumed):** 0.5–1.5
-- **Problems:** [P-35](../problems/p-35-strategy-and-technical-seo-run-as-separate.md), [P-47](../problems/p-47-teams-work-in-silos-and-don-t.md)
-- **Fixes pain points:** [KZ-PP11](../pain-points/README.md#kz-pp11), [KZ-PP12](../pain-points/README.md#kz-pp12)
-- **Built from:** KZ-O06
-- **Decision:** dropped – Not included – a process change, not a build

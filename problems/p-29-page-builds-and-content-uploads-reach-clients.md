@@ -19,7 +19,7 @@ confidence: "High – raised by 3+ people"
 | | |
 | --- | --- |
 | Decision | **Not in proposal** |
-| Status | not in proposal – why: the fix ([O-09](../opportunities/README.md#o-09)) was not taken forward. |
+| Status | not in proposal – why: the fix was not taken forward. |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -30,7 +30,6 @@ confidence: "High – raised by 3+ people"
 
 ## Linked opportunities
 
-- [O-09](../opportunities/README.md#o-09) Implementer self-QA checklists for page and ad builds – dropped
 
 ## Root cause and cluster
 

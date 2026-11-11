@@ -19,7 +19,7 @@ confidence: "High – raised by 3+ people"
 | | |
 | --- | --- |
 | Decision | **Not in proposal** |
-| Status | not in proposal – why: the fix ([O-24](../opportunities/README.md#o-24)) was not taken forward. |
+| Status | not in proposal – why: the fix was not taken forward. |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -31,8 +31,6 @@ confidence: "High – raised by 3+ people"
 ## Linked opportunities
 
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
-- [O-24](../opportunities/README.md#o-24) Client approval SLAs with logged dates and reminders – dropped
-- [EI-06](../opportunities/README.md#ei-06) Client approval tool / portal – dropped
 
 ## Root cause and cluster
 

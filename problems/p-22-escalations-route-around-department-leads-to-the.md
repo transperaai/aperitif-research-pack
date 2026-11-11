@@ -33,9 +33,7 @@ confidence: "High – raised by 3+ people"
 
 - [O-31](../opportunities/README.md#o-31) Weekly churn-risk signal list per client – addressed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
-- [O-09](../opportunities/README.md#o-09) Implementer self-QA checklists for page and ad builds – dropped
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
-- [EI-10](../opportunities/README.md#ei-10) Live chat bot with botflows for frequent processes, overflow to humans – dropped
 - [EI-02](../opportunities/README.md#ei-02) AI Business Brain – addressed ([DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md))
 
 ## Root cause and cluster

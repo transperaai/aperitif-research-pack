@@ -33,8 +33,6 @@ confidence: "High – raised by 3+ people"
 
 - [O-03](../opportunities/README.md#o-03) AI brief drafts from the Master SEO Document – addressed ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md))
 - [O-06](../opportunities/README.md#o-06) All internal requests via Monday forms; Monday notifies, not people – partly addressed ([DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md))
-- [O-17](../opportunities/README.md#o-17) Cap concurrent onboardings per manager; protect BAU time – dropped
-- [O-19](../opportunities/README.md#o-19) Effort model: hours per client, load triggers, rebalanced books – dropped
 - [O-25](../opportunities/README.md#o-25) Content intake on Monday with brief standard and slots – absorbed ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md))
 - [O-26](../opportunities/README.md#o-26) Spread editing: checklist, trained backup editors, junior writer – partly addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
 

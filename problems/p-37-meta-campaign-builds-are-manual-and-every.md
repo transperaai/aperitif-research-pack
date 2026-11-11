@@ -31,7 +31,6 @@ confidence: "High – raised by 3+ people"
 ## Linked opportunities
 
 - [O-02](../opportunities/README.md#o-02) AI data rule, company Claude seats and shared skills library – addressed ([DS-02](../solutions/ds-02-ai-playbook-repository.md), [DS-25](../solutions/ds-25-ppc-performance-forecasting-tool.md))
-- [O-09](../opportunities/README.md#o-09) Implementer self-QA checklists for page and ad builds – dropped
 
 ## Root cause and cluster
 

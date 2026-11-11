@@ -9,8 +9,8 @@ Research behind Austin Smith's AI and business audit of Aperitif (Nov 2026): 14 
 | [Interviews](interviews/README.md) | 14 | 2 leadership + 12 staff, 22 Oct – 4 Nov 2026 |
 | [Pain points](pain-points/README.md) (PP) | 243 | addressed 173, not in proposal 48, partly addressed 20, rejected 2 |
 | [Problems](problems/README.md) (P) | 48 | Decisions: Solve now 29, Not in proposal 9, Solve later 5, Reject 5. Status: addressed 31, not in proposal 9, rejected 5, partly addressed 3 |
-| [Merged opportunities](opportunities/README.md) (O) | 35 | addressed 15, dropped 7, absorbed 7, partly addressed 6 |
-| [Earlier ideas](opportunities/README.md#earlier-ideas-table) (EI) | 21 | absorbed 9, addressed 5, dropped 4, partly addressed 2, held for later discussion 1 |
+| [Merged opportunities](opportunities/README.md) (O) | 28 | addressed 15, absorbed 7, partly addressed 6 |
+| [Earlier ideas](opportunities/README.md#earlier-ideas-table) (EI) | 16 | absorbed 9, addressed 5, partly addressed 2 |
 | [Solutions](solutions/README.md) (DS) | 33 | 32 in the final set; DS-13 is covered by DS-14 |
 | [Builds](builds/README.md) | 18 | in 9 bundles, four phases |
 

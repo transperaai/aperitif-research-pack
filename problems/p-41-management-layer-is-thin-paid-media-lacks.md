@@ -30,8 +30,6 @@ confidence: "High – raised by 3+ people"
 
 ## Linked opportunities
 
-- [O-32](../opportunities/README.md#o-32) Fill the senior performance leadership seat – dropped
-- [O-19](../opportunities/README.md#o-19) Effort model: hours per client, load triggers, rebalanced books – dropped
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [EI-08](../opportunities/README.md#ei-08) L&D platform – training, manuals and SOPs made clear – absorbed ([DS-02](../solutions/ds-02-ai-playbook-repository.md))
 

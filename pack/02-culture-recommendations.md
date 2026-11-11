@@ -32,7 +32,7 @@
 - **Decide what Tier 2/3 always gets.** A short minimum-service list, so a drop in attention is a choice, not an accident.
 - **Cap overlapping onboardings** per manager, and send access requests with the contract.
 - **Set hiring triggers** from the load rule, so a hire starts before people are stretched (a new starter takes about 90 days to ramp – KO-PP09).
-- These echo three opportunities that were dropped as solutions (O-17 onboarding cap, O-19 effort model, O-32 senior performance hire). Here they're management choices for Joe and Julia, not builds.
+- These are management choices for Joe and Julia, not builds.
 
 **Solutions that support it** (they reduce effort; they don't fix capacity)
 - DS-01 pacing and alerts, DS-29 PPC Monday check – managers open an account when flagged, not every day.
@@ -173,7 +173,7 @@
 - Clients buy one agency. Silos mean missed cross-channel ideas and technical work that slips months (P-35, not in this proposal).
 
 **Recommendation**
-- **A 30-minute monthly priority check between each strategist and the technical team** – agree the month's tasks by impact. (This was O-35, dropped as a solution because it's a process change, not a build. It's offered here as a habit.)
+- **A 30-minute monthly priority check between each strategist and the technical team** – agree the month's tasks by impact. (It's a process change, not a build, so it's offered here as a habit.)
 - **A short cross-team show-and-tell each month** – one team shows how a piece of their work is made.
 - **Repeat what worked:** the joint content–SEO brief training fixed a real problem (HT L072).
 

@@ -31,7 +31,6 @@ confidence: "High – raised by 3+ people"
 
 ## Linked opportunities
 
-- [O-34](../opportunities/README.md#o-34) Standard creative brief with one consolidated feedback round – dropped
 - [O-22](../opportunities/README.md#o-22) Sales discipline: calculator, margin check, speed-to-lead – partly addressed ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
 - [EI-04](../opportunities/README.md#ei-04) AI-assisted creative production – addressed ([DS-21](../solutions/ds-21-ai-creative-tools-to-augment-the-team.md))
 - [EI-09](../opportunities/README.md#ei-09) Landing page generator – addressed ([DS-18](../solutions/ds-18-landing-page-generator.md))

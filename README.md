@@ -25,7 +25,7 @@ flowchart TD
   PP --> CL["39 clusters → 8 root causes"]
   CL --> P["48 problems"]
   P --> RO["143 raw ideas"]
-  RO --> O["35 merged opportunities<br/>+ 21 earlier ideas"]
+  RO --> O["44 opportunities<br/>28 from the interviews + 16 earlier ideas"]
   O --> D{"Decisions"}
   D -->|kept| DS["32 solutions<br/>DS-01 to DS-33"]
   D -->|dropped| NR["Dropped ideas"]
@@ -80,7 +80,7 @@ flowchart LR
 | [solutions/](solutions/README.md) | One file per solution DS-01..DS-33, with front matter and the one-pager; index grouped by bundle. Pricing is in builds/ |
 | [problems/](problems/README.md) | One file per problem P-01..P-48: decision, status, solutions, pain points with quotes, root cause |
 | [pain-points/](pain-points/README.md) | All 243 pain points grouped by interview, plus `pain-points.csv` |
-| [opportunities/](opportunities/README.md) | Merged opportunities O-01..O-35 and earlier ideas EI-01..EI-21, with decision and reason, plus CSV |
+| [opportunities/](opportunities/README.md) | 44 opportunities: 28 merged from the interviews (O-xx) and 16 earlier ideas (EI-xx), with decision and reason, plus CSV |
 | [interviews/](interviews/README.md) | One folder per interview: transcript, extraction report, structured JSON |
 | [synthesis/](synthesis/README.md) | Merge outputs: clusters, root causes, contradictions, opportunities, findings, culture and strengths |
 | [method/](method/README.md) | How the research was done, and the conventions used for value and evidence |
@@ -102,7 +102,7 @@ If you load this repo into an AI tool, it is a structured evidence base. Use it 
 1. `interviews/<code>-<name>/transcript.md` – raw transcripts. Lines are numbered `L###`; `~mm:ss` is usually estimated.
 2. **PP** pain points – `KO-PP01`, `SB-PP04` … The prefix is the interview code (SD = Shrishti Dokwal; KO = leadership kick-off; MP = leadership mid-point). Index: `pain-points/README.md`, data: `pain-points/pain-points.csv`.
 3. **P** problems – `P-01`..`P-48` (Problems database). Several pain points roll up into one problem. Files: `problems/p-xx-*.md`. Stage 1 clusters are `C-xx`, root causes `RC-xx`, contradictions `X-xx` (`synthesis/`).
-4. **O** merged opportunities – `O-01`..`O-35` (Stage 2), built from per-interview ideas such as `SB-O02`. **EI** – `EI-01`..`EI-21`, Austin's earlier ideas. Both in `opportunities/`.
+4. **O** merged opportunities – 28 `O-xx` from Stage 2, built from per-interview ideas such as `SB-O02`. **EI** – 16 `EI-xx`, Austin's earlier ideas. Both in `opportunities/` (44 in all); IDs keep their original numbers, so there are gaps.
 5. **DS** solutions – `DS-01`..`DS-33`, the recommendations (`solutions/`). DS-13 is covered by DS-14 (Part B). The 32 solutions are delivered as 18 builds (`builds/`).
 6. **X** contradictions – `X-01`..`X-31`: where two sources disagree (`synthesis/contradictions.md`). Also `WS-ZC-01` = Zach Chamberlain's written "AI suggestions" Google Doc (not in the repo).
 

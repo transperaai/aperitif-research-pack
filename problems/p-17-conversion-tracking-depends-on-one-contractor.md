@@ -32,7 +32,6 @@ confidence: "Low – raised by 1"
 
 - [O-08](../opportunities/README.md#o-08) Sales-to-delivery gate: handover fields, owner, access checklist – addressed ([DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md))
 - [O-14](../opportunities/README.md#o-14) AI-prefilled onboarding audit and Master SEO Document – addressed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
-- [O-17](../opportunities/README.md#o-17) Cap concurrent onboardings per manager; protect BAU time – dropped
 
 ## Root cause and cluster
 

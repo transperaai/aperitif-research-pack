@@ -19,7 +19,7 @@ confidence: "High – raised by 3+ people"
 | | |
 | --- | --- |
 | Decision | **Solve now** |
-| Status | partly addressed – Solve now; no DS fixes it – only "also helps" by [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md): "also helps (partly)"; capacity not solved – [O-17](../opportunities/README.md#o-17)/O-19/O-32 dropped) ([DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md): "also helps (partly)" – the right work surfaces first) |
+| Status | partly addressed – Solve now; no DS fixes it – only "also helps" by [DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md), [DS-06](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md), [DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md): "also helps (partly)"; capacity not solved) ([DS-30](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md): "also helps (partly)" – the right work surfaces first) |
 | Theme · severity · confidence | Process / automation · High · High – raised by 3+ people |
 | Process area | Delivery / ops |
 | Source | Transcript merge (Stage 1, 6 Nov) |
@@ -27,7 +27,7 @@ confidence: "High – raised by 3+ people"
 ## Solutions addressing it
 
 - Also helps: [DS-01 Modern ad budget pacing + performance alerting](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md)
-- Also helps: [DS-05 Automated deck generator: quarterly + 6-month reviews and proposals](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) – "also helps (partly)"; capacity not solved – O-17/O-19/O-32 dropped
+- Also helps: [DS-05 Automated deck generator: quarterly + 6-month reviews and proposals](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md) – "also helps (partly)"; capacity not solved
 - Also helps: [DS-06 Request sweeper ("Roomba"): stray Slack, DM and email requests → Monday.com](../solutions/ds-06-request-sweeper-stray-slack-dm-and-email.md)
 - Also helps: [DS-30 Daily priorities assistant: one triaged list per person from Monday, Slack, email, calendar, ad/SEO performance and seasonal signals](../solutions/ds-30-daily-priorities-assistant-one-triaged-list-per.md) – "also helps (partly)" – the right work surfaces first
 
@@ -38,8 +38,6 @@ confidence: "High – raised by 3+ people"
 - [O-10](../opportunities/README.md#o-10) Switch on native platform alert rules and scripts now – absorbed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md))
 - [O-12](../opportunities/README.md#o-12) Cross-account performance monitor with draft diagnosis (paid and SEO) – addressed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-27](../solutions/ds-27-ppc-alert-investigator-ai-diagnosis-and-commentary.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md), [DS-22](../solutions/ds-22-seo-automated-monday-client-performance-check.md), [DS-23](../solutions/ds-23-seo-drop-and-anomaly-alerts.md), [DS-24](../solutions/ds-24-seo-mid-month-wins-sent-to-clients.md))
 - [O-13](../opportunities/README.md#o-13) AI per-client summary for reports, calls and data questions – absorbed ([DS-04](../solutions/ds-04-ai-client-brain.md))
-- [O-17](../opportunities/README.md#o-17) Cap concurrent onboardings per manager; protect BAU time – dropped
-- [O-19](../opportunities/README.md#o-19) Effort model: hours per client, load triggers, rebalanced books – dropped
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [EI-02](../opportunities/README.md#ei-02) AI Business Brain – addressed ([DS-15](../solutions/ds-15-ai-business-brain-the-umbrella.md))
 - [EI-15](../opportunities/README.md#ei-15) Proactive PPC monitor and anomaly detector – absorbed ([DS-01](../solutions/ds-01-modern-ad-budget-pacing-performance-alerting.md), [DS-29](../solutions/ds-29-ppc-automated-monday-client-performance-check.md))

@@ -32,7 +32,6 @@ confidence: "High – raised by 3+ people"
 
 - [O-08](../opportunities/README.md#o-08) Sales-to-delivery gate: handover fields, owner, access checklist – addressed ([DS-08](../solutions/ds-08-ai-sales-handover-extracted-from-sales-calls.md))
 - [O-16](../opportunities/README.md#o-16) Own and verify automations: register, backup admin, reconciliation – addressed ([DS-10](../solutions/ds-10-systems-register-and-break-fix-runbook.md))
-- [EI-18](../opportunities/README.md#ei-18) Replace HubSpot – dropped
 
 ## Root cause and cluster
 

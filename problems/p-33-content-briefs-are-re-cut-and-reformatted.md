@@ -32,7 +32,6 @@ confidence: "High – raised by 3+ people"
 
 - [O-03](../opportunities/README.md#o-03) AI brief drafts from the Master SEO Document – addressed ([DS-03](../solutions/ds-03-automated-ai-brief-drafts-monday-com-tasks.md))
 - [O-04](../opportunities/README.md#o-04) One per-client record fed by call summaries – addressed ([DS-04](../solutions/ds-04-ai-client-brain.md))
-- [O-17](../opportunities/README.md#o-17) Cap concurrent onboardings per manager; protect BAU time – dropped
 
 ## Root cause and cluster
 

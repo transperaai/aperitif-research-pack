@@ -30,7 +30,6 @@ confidence: "High – raised by 3+ people"
 
 ## Linked opportunities
 
-- [O-19](../opportunities/README.md#o-19) Effort model: hours per client, load triggers, rebalanced books – dropped
 - [O-22](../opportunities/README.md#o-22) Sales discipline: calculator, margin check, speed-to-lead – partly addressed ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
 
 ## Root cause and cluster

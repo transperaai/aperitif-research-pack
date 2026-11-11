@@ -33,7 +33,6 @@ confidence: "High – raised by 3+ people"
 - [O-14](../opportunities/README.md#o-14) AI-prefilled onboarding audit and Master SEO Document – addressed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md), [DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
 - [O-21](../opportunities/README.md#o-21) Delegation and triage rules for escalations and sign-offs – absorbed ([DS-14](../solutions/ds-14-client-health-and-growth-intelligence-anti-churn.md))
 - [O-22](../opportunities/README.md#o-22) Sales discipline: calculator, margin check, speed-to-lead – partly addressed ([DS-05](../solutions/ds-05-automated-deck-generator-quarterly-6-month-reviews.md))
-- [EI-14](../opportunities/README.md#ei-14) PPC done-with/for-you productised service – held for discussion
 - [EI-01](../opportunities/README.md#ei-01) 1-click audit access system + AI audit workflow (also a lead magnet) – absorbed ([DS-09](../solutions/ds-09-ai-prefilled-onboarding-audit-and-master-seo.md))
 
 ## Root cause and cluster
