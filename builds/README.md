@@ -29,16 +29,16 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | 1 | PPC pacing and performance assistant | DS-01, DS-27 | 1 | \$7,500 | \$750 | Windsor.ai US\$499–598 · AI US\$25–55 · hosting US\$25–70 | \$187k–213k a year |
 | 2 | Client brain | DS-04 | 1 | \$12,500 | \$1,250 | AI US\$153–515 · hosting US\$60–120 | \$26k–39k a year |
 | 3 | Business brain | DS-15 | 1 | In build 2 | In build 2 | In build 2 | Not measured |
-| 4 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | Optional link-check proxy US\$0–50 · AI US\$15–40 · hosting US\$25–50 | \$35k–61k a year |
-| 5 | Brief drafts | DS-03 | 1 | \$1,250 | \$200 | Make operations US\$0–20 · AI US\$5–15 | \$12k–23k a year |
-| 6 | Onboarding audit | DS-09 | 1 | \$1,500 | \$200 | AI US\$10–25 | \$88k–177k a year |
-| 7 | SEO monitoring | DS-22, DS-23, DS-24 | 2 | \$4,250 | In build 1 | AI US\$8–35 (rest in build 1) | \$123k–260k a year |
-| 8 | Sales handover | DS-08 | 2 | \$750 | In build 2 | In build 2 | Not measured |
-| 9 | New-client dossier | DS-20 | 2 | \$200 | In build 2 | In build 2 | \~\$1k a year |
-| 10 | Sales proposal and reporting deck generator | DS-05 | 2 | \$4,250 | \$350 | AI US\$5–40 | \$75k–112k a year |
-| 11 | Team assistant | DS-06, DS-30 | 2 | \$2,500 | In build 2 | In build 2 | \$15k a year |
-| 12 | Client Retention and Growth AI | DS-14 | 3 | \$4,500 | \$500 | AI US\$40–150 | \$540k a year (indicative) |
-| 13 | Client comms | DS-28, DS-29 | 3 | \$2,500 | \$250 | AI US\$15–65 | In build 12 (retention) |
+| 5 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | Optional link-check proxy US\$0–50 · AI US\$15–40 · hosting US\$25–50 | \$35k–61k a year |
+| 6 | Brief drafts | DS-03 | 1 | \$1,250 | \$200 | Make operations US\$0–20 · AI US\$5–15 | \$12k–23k a year |
+| 7 | Onboarding audit | DS-09 | 1 | \$1,500 | \$200 | AI US\$10–25 | \$88k–177k a year |
+| 8 | SEO monitoring | DS-22, DS-23, DS-24 | 2 | \$4,250 | In build 1 | AI US\$8–35 (rest in build 1) | \$123k–260k a year |
+| 9 | Sales handover | DS-08 | 2 | \$750 | In build 2 | In build 2 | Not measured |
+| 10 | New-client dossier | DS-20 | 2 | \$200 | In build 2 | In build 2 | \~\$1k a year |
+| 11 | Sales proposal and reporting deck generator | DS-05 | 2 | \$4,250 | \$350 | AI US\$5–40 | \$75k–112k a year |
+| 12 | Team assistant | DS-06, DS-30 | 2 | \$2,500 | In build 2 | In build 2 | \$15k a year |
+| 4 | Client Retention and Growth AI | DS-14 | 1 | \$4,500 | \$500 | AI US\$40–150 | \$540k a year (indicative) |
+| 13 | Client comms | DS-28, DS-29 | 3 | \$2,500 | \$250 | AI US\$15–65 | In build 4 (retention) |
 | 14 | Forecasting | DS-25, DS-26 | 3 | \$750 | In build 1 | AI US\$3–15 (rest in build 1) | Not measured |
 | 15 | Market radar | DS-16, DS-32, DS-33 | 3 | \$1,350 | \$200 | SerpApi US\$25–75 · AI US\$20–80 | Not measured |
 | 16 | Landing page generator | DS-18 | 4 | \$9,250 | \$850 | AI US\$10–150 · hosting US\$20–60 | \$18k–72k a year |
@@ -49,9 +49,9 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 
 ## Phases
 
-- **Phase 1 – Foundations and quick wins:** PPC pacing and performance assistant, Client brain, Business brain, Link-building system, Brief drafts, Onboarding audit
+- **Phase 1 – Foundations and quick wins:** PPC pacing and performance assistant, Client brain, Business brain, Link-building system, Brief drafts, Onboarding audit, Client Retention and Growth AI
 - **Phase 2 – Built on the foundations:** SEO monitoring, Sales handover, New-client dossier, Sales proposal and reporting deck generator, Team assistant
-- **Phase 3 – Retention and growth:** Client Retention and Growth AI, Client comms, Forecasting, Market radar
+- **Phase 3 – Retention and growth:** Client comms, Forecasting, Market radar
 - **Phase 4 – New products and requests:** Landing page generator, AI receptionist
 - **No build:** AI creative tools – trial can start in week 1, paid directly by Aperitif.
 
@@ -71,7 +71,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | Sales proposal and reporting deck generator | \$75k–112k a year | Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ \$69k–\$104k), plus 6–8 hours a month of proposal time at \$80/hr (≈ \$6k–\$8k). | No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales. |
 | Team assistant | \$15k a year | Time: \~16 hours a month of one specialist's email triage at \$80/hr (stated). Request chains across the team (estimate \~45 hours a month ≈ \$43k) are not counted – no measured volumes. | Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list. |
 | Client Retention and Growth AI | \$540k a year | Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn \~4% → \~2.5% a month: \~1.5% of 101 clients a month ≈ 18 clients a year × \$2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted. | Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships. |
-| Client comms | In build 12 (retention) | Counted in Client Retention and Growth AI (build 12) – its value is retention, so it isn't counted twice. | Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land. |
+| Client comms | In build 4 (retention) | Counted in Client Retention and Growth AI (build 4) – its value is retention, so it isn't counted twice. | Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land. |
 | Forecasting | Not measured | Not measured – no data on how many forecasts are produced today. | Better budget decisions; realistic client expectations; one method across the team instead of one person's workflow. |
 | Market radar | Not measured | Not measured – one example of manual trend checks only. | Content lands before seasonal peaks; first to react to competitors; timely ideas that support the 'bring a recommendation' goal. |
 | Landing page generator | \$18k–72k a year | New revenue: 5–10 landing pages a month (assumption – volume not yet known) sold at \$300–\$600 a page. Outsourced today at about \$1,500 a page. | A new product to sell; campaigns can launch for clients without a working site; in-house speed and control of tracking. |

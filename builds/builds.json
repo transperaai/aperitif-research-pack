@@ -388,7 +388,7 @@
    "intangibles": "Leadership visibility without chasing; fewer interruptions to the founder; SOPs actually used; one home for every agent."
   },
   {
-   "order": 4,
+   "order": 5,
    "include": "Y",
    "name": "Link-building system",
    "id": "DS-11, DS-12, DS-07, DS-31",
@@ -507,7 +507,7 @@
    "intangibles": "One system instead of 7+ spreadsheets; less key-person risk; more links built with the same team; client results protected; free links from brand mentions."
   },
   {
-   "order": 5,
+   "order": 6,
    "include": "Y",
    "name": "Brief drafts",
    "id": "DS-03",
@@ -588,7 +588,7 @@
    "intangibles": "More words written with the same team; no briefs missed or unseen; consistent briefs across writers and freelancers."
   },
   {
-   "order": 6,
+   "order": 7,
    "include": "Y",
    "name": "Onboarding audit",
    "id": "DS-09",
@@ -649,7 +649,7 @@
    "assumptions": [
     "Hours saved are estimates; onboarding hours and volumes are Austin's estimates.",
     "The strongest precedent is the existing prompt guide that cut strategy from ~3 days to ~75–90 min (context pack).",
-    "Needs read-only access at signing (sales handover, build 8) and the AI-data rule.",
+    "Needs read-only access at signing (sales handover, build 9) and the AI-data rule.",
     "Needs Windsor live (build 1) for the paid audit.",
     "The 30-item paid audit checklist is current and can be encoded.",
     "Confirm Aperitif's Ahrefs plan is Lite or above (MCP access) and has enough API units."
@@ -668,7 +668,7 @@
    "intangibles": "New clients see value sooner; fewer back-to-back onboarding crunches and less out-of-hours work; consistent audits across managers."
   },
   {
-   "order": 7,
+   "order": 8,
    "include": "Y",
    "name": "SEO monitoring",
    "id": "DS-22, DS-23, DS-24",
@@ -776,7 +776,7 @@
    "intangibles": "Drops caught before the client notices; wins shared mid-month, supporting retention; no skipped weekly checks."
   },
   {
-   "order": 8,
+   "order": 9,
    "include": "Y",
    "name": "Sales handover",
    "id": "DS-08",
@@ -800,7 +800,7 @@
    "how": [
     [
      "",
-     "When a deal is marked won in HubSpot, the agent gathers the sales meeting transcripts, the HubSpot deal record (notes, emails, contacts, quote, line items), the signed proposal (build 10) and any shared documents."
+     "When a deal is marked won in HubSpot, the agent gathers the sales meeting transcripts, the HubSpot deal record (notes, emails, contacts, quote, line items), the signed proposal (build 11) and any shared documents."
     ],
     [
      "",
@@ -867,7 +867,7 @@
    "intangibles": "Clients never re-asked what they told sales; delivery knows what was promised; wrong-fit deals flagged before kick-off; a better first impression."
   },
   {
-   "order": 9,
+   "order": 10,
    "include": "Y",
    "name": "New-client dossier",
    "id": "DS-20",
@@ -933,7 +933,7 @@
    "intangibles": "Every department starts from the same picture of the client; the team walks into the first call informed."
   },
   {
-   "order": 10,
+   "order": 11,
    "include": "Y",
    "name": "Sales proposal and reporting deck generator",
    "id": "DS-05",
@@ -1030,7 +1030,7 @@
    "intangibles": "No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales."
   },
   {
-   "order": 11,
+   "order": 12,
    "include": "Y",
    "name": "Team assistant",
    "id": "DS-06, DS-30",
@@ -1137,12 +1137,12 @@
    "intangibles": "Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list."
   },
   {
-   "order": 12,
+   "order": 4,
    "include": "Y",
    "name": "Client Retention and Growth AI",
    "id": "DS-14",
    "bundle": "AI Business Brain",
-   "phase": "3 – Retention and growth",
+   "phase": "1 – Foundations and quick wins",
    "type": "Strategic build",
    "ie": "4 / 4",
    "vision": "An anti-churn and growth engine that is present in every meeting, email and deliverable. It doesn't just scan for keywords and phrases – it reads behaviour and patterns across the whole relationship, the way an experienced account director would. It notices when meetings start getting cancelled or pushed, when replies slow down, when the senior contact stops turning up, when a new stakeholder appears, when approvals and invoices drag, when sentiment cools across calls, emails and Slack, and when results drift away from the client's goals. It also spots growth: new goals, strong results worth building on, and services the client doesn't have yet. Running on the client brain, it builds a picture of each person at the client – how they communicate, what they care about and how their sentiment is trending – and when something shows, it alerts the account manager, department lead and Head of Client Services together, with the evidence and a suggested next step. Every outcome is logged, so it learns which signals really matter for Aperitif's clients.",
@@ -1251,7 +1251,7 @@
    "vision": "Clients hear from Aperitif through the month, before they have to ask. The AI turns what the PPC assistant and SEO monitoring find into client updates in each client's tone – wins worth sharing, what moved and why, what the team is doing next – and sends notes that set expectations before a seasonal or industry dip lands. Because it runs on the client brain, every message draws on the whole relationship, not just what one account manager remembers: every call, email and Slack thread, what was sold and promised, the client's goals, what's been tried before, and the work every department has done – SEO, paid, content and links. Every message is advisory, approved by the manager before it goes, and saved back to the client brain.",
    "vision_bullets": [
     "Context across the whole relationship: drafts use everything in the client brain – calls, emails, Slack, promises from the sales handover, goals, past decisions and every department's work – not one person's memory.",
-    "Drafted from what the team already knows: PPC alerts and diagnoses (build 1), SEO digests and wins (build 7) and the client's history.",
+    "Drafted from what the team already knows: PPC alerts and diagnoses (build 1), SEO digests and wins (build 8) and the client's history.",
     "In each client's tone: the client brain knows how each client likes to be spoken to.",
     "Ahead of the dip: forecast seasonal or industry dips explained before they show up in the monthly report.",
     "Advise, not just report: every update ends with what Aperitif recommends next.",
@@ -1298,12 +1298,12 @@
     [
      "Higher client retention and trust",
      "clients hear proactive, informed advice through the month and dips are explained before they land",
-     "New capability – retention and trust effect not measured; supports Client Retention and Growth AI (build 12)"
+     "New capability – retention and trust effect not measured; supports Client Retention and Growth AI (build 4)"
     ]
    ],
    "assumptions": [
     "Managers approve every message before it goes; nothing is sent to clients automatically without review.",
-    "Needs the client brain (build 2), and the PPC assistant (build 1) and SEO monitoring (build 7) for the weekly findings.",
+    "Needs the client brain (build 2), and the PPC assistant (build 1) and SEO monitoring (build 8) for the weekly findings.",
     "Austin's suggestion, supported by one staff interview and the leadership kick-off."
    ],
    "build": "$2,500",
@@ -1316,7 +1316,7 @@
    "allin_hi": 340.277777777778,
    "dollar_lo": 0,
    "dollar_hi": 0,
-   "dollar_basis": "Counted in Client Retention and Growth AI (build 12) – its value is retention, so it isn't counted twice.",
+   "dollar_basis": "Counted in Client Retention and Growth AI (build 4) – its value is retention, so it isn't counted twice.",
    "intangibles": "Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land."
   },
   {
@@ -1334,7 +1334,7 @@
     "SEO forecasting: traffic and ranking scenarios from GA4, Search Console and Ahrefs.",
     "One method for everyone: the director's approach, shared across the team instead of living in one person's Gemini workflow.",
     "Forecasts that learn: each forecast is saved to the client brain and compared with actuals.",
-    "Feeds proposals and reviews: forecasts drop straight into the deck generator (build 10) and client comms (build 13)."
+    "Feeds proposals and reviews: forecasts drop straight into the deck generator (build 11) and client comms (build 13)."
    ],
    "problems": [
     "Forecasting is done by hand or with personal tools, and takes hours per client.",
@@ -1422,7 +1422,7 @@
     "Seasonal and trending radar: peaks flagged 2–3 months ahead; sudden spikes the same day.",
     "Competitor watch: a weekly summary of each client's competitors' new pages and ranking moves, from Ahrefs.",
     "News and regulation: daily checks per client niche; a relevance filter keeps what matters and AI explains why, with an idea.",
-    "Feeds the rest of the system: ideas go into the client brain, content briefs (build 5), client comms (build 13) and Client Retention and Growth AI (build 12)."
+    "Feeds the rest of the system: ideas go into the client brain, content briefs (build 6), client comms (build 13) and Client Retention and Growth AI (build 4)."
    ],
    "problems": [
     "Seasonal and trending content is planned too late to catch the peak – raised by 2 staff.",
