@@ -244,7 +244,7 @@
    "kpis": [
     [
      "Prep minutes per client meeting",
-     "15–20 min (Austin, 10 Nov)",
+     "15–20 min (Austin's estimate)",
      "~5 min"
     ],
     [
@@ -743,7 +743,7 @@
    ],
    "assumptions": [
     "Hours saved are estimates; onboarding hours and volumes are Austin's estimates.",
-    "The strongest precedent is the existing prompt guide that cut strategy from ~3 days to ~75–90 min.",
+    "The strongest precedent is the existing prompt guide that cut strategy from ~3 days to about an hour.",
     "Needs read-only access at signing (sales handover, build 9) and the AI-data rule.",
     "Needs Windsor live (build 1) for the paid audit.",
     "The 30-item paid audit checklist is current and can be encoded.",
@@ -1713,7 +1713,7 @@
     ]
    ],
    "assumptions": [
-    "Prices and features from vendor and review sites, Nov 2026 – to verify.",
+    "Prices and features from vendor and review sites, Nov 2026; checked again before buying.",
     "Output quality for lead-gen and service clients is the open question; the trial decides."
    ],
    "build": "No build",

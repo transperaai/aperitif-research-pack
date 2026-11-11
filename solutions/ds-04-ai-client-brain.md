@@ -115,7 +115,7 @@ The query box is there for questions; the call-outs, logs and actions are always
 
 | KPI | Baseline | Target |
 | --- | --- | --- |
-| Prep minutes per client meeting | 15–20 min (Austin, 10 Nov) | \~5 min |
+| Prep minutes per client meeting | 15–20 min (Austin's estimate) | \~5 min |
 | % of active clients with a current brain | 0 central (HT-O01) | 100% |
 | Client calls summarised into the brain within 24 h | \~0 – transcripts unused (ZC-O10, [MP-PP20](../pain-points/README.md#mp-pp20)) | ≥ 95% |
 | Time to produce a handover pack | Unknown; missed until client chased ([MC-PP14](../pain-points/README.md#mc-pp14)) | \< 10 min |
