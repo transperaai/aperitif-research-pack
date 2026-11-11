@@ -102,7 +102,7 @@ Each step fed the next. Every finding traces back down the chain to a transcript
 | Contradictions logged | **31** | Stage 1 |
 | Strengths and culture items (second pass) | **488** strength items → 20 themes; **153** culture items → 15 themes | Stage 4 |
 | Problems | **48** (incl. 26 known before the audit and 6 culture problems) – decisions: 29 solve now, 5 solve later, 9 not in this proposal (each with a short reason), 5 reject | Problems database |
-| Opportunities | **143** raised in interviews → **35** merged (**28** carried into this pack), plus **16** of Austin's earlier ideas | Stage 2; Opportunities database |
+| Opportunities | **143** raised in interviews → **35** merged, plus **21** of Austin's earlier ideas → **44** taken forward into the solutions (28 + 16) | Opportunities (the 44 taken forward) |
 | Solutions | **33** numbered (DS-01 to DS-33) – **32 active**; DS-13 is covered by DS-14 – delivered as **18 builds** in 9 bundles | Distilled Solutions; Builds and pricing |
 | Independent quote check | 66 of 66 quotes verbatim | Independent check |
 
