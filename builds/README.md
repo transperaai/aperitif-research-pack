@@ -13,10 +13,12 @@
 | Software a month | US\$622–983 |
 | AI usage a month | US\$309–1,185 |
 | Hosting a month | US\$130–300 |
-| All-in a month | A\$6,932–9,097 (at A\$1 = US\$0.65) |
-| Year 1 (build + 12 months) | A\$142k–168k |
+| All-in a month | A\$6,774–8,728 (at A\$1 = US\$0.72) |
+| Year 1 (build + 12 months) | A\$140k–164k |
 | Hours handed back a month | 175–272 |
-| Dollar value a year | \$1.12M–1.51M (capacity and time \$577k–968k + revenue kept \$540k, indicative) |
+| Capacity and time a year | \$577k–968k |
+| Revenue kept a year (indicative) | \$540k – churn \~4% → \~2.5% a month |
+| Combined dollar value | \$1.12M–1.51M (partly overlapping – kept clients use the same team capacity) |
 
 Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive hours × monthly revenue managed per manager – PPC A\$198,747 ÷ 5, SEO A\$222,374 ÷ 4), other staff time at A\$80/hr, churn as revenue kept. Capacity is headroom, not guaranteed revenue; time and capacity are never added.
 
@@ -68,7 +70,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | New-client dossier | \~\$1k a year | Time: 3–4 new clients × 20 minutes of Head of Client Services research at \$80/hr. | Every department starts from the same picture of the client; the team walks into the first call informed. |
 | Sales proposal and reporting deck generator | \$75k–112k a year | Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ \$69k–\$104k), plus 6–8 hours a month of proposal time at \$80/hr (≈ \$6k–\$8k). | No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales. |
 | Team assistant | \$15k a year | Time: \~16 hours a month of one specialist's email triage at \$80/hr (stated). Request chains across the team (estimate \~45 hours a month ≈ \$43k) are not counted – no measured volumes. | Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list. |
-| Client Retention and Growth AI | \$540k a year | Revenue kept (indicative, a yearly run-rate once it has been live for a year): \~1.5% of 101 clients a month ≈ 18 clients a year × \$2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted. | Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships. |
+| Client Retention and Growth AI | \$540k a year | Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn \~4% → \~2.5% a month: \~1.5% of 101 clients a month ≈ 18 clients a year × \$2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted. | Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships. |
 | Client comms | In build 12 (retention) | Counted in Client Retention and Growth AI (build 12) – its value is retention, so it isn't counted twice. | Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land. |
 | Forecasting | Not measured | Not measured – no data on how many forecasts are produced today. | Better budget decisions; realistic client expectations; one method across the team instead of one person's workflow. |
 | Market radar | Not measured | Not measured – one example of manual trend checks only. | Content lands before seasonal peaks; first to react to competitors; timely ideas that support the 'bring a recommendation' goal. |

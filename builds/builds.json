@@ -1,13 +1,13 @@
 {
- "note": "Consolidated builds, 11 Nov 2026. A$ unless marked; OpEx in US$ a month; all-in in A$ a month at A$1 = US$0.65.",
+ "note": "Consolidated builds, 11 Nov 2026. A$ unless marked; OpEx in US$ a month; all-in in A$ a month at A$1 = US$0.72.",
  "totals": {
   "Totals (builds with Include = Y)": [
    null,
    null
   ],
   "US$ to A$ rate (A$1 = US$…)": [
-   0.65,
-   "Assumption from the pricing model (10 Nov)"
+   0.72,
+   "Updated 11 Nov (market ~0.70; Austin's working rate)"
   ],
   "Build (one-off, A$)": [
    59100,
@@ -30,12 +30,12 @@
    300
   ],
   "All-in monthly (A$)": [
-   6932.30769230769,
-   9096.92307692308
+   6773.61111111111,
+   8727.77777777778
   ],
   "Year-1 total (build + 12 months all-in, A$)": [
-   142287.692307692,
-   168263.076923077
+   140383.333333333,
+   163833.333333333
   ],
   "Target retainer (A$ a month)": [
    5000,
@@ -57,13 +57,17 @@
    540000,
    540000
   ],
-  "Total dollar value": [
+  "Combined dollar value (capacity and time + revenue kept, partly overlapping)": [
    1116500,
    1508300
   ],
   "Capacity is headroom (more clients the same team could manage), not guaranteed revenue. Time saved and capacity are the same hours counted two ways – never added.": [
    null,
    null
+  ],
+  "Total dollar value": [
+   1116500,
+   1508300
   ]
  },
  "hours_a_month": [
@@ -183,8 +187,8 @@
    "maint": "$750",
    "maint_n": 750,
    "opex": "Windsor.ai US$499–598 · AI US$25–55 · hosting US$25–70",
-   "allin_lo": 1594.61538461538,
-   "allin_hi": 1862.30769230769,
+   "allin_lo": 1512.5,
+   "allin_hi": 1754.16666666667,
    "dollar_lo": 187000,
    "dollar_hi": 213000,
    "dollar_basis": "Capacity: 51–58 hours a month of PPC manager time ÷ ~130 productive hours × PPC MRR per manager (A$39,749). Plus up to $10,000 of overspend credits avoided (one incident this year; not added).",
@@ -287,8 +291,8 @@
    "maint": "$1,250",
    "maint_n": 1250,
    "opex": "AI US$153–515 · hosting US$60–120",
-   "allin_lo": 1577.69230769231,
-   "allin_hi": 2226.92307692308,
+   "allin_lo": 1545.83333333333,
+   "allin_hi": 2131.94444444444,
    "dollar_lo": 26000,
    "dollar_hi": 39000,
    "dollar_basis": "Capacity: 6–9 hours a month of meeting prep at the blended MRR per manager. The client brain is mainly an enabler: SEO monitoring, the deck generator, the new-client dossier, the team assistant and Client Retention and Growth AI need it live – together about $0.75M–$0.93M a year of the program's value relies on it (not added again here). The PPC assistant's investigator, the sales handover and client comms also run on it.",
@@ -495,8 +499,8 @@
    "maint": "$750",
    "maint_n": 750,
    "opex": "Optional link-check proxy US$0–50 · AI US$15–40 · hosting US$25–50",
-   "allin_lo": 811.538461538462,
-   "allin_hi": 965.384615384615,
+   "allin_lo": 805.555555555556,
+   "allin_hi": 944.444444444445,
    "dollar_lo": 32000,
    "dollar_hi": 56000,
    "dollar_basis": "Time: 23–41.5 hours a month of link-team admin and vetting at $80/hr (≈ $22k–$40k), plus $10k–$16k a year of lost paid links recovered by the watchdog.",
@@ -576,8 +580,8 @@
    "maint": "$200",
    "maint_n": 200,
    "opex": "Make operations US$0–20 · AI US$5–15",
-   "allin_lo": 207.692307692308,
-   "allin_hi": 253.846153846154,
+   "allin_lo": 206.944444444444,
+   "allin_hi": 248.611111111111,
    "dollar_lo": 11500,
    "dollar_hi": 23000,
    "dollar_basis": "Time: 12–24 hours a month of content-team time at $80/hr.",
@@ -656,8 +660,8 @@
    "maint": "$200",
    "maint_n": 200,
    "opex": "AI US$10–25",
-   "allin_lo": 215.384615384615,
-   "allin_hi": 238.461538461538,
+   "allin_lo": 213.888888888889,
+   "allin_hi": 234.722222222222,
    "dollar_lo": 88000,
    "dollar_hi": 177000,
    "dollar_basis": "Capacity: 10–22 SEO hours at SEO MRR per manager plus 10–18 paid hours at PPC MRR per manager, ÷ ~130 productive hours.",
@@ -764,8 +768,8 @@
    "maint": "In build 1",
    "maint_n": 0,
    "opex": "AI US$8–35 (rest in build 1)",
-   "allin_lo": 12.3076923076923,
-   "allin_hi": 53.8461538461539,
+   "allin_lo": 11.1111111111111,
+   "allin_hi": 48.6111111111111,
    "dollar_lo": 123000,
    "dollar_hi": 260000,
    "dollar_basis": "Capacity: 24–50 hours a month of SEO manager time (Monday check 17–39 h, drop alerts 7–11 h) at SEO MRR per manager.",
@@ -1018,8 +1022,8 @@
    "maint": "$350",
    "maint_n": 350,
    "opex": "AI US$5–40",
-   "allin_lo": 357.692307692308,
-   "allin_hi": 411.538461538462,
+   "allin_lo": 356.944444444444,
+   "allin_hi": 405.555555555556,
    "dollar_lo": 75000,
    "dollar_hi": 112000,
    "dollar_basis": "Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ $69k–$104k), plus 6–8 hours a month of proposal time at $80/hr (≈ $6k–$8k).",
@@ -1194,8 +1198,8 @@
     ],
     [
      "Monthly client churn",
-     "Not baselined – 10 contracts ended 31 Aug–17 Oct",
-     "Down ~1.5 points (indicative)"
+     "~4% a month (estimate; 10 contracts ended 31 Aug–17 Oct)",
+     "~2.5% a month – down ~1.5 points (indicative)"
     ],
     [
      "Upsell / cross-sell proposals raised per month",
@@ -1212,7 +1216,7 @@
     [
      "Indicative",
      "could reduce churn by about 1.5% a month – about 1.5 clients a month, or 18 clients (about $540k a year) kept",
-     "Indicative – the real effect on churn will show once it is live · 1.5% of 101 active clients (client board, 10 Nov) ≈ 1.5 a month · client board (10 contracts ended 31 August–17 October, average $2,500 a month)"
+     "Indicative – churn today ~4% a month (estimate), reduced by ~1.5 points; the real effect will show once it is live · 1.5% of 101 active clients (client board, 10 Nov) ≈ 1.5 a month · client board (10 contracts ended 31 August–17 October, average $2,500 a month)"
     ]
    ],
    "assumptions": [
@@ -1228,11 +1232,11 @@
    "maint": "$500",
    "maint_n": 500,
    "opex": "AI US$40–150",
-   "allin_lo": 561.538461538462,
-   "allin_hi": 730.769230769231,
+   "allin_lo": 555.555555555556,
+   "allin_hi": 708.333333333333,
    "dollar_lo": 540000,
    "dollar_hi": 540000,
-   "dollar_basis": "Revenue kept (indicative, a yearly run-rate once it has been live for a year): ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
+   "dollar_basis": "Revenue kept (indicative, a yearly run-rate once it has been live for a year): churn ~4% → ~2.5% a month: ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
    "intangibles": "Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships."
   },
   {
@@ -1308,8 +1312,8 @@
    "maint": "$250",
    "maint_n": 250,
    "opex": "AI US$15–65",
-   "allin_lo": 273.076923076923,
-   "allin_hi": 350,
+   "allin_lo": 270.833333333333,
+   "allin_hi": 340.277777777778,
    "dollar_lo": 0,
    "dollar_hi": 0,
    "dollar_basis": "Counted in Client Retention and Growth AI (build 12) – its value is retention, so it isn't counted twice.",
@@ -1397,8 +1401,8 @@
    "maint": "In build 1",
    "maint_n": 0,
    "opex": "AI US$3–15 (rest in build 1)",
-   "allin_lo": 4.61538461538462,
-   "allin_hi": 23.0769230769231,
+   "allin_lo": 4.16666666666667,
+   "allin_hi": 20.8333333333333,
    "dollar_lo": 0,
    "dollar_hi": 0,
    "dollar_basis": "Not measured – no data on how many forecasts are produced today.",
@@ -1500,8 +1504,8 @@
    "maint": "$200",
    "maint_n": 200,
    "opex": "SerpApi US$25–75 · AI US$20–80",
-   "allin_lo": 269.230769230769,
-   "allin_hi": 438.461538461538,
+   "allin_lo": 262.5,
+   "allin_hi": 415.277777777778,
    "dollar_lo": 0,
    "dollar_hi": 0,
    "dollar_basis": "Not measured – one example of manual trend checks only.",
@@ -1588,8 +1592,8 @@
    "maint": "$850",
    "maint_n": 850,
    "opex": "AI US$10–150 · hosting US$20–60",
-   "allin_lo": 896.153846153846,
-   "allin_hi": 1173.07692307692,
+   "allin_lo": 891.666666666667,
+   "allin_hi": 1141.66666666667,
    "dollar_lo": 18000,
    "dollar_hi": 72000,
    "dollar_basis": "New revenue: 5–10 landing pages a month (assumption – volume not yet known) sold at $300–$600 a page (Austin's pricing). Outsourced today at about $1,500 a page.",
@@ -1656,8 +1660,8 @@
    "maint": "In build 2",
    "maint_n": 0,
    "opex": "Aircall (billed A$150–370) US$98–240 (rest in build 2)",
-   "allin_lo": 150.769230769231,
-   "allin_hi": 369.230769230769,
+   "allin_lo": 136.111111111111,
+   "allin_hi": 333.333333333333,
    "dollar_lo": 0,
    "dollar_hi": 0,
    "dollar_basis": "Not measured – no call volumes or missed-call data.",
@@ -1726,8 +1730,8 @@
    "maint": "$0",
    "maint_n": 0,
    "opex": "Creative tools, paid direct US$70–380",
-   "allin_lo": 107.692307692308,
-   "allin_hi": 584.615384615385,
+   "allin_lo": 97.2222222222222,
+   "allin_hi": 527.777777777778,
    "dollar_lo": 0,
    "dollar_hi": 0,
    "dollar_basis": "Not measured – trial decides.",

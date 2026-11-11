@@ -132,9 +132,10 @@
    540000
   ],
   "churn_month": {
-   "today": 0.03,
+   "today": 0.04,
+   "with_tool": 0.025,
    "reduction": 0.015,
-   "note": "reduction indicative"
+   "note": "Austin 11 Nov: ~4% baseline; reduction indicative"
   },
   "saved": "~1.5% of 101 clients a month ≈ 18/yr x A$2,500 x 12",
   "basis": "Indicative (Austin, 11 Nov); client board (101 clients; 10 contracts ended 31 Aug–17 Oct, avg A$2,500)",
