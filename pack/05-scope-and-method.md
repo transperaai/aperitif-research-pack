@@ -68,7 +68,7 @@ About 11 hours of conversation in total (estimated); staff interviews averaged a
 ## Limitations (stated once)
 
 - **No accurate task times.** Very few times were stated in interviews. Aperitif doesn't keep timesheets, so the value figures are task counts from the client board × the time per task the team described, and every number carries a basis label (client board, interview, Austin/leadership input, or assumption). Treat every hour and dollar figure as indicative – see VALUE-BY-BUNDLE.md.
-- **Short interviews.** Most staff interviews were 30–60 minutes. Processes were documented from what people could describe in that time.
+- **Interview length.** Interviews ran an hour or more, but processes were documented from what people could describe in that time.
 - **Two and a half weeks.** The audit ran over about 2.5 weeks with limited time from people who are already at capacity. Austin has not lived in the business.
 - **Unrecorded interview.** Jethro Jason's interview wasn't recorded (see above).
 - **Interviewer-raised items are labelled.** Of 243 pain points, 13 were raised by Austin and agreed by the interviewee, and 7 were inferred by analysis. These are labelled wherever used and counted as corroboration only, never as a staff raise.
