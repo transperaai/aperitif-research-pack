@@ -123,7 +123,7 @@ Before the problems, here is what's working. These are the things to protect whi
 - **Why it matters:** this is why monthly reports stay in AgencyAnalytics and aren't rebuilt (DS-05 covers review decks only).
 
 ### 15. Home-grown AI tools already save real time
-- **What we saw:** people have built their own Claude and Gemini tools that work. Karl's Claude SEO-strategy prompt guide cut onboarding strategy from about 3 days to roughly an hour (S-02; the pre-audit briefing gives 75–90 min). Wendlley's Gemini forecasting takes about 15 minutes.
+- **What we saw:** people have built their own Claude and Gemini tools that work. Karl's Claude SEO-strategy prompt guide cut onboarding strategy from about 3 days to roughly an hour (S-02). Wendlley's Gemini forecasting takes about 15 minutes.
 - **Raised by:** 11 staff + Joe (ST-18, S-02).
 - **In their words:**
   - *"I used to take like hours doing this and Gemini did it in like 15 minutes and gave me scenarios"* – Wendlley Simoes (WS L462)

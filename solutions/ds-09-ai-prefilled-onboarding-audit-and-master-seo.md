@@ -111,7 +111,7 @@ Pricing for this solution is in [Builds and pricing](../builds/README.md).
 
 ## Assumptions
 
-- Hours saved are estimates; onboarding hours and volumes are Austin's estimates. The strongest precedent is the existing prompt guide that cut strategy from \~3 days to \~75–90 min.
+- Hours saved are estimates; onboarding hours and volumes are Austin's estimates. The strongest precedent is the existing prompt guide that cut strategy from \~3 days to about an hour.
 - Needs read-only access at signing ([DS-08](ds-08-ai-sales-handover-extracted-from-sales-calls.md) add-on) and the AI-data rule ([DS-02](ds-02-ai-playbook-repository.md)).
 - Needs Windsor.ai live (build 1) for the paid audit.
 - The 30-item paid audit checklist is current and can be encoded.
