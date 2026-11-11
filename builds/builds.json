@@ -291,7 +291,7 @@
    "allin_hi": 2226.92307692308,
    "dollar_lo": 26000,
    "dollar_hi": 39000,
-   "dollar_basis": "Capacity: 6–9 hours a month of meeting prep at the blended MRR per manager. The client brain is mainly an enabler: the PPC assistant's investigator, SEO monitoring, the deck generator, the sales handover, the team assistant, client comms and Client Retention and Growth AI all run on it – together about $0.9M–$1.1M a year of the program's value depends on it (not added again here).",
+   "dollar_basis": "Capacity: 6–9 hours a month of meeting prep at the blended MRR per manager. The client brain is mainly an enabler: SEO monitoring, the deck generator, the new-client dossier, the team assistant and Client Retention and Growth AI need it live – together about $0.75M–$0.93M a year of the program's value relies on it (not added again here). The PPC assistant's investigator, the sales handover and client comms also run on it.",
    "intangibles": "Client knowledge no longer lives in people's heads – no loss when someone leaves; handovers in minutes; every agent works from full context; leadership can ask where anything is at."
   },
   {
@@ -1232,7 +1232,7 @@
    "allin_hi": 730.769230769231,
    "dollar_lo": 540000,
    "dollar_hi": 540000,
-   "dollar_basis": "Revenue kept (indicative): ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
+   "dollar_basis": "Revenue kept (indicative, a yearly run-rate once it has been live for a year): ~1.5% of 101 clients a month ≈ 18 clients a year × $2,500 average monthly fee × 12. The real effect will show once it is live. Upsell and expansion revenue not counted.",
    "intangibles": "Churn seen coming, not 'out of the blue'; escalations reach the right lead; growth conversations in every meeting; stronger client relationships."
   },
   {
@@ -1294,7 +1294,7 @@
     [
      "Higher client retention and trust",
      "clients hear proactive, informed advice through the month and dips are explained before they land",
-     "New capability – retention and trust effect not measured; supports client health and growth (build 12)"
+     "New capability – retention and trust effect not measured; supports Client Retention and Growth AI (build 12)"
     ]
    ],
    "assumptions": [
