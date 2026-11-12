@@ -1,6 +1,6 @@
 # Builds and pricing
 
-> The build list and pricing: the 32 solutions delivered as 18 builds in 9 bundles. All prices are in AUD unless marked US\$. This page is the reference for prices, value and start order; the solution pages describe scope and evidence, and Value by bundle gives the research basis.
+> The build list and pricing: the 32 solutions delivered as 18 builds in 9 bundles. All prices are in A\$. SaaS and OpEx are paid in US\$ and shown in A\$ at A\$1 = US\$0.72; the US\$ supplier breakdown is in builds.csv. This page is the reference for prices, value and start order; the solution pages describe scope and evidence, and Value by bundle gives the research basis.
 
 
 ## Totals
@@ -10,9 +10,8 @@
 | Builds | 18 (17 priced; AI creative tools needs no build) |
 | Build (one-off) | \$59,100 |
 | Maintenance a month | \$5,300 |
-| Software a month | US\$622–983 |
-| AI usage a month | US\$309–1,185 |
-| Hosting a month | US\$130–300 |
+| SaaS a month (software bought) | A\$864–1,365 (US\$622–983) |
+| OpEx a month (AI usage and hosting) | A\$610–2,062 (US\$439–1,485) |
 | All-in a month | A\$6,774–8,728 (at A\$1 = US\$0.72) |
 | Year 1 (build + 12 months) | A\$140k–164k |
 | Hours handed back a month | 178–277 |
@@ -24,33 +23,45 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 
 ## The builds, in start order
 
-| # | Build | Merged from | Phase | Build (A\$) | Maintenance /mo | OpEx /mo (US\$) | Dollar value a year |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | PPC pacing and performance assistant | DS-01, DS-27 | 1 | \$7,500 | \$750 | Windsor.ai US\$499–598 · AI US\$25–55 · hosting US\$25–70 | \$187k–213k a year |
-| 2 | Client brain | DS-04 | 1 | \$12,500 | \$1,250 | AI US\$153–515 · hosting US\$60–120 | \$26k–39k a year |
-| 3 | Business brain | DS-15 | 1 | In build 2 | In build 2 | In build 2 | Not measured |
-| 4 | Client Retention and Growth AI | DS-14 | 1 | \$4,500 | \$500 | AI US\$40–150 | \$540k a year (indicative) |
-| 5 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | Optional link-check proxy US\$0–50 · AI US\$15–40 · hosting US\$25–50 | \$35k–61k a year |
-| 6 | Brief drafts | DS-03 | 1 | \$1,250 | \$200 | Make operations US\$0–20 · AI US\$5–15 | \$12k–23k a year |
-| 7 | Onboarding audit | DS-09 | 1 | \$1,500 | \$200 | AI US\$10–25 | \$88k–177k a year |
-| 8 | SEO monitoring | DS-22, DS-23, DS-24 | 2 | \$4,250 | In build 1 | AI US\$8–35 (rest in build 1) | \$123k–260k a year |
-| 9 | Sales handover | DS-08 | 2 | \$750 | In build 2 | In build 2 | Not measured |
-| 10 | New-client dossier | DS-20 | 2 | \$200 | In build 2 | In build 2 | \~\$1k a year |
-| 11 | Sales proposal and reporting deck generator | DS-05 | 2 | \$4,250 | \$350 | AI US\$5–40 | \$75k–112k a year |
-| 12 | Team assistant | DS-06, DS-30 | 2 | \$2,500 | In build 2 | In build 2 | \$15k a year |
-| 13 | Client comms | DS-28, DS-29 | 3 | \$2,500 | \$250 | AI US\$15–65 | In build 4 (retention) |
-| 14 | Forecasting | DS-25, DS-26 | 3 | \$750 | In build 1 | AI US\$3–15 (rest in build 1) | Not measured |
-| 15 | Market radar | DS-16, DS-32, DS-33 | 3 | \$1,350 | \$200 | SerpApi US\$25–75 · AI US\$20–80 | Not measured |
-| 16 | Landing page generator | DS-18 | 4 | \$9,250 | \$850 | AI US\$10–150 · hosting US\$20–60 | \$18k–72k a year |
-| 17 | AI receptionist | DS-19 | 4 | \$300 | In build 2 | Aircall (billed A\$150–370) US\$98–240 (rest in build 2) | Not measured |
-| 18 | AI creative tools | DS-21 | No build | No build | – | Creative tools, paid direct US\$70–380 | Not measured |
+| ID | Build | Merged from | Phase | Build fee | Maint. /mo | SaaS /mo | OpEx /mo | Value a year |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | PPC pacing and performance assistant | DS-01, DS-27 | 1 | \$7,500 | \$750 | \$693–831 | \$69–174 | \$187k–213k |
+| 2 | Client brain | DS-04 | 1 | \$12,500 | \$1,250 | – | \$296–882 | \$26k–39k |
+| 3 | Business brain | DS-15 | 1 | Incl. in #2 | Incl. in #2 | Incl. in #2 | Incl. in #2 | Not measured |
+| 4 | Client Retention and Growth AI | DS-14 | 1 | \$4,500 | \$500 | – | \$56–208 | \$540k |
+| 5 | Link-building system | DS-11, DS-12, DS-07, DS-31 | 1 | \$5,750 | \$750 | \$0–69 | \$56–125 | \$35k–61k |
+| 6 | Brief drafts | DS-03 | 1 | \$1,250 | \$200 | \$0–28 | \$7–21 | \$12k–23k |
+| 7 | Onboarding audit | DS-09 | 1 | \$1,500 | \$200 | – | \$14–35 | \$88k–177k |
+| 8 | SEO monitoring | DS-22, DS-23, DS-24 | 2 | \$4,250 | Incl. in #1 | – | \$11–49 | \$123k–260k |
+| 9 | Sales handover | DS-08 | 2 | \$750 | Incl. in #2 | Incl. in #2 | Incl. in #2 | Not measured |
+| 10 | New-client dossier | DS-20 | 2 | \$200 | Incl. in #2 | Incl. in #2 | Incl. in #2 | \~\$1k |
+| 11 | Proposal and reporting deck generator | DS-05 | 2 | \$4,250 | \$350 | – | \$7–56 | \$75k–112k |
+| 12 | Team assistant | DS-06, DS-30 | 2 | \$2,500 | Incl. in #2 | Incl. in #2 | Incl. in #2 | \$15k |
+| 13 | Client comms | DS-28, DS-29 | 3 | \$2,500 | \$250 | – | \$21–90 | Incl. in #4 |
+| 14 | Forecasting | DS-25, DS-26 | 3 | \$750 | Incl. in #1 | – | \$4–21 | Not measured |
+| 15 | Market radar | DS-16, DS-32, DS-33 | 3 | \$1,350 | \$200 | \$35–104 | \$28–111 | Not measured |
+| 16 | Landing page generator | DS-18 | 4 | \$9,250 | \$850 | – | \$42–292 | \$18k–72k |
+| 17 | AI receptionist | DS-19 | 4 | \$300 | Incl. in #2 | \$136–333 | Incl. in #2 | Not measured |
+| 18 | AI creative tools | DS-21 | No build | No build | – | Paid direct | – | Not measured |
+| | **Total** | | | **\$59,100** | **\$5,300** | **\$864–1,365** | **\$610–2,062** | **\$1.12M–1.51M** |
 
-"In build N" means that cost is carried by build N.
+All prices in A\$. SaaS = software bought (Windsor.ai, SerpApi, Aircall, Make, optional link checks); OpEx = AI usage and hosting. Both are paid in US\$ and shown at A\$1 = US\$0.72. Draft – to confirm in the statement of work.
+
+### What's covered where
+
+"Incl. in #N" means that cost is paid for by build ID N.
+
+- **#3 Business brain:** built and run inside #2 Client brain. No separate fee, maintenance or running costs.
+- **#9 Sales handover, #10 New-client dossier, #12 Team assistant:** one-off build fee only. They run on #2's maintenance and AI costs.
+- **#17 AI receptionist:** one-off set-up fee plus Aircall's own subscription. Maintenance and AI costs sit under #2.
+- **#8 SEO monitoring, #14 Forecasting:** one-off build fee. Maintenance is shared with #1 PPC assistant, which they run alongside.
+- **#13 Client comms:** priced on its own, but its value is counted in #4 Client Retention and Growth AI, so it isn't added twice.
+- **#18 AI creative tools:** no build. Aperitif pays the tools directly.
 
 ## Phases
 
 - **Phase 1 – Foundations and quick wins:** PPC pacing and performance assistant, Client brain, Business brain, Client Retention and Growth AI, Link-building system, Brief drafts, Onboarding audit
-- **Phase 2 – Built on the foundations:** SEO monitoring, Sales handover, New-client dossier, Sales proposal and reporting deck generator, Team assistant
+- **Phase 2 – Built on the foundations:** SEO monitoring, Sales handover, New-client dossier, Proposal and reporting deck generator, Team assistant
 - **Phase 3 – Foresight and client updates:** Client comms, Forecasting, Market radar
 - **Phase 4 – New products and requests:** Landing page generator, AI receptionist
 - **No build:** AI creative tools – trial can start in week 1, paid directly by Aperitif.
@@ -69,9 +80,9 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 | SEO monitoring | \$123k–260k a year | Capacity: 24–50 hours a month of SEO manager time (Monday check 17–39 h, drop alerts 7–11 h) at SEO MRR per manager. | Drops caught before the client notices; wins shared mid-month, supporting retention; no skipped weekly checks. |
 | Sales handover | Not measured | Not measured – no data on time spent on handovers today. | Clients never re-asked what they told sales; delivery knows what was promised; wrong-fit deals flagged before kick-off; a better first impression. |
 | New-client dossier | \~\$1k a year | Time: 3–4 new clients × 20 minutes of Head of Client Services research at \$80/hr. | Every department starts from the same picture of the client; the team walks into the first call informed. |
-| Sales proposal and reporting deck generator | \$75k–112k a year | Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ \$69k–\$104k), plus 6–8 hours a month of proposal time at \$80/hr (≈ \$6k–\$8k). | No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales. |
+| Proposal and reporting deck generator | \$75k–112k a year | Capacity: 16–24 hours a month of review-deck time at the blended MRR per manager (≈ \$69k–\$104k), plus 6–8 hours a month of proposal time at \$80/hr (≈ \$6k–\$8k). | No duplication errors reaching clients; proposals without the founder's numbers; every proposal margin-checked, protecting pricing; faster, more consistent sales. |
 | Team assistant | \$15k a year | Time: \~16 hours a month of one specialist's email triage at \$80/hr (stated). Request chains across the team (estimate \~45 hours a month ≈ \$43k) are not counted – no measured volumes. | Nothing asked of the team gets lost; leadership sees status without chasing; everyone starts the day with one clear list. |
-| Client comms | In build 4 (retention) | Counted in Client Retention and Growth AI (build 4) – its value is retention, so it isn't counted twice. | Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land. |
+| Client comms | Incl. in #4 (retention) | Counted in Client Retention and Growth AI (build 4) – its value is retention, so it isn't counted twice. | Higher client retention and trust; clients hear proactive, informed advice through the month; dips explained before they land. |
 | Forecasting | Not measured | Not measured – no data on how many forecasts are produced today. | Better budget decisions; realistic client expectations; one method across the team instead of one person's workflow. |
 | Market radar | Not measured | Not measured – one example of manual trend checks only. | Content lands before seasonal peaks; first to react to competitors; timely ideas that support the 'bring a recommendation' goal. |
 | Landing page generator | \$18k–72k a year | New revenue: 5–10 landing pages a month (assumption – volume not yet known) sold at \$300–\$600 a page. Outsourced today at about \$1,500 a page. | A new product to sell; campaigns can launch for clients without a working site; in-house speed and control of tracking. |
@@ -84,7 +95,7 @@ Dollar value method: manager hours as capacity (hours freed ÷ \~130 productive 
 - **Windsor.ai is the data layer for paid media.** It covers every channel Aperitif runs – Google, Meta, Microsoft, LinkedIn, TikTok, Pinterest, Reddit, ChatGPT ads, Criteo and DV360 – and connects straight to the AI through its MCP connection and API, at about US\$499–598 a month. Transpera builds the pacing engine, budget register and alerts on top. Windsor's data is daily (cached up to 6 hours), so pacing catches drift by the next morning, and a 'no data arrived' check guards against silent connector failures; it is tested on Windsor's 30-day trial (10 sources, 15 accounts) against a few live accounts before committing. Options considered for this layer included all-channel pacing tools such as Adpulse, rules tools such as Bïrch (no LinkedIn) and a fully custom build; Windsor.ai is the choice.
 - **One brain, many client brains.** The client brain and business brain are one system, built together: a business layer for leadership and SOPs, and a brain for every client that every other build reads from and writes back to.
 - **Scope of the combined builds:** Client Retention and Growth AI (DS-14) tracks behaviour across the relationship, not keywords; the deck generator covers sales proposals and reporting decks; client comms is the client-facing layer on the PPC and SEO findings; forecasting is a shared skill rather than a simulator.
-- **Shared costs.** Several smaller builds are maintained inside the PPC assistant or the client brain ("In build N" in the table), so there is one fee per system.
+- **Shared costs.** Several smaller builds are maintained inside the PPC assistant or the client brain ("Incl. in #N" in the table; see What's covered where), so there is one fee per system.
 - **One value method** for every build, described under Totals.
 
 ## Open questions

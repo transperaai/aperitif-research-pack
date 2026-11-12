@@ -24,9 +24,10 @@ Plain-English meanings for the terms used in this pack.
 | **Solve now / later / Not in proposal / Reject** | The decision on each problem. Not in proposal = not solved here; each carries a short reason. |
 | **Assumed / stated** | Stated = someone gave the figure. Assumed = an estimate. Most hours in this pack are assumed. |
 | **KPI** | Key performance indicator – the number that shows whether a solution is working. |
-| **OpEx** | Ongoing running cost (licences, subscriptions) rather than the one-off build cost. |
+| **OpEx** | In the pricing: the monthly AI usage and hosting each build runs on, paid in US$ and shown in A$. Software subscriptions are listed separately as SaaS. |
 | **Build vs buy** | Whether to build a custom tool or pay for an existing one (SaaS). |
-| **SaaS** | Software as a service – a tool you subscribe to rather than build. |
+| **SaaS** | Software as a service – a tool you subscribe to rather than build. In the pricing: the software bought (Windsor.ai, SerpApi, Aircall, Make, optional link checks), paid in US$ and shown in A$. |
+| **Incl. in #N** | In the pricing: that cost is paid for by build ID N – for example, the business brain is built and run inside the client brain (#2). See "What's covered where" on the Builds page. |
 
 ## Agency terms
 
